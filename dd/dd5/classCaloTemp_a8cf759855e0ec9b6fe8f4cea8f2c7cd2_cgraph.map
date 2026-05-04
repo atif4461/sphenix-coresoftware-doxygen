@@ -1,0 +1,21 @@
+<map id="CaloTemp::getTempHist" name="CaloTemp::getTempHist">
+<area shape="rect" id="Node000001" title="Retrieve temperature histogram for specified detector and run." alt="" coords="5,203,181,231"/>
+<area shape="rect" id="Node000002" href="$da/d9c/namespaceTowerInfoDefs.html#a00c72a0d930085024ae2d7c90e9a36f0" title="Encode an EMCal tower index into a global eta‑phi key." alt="" coords="251,5,420,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,201,149,134,185,95,227,60,236,55,239,59,230,65,189,98,153,137,105,204"/>
+<area shape="rect" id="Node000003" href="$da/d9c/namespaceTowerInfoDefs.html#a2e815ce9a29173aad1d9c56f4afc9fec" title="Encode a HCAL tower index into a 32‑bit global key." alt="" coords="234,74,438,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,201,157,156,191,131,227,111,242,104,244,109,230,115,194,136,161,160,110,205"/>
+<area shape="rect" id="Node000004" href="$da/d9c/namespaceTowerInfoDefs.html#acb37f4f1b13f1761640f02c036b4506d" title="Extract eta bin from tower key." alt="" coords="231,125,441,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="143,200,240,172,241,177,145,205"/>
+<area shape="rect" id="Node000005" href="$da/d9c/namespaceTowerInfoDefs.html#af1de44c462a3a6bba5c1790021e6809c" title="Extract phi bin index from combined tower key." alt="" coords="231,195,441,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="181,214,215,214,215,220,181,220"/>
+<area shape="rect" id="Node000006" href="$d3/dcc/classODBCInterface.html#a3a43fd118c764505d0123e08dcbd4622" title="Retrieve or create an ODBC statement for the specified database." alt="" coords="229,263,443,291"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="150,229,229,249,259,256,258,262,228,254,149,234"/>
+<area shape="rect" id="Node000009" href="$d3/dcc/classODBCInterface.html#a4bde01e4611f30ac274a8f52486bf88e" title="Get singleton instance of ODBCInterface." alt="" coords="246,315,426,343"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="114,229,165,265,230,300,250,308,248,313,228,305,162,269,111,234"/>
+<area shape="rect" id="Node000010" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="251,367,421,395"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="106,229,155,289,190,323,230,352,243,359,241,363,227,357,186,327,151,293,102,233"/>
+<area shape="rect" id="Node000007" href="$d3/dcc/classODBCInterface.html#ac6cfdc87164087cf657fd9ca29d18f43" title="Retrieve or create a database connection for the specified database name." alt="" coords="491,263,729,291"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="443,274,475,274,475,280,443,280"/>
+<area shape="rect" id="Node000008" href="$d3/dcc/classODBCInterface.html#ae070c35032024be7e324924fa9e0cf86" title=" " alt="" coords="777,263,964,291"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="730,274,762,274,762,280,730,280"/>
+</map>

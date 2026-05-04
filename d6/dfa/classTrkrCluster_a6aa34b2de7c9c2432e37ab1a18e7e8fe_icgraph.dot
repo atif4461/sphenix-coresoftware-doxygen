@@ -1,0 +1,32 @@
+digraph "TrkrCluster::getEdge"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrkrCluster::getEdge",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrkrClusterv4::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/da5/classTrkrClusterv4.html#a0ca70da748448602186d4f284cd43e40",tooltip="copy content from base class"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrkrClusterv4::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/da5/classTrkrClusterv4.html#aeb05d40a09e6e677c2baa22444a2c650",tooltip="copy content from base class"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrkrClusterv5::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d06/classTrkrClusterv5.html#a72f9ef44452b7bb3c7fa482ce1cf958a",tooltip="copy content from base class"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrkrClusterv5::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d06/classTrkrClusterv5.html#ab9987da30ab28706ecb893c3cd8d98f2",tooltip="copy content from base class"];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="ClusterErrorPara::get\l_clusterv5_modified_error",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dc0/classClusterErrorPara.html#af9505cdfcb43bee14451de98118efbfd",tooltip="Compute modified cluster error for version five."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="MakeSourceLinks::getSource\lLinks",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c",tooltip="Generate source links for a given track seed and fill measurement container."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHActsGSF::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b",tooltip="Process a single event within the Fun4All framework."];
+  Node6 -> Node9 [id="edge8_Node000006_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="MakeSourceLinks::getSource\lLinksClusterMover",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d",tooltip="Generate source links for a track using the cluster mover."];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="ClusterErrorPara::tpc\l_phi_error",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dc0/classClusterErrorPara.html#a5f09be566f58b6fda1b3e4a634a8bf22",tooltip="Compute the phi error for a TPC cluster using layer, track angle and cluster attributes."];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="ClusterErrorPara::get\l_cluster_error",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dc0/classClusterErrorPara.html#a5d51576a31f3b764dd54c6d061cbd4f8",tooltip="Compute squared position errors for a given cluster."];
+  Node10 -> Node12 [id="edge11_Node000010_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="ClusterErrorPara::get\l_simple_cluster_error",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dc0/classClusterErrorPara.html#ac3c0b5f0cd3b4f39a08555c6cec6f8d9",tooltip="Compute simple error estimates for a given tracker cluster."];
+}

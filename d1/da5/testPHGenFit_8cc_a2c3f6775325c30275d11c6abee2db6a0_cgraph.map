@@ -1,0 +1,41 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Entry point for the analysis program." alt="" coords="5,402,60,430"/>
+<area shape="rect" id="Node000002" href="$d7/dd5/classPHGenFit_1_1Track.html#a3c6639bba6584ef0fd2581150947b85f" title="Add a list of GenFit measurements to the internal track representation." alt="" coords="108,244,360,272"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,400,58,343,79,310,106,283,115,277,118,282,109,287,83,314,63,345,40,402"/>
+<area shape="rect" id="Node000003" href="$df/d4d/classPHFieldUtility.html#a2a6d0bd545c3ec0d6695fd455fded86b" title="Build or build field map with a configuration object." alt="" coords="129,296,338,324"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="43,399,70,371,106,344,145,327,147,332,109,349,74,375,47,403"/>
+<area shape="rect" id="Node000013" href="$df/d4d/classPHFieldUtility.html#a5e2323118f8ce5c3d9eeb849d0fc40af" title="Create a default PHFieldConfig object using the standard field map." alt="" coords="136,359,332,403"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="60,408,120,398,121,403,61,414"/>
+<area shape="rect" id="Node000014" href="$d7/dd5/classPHGenFit_1_1Track.html#a224ea6ef8c4c5253f41009eabb05b277" title="Extrapolate the track to a specified line and obtain the measured state on that plane." alt="" coords="131,428,337,473"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="61,418,116,427,115,433,60,423"/>
+<area shape="rect" id="Node000015" href="$d1/d35/classPHGenFit_1_1Fitter.html#a0ae094389cc773308a3cf9ca98d60bdb" title="Process a PHGenFit track through the Kalman fitter." alt="" coords="143,519,324,563"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="48,428,75,455,109,483,158,510,156,514,106,487,71,459,44,432"/>
+<area shape="rect" id="Node000017" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="215,611,253,639"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="39,429,47,459,61,497,81,538,110,574,130,589,154,601,200,617,199,622,152,606,127,594,106,578,77,541,56,500,42,460,34,430"/>
+<area shape="rect" id="Node000004" href="$d9/d8c/classPHFieldConfig.html#a19be7a03d93bd0de072ecb2a5f266af4" title=" " alt="" coords="435,5,575,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="337,296,358,282,377,256,386,229,386,202,383,175,380,147,380,119,387,90,406,61,420,48,423,52,410,64,392,92,385,119,385,147,389,174,392,202,391,230,382,258,362,286,341,301"/>
+<area shape="rect" id="Node000005" href="$d9/d8c/classPHFieldConfig.html#a3d4b4a3dd29dd8ab9966fadffe7a45c4" title="field value in Tesla for uniform field model ONLY for PHFieldConfig_v2" alt="" coords="435,75,575,119"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="338,295,358,282,373,264,380,246,383,209,385,170,392,150,406,130,420,118,423,122,410,133,396,152,390,171,388,209,385,248,377,267,362,286,340,300"/>
+<area shape="rect" id="Node000006" href="$d9/d8c/classPHFieldConfig.html#a7010071243dd2dfcaf54232c2ed0a5a0" title="field value in Tesla for uniform field model ONLY for PHFieldConfig_v2" alt="" coords="435,144,575,189"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="336,294,358,282,375,263,382,242,389,221,406,199,420,190,423,194,410,203,394,223,387,244,380,265,362,286,339,298"/>
+<area shape="rect" id="Node000007" href="$d9/d8c/classPHFieldConfig.html#aa278a090f438aca3ad80081c128b5a5f" title="field value in Tesla for uniform field model ONLY for PHFieldConfig_v2" alt="" coords="435,213,575,258"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="309,293,359,281,425,261,427,266,361,286,310,298"/>
+<area shape="rect" id="Node000008" href="$d9/d8c/classPHFieldConfig.html#aff9a0370c602339f9968b6f6e35a771d" title=" " alt="" coords="435,283,575,327"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="339,306,420,304,420,309,339,311"/>
+<area shape="rect" id="Node000009" href="$d9/d8c/classPHFieldConfig.html#adb8eaabd52a93e6c99ccff741c60193c" title=" " alt="" coords="435,352,575,397"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="296,322,421,352,419,357,295,327"/>
+<area shape="rect" id="Node000010" href="$d9/d8c/classPHFieldConfig.html#aebf3d60f40704f8ad76ccb0f8a614f46" title="Identify the field configuration and print its validity status." alt="" coords="421,420,589,448"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="315,322,339,332,362,344,378,360,386,377,394,392,410,407,417,411,414,416,406,411,390,395,382,379,373,363,358,348,337,336,313,327"/>
+<area shape="rect" id="Node000012" href="$da/ddc/classPHField.html#ad7c24b839a6b0083c76f8a576a6cb005" title="verbosity" alt="" coords="436,472,575,500"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="324,322,344,332,362,344,374,359,382,373,387,403,391,431,398,444,410,458,423,467,420,471,406,462,394,447,386,433,381,404,376,375,370,362,358,348,341,336,322,327"/>
+<area shape="rect" id="Node000011" href="$d9/d24/classPHObject.html#afdeffb37963d0e2452f7d14fb76b471a" title="isValid returns non zero if object contains vailid data" alt="" coords="650,420,783,448"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="590,432,635,432,635,437,590,437"/>
+<area shape="rect" id="Node000016" href="$d7/dd5/classPHGenFit_1_1Track.html#a2501a8f863300c97e5beffec2034e1d6" title=" " alt="" coords="408,524,602,569"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="325,540,393,541,393,547,325,545"/>
+<area shape="poly" id="edge20_Node000017_Node000017" title=" " alt="" coords="213,621,197,609,195,597,208,588,234,585,256,587,270,593,274,602,268,612,264,609,269,602,266,597,255,592,234,590,210,593,199,599,201,607,216,616"/>
+<area shape="rect" id="Node000018" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="468,616,542,644"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="254,623,453,627,452,632,254,628"/>
+<area shape="poly" id="edge18_Node000018_Node000018" title=" " alt="" coords="469,617,463,608,468,598,482,592,505,590,530,592,544,599,541,604,529,597,505,595,483,597,471,602,468,607,473,615"/>
+<area shape="rect" id="Node000019" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="683,616,750,644"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="542,628,668,628,668,633,542,633"/>
+</map>

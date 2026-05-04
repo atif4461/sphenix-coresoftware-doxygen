@@ -1,0 +1,12 @@
+digraph "TrackFitUtils::line_circle_intersection"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrackFitUtils::line\l_circle_intersection",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute the intersection points between a line and a circle."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHMicromegasTpcTrackMatching\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8d/classPHMicromegasTpcTrackMatching.html#aae9c82a4df59f8b0932581e1a44ad8f9",tooltip="Process a single event, adding Micromegas clusters to existing TPC tracks."];
+}

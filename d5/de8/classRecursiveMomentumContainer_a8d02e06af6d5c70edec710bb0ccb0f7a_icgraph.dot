@@ -1,0 +1,16 @@
+digraph "RecursiveMomentumContainer::RecursiveMomentumContainer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="RecursiveMomentumContainer\l::RecursiveMomentumContainer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialize a RecursiveMomentumContainer with momentum bounds and hierarchy levels."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="RecursiveMomentumContainer\l::insert",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/de8/classRecursiveMomentumContainer.html#a7b4810e7bcbc9a92e2ebf76df3067182",tooltip="Insert a TrivialTrack into the hierarchical momentum container."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MomentumEvaluator::\lprocess_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc7/classMomentumEvaluator.html#a57a5a38c5590636286793eadcacddbad",tooltip="Process a single event within the Fun4All framework."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="RecursiveMomentumContainer\lEnd::RecursiveMomentumContainerEnd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d49/classRecursiveMomentumContainerEnd.html#a2a0aac32b7b8e3262a4e63d920432592",tooltip="Constructor for RecursiveMomentumContainerEnd initializing momentum bounds and level parameters."];
+}

@@ -1,0 +1,76 @@
+<map id="SingleMvtxPoolInput::FillPool" name="SingleMvtxPoolInput::FillPool">
+<area shape="rect" id="Node000001" title="Fill internal MVTX packet pool with events newer than given beam clock." alt="" coords="5,766,161,811"/>
+<area shape="rect" id="Node000002" href="$d7/dff/classFun4AllStreamingInputManager.html#ac943c02683746cbf89c4951483f63afe" title="Add mvtx fee id information to internal map for given bunch clock." alt="" coords="209,101,435,146"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,766,93,641,116,458,132,364,153,277,177,205,191,177,207,156,209,154,213,157,211,160,196,180,182,207,158,278,137,365,121,459,99,641,88,766"/>
+<area shape="rect" id="Node000007" href="$d7/dff/classFun4AllStreamingInputManager.html#a3a09aee9a09321d3ff677c618c3a975e" title="Add mvtx level1 trigger bunch crossing to raw hit map for given bunch clock." alt="" coords="209,170,435,215"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="84,765,96,653,120,491,137,408,157,332,180,269,207,226,209,223,213,227,211,229,185,271,162,333,142,409,125,492,101,653,89,766"/>
+<area shape="rect" id="Node000008" href="$d7/dff/classFun4AllStreamingInputManager.html#ae1f804ad9fcaf086c6e8b9d83a8c8ebc" title="Add a MvtxRawHit to the internal map keyed by bunch clock." alt="" coords="209,240,435,284"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="85,766,100,667,126,528,143,457,162,392,183,339,207,301,218,291,221,295,211,305,188,341,167,394,148,459,131,530,105,668,90,766"/>
+<area shape="rect" id="Node000009" href="$d3/dbc/classSingleStreamingInput.html#a4afd5b74dd0f970779414274c1489a8c" title=" " alt="" coords="512,290,674,335"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="85,765,99,673,125,546,141,482,161,423,182,376,207,345,228,333,257,324,331,312,416,307,497,307,497,312,416,312,332,317,258,329,230,338,210,349,187,379,166,425,146,483,130,547,104,674,90,766"/>
+<area shape="rect" id="Node000010" href="$d2/dff/namespaceMvtxRawDefs.html#a2fa3d71babe42f6dad04f21f4623c865" title="Decode fee identifier into link identifier components." alt="" coords="238,498,406,543"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="88,765,102,720,126,663,161,604,182,577,207,553,223,542,226,547,210,557,186,581,165,607,131,666,107,722,93,766"/>
+<area shape="rect" id="Node000011" href="$d3/dbc/classSingleStreamingInput.html#aa5bc32a277c473c828955316b5f6d958" title="Close the current input file and clean up iterator." alt="" coords="241,429,402,474"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="84,765,95,709,116,633,132,593,152,553,177,516,207,484,226,470,229,475,210,488,181,520,157,556,137,595,121,635,100,710,90,766"/>
+<area shape="rect" id="Node000015" href="$d5/d28/classmvtx__pool.html#a6c26d632397f788c8b005824a7a71b00" title="Retrieve the fee identifier at the specified index." alt="" coords="242,567,402,594"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="91,764,108,729,133,685,166,642,207,605,226,594,229,599,210,609,170,645,137,688,113,731,96,767"/>
+<area shape="rect" id="Node000016" href="$d5/d28/classmvtx__pool.html#ac85cc1e2f743e11afbc2c81a92f61873" title="retrieve number of fee identifiers in the current MVTX pool" alt="" coords="215,619,428,646"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="98,764,142,710,173,681,207,657,221,650,224,655,210,661,176,685,146,714,102,768"/>
+<area shape="rect" id="Node000017" href="$d5/d28/classmvtx__pool.html#a1de48b47ea34c048ef75db4266e72c91" title="Retrieve reference to hit vector for given fee identifier and strobe index." alt="" coords="247,671,397,698"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="113,764,157,735,208,709,231,700,233,705,210,714,159,740,116,768"/>
+<area shape="rect" id="Node000018" href="$d5/d28/classmvtx__pool.html#a19ae0bb06c00f3bd062d6c4e59292b6e" title="Retrieve L1 trigger orbit number for given link and index." alt="" coords="224,723,420,750"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="160,769,240,752,241,757,162,774"/>
+<area shape="rect" id="Node000019" href="$d5/d28/classmvtx__pool.html#ae8583d74427088cc8f2581a24ea93809" title="Return size of trigger data set for specified link." alt="" coords="219,775,424,802"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="161,786,204,786,204,791,161,791"/>
+<area shape="rect" id="Node000020" href="$d5/d28/classmvtx__pool.html#ad0399a226d426b200f574e231f6c1427" title="Retrieve detector field value from trigger data for a given link and index." alt="" coords="245,826,398,871"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="162,805,231,823,229,828,160,811"/>
+<area shape="rect" id="Node000021" href="$d5/d28/classmvtx__pool.html#a3cd060c6f08386c4b66dfb304d096624" title="Retrieve BC value from trigger IR data for given link and index." alt="" coords="245,896,398,940"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="110,809,155,846,210,881,232,891,230,896,207,886,152,850,107,813"/>
+<area shape="rect" id="Node000022" href="$d5/d28/classmvtx__pool.html#a0ef732edb02e57b03962c30a9f159e35" title="Retrieve orbit number from trigger data for specified link and index." alt="" coords="245,965,398,1010"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="98,810,141,879,173,918,210,950,232,963,229,967,207,955,169,921,137,883,93,813"/>
+<area shape="rect" id="Node000023" href="$d5/d28/classmvtx__pool.html#a254d5e22c3d5fededefdd69d874681f7" title="Retrieve number of trigger hits for a given link and index." alt="" coords="245,1034,398,1079"/>
+<area shape="poly" id="edge24_Node000001_Node000023" title=" " alt="" coords="93,811,107,855,131,911,165,970,186,996,210,1020,232,1034,230,1038,207,1024,182,1000,161,973,126,914,102,857,88,812"/>
+<area shape="rect" id="Node000024" href="$d5/d28/classmvtx__pool.html#ae32169f501d54ac188986d6816f290ba" title="Retrieve the size of the L1 trigger time vector for a given link." alt="" coords="223,1103,421,1130"/>
+<area shape="poly" id="edge25_Node000001_Node000024" title=" " alt="" coords="89,811,99,868,120,943,135,983,155,1022,180,1058,210,1089,214,1092,211,1096,207,1093,176,1062,151,1025,130,986,114,945,94,869,84,812"/>
+<area shape="rect" id="Node000025" href="$d3/dbc/classSingleStreamingInput.html#a28e46f74fceea67c8f90abacc5d934f5" title=" " alt="" coords="241,1154,402,1199"/>
+<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="88,811,96,875,115,964,131,1011,151,1058,178,1102,210,1140,229,1153,226,1158,207,1144,173,1105,147,1061,126,1013,110,965,90,876,83,812"/>
+<area shape="rect" id="Node000026" href="$da/dc8/classSingleMvtxPoolInput.html#a3b628e9a5ccf3667af289af796419a96" title="Determine if additional events should be retrieved from the MVTX pool." alt="" coords="239,360,405,404"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="82,765,89,697,107,603,123,553,145,503,172,456,207,415,223,402,227,406,211,418,176,459,149,505,128,555,113,605,94,698,88,766"/>
+<area shape="rect" id="Node000028" href="$d2/d8a/classInputFileHandler.html#a60db005eca23d42b7e02e6c47af90095" title=" " alt="" coords="483,1221,703,1249"/>
+<area shape="poly" id="edge31_Node000001_Node000028" title=" " alt="" coords="90,811,105,900,131,1021,148,1082,167,1137,188,1181,210,1209,228,1219,253,1227,317,1237,392,1240,467,1240,467,1245,392,1246,316,1242,251,1232,226,1224,207,1213,183,1184,162,1139,142,1084,126,1023,100,901,85,812"/>
+<area shape="rect" id="Node000029" href="$d2/d8a/classInputFileHandler.html#acf665524602bc5f8cc2398bfd26121ae" title="Open the next file in the internal file list." alt="" coords="210,1273,434,1301"/>
+<area shape="poly" id="edge32_Node000001_Node000029" title=" " alt="" coords="90,811,105,907,131,1040,148,1108,167,1169,188,1220,211,1253,223,1264,220,1268,207,1257,183,1222,162,1171,143,1109,126,1041,100,908,85,812"/>
+<area shape="rect" id="Node000033" href="$d3/dbc/classSingleStreamingInput.html#a2795ed4ee7c1fee1b1c1ec1e712895b2" title=" " alt="" coords="241,1325,402,1370"/>
+<area shape="poly" id="edge37_Node000001_Node000033" title=" " alt="" coords="89,811,103,916,128,1067,144,1144,164,1214,186,1272,211,1311,229,1325,225,1329,207,1314,181,1274,159,1216,139,1145,122,1068,97,917,84,811"/>
+<area shape="rect" id="Node000034" href="$d3/dbc/classSingleStreamingInput.html#a239cc931094cba18549ad0b5289338e1" title=" " alt="" coords="229,1394,415,1439"/>
+<area shape="poly" id="edge38_Node000001_Node000034" title=" " alt="" coords="89,811,100,929,123,1100,140,1188,160,1269,183,1335,197,1361,211,1380,218,1387,214,1391,207,1384,192,1364,179,1337,155,1271,135,1190,118,1101,95,930,83,811"/>
+<area shape="rect" id="Node000035" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="237,1463,407,1490"/>
+<area shape="poly" id="edge39_Node000001_Node000035" title=" " alt="" coords="88,811,97,943,117,1135,134,1235,154,1325,180,1400,195,1428,211,1449,225,1460,221,1464,207,1453,190,1431,175,1402,149,1327,128,1236,112,1136,91,943,83,812"/>
+<area shape="rect" id="Node000003" href="$d0/d24/classMvtxFeeIdInfo.html#a0eb1cd3bbac708ce4ebe4879301732a6" title=" " alt="" coords="507,5,679,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,98,418,69,482,42,504,35,506,40,484,47,420,74,364,103"/>
+<area shape="rect" id="Node000004" href="$d0/d24/classMvtxFeeIdInfo.html#abc51aa3342568464e69ff09fd8c8a419" title=" " alt="" coords="522,57,664,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="435,102,507,90,508,96,436,107"/>
+<area shape="rect" id="Node000005" href="$d0/d24/classMvtxFeeIdInfo.html#a1960c2a935fb512c4c76eab0e7810712" title=" " alt="" coords="522,126,664,171"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="436,131,507,138,506,143,435,136"/>
+<area shape="rect" id="Node000006" href="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="514,196,673,240"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="404,144,436,155,484,181,501,187,499,192,482,186,434,160,402,149"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="436,200,498,206,498,212,435,206"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="435,241,497,231,498,236,436,246"/>
+<area shape="rect" id="Node000012" href="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef" title=" " alt="" coords="502,480,684,508"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="403,461,487,475,487,480,403,466"/>
+<area shape="rect" id="Node000013" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="519,428,667,456"/>
+<area shape="poly" id="edge14_Node000011_Node000013" title=" " alt="" coords="403,446,504,442,504,448,403,451"/>
+<area shape="rect" id="Node000014" href="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb" title="Update internal file list handling repeat logic." alt="" coords="502,532,685,576"/>
+<area shape="poly" id="edge15_Node000011_Node000014" title=" " alt="" coords="404,470,436,483,461,500,484,517,498,523,495,528,482,521,457,505,434,488,402,475"/>
+<area shape="poly" id="edge28_Node000026_Node000009" title=" " alt="" coords="405,358,496,334,498,340,406,363"/>
+<area shape="poly" id="edge30_Node000026_Node000013" title=" " alt="" coords="406,398,513,422,512,427,405,403"/>
+<area shape="rect" id="Node000027" href="$d3/dbc/classSingleStreamingInput.html#a830ddea13afd553b035f11e68258daac" title=" " alt="" coords="512,360,674,404"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="406,379,497,379,497,384,406,384"/>
+<area shape="poly" id="edge35_Node000029_Node000028" title=" " alt="" coords="397,1270,502,1250,503,1255,399,1275"/>
+<area shape="rect" id="Node000030" href="$d2/d8a/classInputFileHandler.html#a1cee3f2baa09932712f151fc0ba67db7" title="Open input file for reading." alt="" coords="499,1273,687,1301"/>
+<area shape="poly" id="edge33_Node000029_Node000030" title=" " alt="" coords="434,1284,483,1284,483,1290,434,1290"/>
+<area shape="rect" id="Node000031" href="$d2/d8a/classInputFileHandler.html#a0ef1f262db98136850cc1ad3be18a14d" title=" " alt="" coords="486,1325,700,1370"/>
+<area shape="poly" id="edge34_Node000029_Node000031" title=" " alt="" coords="388,1299,475,1318,473,1323,387,1304"/>
+<area shape="rect" id="Node000032" href="$d2/d8a/classInputFileHandler.html#a811c67eb19cef0fba2d7c38b446d7955" title="Execute optional script before opening the input file." alt="" coords="491,1394,695,1439"/>
+<area shape="poly" id="edge36_Node000029_Node000032" title=" " alt="" coords="415,1299,437,1310,454,1328,462,1346,469,1363,485,1380,491,1384,488,1388,481,1384,465,1366,457,1348,449,1331,433,1315,413,1304"/>
+</map>

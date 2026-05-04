@@ -1,0 +1,15 @@
+<map id="SingleTriggeredInput::GetClock" name="SingleTriggeredInput::GetClock">
+<area shape="rect" id="Node000001" title="Retrieve CLOCK value from packet identified by pid in given event." alt="" coords="634,120,789,165"/>
+<area shape="rect" id="Node000002" href="$df/d97/classSingleTriggeredInput.html#af42d4e089c34ff2184142ba44a296c4c" title="Fill internal clock and clock‑difference arrays for a given packet." alt="" coords="432,60,586,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="619,118,586,108,587,103,620,113"/>
+<area shape="rect" id="Node000005" href="$df/d97/classSingleTriggeredInput.html#a507f0a733e9688979a5887766aa431f2" title="Fill the event pool for a SingleTriggeredInput instance." alt="" coords="16,75,171,119"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="619,138,171,105,171,100,619,133"/>
+<area shape="rect" id="Node000006" href="$df/d97/classSingleTriggeredInput.html#a617b09bc49f3d673b0e004601b54f02c" title="Reads next event from packet deques and assembles calo packets." alt="" coords="432,180,586,225"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="620,172,587,182,586,177,619,167"/>
+<area shape="rect" id="Node000003" href="$df/d97/classSingleTriggeredInput.html#a7f5fbe72af4271a3d227839758de7fe1" title="Fill event vector with synchronized data events from input files." alt="" coords="230,9,384,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,62,383,53,385,48,418,57"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="416,88,171,97,171,92,416,83"/>
+<area shape="rect" id="Node000004" href="$d5/da4/classSingleGl1TriggeredInput.html#a121a71e126cb86f80b0a7455c61d3a1d" title="FillPool populates the event vector if there are remaining input files and not all events have been p..." alt="" coords="5,5,182,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="214,33,182,32,182,27,214,27"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="218,62,170,77,168,72,216,56"/>
+</map>

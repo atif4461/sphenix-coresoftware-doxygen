@@ -1,0 +1,15 @@
+<map id="TpcRawHitContainer::get_hit" name="TpcRawHitContainer::get_hit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="284,165,438,210"/>
+<area shape="rect" id="Node000002" href="$d6/d74/classBcoRangeCheck.html#a2a3af41ee6eae5751bdd2bbdafd2b612" title="Process event and verify BCO ranges for GL1, INTT, MVTX, TPC, and Micromegas raw hit containers." alt="" coords="28,5,213,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,155,289,108,263,85,234,65,211,53,213,48,237,60,266,80,293,104,335,151"/>
+<area shape="rect" id="Node000003" href="$d1/d8a/classStreamingCheck.html#a055d2f95c6ac9ab8ba2f6b49f83561b9" title="Process a single event and verify BCO consistency between GL1 and subdetector raw hits." alt="" coords="27,75,214,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="298,161,235,134,201,122,203,117,237,129,300,156"/>
+<area shape="rect" id="Node000004" href="$d7/db3/classTpcCheck.html#af2f0f0c46f0b5f6c78e6f4cadb734391" title="Process a single event checking TPC raw hit BCO consistency." alt="" coords="27,143,214,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="268,179,214,172,214,166,269,173"/>
+<area shape="rect" id="Node000005" href="$d2/d1a/classTpcCombinedRawDataUnpacker.html#a8e6a15ecbd82563278cdb842c8426a92" title="Process a single event from the node tree." alt="" coords="5,195,236,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="269,202,236,206,236,200,268,196"/>
+<area shape="rect" id="Node000006" href="$dd/dc4/classTpcCombinedRawDataUnpackerDebug.html#a5f20b1491f0026ece1a2997e917e4c1b" title="Process event for TpcCombinedRawDataUnpackerDebug." alt="" coords="5,264,236,309"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="308,220,237,254,204,266,202,261,235,249,306,215"/>
+<area shape="rect" id="Node000007" href="$dc/dea/classDumpTpcRawHitContainer.html#a684919fa312fae21233f3f4facad652e" title="Process a PHNode containing a TpcRawHitContainer and dump its contents to the output stream." alt="" coords="24,333,217,378"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="337,224,294,275,267,301,237,323,214,335,211,331,234,319,264,297,291,272,333,221"/>
+</map>

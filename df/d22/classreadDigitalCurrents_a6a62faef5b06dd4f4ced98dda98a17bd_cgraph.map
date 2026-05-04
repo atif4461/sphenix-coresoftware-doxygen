@@ -1,0 +1,65 @@
+<map id="readDigitalCurrents::process_event" name="readDigitalCurrents::process_event">
+<area shape="rect" id="Node000001" title="Process a single event within the Fun4All framework." alt="" coords="5,560,154,605"/>
+<area shape="rect" id="Node000002" href="$d9/d82/classPHG4TpcCylinderGeom.html#ae9899c2f3cd93e37c6d74f99726fef90" title="Return the number of phi bins for the TPC cylinder geometry." alt="" coords="234,144,408,189"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,560,83,490,100,393,116,341,137,290,164,242,200,199,219,185,222,189,204,203,169,245,142,292,121,343,106,395,89,491,84,560"/>
+<area shape="rect" id="Node000005" href="$d9/d85/classPHG4CylinderCellGeom.html#a39dfdf46297ba65cc253facbea376df3" title="Compute the phi coordinate of the cell centre for a given phi bin." alt="" coords="233,5,408,50"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="80,559,93,454,117,304,133,228,152,158,174,100,200,61,218,46,221,50,204,64,179,103,157,159,138,229,122,305,98,454,86,560"/>
+<area shape="rect" id="Node000008" href="$d9/d82/classPHG4TpcCylinderGeom.html#a9a3418e6c646ddb6fc9a4795e422faf0" title="Return azimuthal center of a TPC pad bin for a given side." alt="" coords="234,352,408,397"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="88,558,105,525,130,484,161,442,200,407,219,396,222,400,203,411,165,446,134,487,110,527,93,561"/>
+<area shape="rect" id="Node000009" href="$d9/d85/classPHG4CylinderCellGeom.html#a65b23979dfc399df570d16b6d9e9c608" title=" " alt="" coords="233,213,408,258"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="80,559,89,501,109,423,125,381,145,340,170,302,200,268,218,255,221,260,203,272,174,305,149,343,130,383,114,425,94,502,86,560"/>
+<area shape="rect" id="Node000010" href="$d9/d82/classPHG4TpcCylinderGeom.html#a7209bf17262ac16657974cd025cb98cd" title=" " alt="" coords="234,283,408,327"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="83,559,96,512,119,453,153,391,175,363,200,338,219,325,222,329,203,342,179,366,157,394,124,455,101,514,88,560"/>
+<area shape="rect" id="Node000011" href="$d9/d85/classPHG4CylinderCellGeom.html#a9b1c6e28876bd3a3bc7e9904afc27c6e" title="Return z coordinate of cell centre for given bin index." alt="" coords="233,75,408,119"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="81,559,96,466,121,338,138,272,156,213,177,164,200,130,217,116,221,120,204,133,182,166,161,215,143,274,127,339,101,467,87,560"/>
+<area shape="rect" id="Node000013" href="$d9/d82/classPHG4TpcCylinderGeom.html#ae09943cf5ebc26af739627d0fcef2b68" title="Return the z coordinate of the center of the specified bin." alt="" coords="234,421,408,466"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="100,558,143,516,200,476,219,467,221,472,203,481,147,520,103,562"/>
+<area shape="rect" id="Node000015" href="$da/d9b/classTrkrHit.html#a623f329acf0ebcc9d53dff5cecd90b6e" title=" " alt="" coords="262,490,380,518"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="127,557,201,528,246,515,248,520,203,533,129,562"/>
+<area shape="rect" id="Node000016" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="249,542,392,570"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="153,572,233,563,234,568,154,577"/>
+<area shape="rect" id="Node000022" href="$da/d9b/classTrkrHit.html#a303657b941583484a800e80a96eebe0f" title=" " alt="" coords="252,594,390,622"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="154,587,236,596,236,601,153,593"/>
+<area shape="rect" id="Node000023" href="$d5/d76/classTrkrHitSetContainer.html#a6cd3ae7cd01487095313ecba1a331971" title="return all HitSets matching a given detid" alt="" coords="247,645,395,690"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="133,603,203,630,233,641,231,646,201,636,131,608"/>
+<area shape="rect" id="Node000024" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="251,714,391,742"/>
+<area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="99,604,143,653,171,679,203,700,237,713,235,718,200,705,168,683,139,657,95,607"/>
+<area shape="rect" id="Node000025" href="$d2/ddb/classPHG4CylinderCellGeomContainer.html#aa667a12262dc298b8aec717e6096d09f" title="Retrieve pointer to cylinder cell geometry for specified layer." alt="" coords="202,765,440,810"/>
+<area shape="poly" id="edge28_Node000001_Node000025" title=" " alt="" coords="93,604,110,637,134,676,166,717,203,751,210,756,207,760,200,755,162,720,130,679,105,639,88,606"/>
+<area shape="rect" id="Node000026" href="$d2/d67/classPHG4TpcCylinderGeomContainer.html#a43bf6b8da6ba9b4ed80e09802de3d2ac" title="Retrieve geometry object for a given TPC cylinder layer." alt="" coords="203,835,439,879"/>
+<area shape="poly" id="edge29_Node000001_Node000026" title=" " alt="" coords="88,605,102,650,124,709,158,769,179,796,203,820,208,824,205,828,200,824,175,800,153,772,119,711,96,652,83,606"/>
+<area shape="rect" id="Node000027" href="$d7/db0/namespaceTpcDefs.html#a5009e86d9bf74a453e860b3650aac4d4" title="Get the pad index from hitkey." alt="" coords="258,903,384,931"/>
+<area shape="poly" id="edge30_Node000001_Node000027" title=" " alt="" coords="85,605,94,663,113,741,128,781,148,821,173,858,203,890,222,902,244,909,242,914,220,906,200,894,169,861,144,824,123,784,108,742,88,664,80,606"/>
+<area shape="rect" id="Node000028" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="255,955,386,983"/>
+<area shape="poly" id="edge31_Node000001_Node000028" title=" " alt="" coords="84,605,89,671,107,762,122,811,142,858,169,902,203,940,221,952,241,960,239,965,218,957,200,944,165,906,138,861,117,813,101,763,84,672,79,605"/>
+<area shape="rect" id="Node000029" href="$d7/db0/namespaceTpcDefs.html#a3ec8638cf9427c7955840853dbd96383" title="Get the time bin from hitkey." alt="" coords="255,1007,387,1035"/>
+<area shape="poly" id="edge32_Node000001_Node000029" title=" " alt="" coords="83,605,85,680,90,730,100,785,115,841,136,897,166,948,203,992,221,1004,241,1012,239,1017,218,1009,200,996,161,951,132,899,110,843,95,786,85,731,80,680,77,605"/>
+<area shape="rect" id="Node000030" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="251,1059,391,1087"/>
+<area shape="poly" id="edge33_Node000001_Node000030" title=" " alt="" coords="86,605,100,700,125,833,141,901,160,962,181,1011,204,1044,219,1056,237,1064,235,1069,216,1060,200,1048,176,1014,155,964,136,902,120,834,95,701,81,606"/>
+<area shape="rect" id="Node000003" href="$d9/d82/classPHG4TpcCylinderGeom.html#a78c2f8db3e176ba3f63336a0d52e6940" title="Verify that the phi binning method matches one of the supported schemes." alt="" coords="488,352,694,397"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="409,183,441,199,482,230,517,267,570,337,566,340,513,270,478,234,439,203,407,188"/>
+<area shape="rect" id="Node000004" href="$d9/d82/classPHG4TpcCylinderGeom.html#a63a0a56e70f16cf9eabe078df3df95b0" title="Returns a description string for a given binning identifier." alt="" coords="770,372,944,417"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="695,379,755,384,755,389,694,385"/>
+<area shape="rect" id="Node000006" href="$d9/d85/classPHG4CylinderCellGeom.html#a8d6fca85590643e4dc60aa92a475fc73" title="Verify that the current binning method is compatible with phi‑related geometry." alt="" coords="488,5,694,50"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="409,25,472,25,472,30,409,30"/>
+<area shape="rect" id="Node000007" href="$d9/d85/classPHG4CylinderCellGeom.html#aff0dcd2f7eb1c702afb27a58abed9b16" title="Return a human readable description for a given binning identifier." alt="" coords="769,40,945,85"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="695,38,755,46,754,52,694,44"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="408,372,473,372,473,377,408,377"/>
+<area shape="rect" id="Node000012" href="$d9/d85/classPHG4CylinderCellGeom.html#ac152d42823231f46df12989518d763b1" title="Verify that the current binning method matches the requested method." alt="" coords="502,75,681,119"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="409,94,486,94,486,100,409,100"/>
+<area shape="poly" id="edge13_Node000012_Node000007" title=" " alt="" coords="681,83,754,73,754,78,682,88"/>
+<area shape="rect" id="Node000014" href="$d9/d82/classPHG4TpcCylinderGeom.html#a8e224cd2cc6eb38c91638110f2635930" title="Verify that the provided binning method matches the stored binning." alt="" coords="502,421,681,466"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="408,441,486,441,486,446,408,446"/>
+<area shape="poly" id="edge16_Node000014_Node000004" title=" " alt="" coords="681,424,755,411,756,416,682,430"/>
+<area shape="rect" id="Node000017" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="500,527,682,555"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="393,549,485,544,485,549,393,554"/>
+<area shape="rect" id="Node000021" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="509,579,673,607"/>
+<area shape="poly" id="edge24_Node000016_Node000021" title=" " alt="" coords="393,563,494,577,493,582,392,568"/>
+<area shape="poly" id="edge20_Node000017_Node000017" title=" " alt="" coords="546,528,539,518,545,508,562,503,591,501,622,503,639,509,637,514,621,508,591,506,563,508,548,513,544,518,550,525"/>
+<area shape="rect" id="Node000018" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="786,579,928,607"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="666,553,772,574,771,579,665,558"/>
+<area shape="rect" id="Node000019" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="791,475,923,503"/>
+<area shape="poly" id="edge22_Node000017_Node000019" title=" " alt="" coords="665,524,775,502,776,507,666,529"/>
+<area shape="rect" id="Node000020" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="742,527,972,555"/>
+<area shape="poly" id="edge23_Node000017_Node000020" title=" " alt="" coords="682,538,727,538,727,544,682,544"/>
+</map>

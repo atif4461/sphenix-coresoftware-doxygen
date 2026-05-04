@@ -1,0 +1,83 @@
+<map id="PHSiliconHelicalPropagator::process_event" name="PHSiliconHelicalPropagator::process_event">
+<area shape="rect" id="Node000001" title="Process event for silicon helical propagator." alt="" coords="5,816,204,860"/>
+<area shape="rect" id="Node000002" href="$de/d94/namespaceTrackFitUtils.html#af753ce36e7576ea5a7307daaba37f812" title="Project TPC fit parameters to silicon layers and associate nearest silicon clusters within a distance..." alt="" coords="253,433,440,461"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,814,326,473,331,476,122,817"/>
+<area shape="rect" id="Node000016" href="$de/d94/namespaceTrackFitUtils.html#a2f4c50b397295adf97e68f232c492251" title="Add clusters that lie within a distance cut from a fitted line." alt="" coords="253,356,440,400"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="105,815,115,741,139,637,158,580,182,523,212,469,250,420,265,407,268,411,254,424,217,472,187,525,163,582,144,638,121,742,110,815"/>
+<area shape="rect" id="Node000017" href="$dc/d80/classTrackSeed.html#a513e9904f6837460a7b561d8348c3e13" title="Return a const iterator positioned at the end of the dummy cluster key set." alt="" coords="498,771,717,798"/>
+<area shape="poly" id="edge24_Node000001_Node000017" title=" " alt="" coords="204,822,251,817,481,793,482,798,252,822,205,827"/>
+<area shape="rect" id="Node000018" href="$d9/d67/namespaceTrackSeedHelper.html#a747183c5992dac5b4543a352dab51a9d" title="Fit a circular trajectory to seed clusters using the Taubin algorithm." alt="" coords="252,705,441,750"/>
+<area shape="poly" id="edge25_Node000001_Node000018" title=" " alt="" coords="152,813,251,766,278,754,280,758,253,771,154,817"/>
+<area shape="rect" id="Node000020" href="$dc/d80/classTrackSeed.html#ad32517668fd228928ed69c331c92daa5" title="Return a constant iterator to the end of the cluster key set." alt="" coords="504,823,711,850"/>
+<area shape="poly" id="edge33_Node000001_Node000020" title=" " alt="" coords="204,835,488,834,488,839,204,840"/>
+<area shape="rect" id="Node000024" href="$de/d94/namespaceTrackFitUtils.html#ad145b94b8f8645f0c955aa083c456e7e" title="Fit clusters to helical parameters." alt="" coords="259,956,434,984"/>
+<area shape="poly" id="edge34_Node000001_Node000024" title=" " alt="" coords="149,858,307,946,305,951,146,863"/>
+<area shape="rect" id="Node000025" href="$de/d94/namespaceTrackFitUtils.html#ab6471f5f4cdcf5bdcaaaca83504ac04e" title="line_fit" alt="" coords="530,1097,684,1125"/>
+<area shape="poly" id="edge42_Node000001_Node000025" title=" " alt="" coords="117,859,136,900,165,951,204,1003,228,1026,253,1045,299,1063,366,1079,515,1100,514,1105,365,1084,297,1069,250,1049,224,1030,200,1006,161,954,131,903,112,862"/>
+<area shape="rect" id="Node000026" href="$de/d94/namespaceTrackFitUtils.html#a80236215f3f3c91e6f53316689959235" title="Retrieve global positions of clusters belonging to a tracklet." alt="" coords="256,286,437,331"/>
+<area shape="poly" id="edge38_Node000001_Node000026" title=" " alt="" coords="103,815,108,729,115,669,127,603,145,533,171,465,205,399,250,341,252,339,256,343,254,345,210,402,176,467,150,535,132,604,120,670,113,729,108,815"/>
+<area shape="rect" id="Node000027" href="$dc/d80/classTrackSeed.html#a1ec866c8d6f0a918d54560091d2cb93b" title=" " alt="" coords="274,1008,418,1036"/>
+<area shape="poly" id="edge41_Node000001_Node000027" title=" " alt="" coords="123,859,175,926,212,962,253,993,265,999,263,1004,250,997,208,966,172,929,119,862"/>
+<area shape="rect" id="Node000028" href="$d9/d67/namespaceTrackSeedHelper.html#ad44f25a52963cea292ceab331cabceeb" title="Fit a straight line to the seed clusters in r‑z and store the result." alt="" coords="257,875,436,902"/>
+<area shape="poly" id="edge43_Node000001_Node000028" title=" " alt="" coords="205,856,263,868,261,874,204,861"/>
+<area shape="rect" id="Node000031" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="261,1109,432,1137"/>
+<area shape="poly" id="edge50_Node000001_Node000031" title=" " alt="" coords="115,860,133,908,162,969,202,1034,226,1063,253,1089,270,1100,267,1105,250,1093,222,1067,197,1037,157,972,128,910,110,862"/>
+<area shape="rect" id="Node000003" href="$d0/d2c/classTrkrClusterContainer.html#a2e07352ae628a96f29c37cd2789c60b6" title="find cluster matching given key" alt="" coords="530,286,684,331"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,430,439,410,454,394,462,376,471,359,487,341,514,326,517,331,491,345,475,362,467,379,459,397,443,415,405,435"/>
+<area shape="rect" id="Node000004" href="$de/d94/namespaceTrackFitUtils.html#a658e12e92cdbbbce26e223cae09af074" title="Compute the point of closest approach of a helix to a global point." alt="" coords="542,494,672,539"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="402,459,528,493,526,498,400,464"/>
+<area shape="rect" id="Node000007" href="$d0/d2c/classTrkrClusterContainer.html#a215578d924bc424052cbff4b813522b1" title="return all clusters" alt="" coords="530,425,684,470"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="440,444,515,444,515,450,440,450"/>
+<area shape="rect" id="Node000008" href="$d3/d64/classActsGeometry.html#a81e1d6479636cdf2b22d2acc993d7ff1" title="Compute global position of a tracker cluster using Acts geometry." alt="" coords="489,184,725,212"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="409,431,439,411,452,394,460,378,464,345,468,310,475,291,487,272,520,240,557,217,560,221,523,245,491,276,480,294,474,311,470,345,465,379,457,397,443,414,411,435"/>
+<area shape="rect" id="Node000014" href="$d0/d2c/classTrkrClusterContainer.html#a8283a43f056cd2b63a08966b45c75ebd" title="get hitset key list" alt="" coords="530,356,684,400"/>
+<area shape="poly" id="edge15_Node000002_Node000014" title=" " alt="" coords="400,430,514,400,515,405,402,435"/>
+<area shape="rect" id="Node000015" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="537,563,677,590"/>
+<area shape="poly" id="edge16_Node000002_Node000015" title=" " alt="" coords="364,459,417,504,452,528,490,549,523,560,521,565,488,554,450,533,414,508,361,463"/>
+<area shape="rect" id="Node000005" href="$de/d94/namespaceTrackFitUtils.html#ace12678e4df927da3d37405578917cf2" title="Compute the point of closest approach of a global position to a circle." alt="" coords="836,460,970,504"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="673,506,821,489,822,494,673,512"/>
+<area shape="rect" id="Node000006" href="$de/d94/namespaceTrackFitUtils.html#ae9c506cdfc025d5327b295a9aabd62cb" title="Compute point of closest approach of a global point to a straight line defined by a reference positio..." alt="" coords="811,529,995,574"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="673,521,796,536,796,541,673,527"/>
+<area shape="rect" id="Node000009" href="$d3/d64/classActsGeometry.html#abe7b8fadd95687eab97782238c1272ed" title="Compute global position of a TPC cluster." alt="" coords="773,29,1033,57"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="620,182,682,126,725,94,772,67,792,60,794,65,774,72,728,98,685,130,624,186"/>
+<area shape="rect" id="Node000011" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="1121,209,1262,237"/>
+<area shape="poly" id="edge14_Node000008_Node000011" title=" " alt="" coords="726,200,1106,217,1106,222,726,206"/>
+<area shape="rect" id="Node000012" href="$d6/dfa/classTrkrCluster.html#aee7d1557cd0cf5b0969ec7075639c277" title=" " alt="" coords="821,81,985,109"/>
+<area shape="poly" id="edge12_Node000008_Node000012" title=" " alt="" coords="633,181,696,150,772,119,805,110,807,115,774,124,698,155,636,186"/>
+<area shape="rect" id="Node000013" href="$d6/dfa/classTrkrCluster.html#a3ceb9dc71d12147d8d24eb9c6cbc861f" title=" " alt="" coords="822,133,984,161"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="692,181,806,161,807,166,693,186"/>
+<area shape="rect" id="Node000010" href="$d3/d64/classActsGeometry.html#af35c92c361420b21bd649be83205f5ba" title="Retrieve local detector coordinates for a given cluster key and cluster object." alt="" coords="1081,29,1302,57"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1033,40,1065,40,1065,46,1033,46"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="1004,55,1034,67,1077,96,1116,130,1173,195,1169,199,1112,134,1074,100,1031,72,1002,60"/>
+<area shape="poly" id="edge10_Node000010_Node000010" title=" " alt="" coords="1143,31,1135,20,1141,11,1160,5,1191,3,1226,5,1244,12,1242,17,1224,10,1191,8,1161,10,1144,15,1140,20,1147,27"/>
+<area shape="poly" id="edge18_Node000016_Node000003" title=" " alt="" coords="433,352,514,330,516,335,434,357"/>
+<area shape="poly" id="edge19_Node000016_Node000007" title=" " alt="" coords="434,398,516,420,514,425,433,403"/>
+<area shape="poly" id="edge20_Node000016_Node000008" title=" " alt="" coords="424,353,439,341,450,328,457,314,462,285,467,257,475,242,487,228,503,217,506,221,491,232,479,245,472,258,467,286,462,315,455,330,443,345,427,357"/>
+<area shape="poly" id="edge23_Node000016_Node000011" title=" " alt="" coords="421,353,439,341,454,324,461,306,470,288,488,272,523,261,583,252,751,237,1106,223,1106,228,752,243,583,257,524,266,490,276,474,291,466,308,459,327,443,345,424,357"/>
+<area shape="poly" id="edge21_Node000016_Node000014" title=" " alt="" coords="440,375,515,375,515,380,440,380"/>
+<area shape="poly" id="edge22_Node000016_Node000015" title=" " alt="" coords="415,399,443,420,455,437,462,455,466,488,470,520,478,534,491,549,506,559,523,567,521,572,503,564,487,553,473,537,465,521,461,489,457,456,451,440,439,424,412,403"/>
+<area shape="poly" id="edge29_Node000018_Node000015" title=" " alt="" coords="365,703,417,651,451,624,488,601,521,588,523,593,490,606,454,628,420,655,369,707"/>
+<area shape="poly" id="edge26_Node000018_Node000017" title=" " alt="" coords="442,745,526,764,525,769,441,751"/>
+<area shape="rect" id="Node000019" href="$de/d94/namespaceTrackFitUtils.html#a1fc66cec7006835f80cb395bb4731d67" title="Fit a circle to a set of 2D points using the Taubin algebraic method." alt="" coords="535,978,679,1023"/>
+<area shape="poly" id="edge27_Node000018_Node000019" title=" " alt="" coords="367,748,404,799,443,862,456,892,463,918,471,941,491,964,522,982,519,987,487,968,467,943,458,919,451,894,439,864,399,802,363,752"/>
+<area shape="poly" id="edge28_Node000018_Node000020" title=" " alt="" coords="381,748,431,779,490,807,514,815,512,821,488,812,429,783,378,752"/>
+<area shape="rect" id="Node000021" href="$dc/d80/classTrackSeed.html#a786a37b3dbf588bccf19d67507ac54f8" title=" " alt="" coords="522,719,692,746"/>
+<area shape="poly" id="edge30_Node000018_Node000021" title=" " alt="" coords="442,726,506,728,506,733,442,732"/>
+<area shape="rect" id="Node000022" href="$dc/d80/classTrackSeed.html#ab3698d184312699c15c5491eab9c35c2" title=" " alt="" coords="538,615,677,642"/>
+<area shape="poly" id="edge31_Node000018_Node000022" title=" " alt="" coords="385,702,433,676,488,653,521,642,523,647,490,658,436,681,387,707"/>
+<area shape="rect" id="Node000023" href="$dc/d80/classTrackSeed.html#a639643f51c70123bd75c866c91bb6075" title=" " alt="" coords="538,667,676,694"/>
+<area shape="poly" id="edge32_Node000018_Node000023" title=" " alt="" coords="441,708,522,693,523,698,442,713"/>
+<area shape="poly" id="edge36_Node000024_Node000011" title=" " alt="" coords="412,982,442,994,457,1005,466,1015,476,1025,490,1033,555,1054,610,1064,636,1063,662,1058,724,1033,781,998,834,956,883,909,927,857,967,802,1003,745,1063,626,1110,509,1145,402,1168,314,1182,252,1187,253,1174,315,1150,404,1116,511,1068,628,1007,747,971,805,931,861,886,913,838,960,784,1002,727,1038,664,1063,636,1069,609,1069,554,1059,488,1038,472,1029,462,1019,453,1009,440,999,410,987"/>
+<area shape="poly" id="edge35_Node000024_Node000019" title=" " alt="" coords="435,977,520,988,519,993,434,983"/>
+<area shape="poly" id="edge37_Node000024_Node000025" title=" " alt="" coords="421,982,443,994,460,1015,467,1037,474,1058,491,1077,517,1092,515,1097,487,1081,470,1060,462,1039,456,1018,439,999,418,987"/>
+<area shape="poly" id="edge39_Node000026_Node000003" title=" " alt="" coords="438,306,514,306,514,311,438,311"/>
+<area shape="poly" id="edge40_Node000026_Node000008" title=" " alt="" coords="382,283,431,255,488,227,527,214,529,219,490,232,434,259,384,288"/>
+<area shape="poly" id="edge46_Node000028_Node000015" title=" " alt="" coords="359,872,398,825,439,761,448,737,452,716,455,676,461,639,471,620,487,601,503,590,521,582,523,587,506,594,491,605,475,623,466,641,460,677,457,717,453,739,443,763,402,828,363,876"/>
+<area shape="poly" id="edge44_Node000028_Node000017" title=" " alt="" coords="368,872,421,840,488,809,513,800,515,805,490,814,424,845,371,876"/>
+<area shape="poly" id="edge45_Node000028_Node000020" title=" " alt="" coords="419,871,518,851,519,857,420,877"/>
+<area shape="poly" id="edge47_Node000028_Node000025" title=" " alt="" coords="382,901,413,918,443,943,460,967,468,989,475,1010,491,1033,526,1064,564,1088,561,1092,523,1068,487,1037,471,1013,463,991,455,969,439,946,410,923,380,905"/>
+<area shape="rect" id="Node000029" href="$dc/d80/classTrackSeed.html#a444fb5b2d5c66d797dd8cbcbbab911b8" title=" " alt="" coords="528,927,686,954"/>
+<area shape="poly" id="edge48_Node000028_Node000029" title=" " alt="" coords="420,900,519,920,518,926,419,906"/>
+<area shape="rect" id="Node000030" href="$dc/d80/classTrackSeed.html#aac54db6e5eca3b0d24f82a5a469208c8" title=" " alt="" coords="538,875,677,902"/>
+<area shape="poly" id="edge49_Node000028_Node000030" title=" " alt="" coords="436,886,522,886,522,891,436,891"/>
+</map>

@@ -1,0 +1,24 @@
+digraph "TpcDefs::genHitKey"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TpcDefs::genHitKey",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Generate a hitkey from a pad index and time bin."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrkrHitSetTpc::getHitKeyfrom\lLocalBin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a975cb6dfaf8bfc6a318f60bf7db0b39d",tooltip="local -> global conversion"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4TpcPadPlaneReadout\l::MapToPadPlane",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6c/classPHG4TpcPadPlaneReadout.html#a856e45f59af40fc40c55484f8ca58d2e",tooltip="Map a single GEM electron to TPC pad plane and fill hit containers."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4TpcPadBaselineShift\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d15/classPHG4TpcPadBaselineShift.html#a3bb5562810279bd00fe4e241d8f94d52",tooltip="Process a single event and apply baseline shift to TPC pad ADC values."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Tpc3DClusterizer::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1d/classTpc3DClusterizer.html#a93d017d1dd124d9b80802fdc11d9bfd6",tooltip="Process a single event within the Fun4All framework."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="tpc_hits::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d7c/classtpc__hits.html#abe1285a76afb7a95935cd3f1f7a6739b",tooltip="Process a single event and fill TPC hit information."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TpcCombinedRawDataUnpacker\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d1a/classTpcCombinedRawDataUnpacker.html#a8e6a15ecbd82563278cdb842c8426a92",tooltip="Process a single event from the node tree."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TpcCombinedRawDataUnpacker\lDebug::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc4/classTpcCombinedRawDataUnpackerDebug.html#a5f20b1491f0026ece1a2997e917e4c1b",tooltip="Process event for TpcCombinedRawDataUnpackerDebug."];
+}

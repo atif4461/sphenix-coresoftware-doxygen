@@ -1,0 +1,13 @@
+<map id="CaloTemp::getRunTime" name="CaloTemp::getRunTime">
+<area shape="rect" id="Node000001" title="Retrieve the beam run timestamp from the database and store it as a string." alt="" coords="5,57,178,85"/>
+<area shape="rect" id="Node000002" href="$d3/dcc/classODBCInterface.html#a3a43fd118c764505d0123e08dcbd4622" title="Retrieve or create an ODBC statement for the specified database." alt="" coords="226,5,440,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,54,250,34,251,39,160,59"/>
+<area shape="rect" id="Node000005" href="$d3/dcc/classODBCInterface.html#a4bde01e4611f30ac274a8f52486bf88e" title="Get singleton instance of ODBCInterface." alt="" coords="243,57,423,85"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="178,68,227,68,227,74,178,74"/>
+<area shape="rect" id="Node000006" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="248,109,418,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="160,83,251,103,250,108,159,88"/>
+<area shape="rect" id="Node000003" href="$d3/dcc/classODBCInterface.html#ac6cfdc87164087cf657fd9ca29d18f43" title="Retrieve or create a database connection for the specified database name." alt="" coords="488,5,726,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="440,16,472,16,472,22,440,22"/>
+<area shape="rect" id="Node000004" href="$d3/dcc/classODBCInterface.html#ae070c35032024be7e324924fa9e0cf86" title=" " alt="" coords="774,5,961,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="727,16,759,16,759,22,727,22"/>
+</map>

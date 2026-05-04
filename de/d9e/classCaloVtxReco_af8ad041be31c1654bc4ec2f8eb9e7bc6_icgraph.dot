@@ -1,0 +1,12 @@
+digraph "CaloVtxReco::calo_tower_algorithm"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="CaloVtxReco::calo_tower\l_algorithm",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute the calorimeter‑based vertex z position from calibrated tower information."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CaloVtxReco::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9e/classCaloVtxReco.html#a69174452a4e092e54e10990ae2bf731d",tooltip="Process a single event and compute calorimeter based vertex."];
+}

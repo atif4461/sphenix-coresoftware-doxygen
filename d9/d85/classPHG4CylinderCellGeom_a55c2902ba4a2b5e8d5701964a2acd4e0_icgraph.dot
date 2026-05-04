@@ -1,0 +1,20 @@
+digraph "PHG4CylinderCellGeom::get_phistep"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4CylinderCellGeom\l::get_phistep",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve the azimuthal step size for the cylinder cell geometry."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4SpacalDetector\l::AddTowerGeometryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da4/classPHG4SpacalDetector.html#a6adf2ae56b8cfea0ee63c01ec7d5dd2f",tooltip="Add tower geometry node to the detector hierarchy."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4FullProjTiltedSpacal\lDetector::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698",tooltip="Construct the full projected tilted SPACAL detector geometry within the given world volume."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="RawTowerBuilder::CreateNodes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d10/classRawTowerBuilder.html#a01f91227474fd72e2e630a577973b67b",tooltip="Create geometry and tower nodes in the node tree."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="RawTowerBuilder::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d10/classRawTowerBuilder.html#a0de2c995e7f7cc3bd357d65af5d5d987",tooltip="Initialize run by locating geometry node and creating output nodes."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4CylinderCellReco\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dd0/classPHG4CylinderCellReco.html#a1d282a92e9d6254d37f5fffceb213684",tooltip="event processing"];
+}

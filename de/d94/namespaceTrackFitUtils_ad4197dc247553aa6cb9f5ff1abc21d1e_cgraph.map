@@ -1,0 +1,19 @@
+<map id="TrackFitUtils::get_helix_surface_pathlength" name="TrackFitUtils::get_helix_surface_pathlength">
+<area shape="rect" id="Node000001" title="Compute the helix path length from a start point to its intersection with a given surface." alt="" coords="5,92,198,136"/>
+<area shape="rect" id="Node000002" href="$d3/d64/classActsGeometry.html#a88886beb0a25318754ba86589fc7dcd3" title="const accessor" alt="" coords="493,5,677,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,89,188,63,245,42,304,29,365,21,477,14,478,20,365,26,305,34,246,47,190,68,141,93"/>
+<area shape="rect" id="Node000003" href="$de/d94/namespaceTrackFitUtils.html#a22b78d7c7bf85e638f3123b8e99d0db1" title="Compute helix path length between two points given helix parameters." alt="" coords="277,57,414,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,97,261,88,261,94,199,103"/>
+<area shape="rect" id="Node000004" href="$de/d94/namespaceTrackFitUtils.html#aab655d6c3d866df766951d1131456306" title="Compute the intersection point of a helix trajectory with the plane of a detector surface." alt="" coords="246,126,445,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="199,125,230,129,230,135,198,130"/>
+<area shape="rect" id="Node000008" href="$d4/d32/structActsTrackingGeometry.html#a58215655509da2678f907a51c87066c4" title=" " alt="" coords="501,196,669,240"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="142,134,191,159,246,181,307,195,370,205,486,214,485,219,369,210,306,200,245,186,189,164,140,139"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="424,123,443,112,459,95,466,78,475,60,491,42,498,38,501,42,495,47,479,63,471,80,463,98,447,116,427,128"/>
+<area shape="rect" id="Node000005" href="$de/d94/namespaceTrackFitUtils.html#a15fb1be2416b4469271e06d769c35e92" title="Compute the point of closest approach (PCA) and unit tangent vector of a helix to a global point." alt="" coords="520,57,650,102"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="424,123,504,100,506,105,426,128"/>
+<area shape="rect" id="Node000007" href="$de/d94/namespaceTrackFitUtils.html#a6d3820486d15410f34e00492a2499507" title="Compute intersection of a line defined by a point of closest approach and a tangent vector with a sen..." alt="" coords="496,126,675,171"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="446,146,480,146,480,151,446,151"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="426,169,492,188,490,193,424,174"/>
+<area shape="rect" id="Node000006" href="$de/d94/namespaceTrackFitUtils.html#ace12678e4df927da3d37405578917cf2" title="Compute the point of closest approach of a global position to a circle." alt="" coords="725,57,859,102"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="651,76,710,76,710,82,651,82"/>
+</map>

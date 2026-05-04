@@ -1,0 +1,12 @@
+digraph "TPCPedestalCalibration::NewCDBGlobalTag"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TPCPedestalCalibration\l::NewCDBGlobalTag",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Create a new global tag in the conditions database for a specified user."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CDBUtils::createGlobalTag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d37/classCDBUtils.html#a6624df717f182f06434fc4148b49f6d9",tooltip="Create a global tag in the CDB using the provided tag name."];
+}

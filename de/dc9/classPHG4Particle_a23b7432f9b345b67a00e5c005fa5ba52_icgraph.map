@@ -1,0 +1,84 @@
+<map id="PHG4Particle::get_track_id" name="PHG4Particle::get_track_id">
+<area shape="rect" id="Node000001" title=" " alt="" coords="740,826,934,854"/>
+<area shape="rect" id="Node000002" href="$d4/dc9/classPHG4DSTReader.html#a800782dd1b7ce1294a4760d71f609708" title="add a particle and associated vertex if _save_vertex" alt="" coords="507,5,668,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="831,811,820,656,796,432,777,317,753,211,724,123,708,90,690,64,667,47,671,42,694,60,713,87,729,121,758,209,782,316,801,432,826,656,837,810"/>
+<area shape="rect" id="Node000004" href="$da/d6c/classPHG4TruthInfoContainer.html#a632d1de5a32bd23c67d01a4a3351e638" title="Add a particle that the user has created." alt="" coords="499,75,676,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="831,811,818,669,791,465,772,361,749,266,722,187,707,157,690,133,675,121,679,116,694,130,711,154,727,185,754,264,778,360,797,465,823,668,836,810"/>
+<area shape="rect" id="Node000005" href="$da/d6c/classPHG4TruthInfoContainer.html#af0c0ad8c63a796609574d5c44bd39c5b" title="Add a sPHENIX primary particle to the truth container." alt="" coords="483,144,692,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="830,811,815,681,787,499,768,405,745,320,719,250,705,223,690,203,677,191,680,187,694,199,710,220,724,248,751,319,773,404,792,498,821,680,836,810"/>
+<area shape="rect" id="Node000006" href="$d9/d62/classSvtxHitEval.html#ac8821b6a85959775d40a60896e88d6d9" title="Retrieve all hit keys associated with a given Geant4 particle." alt="" coords="492,212,683,240"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="830,811,813,692,784,527,765,442,743,366,718,303,690,260,665,243,668,238,694,256,723,300,748,364,770,441,789,526,819,691,835,811"/>
+<area shape="rect" id="Node000008" href="$df/dad/classSvtxTrackEval.html#a4397d3a27e4b53b5475e15ec92d43cbb" title="Retrieve all reconstructed SvtxTrack objects associated with a given truth particle." alt="" coords="520,369,656,414"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="831,811,821,737,797,636,779,583,756,529,726,479,690,435,674,422,655,411,658,407,677,417,694,431,731,476,760,527,784,581,803,635,826,736,836,810"/>
+<area shape="rect" id="Node000009" href="$df/dad/classSvtxTrackEval.html#ab2ddb740e23faee0f77302194255261f" title="Retrieve the reconstructed SvtxTrack that best matches the given truth particle." alt="" coords="263,309,411,354"/>
+<area shape="poly" id="edge17_Node000001_Node000009" title=" " alt="" coords="829,811,811,708,781,571,762,502,740,440,716,391,691,359,660,339,625,324,589,315,552,310,478,309,412,317,411,312,477,304,552,304,590,310,627,319,662,334,694,355,721,388,745,438,767,500,786,569,816,707,834,810"/>
+<area shape="rect" id="Node000010" href="$de/dbf/classQAG4SimulationTracking.html#ac2aeab5238fcf828f70c61b4976b57fe" title="Process event for QAG4SimulationTracking analysis module." alt="" coords="7,249,189,294"/>
+<area shape="poly" id="edge43_Node000001_Node000010" title=" " alt="" coords="830,811,813,700,785,549,765,473,743,405,718,350,705,330,691,315,654,296,602,281,539,272,468,266,320,264,190,268,190,263,320,259,468,261,540,266,604,276,656,291,694,311,709,327,723,348,748,403,771,472,790,548,819,699,835,810"/>
+<area shape="rect" id="Node000013" href="$d4/de4/classSvtxTruthEval.html#a6051f9387f039a6604738f6a451c704b" title="Retrieve truth clusters associated with a given Geant4 particle." alt="" coords="520,489,655,534"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="827,812,811,756,785,685,745,612,720,578,691,548,674,537,654,528,657,523,676,532,694,544,724,575,749,609,789,683,816,755,832,810"/>
+<area shape="rect" id="Node000014" href="$d1/d1e/classSvtxClusterEval.html#a4ed068393b7f131534926b87b7b59e10" title="Retrieve the truth cluster that best matches a reconstructed cluster based on the highest‑energy cont..." alt="" coords="5,489,191,534"/>
+<area shape="poly" id="edge35_Node000001_Node000014" title=" " alt="" coords="832,811,824,740,802,647,784,599,760,553,729,513,691,479,653,464,601,456,537,454,467,457,320,474,191,496,190,490,319,469,466,452,537,449,601,450,655,459,694,475,733,509,764,550,789,597,807,645,829,739,837,810"/>
+<area shape="rect" id="Node000016" href="$dc/d23/classBaseTruthEval.html#ac62b58b54f3e184b28ab9d44ea4292f7" title="do these two particle pointers resolve to the same particle?" alt="" coords="516,559,659,603"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="822,812,803,769,775,717,737,664,691,618,658,600,660,595,694,614,741,660,779,714,808,767,827,810"/>
+<area shape="rect" id="Node000017" href="$db/db2/classTruthNeutralMesonBuilder.html#a5f9ce2f9467af2f70a2d8cf67f8315a0" title="Classify eta meson decay mode from daughter particle composition." alt="" coords="492,628,683,673"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="814,815,762,755,728,723,691,694,657,675,659,671,694,689,731,719,766,751,818,812"/>
+<area shape="rect" id="Node000018" href="$db/db2/classTruthNeutralMesonBuilder.html#a511b2cac6ff236e805f2c5386f07a462" title="Process event and fill truth neutral meson container." alt="" coords="242,656,432,701"/>
+<area shape="poly" id="edge44_Node000001_Node000018" title=" " alt="" coords="808,817,757,776,725,755,691,738,626,716,558,700,492,690,432,684,433,679,492,685,559,695,627,711,693,733,728,750,760,771,812,813"/>
+<area shape="rect" id="Node000019" href="$d4/de4/classSvtxTruthEval.html#a2b62c06968f1705c6f8cc2b578746275" title="Fill truth hit cache by associating G4 hits with truth particles." alt="" coords="503,748,672,793"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="769,824,670,796,671,791,771,819"/>
+<area shape="rect" id="Node000021" href="$dc/d23/classBaseTruthEval.html#a4283b2f124d147df8499373f59372773" title="what was the embed flag set for this particle?" alt="" coords="516,817,659,862"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="725,842,659,842,659,837,725,837"/>
+<area shape="rect" id="Node000022" href="$dd/d75/classJetRecoEval.html#af6356d19d3ff0ee9c9849348466e7d0e" title="what was the energy contribution to this reconstructed jet from this truth jet?" alt="" coords="498,887,677,931"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="771,861,671,889,670,883,769,856"/>
+<area shape="rect" id="Node000027" href="$da/dbf/classTruthJetInput.html#a4c3ed9ba972f59ab008fa8574ec26a20" title="Retrieve input truth jets from the node tree." alt="" coords="522,956,654,1001"/>
+<area shape="poly" id="edge30_Node000001_Node000027" title=" " alt="" coords="810,866,758,906,694,946,655,962,653,957,691,941,755,902,806,862"/>
+<area shape="rect" id="Node000028" href="$dc/d23/classBaseTruthEval.html#a1fbb3b7ea61e2d734fb56448565d5518" title="what was the primary shower that is associated with this particle?" alt="" coords="516,1025,659,1070"/>
+<area shape="poly" id="edge31_Node000001_Node000028" title=" " alt="" coords="822,869,771,941,735,981,694,1015,661,1032,658,1028,691,1011,731,977,767,938,818,865"/>
+<area shape="rect" id="Node000029" href="$dc/d23/classBaseTruthEval.html#ac0e4471cf9a8a877339f46ba903d0c14" title="was this truth hit left by this particle?" alt="" coords="502,1095,674,1139"/>
+<area shape="poly" id="edge32_Node000001_Node000029" title=" " alt="" coords="829,869,810,916,782,974,743,1033,720,1060,694,1084,675,1096,673,1092,691,1080,716,1057,739,1030,777,971,805,914,824,868"/>
+<area shape="rect" id="Node000030" href="$da/d6c/classPHG4TruthInfoContainer.html#a0927f603a04e93325cd78659d4139ff1" title="Determine whether a particle is primary." alt="" coords="499,1164,676,1209"/>
+<area shape="poly" id="edge33_Node000001_Node000030" title=" " alt="" coords="833,869,818,929,792,1005,774,1045,751,1084,725,1121,694,1154,677,1166,674,1161,691,1150,721,1118,747,1081,769,1043,787,1003,813,927,828,868"/>
+<area shape="rect" id="Node000031" href="$da/d6c/classPHG4TruthInfoContainer.html#a1fd2ff99c1be6d9c91e16e3d3a9dc664" title="Determine whether a given particle is a sPHENIX primary." alt="" coords="499,1233,676,1278"/>
+<area shape="poly" id="edge34_Node000001_Node000031" title=" " alt="" coords="836,870,825,941,801,1035,783,1086,759,1135,730,1182,694,1223,679,1235,675,1231,691,1219,726,1179,754,1133,778,1084,796,1034,820,940,830,869"/>
+<area shape="rect" id="Node000032" href="$db/d5c/classPHG4TruthTrackingAction.html#af910d1c962f76878f85116c87aba3531" title="tracking action" alt="" coords="496,1303,680,1347"/>
+<area shape="poly" id="edge36_Node000001_Node000032" title=" " alt="" coords="838,869,831,952,823,1006,810,1065,792,1126,767,1186,735,1242,694,1292,679,1304,676,1300,690,1288,730,1239,762,1183,787,1124,805,1063,817,1005,825,951,832,869"/>
+<area shape="rect" id="Node000033" href="$d5/da2/classPHTruthTrackSeeding.html#a37f708048770642f57f15675683c2cac" title="Process truth information to generate track seeds from silicon and TPC clusters." alt="" coords="509,1372,666,1417"/>
+<area shape="poly" id="edge37_Node000001_Node000033" title=" " alt="" coords="839,869,836,962,830,1025,818,1094,800,1165,775,1236,740,1302,694,1362,668,1380,665,1376,690,1358,735,1300,770,1234,795,1164,813,1093,824,1024,831,962,834,869"/>
+<area shape="rect" id="Node000034" href="$d6/d02/classDetermineTowerBackground.html#a2f2c2c1d59dbf0df2debbedb977dfb57" title="Process a single event to determine tower background and flow parameters." alt="" coords="485,1441,690,1486"/>
+<area shape="poly" id="edge38_Node000001_Node000034" title=" " alt="" coords="835,869,819,990,789,1158,770,1243,748,1322,723,1386,694,1431,680,1443,677,1439,690,1427,718,1384,743,1320,765,1242,784,1157,813,989,830,868"/>
+<area shape="rect" id="Node000035" href="$d8/dc7/classMomentumEvaluator.html#a57a5a38c5590636286793eadcacddbad" title="Process a single event within the Fun4All framework." alt="" coords="504,1511,671,1555"/>
+<area shape="poly" id="edge39_Node000001_Node000035" title=" " alt="" coords="836,869,821,1003,794,1191,774,1288,752,1377,725,1450,710,1478,694,1500,673,1517,670,1513,690,1496,706,1475,720,1447,747,1375,769,1287,788,1190,816,1002,830,869"/>
+<area shape="rect" id="Node000036" href="$d9/d91/classPHG4TrackFastSim.html#a4daa3b48ac150bfd539c5c02f30b68cd" title="Process Event, called for each event." alt="" coords="488,1580,688,1625"/>
+<area shape="poly" id="edge40_Node000001_Node000036" title=" " alt="" coords="836,870,824,1016,798,1225,779,1333,756,1431,728,1513,712,1545,694,1569,680,1582,677,1578,690,1566,707,1542,723,1511,750,1430,774,1331,793,1224,819,1015,831,869"/>
+<area shape="rect" id="Node000037" href="$d9/d24/classPHTruthClustering.html#a32f3b05811ac36d8f08ae3c565edcfca" title="Fill truth cluster node with clusters derived from G4 truth particles." alt="" coords="515,1649,660,1694"/>
+<area shape="poly" id="edge41_Node000001_Node000037" title=" " alt="" coords="837,869,826,1027,802,1257,783,1376,760,1486,730,1576,713,1612,694,1639,679,1652,662,1661,659,1656,676,1647,690,1635,708,1609,725,1574,754,1484,778,1375,797,1256,821,1026,832,869"/>
+<area shape="rect" id="Node000038" href="$d0/d0c/classQAG4Decayer.html#aa696e43f8b271a9bb04e79109be46adc" title="Process a single event and fill heavy‑flavor QA histograms." alt="" coords="502,1719,673,1763"/>
+<area shape="poly" id="edge42_Node000001_Node000038" title=" " alt="" coords="837,869,829,1039,806,1290,788,1421,763,1540,733,1639,715,1678,694,1708,675,1724,671,1720,690,1705,710,1676,728,1638,758,1539,782,1420,801,1290,823,1039,832,869"/>
+<area shape="rect" id="Node000003" href="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853" title="event processing method" alt="" coords="243,5,430,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="491,30,431,30,431,25,491,25"/>
+<area shape="rect" id="Node000007" href="$d9/d62/classSvtxHitEval.html#a788b4bc55fa696ed61086fdde1ee3c9d" title="Find the tracker hit with the largest energy contribution from a given Geant4 hit." alt="" coords="239,207,434,235"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="477,227,435,226,435,220,477,221"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="504,374,411,352,412,347,505,369"/>
+<area shape="rect" id="Node000012" href="$df/dad/classSvtxTrackEval.html#af3f25868e55ca177f57b0ef31231fbfa" title="Find the SvtxTrack with the lowest quality associated to a given cluster key." alt="" coords="263,379,411,423"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="504,397,412,401,411,396,504,392"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="247,312,189,297,190,292,248,307"/>
+<area shape="rect" id="Node000011" href="$da/d7d/classQAG4SimulationUpsilon.html#ab79aed70b129c1906b4d1986fe2a52d9" title="Process event for QAG4SimulationUpsilon analysis module." alt="" coords="9,319,187,363"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="247,338,187,340,187,335,247,333"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="505,514,191,514,191,509,505,509"/>
+<area shape="rect" id="Node000015" href="$d1/d1e/classSvtxClusterEval.html#a71467fc0bd5e8af7a8d4ea2a0d124bc1" title="Find truth particle with maximum energy contribution to the specified cluster." alt="" coords="242,549,432,610"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="506,536,433,557,431,551,505,531"/>
+<area shape="poly" id="edge15_Node000015_Node000014" title=" " alt="" coords="226,551,178,537,180,532,228,546"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="478,665,433,670,432,665,477,660"/>
+<area shape="rect" id="Node000020" href="$d4/de4/classSvtxTruthEval.html#a3a24dd3f6c0363248b168715d7467a4f" title="Retrieve all truth hits associated with a given PHG4Particle." alt="" coords="270,748,404,793"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="487,773,405,773,405,768,487,768"/>
+<area shape="rect" id="Node000023" href="$dd/d75/classJetRecoEval.html#a631b92837e600fbdb6b966a556fc9077" title="which reconstructed jet had the largest energy contribution from this truth jet?" alt="" coords="239,864,435,892"/>
+<area shape="poly" id="edge24_Node000022_Node000023" title=" " alt="" coords="482,899,435,893,436,888,483,894"/>
+<area shape="rect" id="Node000026" href="$dd/d75/classJetRecoEval.html#af4bff244a32d216f097c7fab76c9b95a" title="which truth jet contributed the most energy to this reconstructed jet?" alt="" coords="250,916,424,961"/>
+<area shape="poly" id="edge27_Node000022_Node000026" title=" " alt="" coords="483,924,424,931,424,926,482,919"/>
+<area shape="rect" id="Node000024" href="$dd/d75/classJetRecoEval.html#a9775ea4a0c6e28f22da7997f4886f195" title="Retrieve uniquely matched reconstructed jet for a given truth jet." alt="" coords="20,920,176,965"/>
+<area shape="poly" id="edge25_Node000023_Node000024" title=" " alt="" coords="266,899,239,906,177,923,176,918,238,901,264,894"/>
+<area shape="rect" id="Node000025" href="$dd/d75/classJetRecoEval.html#ac6030b2b14c885e19e35f86ec828d8d8" title="Retrieve the uniquely matched truth jet for a given reconstructed jet." alt="" coords="20,851,176,895"/>
+<area shape="poly" id="edge26_Node000023_Node000025" title=" " alt="" coords="223,878,177,877,177,872,223,873"/>
+<area shape="poly" id="edge28_Node000026_Node000024" title=" " alt="" coords="234,943,177,944,177,938,234,937"/>
+<area shape="poly" id="edge29_Node000026_Node000025" title=" " alt="" coords="237,914,176,897,177,892,239,909"/>
+</map>

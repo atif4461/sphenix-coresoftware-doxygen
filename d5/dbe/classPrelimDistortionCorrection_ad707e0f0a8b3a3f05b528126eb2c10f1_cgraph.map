@@ -1,0 +1,41 @@
+<map id="PrelimDistortionCorrection::process_event" name="PrelimDistortionCorrection::process_event">
+<area shape="rect" id="Node000001" title="Process a single event applying preliminary distortion corrections to TPC track seeds." alt="" coords="5,306,200,351"/>
+<area shape="rect" id="Node000002" href="$dc/d80/classTrackSeed.html#a513e9904f6837460a7b561d8348c3e13" title="Return a const iterator positioned at the end of the dummy cluster key set." alt="" coords="248,5,467,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,305,121,251,148,180,166,143,189,107,215,73,246,44,253,38,257,43,249,48,219,76,193,110,171,146,153,183,126,253,111,306"/>
+<area shape="rect" id="Node000003" href="$dc/d80/classTrackSeed.html#ad32517668fd228928ed69c331c92daa5" title="Return a constant iterator to the end of the cluster key set." alt="" coords="254,57,461,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,305,127,260,155,203,195,145,219,119,246,96,255,90,258,94,249,100,223,122,199,148,160,206,132,262,114,307"/>
+<area shape="rect" id="Node000004" href="$dc/d80/classTrackSeed.html#aa887e1d4fc7a8a1b5b5747087fbdbc72" title=" " alt="" coords="274,109,441,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,305,134,270,164,227,201,184,246,148,258,141,261,146,249,152,205,188,168,230,138,272,118,307"/>
+<area shape="rect" id="Node000005" href="$dc/d80/classTrackSeed.html#ad8ddc8718d750f04c7cd8cc20fb09bc2" title=" " alt="" coords="285,161,430,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="121,304,174,251,209,223,246,199,269,190,272,194,249,204,212,227,178,255,125,307"/>
+<area shape="rect" id="Node000006" href="$dc/d80/classTrackSeed.html#a2ea7fd90dcd1643b87f22d183125ebd0" title=" " alt="" coords="286,213,429,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="145,303,247,257,286,243,287,248,249,262,148,308"/>
+<area shape="rect" id="Node000007" href="$dc/d80/classTrackSeed.html#ae78b5ecfe5fb4595493b065a5ab4aa8f" title=" " alt="" coords="755,271,927,298"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="200,307,247,301,381,290,514,284,740,281,740,286,514,289,381,295,248,306,201,312"/>
+<area shape="rect" id="Node000008" href="$d9/d67/namespaceTrackSeedHelper.html#a8e1f50fd2045ba275c7e0c7fc4cd0868" title="Retrieve the x coordinate of the seed&#39;s root position." alt="" coords="270,315,444,342"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="200,326,255,326,255,331,200,331"/>
+<area shape="rect" id="Node000012" href="$d9/d67/namespaceTrackSeedHelper.html#ae9079e98ad0bd4b2b4cbcee54237805b" title="Return the y coordinate of the trajectory associated with a TrackSeed." alt="" coords="270,367,444,394"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="201,346,272,360,271,366,200,351"/>
+<area shape="rect" id="Node000013" href="$d9/d67/namespaceTrackSeedHelper.html#a4a023d4cb5ec8471a37b7804acbaf7e2" title="Retrieve the longitudinal impact parameter Z0 from a TrackSeed." alt="" coords="271,419,444,446"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="141,349,191,377,249,403,273,411,271,416,247,408,189,382,139,354"/>
+<area shape="rect" id="Node000014" href="$dc/d80/classTrackSeed.html#a93646154be1e106168605fe46adc8cee" title=" " alt="" coords="541,444,681,472"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="122,350,144,376,174,406,209,434,249,455,319,474,392,481,463,479,525,472,526,477,463,484,392,486,318,479,247,460,206,439,170,410,140,380,118,353"/>
+<area shape="rect" id="Node000015" href="$d0/d5e/classPHTimer.html#a433d96c3401380d49ff01acfd16ac69c" title="Restart timer." alt="" coords="293,520,422,548"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="119,350,170,424,206,465,249,500,280,515,277,519,246,504,203,469,165,427,114,353"/>
+<area shape="rect" id="Node000016" href="$d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41" title="stops the counter" alt="" coords="301,572,414,600"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="114,350,132,395,160,451,199,509,223,535,249,557,287,574,284,579,246,561,219,538,195,512,155,454,127,397,109,352"/>
+<area shape="rect" id="Node000018" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="272,624,442,652"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="111,351,126,404,153,474,171,511,193,547,219,581,249,609,259,616,256,620,246,613,215,584,189,550,166,514,148,477,121,406,106,352"/>
+<area shape="rect" id="Node000009" href="$d9/d67/namespaceTrackSeedHelper.html#a37fc83a372bcb17ad6c0af444eee3f26" title="Compute the helix root coordinates from a TrackSeed." alt="" coords="515,339,707,366"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="445,334,500,339,499,345,445,339"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="660,336,776,301,778,306,661,341"/>
+<area shape="poly" id="edge9_Node000009_Node000009" title=" " alt="" coords="572,340,565,330,571,320,586,314,611,312,638,315,653,321,651,326,637,320,611,317,587,319,574,324,571,329,576,337"/>
+<area shape="rect" id="Node000010" href="$dc/d80/classTrackSeed.html#ab847005283a5d599e88b31a3d642cecc" title=" " alt="" coords="771,333,911,361"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="707,348,755,346,755,352,708,353"/>
+<area shape="rect" id="Node000011" href="$dc/d80/classTrackSeed.html#ad8ba4b0cdc30bb0973a5b26907f6a478" title=" " alt="" coords="771,385,911,413"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="683,364,756,379,755,385,682,369"/>
+<area shape="poly" id="edge14_Node000012_Node000009" title=" " alt="" coords="445,368,499,362,500,367,445,374"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="445,438,526,447,525,452,444,444"/>
+<area shape="rect" id="Node000017" href="$d0/d5e/classPHTimer.html#aee124cb440b1f7ca8bc8f2ffa596e2da" title="retrieve elapsed value since last restart (in ms)" alt="" coords="543,572,679,600"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="414,583,528,583,528,588,414,588"/>
+</map>

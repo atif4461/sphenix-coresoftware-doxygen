@@ -1,0 +1,39 @@
+digraph "SvtxTrack_v4::operator="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SvtxTrack_v4::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Assign the contents of another SvtxTrack_v4 to this instance."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrack_v4::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db9/classSvtxTrack__v4.html#a8761cb89ae4e2bb70ee2d97d012e7f2e",tooltip="Copy data from another SvtxTrack into this object."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxTrack::begin_states",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a18e3ed9f7254267fc820f817e328f7aa",tooltip="Return a constant iterator to the beginning of the track state collection."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SvtxTrack_v4::clear\l_states",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db9/classSvtxTrack__v4.html#aa79a88a0d5ee808fec234a568c4e08f9",tooltip="Clear all stored state objects in the track and reset the internal map."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SvtxTrack::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a5d25f0ad2128172ce8d07e105c8038a3",tooltip="copy content from base class"];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SvtxTrack::SvtxTrack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a9f0b418632dda2acf5b715244f8d67ab",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="SvtxTrack::end_states",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#ab85c1fdc0c931a47ba0fdc63a757f73e",tooltip="Return iterator to end of constant state map for SvtxTrack."];
+  Node2 -> Node8 [id="edge7_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="SvtxTrack::get_chisq",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a8eb37e7a4b0d9ec8a9987457e35252ad",tooltip=" "];
+  Node2 -> Node9 [id="edge8_Node000002_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="SvtxTrack::get_crossing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#afe77f66a19ade74b9bc94e87dabd4b85",tooltip=" "];
+  Node2 -> Node10 [id="edge9_Node000002_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="SvtxTrack::get_ndf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#adeaef5716e6e2782ed89659e605d76c6",tooltip=" "];
+  Node2 -> Node11 [id="edge10_Node000002_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="SvtxTrack::get_positive\l_charge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#adf617ee6f57517b5d96f67645938d04c",tooltip=" "];
+  Node2 -> Node12 [id="edge11_Node000002_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="SvtxTrack::get_silicon_seed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a73539a08075b5d90640b108a06e0aaa7",tooltip=" "];
+  Node2 -> Node13 [id="edge12_Node000002_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="SvtxTrack::get_tpc_seed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a09628ce6a35671eb8fe2974bbe846b4f",tooltip=" "];
+  Node2 -> Node14 [id="edge13_Node000002_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="SvtxTrack::get_vertex_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a5cb2ef4d3de0500765e78970b09046a8",tooltip=" "];
+  Node2 -> Node6 [id="edge14_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node15 [id="edge15_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="SvtxTrack_v4::SvtxTrack_v4",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db9/classSvtxTrack__v4.html#a956a4c4efad1c13eb447333b82b3b62f",tooltip="Default constructor creates a SvtxTrack_v4 and inserts a PCA state at surface zero This comment was g..."];
+}

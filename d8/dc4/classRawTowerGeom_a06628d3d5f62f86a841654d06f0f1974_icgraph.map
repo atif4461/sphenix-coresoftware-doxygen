@@ -1,0 +1,38 @@
+<map id="RawTowerGeom::get_center_y" name="RawTowerGeom::get_center_y">
+<area shape="rect" id="Node000001" title=" " alt="" coords="834,351,1053,379"/>
+<area shape="rect" id="Node000002" href="$d5/d80/classPHG4InnerHcalDetector.html#a9308f1728ca9cca9a544fa813d9c15de" title="Add geometry node for inner Hcal detector." alt="" coords="578,5,753,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="933,337,916,279,886,205,867,167,843,129,816,95,785,64,752,46,755,41,788,60,820,91,848,126,871,164,891,203,921,277,938,335"/>
+<area shape="rect" id="Node000004" href="$df/d74/classPHG4OuterHcalDetector.html#a52b9577fb8bb467e25e4cd0538db5466" title="Add geometry node for outer hcal detector." alt="" coords="576,75,755,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="929,338,908,293,877,238,835,182,811,156,785,134,754,117,756,112,788,129,815,152,840,178,881,235,913,291,934,336"/>
+<area shape="rect" id="Node000006" href="$d0/da4/classPHG4SpacalDetector.html#a6adf2ae56b8cfea0ee63c01ec7d5dd2f" title="Add tower geometry node to the detector hierarchy." alt="" coords="570,144,761,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="922,340,866,271,828,235,785,203,760,191,763,186,788,199,831,231,870,268,926,337"/>
+<area shape="rect" id="Node000008" href="$d2/d39/classCaloGeomMapping.html#adab81b9b5ff38fa2ddcc822d578b0725" title="Build detailed geometry for electromagnetic calorimeter." alt="" coords="545,213,786,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="909,344,852,308,785,273,755,261,757,256,787,268,855,303,912,340"/>
+<area shape="rect" id="Node000011" href="$d2/d39/classCaloGeomMapping.html#a3205e55bab4204eeb02aa60b865be5de" title="Build geometry for former calorimeter towers and fill the RawTowerGeom container." alt="" coords="550,283,782,327"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="860,350,772,331,773,325,861,345"/>
+<area shape="rect" id="Node000012" href="$d7/d10/classRawTowerBuilder.html#a01f91227474fd72e2e630a577973b67b" title="Create geometry and tower nodes in the node tree." alt="" coords="553,351,778,379"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="819,368,779,368,779,362,819,362"/>
+<area shape="rect" id="Node000014" href="$df/d01/classTowerJetInput.html#ae27d1124857e5b518c8277b23b4b8cc3" title="Retrieve input towers and construct pseudo jets from top node." alt="" coords="596,403,735,447"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="862,385,736,413,735,408,860,380"/>
+<area shape="rect" id="Node000015" href="$d1/dec/classHcalRawTowerBuilder.html#a994bccbb0d39fa5e9d29d3b9c2ed42de" title="Initialize run specific configuration for HcalRawTowerBuilder." alt="" coords="584,472,747,517"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="912,390,855,427,787,462,748,477,746,472,785,457,852,422,909,386"/>
+<area shape="rect" id="Node000016" href="$d2/d46/classRawClusterBuilderGraph.html#ae19143d2c8d7071e7cde26358e7623f5" title="Process a single event building raw clusters from calibrated towers." alt="" coords="576,541,756,586"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="926,393,870,462,831,499,788,531,757,546,755,541,785,527,828,495,866,459,922,390"/>
+<area shape="rect" id="Node000017" href="$d2/dd8/classRawTowerGeomv5.html#adcab3997a5f8fb78a306f6b39f42ab9c" title="Copy constructor converting a RawTowerGeom to RawTowerGeomv5 representation." alt="" coords="558,611,774,655"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="934,394,913,439,881,495,840,552,815,578,788,601,768,612,765,608,785,596,811,574,835,548,877,492,908,437,929,392"/>
+<area shape="rect" id="Node000018" href="$df/d23/classBEmcRec.html#a1edf970c58acd26a02703bd942bb3c95" title="Set tower geometry for given indices." alt="" coords="558,679,773,707"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="939,395,922,454,893,528,873,567,849,605,821,640,788,670,769,681,766,676,785,666,817,636,845,602,868,565,888,526,917,452,933,393"/>
+<area shape="rect" id="Node000003" href="$d5/d80/classPHG4InnerHcalDetector.html#adcc55f5d190de67371fb9bf28015c68a" title="construct" alt="" coords="275,5,450,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="562,30,450,30,450,25,562,25"/>
+<area shape="rect" id="Node000005" href="$df/d74/classPHG4OuterHcalDetector.html#ae159c3d2a294c687f9c0f4af6dbce281" title="construct" alt="" coords="273,75,452,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="561,100,452,100,452,94,561,94"/>
+<area shape="rect" id="Node000007" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698" title="Construct the full projected tilted SPACAL detector geometry within the given world volume." alt="" coords="270,144,455,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="554,169,455,169,455,164,554,164"/>
+<area shape="rect" id="Node000009" href="$d2/d39/classCaloGeomMapping.html#a799637d7b2bdd4ccb69486c20d9d1908" title="Create geometry node for specified detector within the node tree." alt="" coords="228,256,497,284"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="530,254,490,258,489,253,529,249"/>
+<area shape="rect" id="Node000010" href="$d2/d39/classCaloGeomMapping.html#a062a4db99a2e6645d206d4c2b97058d4" title="Initialize CaloGeomMapping module and create geometry node." alt="" coords="5,256,180,284"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="212,273,180,273,180,268,212,268"/>
+<area shape="poly" id="edge11_Node000011_Node000009" title=" " alt="" coords="534,293,489,287,490,282,534,287"/>
+<area shape="rect" id="Node000013" href="$d7/d10/classRawTowerBuilder.html#a0de2c995e7f7cc3bd357d65af5d5d987" title="Initialize run by locating geometry node and creating output nodes." alt="" coords="269,351,456,379"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="537,368,457,368,457,362,537,362"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="CylinderGeomMicromegas::get_segmentation_type" name="CylinderGeomMicromegas::get_segmentation_type">
+<area shape="rect" id="Node000001" title="segmentation type" alt="" coords="742,302,937,346"/>
+<area shape="rect" id="Node000002" href="$d3/d5f/classCylinderGeomMicromegas.html#ab637828da21ea4840dcd22a2fc4c02a3" title="get strip for a give world location and tile" alt="" coords="495,95,689,156"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="807,292,756,238,693,184,655,159,658,155,696,179,759,235,811,288"/>
+<area shape="rect" id="Node000004" href="$d3/d5f/classCylinderGeomMicromegas.html#a9b0a9ea1ddedbec66bdd1e8edd39bb99" title="get local coordinates for a given tile and strip" alt="" coords="495,302,689,346"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="727,327,690,327,690,322,727,322"/>
+<area shape="rect" id="Node000008" href="$d3/d5f/classCylinderGeomMicromegas.html#a66f7ea3d4a6f63a9ec6066243b5f9d6b" title="convert world to local position coordinates in (planar) tile reference frame" alt="" coords="495,7,689,68"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="822,289,802,243,774,189,737,134,693,85,674,71,677,67,696,81,741,130,778,186,807,241,827,286"/>
+<area shape="rect" id="Node000009" href="$d3/d5f/classCylinderGeomMicromegas.html#a056e396d3114e0b71b2a2c7bc340732e" title="convert world to local direction coordinates in (planar) tile reference frame" alt="" coords="490,456,694,501"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="807,360,757,404,696,446,671,458,669,454,693,442,754,400,804,356"/>
+<area shape="rect" id="Node000010" href="$d3/d5f/classCylinderGeomMicromegas.html#a2b56528b7e9994a7eaa338f0a3ce8ad6" title="get number of strips" alt="" coords="248,262,442,306"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="741,300,694,292,563,283,443,283,443,277,563,277,695,287,742,295"/>
+<area shape="rect" id="Node000011" href="$d3/d5f/classCylinderGeomMicromegas.html#a3f9a6edcc9e1b77b08b61a3aa9ea2965" title="get strip length for a given tile" alt="" coords="248,91,442,136"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="770,298,399,139,401,134,772,293"/>
+<area shape="rect" id="Node000012" href="$d3/d5f/classCylinderGeomMicromegas.html#aa6c3407b7b113888a03f0c85ba20b089" title="convert local to world position coordinates in (planar) tile reference frame" alt="" coords="495,371,689,432"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="752,354,691,374,689,368,750,349"/>
+<area shape="rect" id="Node000013" href="$d3/d5f/classCylinderGeomMicromegas.html#abb9a21f9855bd24a629d2206e15bd9c2" title="convert local to world position coordinates in (planar) tile reference frame" alt="" coords="495,525,689,587"/>
+<area shape="poly" id="edge22_Node000001_Node000013" title=" " alt="" coords="821,362,770,438,735,479,696,516,679,527,676,523,693,511,732,476,766,435,816,359"/>
+<area shape="rect" id="Node000014" href="$d3/d5f/classCylinderGeomMicromegas.html#af6c0568cb52d9d170fd46e0790d09dca" title="convert local to world direction coordinates in (planar) tile reference frame" alt="" coords="490,611,694,656"/>
+<area shape="poly" id="edge23_Node000001_Node000014" title=" " alt="" coords="831,363,813,415,785,479,747,544,723,574,696,601,679,613,676,608,693,597,719,571,742,541,781,477,808,414,826,361"/>
+<area shape="rect" id="Node000003" href="$d3/d5f/classCylinderGeomMicromegas.html#a446d39aa55edfe9045f9137b243d616f" title="get strip for a give world location and tile" alt="" coords="248,5,442,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="490,91,431,70,433,65,492,86"/>
+<area shape="rect" id="Node000005" href="$d3/d5f/classCylinderGeomMicromegas.html#ac1f69f02f79782a014badba93d295d39" title="get the phi range, in global coordinates, corresponding to a given tile" alt="" coords="5,202,200,246"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="559,292,507,245,476,224,441,208,378,194,313,190,249,195,192,204,191,199,249,189,313,185,379,188,443,203,478,219,511,241,563,288"/>
+<area shape="rect" id="Node000006" href="$d3/d5f/classCylinderGeomMicromegas.html#a0deab41e39d6b81607508549b2622930" title="Compute polar angle range for a given micromegas tile." alt="" coords="5,322,200,366"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="480,331,200,343,200,338,480,326"/>
+<area shape="rect" id="Node000007" href="$d3/d5f/classCylinderGeomMicromegas.html#a217a87056bf483514957b5a1537b6dae" title="get world coordinates for a given tile and strip" alt="" coords="248,382,442,426"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="507,354,417,384,415,379,505,349"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="299,374,133,249,136,245,303,370"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="237,380,195,370,196,365,238,375"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="479,40,442,39,442,34,480,34"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="237,260,195,250,196,245,238,255"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="238,313,196,324,195,319,237,308"/>
+<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="277,145,249,157,151,204,149,199,247,152,274,140"/>
+<area shape="poly" id="edge17_Node000011_Node000006" title=" " alt="" coords="313,149,202,261,132,323,128,319,198,257,309,145"/>
+<area shape="poly" id="edge19_Node000012_Node000005" title=" " alt="" coords="490,363,488,361,477,346,470,331,465,302,460,275,453,263,440,252,423,243,400,236,339,227,269,224,200,223,200,218,269,218,339,222,401,231,425,238,444,247,457,260,465,273,471,301,475,330,481,343,492,357,494,359"/>
+<area shape="poly" id="edge20_Node000012_Node000006" title=" " alt="" coords="480,438,426,448,367,454,306,453,247,441,212,427,179,409,127,369,130,365,182,404,214,423,248,436,307,447,366,449,425,443,480,433"/>
+<area shape="poly" id="edge21_Node000012_Node000007" title=" " alt="" coords="480,405,442,406,442,400,479,400"/>
+</map>

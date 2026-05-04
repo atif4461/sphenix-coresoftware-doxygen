@@ -1,0 +1,33 @@
+<map id="TowerInfoDefs::decode_emcal" name="TowerInfoDefs::decode_emcal">
+<area shape="rect" id="Node000001" title="Decode emcal tower key to linear channel index." alt="" coords="733,239,903,283"/>
+<area shape="rect" id="Node000002" href="$d9/da7/classTowerInfoContainer.html#aa67cc5df383ec8fdbd4f00c8d4e7eeb6" title="Decode emcal tower key to index." alt="" coords="508,179,655,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="718,238,655,222,656,217,719,233"/>
+<area shape="rect" id="Node000015" href="$de/ddc/classpi0EtaByEta.html#a609a23c7e3506c85d7e5897fd80e978d" title="Fit pi0 mass peak for each eta phi tower and update calibration constants." alt="" coords="478,247,685,275"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="718,264,686,264,686,258,718,258"/>
+<area shape="rect" id="Node000016" href="$d6/dd1/classCaloWaveformSim.html#af0d556a3c267a974cbdc097211a248a9" title="Initialize the CaloWaveformSim subsystem for a new run." alt="" coords="484,299,680,327"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="719,285,648,301,647,296,718,280"/>
+<area shape="rect" id="Node000003" href="$d8/def/classTowerInfoContainerSimv1.html#a174232299adfaa9c2716b9dd4fd684d8" title="Decode a tower identifier into a linear index based on the active detector." alt="" coords="242,5,430,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="549,169,496,116,463,89,429,65,406,53,409,48,431,60,466,85,499,112,553,165"/>
+<area shape="rect" id="Node000005" href="$d6/d52/classTowerInfoContainerSimv2.html#ad45a84268d1e123d08f4fb92ac0050c8" title="Decode a tower key to a linear index based on the detector type." alt="" coords="242,75,430,119"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="518,174,429,134,399,122,401,117,431,129,520,169"/>
+<area shape="rect" id="Node000007" href="$d6/dd9/classTowerInfoContainerv1.html#aea4d2e7643855a41a75108e268f742b9" title="Decode an encoded tower key into a container index based on the active detector." alt="" coords="254,144,418,189"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="492,191,418,181,419,175,493,186"/>
+<area shape="rect" id="Node000009" href="$df/d0c/classTowerInfoContainerv2.html#a4133fd42a6d893e39cb6a303dff8f7f8" title="Decode tower key to container index based on detector type." alt="" coords="254,213,418,258"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="493,216,419,227,418,221,492,211"/>
+<area shape="rect" id="Node000011" href="$de/de8/classTowerInfoContainerv3.html#a171b53eca109ae1e0e0e27e040935492" title="Decode a tower key to an index based on the detector type." alt="" coords="254,283,418,327"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="495,231,479,238,455,255,431,273,406,284,404,280,429,268,452,251,477,233,492,226"/>
+<area shape="rect" id="Node000013" href="$d6/dd5/classTowerInfoContainerv4.html#a8be5895a56bccaf704a97676eddfcf35" title="Decode a tower key into a container index based on the detector type." alt="" coords="254,352,418,397"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="495,226,480,238,469,250,462,262,456,288,450,315,443,328,432,342,416,354,412,349,428,338,439,325,445,313,451,287,457,260,464,247,476,234,492,222"/>
+<area shape="rect" id="Node000004" href="$d8/def/classTowerInfoContainerSimv1.html#aa8221bc055b8dde83882c359c4f8cf32" title="Retrieve the TowerInfoSimv1 object corresponding to a given encoded key." alt="" coords="5,5,194,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,30,194,30,194,25,226,25"/>
+<area shape="rect" id="Node000006" href="$d6/d52/classTowerInfoContainerSimv2.html#acec2af1fb0ce3a1a18b9471f417d6d3b" title="Retrieve pointer to TowerInfoSimv2 object at given key." alt="" coords="5,75,194,119"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="226,100,194,100,194,94,226,94"/>
+<area shape="rect" id="Node000008" href="$d6/dd9/classTowerInfoContainerv1.html#ac1ca5443de08acfff350214c5662ecad" title="Retrieve TowerInfov1 object at given key." alt="" coords="18,144,181,189"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="239,169,182,169,182,164,239,164"/>
+<area shape="rect" id="Node000010" href="$df/d0c/classTowerInfoContainerv2.html#a08ba71ba7e3d0c0f3d2eb2c1fe327d0f" title="Retrieve tower object at specified key." alt="" coords="18,213,181,258"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="239,238,182,238,182,233,239,233"/>
+<area shape="rect" id="Node000012" href="$de/de8/classTowerInfoContainerv3.html#a82754cf727af72e03d7f46eebfe13439" title="Retrieve TowerInfov3 pointer for given tower key." alt="" coords="18,283,181,327"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="239,308,182,308,182,302,239,302"/>
+<area shape="rect" id="Node000014" href="$d6/dd5/classTowerInfoContainerv4.html#a93fe92ed024b191202c7a870400a10e4" title="Retrieve tower object from container using encoded key." alt="" coords="18,352,181,397"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="239,377,182,377,182,372,239,372"/>
+</map>

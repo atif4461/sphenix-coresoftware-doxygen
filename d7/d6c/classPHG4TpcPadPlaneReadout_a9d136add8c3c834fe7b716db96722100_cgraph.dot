@@ -1,0 +1,24 @@
+digraph "PHG4TpcPadPlaneReadout::PHG4TpcPadPlaneReadout"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4TpcPadPlaneReadout\l::PHG4TpcPadPlaneReadout",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Constructor for PHG4TpcPadPlaneReadout initializing geometry parameters and random engine."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHParameterInterface\l::InitializeParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d31/classPHParameterInterface.html#a2d4069d697a7bc6700ca79e6b42b07fa",tooltip="Initialize all parameters for the subsystem."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHParameterInterface\l::SetDefaultParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d31/classPHParameterInterface.html#a221c3ea7cea9da2f1dbf16a7ab2464ee",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4TpcPadPlane::PHG4Tpc\lPadPlane",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d18/classPHG4TpcPadPlane.html#ae51026fbde9827c8443b7c5b5d48603d",tooltip="Construct a PHG4TpcPadPlane subsystem instance."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHParameterInterface\l::PHParameterInterface",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d31/classPHParameterInterface.html#a751f70019b1736fb9c4b329774daeb93",tooltip="Construct PHParameterInterface with given name."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SubsysReco::SubsysReco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Fun4AllBase::Fun4AllBase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7",tooltip="Constructor for Fun4AllBase validates module name."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4TpcPadPlaneReadout\l::ReadGain",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6c/classPHG4TpcPadPlaneReadout.html#ae186d050cf8aa4e50fe2047aa7a88857",tooltip="Read TPC gain maps from calibration ROOT file."];
+}

@@ -1,0 +1,12 @@
+digraph "TrackFitUtils::circle_fit_by_taubin"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TrackFitUtils::circle\l_fit_by_taubin",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="convenient overload"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackFitUtils::circle\l_fit_by_taubin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d94/namespaceTrackFitUtils.html#a1fc66cec7006835f80cb395bb4731d67",tooltip="Fit a circle to a set of 2D points using the Taubin algebraic method."];
+}

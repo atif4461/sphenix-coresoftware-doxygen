@@ -1,0 +1,23 @@
+<map id="AlignmentDefs::getMvtxGlobalLabels" name="AlignmentDefs::getMvtxGlobalLabels">
+<area shape="rect" id="Node000001" title="Compute global label indices for MVTX surface based on alignment group." alt="" coords="5,205,228,250"/>
+<area shape="rect" id="Node000002" href="$d3/d32/namespaceAlignmentDefs.html#a1ce9a623b7a4b125deb7c8af7c079c42" title="Compute label base for alignment grouping." alt="" coords="276,213,490,241"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,224,260,224,260,230,228,230"/>
+<area shape="rect" id="Node000003" href="$d8/df1/namespaceMvtxDefs.html#abfd7b6c5fe579370c360924854579283" title="Get the chip id from hitsetkey." alt="" coords="584,5,738,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,212,410,177,443,131,486,83,537,44,567,30,570,35,539,48,489,87,447,134,415,180,394,215"/>
+<area shape="rect" id="Node000004" href="$d6/d9e/namespaceInttDefs.html#a28461d6132ff9373b4529e5c0d20c962" title="Get the sensor id from hitsetkey." alt="" coords="572,57,750,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="395,211,452,154,492,122,537,95,556,87,558,92,539,100,495,127,455,158,398,215"/>
+<area shape="rect" id="Node000005" href="$d6/d9e/namespaceInttDefs.html#aeb0f2c2a834c11791925bdffc211526d" title="Get the ladder id from hitsetkey." alt="" coords="577,109,744,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="407,211,465,179,537,147,565,139,566,144,539,152,467,184,409,215"/>
+<area shape="rect" id="Node000006" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="590,161,731,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="460,210,575,188,576,194,461,215"/>
+<area shape="rect" id="Node000007" href="$d3/d32/namespaceAlignmentDefs.html#a8c0c173df9039b853ddd17c2fcbbade0" title="Return clamshell index for given MVTX layer and stave." alt="" coords="538,213,783,241"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="491,224,523,224,523,230,491,230"/>
+<area shape="rect" id="Node000008" href="$d7/db0/namespaceTpcDefs.html#aaee8d42aaa9f7331459a8589f9550086" title="Get the sector id from hitsetkey." alt="" coords="582,265,739,293"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="461,239,568,259,567,264,460,244"/>
+<area shape="rect" id="Node000009" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="595,317,726,345"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="409,239,467,271,539,302,581,314,579,319,537,307,465,275,407,244"/>
+<area shape="rect" id="Node000010" href="$d8/df1/namespaceMvtxDefs.html#a0d6fee920baed2f17bed6f7990bb88c3" title="Get the stave id from hitsetkey." alt="" coords="580,369,742,397"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="398,240,455,296,495,328,539,354,566,365,564,370,537,359,492,332,452,300,395,243"/>
+<area shape="rect" id="Node000011" href="$d3/d32/namespaceAlignmentDefs.html#a4169cea8acaa9361808c95db611347ca" title="Determine TPC region index based on layer number." alt="" coords="553,421,768,449"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="394,240,415,274,447,320,489,367,539,406,552,413,550,418,537,411,486,371,443,323,410,277,389,243"/>
+</map>

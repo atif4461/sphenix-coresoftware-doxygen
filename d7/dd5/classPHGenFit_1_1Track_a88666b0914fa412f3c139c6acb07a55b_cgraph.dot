@@ -1,0 +1,16 @@
+digraph "PHGenFit::Track::addMeasurement"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHGenFit::Track::addMeasurement",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Add measurement."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHGenFit::Measurement\l::get_cluster_ID",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/db3/classPHGenFit_1_1Measurement.html#a6dc455019a3222170fd0603fe74d38cf",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHGenFit::Measurement\l::get_cluster_key",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/db3/classPHGenFit_1_1Measurement.html#a93ebdde15227dd9e43b67ce593a20158",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHGenFit::Measurement\l::getMeasurement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/db3/classPHGenFit_1_1Measurement.html#aaba9d6a2a0672cb9e8fbc1cb383fe300",tooltip=" "];
+}

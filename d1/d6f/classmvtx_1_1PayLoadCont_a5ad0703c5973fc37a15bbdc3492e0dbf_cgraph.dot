@@ -1,0 +1,12 @@
+digraph "mvtx::PayLoadCont::getFreeCapacity"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="mvtx::PayLoadCont::\lgetFreeCapacity",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="make sure buffer may accept at least n bytes"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="mvtx::PayLoadCont::\lgetSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d6f/classmvtx_1_1PayLoadCont.html#a17549db2712b4ee4738016842559bb7e",tooltip="get offset of the current ptr from the head"];
+}

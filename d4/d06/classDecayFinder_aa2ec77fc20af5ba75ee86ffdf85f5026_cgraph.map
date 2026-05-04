@@ -1,0 +1,51 @@
+<map id="DecayFinder::checkIfCorrectGeant4Particle" name="DecayFinder::checkIfCorrectGeant4Particle">
+<area shape="rect" id="Node000001" title="Determine whether a Geant4 particle passes the decay and kinematic selection." alt="" coords="5,378,210,423"/>
+<area shape="rect" id="Node000002" href="$d4/d06/classDecayFinder.html#a8ec008cf5732c20ab0f2d3194a1691c8" title="Compare required and actual decay product lists with optional charge conjugation." alt="" coords="258,39,473,66"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,377,125,318,152,239,171,196,195,155,223,116,256,82,272,71,275,76,259,87,227,120,199,158,176,199,157,241,130,319,116,378"/>
+<area shape="rect" id="Node000007" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="541,89,712,117"/>
+<area shape="poly" id="edge28_Node000001_Node000007" title=" " alt="" coords="112,377,127,326,156,259,175,225,198,192,225,162,256,137,288,120,321,106,392,90,462,85,526,87,526,92,462,90,393,95,323,111,290,124,259,141,229,166,202,195,179,227,160,261,132,327,117,379"/>
+<area shape="rect" id="Node000008" href="$de/dc9/classPHG4Particle.html#a721c08c0388eaf2701e6daa2d25c2a54" title=" " alt="" coords="530,141,723,169"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="114,377,132,332,162,276,203,221,228,197,256,177,288,161,322,149,393,136,463,133,527,136,527,142,463,138,394,141,324,155,290,166,259,181,231,201,207,224,166,279,137,334,119,379"/>
+<area shape="rect" id="Node000009" href="$de/dc9/classPHG4Particle.html#a3a6b6e7232fca4450fef058e884710ba" title=" " alt="" coords="546,297,707,325"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="141,375,194,345,257,321,327,307,399,300,530,300,530,306,400,305,328,312,258,326,196,350,143,380"/>
+<area shape="rect" id="Node000010" href="$de/dc9/classPHG4Particle.html#a551c7bed3f04438cf0fa5647999a4864" title=" " alt="" coords="287,335,444,362"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="210,377,278,363,279,369,211,382"/>
+<area shape="rect" id="Node000011" href="$de/dc9/classPHG4Particle.html#ad6e122a3aa0d72af0390435253a052a7" title=" " alt="" coords="287,387,444,414"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="210,398,271,398,271,403,210,403"/>
+<area shape="rect" id="Node000012" href="$de/dc9/classPHG4Particle.html#ae527e6d26fc23746f001b9d32d17f065" title=" " alt="" coords="287,439,444,466"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="211,419,279,432,278,438,210,424"/>
+<area shape="rect" id="Node000013" href="$de/dc9/classPHG4Particle.html#a79a815798f148cb5818497caae6dcb41" title=" " alt="" coords="275,491,456,518"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="148,421,200,449,259,475,282,483,281,488,257,480,197,454,146,426"/>
+<area shape="rect" id="Node000014" href="$d6/d81/classPHG4VtxPoint.html#a271de766c9b21dbc56c3e339f8e42fc5" title=" " alt="" coords="287,543,444,570"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="130,421,185,475,220,503,259,527,275,535,273,540,256,532,217,508,181,479,127,425"/>
+<area shape="rect" id="Node000015" href="$d6/d81/classPHG4VtxPoint.html#a20e37ddb56c6ef297b77a99cb2377bf6" title=" " alt="" coords="287,595,444,622"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="123,422,145,457,175,500,214,543,259,580,274,587,271,592,256,584,210,547,171,503,140,460,119,425"/>
+<area shape="rect" id="Node000016" href="$d6/d81/classPHG4VtxPoint.html#a9b558f1924a5947a3aa3a407def653eb" title=" " alt="" coords="288,647,443,674"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="119,422,138,467,167,524,208,583,232,609,259,632,275,641,272,645,256,636,228,613,204,586,163,527,133,469,114,424"/>
+<area shape="rect" id="Node000017" href="$d4/d06/classDecayFinder.html#a565a2cf1f3e54414ded85bb750708f88" title="Determine whether a value is inside an inclusive interval defined by a minimum and maximum." alt="" coords="278,699,452,726"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="117,423,132,477,160,548,179,585,202,621,228,655,259,684,267,689,264,693,256,688,225,658,197,624,174,588,155,550,127,478,111,424"/>
+<area shape="rect" id="Node000018" href="$d4/d06/classDecayFinder.html#a77ea02f6570a9b85485ca563ce49f854" title="Return a string indicating pass or fail based on a boolean condition." alt="" coords="277,751,454,778"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="115,423,127,486,153,571,172,616,196,660,225,701,259,736,266,740,262,745,256,740,221,704,191,663,167,618,148,572,122,487,109,424"/>
+<area shape="rect" id="Node000019" href="$d4/d06/classDecayFinder.html#a7fdf4bca3693d0dfccdaf19998f94911" title=" " alt="" coords="265,216,466,260"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="140,376,193,333,256,289,309,264,311,269,259,293,196,337,144,380"/>
+<area shape="rect" id="Node000003" href="$d4/d06/classDecayFinder.html#a5a3a9ac7f0269da4696110931b0aa477" title="Multiply elements of a vector by a scalar except for specified particle IDs and sort the result." alt="" coords="524,21,729,66"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="473,46,508,45,508,50,473,51"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="441,64,537,83,536,88,440,70"/>
+<area shape="rect" id="Node000004" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="780,29,819,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="730,40,765,40,765,46,730,46"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="780,30,777,20,780,11,787,5,800,3,812,5,819,12,816,16,810,10,800,8,790,10,784,14,783,20,785,28"/>
+<area shape="rect" id="Node000005" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="867,29,940,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="819,40,851,40,851,46,819,46"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="884,30,881,20,884,11,891,5,903,3,916,5,923,12,920,16,914,10,903,8,893,10,888,14,887,20,889,28"/>
+<area shape="rect" id="Node000006" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="988,29,1054,57"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="941,40,973,40,973,46,941,46"/>
+<area shape="poly" id="edge21_Node000019_Node000001" title=" " alt="" coords="271,263,259,269,191,318,136,369,132,365,187,314,256,265,268,258"/>
+<area shape="poly" id="edge27_Node000019_Node000007" title=" " alt="" coords="391,213,448,170,483,147,520,127,539,120,541,125,522,132,486,152,451,174,394,217"/>
+<area shape="poly" id="edge22_Node000019_Node000008" title=" " alt="" coords="425,212,520,179,549,171,551,176,522,184,426,217"/>
+<area shape="poly" id="edge24_Node000019_Node000009" title=" " alt="" coords="441,258,522,282,553,290,552,296,520,287,440,263"/>
+<area shape="poly" id="edge26_Node000019_Node000019" title=" " alt="" coords="316,215,315,205,323,196,340,191,365,189,393,191,410,198,408,203,392,197,365,194,341,196,326,201,320,207,322,214"/>
+<area shape="rect" id="Node000020" href="$de/dc9/classPHG4Particle.html#a3ba86cf63e50dd6c0705dc91004fe51d" title=" " alt="" coords="525,193,728,221"/>
+<area shape="poly" id="edge23_Node000019_Node000020" title=" " alt="" coords="466,223,510,218,510,224,466,229"/>
+<area shape="rect" id="Node000021" href="$de/dc9/classPHG4Particle.html#a64791a9cca8d548c7292f0843472f5a5" title=" " alt="" coords="521,245,732,273"/>
+<area shape="poly" id="edge25_Node000019_Node000021" title=" " alt="" coords="466,243,506,247,506,252,466,249"/>
+</map>

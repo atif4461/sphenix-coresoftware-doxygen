@@ -1,0 +1,17 @@
+digraph "PHG4GDMLWriteMaterials::MEEWrite"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4GDMLWriteMaterials\l::MEEWrite",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Write material excitation energy element."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4GDMLWriteMaterials\l::MaterialWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d04/classPHG4GDMLWriteMaterials.html#a24dff32470666c766f8e697a00247b74",tooltip="Write GDML material element for given Geant4 material."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4GDMLWriteMaterials\l::AddMaterial",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d04/classPHG4GDMLWriteMaterials.html#a02dfefd1f4b0aa2c122952dc4ebc1a87",tooltip="Add material to internal list if not already present and invoke write routine."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4GDMLWriteStructure\l::TraverseVolumeTree",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d72/classPHG4GDMLWriteStructure.html#aaaab1c4981fe6a1feeccc3b58fa15b6e",tooltip="Traverse volume hierarchy and generate GDML elements."];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

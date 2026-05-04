@@ -1,0 +1,50 @@
+<map id="PHG4CylinderCellGeom::check_binning_method_phi" name="PHG4CylinderCellGeom::check_binning_method_phi">
+<area shape="rect" id="Node000001" title="Verify that the current binning method is compatible with phi‑related geometry." alt="" coords="737,248,944,293"/>
+<area shape="rect" id="Node000002" href="$d9/d85/classPHG4CylinderCellGeom.html#a236fedb7cb7b84be3d6a7084ab8d0633" title="Compute the phi bin index for a given azimuthal angle." alt="" coords="514,75,689,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="807,238,754,186,688,134,666,122,669,117,691,129,758,182,811,235"/>
+<area shape="rect" id="Node000004" href="$d9/d85/classPHG4CylinderCellGeom.html#af30fb12bfbc6024408c4bcdb8d381ad9" title="Retrieve the number of phi bins in the cylinder cell geometry." alt="" coords="514,213,689,258"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="721,256,689,251,690,246,722,250"/>
+<area shape="rect" id="Node000009" href="$d9/d85/classPHG4CylinderCellGeom.html#a39dfdf46297ba65cc253facbea376df3" title="Compute the phi coordinate of the cell centre for a given phi bin." alt="" coords="514,5,689,50"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="819,236,797,196,767,151,730,105,688,64,670,53,672,48,691,60,734,101,771,147,801,193,824,233"/>
+<area shape="rect" id="Node000011" href="$d9/d85/classPHG4CylinderCellGeom.html#ae1bf32fa897beb7d43fb1dbe88494816" title="Get minimum phi value of the cylinder cell geometry." alt="" coords="514,283,689,327"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="722,290,690,295,689,290,721,285"/>
+<area shape="rect" id="Node000012" href="$d9/d85/classPHG4CylinderCellGeom.html#a55c2902ba4a2b5e8d5701964a2acd4e0" title="Retrieve the azimuthal step size for the cylinder cell geometry." alt="" coords="514,144,689,189"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="777,243,688,203,660,192,662,187,690,199,779,239"/>
+<area shape="rect" id="Node000013" href="$d9/d85/classPHG4CylinderCellGeom.html#a62ff6296a3a85f04eeb908610345a703" title="Set number of phi bins for cylinder cell geometry." alt="" coords="514,352,689,397"/>
+<area shape="poly" id="edge18_Node000001_Node000013" title=" " alt="" coords="779,302,690,342,662,354,660,349,688,337,777,297"/>
+<area shape="rect" id="Node000017" href="$d9/d85/classPHG4CylinderCellGeom.html#a8aaf7b76351007d1dc91be54e214541e" title="Set the minimum azimuthal angle for the cylinder cell geometry." alt="" coords="514,421,689,466"/>
+<area shape="poly" id="edge23_Node000001_Node000017" title=" " alt="" coords="811,306,758,359,691,411,669,423,666,418,688,407,754,355,807,302"/>
+<area shape="rect" id="Node000018" href="$d9/d85/classPHG4CylinderCellGeom.html#a719e01344e250bcb1e7573eedd0af53a" title="Set the azimuthal step size for cylinder cell geometry." alt="" coords="514,491,689,535"/>
+<area shape="poly" id="edge27_Node000001_Node000018" title=" " alt="" coords="824,308,801,347,771,393,734,440,691,480,672,492,670,488,688,476,730,436,767,390,797,344,819,305"/>
+<area shape="rect" id="Node000003" href="$d5/dd0/classPHG4CylinderCellReco.html#a1d282a92e9d6254d37f5fffceb213684" title="event processing" alt="" coords="269,75,438,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="498,100,438,100,438,94,498,94"/>
+<area shape="rect" id="Node000005" href="$d0/da4/classPHG4SpacalDetector.html#a6adf2ae56b8cfea0ee63c01ec7d5dd2f" title="Add tower geometry node to the detector hierarchy." alt="" coords="258,277,449,322"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="499,265,443,279,442,274,498,260"/>
+<area shape="rect" id="Node000007" href="$d7/d10/classRawTowerBuilder.html#a01f91227474fd72e2e630a577973b67b" title="Create geometry and tower nodes in the node tree." alt="" coords="241,222,466,250"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="498,238,466,238,466,233,498,233"/>
+<area shape="rect" id="Node000006" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698" title="Construct the full projected tilted SPACAL detector geometry within the given world volume." alt="" coords="6,385,192,430"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="271,330,242,342,146,387,144,382,240,337,269,325"/>
+<area shape="rect" id="Node000008" href="$d7/d10/classRawTowerBuilder.html#a0de2c995e7f7cc3bd357d65af5d5d987" title="Initialize run by locating geometry node and creating output nodes." alt="" coords="5,222,193,250"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="225,238,193,238,193,233,225,233"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="505,57,437,77,435,72,504,52"/>
+<area shape="rect" id="Node000010" href="$df/d22/classreadDigitalCurrents.html#a6a62faef5b06dd4f4ced98dda98a17bd" title="Process a single event within the Fun4All framework." alt="" coords="279,5,428,50"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="498,30,428,30,428,25,498,25"/>
+<area shape="poly" id="edge12_Node000011_Node000005" title=" " alt="" coords="498,305,449,304,449,299,498,300"/>
+<area shape="poly" id="edge13_Node000011_Node000007" title=" " alt="" coords="509,280,465,268,410,253,412,248,467,262,511,275"/>
+<area shape="poly" id="edge17_Node000012_Node000003" title=" " alt="" coords="504,142,435,122,437,117,505,137"/>
+<area shape="poly" id="edge15_Node000012_Node000005" title=" " alt="" coords="522,199,516,203,501,218,492,233,484,248,468,263,439,279,436,275,464,259,479,245,488,230,497,215,512,199,519,194"/>
+<area shape="poly" id="edge16_Node000012_Node000007" title=" " alt="" coords="505,196,407,224,405,219,503,191"/>
+<area shape="rect" id="Node000014" href="$d0/da4/classPHG4SpacalDetector.html#af2c4c4c1f8ca4bba2552dd18f6ff54b5" title="Add cell geometry node for SPACAL detector." alt="" coords="264,491,442,535"/>
+<area shape="poly" id="edge19_Node000013_Node000014" title=" " alt="" coords="521,407,516,411,501,428,493,445,484,463,468,480,444,494,442,489,464,476,480,460,488,443,496,425,512,407,518,403"/>
+<area shape="rect" id="Node000015" href="$d5/dd0/classPHG4CylinderCellReco.html#a9912c086c658ee3070b8d69386713721" title="module initialization" alt="" coords="269,421,438,466"/>
+<area shape="poly" id="edge21_Node000013_Node000015" title=" " alt="" coords="505,404,437,423,435,418,504,399"/>
+<area shape="rect" id="Node000016" href="$dc/d20/classPHG4FullProjSpacalCellReco.html#aea3e5a8a10917a094b537adc5201d6f9" title="module initialization" alt="" coords="251,352,456,397"/>
+<area shape="poly" id="edge22_Node000013_Node000016" title=" " alt="" coords="498,377,457,377,457,372,498,372"/>
+<area shape="poly" id="edge20_Node000014_Node000006" title=" " alt="" coords="258,488,240,481,140,433,142,428,242,476,260,483"/>
+<area shape="poly" id="edge24_Node000017_Node000014" title=" " alt="" coords="505,473,437,493,435,488,504,468"/>
+<area shape="poly" id="edge25_Node000017_Node000015" title=" " alt="" coords="498,446,438,446,438,441,498,441"/>
+<area shape="poly" id="edge26_Node000017_Node000016" title=" " alt="" coords="504,419,435,400,437,395,505,414"/>
+<area shape="poly" id="edge28_Node000018_Node000014" title=" " alt="" coords="498,516,443,516,443,510,498,510"/>
+<area shape="poly" id="edge29_Node000018_Node000015" title=" " alt="" coords="504,488,435,469,437,464,505,483"/>
+<area shape="poly" id="edge30_Node000018_Node000016" title=" " alt="" coords="518,484,512,480,496,462,488,444,480,427,464,411,445,400,448,395,468,407,484,424,493,442,501,459,516,476,521,480"/>
+</map>

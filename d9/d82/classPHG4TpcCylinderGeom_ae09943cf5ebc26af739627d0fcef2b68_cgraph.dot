@@ -1,0 +1,14 @@
+digraph "PHG4TpcCylinderGeom::get_zcenter"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4TpcCylinderGeom\l::get_zcenter",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Return the z coordinate of the center of the specified bin."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4TpcCylinderGeom\l::check_binning_method",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d82/classPHG4TpcCylinderGeom.html#a8e224cd2cc6eb38c91638110f2635930",tooltip="Verify that the provided binning method matches the stored binning."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4TpcCylinderGeom\l::methodname",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d82/classPHG4TpcCylinderGeom.html#a63a0a56e70f16cf9eabe078df3df95b0",tooltip="Returns a description string for a given binning identifier."];
+}

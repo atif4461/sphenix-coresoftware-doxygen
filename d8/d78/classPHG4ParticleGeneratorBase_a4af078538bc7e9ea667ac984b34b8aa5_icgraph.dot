@@ -1,0 +1,16 @@
+digraph "PHG4ParticleGeneratorBase::EmbedFlag"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4ParticleGeneratorBase\l::EmbedFlag",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4ParticleGeneratorD0\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d78/classPHG4ParticleGeneratorD0.html#ab7b714e2007eaf957fd8790b5b0cfd39",tooltip="Generate a D0 meson event, decay it to Kminus and piplus and store the particles in the PHG4InEvent n..."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4ParticleGeneratorVector\lMeson::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#abd61007655fd3b068d1ab5b53828532a",tooltip="Generate vector meson decay particles for a single event and fill the G4InEvent node."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4SimpleEventGenerator\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/df3/classPHG4SimpleEventGenerator.html#aec25f318fcd3bc837c29c6b557ec5ba5",tooltip="Generate event vertex and particle list based on configured kinematic distributions."];
+}

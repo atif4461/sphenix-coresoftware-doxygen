@@ -1,0 +1,43 @@
+<map id="PHTruthClustering::process_event" name="PHTruthClustering::process_event">
+<area shape="rect" id="Node000001" title="Fill truth cluster node with clusters derived from G4 truth particles." alt="" coords="5,306,151,351"/>
+<area shape="rect" id="Node000002" href="$d9/d24/classPHObject.html#a1c6736c25e4dadd665c13342036d3a5b" title="Virtual copy constructor." alt="" coords="227,5,373,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,305,90,252,110,181,126,144,145,107,169,73,197,44,211,34,214,38,200,48,173,77,150,110,131,146,115,183,95,253,85,306"/>
+<area shape="rect" id="Node000003" href="$de/dc9/classPHG4Particle.html#a3ba86cf63e50dd6c0705dc91004fe51d" title=" " alt="" coords="199,57,401,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="82,305,95,260,118,204,151,146,173,119,197,96,204,90,207,95,200,100,176,123,156,149,123,206,100,262,87,306"/>
+<area shape="rect" id="Node000004" href="$de/dc9/classPHG4Particle.html#a3a6b6e7232fca4450fef058e884710ba" title=" " alt="" coords="219,109,380,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="86,305,102,270,126,227,158,184,197,148,206,142,209,147,200,152,162,188,130,230,106,272,90,307"/>
+<area shape="rect" id="Node000005" href="$de/dc9/classPHG4Particle.html#a64791a9cca8d548c7292f0843472f5a5" title=" " alt="" coords="449,385,660,413"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="151,306,206,295,269,288,336,289,402,301,438,315,472,333,528,373,524,377,469,338,436,319,400,306,336,294,270,294,207,301,152,311"/>
+<area shape="rect" id="Node000006" href="$de/dc9/classPHG4Particle.html#a23b7432f9b345b67a00e5c005fa5ba52" title=" " alt="" coords="203,213,396,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="112,304,153,280,198,257,231,244,233,249,200,262,155,284,115,308"/>
+<area shape="rect" id="Node000007" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="228,161,372,189"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="93,304,136,251,165,223,197,200,212,192,215,197,200,204,168,227,139,255,97,307"/>
+<area shape="rect" id="Node000013" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="230,315,370,342"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="151,326,214,326,214,331,151,331"/>
+<area shape="rect" id="Node000014" href="$da/d6c/classPHG4TruthInfoContainer.html#a1ee31482bc1d9463f16bf4de90273c41" title="Get a range of iterators covering the entire container." alt="" coords="211,366,388,411"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="152,346,201,359,200,364,150,351"/>
+<area shape="rect" id="Node000015" href="$da/d6c/classPHG4TruthInfoContainer.html#a7db644fb16d94d5dc40e9375587a3743" title="Retrieve primary particle pointer for given track identifier." alt="" coords="211,436,388,480"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="105,349,148,386,200,421,211,426,209,431,197,425,144,390,101,353"/>
+<area shape="rect" id="Node000016" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="230,504,370,532"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="92,350,108,382,132,420,163,458,200,490,217,499,214,504,197,495,159,462,128,423,104,384,87,352"/>
+<area shape="rect" id="Node000017" href="$d6/dfa/classTrkrCluster.html#a49bdd8bd251f95a45cc7e7f15b560e1e" title=" " alt="" coords="226,556,374,584"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="88,350,102,392,125,443,157,496,178,520,200,541,213,549,210,554,197,545,174,524,153,499,120,446,97,394,83,352"/>
+<area shape="rect" id="Node000018" href="$da/d6c/classPHG4TruthInfoContainer.html#a422cbc96a42020587ff934b08017a73e" title="Determine embedding flag for a given track identifier." alt="" coords="211,608,388,652"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="86,351,97,401,119,466,153,534,175,565,201,593,204,596,201,600,197,597,171,569,148,537,114,468,92,402,81,352"/>
+<area shape="rect" id="Node000020" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="215,676,385,704"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="83,351,90,413,108,497,123,542,143,586,169,627,201,663,204,665,200,669,197,666,164,630,138,589,118,544,103,499,85,414,78,352"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="464,136,645,164"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="372,165,448,158,449,163,372,171"/>
+<area shape="rect" id="Node000012" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="472,188,637,216"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="372,180,457,189,457,194,372,185"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="512,137,504,127,510,117,527,111,555,109,584,112,600,118,599,123,583,117,555,115,528,117,513,121,510,127,516,134"/>
+<area shape="rect" id="Node000009" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="752,84,894,112"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="629,133,736,112,737,117,631,138"/>
+<area shape="rect" id="Node000010" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="757,136,889,164"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="646,147,741,147,741,152,646,152"/>
+<area shape="rect" id="Node000011" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="708,188,938,216"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="631,162,733,182,732,187,629,167"/>
+<area shape="poly" id="edge19_Node000018_Node000005" title=" " alt="" coords="379,605,399,593,444,553,483,508,514,463,537,425,541,428,519,465,487,511,448,557,403,597,382,609"/>
+<area shape="rect" id="Node000019" href="$da/d6c/classPHG4TruthInfoContainer.html#a175e3e0bbb61b850bf184368d920152f" title="Retrieve particle pointer from container by track identifier." alt="" coords="466,608,643,652"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="389,627,450,627,450,632,389,632"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="SiliconSeedsQA::process_event" name="SiliconSeedsQA::process_event">
+<area shape="rect" id="Node000001" title="Process a single event and fill QA histograms." alt="" coords="5,505,186,550"/>
+<area shape="rect" id="Node000002" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a010471ff09f0d3aa1168b0d4272f5dcf" title="Compute the distance of closest approach between a track and a global vertex." alt="" coords="235,232,376,276"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,503,275,287,280,290,116,506"/>
+<area shape="rect" id="Node000012" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="234,513,377,541"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="186,524,218,524,218,530,186,530"/>
+<area shape="rect" id="Node000018" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="235,565,376,593"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="187,547,233,559,232,564,185,552"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="265,231,264,221,271,212,285,207,305,205,328,207,342,214,339,219,327,212,305,210,286,212,274,217,269,223,270,231"/>
+<area shape="rect" id="Node000003" href="$d1/d39/classGlobalVertex.html#a22f8c94071181ba1313d2e513f3a1791" title=" " alt="" coords="430,5,602,33"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="311,230,325,190,348,140,381,88,401,65,423,44,431,38,434,43,427,48,405,68,385,91,353,143,330,192,316,232"/>
+<area shape="rect" id="Node000004" href="$d2/db8/classSvtxTrack.html#ab4234187454e1a02c2f9e049253be520" title=" " alt="" coords="440,57,591,85"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="316,230,357,163,387,127,423,96,433,90,436,94,427,100,391,131,361,166,320,233"/>
+<area shape="rect" id="Node000005" href="$d2/db8/classSvtxTrack.html#aedabd3166162f03aed6e1707527a2831" title=" " alt="" coords="448,109,584,137"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="325,229,368,188,424,148,438,141,440,145,426,152,371,192,329,233"/>
+<area shape="rect" id="Node000006" href="$d2/db8/classSvtxTrack.html#a63ea7f25d2e8bac2d3d905d8950a3a9c" title=" " alt="" coords="448,161,584,189"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="354,228,424,199,447,192,448,197,426,204,356,233"/>
+<area shape="rect" id="Node000007" href="$d2/db8/classSvtxTrack.html#a925c22addac47679511e99345ae6c6db" title=" " alt="" coords="448,213,583,241"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="375,242,432,235,433,240,376,248"/>
+<area shape="rect" id="Node000008" href="$d1/d39/classGlobalVertex.html#a59fe1a00491bfa1a861b9001cda579ab" title=" " alt="" coords="441,265,590,293"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="376,260,426,266,425,271,375,265"/>
+<area shape="rect" id="Node000009" href="$d1/d39/classGlobalVertex.html#a5a8bcc3e3d9132c3302471d545077243" title=" " alt="" coords="441,317,590,345"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="358,274,426,302,449,310,448,315,424,307,356,279"/>
+<area shape="rect" id="Node000010" href="$d1/d39/classGlobalVertex.html#a57f73fa21221f16fbaead42c95b2833b" title=" " alt="" coords="442,369,590,397"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="329,275,372,315,426,354,440,361,438,366,424,359,368,319,325,279"/>
+<area shape="rect" id="Node000011" href="$d7/ddb/namespaceTrackAnalysisUtils.html#adbe563647f8879bb6b66ce880be9cc56" title="Compute a rotation matrix that aligns the global Z axis with the transverse projection of a momentum ..." alt="" coords="430,421,601,466"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="321,275,363,340,392,375,427,406,433,411,430,415,423,411,388,379,358,343,316,278"/>
+<area shape="rect" id="Node000013" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="425,513,606,541"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="378,524,409,524,409,530,378,530"/>
+<area shape="rect" id="Node000017" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="434,565,598,593"/>
+<area shape="poly" id="edge18_Node000012_Node000017" title=" " alt="" coords="365,539,443,558,441,564,364,544"/>
+<area shape="poly" id="edge14_Node000013_Node000013" title=" " alt="" coords="480,514,474,504,478,495,493,489,516,487,540,489,554,496,552,500,539,494,516,492,494,494,482,499,479,504,484,511"/>
+<area shape="rect" id="Node000014" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="698,461,840,489"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="586,510,682,490,683,495,587,515"/>
+<area shape="rect" id="Node000015" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="703,513,835,541"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="607,524,687,524,687,530,607,530"/>
+<area shape="rect" id="Node000016" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="654,565,884,593"/>
+<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="587,539,683,559,682,564,586,544"/>
+</map>

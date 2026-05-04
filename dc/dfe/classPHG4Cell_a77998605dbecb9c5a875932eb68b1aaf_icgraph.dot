@@ -1,0 +1,16 @@
+digraph "PHG4Cell::set_cellid"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4Cell::set_cellid",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4CellContainer::\lAddCellSpecifyKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d97/classPHG4CellContainer.html#a7d5b0c06c65e65e09bbb0b2c92b61609",tooltip="Add a new cell with a specified key to the container."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4Cell::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dfe/classPHG4Cell.html#a9cfdfbfc9da09f94ce537aa4bfe2650a",tooltip="Copy cell identifier and all defined properties from another PHG4Cell."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4CellContainer::\lfindOrAddCell",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d97/classPHG4CellContainer.html#ad5597689a3eab5c0459bc2b1c1a643f8",tooltip="Find or add a cell in the container."];
+}

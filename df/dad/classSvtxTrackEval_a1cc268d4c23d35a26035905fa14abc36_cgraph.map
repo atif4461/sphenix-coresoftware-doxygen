@@ -1,0 +1,21 @@
+<map id="SvtxTrackEval::max_truth_particle_by_nclusters" name="SvtxTrackEval::max_truth_particle_by_nclusters">
+<area shape="rect" id="Node000001" title="Retrieve the truth particle that contributes the maximum number of clusters to the given track." alt="" coords="5,142,210,187"/>
+<area shape="rect" id="Node000002" href="$df/dad/classSvtxTrackEval.html#a62e98f45f00aecf81de1d3df574db70f" title="Retrieve all Monte Carlo truth particles associated with a reconstructed SvtxTrack." alt="" coords="276,57,412,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,139,265,105,266,110,172,144"/>
+<area shape="rect" id="Node000003" href="$d2/db8/classSvtxTrack.html#a915b273940c053948796e100deaa5f13" title=" " alt="" coords="490,5,623,33"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="127,140,181,88,217,62,257,42,312,25,369,15,425,11,475,11,475,16,425,16,370,21,313,30,259,47,220,67,185,92,131,144"/>
+<area shape="rect" id="Node000004" href="$df/dad/classSvtxTrackEval.html#a4d27c097f0e8d952df3788b896cd6b91" title=" " alt="" coords="683,168,825,212"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="210,166,667,184,667,189,210,171"/>
+<area shape="rect" id="Node000005" href="$d9/da8/classSvtxTrack__FastSim.html#a70b317335b88ae96d6eb8a4e83aeb479" title="Retrieve the stored truth track identifier." alt="" coords="482,108,632,152"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="210,154,465,134,466,139,210,159"/>
+<area shape="rect" id="Node000006" href="$df/dad/classSvtxTrackEval.html#a1dd0fdc1d1776c7b0b0643a9ab7cf25f" title="Retrieve number of clusters contributed by a given particle to a track." alt="" coords="258,228,430,272"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="172,185,266,219,265,224,171,190"/>
+<area shape="rect" id="Node000008" href="$d4/de4/classSvtxTruthEval.html#ae575fcf72ce935a72f3c5a157abdd900" title="Retrieve the PHG4Particle associated with a given PHG4Hit." alt="" coords="274,297,414,342"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="134,185,189,233,259,282,268,287,265,292,256,287,186,237,131,189"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,57,490,35,491,40,413,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="412,69,462,67,519,69,579,76,636,93,661,105,685,120,724,154,721,158,682,125,659,109,634,98,578,82,519,74,462,72,412,74"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="413,93,467,106,466,111,412,98"/>
+<area shape="rect" id="Node000007" href="$df/dad/classSvtxTrackEval.html#add4977defc053407dcaccf555ab467de" title="Calculate number of clusters contributed by a track to a given truth particle and cache results." alt="" coords="478,228,635,272"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="431,247,462,247,462,252,431,252"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="631,224,668,213,669,218,633,230"/>
+</map>

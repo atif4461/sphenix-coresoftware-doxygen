@@ -1,0 +1,88 @@
+<map id="PHG4FullProjSpacalDetector::ConstructMe" name="PHG4FullProjSpacalDetector::ConstructMe">
+<area shape="rect" id="Node000001" title="Construct the full projection Spacal detector geometry within the provided world logical volume." alt="" coords="5,984,210,1028"/>
+<area shape="rect" id="Node000002" href="$d0/da4/classPHG4SpacalDetector.html#a332cf236022185ea0873a2c26cf5b12f" title="Construct the Spacal detector geometry within the provided world logical volume." alt="" coords="258,686,414,731"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,981,306,742,310,745,128,985"/>
+<area shape="rect" id="Node000015" href="$d3/de7/classPHG4Detector.html#a5cb53c12d6e4f5f5252ddd00a8fbebd0" title=" " alt="" coords="1007,1144,1190,1172"/>
+<area shape="poly" id="edge52_Node000001_Node000015" title=" " alt="" coords="134,1027,188,1075,266,1136,360,1195,411,1221,463,1241,593,1277,647,1287,698,1290,749,1288,804,1281,935,1250,972,1236,1008,1218,1067,1179,1070,1183,1011,1223,975,1241,936,1255,805,1286,750,1294,698,1296,646,1292,591,1282,461,1246,409,1225,358,1200,263,1140,185,1079,131,1031"/>
+<area shape="rect" id="Node000003" href="$d4/de7/classPHG4CylinderGeomContainer.html#a3ddfc417362ea09b1d729976dc7fb570" title="Add a cylinder geometry object for a given layer index." alt="" coords="462,209,675,254"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,685,348,618,370,523,406,416,431,364,460,315,485,285,515,261,518,265,489,289,464,318,435,366,411,418,375,524,353,619,342,686"/>
+<area shape="rect" id="Node000005" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="464,328,673,356"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="339,685,353,632,376,560,412,481,434,443,460,408,489,381,521,361,524,365,492,386,464,412,439,446,417,483,381,561,358,633,344,687"/>
+<area shape="rect" id="Node000009" href="$d4/d9b/classPHG4SpacalDisplayAction.html#a3851780045227ce76daf7e308a477c54" title=" " alt="" coords="1003,670,1194,715"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="381,683,419,667,461,655,531,645,603,639,746,640,878,651,988,668,987,673,877,657,745,645,603,644,532,650,463,660,421,672,383,688"/>
+<area shape="rect" id="Node000010" href="$d0/da4/classPHG4SpacalDetector.html#a0935a220e42060ece37d12f07b08fe48" title=" " alt="" coords="490,64,647,108"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="336,686,348,569,372,399,389,311,409,231,432,165,446,139,460,119,475,106,479,110,464,122,450,141,437,167,414,233,394,312,377,400,353,569,342,686"/>
+<area shape="rect" id="Node000011" href="$d0/da4/classPHG4SpacalDetector.html#acde5479ab63b50fea1713c8a92b5a3b2" title="Construct the azimuthal segment logical volume for the Spacal detector." alt="" coords="474,772,663,816"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="400,729,492,763,490,768,398,734"/>
+<area shape="rect" id="Node000013" href="$d3/de7/classPHG4Detector.html#a8e548682ab05493f7cdbd391bc4f67be" title="Retrieve a G4Material by name, optionally aborting on failure." alt="" coords="998,762,1198,807"/>
+<area shape="poly" id="edge42_Node000002_Node000013" title=" " alt="" coords="415,714,983,770,982,776,414,719"/>
+<area shape="rect" id="Node000014" href="$d0/da4/classPHG4SpacalDetector.html#a65854677d4248ad5cc43c8a7a80cbdc4" title=" " alt="" coords="1020,601,1176,646"/>
+<area shape="poly" id="edge43_Node000002_Node000014" title=" " alt="" coords="362,683,406,652,433,638,461,627,533,610,607,598,682,592,756,590,893,595,1005,606,1004,611,893,600,756,595,683,597,608,604,534,615,463,632,435,643,409,657,365,688"/>
+<area shape="poly" id="edge44_Node000002_Node000015" title=" " alt="" coords="343,731,358,818,385,937,401,996,420,1050,441,1092,464,1120,502,1140,556,1154,623,1163,697,1168,852,1169,991,1163,991,1169,853,1175,697,1174,622,1169,555,1159,500,1145,460,1124,437,1095,415,1052,396,998,379,938,353,819,338,732"/>
+<area shape="rect" id="Node000016" href="$d3/de7/classPHG4Detector.html#a010c3ce04a20df68f63e189fd7af49d3" title=" " alt="" coords="992,1017,1204,1045"/>
+<area shape="poly" id="edge46_Node000002_Node000016" title=" " alt="" coords="339,731,342,803,348,850,358,901,373,952,395,1002,425,1046,463,1082,503,1100,558,1111,622,1114,692,1112,829,1099,935,1083,996,1068,1050,1049,1052,1054,997,1073,936,1088,830,1104,692,1117,622,1119,557,1116,502,1106,461,1087,421,1049,390,1004,368,954,352,902,342,851,337,803,334,731"/>
+<area shape="rect" id="Node000017" href="$d3/de7/classPHG4Detector.html#a4e715f0e6414db625cf82232fdb859e1" title=" " alt="" coords="1007,891,1190,918"/>
+<area shape="poly" id="edge51_Node000002_Node000017" title=" " alt="" coords="343,731,355,782,377,850,392,885,412,919,436,950,464,977,523,1020,579,1050,633,1069,686,1078,741,1077,800,1068,864,1052,935,1029,963,1013,999,987,1069,927,1072,931,1002,991,966,1018,937,1034,865,1057,801,1073,742,1082,686,1083,632,1074,577,1055,520,1024,460,981,432,954,408,922,388,887,372,852,349,784,338,732"/>
+<area shape="rect" id="Node000018" href="$d3/de7/classPHG4Detector.html#a1a914e84447dd5ab89745cb9fcd1942e" title=" " alt="" coords="723,992,936,1020"/>
+<area shape="poly" id="edge47_Node000002_Node000018" title=" " alt="" coords="350,730,394,802,426,842,464,877,526,916,595,947,663,969,727,986,725,991,662,975,593,952,524,921,460,881,422,846,389,805,346,733"/>
+<area shape="rect" id="Node000019" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="739,415,920,442"/>
+<area shape="poly" id="edge26_Node000002_Node000019" title=" " alt="" coords="338,685,350,635,372,571,388,537,408,506,432,477,460,453,493,435,528,421,602,406,676,404,741,409,741,415,675,409,603,412,530,426,495,439,464,457,436,481,412,509,393,540,377,573,355,636,343,686"/>
+<area shape="rect" id="Node000022" href="$d1/da8/classPHFlag.html#a2527c60236838b31be8c04c17e529976" title="Retrieve string flag value by name." alt="" coords="484,132,653,160"/>
+<area shape="poly" id="edge31_Node000002_Node000022" title=" " alt="" coords="334,686,335,598,340,537,349,469,365,397,387,326,419,257,460,195,479,177,501,164,503,169,482,181,464,198,423,260,392,328,370,399,354,470,345,537,340,598,339,686"/>
+<area shape="rect" id="Node000030" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="497,467,640,494"/>
+<area shape="poly" id="edge39_Node000002_Node000030" title=" " alt="" coords="343,685,359,647,384,600,418,552,460,510,482,498,484,502,464,515,422,555,389,603,364,649,348,687"/>
+<area shape="rect" id="Node000032" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="490,669,647,697"/>
+<area shape="poly" id="edge45_Node000002_Node000032" title=" " alt="" coords="414,697,474,691,475,696,415,703"/>
+<area shape="rect" id="Node000033" href="$d0/da4/classPHG4SpacalDetector.html#a53d2ee90ace814d4ca2e95c71521885c" title="Print geometry information for the Spacal detector." alt="" coords="751,1196,908,1240"/>
+<area shape="poly" id="edge48_Node000002_Node000033" title=" " alt="" coords="343,731,356,828,381,963,398,1031,417,1093,439,1142,464,1175,493,1196,526,1211,561,1223,597,1230,669,1235,736,1231,736,1237,669,1240,596,1235,559,1228,524,1216,491,1200,460,1178,435,1145,412,1095,393,1032,376,964,351,829,337,732"/>
+<area shape="rect" id="Node000034" href="$d3/de7/classPHG4Detector.html#a03e92ef60ce0c7cc8aac0c3ba3e52f04" title=" " alt="" coords="480,840,657,868"/>
+<area shape="poly" id="edge50_Node000002_Node000034" title=" " alt="" coords="356,729,401,779,431,805,463,826,474,832,472,836,461,831,428,809,398,783,352,733"/>
+<area shape="rect" id="Node000004" href="$dc/d30/classPHG4CylinderGeom.html#ac87004c8a4c4ea4e3ac85686a18aa3db" title=" " alt="" coords="740,170,919,215"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="675,213,725,205,726,211,676,218"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="1028,347,1169,374"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="674,343,1013,355,1012,360,673,348"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="1032,289,1165,317"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="673,332,1016,306,1017,312,674,337"/>
+<area shape="rect" id="Node000008" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="758,239,901,266"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="605,325,722,282,764,269,765,274,724,287,607,330"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="1053,290,1045,280,1051,271,1069,265,1098,263,1130,265,1147,272,1145,277,1129,270,1098,268,1070,270,1054,275,1051,280,1057,287"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="902,263,1017,285,1016,290,901,268"/>
+<area shape="poly" id="edge13_Node000011_Node000009" title=" " alt="" coords="663,773,987,711,988,716,664,779"/>
+<area shape="rect" id="Node000012" href="$d0/da4/classPHG4SpacalDetector.html#aeb7c6f4586ddc3f81cc132e058aa2f32" title="Construct a fiber logical volume with cladding and core." alt="" coords="751,822,908,867"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="664,810,736,824,735,829,663,815"/>
+<area shape="poly" id="edge21_Node000011_Node000013" title=" " alt="" coords="663,790,983,784,983,789,663,795"/>
+<area shape="poly" id="edge22_Node000011_Node000014" title=" " alt="" coords="616,768,722,723,870,677,1004,642,1006,647,872,682,724,728,618,773"/>
+<area shape="poly" id="edge23_Node000011_Node000015" title=" " alt="" coords="660,814,677,826,688,839,695,851,702,876,708,900,714,911,725,922,752,940,778,948,829,951,880,953,908,962,937,978,955,996,965,1015,972,1034,986,1055,1027,1097,1068,1132,1064,1136,1023,1101,982,1058,967,1036,960,1017,951,1000,934,983,906,967,880,959,828,957,777,954,750,945,722,927,710,915,703,902,696,878,690,853,684,842,674,831,657,819"/>
+<area shape="poly" id="edge25_Node000011_Node000017" title=" " alt="" coords="654,814,677,826,692,840,701,854,710,866,725,877,790,900,860,912,929,916,992,915,992,920,929,922,859,917,789,905,722,882,706,870,696,857,688,843,674,831,652,819"/>
+<area shape="poly" id="edge24_Node000011_Node000018" title=" " alt="" coords="662,815,677,827,692,845,699,864,702,901,705,937,712,955,725,972,738,982,735,986,721,976,707,957,699,938,696,902,694,865,687,848,673,830,659,819"/>
+<area shape="poly" id="edge15_Node000012_Node000009" title=" " alt="" coords="864,820,982,748,1035,720,1038,724,985,752,867,824"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="908,824,982,808,983,813,909,830"/>
+<area shape="poly" id="edge17_Node000012_Node000014" title=" " alt="" coords="841,820,863,784,895,740,935,695,982,656,1004,643,1007,648,985,660,939,698,899,743,868,787,846,823"/>
+<area shape="poly" id="edge18_Node000012_Node000015" title=" " alt="" coords="866,865,903,896,938,935,955,967,962,996,969,1024,986,1055,1024,1098,1065,1132,1062,1137,1021,1102,981,1058,964,1025,957,997,950,969,933,938,899,900,863,869"/>
+<area shape="poly" id="edge19_Node000012_Node000016" title=" " alt="" coords="865,865,1066,1006,1063,1010,862,870"/>
+<area shape="poly" id="edge20_Node000012_Node000017" title=" " alt="" coords="909,859,1019,884,1017,889,908,865"/>
+<area shape="poly" id="edge28_Node000019_Node000006" title=" " alt="" coords="887,411,1025,376,1026,381,888,417"/>
+<area shape="poly" id="edge27_Node000019_Node000019" title=" " alt="" coords="785,416,778,406,784,396,801,390,830,388,860,390,876,397,874,402,859,396,829,393,802,395,787,400,783,405,790,412"/>
+<area shape="rect" id="Node000020" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1032,409,1164,437"/>
+<area shape="poly" id="edge29_Node000019_Node000020" title=" " alt="" coords="921,424,1017,422,1017,427,921,429"/>
+<area shape="rect" id="Node000021" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="984,461,1213,489"/>
+<area shape="poly" id="edge30_Node000019_Node000021" title=" " alt="" coords="914,440,1000,455,999,461,913,446"/>
+<area shape="rect" id="Node000023" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="777,119,882,146"/>
+<area shape="poly" id="edge32_Node000022_Node000023" title=" " alt="" coords="654,139,761,133,761,139,654,144"/>
+<area shape="rect" id="Node000029" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="742,67,917,94"/>
+<area shape="poly" id="edge38_Node000022_Node000029" title=" " alt="" coords="631,129,675,118,723,105,755,96,756,101,724,110,676,123,632,134"/>
+<area shape="rect" id="Node000024" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="1005,5,1192,33"/>
+<area shape="poly" id="edge33_Node000023_Node000024" title=" " alt="" coords="882,124,909,116,934,104,949,90,957,74,966,59,982,44,994,37,997,42,985,48,970,62,962,77,953,93,937,108,911,121,883,129"/>
+<area shape="rect" id="Node000025" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="1012,57,1185,85"/>
+<area shape="poly" id="edge34_Node000023_Node000025" title=" " alt="" coords="882,118,1019,86,1020,92,883,123"/>
+<area shape="rect" id="Node000026" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="1020,109,1177,137"/>
+<area shape="poly" id="edge35_Node000023_Node000026" title=" " alt="" coords="883,128,1004,124,1004,129,883,133"/>
+<area shape="rect" id="Node000027" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="1009,161,1188,189"/>
+<area shape="poly" id="edge36_Node000023_Node000027" title=" " alt="" coords="883,138,994,156,994,161,882,143"/>
+<area shape="rect" id="Node000028" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="1008,213,1189,241"/>
+<area shape="poly" id="edge37_Node000023_Node000028" title=" " alt="" coords="883,137,911,145,937,156,952,166,962,177,971,188,985,198,1001,205,999,210,982,203,967,192,958,181,948,170,934,160,909,150,882,142"/>
+<area shape="poly" id="edge40_Node000030_Node000019" title=" " alt="" coords="640,464,741,443,742,449,641,469"/>
+<area shape="rect" id="Node000031" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="747,467,912,494"/>
+<area shape="poly" id="edge41_Node000030_Node000031" title=" " alt="" coords="641,478,732,478,732,483,641,483"/>
+<area shape="poly" id="edge49_Node000033_Node000015" title=" " alt="" coords="908,1198,1017,1173,1019,1178,909,1203"/>
+</map>

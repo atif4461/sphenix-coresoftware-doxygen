@@ -1,0 +1,22 @@
+digraph "MvtxPixelDefs::gen_pixelkey"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MvtxPixelDefs::gen\l_pixelkey",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Generate a 64bit pixel key from hitset and hit identifiers."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MvtxPixelDefs::gen\l_pixelkey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d69/namespaceMvtxPixelDefs.html#a484f5e85ceeaa1967bf98015e845cb00",tooltip="Generate a pixelkey from a MvtxRawHit."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MvtxPixelDefs::gen\l_pixelkey_from_coors",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d69/namespaceMvtxPixelDefs.html#ab966fc14dcc700983da3ca82e03f0d15",tooltip="Generate a MVTX pixel key from detector coordinates."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="MvtxPixelMask::load\l_from_CDB",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d56/classMvtxPixelMask.html#a4ee4c44f2ba1037b5d987c81c9273f3e",tooltip="Load hot pixel map from CDB for MVTX detector."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="MvtxPixelMask::is_masked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d56/classMvtxPixelMask.html#a712727c7f4535081a7e103b75654296a",tooltip="Determine whether a given Mvtx raw hit is masked as a hot pixel."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="MvtxFakeHitRate::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d9d/classMvtxFakeHitRate.html#ac6a405a2dd83407bb1b9c61539fa4b46",tooltip="Process a single event extracting MVTX raw hits and filling hit map."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="MvtxHitMapWriter::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d7b/classMvtxHitMapWriter.html#a49ded1437d844cb0ed27c58670824b4e",tooltip="Process a single event and fill the MVTX hit map."];
+}

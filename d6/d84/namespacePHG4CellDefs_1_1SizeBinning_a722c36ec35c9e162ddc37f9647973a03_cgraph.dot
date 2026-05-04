@@ -1,0 +1,12 @@
+digraph "PHG4CellDefs::SizeBinning::get_phibin"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4CellDefs::SizeBinning\l::get_phibin",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve the phi bin index from a packed cell key."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="generic_lower_16bit_key",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d13/PHG4CellDefs_8cc.html#a728902c52be0b58ad2d4d8232b2beb5b",tooltip="Extract lower 16 bits of a cell key when the binning matches."];
+}

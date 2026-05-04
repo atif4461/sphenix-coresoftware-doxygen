@@ -1,0 +1,14 @@
+digraph "g4evalfn::clusloc_SVTX"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="g4evalfn::clusloc_SVTX",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct a TrkrClusLoc object for a SVTX cluster."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackClusEvaluator\l::svtx_clusloc_all",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ded/classTrackClusEvaluator.html#a367258f4466e2d1609fdc96ad7930a92",tooltip="Retrieve all SVTX cluster locations."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackClusEvaluator\l::svtx_clusloc_unmatched",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ded/classTrackClusEvaluator.html#a2953c88ad898cb1eabf2cf0d9ce058f3",tooltip="Retrieve the locations of SVTX clusters that have not been matched."];
+}

@@ -1,0 +1,92 @@
+<map id="SingleInttPoolInput::FillPool" name="SingleInttPoolInput::FillPool">
+<area shape="rect" id="Node000001" title="Fill internal INTT pools with events from input files." alt="" coords="5,1016,150,1060"/>
+<area shape="rect" id="Node000002" href="$d7/dff/classFun4AllStreamingInputManager.html#a2c774b85e0733093f37cbca5fecd95fb" title="Add an InttRawHit to the internal maps for a given bunch clock." alt="" coords="209,80,435,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,1015,88,861,110,626,126,502,146,385,169,287,195,215,211,191,230,168,271,132,275,136,234,172,215,194,200,218,174,288,151,387,132,502,116,626,93,861,83,1015"/>
+<area shape="rect" id="Node000006" href="$d3/dbc/classSingleStreamingInput.html#a4afd5b74dd0f970779414274c1489a8c" title=" " alt="" coords="526,178,688,223"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="76,1015,81,866,97,644,112,528,132,422,160,335,177,301,196,276,229,248,266,226,307,210,349,198,434,187,511,187,511,193,434,193,350,204,308,215,269,231,232,252,200,280,181,304,165,337,137,423,117,529,102,644,86,867,82,1015"/>
+<area shape="rect" id="Node000007" href="$d5/dcb/classSingleInttPoolInput.html#a4075bbdcbd8570d09110f50684e344ea" title="Configure the streaming input manager for the specified run number." alt="" coords="198,688,446,750"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="81,1014,94,967,117,904,150,837,171,806,196,777,222,756,225,760,200,781,176,809,155,840,122,906,99,968,86,1016"/>
+<area shape="rect" id="Node000010" href="$d2/d8a/classInputFileHandler.html#a60db005eca23d42b7e02e6c47af90095" title=" " alt="" coords="497,835,717,862"/>
+<area shape="poly" id="edge26_Node000001_Node000010" title=" " alt="" coords="88,1014,105,984,129,950,160,917,196,890,266,861,340,844,413,837,482,835,482,841,414,842,341,850,268,866,199,895,163,921,133,953,109,987,92,1016"/>
+<area shape="rect" id="Node000014" href="$d3/dbc/classSingleStreamingInput.html#a239cc931094cba18549ad0b5289338e1" title=" " alt="" coords="514,766,700,811"/>
+<area shape="poly" id="edge43_Node000001_Node000014" title=" " alt="" coords="83,1014,98,976,121,930,154,883,174,862,196,845,231,825,269,809,348,789,427,779,499,777,499,783,427,784,349,794,271,814,234,830,199,849,177,866,158,886,126,932,103,978,88,1016"/>
+<area shape="rect" id="Node000015" href="$d2/de0/classintt__pool.html#a3c96fd11b4e9b91a0246d09f75a46fe6" title="Check whether the pool depth satisfies the required depth." alt="" coords="249,1075,395,1102"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="151,1050,237,1068,236,1074,149,1055"/>
+<area shape="rect" id="Node000017" href="$d3/dbc/classSingleStreamingInput.html#aa5bc32a277c473c828955316b5f6d958" title="Close the current input file and clean up iterator." alt="" coords="241,390,402,435"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="83,1014,127,870,195,676,250,549,299,448,304,450,255,552,200,677,132,872,88,1016"/>
+<area shape="rect" id="Node000021" href="$d3/dbc/classSingleStreamingInput.html#a28e46f74fceea67c8f90abacc5d934f5" title=" " alt="" coords="241,1126,402,1171"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="111,1059,152,1086,199,1111,227,1123,225,1127,197,1116,149,1090,108,1063"/>
+<area shape="rect" id="Node000022" href="$d2/de0/classintt__pool.html#aea71827111b09721fcc18b7164a05071" title=" " alt="" coords="239,1195,404,1222"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="93,1059,134,1121,164,1154,199,1181,226,1193,224,1198,196,1185,161,1158,130,1124,89,1062"/>
+<area shape="rect" id="Node000023" href="$d5/dcb/classSingleInttPoolInput.html#ab0b6ac02bbb856b6746217dea6e387ad" title="Retrieve additional events for processing based on a reference bunch clock." alt="" coords="239,290,405,335"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="78,1015,88,886,110,697,126,598,145,507,168,430,181,400,196,376,215,356,238,340,241,345,218,360,200,379,186,402,173,432,150,508,131,599,115,698,93,887,83,1015"/>
+<area shape="rect" id="Node000025" href="$d3/dbc/classSingleStreamingInput.html#a186c183f11e3aae1a87ff41ff61b95e0" title=" " alt="" coords="241,1246,402,1291"/>
+<area shape="poly" id="edge27_Node000001_Node000025" title=" " alt="" coords="89,1059,104,1097,127,1144,159,1191,199,1232,228,1248,225,1253,196,1236,155,1195,122,1147,99,1099,84,1061"/>
+<area shape="rect" id="Node000026" href="$d5/dcb/classSingleInttPoolInput.html#a80e92e8e6b482ea04409bc08e6700183" title="Determine if the specified run number corresponds to a streaming data taking mode." alt="" coords="250,1316,394,1360"/>
+<area shape="poly" id="edge28_Node000001_Node000026" title=" " alt="" coords="85,1060,96,1110,117,1175,151,1243,173,1274,199,1301,216,1313,236,1322,233,1326,214,1317,196,1305,169,1278,146,1246,112,1177,91,1111,80,1061"/>
+<area shape="rect" id="Node000029" href="$d2/de0/classintt__pool.html#a596101769694d75d2e7d3195e8f70fdf" title="Retrieve integer value for a given hit and field from INTT decoded data." alt="" coords="259,1436,385,1464"/>
+<area shape="poly" id="edge31_Node000001_Node000029" title=" " alt="" coords="81,1060,85,1131,100,1229,115,1281,136,1333,164,1380,199,1421,220,1435,245,1443,243,1448,218,1440,196,1425,159,1383,131,1335,110,1283,95,1230,79,1132,76,1061"/>
+<area shape="rect" id="Node000032" href="$d2/de0/classintt__pool.html#af1f2bb3cec7095c5a2b7bf4d8722494f" title="Retrieve integer value from an intt hit based on a field identifier." alt="" coords="259,1384,385,1412"/>
+<area shape="poly" id="edge34_Node000001_Node000032" title=" " alt="" coords="82,1060,89,1123,106,1207,121,1252,141,1296,167,1336,199,1370,220,1384,244,1392,243,1397,218,1389,196,1375,163,1339,137,1298,116,1254,101,1209,83,1124,77,1061"/>
+<area shape="rect" id="Node000033" href="$d2/de0/classintt__pool.html#a9e07d5d9e68e7740b2f0b91789f5c8be" title="Reset internal buffers and clear hit collections for intt_pool." alt="" coords="264,1488,380,1516"/>
+<area shape="poly" id="edge36_Node000001_Node000033" title=" " alt="" coords="85,1060,99,1151,123,1276,139,1339,157,1396,178,1442,200,1473,223,1488,250,1497,248,1502,220,1493,196,1477,173,1445,153,1398,134,1340,118,1277,93,1152,79,1061"/>
+<area shape="rect" id="Node000034" href="$d2/d8a/classInputFileHandler.html#acf665524602bc5f8cc2398bfd26121ae" title="Open the next file in the internal file list." alt="" coords="210,904,434,932"/>
+<area shape="poly" id="edge37_Node000001_Node000034" title=" " alt="" coords="99,1013,142,975,196,941,212,934,214,939,199,946,145,980,102,1017"/>
+<area shape="rect" id="Node000038" href="$d3/dbc/classSingleStreamingInput.html#a2795ed4ee7c1fee1b1c1ec1e712895b2" title=" " alt="" coords="526,1214,688,1259"/>
+<area shape="poly" id="edge42_Node000001_Node000038" title=" " alt="" coords="150,1031,230,1029,317,1031,395,1041,425,1049,448,1061,463,1077,471,1094,475,1130,477,1166,483,1183,496,1200,514,1213,511,1218,492,1204,478,1186,471,1167,469,1131,466,1096,459,1080,444,1065,423,1054,394,1046,316,1037,230,1035,150,1036"/>
+<area shape="rect" id="Node000039" href="$d5/dcb/classSingleInttPoolInput.html#a1f6d1e4a40542f2acb729b387de7a337" title="Configure INTT BCO settings based on streaming mode." alt="" coords="250,956,394,1000"/>
+<area shape="poly" id="edge44_Node000001_Node000039" title=" " alt="" coords="149,1018,234,997,235,1002,151,1023"/>
+<area shape="rect" id="Node000041" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="237,1540,407,1568"/>
+<area shape="poly" id="edge49_Node000001_Node000041" title=" " alt="" coords="84,1060,96,1161,120,1301,136,1373,154,1437,176,1490,200,1525,224,1541,221,1546,196,1529,171,1493,149,1439,131,1374,115,1302,91,1162,79,1061"/>
+<area shape="rect" id="Node000003" href="$d6/d89/classInttRawHit.html#a82074a0ab215fddf768fda1e7bc9fbc1" title=" " alt="" coords="534,5,681,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,76,493,43,526,35,527,40,495,48,390,81"/>
+<area shape="rect" id="Node000004" href="$d6/d89/classInttRawHit.html#ab3833ffff81055e890e495411d42b7ac" title=" " alt="" coords="516,57,698,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="435,87,501,80,502,85,436,92"/>
+<area shape="rect" id="Node000005" href="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="528,109,687,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="436,111,512,119,512,124,435,116"/>
+<area shape="rect" id="Node000008" href="$d5/dcb/classSingleInttPoolInput.html#afbef49923bf03f0d0135c0392e314113" title=" " alt="" coords="535,489,679,534"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="344,686,406,615,447,577,493,544,519,531,521,535,495,548,450,581,410,618,348,690"/>
+<area shape="rect" id="Node000009" href="$d5/dcb/classSingleInttPoolInput.html#a557eeb622b0af4281a59c6819bfb0219" title=" " alt="" coords="535,558,679,603"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="366,685,425,648,493,613,519,602,521,607,495,618,428,653,369,690"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="367,748,426,786,495,821,514,827,512,832,493,826,424,791,364,753"/>
+<area shape="rect" id="Node000011" href="$d5/dcb/classSingleInttPoolInput.html#aa3db8970394602eea30bb0bffaa08d5e" title=" " alt="" coords="535,956,679,1000"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="347,749,430,862,470,914,496,941,522,955,519,960,492,945,466,917,426,865,343,752"/>
+<area shape="rect" id="Node000012" href="$d7/dff/classFun4AllStreamingInputManager.html#a863f1dc756dad2fbecdf59eab5c54144" title="Set the INTt BCO range to the maximum of the provided value and the current range." alt="" coords="494,628,720,672"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="446,686,497,674,498,679,447,692"/>
+<area shape="rect" id="Node000013" href="$d7/dff/classFun4AllStreamingInputManager.html#a6f5a84fc4cd95c4e7a616986c0dbf549" title="Set the minimum negative BCO for INTt." alt="" coords="494,697,720,742"/>
+<area shape="poly" id="edge12_Node000007_Node000013" title=" " alt="" coords="446,716,479,716,479,722,446,722"/>
+<area shape="poly" id="edge13_Node000007_Node000014" title=" " alt="" coords="447,747,499,760,498,765,446,752"/>
+<area shape="rect" id="Node000016" href="$d2/de0/classintt__pool.html#ad3c310b3dc13cbfe2d98e650ea249658" title="Get the number of remaining entries in the intt pool." alt="" coords="530,1283,685,1310"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="396,1088,424,1096,448,1112,464,1131,471,1152,473,1192,474,1232,481,1251,496,1269,516,1283,513,1287,492,1273,476,1253,469,1233,468,1192,466,1153,459,1134,444,1116,421,1101,395,1093"/>
+<area shape="rect" id="Node000018" href="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef" title=" " alt="" coords="516,368,698,396"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="403,401,501,391,501,396,403,406"/>
+<area shape="rect" id="Node000019" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="533,316,681,344"/>
+<area shape="poly" id="edge18_Node000017_Node000019" title=" " alt="" coords="388,387,493,354,526,345,527,350,495,359,390,392"/>
+<area shape="rect" id="Node000020" href="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb" title="Update internal file list handling repeat logic." alt="" coords="516,420,699,464"/>
+<area shape="poly" id="edge19_Node000017_Node000020" title=" " alt="" coords="403,418,500,428,500,434,403,423"/>
+<area shape="poly" id="edge23_Node000023_Node000006" title=" " alt="" coords="369,287,493,233,512,226,514,231,495,238,371,292"/>
+<area shape="poly" id="edge25_Node000023_Node000019" title=" " alt="" coords="405,315,518,322,517,327,405,320"/>
+<area shape="rect" id="Node000024" href="$d3/dbc/classSingleStreamingInput.html#a830ddea13afd553b035f11e68258daac" title=" " alt="" coords="526,248,688,292"/>
+<area shape="poly" id="edge24_Node000023_Node000024" title=" " alt="" coords="405,297,511,282,511,287,406,303"/>
+<area shape="rect" id="Node000027" href="$d4/db4/classDBInterface.html#a6744fe7f09f572f227f1961bfd7551f7" title="Retrieve ODBC statement for given database name." alt="" coords="510,1335,705,1362"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="395,1338,494,1342,494,1347,394,1343"/>
+<area shape="rect" id="Node000028" href="$d4/db4/classDBInterface.html#ae656ee2b9fbab0a643b94aeecce366cb" title="Get singleton instance of DBInterface." alt="" coords="526,1387,688,1414"/>
+<area shape="poly" id="edge30_Node000026_Node000028" title=" " alt="" coords="395,1351,527,1380,525,1385,394,1356"/>
+<area shape="rect" id="Node000030" href="$d2/de0/classintt__pool.html#abe77e37f41cdbcad9b242283614ad4fc" title="Decode INTt raw data payload into internal hit structures." alt="" coords="526,1439,688,1466"/>
+<area shape="poly" id="edge32_Node000029_Node000030" title=" " alt="" coords="386,1448,511,1449,511,1454,386,1453"/>
+<area shape="rect" id="Node000031" href="$d2/de0/classintt__pool.html#ae8f274f911a20f06b0b80b99b86dd9e9" title="Decode a raw hit list from a given front end electronics module." alt="" coords="768,1430,931,1475"/>
+<area shape="poly" id="edge33_Node000030_Node000031" title=" " alt="" coords="689,1450,753,1450,753,1455,689,1455"/>
+<area shape="poly" id="edge35_Node000032_Node000030" title=" " alt="" coords="386,1407,517,1433,516,1438,385,1413"/>
+<area shape="poly" id="edge40_Node000034_Node000010" title=" " alt="" coords="377,901,493,871,525,864,526,869,495,876,378,906"/>
+<area shape="rect" id="Node000035" href="$d2/d8a/classInputFileHandler.html#a1cee3f2baa09932712f151fc0ba67db7" title="Open input file for reading." alt="" coords="513,1024,701,1052"/>
+<area shape="poly" id="edge38_Node000034_Node000035" title=" " alt="" coords="426,930,448,941,465,958,473,977,480,994,496,1010,503,1015,500,1019,492,1015,476,997,468,979,460,961,444,945,424,935"/>
+<area shape="rect" id="Node000036" href="$d2/d8a/classInputFileHandler.html#a0ef1f262db98136850cc1ad3be18a14d" title=" " alt="" coords="500,886,714,931"/>
+<area shape="poly" id="edge39_Node000034_Node000036" title=" " alt="" coords="434,911,485,910,485,915,435,917"/>
+<area shape="rect" id="Node000037" href="$d2/d8a/classInputFileHandler.html#a811c67eb19cef0fba2d7c38b446d7955" title="Execute optional script before opening the input file." alt="" coords="505,1076,709,1120"/>
+<area shape="poly" id="edge41_Node000034_Node000037" title=" " alt="" coords="430,930,448,941,461,956,469,971,473,1002,477,1032,484,1047,496,1061,500,1064,496,1068,492,1065,479,1050,472,1034,468,1003,464,973,457,959,444,945,428,934"/>
+<area shape="poly" id="edge45_Node000039_Node000010" title=" " alt="" coords="394,964,420,955,444,941,460,925,467,907,475,889,492,872,500,867,503,872,496,876,480,892,472,909,464,928,448,945,422,959,395,969"/>
+<area shape="poly" id="edge47_Node000039_Node000011" title=" " alt="" coords="394,975,520,975,520,980,394,980"/>
+<area shape="poly" id="edge46_Node000039_Node000038" title=" " alt="" coords="395,987,424,999,448,1017,465,1041,472,1065,472,1111,473,1156,480,1178,496,1200,514,1214,511,1218,492,1204,475,1180,467,1157,467,1111,467,1065,460,1043,444,1021,421,1003,393,991"/>
+<area shape="rect" id="Node000040" href="$d5/dcb/classSingleInttPoolInput.html#a05ee52642e12760b229d23fdccaac362" title=" " alt="" coords="535,1145,679,1190"/>
+<area shape="poly" id="edge48_Node000039_Node000040" title=" " alt="" coords="395,988,423,1000,448,1017,460,1032,467,1047,472,1076,478,1104,484,1117,496,1130,522,1147,519,1152,492,1135,480,1120,472,1105,467,1076,462,1048,456,1035,444,1021,420,1005,393,993"/>
+</map>

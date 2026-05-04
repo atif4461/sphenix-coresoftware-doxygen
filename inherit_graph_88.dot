@@ -1,0 +1,12 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="G4VUserDetectorConstruction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/df8/classG4VUserDetectorConstruction.html",tooltip=" "];
+  Node0 -> Node1 [id="edge550_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="PHG4PhenixDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d13/classPHG4PhenixDetector.html",tooltip="this is the main detector construction class, passed to geant to construct the entire phenix detector"];
+}

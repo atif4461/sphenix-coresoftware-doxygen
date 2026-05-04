@@ -1,0 +1,31 @@
+<map id="PHGeomUtility::GetVerbosity" name="PHGeomUtility::GetVerbosity">
+<area shape="rect" id="Node000001" title="Verbosity for geometry IO like, TGeoMangers." alt="" coords="1057,74,1266,102"/>
+<area shape="rect" id="Node000002" href="$d2/da1/classPHGeomUtility.html#ae053065752b1bff9f63f585b6fefc68b" title="gGeoManager &#45;&gt; DST node" alt="" coords="782,5,998,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1080,73,994,53,995,48,1081,67"/>
+<area shape="rect" id="Node000003" href="$d2/da1/classPHGeomUtility.html#a4a80252bedb22198d011065e41aa669e" title="TGeo ROOT/GDML/Macro file &#45;&gt; DST node with automatic file type discrimination based on file names." alt="" coords="775,74,1005,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1041,90,1006,90,1006,85,1041,85"/>
+<area shape="rect" id="Node000006" href="$d2/da1/classPHGeomUtility.html#ae062424701e91fed6173ca3aa29779e4" title="Load geometry from IONode and update PHGeomTGeo node in RUNGEOMETRY." alt="" coords="771,126,1009,154"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1071,108,967,128,966,123,1070,102"/>
+<area shape="rect" id="Node000004" href="$d0/d78/classPHG4Reco.html#afb33612dcc374f0614d800dc9480305a" title="Initialize the PHG4Reco module for a new run." alt="" coords="13,8,156,36"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="789,74,723,65,565,50,407,40,157,27,157,22,408,34,565,45,724,60,789,68"/>
+<area shape="rect" id="Node000005" href="$de/d0f/classPHGeomFileImport.html#a2e2960789d7d9f1b8b4eef83ffb63151" title="Initialize geometry for a new run by importing the geometry file." alt="" coords="504,74,703,102"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="759,90,703,90,703,85,759,85"/>
+<area shape="rect" id="Node000007" href="$d2/da1/classPHGeomUtility.html#aa80925b14430021ea70d0b906af8e885" title="Main user interface: DST node &#45;&gt; TGeoManager for downstream use." alt="" coords="484,140,723,168"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="756,149,724,151,724,146,756,144"/>
+<area shape="rect" id="Node000008" href="$d2/da1/classPHGeomUtility.html#aaa34b2cff253bbdae62673e7f68e091c" title="DST node &#45;&gt; TGeoManager &#45;&gt; export files, like gdml, .root or .C formats." alt="" coords="212,59,436,87"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="547,138,435,102,389,90,390,85,437,97,548,133"/>
+<area shape="rect" id="Node000011" href="$d9/d91/classPHG4TrackFastSim.html#a7ed1ea5f4718d84d769f1563b5147f71" title="Initialization Run, called for initialization of a run." alt="" coords="226,111,422,139"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="468,143,422,138,423,133,469,138"/>
+<area shape="rect" id="Node000012" href="$de/d25/classPHGenFitTrkFitter.html#a31b287e4d0925394b938f8eccccf7083" title="Initialization Run, called for initialization of a run." alt="" coords="253,163,395,207"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="469,172,396,180,395,175,468,167"/>
+<area shape="rect" id="Node000013" href="$d5/daa/classPHRaveVertexing.html#a650b76ab2fb4616857eb52bb3a838971" title="Initialization Run, called for initialization of a run." alt="" coords="230,231,418,259"/>
+<area shape="poly" id="edge13_Node000007_Node000013" title=" " alt="" coords="557,177,437,222,396,233,395,228,435,217,555,172"/>
+<area shape="rect" id="Node000014" href="$d6/deb/PHGeom__DSTInspection_8C.html#aff312f57f177e30d7d8ee73964bceecc" title=" " alt="" coords="235,307,413,335"/>
+<area shape="poly" id="edge14_Node000007_Node000014" title=" " alt="" coords="574,180,512,225,437,273,362,309,360,304,435,268,509,220,571,176"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="240,58,153,39,154,34,241,53"/>
+<area shape="rect" id="Node000009" href="$df/d51/Fun4All__ExportGeom_8C.html#a40e05d2152b4c050774c7412ded92018" title="get geometry from DST file and output TGeoManager ROOT files or other formats of geometry files" alt="" coords="6,60,163,88"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="196,76,164,77,164,71,196,71"/>
+<area shape="rect" id="Node000010" href="$d9/d0f/Fun4All__ImportGeom_8C.html#a4305730a4ab39282cb439b6a10642623" title="Read in a Geometry file, and output DST and ROOT TGeo files." alt="" coords="5,112,164,140"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="244,93,151,114,149,109,243,88"/>
+<area shape="poly" id="edge15_Node000014_Node000014" title=" " alt="" coords="365,294,351,288,324,286,299,288,285,293,282,298,287,305,283,308,276,298,282,289,298,283,324,281,352,283,367,289"/>
+</map>

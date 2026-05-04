@@ -1,0 +1,18 @@
+digraph "CylinderGeom_Mvtx::get_local_coords_from_pixel"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="CylinderGeom_Mvtx::\lget_local_coords_from_pixel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Convert pixel indices to local sensor coordinates for the MVTX cylinder geometry."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SegmentationAlpide\l::detectorToLocal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d35/classSegmentationAlpide.html#a7f552678d6282c2338d376e1ff1b9454",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SegmentationAlpide\l::detectorToLocalUnchecked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d35/classSegmentationAlpide.html#a4cfc724394f8660b3e204d810caa9c5d",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SegmentationAlpide\l::getFirstColCoordinate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d35/classSegmentationAlpide.html#aa414d95515124921e3b4cf43ecc22c4c",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SegmentationAlpide\l::getFirstRowCoordinate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d35/classSegmentationAlpide.html#affc4fc9ec09c04ca27cd31785053e915",tooltip=" "];
+}

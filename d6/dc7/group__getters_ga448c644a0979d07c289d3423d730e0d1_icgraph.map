@@ -1,0 +1,9 @@
+<map id="RawCluster::get_x" name="RawCluster::get_x">
+<area shape="rect" id="Node000001" title="access Cartesian coordinate system" alt="" coords="526,48,665,76"/>
+<area shape="rect" id="Node000002" href="$d8/db8/classCaloRecoUtility.html#a6f05c4e51b91ddd3876491c44e95d10f" title="Compute probability correction for a cluster given a Z vertex." alt="" coords="274,5,466,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="510,52,466,45,467,40,511,47"/>
+<area shape="rect" id="Node000003" href="$d8/db8/classCaloRecoUtility.html#ab8cae7615ee21fee2b6581007d09ce96" title="corrects cluster Z (implicitly also eta) for updated z vertex" alt="" coords="262,75,478,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="511,78,479,83,478,78,510,73"/>
+<area shape="rect" id="Node000004" href="$d6/de8/classRawClusterZVertexRecorrect.html#a77e9e8d2d15261e75a58fd287405fabf" title="Process a single event applying vertex corrections to raw clusters." alt="" coords="5,75,214,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="246,100,214,100,214,94,246,94"/>
+</map>

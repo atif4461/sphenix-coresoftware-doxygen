@@ -1,0 +1,36 @@
+<map id="RawTowerDefs::decode_caloid" name="RawTowerDefs::decode_caloid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="509,351,681,395"/>
+<area shape="rect" id="Node000002" href="$d5/dcb/classRawTowerGeomContainerv1.html#a19402f0081c58a66fdcf6c235714b865" title="Add tower geometry to container ensuring calorimeter id match." alt="" coords="256,5,461,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="585,336,572,277,548,204,511,129,487,95,459,64,443,53,446,48,463,60,491,91,516,126,553,202,577,275,591,335"/>
+<area shape="rect" id="Node000003" href="$dd/d06/classRawTowerDeadMapv1.html#a3ea9603090fe323d4f87fc169786c92c" title="Add a dead tower identifier to the dead map." alt="" coords="272,75,445,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="580,336,563,290,538,236,503,181,459,134,442,122,445,118,463,130,507,178,542,233,568,288,585,335"/>
+<area shape="rect" id="Node000004" href="$d3/dc7/classRawTowerContainer.html#aea3f47f875547a422ef302c50787a18d" title="Add a tower to the container." alt="" coords="279,144,438,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="572,338,526,270,495,234,459,203,436,190,439,185,463,199,499,230,530,266,577,335"/>
+<area shape="rect" id="Node000005" href="$db/d67/classRawTowerGeomv3.html#a342e4e455e20c6363ed53a81f70c6b83" title="Return eta bin index for this tower geometry." alt="" coords="273,213,444,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="553,343,509,311,460,279,421,261,424,256,462,275,512,306,556,339"/>
+<area shape="rect" id="Node000007" href="$db/d3c/classRawTowerv1.html#a74db4e4d45f4cd4e904648074bcb58e2" title="Retrieve the eta bin index for this tower." alt="" coords="268,332,448,360"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="493,364,449,359,449,354,494,359"/>
+<area shape="rect" id="Node000008" href="$db/d3c/classRawTowerv1.html#a0e71816b6c83df30ffc433fd78483e69" title="Print tower identification information to the provided output stream." alt="" coords="26,332,187,360"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="533,346,497,333,461,324,384,315,306,317,234,324,173,335,172,329,233,319,306,312,384,310,461,318,499,328,535,341"/>
+<area shape="rect" id="Node000010" href="$db/d67/classRawTowerGeomv3.html#acc8fb6c8681fc3d80327d2d1ea8ed73b" title="Retrieve the phi bin index for this tower." alt="" coords="273,436,444,481"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="522,404,462,426,429,438,427,433,460,421,520,399"/>
+<area shape="rect" id="Node000012" href="$db/d3c/classRawTowerv1.html#a563f9d425675f188df9aad19b8e83c6c" title="Return the phi bin index for this tower." alt="" coords="269,384,448,412"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="494,386,449,391,448,386,493,381"/>
+<area shape="rect" id="Node000013" href="$d6/df9/classParticleFlowReco.html#adfcb5176268e728739c041eec599f967" title="Process a single event and build particle flow elements linking tracks EM clusters and HAD clusters u..." alt="" coords="263,505,454,550"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="565,409,519,453,462,495,439,507,436,502,460,491,516,449,562,405"/>
+<area shape="rect" id="Node000014" href="$df/dbd/classRawClusterCNNClassifier.html#a1588f2f843b6ec71bdf801abf4334f9a" title="Process event for raw cluster cnn classifier." alt="" coords="266,575,450,619"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="580,410,560,446,534,488,501,529,463,564,443,576,440,572,459,560,497,525,529,485,556,444,575,408"/>
+<area shape="rect" id="Node000015" href="$d3/df2/classRawTowerCalibration.html#a9aec9091957b5331ad1f56abab3f8f62" title="Process event applying tower calibration according to selected algorithm." alt="" coords="279,644,438,689"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="587,412,570,461,545,521,509,581,488,609,463,634,439,649,436,644,459,630,484,605,505,578,540,519,565,460,582,410"/>
+<area shape="rect" id="Node000016" href="$d0/db9/classRawTowerDigitizer.html#a867facaaf6f889a806d580a505ce8a3a" title="Process event digitization for all towers in the node tree." alt="" coords="283,713,434,758"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="591,411,579,474,555,552,538,593,518,633,493,670,463,703,435,721,432,717,459,699,488,667,513,630,533,591,550,550,574,473,586,410"/>
+<area shape="rect" id="Node000006" href="$db/d67/classRawTowerGeomv3.html#a185be8db4ab93f29a1ce2f64d4658921" title=" " alt="" coords="21,213,192,258"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="257,238,193,238,193,233,257,233"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="253,349,187,349,187,344,253,344"/>
+<area shape="rect" id="Node000009" href="$d8/d20/classRawTowerv2.html#ae7af05475127277a7da8b429c7ce5283" title="Print identification information for this RawTowerv2." alt="" coords="26,384,187,412"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="273,367,178,386,177,381,272,361"/>
+<area shape="rect" id="Node000011" href="$db/d67/classRawTowerGeomv3.html#a6b093d5618fd217e02a63cb64272b3e8" title=" " alt="" coords="5,444,208,472"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="257,461,208,461,208,456,257,456"/>
+<area shape="poly" id="edge12_Node000012_Node000008" title=" " alt="" coords="272,383,177,363,178,358,273,378"/>
+<area shape="poly" id="edge13_Node000012_Node000009" title=" " alt="" coords="253,401,187,401,187,396,253,396"/>
+</map>

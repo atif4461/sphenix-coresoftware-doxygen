@@ -1,0 +1,41 @@
+<map id="PHG4OHCalSteppingAction::PHG4OHCalSteppingAction" name="PHG4OHCalSteppingAction::PHG4OHCalSteppingAction">
+<area shape="rect" id="Node000001" title="constructor" alt="" coords="5,230,210,275"/>
+<area shape="rect" id="Node000002" href="$df/d3f/classPHG4SteppingAction.html#a7a658bf05734c64484881f964cd5bd47" title=" " alt="" coords="265,118,420,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,227,257,173,269,167,272,172,259,178,152,232"/>
+<area shape="rect" id="Node000003" href="$d5/d4b/classCDBInterface.html#a43822e59a3876434355e4cd55eba6b23" title="Retrieve calibration URL from CDB for given domain and filename." alt="" coords="265,187,420,214"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,227,261,216,262,221,211,232"/>
+<area shape="rect" id="Node000017" href="$d5/d4b/classCDBInterface.html#ac1458cd6adb1e2944371c40a90dc9dfe" title="Get singleton instance of CDBInterface." alt="" coords="258,239,428,266"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="210,250,242,250,242,255,210,255"/>
+<area shape="rect" id="Node000018" href="$df/d3f/classPHG4SteppingAction.html#aca3a9d362a258b4f3660775c34a6e66c" title="Constructor initializing verbosity and name." alt="" coords="261,290,424,335"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="198,273,247,285,245,290,197,278"/>
+<area shape="rect" id="Node000019" href="$df/d3f/classPHG4SteppingAction.html#aedfa74577cbcdade8a85f2f77cd3eb5d" title="Set light balance correction parameters for inner and outer radii." alt="" coords="265,360,420,404"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="142,273,196,308,259,345,270,350,267,355,256,350,193,313,139,277"/>
+<area shape="rect" id="Node000004" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="494,57,630,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="408,184,426,173,442,155,450,136,457,116,474,96,483,90,486,94,478,100,462,118,455,138,447,158,430,177,411,188"/>
+<area shape="rect" id="Node000005" href="$d1/da8/classPHFlag.html#a2527c60236838b31be8c04c17e529976" title="Retrieve string flag value by name." alt="" coords="478,109,647,137"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="397,184,427,173,475,147,494,140,496,145,477,152,429,178,398,189"/>
+<area shape="rect" id="Node000013" href="$d1/da8/classPHFlag.html#a71de108d2dfd732b6dddf097d2bb728e" title="Retrieve a 64bit flag value by name." alt="" coords="476,161,648,189"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="421,189,460,184,461,190,421,194"/>
+<area shape="rect" id="Node000014" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="484,213,640,241"/>
+<area shape="poly" id="edge15_Node000003_Node000014" title=" " alt="" coords="421,207,469,213,468,218,421,213"/>
+<area shape="rect" id="Node000015" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="477,265,647,293"/>
+<area shape="poly" id="edge16_Node000003_Node000015" title=" " alt="" coords="395,212,429,225,477,250,496,257,494,262,475,255,427,230,393,217"/>
+<area shape="rect" id="Node000016" href="$d5/dec/classFun4AllBase.html#a891fac4046ceda71c2253e1db6a00022" title="Sets the verbosity of this module (0 by default=quiet)." alt="" coords="477,317,647,345"/>
+<area shape="poly" id="edge17_Node000003_Node000016" title=" " alt="" coords="408,213,430,225,447,245,454,265,462,284,478,303,486,308,483,312,474,306,457,287,449,267,442,248,426,229,405,217"/>
+<area shape="rect" id="Node000006" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="731,109,837,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="647,120,716,120,716,126,647,126"/>
+<area shape="rect" id="Node000012" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="696,161,872,189"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="625,135,708,155,706,160,624,140"/>
+<area shape="rect" id="Node000007" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="920,5,1106,33"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="805,107,856,75,919,43,939,36,941,41,921,48,858,80,808,111"/>
+<area shape="rect" id="Node000008" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="926,57,1100,85"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="837,109,933,86,934,92,838,114"/>
+<area shape="rect" id="Node000009" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="934,109,1092,137"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="837,120,918,120,918,126,837,126"/>
+<area shape="rect" id="Node000010" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="924,161,1102,189"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="838,132,934,155,933,160,837,138"/>
+<area shape="rect" id="Node000011" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="922,213,1104,241"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="838,132,873,148,889,161,898,174,907,186,921,198,933,205,931,209,918,203,903,190,893,177,885,164,870,152,836,137"/>
+<area shape="poly" id="edge13_Node000013_Node000006" title=" " alt="" coords="624,158,715,136,717,142,625,163"/>
+<area shape="poly" id="edge14_Node000013_Node000012" title=" " alt="" coords="649,172,680,172,680,178,649,178"/>
+</map>

@@ -1,0 +1,49 @@
+<map id="PHG4InttHitReco::process_event" name="PHG4InttHitReco::process_event">
+<area shape="rect" id="Node000001" title="event processing" alt="" coords="5,402,194,447"/>
+<area shape="rect" id="Node000002" href="$da/d9b/classTrkrHit.html#a9d037c1e35218b560f1da7bb6db967f3" title=" " alt="" coords="278,5,419,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,401,108,331,130,234,148,182,172,131,202,84,240,42,261,29,264,33,243,47,206,87,176,134,153,184,135,236,113,332,105,402"/>
+<area shape="rect" id="Node000003" href="$df/d02/classPHG4Utils.html#ae0a28ae191425ed79fa4a2275ad933e6" title="Compute the overlapping area between a circle and an axis aligned rectangle." alt="" coords="249,57,448,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="102,401,115,343,141,266,159,224,182,184,208,145,240,112,244,109,247,113,244,116,212,149,186,186,164,227,146,268,121,345,107,402"/>
+<area shape="rect" id="Node000005" href="$d9/dcb/classCylinderGeomIntt.html#aafdc8b5f8ee4642c4b52697d29fef6c8" title="Compute local coordinates of the centre of a strip in the INTT cylinder geometry." alt="" coords="255,126,442,171"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="105,401,123,355,151,296,190,234,213,206,240,181,245,177,249,181,243,185,217,210,194,238,155,298,128,357,110,402"/>
+<area shape="rect" id="Node000006" href="$d9/dcb/classCylinderGeomIntt.html#a7d3365248653b99ac0d0dc1c945e47ec" title="Determine the strip indices in the y and z directions for a given local sensor coordinate." alt="" coords="264,196,432,240"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="111,401,161,327,198,286,240,250,249,245,252,249,243,255,202,290,166,330,116,404"/>
+<area shape="rect" id="Node000007" href="$d6/d9e/namespaceInttDefs.html#a23025c6ded634381ab1f3ce870f18019" title="Generate a unique hit identifier from column and row indices." alt="" coords="274,264,422,292"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="119,400,171,350,204,324,240,302,259,294,261,299,243,307,207,329,174,355,123,404"/>
+<area shape="rect" id="Node000008" href="$d6/d9e/namespaceInttDefs.html#a12be8558fb8bdb4b0374c28a63e703d3" title="Generate a hitsetkey for the intt." alt="" coords="264,316,433,344"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="140,399,187,375,241,353,262,346,263,351,243,358,190,380,142,404"/>
+<area shape="rect" id="Node000010" href="$d9/dcb/classCylinderGeomIntt.html#a662fa555e2a48dd1f6d08080e77e25f4" title="Returns the spacing between detector strips in the Y direction." alt="" coords="266,368,431,412"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="194,409,250,401,251,406,195,414"/>
+<area shape="rect" id="Node000011" href="$d9/dcb/classCylinderGeomIntt.html#aaef4968ce0261a2fc82fa5fdb0c49f2b" title=" " alt="" coords="266,437,431,482"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="195,435,251,443,250,448,194,440"/>
+<area shape="rect" id="Node000012" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="277,505,420,533"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="142,445,190,469,243,491,263,498,262,503,241,496,187,474,140,450"/>
+<area shape="rect" id="Node000018" href="$da/d9b/classTrkrHit.html#a303657b941583484a800e80a96eebe0f" title=" " alt="" coords="279,557,418,585"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="123,445,174,494,207,520,243,542,266,552,264,557,240,547,204,525,171,499,119,449"/>
+<area shape="rect" id="Node000019" href="$d4/d30/classPHG4HitContainer.html#aae172cc4360806cd0bb9b25079290ee8" title="return all hits matching a given detid" alt="" coords="251,609,446,637"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="115,446,136,480,165,520,201,560,243,594,254,601,252,605,240,599,197,564,160,523,131,482,111,449"/>
+<area shape="rect" id="Node000020" href="$d4/de7/classPHG4CylinderGeomContainer.html#a08321019aaff5f57cd416b64d0f536bf" title="Retrieve geometry object for specified layer index from container." alt="" coords="242,661,455,706"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="111,446,130,489,158,543,196,598,218,624,243,646,249,651,246,655,240,651,215,628,192,602,153,545,125,491,107,448"/>
+<area shape="rect" id="Node000021" href="$da/deb/namespaceInttNameSpace.html#ab75d69ba5d923ed43093d6adef832faf" title="Convert online representation to raw data structure." alt="" coords="247,729,450,757"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="107,447,121,502,146,575,164,614,186,651,213,686,243,716,248,719,245,723,240,720,209,690,182,654,160,616,141,577,116,504,102,448"/>
+<area shape="rect" id="Node000023" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="263,781,434,809"/>
+<area shape="poly" id="edge24_Node000001_Node000023" title=" " alt="" coords="106,447,116,511,140,597,158,644,181,689,209,730,243,767,251,772,248,777,240,770,205,734,176,691,153,646,135,599,111,512,101,448"/>
+<area shape="rect" id="Node000004" href="$df/d02/classPHG4Utils.html#a0136fcf54dda371d35ce46b7db582da9" title="Compute analytic overlap area of a circle quadrant with rectangle corner." alt="" coords="546,65,657,93"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="448,76,530,76,530,82,448,82"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="559,66,552,56,557,47,574,41,602,39,631,41,647,48,645,52,630,46,602,44,575,46,560,51,557,56,563,63"/>
+<area shape="rect" id="Node000009" href="$d6/d3f/namespaceTrkrDefs.html#a418e306477093b8d17d587be70b908a3" title="generate the common upper 16 bits for hitsetkey" alt="" coords="516,316,687,344"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="433,327,501,327,501,332,433,332"/>
+<area shape="rect" id="Node000013" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="511,480,692,508"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="420,509,495,502,496,507,421,515"/>
+<area shape="rect" id="Node000017" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="520,532,684,560"/>
+<area shape="poly" id="edge18_Node000012_Node000017" title=" " alt="" coords="421,524,504,533,504,538,420,529"/>
+<area shape="poly" id="edge14_Node000013_Node000013" title=" " alt="" coords="559,481,552,471,557,461,574,455,602,453,631,456,647,462,645,467,630,461,602,459,575,461,560,465,557,471,563,478"/>
+<area shape="rect" id="Node000014" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="792,428,934,456"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="675,477,776,456,778,461,676,482"/>
+<area shape="rect" id="Node000015" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="797,480,929,508"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="693,491,781,491,781,496,693,496"/>
+<area shape="rect" id="Node000016" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="748,532,978,560"/>
+<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="676,506,775,526,774,531,675,511"/>
+<area shape="rect" id="Node000022" href="$d3/d07/namespaceInttFelix.html#a0097ee0a27c38a2c185be755d7daa8f5" title="Convert online address to raw data felix mapping." alt="" coords="503,729,700,757"/>
+<area shape="poly" id="edge23_Node000021_Node000022" title=" " alt="" coords="450,740,487,740,487,746,450,746"/>
+</map>

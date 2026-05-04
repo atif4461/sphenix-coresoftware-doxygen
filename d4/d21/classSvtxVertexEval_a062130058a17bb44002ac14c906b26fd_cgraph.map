@@ -1,0 +1,21 @@
+<map id="SvtxVertexEval::max_truth_point_by_ntracks" name="SvtxVertexEval::max_truth_point_by_ntracks">
+<area shape="rect" id="Node000001" title="Return truth vertex point with largest track contribution for given vertex." alt="" coords="5,93,183,138"/>
+<area shape="rect" id="Node000002" href="$d4/d21/classSvtxVertexEval.html#ad10fc3cb490affd013ea76e497fd1f8e" title="Retrieve all truth vertex points associated with a given reconstructed vertex." alt="" coords="239,128,384,172"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,127,224,133,223,139,183,132"/>
+<area shape="rect" id="Node000008" href="$d4/d21/classSvtxVertexEval.html#aaa464ef6dc3bec213b1968ae93707fb2" title="Compute number of tracks from a reconstructed vertex that originate from a given truth vertex." alt="" coords="231,58,392,103"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="183,98,215,93,216,98,184,104"/>
+<area shape="rect" id="Node000003" href="$d4/d21/classSvtxVertexEval.html#a7690912fe9015dd3e1b25c9fea55aa0c" title="Retrieve the set of truth PHG4Particle objects associated with a given vertex." alt="" coords="442,197,587,242"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,170,434,189,432,194,378,175"/>
+<area shape="rect" id="Node000006" href="$d4/d21/classSvtxVertexEval.html#a49f6df9f1e3e31e156107d77942df796" title=" " alt="" coords="440,58,589,103"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="378,124,432,106,434,111,380,129"/>
+<area shape="rect" id="Node000007" href="$d4/de4/classSvtxTruthEval.html#afd61a22f7958141564f39aae028580dc" title="Retrieve the truth vertex associated with a given particle." alt="" coords="445,128,584,172"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="384,147,430,147,430,152,384,152"/>
+<area shape="rect" id="Node000004" href="$d2/da0/classVertex.html#afaa94cc8c2c5021979c28daa23d69b6d" title="Returns a constant iterator to the first track associated with this vertex." alt="" coords="637,107,792,134"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="564,194,588,182,672,139,674,144,591,187,566,199"/>
+<area shape="rect" id="Node000005" href="$d2/da0/classVertex.html#af1fac9be405d2a84abd5523cc1450736" title="Return a constant iterator pointing to the element past the last track associated with this vertex." alt="" coords="643,5,786,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="572,194,587,183,605,161,613,141,621,119,635,94,683,42,687,46,639,97,626,121,618,143,609,164,591,186,576,198"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="379,55,426,44,479,36,535,35,590,43,642,66,686,95,683,99,640,71,589,48,535,40,480,41,427,49,380,60"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="351,55,393,36,439,21,487,13,537,9,628,9,628,14,537,14,488,18,441,26,394,41,353,60"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="393,78,424,78,424,83,393,83"/>
+<area shape="poly" id="edge11_Node000008_Node000007" title=" " alt="" coords="380,101,434,119,432,124,378,106"/>
+</map>

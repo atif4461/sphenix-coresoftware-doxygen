@@ -1,0 +1,12 @@
+digraph "ActsPropagator::propagateTrackFast"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="ActsPropagator::propagate\lTrackFast",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Propagate a bound track parameters to a target surface using fast propagator."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ActsPropagator::makeFast\lPropagator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dea/classActsPropagator.html#a647a7ac497a63002b58edbfb0bfa93e2",tooltip="Create a fast propagator configured with magnetic field and logger."];
+}

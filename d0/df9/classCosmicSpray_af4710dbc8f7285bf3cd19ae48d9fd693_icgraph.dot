@@ -1,0 +1,12 @@
+digraph "CosmicSpray::InDetector"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="CosmicSpray::InDetector",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Determine whether a point (x, y, z) lies within the detector volume including a safety gap."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CosmicSpray::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/df9/classCosmicSpray.html#a5b6da2c850c5a618ce03f315f0292336",tooltip="Generate a cosmic muon event and insert it into the PHG4InEvent node."];
+}

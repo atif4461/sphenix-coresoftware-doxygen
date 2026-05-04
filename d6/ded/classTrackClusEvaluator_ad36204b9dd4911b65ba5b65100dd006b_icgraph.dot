@@ -1,0 +1,12 @@
+digraph "TrackClusEvaluator::addClusKeys"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrackClusEvaluator\l::addClusKeys",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Populate internal cluster key list for a given track."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackClusEvaluator\l::find_matches",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ded/classTrackClusEvaluator.html#a79a273ff66af2f762ba4452f7b53e0f2",tooltip="Evaluate cluster level correspondence between a Geant4 truth track and a reconstructed SVTX track."];
+}

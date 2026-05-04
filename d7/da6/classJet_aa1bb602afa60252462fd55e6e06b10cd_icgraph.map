@@ -1,0 +1,17 @@
+<map id="Jet::insert_comp" name="Jet::insert_comp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="241,222,367,250"/>
+<area shape="rect" id="Node000002" href="$d5/d98/classClusterJetInput.html#a93647b5e12b963d4cf0514f296e2b072" title="Retrieve input jets from cluster containers based on configuration." alt="" coords="26,5,172,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,209,252,137,224,98,191,64,171,52,174,47,194,60,228,95,257,134,294,206"/>
+<area shape="rect" id="Node000003" href="$d8/d47/classParticleFlowJetInput.html#a49fd966ca3ff985b7d20a17868dca5bb" title="Retrieve pseudo jet objects from particle flow element container." alt="" coords="24,75,174,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="279,212,240,172,191,134,169,122,172,117,194,129,244,168,283,208"/>
+<area shape="rect" id="Node000004" href="$df/d01/classTowerJetInput.html#ae27d1124857e5b518c8277b23b4b8cc3" title="Retrieve input towers and construct pseudo jets from top node." alt="" coords="30,144,168,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,219,166,192,168,187,247,214"/>
+<area shape="rect" id="Node000005" href="$d0/d02/classTrackJetInput.html#a7cca11af7c5dca28383d5ec8ffa54fa9" title="Retrieve reconstructed tracks from node tree and convert to pseudo jets." alt="" coords="32,213,166,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="225,238,167,238,167,233,225,233"/>
+<area shape="rect" id="Node000006" href="$da/dbf/classTruthJetInput.html#a4c3ed9ba972f59ab008fa8574ec26a20" title="Retrieve input truth jets from the node tree." alt="" coords="33,283,165,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="247,258,167,285,165,280,245,252"/>
+<area shape="rect" id="Node000007" href="$df/d87/classFastJetAlgo.html#af2c2fcfc4485aa73b3a6914080afb544" title="Convert input particle list to clustered jets using FastJet and optional SoftDrop grooming." alt="" coords="22,351,176,379"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="284,263,245,304,220,324,194,342,169,353,167,348,191,337,217,320,241,300,280,260"/>
+<area shape="rect" id="Node000008" href="$da/daf/classJetHepMCLoader.html#a0f3ee3e4aa8a5cfc1c915d062dd7abb8" title="Process a single event loading HepMC jets into the JetContainer." alt="" coords="5,403,193,447"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="292,265,254,328,226,362,194,392,176,404,173,400,191,388,222,359,249,325,287,262"/>
+</map>

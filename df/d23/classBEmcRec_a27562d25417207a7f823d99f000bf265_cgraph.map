@@ -1,0 +1,15 @@
+<map id="BEmcRec::PredictEnergyProb" name="BEmcRec::PredictEnergyProb">
+<area shape="rect" id="Node000001" title="Predict tower energy from profiles used in GetProb." alt="" coords="5,84,215,112"/>
+<area shape="rect" id="Node000002" href="$df/d23/classBEmcRec.html#a57755545e29364ec2d15ea91f8a52b31" title="Compute signed distance between two tower positions with optional cylindrical wrap around." alt="" coords="291,5,450,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,81,262,43,292,35,293,40,263,48,151,86"/>
+<area shape="rect" id="Node000003" href="$df/d23/classBEmcRec.html#a4c1027d894ef61213ba6cea6b23b2ba5" title=" " alt="" coords="263,57,478,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,84,247,81,247,86,215,90"/>
+<area shape="rect" id="Node000004" href="$df/d23/classBEmcRec.html#a86884257d20b991f62732b4ccae5ca7a" title="Compute signed distance between two tower indices accounting for cylindrical geometry." alt="" coords="291,109,450,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="215,105,276,111,276,117,215,111"/>
+<area shape="rect" id="Node000005" href="$df/d23/classBEmcRec.html#ac115997c94dd0b83b134d54b052d9031" title="Convert local tower coordinates to global detector coordinates." alt="" coords="281,161,460,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="152,110,263,146,294,154,293,160,262,151,151,115"/>
+<area shape="rect" id="Node000006" href="$df/d23/classBEmcRec.html#ac06a7148c54aea33ad136927a1dbf254" title="Apply a trivial shower depth correction." alt="" coords="526,135,750,162"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="460,164,510,159,511,164,460,169"/>
+<area shape="rect" id="Node000007" href="$df/d23/classBEmcRec.html#a8b3cf9ce5eaa158a9793e350809d7a4b" title="Retrieve geometry for a tower given its x and y indices." alt="" coords="530,187,746,214"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="460,181,515,186,515,191,460,186"/>
+</map>

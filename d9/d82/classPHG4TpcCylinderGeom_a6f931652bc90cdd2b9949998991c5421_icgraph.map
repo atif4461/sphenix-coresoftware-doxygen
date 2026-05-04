@@ -1,0 +1,23 @@
+<map id="PHG4TpcCylinderGeom::check_binning_method_eta" name="PHG4TpcCylinderGeom::check_binning_method_eta">
+<area shape="rect" id="Node000001" title="Verify that the current binning method is compatible with eta based geometry." alt="" coords="440,283,647,327"/>
+<area shape="rect" id="Node000002" href="$d9/d82/classPHG4TpcCylinderGeom.html#a54ebdb49aa6180af6b57de54edf77dd6" title="Compute eta bin index for given pseudorapidity." alt="" coords="219,5,392,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="526,269,505,223,475,168,437,113,390,64,373,53,376,48,394,60,441,110,480,166,510,221,531,267"/>
+<area shape="rect" id="Node000003" href="$d9/d82/classPHG4TpcCylinderGeom.html#ab13afa358fd8da2988c3d1b9983ea6c1" title="Retrieve number of eta bins in TPC cylinder geometry." alt="" coords="219,75,392,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="517,271,464,202,429,166,390,134,371,122,374,118,394,129,433,162,468,199,521,268"/>
+<area shape="rect" id="Node000004" href="$d9/d82/classPHG4TpcCylinderGeom.html#adb1aaa8ae98294d2b413598453a8b4da" title="Return the lower and upper z (eta) bounds for the specified bin index." alt="" coords="219,144,392,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="500,275,449,239,391,203,366,192,369,187,393,199,452,234,503,271"/>
+<area shape="rect" id="Node000005" href="$d9/d82/classPHG4TpcCylinderGeom.html#a2553a3db16117f21e1f75cfdc327b6ff" title="Retrieve the eta coordinate at the centre of the specified z bin." alt="" coords="219,213,392,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="449,280,384,261,386,256,451,275"/>
+<area shape="rect" id="Node000007" href="$d9/d82/classPHG4TpcCylinderGeom.html#a885426d1b704b7ada0a7e36404cb2428" title="Retrieve the minimum pseudorapidity (eta) value for the TPC cylinder geometry." alt="" coords="219,283,392,327"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="424,308,392,308,392,302,424,302"/>
+<area shape="rect" id="Node000008" href="$d9/d82/classPHG4TpcCylinderGeom.html#aebe36714444aaad3496908ff77389c6a" title="Retrieve the eta step size used for binning." alt="" coords="219,352,392,397"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="451,335,386,354,384,349,449,330"/>
+<area shape="rect" id="Node000009" href="$d9/d82/classPHG4TpcCylinderGeom.html#ac476ebe5cb1e6b7632a6ab9f18bea1c0" title="Set number of eta bins for TPC cylinder geometry." alt="" coords="219,421,392,466"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="503,339,452,376,393,411,369,423,366,418,391,407,449,371,500,335"/>
+<area shape="rect" id="Node000010" href="$d9/d82/classPHG4TpcCylinderGeom.html#a2c7c20edee3b697a3255f9cf5c533739" title="Set the minimum eta bound from the given longitudinal coordinate." alt="" coords="219,491,392,535"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="521,342,468,411,433,448,394,481,374,492,371,488,390,476,429,444,464,408,517,339"/>
+<area shape="rect" id="Node000011" href="$d9/d82/classPHG4TpcCylinderGeom.html#afb34070234369f0dea8ee55d685ccccb" title="Set the eta step size in the z direction." alt="" coords="219,560,392,605"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="531,343,510,389,480,444,441,500,394,550,376,562,373,557,390,546,437,497,475,442,505,387,526,341"/>
+<area shape="rect" id="Node000006" href="$d0/d39/classG4CellNtuple.html#a312e285a4bce0bc865cd8a5d6d4757c5" title="event processing method" alt="" coords="5,213,171,258"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="203,238,171,238,171,233,203,233"/>
+</map>

@@ -1,0 +1,75 @@
+<map id="SingleInttEventInput::FillPool" name="SingleInttEventInput::FillPool">
+<area shape="rect" id="Node000001" title="Fill internal hit pool with events whose beam clock exceeds the specified minimum." alt="" coords="5,872,159,916"/>
+<area shape="rect" id="Node000002" href="$d7/dff/classFun4AllStreamingInputManager.html#a2c774b85e0733093f37cbca5fecd95fb" title="Add an InttRawHit to the internal maps for a given bunch clock." alt="" coords="207,78,433,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,871,82,764,97,598,112,503,134,404,164,307,204,215,237,169,275,131,279,135,241,172,209,218,169,309,139,406,117,504,102,599,88,765,86,871"/>
+<area shape="rect" id="Node000006" href="$d3/dbc/classSingleStreamingInput.html#a4afd5b74dd0f970779414274c1489a8c" title=" " alt="" coords="510,502,672,547"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="86,870,99,824,122,765,157,704,179,676,205,652,234,632,262,620,288,613,313,610,367,607,398,602,432,593,530,552,532,556,434,598,399,608,368,612,314,616,289,618,263,625,237,636,208,656,183,680,162,707,127,767,104,826,91,872"/>
+<area shape="rect" id="Node000007" href="$d3/dbc/classSingleStreamingInput.html#aa5bc32a277c473c828955316b5f6d958" title="Close the current input file and clean up iterator." alt="" coords="239,229,400,274"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="82,871,94,751,117,578,134,489,154,406,177,338,190,311,205,291,224,274,227,278,209,294,195,314,182,340,159,408,139,490,122,579,99,752,88,871"/>
+<area shape="rect" id="Node000009" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="517,297,665,325"/>
+<area shape="poly" id="edge18_Node000001_Node000009" title=" " alt="" coords="82,871,92,758,114,595,131,512,151,436,175,375,189,352,205,334,226,322,256,313,333,303,420,300,502,303,502,308,420,306,333,308,257,318,229,327,208,339,194,355,180,377,156,438,136,513,120,596,98,758,87,872"/>
+<area shape="rect" id="Node000011" href="$d6/d89/classInttRawHit.html#aebb01147c5633333668a474da4178cab" title=" " alt="" coords="222,417,418,445"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="84,871,99,780,125,655,142,591,161,534,182,487,205,455,207,452,211,456,209,458,186,489,166,536,147,593,131,656,104,781,89,872"/>
+<area shape="rect" id="Node000012" href="$d6/d89/classInttRawHit.html#ae6d6c13a40cb93f647723aec9d8ae5c4" title=" " alt="" coords="238,469,402,514"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="81,871,88,804,106,711,122,661,143,611,170,565,205,524,222,511,226,515,208,528,175,568,148,614,127,662,111,712,93,804,87,871"/>
+<area shape="rect" id="Node000013" href="$d3/dbc/classSingleStreamingInput.html#a28e46f74fceea67c8f90abacc5d934f5" title=" " alt="" coords="239,538,400,583"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="84,870,95,816,117,744,153,667,177,632,205,600,224,586,227,590,208,604,181,635,158,670,122,746,101,818,89,872"/>
+<area shape="rect" id="Node000014" href="$d4/d69/classSingleInttEventInput.html#a06d7c7f44b11999c7cda9b21a8a142af" title="Determine whether additional events need to be fetched based on the current bunch clock." alt="" coords="237,349,403,394"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="83,871,98,771,123,632,140,560,159,495,181,441,205,404,221,391,225,395,209,408,185,443,164,497,145,561,128,633,103,772,89,872"/>
+<area shape="rect" id="Node000016" href="$d2/d8a/classInputFileHandler.html#a60db005eca23d42b7e02e6c47af90095" title=" " alt="" coords="481,656,701,684"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="87,870,102,830,126,781,160,733,181,712,205,694,240,677,276,664,352,650,427,647,494,651,494,656,427,652,352,655,277,669,242,682,208,699,185,716,164,736,131,784,107,833,92,872"/>
+<area shape="rect" id="Node000017" href="$d2/d8a/classInputFileHandler.html#acf665524602bc5f8cc2398bfd26121ae" title="Open the next file in the internal file list." alt="" coords="208,708,432,736"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="94,869,137,807,169,773,205,745,214,740,217,745,208,749,172,777,141,810,98,872"/>
+<area shape="rect" id="Node000021" href="$d3/dbc/classSingleStreamingInput.html#a2795ed4ee7c1fee1b1c1ec1e712895b2" title=" " alt="" coords="239,760,400,804"/>
+<area shape="poly" id="edge24_Node000001_Node000021" title=" " alt="" coords="113,869,156,841,206,814,223,807,225,811,208,819,159,845,116,873"/>
+<area shape="rect" id="Node000022" href="$d6/d89/classInttRawHit.html#af8168314fe83761f69430a3bd70f0ec0" title=" " alt="" coords="246,828,394,856"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="158,874,238,857,239,862,160,880"/>
+<area shape="rect" id="Node000023" href="$d6/d89/classInttRawHit.html#a7c17ffe0c9ed0458d6c108d7f0f938f9" title=" " alt="" coords="224,880,416,908"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="159,891,208,891,208,896,159,896"/>
+<area shape="rect" id="Node000024" href="$d6/d89/classInttRawHit.html#ae15878eff32ca37ebe94f78bd50d4ae5" title=" " alt="" coords="246,932,394,960"/>
+<area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="160,908,239,926,238,931,158,913"/>
+<area shape="rect" id="Node000025" href="$d6/d89/classInttRawHit.html#a4a7ec4196eef63a87e16a2bf1ef7e6ca" title=" " alt="" coords="222,984,418,1012"/>
+<area shape="poly" id="edge28_Node000001_Node000025" title=" " alt="" coords="115,914,158,943,208,969,229,977,228,982,206,974,155,947,112,919"/>
+<area shape="rect" id="Node000026" href="$d6/d89/classInttRawHit.html#a134435996dbf200d636c23616e874f42" title=" " alt="" coords="234,1036,406,1064"/>
+<area shape="poly" id="edge29_Node000001_Node000026" title=" " alt="" coords="100,915,145,969,175,997,208,1021,222,1028,219,1033,205,1025,171,1001,141,972,96,918"/>
+<area shape="rect" id="Node000027" href="$d6/d89/classInttRawHit.html#a1572c05d2b8a9529dbd2e7b02353fede" title=" " alt="" coords="239,1088,401,1132"/>
+<area shape="poly" id="edge30_Node000001_Node000027" title=" " alt="" coords="95,915,112,950,137,993,169,1036,208,1073,226,1084,223,1088,205,1077,165,1040,132,996,107,953,90,918"/>
+<area shape="rect" id="Node000028" href="$d6/d89/classInttRawHit.html#a7391d256d077f527abccb7e429317982" title=" " alt="" coords="247,1156,393,1184"/>
+<area shape="poly" id="edge31_Node000001_Node000028" title=" " alt="" coords="90,916,103,964,125,1026,160,1089,182,1118,208,1142,233,1156,230,1161,205,1147,178,1121,155,1092,120,1028,98,966,85,917"/>
+<area shape="rect" id="Node000029" href="$d6/d89/classInttRawHit.html#a55f8967b7e8e1b110eaa76e5893d0a6e" title=" " alt="" coords="222,1208,418,1236"/>
+<area shape="poly" id="edge32_Node000001_Node000029" title=" " alt="" coords="88,916,98,973,119,1048,134,1088,154,1127,179,1162,208,1193,214,1198,211,1202,205,1197,175,1166,150,1129,129,1090,113,1050,93,974,83,917"/>
+<area shape="rect" id="Node000030" href="$d6/d89/classInttRawHit.html#a5f1ae6299e0d7ceb74cc08ca18f349a4" title=" " alt="" coords="226,1260,414,1288"/>
+<area shape="poly" id="edge33_Node000001_Node000030" title=" " alt="" coords="87,916,93,981,112,1071,127,1118,148,1165,175,1208,209,1245,214,1249,210,1254,205,1249,171,1211,143,1167,122,1120,106,1072,88,982,81,917"/>
+<area shape="rect" id="Node000031" href="$d6/d89/classInttRawHit.html#aa6ceac085b816753d68eb36e5e92ad83" title=" " alt="" coords="229,1312,410,1340"/>
+<area shape="poly" id="edge34_Node000001_Node000031" title=" " alt="" coords="86,917,89,990,105,1093,120,1149,142,1203,171,1253,209,1297,217,1304,214,1308,205,1301,167,1256,137,1205,115,1150,100,1094,84,991,80,917"/>
+<area shape="rect" id="Node000032" href="$d6/d89/classInttRawHit.html#a29ea97e8d8eaca17b41f5f0434d55501" title=" " alt="" coords="230,1364,410,1392"/>
+<area shape="poly" id="edge35_Node000001_Node000032" title=" " alt="" coords="89,916,104,1010,129,1141,146,1207,165,1268,186,1317,209,1349,218,1357,215,1361,205,1353,181,1319,160,1269,141,1209,124,1142,98,1011,84,917"/>
+<area shape="rect" id="Node000033" href="$d6/d89/classInttRawHit.html#a3743735be826c9ac5b4f5b903627e00f" title=" " alt="" coords="241,1416,398,1444"/>
+<area shape="poly" id="edge36_Node000001_Node000033" title=" " alt="" coords="88,916,101,1020,126,1166,142,1241,162,1309,184,1364,209,1401,228,1415,225,1419,205,1405,179,1367,157,1311,137,1242,121,1167,96,1021,83,917"/>
+<area shape="rect" id="Node000034" href="$d3/dbc/classSingleStreamingInput.html#a239cc931094cba18549ad0b5289338e1" title=" " alt="" coords="227,1468,413,1512"/>
+<area shape="poly" id="edge37_Node000001_Node000034" title=" " alt="" coords="88,916,100,1029,124,1190,140,1273,160,1349,183,1411,209,1453,216,1460,212,1464,205,1457,178,1414,155,1351,135,1275,119,1191,95,1030,83,917"/>
+<area shape="rect" id="Node000035" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="235,1536,405,1564"/>
+<area shape="poly" id="edge38_Node000001_Node000035" title=" " alt="" coords="87,917,97,1042,118,1225,134,1319,154,1405,179,1476,193,1503,209,1523,222,1533,219,1538,205,1526,189,1505,174,1478,149,1407,129,1320,113,1226,91,1043,82,917"/>
+<area shape="rect" id="Node000003" href="$d6/d89/classInttRawHit.html#a82074a0ab215fddf768fda1e7bc9fbc1" title=" " alt="" coords="518,5,665,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="383,75,480,43,511,35,513,40,482,48,385,80"/>
+<area shape="rect" id="Node000004" href="$d6/d89/classInttRawHit.html#ab3833ffff81055e890e495411d42b7ac" title=" " alt="" coords="500,57,682,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="433,86,484,80,485,85,434,91"/>
+<area shape="rect" id="Node000005" href="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="512,109,671,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="434,111,496,118,496,123,433,116"/>
+<area shape="rect" id="Node000008" href="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef" title=" " alt="" coords="500,177,682,205"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="400,231,510,206,511,212,402,236"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="402,266,511,291,510,296,400,272"/>
+<area shape="rect" id="Node000010" href="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb" title="Update internal file list handling repeat logic." alt="" coords="500,229,683,274"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="401,248,484,248,484,254,401,254"/>
+<area shape="poly" id="edge14_Node000014_Node000006" title=" " alt="" coords="404,390,434,403,501,446,556,490,553,494,498,450,432,408,402,395"/>
+<area shape="poly" id="edge16_Node000014_Node000009" title=" " alt="" coords="403,350,510,326,511,331,404,355"/>
+<area shape="rect" id="Node000015" href="$d3/dbc/classSingleStreamingInput.html#a830ddea13afd553b035f11e68258daac" title=" " alt="" coords="510,349,672,394"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="404,368,495,368,495,374,404,374"/>
+<area shape="poly" id="edge22_Node000017_Node000016" title=" " alt="" coords="395,705,500,685,501,690,397,710"/>
+<area shape="rect" id="Node000018" href="$d2/d8a/classInputFileHandler.html#a1cee3f2baa09932712f151fc0ba67db7" title="Open input file for reading." alt="" coords="497,708,685,736"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="432,719,481,719,481,724,432,724"/>
+<area shape="rect" id="Node000019" href="$d2/d8a/classInputFileHandler.html#a0ef1f262db98136850cc1ad3be18a14d" title=" " alt="" coords="484,760,698,804"/>
+<area shape="poly" id="edge21_Node000017_Node000019" title=" " alt="" coords="386,734,473,753,471,758,385,739"/>
+<area shape="rect" id="Node000020" href="$d2/d8a/classInputFileHandler.html#a811c67eb19cef0fba2d7c38b446d7955" title="Execute optional script before opening the input file." alt="" coords="489,829,693,874"/>
+<area shape="poly" id="edge23_Node000017_Node000020" title=" " alt="" coords="413,734,435,745,452,762,460,780,467,798,483,814,489,819,486,823,479,819,463,801,455,782,447,765,431,749,411,739"/>
+</map>

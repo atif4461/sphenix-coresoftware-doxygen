@@ -1,0 +1,22 @@
+digraph "Fun4AllHepMCInputManager::PushBackEvents"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Fun4AllHepMCInputManager\l::PushBackEvents",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Push back events onto internal stack or skip events based on input i."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllHepMCInputManager\l::fileclose",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d6f/classFun4AllHepMCInputManager.html#acb8899e9a7c218645674aa541d77d7a5",tooltip="Close the input file for this manager."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="InputFileHandler::IsOpen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Fun4AllBase::Name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893",tooltip="Returns the name of this module."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="InputFileHandler::Update\lFileList",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb",tooltip="Update internal file list handling repeat logic."];
+  Node1 -> Node3 [id="edge5_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge6_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Fun4AllInputManager\l::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664",tooltip="Gets the verbosity of this module."];
+}

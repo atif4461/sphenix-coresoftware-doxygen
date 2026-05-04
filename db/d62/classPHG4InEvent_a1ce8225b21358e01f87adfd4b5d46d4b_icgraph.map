@@ -1,0 +1,15 @@
+<map id="PHG4InEvent::AddParticle" name="PHG4InEvent::AddParticle">
+<area shape="rect" id="Node000001" title="Add a particle to a vertex in the event." alt="" coords="260,187,447,215"/>
+<area shape="rect" id="Node000002" href="$d0/df9/classCosmicSpray.html#a5b6da2c850c5a618ce03f315f0292336" title="Generate a cosmic muon event and insert it into the PHG4InEvent node." alt="" coords="27,5,190,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="330,177,279,120,246,91,210,65,188,53,190,48,213,60,249,86,283,117,334,173"/>
+<area shape="rect" id="Node000003" href="$db/d6c/classHepMCNodeReader.html#a9216b26c5e57c06c2276b0cc67495f0b" title="Process event data from HepMC node and fill Geant4 in event structure." alt="" coords="5,75,212,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="311,182,211,134,180,122,182,117,213,129,313,177"/>
+<area shape="rect" id="Node000004" href="$da/ddc/classPHG4IonGun.html#acab314e46908041565e0e14e73325bab" title="Process a single event and generate ion primary particles." alt="" coords="28,144,189,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="244,188,189,180,190,175,245,183"/>
+<area shape="rect" id="Node000005" href="$dd/d68/classPHG4ParticleGenerator.html#a27b1f33f182e52a875ead48612ad29d3" title="Generate particles for the current event and store them in the PHG4InEvent node." alt="" coords="23,213,194,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="244,219,195,226,194,221,244,214"/>
+<area shape="rect" id="Node000006" href="$d9/d78/classPHG4ParticleGeneratorD0.html#ab7b714e2007eaf957fd8790b5b0cfd39" title="Generate a D0 meson event, decay it to Kminus and piplus and store the particles in the PHG4InEvent n..." alt="" coords="14,283,203,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="313,225,213,273,182,285,180,280,211,268,311,220"/>
+<area shape="rect" id="Node000007" href="$dd/d13/classPHG4ParticleGun.html#a628a3341c5489016d87c637e55d333b7" title="Process a single event and fill PHG4InEvent with vertex and particles." alt="" coords="14,352,203,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="334,229,283,285,249,316,213,342,190,354,188,349,210,337,246,311,279,282,330,225"/>
+</map>

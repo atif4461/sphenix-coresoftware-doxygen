@@ -1,0 +1,91 @@
+<map id="PHGeomUtility::ImportCurrentTGeoManager" name="PHGeomUtility::ImportCurrentTGeoManager">
+<area shape="rect" id="Node000001" title="gGeoManager &#45;&gt; DST node" alt="" coords="5,378,222,423"/>
+<area shape="rect" id="Node000002" href="$d7/d6d/classPHGeomTGeo.html#a3e111f6229f7ce6392b14a98fdf5bea9" title="Retrieve the current TGeoManager geometry instance." alt="" coords="293,335,502,362"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,378,302,363,303,368,222,383"/>
+<area shape="rect" id="Node000004" href="$d2/da1/classPHGeomUtility.html#a93ec483f3447fdefc3a471601fc8587b" title="Get non&#45;persistent PHGeomTGeo from DST nodes. If not found, make a new one." alt="" coords="270,613,525,641"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,421,368,601,365,605,142,426"/>
+<area shape="rect" id="Node000015" href="$d2/da1/classPHGeomUtility.html#a84ee9f9eaf686f5c98ddc1af089ae248" title="Verbosity for geometry IO like, TGeoMangers." alt="" coords="293,841,502,869"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="131,422,272,651,381,827,377,830,267,654,127,425"/>
+<area shape="rect" id="Node000026" href="$d7/d6d/classPHGeomTGeo.html#abdec55181f592bbdd6e63882d83b4c5f" title="isValid returns non zero if object contains vailid data" alt="" coords="316,283,479,310"/>
+<area shape="poly" id="edge30_Node000001_Node000026" title=" " alt="" coords="152,375,207,347,269,321,300,311,301,316,271,326,209,352,155,380"/>
+<area shape="rect" id="Node000027" href="$d7/d6d/classPHGeomTGeo.html#a8b2df41583e27a653458c6aae76a2926" title="Set the internal geometry manager for the PHGeomTGeo instance." alt="" coords="294,387,500,414"/>
+<area shape="poly" id="edge32_Node000001_Node000027" title=" " alt="" coords="222,398,279,398,279,403,222,403"/>
+<area shape="rect" id="Node000003" href="$d7/d6d/classPHGeomTGeo.html#a8d16aa1e6ae54054550afb1cca3fc36c" title="Verify that the internal TGeoManager instance matches the global gGeoManager." alt="" coords="577,296,816,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="502,332,569,324,570,329,502,338"/>
+<area shape="rect" id="Node000005" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="592,740,801,768"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="432,639,574,701,647,731,645,736,572,706,430,644"/>
+<area shape="rect" id="Node000009" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="868,613,1050,641"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="526,624,853,624,853,630,526,630"/>
+<area shape="rect" id="Node000012" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="625,664,768,692"/>
+<area shape="poly" id="edge15_Node000004_Node000012" title=" " alt="" coords="484,639,610,661,609,666,483,644"/>
+<area shape="rect" id="Node000014" href="$d2/da1/classPHGeomUtility.html#a77c6859ddb9640077cded79c33ba364b" title="DST node name for RunTime geometry object." alt="" coords="573,563,820,590"/>
+<area shape="poly" id="edge18_Node000004_Node000014" title=" " alt="" coords="483,610,595,591,596,596,484,615"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="1142,692,1283,720"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="802,741,1126,711,1126,716,802,747"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="1146,768,1279,796"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="735,766,797,787,869,803,937,809,1007,808,1131,795,1131,800,1007,813,937,814,868,808,795,792,733,771"/>
+<area shape="rect" id="Node000008" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="888,767,1030,794"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="802,762,872,769,872,774,801,767"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="1169,769,1162,759,1168,749,1185,743,1212,741,1242,744,1258,750,1256,755,1241,749,1212,747,1186,749,1171,753,1168,759,1174,766"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="1031,778,1130,779,1130,784,1031,784"/>
+<area shape="poly" id="edge12_Node000009_Node000006" title=" " alt="" coords="1016,639,1051,651,1075,664,1099,677,1127,686,1126,691,1097,682,1072,669,1049,656,1014,644"/>
+<area shape="poly" id="edge11_Node000009_Node000009" title=" " alt="" coords="916,614,909,604,914,595,931,589,959,587,989,589,1005,596,1003,600,987,594,959,592,932,594,918,599,914,604,920,611"/>
+<area shape="rect" id="Node000010" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1146,588,1278,616"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="1050,615,1130,607,1131,613,1050,621"/>
+<area shape="rect" id="Node000011" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="1098,640,1327,668"/>
+<area shape="poly" id="edge14_Node000009_Node000011" title=" " alt="" coords="1050,634,1082,637,1082,643,1050,639"/>
+<area shape="poly" id="edge16_Node000012_Node000009" title=" " alt="" coords="768,661,868,642,869,647,769,667"/>
+<area shape="rect" id="Node000013" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="877,665,1041,693"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="769,676,861,676,861,681,769,681"/>
+<area shape="rect" id="Node000016" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="629,816,764,844"/>
+<area shape="poly" id="edge20_Node000015_Node000016" title=" " alt="" coords="502,844,614,834,614,839,503,849"/>
+<area shape="rect" id="Node000017" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="Retrieve integer flag value by name." alt="" coords="622,868,771,896"/>
+<area shape="poly" id="edge21_Node000015_Node000017" title=" " alt="" coords="503,862,607,871,607,877,502,867"/>
+<area shape="rect" id="Node000025" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="618,920,775,948"/>
+<area shape="poly" id="edge29_Node000015_Node000025" title=" " alt="" coords="444,867,574,905,610,913,609,919,572,910,443,872"/>
+<area shape="rect" id="Node000018" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="906,921,1012,949"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="769,894,891,919,890,924,768,899"/>
+<area shape="rect" id="Node000024" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="871,868,1047,896"/>
+<area shape="poly" id="edge28_Node000017_Node000024" title=" " alt="" coords="771,879,856,879,856,884,771,884"/>
+<area shape="rect" id="Node000019" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="1119,820,1306,848"/>
+<area shape="poly" id="edge23_Node000018_Node000019" title=" " alt="" coords="1011,921,1048,905,1062,894,1071,882,1081,870,1096,858,1112,851,1114,856,1099,863,1085,874,1076,885,1066,897,1051,909,1013,926"/>
+<area shape="rect" id="Node000020" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="1126,872,1299,900"/>
+<area shape="poly" id="edge24_Node000018_Node000020" title=" " alt="" coords="1012,922,1122,901,1123,906,1013,928"/>
+<area shape="rect" id="Node000021" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="1134,924,1291,952"/>
+<area shape="poly" id="edge25_Node000018_Node000021" title=" " alt="" coords="1012,933,1118,934,1118,940,1012,938"/>
+<area shape="rect" id="Node000022" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="1123,976,1302,1004"/>
+<area shape="poly" id="edge26_Node000018_Node000022" title=" " alt="" coords="1013,944,1130,970,1129,975,1012,949"/>
+<area shape="rect" id="Node000023" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="1122,1028,1303,1056"/>
+<area shape="poly" id="edge27_Node000018_Node000023" title=" " alt="" coords="982,947,1033,980,1099,1013,1122,1021,1120,1026,1097,1018,1031,985,979,952"/>
+<area shape="poly" id="edge31_Node000026_Node000003" title=" " alt="" coords="479,297,562,301,562,306,479,303"/>
+<area shape="poly" id="edge33_Node000027_Node000003" title=" " alt="" coords="490,384,524,371,538,363,547,353,557,343,572,334,591,326,593,331,574,339,560,348,551,357,541,367,526,376,492,389"/>
+<area shape="rect" id="Node000028" href="$df/de1/g_8f.html#ae6f69233cd20fb9f18eccb21a11b604f" title=" " alt="" coords="677,372,716,400"/>
+<area shape="poly" id="edge34_Node000027_Node000028" title=" " alt="" coords="501,393,662,385,662,390,501,398"/>
+<area shape="poly" id="edge35_Node000028_Node000028" title=" " alt="" coords="676,384,651,372,646,366,646,358,662,349,697,345,728,348,746,356,747,367,732,378,729,374,742,365,741,359,727,353,697,351,664,354,650,361,651,364,654,368,678,379"/>
+<area shape="rect" id="Node000029" href="$db/d20/parton_8f.html#a3b6487bad48aa8ef534f4d1b31eff181" title=" " alt="" coords="927,537,991,565"/>
+<area shape="poly" id="edge36_Node000028_Node000029" title=" " alt="" coords="713,398,777,458,822,492,870,522,913,539,911,544,867,527,819,497,774,462,710,402"/>
+<area shape="rect" id="Node000031" href="$df/dbd/subcrs1_8f.html#a5f4351235416e511fd6351ff89b3ee37" title=" " alt="" coords="923,29,995,57"/>
+<area shape="poly" id="edge39_Node000028_Node000031" title=" " alt="" coords="716,381,768,368,795,354,818,333,838,300,846,267,845,234,840,201,835,169,835,136,844,102,866,68,885,54,907,46,909,51,888,58,870,72,849,104,840,136,841,168,845,201,850,234,851,267,843,302,822,337,798,358,770,373,717,386"/>
+<area shape="rect" id="Node000032" href="$d9/d3c/subcrs2_8f.html#ada3c616960f865414127ef13ea958c28" title=" " alt="" coords="923,105,995,133"/>
+<area shape="poly" id="edge41_Node000028_Node000032" title=" " alt="" coords="716,381,767,367,795,353,818,333,834,310,841,286,840,239,839,216,841,192,849,168,866,144,885,130,907,122,909,127,888,135,870,148,854,170,846,193,844,216,846,239,846,287,839,312,822,337,798,358,769,372,717,386"/>
+<area shape="rect" id="Node000033" href="$da/d28/subcrs3_8f.html#a6b94147307b9e5dea966e527415fcadf" title=" " alt="" coords="923,181,995,209"/>
+<area shape="poly" id="edge43_Node000028_Node000033" title=" " alt="" coords="715,380,766,365,794,352,818,333,830,319,836,306,841,277,847,249,854,234,867,220,886,207,907,199,909,204,888,212,870,224,858,237,852,250,846,278,841,307,834,322,822,337,797,356,768,370,717,385"/>
+<area shape="rect" id="Node000034" href="$db/d57/subcrs4_8f.html#a393f34904dbb727a451f8be81d9f4f09" title=" " alt="" coords="923,257,995,285"/>
+<area shape="poly" id="edge45_Node000028_Node000034" title=" " alt="" coords="715,378,763,360,819,333,842,314,867,296,907,280,909,285,870,300,846,318,822,337,765,365,717,383"/>
+<area shape="rect" id="Node000035" href="$dc/d30/subcrs5_8f.html#a18ab73861279badb06bf6934de1b936b" title=" " alt="" coords="923,333,995,361"/>
+<area shape="poly" id="edge47_Node000028_Node000035" title=" " alt="" coords="716,380,908,352,908,357,717,386"/>
+<area shape="rect" id="Node000036" href="$d8/db8/subcrs6_8f.html#a9e929a91bacb5311740c272621f652b9" title=" " alt="" coords="923,409,995,437"/>
+<area shape="poly" id="edge49_Node000028_Node000036" title=" " alt="" coords="717,386,908,413,908,419,716,391"/>
+<area shape="rect" id="Node000037" href="$d5/d6a/subcrs7_8f.html#a07a0bfc6abbcfef45515d7041b3d66f3" title=" " alt="" coords="923,485,995,513"/>
+<area shape="poly" id="edge51_Node000028_Node000037" title=" " alt="" coords="717,391,912,476,910,481,715,396"/>
+<area shape="rect" id="Node000030" href="$dc/dc6/gmre_8f.html#a49cfd1ee4f5604e6a082575e0cf129d5" title=" " alt="" coords="1185,536,1240,564"/>
+<area shape="poly" id="edge37_Node000029_Node000030" title=" " alt="" coords="991,548,1169,547,1169,553,991,554"/>
+<area shape="poly" id="edge38_Node000030_Node000030" title=" " alt="" coords="1183,544,1165,533,1164,521,1181,512,1212,509,1240,511,1257,517,1262,527,1256,537,1252,533,1257,527,1253,521,1239,517,1212,515,1182,517,1169,523,1170,530,1186,540"/>
+<area shape="poly" id="edge40_Node000031_Node000031" title=" " alt="" coords="921,34,910,23,913,12,930,5,959,3,998,8,1007,14,1009,21,1003,22,1003,17,996,13,959,8,931,10,917,16,915,22,925,30"/>
+<area shape="poly" id="edge42_Node000032_Node000032" title=" " alt="" coords="921,110,910,99,913,88,930,81,959,79,998,84,1007,90,1009,97,1003,98,1003,93,996,89,959,84,931,86,917,92,915,98,925,106"/>
+<area shape="poly" id="edge44_Node000033_Node000033" title=" " alt="" coords="921,186,910,175,913,164,930,157,959,155,998,160,1007,166,1009,173,1003,174,1003,169,996,165,959,160,931,162,917,168,915,174,925,182"/>
+<area shape="poly" id="edge46_Node000034_Node000034" title=" " alt="" coords="921,262,910,251,913,240,930,233,959,231,998,236,1007,242,1009,249,1003,250,1003,245,996,241,959,236,931,238,917,244,915,250,925,258"/>
+<area shape="poly" id="edge48_Node000035_Node000035" title=" " alt="" coords="921,338,910,327,913,316,930,309,959,307,998,312,1007,318,1009,325,1003,326,1003,321,996,317,959,312,931,314,917,320,915,326,925,334"/>
+<area shape="poly" id="edge50_Node000036_Node000036" title=" " alt="" coords="921,414,910,403,913,392,930,385,959,383,998,388,1007,394,1009,401,1003,402,1003,397,996,393,959,388,931,390,917,396,915,402,925,410"/>
+<area shape="poly" id="edge52_Node000037_Node000037" title=" " alt="" coords="921,490,910,479,913,468,930,461,959,459,998,464,1007,470,1009,477,1003,478,1003,473,996,469,959,464,931,466,917,472,915,478,925,486"/>
+</map>

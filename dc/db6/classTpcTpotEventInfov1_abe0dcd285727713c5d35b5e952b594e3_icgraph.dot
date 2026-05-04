@@ -1,0 +1,14 @@
+digraph "TpcTpotEventInfov1::setLastBCO"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TpcTpotEventInfov1\l::setLastBCO",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcTpotEventInfov1\l::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db6/classTpcTpotEventInfov1.html#a587e219d7867603e73c214d42b67295c",tooltip="copy content from base class"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TpcTpotEventInfov1\l::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/db6/classTpcTpotEventInfov1.html#a99d33d4989ee601db271211c7b25f921",tooltip="copy content from base class"];
+}

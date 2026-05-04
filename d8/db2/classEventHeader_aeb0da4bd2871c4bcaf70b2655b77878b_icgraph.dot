@@ -1,0 +1,28 @@
+digraph "EventHeader::get_intval"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="EventHeader::get_intval",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="EventHeader::get_BunchCrossing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#ad9f44cf0e477317edef293f910d01434",tooltip="bunch crossing"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="DumpEventHeader::process_Node",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d69/classDumpEventHeader.html#a821ecf7067203b1b1a1592cff886a629",tooltip="Dump event header information from a PHNode to the output file stream."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="EventHeader::get_EvtType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#a1b55fc6f5e4ab998cbd064fced6e6328",tooltip="get Event Type (Data,rejected,EOR,BOR,...)"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="EventHeaderv2::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d20/classEventHeaderv2.html#ad822ecffe5475dbf70baeb5ccb2eecb3",tooltip="Print identification information for the EventHeaderv2 object."];
+  Node4 -> Node3 [id="edge5_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="EventHeader::get_ncoll",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#add6ebbadc2b67b4cf1315a96b24871c4",tooltip=" "];
+  Node6 -> Node3 [id="edge7_Node000006_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="EventHeader::get_npart",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#a3a109a9578fc7c9042bd7c61432ae98b",tooltip=" "];
+  Node7 -> Node3 [id="edge9_Node000007_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge10_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="EventHeader::get_TimeStamp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#acb737b2857cb417de6269b095997018c",tooltip=" "];
+  Node8 -> Node3 [id="edge11_Node000008_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

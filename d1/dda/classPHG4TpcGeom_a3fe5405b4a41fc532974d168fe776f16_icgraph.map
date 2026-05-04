@@ -1,0 +1,27 @@
+<map id="PHG4TpcGeom::get_radius" name="PHG4TpcGeom::get_radius">
+<area shape="rect" id="Node000001" title=" " alt="" coords="516,272,711,300"/>
+<area shape="rect" id="Node000002" href="$d4/d1d/classTpc3DClusterizer.html#a5165c9474cc443a3db991195703d609c" title="Compute cluster parameters from a collection of hits and associated ADC values and store the resultin..." alt="" coords="281,5,448,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="599,259,579,216,551,164,513,110,466,64,447,52,450,48,470,60,517,107,555,161,584,214,604,257"/>
+<area shape="rect" id="Node000004" href="$d5/d55/classMvtxMatchingEfficiencyWithShapes.html#aea613a005ffb513508c174a61e9827c0" title="Calculate the truncated mean dEdx for a given TPC track seed." alt="" coords="261,75,468,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="592,262,540,198,505,164,467,134,445,122,447,118,469,129,509,160,544,194,596,258"/>
+<area shape="rect" id="Node000006" href="$db/d6c/classTpcSeedsQA.html#a698664ca8aeece23137162691aecceb1" title="Calculate the truncated mean dE/dx for a given TPC track seed." alt="" coords="277,143,452,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="584,264,532,223,467,185,437,174,439,169,469,180,535,219,587,260"/>
+<area shape="rect" id="Node000008" href="$dd/dc0/classTpcClusterBuilder.html#a0ccc39c3be0dddc61924ba6856176c40" title="Build clusters from TPC hits for a given truth track." alt="" coords="292,195,436,239"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="546,270,436,240,438,234,547,265"/>
+<area shape="rect" id="Node000009" href="$d7/d24/classTrkrClusterIsMatcher.html#ab1b019e181539bc44cb34346ae569598" title="Initialize matcher by retrieving geometry and cluster containers from node tree." alt="" coords="287,264,442,309"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="501,289,442,289,442,284,501,284"/>
+<area shape="rect" id="Node000010" href="$d5/d78/classPHTpcClusterMover.html#a76d7656af4c32db17e9f644cc1316ebe" title="Initialize run specific data structures and cache TPC layer radii." alt="" coords="286,333,443,378"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="547,307,444,336,443,331,546,302"/>
+<area shape="rect" id="Node000011" href="$d2/d93/classTrkrNtuplizer.html#a68f20fa7139d782992d0e66d73a4b960" title="Initialize run specific geometry and calibration data." alt="" coords="285,402,444,430"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="587,313,535,354,469,393,439,404,437,399,467,388,532,349,584,309"/>
+<area shape="rect" id="Node000012" href="$d9/d15/classPHG4TpcPadBaselineShift.html#a3bb5562810279bd00fe4e241d8f94d52" title="Process a single event and apply baseline shift to TPC pad ADC values." alt="" coords="270,453,458,498"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="596,314,544,378,509,413,469,443,447,455,445,450,467,439,505,409,540,375,592,311"/>
+<area shape="rect" id="Node000013" href="$de/d25/classTpcClusterizer.html#ac66fda514e9c1985f3f083ef79934137" title="Process a single event performing TPC clustering using the Fun4All node tree." alt="" coords="278,523,450,567"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="604,316,584,359,555,412,517,466,470,512,451,524,448,520,466,508,513,462,551,409,579,357,599,314"/>
+<area shape="rect" id="Node000003" href="$d4/d1d/classTpc3DClusterizer.html#a93d017d1dd124d9b80802fdc11d9bfd6" title="Process a single event within the Fun4All framework." alt="" coords="14,5,204,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="266,30,204,30,204,25,266,25"/>
+<area shape="rect" id="Node000005" href="$d5/d55/classMvtxMatchingEfficiencyWithShapes.html#adfc5258f7649d24eabd157651befe027" title="Process a single event and fill the analysis tree with MVTX matching efficiency and cluster shape inf..." alt="" coords="5,75,213,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="245,100,213,100,213,94,245,94"/>
+<area shape="rect" id="Node000007" href="$db/d6c/classTpcSeedsQA.html#a4468d2812ff80bae2d0b63412e5780dd" title="Process a single event and fill QA histograms." alt="" coords="29,144,189,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="261,163,190,166,190,161,261,158"/>
+</map>

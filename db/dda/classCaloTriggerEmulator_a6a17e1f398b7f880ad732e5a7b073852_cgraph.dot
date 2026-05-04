@@ -1,0 +1,33 @@
+digraph "CaloTriggerEmulator::process_trigger"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="CaloTriggerEmulator\l::process_trigger",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Process trigger primitives for photon and jet triggers and fill output bits."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CaloTriggerEmulator\l::CheckFiberMasks",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dda/classCaloTriggerEmulator.html#aa4690ee06b47aa5f226cedf0a5b36cc5",tooltip="Determine if a given trigger primitive key is present in the fiber mask list."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CaloTriggerEmulator\l::getBits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dda/classCaloTriggerEmulator.html#ac8741a54e295eaef0a455c87872e5b2b",tooltip="Compute trigger bits for a given sum and trigger type."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TriggerDefs::getPrimitive\lPhiId_from_TriggerSumKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ddd/namespaceTriggerDefs.html#af81600d954e34121b6058cb6d19a9753",tooltip="Compute phi identifier for a primitive from a trigger sum key."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TriggerDefs::getDetector\lId_from_TriggerSumKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ddd/namespaceTriggerDefs.html#ad8cac1f02acc72ec293f0fd69db086b5",tooltip="Convert a TriggerSumKey to the corresponding DetectorId."];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TriggerDefs::getPrimitive\lId_from_TriggerSumKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ddd/namespaceTriggerDefs.html#abb33ad2eb86f1642b6b41ebb43c7c5f9",tooltip="Convert a TriggerSumKey to its PrimitiveId component."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TriggerDefs::getSumEtaId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ddd/namespaceTriggerDefs.html#a5673d047ab153c88a06914b00f925a45",tooltip="Retrieve the eta index for a trigger sum based on its primitive type."];
+  Node7 -> Node6 [id="edge7_Node000007_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TriggerDefs::getSumLocId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ddd/namespaceTriggerDefs.html#afbb208317744d6969acecdfccec93060",tooltip="Extract location identifier from trigger sum key."];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TriggerDefs::getSumPhiId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ddd/namespaceTriggerDefs.html#aaa5097978be92fc976d9c9d165c4990d",tooltip="Compute the phi sector identifier for a given trigger sum key."];
+  Node9 -> Node6 [id="edge10_Node000009_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node8 [id="edge11_Node000009_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node10 [id="edge12_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TriggerPrimitive::getSums",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dcb/classTriggerPrimitive.html#a70018af39eb60d781933bcf7e2f97098",tooltip="Retrieve constant range of sum entries."];
+  Node1 -> Node11 [id="edge13_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="Fun4AllBase::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664",tooltip="Gets the verbosity of this module."];
+}

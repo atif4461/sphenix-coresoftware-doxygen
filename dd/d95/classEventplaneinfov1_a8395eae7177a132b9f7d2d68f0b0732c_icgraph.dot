@@ -1,0 +1,14 @@
+digraph "Eventplaneinfov1::GetPsi"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Eventplaneinfov1::GetPsi",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute the event plane angle psi from Q‑vector components and harmonic order."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Eventplaneinfov1::get_psi",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d95/classEventplaneinfov1.html#ad874b5fc27e72d68e23680b716b35719",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Eventplaneinfov1::get\l_ring_psi",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d95/classEventplaneinfov1.html#a292255db78edae1eb0c0759c5aa10211",tooltip=" "];
+}

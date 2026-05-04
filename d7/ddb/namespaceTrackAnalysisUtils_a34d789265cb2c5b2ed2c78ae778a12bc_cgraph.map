@@ -1,0 +1,42 @@
+<map id="TrackAnalysisUtils::calc_dedx_calib" name="TrackAnalysisUtils::calc_dedx_calib">
+<area shape="rect" id="Node000001" title="Calculate calibrated dEdx for a given track using TPC clusters." alt="" coords="5,364,146,409"/>
+<area shape="rect" id="Node000002" href="$d0/ddd/classTpcClusterZCrossingCorrection.html#af6a24ce82a82384ddceadf2914c3f945" title="apply correction on a given z" alt="" coords="201,5,423,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,363,83,303,102,222,117,178,136,136,161,96,192,60,196,57,199,61,196,64,165,99,141,138,122,180,107,224,88,304,81,364"/>
+<area shape="rect" id="Node000003" href="$d0/d2c/classTrkrClusterContainer.html#a2e07352ae628a96f29c37cd2789c60b6" title="find cluster matching given key" alt="" coords="235,75,389,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="78,363,90,314,111,252,144,186,166,156,192,130,218,113,221,117,195,134,170,160,149,189,116,254,95,316,83,364"/>
+<area shape="rect" id="Node000004" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a49c53aa9c51fe3ade0fe2247051d15bf" title="Retrieve cluster keys from a TrackSeed." alt="" coords="242,144,382,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="82,363,98,327,121,283,153,238,192,199,225,181,228,185,195,203,157,241,126,285,103,329,87,365"/>
+<area shape="rect" id="Node000007" href="$d3/d64/classActsGeometry.html#a1f653f9f0f4a97ff3dcc2c98288af859" title=" " alt="" coords="227,213,397,258"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="92,362,134,315,162,290,192,268,211,259,213,263,195,273,165,294,138,318,96,366"/>
+<area shape="rect" id="Node000008" href="$d2/db8/classSvtxTrack.html#afe77f66a19ade74b9bc94e87dabd4b85" title=" " alt="" coords="225,282,399,310"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="110,361,149,339,193,319,214,312,215,317,195,323,151,343,113,366"/>
+<area shape="rect" id="Node000009" href="$d3/d64/classActsGeometry.html#abf5a9332fe84057afa21809abcd2b0c5" title=" " alt="" coords="223,333,401,378"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="146,375,207,367,208,372,147,380"/>
+<area shape="rect" id="Node000010" href="$d2/db8/classSvtxTrack.html#a09628ce6a35671eb8fe2974bbe846b4f" title=" " alt="" coords="223,402,401,430"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="147,392,208,400,207,405,146,398"/>
+<area shape="rect" id="Node000011" href="$d6/dfa/classTrkrCluster.html#abef299fdff891d76bbb4724721b3f71f" title=" " alt="" coords="240,454,384,482"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="121,407,195,438,225,448,224,453,193,444,119,412"/>
+<area shape="rect" id="Node000012" href="$d3/d64/classActsGeometry.html#a81e1d6479636cdf2b22d2acc993d7ff1" title="Compute global position of a tracker cluster using Acts geometry." alt="" coords="194,506,430,534"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="97,407,139,450,166,472,195,491,211,498,209,503,192,495,163,477,136,454,93,411"/>
+<area shape="rect" id="Node000015" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="826,404,966,432"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="88,408,103,440,126,478,157,515,195,543,244,560,308,571,383,577,463,578,543,574,619,567,685,556,736,542,777,523,814,497,871,442,875,446,818,501,780,527,738,548,686,561,620,572,544,580,463,583,383,582,308,576,243,565,192,547,153,519,122,481,99,443,83,410"/>
+<area shape="rect" id="Node000018" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="242,607,382,635"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="86,408,100,447,123,496,154,545,174,567,195,587,228,604,226,609,192,591,170,571,150,548,118,498,95,449,81,410"/>
+<area shape="rect" id="Node000019" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="246,659,378,687"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="83,409,93,458,114,522,147,589,169,618,195,644,213,655,232,663,230,668,210,660,192,648,165,622,143,591,109,524,88,460,78,410"/>
+<area shape="rect" id="Node000005" href="$dc/d80/classTrackSeed.html#a513e9904f6837460a7b561d8348c3e13" title="Return a const iterator positioned at the end of the dummy cluster key set." alt="" coords="498,127,717,155"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="382,158,483,149,483,154,383,163"/>
+<area shape="rect" id="Node000006" href="$dc/d80/classTrackSeed.html#ad32517668fd228928ed69c331c92daa5" title="Return a constant iterator to the end of the cluster key set." alt="" coords="504,179,711,207"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="383,170,489,180,488,185,382,175"/>
+<area shape="rect" id="Node000013" href="$d3/d64/classActsGeometry.html#abe7b8fadd95687eab97782238c1272ed" title="Compute global position of a TPC cluster." alt="" coords="478,352,737,380"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="408,503,428,491,439,480,446,469,452,445,458,420,465,408,476,396,495,385,497,389,480,400,469,411,463,422,457,446,450,471,443,483,432,495,411,507"/>
+<area shape="poly" id="edge18_Node000012_Node000015" title=" " alt="" coords="401,503,429,491,443,479,451,465,461,452,477,440,518,424,562,412,651,399,736,398,810,403,810,408,736,403,651,405,563,417,520,429,479,445,464,455,456,468,447,482,431,495,403,508"/>
+<area shape="rect" id="Node000016" href="$d6/dfa/classTrkrCluster.html#aee7d1557cd0cf5b0969ec7075639c277" title=" " alt="" coords="526,454,689,482"/>
+<area shape="poly" id="edge16_Node000012_Node000016" title=" " alt="" coords="394,503,511,482,511,487,395,508"/>
+<area shape="rect" id="Node000017" href="$d6/dfa/classTrkrCluster.html#a3ceb9dc71d12147d8d24eb9c6cbc861f" title=" " alt="" coords="526,506,689,534"/>
+<area shape="poly" id="edge17_Node000012_Node000017" title=" " alt="" coords="430,517,511,517,511,522,430,522"/>
+<area shape="rect" id="Node000014" href="$d3/d64/classActsGeometry.html#af35c92c361420b21bd649be83205f5ba" title="Retrieve local detector coordinates for a given cluster key and cluster object." alt="" coords="785,352,1007,380"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="738,364,770,364,770,369,738,369"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="689,378,811,400,810,406,688,383"/>
+<area shape="poly" id="edge14_Node000014_Node000014" title=" " alt="" coords="848,354,839,344,846,334,865,328,896,326,930,328,948,335,946,340,929,334,896,331,866,333,849,338,845,343,852,350"/>
+</map>

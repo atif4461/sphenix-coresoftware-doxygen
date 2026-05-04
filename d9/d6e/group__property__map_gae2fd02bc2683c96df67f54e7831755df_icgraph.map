@@ -1,0 +1,72 @@
+<map id="RawCluster::get_property_info" name="RawCluster::get_property_info">
+<area shape="rect" id="Node000001" title="type management" alt="" coords="1041,812,1259,840"/>
+<area shape="rect" id="Node000002" href="$d9/d6e/group__property__map.html#ga32e4d878c2140a38512509751b0f8ed3" title="Verify that a given property identifier matches the expected property type." alt="" coords="789,837,993,865"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1025,841,994,844,993,839,1025,835"/>
+<area shape="rect" id="Node000003" href="$d9/d6e/group__property__map.html#gaac24b548047ddec099d9aae816f5c13e" title="Retrieve a float property from the cluster." alt="" coords="523,433,725,478"/>
+<area shape="poly" id="edge33_Node000001_Node000003" title=" " alt="" coords="1123,803,1065,746,991,683,904,621,814,564,667,480,670,476,817,560,907,617,994,678,1068,742,1127,799"/>
+<area shape="rect" id="Node000012" href="$d0/d73/classRawClusterv1.html#a236bb5ed9a94fdb11471d00c0a307467" title="Identify and print summary information of the RawClusterv1 object." alt="" coords="265,731,433,758"/>
+<area shape="poly" id="edge36_Node000001_Node000012" title=" " alt="" coords="1104,808,1051,786,992,766,859,734,752,720,645,719,507,727,434,735,433,729,507,722,645,714,753,715,860,728,993,761,1053,781,1106,803"/>
+<area shape="rect" id="Node000019" href="$d9/d6e/group__property__map.html#ga16ab72e7e45f6544a009add78fc390f8" title="Retrieve integer property value identified by prop_id." alt="" coords="511,788,737,816"/>
+<area shape="poly" id="edge34_Node000001_Node000019" title=" " alt="" coords="1025,823,738,810,738,804,1025,818"/>
+<area shape="rect" id="Node000020" href="$d9/d6e/group__property__map.html#ga514cc2c06e39e23648d77ab38024635b" title="Retrieve an unsigned int property value from the property map." alt="" coords="507,736,741,764"/>
+<area shape="poly" id="edge35_Node000001_Node000020" title=" " alt="" coords="1065,811,992,798,742,765,742,759,993,793,1066,806"/>
+<area shape="rect" id="Node000021" href="$d9/d6e/group__property__map.html#ga056d4dfe457a5667cb0279a74d21fdd0" title="Set a float property identified by prop_id." alt="" coords="524,887,725,914"/>
+<area shape="poly" id="edge37_Node000001_Node000021" title=" " alt="" coords="1099,848,1049,865,993,879,924,890,854,897,725,903,725,898,853,892,923,885,992,874,1047,860,1098,843"/>
+<area shape="rect" id="Node000030" href="$d9/d6e/group__property__map.html#gab38df7a522968fe28ddf1340e044da49" title="Set integer property identified by PROPERTY enum." alt="" coords="524,939,725,966"/>
+<area shape="poly" id="edge38_Node000001_Node000030" title=" " alt="" coords="1114,850,1059,880,993,906,925,923,854,936,725,951,725,945,854,931,924,918,992,901,1056,875,1112,845"/>
+<area shape="rect" id="Node000031" href="$d9/d6e/group__property__map.html#gab6c82d0711b9b36053dfde9ec1eef6dc" title="Set an unsigned integer property for this RawClusterv1 object." alt="" coords="524,991,725,1018"/>
+<area shape="poly" id="edge39_Node000001_Node000031" title=" " alt="" coords="1126,853,1069,903,1033,929,994,950,926,973,856,989,788,1000,726,1005,725,1000,787,994,855,984,925,968,992,945,1030,924,1066,899,1123,849"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="870,826,638,479,643,476,874,823"/>
+<area shape="poly" id="edge18_Node000002_Node000019" title=" " alt="" coords="797,837,702,819,703,814,798,831"/>
+<area shape="poly" id="edge20_Node000002_Node000020" title=" " alt="" coords="851,832,800,804,740,779,700,767,701,762,742,774,802,800,854,827"/>
+<area shape="poly" id="edge22_Node000002_Node000021" title=" " alt="" coords="798,871,703,889,702,883,797,866"/>
+<area shape="poly" id="edge31_Node000002_Node000030" title=" " alt="" coords="854,875,802,903,742,928,701,941,700,935,740,923,800,898,851,871"/>
+<area shape="poly" id="edge32_Node000002_Node000031" title=" " alt="" coords="869,879,815,931,780,958,743,980,711,993,709,988,740,975,777,953,811,927,865,875"/>
+<area shape="rect" id="Node000004" href="$d6/dc7/group__getters.html#gaf71376010e3dd0c24abd560624bd8cbe" title=" " alt="" coords="271,57,426,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="613,418,595,353,564,271,544,229,519,188,490,150,457,116,426,97,428,93,461,112,494,146,523,185,548,227,569,269,600,351,618,417"/>
+<area shape="rect" id="Node000005" href="$d6/dc7/group__getters.html#ga3d422c998b5c988a19663da8bb44e0e1" title="optional convenience accessors for mechanical incidence (return NaN if unset)" alt="" coords="271,126,426,171"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="608,419,586,367,554,304,511,240,486,211,457,185,426,167,428,163,461,181,489,207,515,237,559,301,591,365,613,417"/>
+<area shape="rect" id="Node000006" href="$d6/dc7/group__getters.html#ga9f2a89ea75e9ee7a6e3ad9073aab559f" title="reduced chi2 for EM shower" alt="" coords="262,195,436,222"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="604,420,580,377,547,328,506,279,458,237,433,225,436,221,460,233,510,275,552,324,585,375,608,418"/>
+<area shape="rect" id="Node000007" href="$d6/dc7/group__getters.html#ga8ffa28ed9d96de0999d0f10f3a219dd9" title=" " alt="" coords="257,247,440,274"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="596,422,538,354,500,319,458,289,430,277,432,273,460,285,503,315,542,350,600,418"/>
+<area shape="rect" id="Node000008" href="$d6/dc7/group__getters.html#ga111e00e485e5b4eaeb0282569eb481f2" title="isolation ET default" alt="" coords="256,299,442,326"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="584,425,527,381,458,342,424,329,426,324,460,337,530,377,587,421"/>
+<area shape="rect" id="Node000009" href="$d6/dc7/group__getters.html#gac394857ae39ed531aa90195002ec2740" title="isolation ET the radius and hueristic can be specified" alt="" coords="256,351,442,378"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="556,429,458,392,418,381,420,376,460,387,558,424"/>
+<area shape="rect" id="Node000010" href="$d6/dc7/group__getters.html#ga5befaa51dab9fd7099b4b97cea9c7dbe" title="cluster template merged pi0 cluster probability for EM shower" alt="" coords="250,402,448,447"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="507,445,448,438,448,433,508,440"/>
+<area shape="rect" id="Node000011" href="$d6/dc7/group__getters.html#gac80a4ad8abe33489158fb481274a5c13" title="cluster template probability for EM shower" alt="" coords="261,471,437,498"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="508,470,438,478,437,472,507,465"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="613,493,591,545,559,606,515,668,489,696,460,720,435,734,432,729,458,716,486,692,511,665,554,604,586,543,608,491"/>
+<area shape="rect" id="Node000014" href="$d6/dc7/group__getters.html#ga5aa74360cc6198c662cfef80be4e8566" title="energy&#45;weighted mean time" alt="" coords="252,523,446,550"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="545,486,460,512,414,525,412,519,458,507,543,480"/>
+<area shape="rect" id="Node000015" href="$d6/dc7/group__getters.html#ga9a356f970537efec14e3904a38871bf8" title=" " alt="" coords="247,575,450,602"/>
+<area shape="poly" id="edge14_Node000003_Node000015" title=" " alt="" coords="584,489,527,528,460,564,425,577,423,572,458,559,524,524,581,485"/>
+<area shape="rect" id="Node000016" href="$d6/dc7/group__getters.html#ga8846d617343d7665476039efdfdcc10f" title="tower&#45;space CoG in tower units (stored via property map)" alt="" coords="248,627,450,654"/>
+<area shape="poly" id="edge15_Node000003_Node000016" title=" " alt="" coords="598,492,540,556,502,588,460,616,432,628,429,624,458,611,499,584,536,552,594,488"/>
+<area shape="rect" id="Node000017" href="$d6/dc7/group__getters.html#ga65ea8f1deedced3960b7f2ed0d7d5d47" title=" " alt="" coords="247,679,450,706"/>
+<area shape="poly" id="edge16_Node000003_Node000017" title=" " alt="" coords="607,493,583,534,550,582,509,629,460,668,435,681,433,676,458,664,505,625,546,578,578,531,602,490"/>
+<area shape="rect" id="Node000018" href="$d6/dc7/group__getters.html#ga2f3999c4bace5d40da621ad1c43c42d8" title=" " alt="" coords="248,5,450,33"/>
+<area shape="poly" id="edge17_Node000003_Node000018" title=" " alt="" coords="617,418,604,339,576,238,555,186,529,135,497,87,457,47,441,36,444,31,461,42,501,84,534,132,560,183,581,237,609,338,622,417"/>
+<area shape="rect" id="Node000013" href="$d6/d96/classPhotonClusterv1.html#aa1ecd434cc38c68a84a20dcd7f6bd2f2" title="Identify prints photon cluster information to the provided stream." alt="" coords="5,731,191,758"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="249,747,191,747,191,742,249,742"/>
+<area shape="poly" id="edge19_Node000019_Node000012" title=" " alt="" coords="539,787,418,762,419,756,540,782"/>
+<area shape="poly" id="edge21_Node000020_Node000012" title=" " alt="" coords="491,750,434,749,434,743,491,745"/>
+<area shape="rect" id="Node000022" href="$d9/db4/group__setters.html#ga0ffa4259ab05c6ff3d82211167aad58c" title="reduced chi2 for EM shower" alt="" coords="262,887,436,914"/>
+<area shape="poly" id="edge23_Node000021_Node000022" title=" " alt="" coords="508,903,436,903,436,898,508,898"/>
+<area shape="rect" id="Node000023" href="$d9/db4/group__setters.html#gaef1d57f8562ad4d5a477db91cc8b9b22" title=" " alt="" coords="258,939,440,966"/>
+<area shape="poly" id="edge24_Node000021_Node000023" title=" " alt="" coords="532,920,427,941,426,935,531,915"/>
+<area shape="rect" id="Node000024" href="$d9/db4/group__setters.html#ga7522904a9c2498987ef84c2738b3c14e" title="isolation ET default" alt="" coords="256,991,442,1018"/>
+<area shape="poly" id="edge25_Node000021_Node000024" title=" " alt="" coords="522,923,508,929,494,941,485,954,476,967,460,980,432,993,430,988,458,976,472,964,481,951,490,938,506,925,519,918"/>
+<area shape="rect" id="Node000025" href="$d9/db4/group__setters.html#ga2a8826d60832e67631f37c823a88b0d6" title="isolation ET the radius and hueristic can be specified" alt="" coords="256,1043,442,1070"/>
+<area shape="poly" id="edge26_Node000021_Node000025" title=" " alt="" coords="516,924,509,929,497,941,491,953,486,979,480,1006,473,1019,461,1032,440,1044,438,1040,457,1028,468,1016,475,1004,480,978,486,951,493,938,505,925,513,920"/>
+<area shape="rect" id="Node000026" href="$d9/db4/group__setters.html#gac76f6a1ffbeadaf2fdbe109a843bd993" title="energy&#45;weighted mean time" alt="" coords="239,1095,459,1122"/>
+<area shape="poly" id="edge27_Node000021_Node000026" title=" " alt="" coords="514,925,509,929,494,947,487,966,486,1004,484,1044,476,1064,461,1084,443,1096,440,1092,457,1080,472,1062,479,1043,480,1004,482,965,490,945,505,925,510,921"/>
+<area shape="rect" id="Node000027" href="$d9/db4/group__setters.html#ga1dba302481fddedb5661bd5660672ac6" title="cluster template merged pi0 cluster probability for EM shower" alt="" coords="251,1146,447,1191"/>
+<area shape="poly" id="edge28_Node000021_Node000027" title=" " alt="" coords="513,925,509,929,491,954,483,978,482,1003,485,1029,487,1055,487,1082,479,1109,461,1136,447,1148,443,1144,457,1132,474,1107,481,1081,482,1056,479,1030,477,1004,478,977,486,951,505,925,510,921"/>
+<area shape="rect" id="Node000028" href="$d9/db4/group__setters.html#gaa7f583a9041fea4e12bdfce811a456d1" title="cluster template probability for EM shower" alt="" coords="261,783,436,810"/>
+<area shape="poly" id="edge29_Node000021_Node000028" title=" " alt="" coords="582,882,524,853,458,826,417,813,419,808,460,821,527,848,585,877"/>
+<area shape="rect" id="Node000029" href="$d9/db4/group__setters.html#ga5bf76e6e5dea9d4a489a4a63288b286c" title="tower&#45;space CoG in tower units (stored via property map)" alt="" coords="242,835,456,862"/>
+<area shape="poly" id="edge30_Node000021_Node000029" title=" " alt="" coords="531,886,426,866,427,860,532,881"/>
+</map>

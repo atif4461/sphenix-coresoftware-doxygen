@@ -1,0 +1,51 @@
+<map id="KFParticle_Tools::get_dEdx" name="KFParticle_Tools::get_dEdx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,485,200,513"/>
+<area shape="rect" id="Node000002" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a792dbfe6ae1c57cc74c4ab4c25457bd1" title="Compute truncated mean dEdx for a TPC track seed." alt="" coords="280,248,420,292"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,483,312,301,315,305,121,487"/>
+<area shape="rect" id="Node000016" href="$d2/db8/classSvtxTrack.html#a09628ce6a35671eb8fe2974bbe846b4f" title=" " alt="" coords="261,459,440,486"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="200,486,245,481,246,486,200,491"/>
+<area shape="rect" id="Node000017" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="279,511,422,538"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="200,506,263,513,263,518,200,512"/>
+<area shape="rect" id="Node000023" href="$dd/de6/classKFParticle__truthAndDetTools.html#a66e81e82ad832605e23fb296b1aef868" title="Retrieve a SvtxTrack pointer from a SvtxTrackMap given a track identifier." alt="" coords="248,562,453,607"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="145,511,249,547,269,554,267,559,247,552,143,516"/>
+<area shape="rect" id="Node000003" href="$dc/d80/classTrackSeed.html#a513e9904f6837460a7b561d8348c3e13" title="Return a const iterator positioned at the end of the dummy cluster key set." alt="" coords="510,5,729,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="358,246,377,202,407,147,448,91,472,66,499,44,509,38,512,42,503,48,476,69,452,94,411,150,382,205,363,248"/>
+<area shape="rect" id="Node000004" href="$dc/d80/classTrackSeed.html#ad32517668fd228928ed69c331c92daa5" title="Return a constant iterator to the end of the cluster key set." alt="" coords="516,57,723,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="362,246,384,212,415,170,454,129,500,94,509,89,512,94,502,99,458,133,419,174,388,215,367,249"/>
+<area shape="rect" id="Node000005" href="$d0/d2c/classTrkrClusterContainer.html#a2e07352ae628a96f29c37cd2789c60b6" title="find cluster matching given key" alt="" coords="542,109,696,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="377,245,432,204,500,163,526,152,528,157,502,168,435,208,380,249"/>
+<area shape="rect" id="Node000006" href="$dc/d80/classTrackSeed.html#ae78b5ecfe5fb4595493b065a5ab4aa8f" title=" " alt="" coords="534,177,705,205"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="412,244,500,215,534,206,535,212,502,220,413,249"/>
+<area shape="rect" id="Node000007" href="$dc/d80/classTrackSeed.html#a0589b4175c986aeb2e249ef3e71cb085" title=" " alt="" coords="540,229,698,257"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="421,260,524,250,525,255,421,266"/>
+<area shape="rect" id="Node000008" href="$d6/dfa/classTrkrCluster.html#abef299fdff891d76bbb4724721b3f71f" title=" " alt="" coords="547,281,691,309"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="421,274,532,284,531,290,421,279"/>
+<area shape="rect" id="Node000009" href="$d3/d64/classActsGeometry.html#a81e1d6479636cdf2b22d2acc993d7ff1" title="Compute global position of a tracker cluster using Acts geometry." alt="" coords="501,333,737,361"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="415,290,502,318,535,327,534,332,500,323,414,295"/>
+<area shape="rect" id="Node000012" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="1133,232,1274,260"/>
+<area shape="poly" id="edge17_Node000002_Node000012" title=" " alt="" coords="377,291,431,334,465,355,502,370,553,382,619,391,773,398,853,397,928,392,993,383,1044,370,1085,350,1122,324,1179,270,1182,274,1125,328,1087,355,1046,375,994,388,928,397,853,402,773,404,618,396,552,387,500,375,463,359,428,338,373,295"/>
+<area shape="rect" id="Node000015" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="549,435,689,462"/>
+<area shape="poly" id="edge16_Node000002_Node000015" title=" " alt="" coords="370,291,425,352,462,386,502,414,535,429,533,434,500,419,458,390,421,356,366,294"/>
+<area shape="rect" id="Node000010" href="$d3/d64/classActsGeometry.html#abe7b8fadd95687eab97782238c1272ed" title="Compute global position of a TPC cluster." alt="" coords="785,180,1045,208"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="715,330,736,318,746,308,753,297,759,273,765,248,772,236,784,224,802,212,805,217,787,228,776,239,770,250,764,274,758,299,751,311,739,323,718,335"/>
+<area shape="poly" id="edge15_Node000009_Node000012" title=" " alt="" coords="708,330,736,318,750,306,759,293,768,279,784,267,826,251,869,239,958,227,1044,225,1118,230,1117,236,1044,231,959,232,870,245,827,256,787,272,772,283,763,296,754,310,739,323,710,335"/>
+<area shape="rect" id="Node000013" href="$d6/dfa/classTrkrCluster.html#aee7d1557cd0cf5b0969ec7075639c277" title=" " alt="" coords="833,281,997,309"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="702,330,818,309,819,315,703,335"/>
+<area shape="rect" id="Node000014" href="$d6/dfa/classTrkrCluster.html#a3ceb9dc71d12147d8d24eb9c6cbc861f" title=" " alt="" coords="834,333,996,361"/>
+<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="738,344,818,344,818,350,738,350"/>
+<area shape="rect" id="Node000011" href="$d3/d64/classActsGeometry.html#af35c92c361420b21bd649be83205f5ba" title="Retrieve local detector coordinates for a given cluster key and cluster object." alt="" coords="1093,180,1314,208"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1045,191,1077,191,1077,196,1045,196"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="996,206,1118,228,1117,233,995,211"/>
+<area shape="poly" id="edge11_Node000011_Node000011" title=" " alt="" coords="1155,181,1147,171,1153,161,1172,155,1203,153,1238,156,1256,163,1254,168,1236,161,1203,159,1173,161,1156,166,1152,171,1159,178"/>
+<area shape="rect" id="Node000018" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="528,511,710,538"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="423,522,513,522,513,527,423,527"/>
+<area shape="rect" id="Node000022" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="537,563,701,590"/>
+<area shape="poly" id="edge25_Node000017_Node000022" title=" " alt="" coords="423,536,529,556,528,562,422,541"/>
+<area shape="poly" id="edge21_Node000018_Node000018" title=" " alt="" coords="574,512,566,502,572,492,590,486,619,484,651,486,667,493,666,498,649,492,619,489,591,491,575,496,571,501,578,508"/>
+<area shape="rect" id="Node000019" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="844,459,986,486"/>
+<area shape="poly" id="edge22_Node000018_Node000019" title=" " alt="" coords="702,507,829,485,829,490,703,513"/>
+<area shape="rect" id="Node000020" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="849,511,981,538"/>
+<area shape="poly" id="edge23_Node000018_Node000020" title=" " alt="" coords="710,522,833,522,833,527,710,527"/>
+<area shape="rect" id="Node000021" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="800,563,1030,590"/>
+<area shape="poly" id="edge24_Node000018_Node000021" title=" " alt="" coords="703,536,817,557,816,562,702,542"/>
+</map>

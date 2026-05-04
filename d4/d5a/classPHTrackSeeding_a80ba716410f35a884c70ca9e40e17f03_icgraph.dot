@@ -1,0 +1,16 @@
+digraph "PHTrackSeeding::PHTrackSeeding"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHTrackSeeding::PHTrackSeeding",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct a PHTrackSeeding analysis module."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHCASeeding::PHCASeeding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d08/classPHCASeeding.html#a2b36d56ae11fa9539cf0eeb9d2dc54dd",tooltip="Construct a PHCASeeding object with the specified configuration."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHCASiliconSeeding\l::PHCASiliconSeeding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d0f/classPHCASiliconSeeding.html#af0dabbc8d935731236f5b885935175ae",tooltip="Construct a PHCASiliconSeeding object configuring silicon track seeding parameters."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHTruthTrackSeeding\l::PHTruthTrackSeeding",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/da2/classPHTruthTrackSeeding.html#a9c1cb2cd985a0adb5757103173ab76f5",tooltip="Constructor for PHTruthTrackSeeding initializing base class and random generator."];
+}

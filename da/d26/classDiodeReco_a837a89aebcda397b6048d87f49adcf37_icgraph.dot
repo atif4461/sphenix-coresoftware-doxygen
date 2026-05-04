@@ -1,0 +1,12 @@
+digraph "DiodeReco::NAboveThreshold"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="DiodeReco::NAboveThreshold",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Count number of ADC entries that rise above the upper threshold after a below‑threshold region."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="DiodeReco::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d26/classDiodeReco.html#a96ef2b887bdedeb051e24e8940755fac",tooltip="Process a single event extracting diode information from the raw data packet."];
+}

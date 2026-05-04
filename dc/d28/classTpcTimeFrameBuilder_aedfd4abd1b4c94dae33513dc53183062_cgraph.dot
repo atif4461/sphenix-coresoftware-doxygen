@@ -1,0 +1,52 @@
+digraph "TpcTimeFrameBuilder::process_fee_data_waveform"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TpcTimeFrameBuilder\l::process_fee_data_waveform",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Decode and process a data packet from a Front End Electronics module."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcTimeFrameBuilder\l::crc16_parity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d28/classTpcTimeFrameBuilder.html#a578d9cf657912e32058541075b308119",tooltip="Compute CRC16 and data parity for a given fee data block."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TpcTimeFrameBuilder\l::reverseBits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d28/classTpcTimeFrameBuilder.html#aea7e6d61a345bea6507c80302ef8a114",tooltip="Reverse bit order of a 16 bit unsigned integer."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::find_gtm_bco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#a497b3a23a03a675bca0b4ac1d66e1f6b",tooltip="find gtm bco matching a given fee"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::get_bco_diff",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#a8e3af4d4b0689ef1a85200b5f7bd2ff3",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::get_predicted_fee_bco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#a8cc1aff84f561622190f00366c14dd88",tooltip="get predicted fee_bco from gtm_bco"];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::is_verified",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#ab868ad8fd9bfd2997cf38b0f884111c4",tooltip="true if matching information is verified"];
+  Node4 -> Node7 [id="edge7_Node000004_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node8 [id="edge8_Node000004_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#af0f628dd2c5961175d98cd8b7594a680",tooltip="verbosity"];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::find_reference_heartbeat",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#acbc5f81b34585587411ded9d5972e737",tooltip="find reference from data"];
+  Node9 -> Node10 [id="edge10_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::get_fee_bco_diff",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#adbaff22fa9ecc9ac9ad13c818ea9954c",tooltip=" "];
+  Node10 -> Node5 [id="edge11_Node000010_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node7 [id="edge12_Node000009_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node8 [id="edge13_Node000009_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge14_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node11 [id="edge15_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TpcRawHitv3::move_adc\l_waveform",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1d/classTpcRawHitv3.html#a1849231866a183e4b2de2869307931c2",tooltip="Move adc waveform data into internal storage."];
+  Node1 -> Node12 [id="edge16_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::print_gtm_bco_information",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#ad49197b096153d4c950bd63bc0cac3a2",tooltip="print gtm bco information"];
+  Node12 -> Node7 [id="edge17_Node000012_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node13 [id="edge18_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="TpcRawHitv3::set_bco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1d/classTpcRawHitv3.html#ae6f8b1c4f928c6c088f0178114418270",tooltip=" "];
+  Node1 -> Node14 [id="edge19_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="TpcRawHitv3::set_channel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1d/classTpcRawHitv3.html#a7751072c756a7757c60589707274a953",tooltip=" "];
+  Node1 -> Node15 [id="edge20_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="TpcRawHitv3::set_checksumerror",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1d/classTpcRawHitv3.html#a03b31a022ef723fa2e203eb4adc38073",tooltip=" "];
+  Node1 -> Node16 [id="edge21_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="TpcRawHitv3::set_fee",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1d/classTpcRawHitv3.html#a4a0ce148f59bc702ef7660292aa2bea7",tooltip=" "];
+  Node1 -> Node17 [id="edge22_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="TpcRawHitv3::set_packetid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1d/classTpcRawHitv3.html#a4bbaf390b41e665ae311fd6471d1b6b7",tooltip=" "];
+  Node1 -> Node18 [id="edge23_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="TpcRawHitv3::set_parityerror",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1d/classTpcRawHitv3.html#a4fcabeec696cc72cba9833902162e272",tooltip=" "];
+  Node1 -> Node19 [id="edge24_Node000001_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="TpcRawHitv3::set_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1d/classTpcRawHitv3.html#a0ad5d687c5a338e34f9e4d04ac3c9f98",tooltip=" "];
+}

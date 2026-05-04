@@ -1,0 +1,24 @@
+digraph "GPUTPCTrackParam::X"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="GPUTPCTrackParam::X",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GPUTPCTrackParam::Rotate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d60/classGPUTPCTrackParam.html#a2e55799a5ae01e23af6b5d1b24b2ec9d",tooltip="Rotate the track parameters to a new XY coordinate system by angle alpha."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ALICEKF::TransportAndRotate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dfe/classALICEKF.html#a3d53f85bf7c62a804f609abbac24db5f",tooltip="Transport a track from an old radius to a new radius while updating the azimuthal angle."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ALICEKF::FilterStep",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dfe/classALICEKF.html#a09cf0e43e21e3c2569de4c872722c326",tooltip="Perform a Kalman filter step for a given cluster and update track parameters."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ALICEKF::ALICEKalmanFilter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dfe/classALICEKF.html#a44f906df99f1bd40e2db1d8e9705f4b0",tooltip="Perform an ALICE style Kalman filter on a collection of track seed key lists and produce sPHENIX and ..."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="GPUTPCTrackParam::Rotate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d60/classGPUTPCTrackParam.html#affd5d4fb9658313f04a3ddc2ec1e24d3",tooltip="Rotate the coordinate system in XY by angle alpha."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="GPUTPCTrackParam::TransportToX",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d60/classGPUTPCTrackParam.html#a0693bef61bbc4e19901f1271c215c3e9",tooltip="Transport track parameters to a given X coordinate using linear approximation at phi0 with zero curva..."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="GPUTPCTrackParam::TransportToX",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d60/classGPUTPCTrackParam.html#a35863fa7ba18775d5a3fbe52ab6c0181",tooltip="Transport track parameters to a given X coordinate using linearisation at t0 and magnetic field Bz   ..."];
+}

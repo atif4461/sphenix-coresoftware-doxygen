@@ -1,0 +1,13 @@
+<map id="mvtx::PayLoadCont::getCapacity" name="mvtx::PayLoadCont::getCapacity">
+<area shape="rect" id="Node000001" title="number of bytes still can accept w/o expanding the buffer" alt="" coords="436,76,591,120"/>
+<area shape="rect" id="Node000002" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a3a545de0f8c1ef90c91d26c09dab543d" title="fill n bytes with given symbol w/o checking for the size" alt="" coords="233,76,388,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="421,100,389,100,389,95,421,95"/>
+<area shape="rect" id="Node000003" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a849a301e7d4be5918b61248a30a9eaaa" title="add new byte to the buffer" alt="" coords="5,5,185,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="242,71,184,48,147,36,148,31,186,43,244,66"/>
+<area shape="rect" id="Node000004" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a79c45bbcab38296e1298abc6e041f6ab" title="shrink buffer to requested size, no check on over/under flow" alt="" coords="5,57,185,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="217,89,185,85,186,80,217,84"/>
+<area shape="rect" id="Node000005" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a11e4bca5479818624caf7785df3636de" title="Add a byte value to the internal buffer." alt="" coords="5,109,185,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="217,111,186,115,185,110,217,106"/>
+<area shape="rect" id="Node000006" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a8bc650f4539cc019d498cb1f75515b66" title="add n bytes to the buffer, expand if needed. no check for overlap" alt="" coords="9,161,181,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="243,129,186,151,148,163,146,158,184,146,241,124"/>
+</map>

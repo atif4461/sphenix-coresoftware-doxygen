@@ -1,0 +1,21 @@
+<map id="SingleStreamingInput::fileclose" name="SingleStreamingInput::fileclose">
+<area shape="rect" id="Node000001" title="Close the current input file and clean up iterator." alt="" coords="256,283,417,327"/>
+<area shape="rect" id="Node000002" href="$d3/dbc/classSingleStreamingInput.html#ab3e4f96429f4487c406a8e18bacf2ab6" title="Open a new input file for streaming." alt="" coords="26,5,187,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="322,268,306,222,282,167,249,112,229,87,206,64,186,51,189,47,209,60,233,83,253,109,287,165,311,220,327,266"/>
+<area shape="rect" id="Node000003" href="$d6/d88/classSingleGl1PoolInput.html#a976497e9e28916bce64f8ae39575dec5" title="Fill internal data pools with events from input files." alt="" coords="34,75,179,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,271,271,201,241,165,206,134,178,118,181,113,209,129,245,161,275,198,319,268"/>
+<area shape="rect" id="Node000004" href="$d4/d69/classSingleInttEventInput.html#a88a3d42b27e2c2ecac6706c7c791a9c0" title="Fill internal hit pool with events whose beam clock exceeds the specified minimum." alt="" coords="30,144,183,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="300,274,257,237,206,203,182,192,184,187,209,199,260,233,303,270"/>
+<area shape="rect" id="Node000005" href="$d5/dcb/classSingleInttPoolInput.html#abf890aecd6600bae253136ac19289fea" title="Fill internal INTT pools with events from input files." alt="" coords="34,213,179,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="245,280,179,260,180,255,247,275"/>
+<area shape="rect" id="Node000006" href="$d8/d64/classSingleMicromegasPoolInput__v1.html#ab901226bf41cf4fa0a192863d17dd416" title="Fill the data pool with events from input files." alt="" coords="5,283,208,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="241,308,208,308,208,302,241,302"/>
+<area shape="rect" id="Node000007" href="$d8/d01/classSingleMicromegasPoolInput__v2.html#a79240b93cf2e936657df21a9cfb81c42" title="Fill internal event pool from input files until no more events are available." alt="" coords="5,352,208,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="247,335,184,354,182,349,245,330"/>
+<area shape="rect" id="Node000008" href="$da/dc8/classSingleMvtxPoolInput.html#a5336e10aca2dbbb0f9ed449192aea4fe" title="Fill internal MVTX packet pool with events newer than given beam clock." alt="" coords="29,421,184,466"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="303,340,260,377,209,411,184,423,182,418,206,407,257,373,300,336"/>
+<area shape="rect" id="Node000009" href="$d7/dfb/classSingleTpcPoolInput.html#a24d71fc2c82991c2e4ae744d8f34d339" title="Fill the internal TPC hit pool with events whose beam clock (BCO) meets the specified minimum." alt="" coords="34,491,179,535"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="319,342,275,412,245,449,209,481,181,496,178,492,206,476,241,445,271,409,315,339"/>
+<area shape="rect" id="Node000010" href="$d6/d0f/classSingleTpcTimeFrameInput.html#a9d4970091d20fcf4269a7a304fa989e9" title="FillPool processes events and assembles Tpc time frames for the specified targetBCO." alt="" coords="11,560,202,605"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="327,344,311,390,287,445,253,501,233,527,209,550,192,562,189,557,206,546,229,523,249,498,282,443,306,388,322,342"/>
+</map>

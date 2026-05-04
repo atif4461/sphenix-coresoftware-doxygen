@@ -1,0 +1,18 @@
+digraph "G4TBMagneticFieldSetup::SetStepper"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="G4TBMagneticFieldSetup\l::SetStepper",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Configure the integration stepper for the magnetic field propagation."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="G4TBMagneticFieldSetup\l::UpdateField",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d2e/classG4TBMagneticFieldSetup.html#a7930ec66420896c9fbaa9c72cf7543fe",tooltip="Update magnetic field configuration for the simulation."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="G4TBMagneticFieldSetup\l::G4TBMagneticFieldSetup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d2e/classG4TBMagneticFieldSetup.html#a219f4c199df5731549942737857ae65f",tooltip="Constructor for G4TBMagneticFieldSetup."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="G4TBMagneticFieldSetup\l::G4TBMagneticFieldSetup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d2e/classG4TBMagneticFieldSetup.html#a815efd69613c34e9fbab255200a93ec0",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="G4TBMagneticFieldSetup\l::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d2e/classG4TBMagneticFieldSetup.html#a09e6bb25fdcbbd1c39b50226e413bab2",tooltip=" "];
+}

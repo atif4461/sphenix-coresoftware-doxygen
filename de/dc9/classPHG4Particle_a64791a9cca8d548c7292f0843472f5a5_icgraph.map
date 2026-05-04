@@ -1,0 +1,47 @@
+<map id="PHG4Particle::get_primary_id" name="PHG4Particle::get_primary_id">
+<area shape="rect" id="Node000001" title=" " alt="" coords="979,408,1190,436"/>
+<area shape="rect" id="Node000002" href="$d4/dc9/classPHG4DSTReader.html#a800782dd1b7ce1294a4760d71f609708" title="add a particle and associated vertex if _save_vertex" alt="" coords="750,5,911,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1075,394,1061,328,1033,242,1013,197,990,151,962,109,929,71,903,53,907,48,932,67,966,106,994,149,1018,194,1038,241,1066,327,1081,392"/>
+<area shape="rect" id="Node000004" href="$d4/d06/classDecayFinder.html#a64a8e34e3785175edd545a3cd5c214a1" title=" " alt="" coords="214,124,389,152"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1070,395,1050,350,1020,295,979,239,956,214,929,193,861,154,787,128,709,112,631,105,554,105,483,110,368,127,367,121,483,105,554,100,631,100,710,107,788,123,863,149,932,188,959,210,984,236,1024,292,1055,348,1075,393"/>
+<area shape="rect" id="Node000006" href="$dc/d23/classBaseTruthEval.html#a7def33b4d1e4fe19922faa02ea287a5c" title="what was the primary particle that is associated with this particle?" alt="" coords="759,400,902,445"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="963,425,902,425,902,420,963,420"/>
+<area shape="rect" id="Node000011" href="$da/d6c/classPHG4TruthInfoContainer.html#a422cbc96a42020587ff934b08017a73e" title="Determine embedding flag for a given track identifier." alt="" coords="742,712,919,757"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1064,450,852,713,848,710,1060,447"/>
+<area shape="rect" id="Node000015" href="$dc/d38/classPHG4ConsistencyCheck.html#a0f2a0035c9e3302807a1bb99c41781d9" title="event processing" alt="" coords="472,851,648,895"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="1081,452,1067,518,1040,604,1021,649,996,694,967,735,932,771,901,795,866,815,791,844,716,863,649,872,648,867,715,857,790,839,864,810,898,791,929,767,963,732,992,691,1016,647,1035,602,1062,517,1076,451"/>
+<area shape="rect" id="Node000017" href="$d9/d24/classPHTruthClustering.html#a32f3b05811ac36d8f08ae3c565edcfca" title="Fill truth cluster node with clusters derived from G4 truth particles." alt="" coords="487,920,632,965"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="1085,452,1077,534,1068,587,1054,645,1035,705,1009,763,975,816,932,863,899,888,862,908,823,923,782,934,703,946,633,949,633,943,702,941,781,929,821,918,860,903,896,883,929,859,971,813,1004,760,1030,703,1049,644,1063,586,1072,533,1079,452"/>
+<area shape="rect" id="Node000018" href="$d4/d06/classDecayFinder.html#a7fdf4bca3693d0dfccdaf19998f94911" title=" " alt="" coords="730,227,931,271"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="1048,401,864,274,867,270,1051,397"/>
+<area shape="rect" id="Node000003" href="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853" title="event processing method" alt="" coords="466,5,653,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="734,30,654,30,654,25,734,25"/>
+<area shape="rect" id="Node000005" href="$d4/d06/classDecayFinder.html#ab81647fd0317041647b6c248ac1069c0" title="Process a single event, searching for the configured decay." alt="" coords="5,116,166,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="198,141,166,141,166,136,198,136"/>
+<area shape="rect" id="Node000007" href="$dc/d23/classBaseTruthEval.html#a4283b2f124d147df8499373f59372773" title="what was the embed flag set for this particle?" alt="" coords="488,365,631,410"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="743,414,631,399,632,394,744,409"/>
+<area shape="rect" id="Node000008" href="$dc/d23/classBaseTruthEval.html#ab61d7f1ac372d54076f59f6fcebd3585" title="which primary particle resulted in this truth hit?" alt="" coords="488,435,631,479"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="744,436,632,451,631,445,743,431"/>
+<area shape="rect" id="Node000009" href="$dc/d23/classBaseTruthEval.html#adc3cb5b39ad856e0b0cb19a09a04e0df" title="what was the primary particle that is associated with this shower?" alt="" coords="488,504,631,549"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="773,454,683,494,632,511,630,506,681,489,771,449"/>
+<area shape="rect" id="Node000010" href="$dc/d23/classBaseTruthEval.html#a1fbb3b7ea61e2d734fb56448565d5518" title="what was the primary shower that is associated with this particle?" alt="" coords="488,296,631,341"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="771,395,681,355,630,339,632,334,683,351,773,390"/>
+<area shape="rect" id="Node000012" href="$da/dbf/classTruthJetInput.html#a4c3ed9ba972f59ab008fa8574ec26a20" title="Retrieve input truth jets from the node tree." alt="" coords="494,643,626,687"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="726,710,626,685,627,679,727,705"/>
+<area shape="rect" id="Node000013" href="$d5/d85/classPHG4TruthSubsystem.html#af3bbab39b6b31fad762bd270b64e8985" title="event processing" alt="" coords="479,712,640,757"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="726,737,641,737,641,732,726,732"/>
+<area shape="rect" id="Node000014" href="$d6/d02/classDetermineTowerBackground.html#a2f2c2c1d59dbf0df2debbedb977dfb57" title="Process a single event to determine tower background and flow parameters." alt="" coords="457,781,662,826"/>
+<area shape="poly" id="edge13_Node000011_Node000014" title=" " alt="" coords="727,763,651,783,649,778,726,758"/>
+<area shape="poly" id="edge14_Node000011_Node000015" title=" " alt="" coords="782,767,732,802,709,822,684,841,649,855,647,850,681,836,705,818,729,798,779,763"/>
+<area shape="rect" id="Node000016" href="$d7/ddb/classPHG4TpcElectronDrift.html#aeea2d1046042fabf274bc85a6221955f" title="Process event for TPC electron drift simulation." alt="" coords="479,573,640,618"/>
+<area shape="poly" id="edge15_Node000011_Node000016" title=" " alt="" coords="789,704,739,667,681,633,640,617,642,612,683,628,742,662,793,700"/>
+<area shape="poly" id="edge16_Node000011_Node000017" title=" " alt="" coords="810,772,759,842,724,879,684,910,659,923,634,932,632,927,657,918,681,905,720,875,754,839,806,769"/>
+<area shape="poly" id="edge22_Node000018_Node000004" title=" " alt="" coords="786,220,737,190,682,166,606,149,529,139,455,135,390,136,389,130,455,130,529,134,607,143,683,161,740,185,788,215"/>
+<area shape="poly" id="edge23_Node000018_Node000018" title=" " alt="" coords="872,214,857,208,830,205,807,207,792,212,786,218,787,226,782,227,781,216,789,208,806,202,831,200,858,203,874,209"/>
+<area shape="rect" id="Node000019" href="$d4/d06/classDecayFinder.html#aa2ec77fc20af5ba75ee86ffdf85f5026" title="Determine whether a Geant4 particle passes the decay and kinematic selection." alt="" coords="458,227,662,271"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="715,261,662,260,662,255,715,255"/>
+<area shape="rect" id="Node000020" href="$d4/d06/classDecayFinder.html#ad514587b6f61acacd6eebf251573440b" title=" " alt="" coords="437,175,682,203"/>
+<area shape="poly" id="edge24_Node000018_Node000020" title=" " alt="" coords="718,225,682,217,631,206,632,201,683,212,719,220"/>
+<area shape="poly" id="edge21_Node000019_Node000018" title=" " alt="" coords="677,237,730,238,730,243,677,243"/>
+<area shape="poly" id="edge25_Node000020_Node000004" title=" " alt="" coords="470,174,375,155,376,150,471,169"/>
+</map>

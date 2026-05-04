@@ -1,0 +1,19 @@
+<map id="TrackClusEvaluator::find_matches" name="TrackClusEvaluator::find_matches">
+<area shape="rect" id="Node000001" title="Evaluate cluster level correspondence between a Geant4 truth track and a reconstructed SVTX track." alt="" coords="5,53,151,98"/>
+<area shape="rect" id="Node000002" href="$d6/ded/classTrackClusEvaluator.html#ad36204b9dd4911b65ba5b65100dd006b" title="Populate internal cluster key list for a given track." alt="" coords="199,18,344,63"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,60,183,54,183,59,151,65"/>
+<area shape="rect" id="Node000004" href="$d6/ded/classTrackClusEvaluator.html#a1c5384a4d108de735e24be70206d2408" title="Find matches between PHG4 and SVTX clusters using the configured matcher." alt="" coords="199,88,344,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,86,183,91,183,97,150,91"/>
+<area shape="rect" id="Node000003" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="392,18,593,63"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,38,376,38,376,43,344,43"/>
+<area shape="rect" id="Node000005" href="$d6/d92/namespaceg4evalfn.html#ab82ad03c0a586d87c3212fb1886d0fb8" title="Calculate a matching statistic between a truth and a reconstructed cluster." alt="" coords="412,88,573,132"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="344,107,397,107,397,112,344,112"/>
+<area shape="rect" id="Node000006" href="$d6/d92/namespaceg4evalfn.html#ace3645a85cc943f47423d09f62cc9d93" title="Compute the absolute difference between two azimuthal angles." alt="" coords="652,5,796,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="565,85,592,73,616,57,640,42,654,36,656,41,643,47,619,62,595,78,567,89"/>
+<area shape="rect" id="Node000007" href="$d0/d2c/classTrkrClusterContainer.html#a2e07352ae628a96f29c37cd2789c60b6" title="find cluster matching given key" alt="" coords="647,57,801,102"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="573,97,631,89,631,94,574,102"/>
+<area shape="rect" id="Node000008" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="654,125,794,153"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="574,117,639,126,638,131,573,123"/>
+<area shape="rect" id="Node000009" href="$d6/d92/namespaceg4evalfn.html#ac0c607dd21bcd1879bcb47f3573e5331" title="Return detector identifier for a given tracking layer index." alt="" coords="641,177,807,205"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="555,130,642,162,664,170,663,175,640,167,553,135"/>
+</map>

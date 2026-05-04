@@ -1,0 +1,28 @@
+digraph "PHG4CylinderGeom_Spacalv3::geom_tower::compose_fiber_id"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4CylinderGeom_Spacalv3\l::geom_tower::compose_fiber_id",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="fiber layout (2D index of 0...NFiberX/NFiberY) -> fiber_id"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4FullProjSpacalDetector\l::Construct_Fibers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classPHG4FullProjSpacalDetector.html#a4d677490d51a2571ecd21ea86999f047",tooltip="a block along z axis built with G4Trd that is slightly tapered in x dimension"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4FullProjSpacalDetector\l::Construct_Tower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classPHG4FullProjSpacalDetector.html#a41ebdae7499c21d2735235a485d0d2db",tooltip="a block along z axis built with G4Trd that is slightly tapered in x dimension"];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4FullProjSpacalDetector\l::Construct_AzimuthalSeg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classPHG4FullProjSpacalDetector.html#afd4c65353754d4baff1ed614a2aca247",tooltip="Construct azimuthal sector logical volume and its walls towers for the full projection Spacal detecto..."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4FullProjTiltedSpacal\lDetector::Construct_Fibers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a336079ef7a9454e05a0663b43e46f1f4",tooltip="a block along z axis built with G4Trd that is slightly tapered in x dimension"];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4FullProjTiltedSpacal\lDetector::Construct_Tower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#aed852e1cd37df4b6683b1b188551cad0",tooltip="a block along z axis built with G4Trd that is slightly tapered in x dimension"];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4FullProjTiltedSpacal\lDetector::Construct_AzimuthalSeg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a5d52892d52c8020e2e81e981b47a1220",tooltip="Construct azimuthal segmentation of the tilted SPACAL detector sector."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4FullProjSpacalDetector\l::Construct_Fibers_SameLengthFiber\lPerTower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classPHG4FullProjSpacalDetector.html#a8538de3102407fb6d53ed0b7b75a3b14",tooltip="Fully projective spacal with 2D tapered modules. To speed up construction, same-length fiber is used ..."];
+  Node8 -> Node3 [id="edge8_Node000008_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4FullProjTiltedSpacal\lDetector::Construct_Fibers\l_SameLengthFiberPerTower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#ae874143d799ba53ee1902573913a2437",tooltip="Fully projective spacal with 2D tapered modules. To speed up construction, same-length fiber is used ..."];
+  Node9 -> Node6 [id="edge10_Node000009_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

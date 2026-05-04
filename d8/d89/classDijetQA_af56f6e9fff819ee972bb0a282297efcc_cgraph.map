@@ -1,0 +1,41 @@
+<map id="DijetQA::process_event" name="DijetQA::process_event">
+<area shape="rect" id="Node000001" title="Process a single event in the Fun4All framework." alt="" coords="5,229,179,257"/>
+<area shape="rect" id="Node000002" href="$d5/dc4/classGlobalVertexMap.html#a62df09ef6203b585289b91d2d44e9c1d" title="Return a constant iterator to the beginning of the global vertex map." alt="" coords="231,44,408,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,227,146,158,182,117,225,82,236,76,239,81,228,87,186,121,150,161,104,230"/>
+<area shape="rect" id="Node000003" href="$df/df3/namespaceJetQADefs.html#a7094e1898ae90a9abe8e5fcc5468e613" title="Check if a particular trigger fired." alt="" coords="227,96,412,124"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,227,280,129,282,134,119,231"/>
+<area shape="rect" id="Node000006" href="$d5/dc4/classGlobalVertexMap.html#ac206d95c5780106933392f0c95760ea2" title=" " alt="" coords="228,177,411,205"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="155,226,240,206,241,212,157,231"/>
+<area shape="rect" id="Node000007" href="$d8/d89/classDijetQA.html#a1d456c727a02d52628e813784de0187f" title="Find dijet candidate pairs and fill kinematic histograms." alt="" coords="251,229,388,257"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="179,240,235,240,235,246,179,246"/>
+<area shape="rect" id="Node000012" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="484,333,654,361"/>
+<area shape="poly" id="edge20_Node000001_Node000012" title=" " alt="" coords="160,255,488,327,487,332,159,260"/>
+<area shape="rect" id="Node000013" href="$d1/d39/classGlobalVertex.html#a57f73fa21221f16fbaead42c95b2833b" title=" " alt="" coords="245,331,394,358"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="120,255,228,310,260,323,258,328,226,315,117,260"/>
+<area shape="rect" id="Node000014" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="248,409,391,437"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="108,256,159,308,228,368,278,399,275,404,225,372,155,311,104,259"/>
+<area shape="rect" id="Node000004" href="$d6/deb/classTriggerAnalyzer.html#a1cd2d0becbfa79c1baccfc2182586c89" title="Determine if a specific trigger fired in the current event." alt="" coords="460,5,678,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="381,93,411,81,425,71,434,62,444,52,459,42,473,36,475,41,461,47,447,56,438,65,428,76,413,86,383,98"/>
+<area shape="rect" id="Node000005" href="$df/df3/namespaceJetQADefs.html#abec72d21308f61dc770f9506945306fa" title="Map of trigger flag onto name." alt="" coords="472,57,667,102"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="412,96,456,90,456,96,413,101"/>
+<area shape="rect" id="Node000008" href="$d7/da6/classJet.html#ae8e578a209c8fa566c04cf8e3d138063" title=" " alt="" coords="522,125,617,153"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="385,226,411,214,425,202,434,189,443,176,459,164,505,146,507,151,461,168,447,180,438,192,429,206,413,219,387,231"/>
+<area shape="rect" id="Node000009" href="$d7/da6/classJet.html#a103a66269cadbf4f16ae8e129f279821" title=" " alt="" coords="522,177,616,205"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="388,226,506,201,507,207,389,232"/>
+<area shape="rect" id="Node000010" href="$d7/da6/classJet.html#a8e6dbb917cd7b9f7b02c199f71acc133" title=" " alt="" coords="526,229,613,257"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="388,240,510,240,510,246,388,246"/>
+<area shape="rect" id="Node000011" href="$db/d40/classJetContainer.html#aed6af419e712c068ef0170c038b08078" title=" " alt="" coords="502,281,637,309"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="389,255,487,275,486,281,388,260"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="375,255,413,273,428,285,438,297,447,308,461,318,476,325,473,330,459,323,443,312,434,300,425,289,411,277,373,260"/>
+<area shape="rect" id="Node000015" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="478,409,660,437"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="391,420,463,420,463,426,391,426"/>
+<area shape="rect" id="Node000019" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="487,461,651,489"/>
+<area shape="poly" id="edge19_Node000014_Node000019" title=" " alt="" coords="390,435,485,455,484,460,389,440"/>
+<area shape="poly" id="edge15_Node000015_Node000015" title=" " alt="" coords="527,410,520,400,525,391,542,385,569,383,598,385,614,392,612,396,597,390,569,388,543,390,529,395,525,400,531,407"/>
+<area shape="rect" id="Node000016" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="770,357,912,385"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="645,406,755,385,756,390,646,411"/>
+<area shape="rect" id="Node000017" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="775,409,907,437"/>
+<area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="660,420,759,420,759,426,660,426"/>
+<area shape="rect" id="Node000018" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="726,461,956,489"/>
+<area shape="poly" id="edge18_Node000015_Node000018" title=" " alt="" coords="646,435,750,455,749,460,645,440"/>
+</map>

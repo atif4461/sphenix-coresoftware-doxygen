@@ -1,0 +1,12 @@
+digraph "Fun4AllOscarInputManager::NoSyncPushBackEvents"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Fun4AllOscarInputManager\l::NoSyncPushBackEvents",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllOscarInputManager\l::PushBackEvents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d1f/classFun4AllOscarInputManager.html#a53467fa98ba1b45b459e33a622f46288",tooltip="Push back events from the Oscar input file until the requested number of events is reached."];
+}

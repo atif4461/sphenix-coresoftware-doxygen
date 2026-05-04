@@ -1,0 +1,19 @@
+<map id="Fun4AllSyncManager::CurrentEvent" name="Fun4AllSyncManager::CurrentEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="597,161,754,206"/>
+<area shape="rect" id="Node000002" href="$d7/dff/classFun4AllStreamingInputManager.html#a7463cbfbeaf508e1d70b2e7e567fce56" title="Fill GL1 input pools and populate GL1 packet." alt="" coords="316,5,542,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="645,151,602,106,576,84,548,65,524,53,526,48,550,60,579,79,606,102,649,147"/>
+<area shape="rect" id="Node000004" href="$d9/d88/classFun4AllStreamingLumiCountingInputManager.html#a28539fd37a304b960eb3bb537964b275" title="Fill GL1 data structures for the current event and update luminosity counters." alt="" coords="316,75,542,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="608,158,548,134,512,122,514,117,550,129,610,153"/>
+<area shape="rect" id="Node000006" href="$df/d43/classFun4AllDummyInputManager.html#a80b344ec4498b8450e15c41f6334873e" title="Execute dummy input manager for a given number of events." alt="" coords="309,143,549,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="581,176,549,173,550,167,582,171"/>
+<area shape="rect" id="Node000007" href="$d6/d6f/classFun4AllHepMCInputManager.html#abc2abd5f69e96e3fb974376f5f258f80" title="Run attempts to retrieve a valid HepMC event from input files." alt="" coords="311,195,546,223"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="582,196,547,200,547,194,581,191"/>
+<area shape="rect" id="Node000008" href="$da/dd8/classFun4AllPrdfInputManager.html#a5a95556c61f0a9f209a3c178e81e4fac" title="Run input manager to read next event from PRDF files and store it in the data node." alt="" coords="322,247,536,275"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="610,215,550,237,504,249,503,244,548,232,608,210"/>
+<area shape="rect" id="Node000009" href="$dd/ded/classFun4AllSyncManager.html#acc9ba641e68025bcaa03f0cc3e2ae364" title="run n events (0 means up to end of file" alt="" coords="336,299,522,327"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="644,219,602,256,550,289,518,301,516,296,548,284,598,252,641,215"/>
+<area shape="rect" id="Node000003" href="$d7/dff/classFun4AllStreamingInputManager.html#a08e3ccaec492d26c1896abbcb7e911e1" title="Run processing for streaming input manager." alt="" coords="5,14,261,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,30,261,30,261,25,300,25"/>
+<area shape="rect" id="Node000005" href="$d9/d88/classFun4AllStreamingLumiCountingInputManager.html#a2a855d0999243f2da54ed76b04475984" title="Execute the run step of the streaming luminosity counting input manager." alt="" coords="20,75,246,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="300,100,246,100,246,94,300,94"/>
+</map>

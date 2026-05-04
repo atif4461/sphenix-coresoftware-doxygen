@@ -1,0 +1,38 @@
+<map id="TruthRecoTrackMatching" name="TruthRecoTrackMatching">
+<area shape="rect" id="Node000001" title=" " alt="" coords="379,1797,585,2216"/>
+<area shape="rect" id="Node000002" href="$d0/d32/classSubsysReco.html" title=" " alt="" coords="250,1437,393,1732"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="385,1745,405,1796,400,1798,380,1747"/>
+<area shape="rect" id="Node000003" href="$d5/dec/classFun4AllBase.html" title=" " alt="" coords="197,1081,366,1355"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="301,1369,308,1437,303,1437,296,1369"/>
+<area shape="rect" id="Node000004" href="$d6/ded/classTrackClusEvaluator.html" title=" " alt="" coords="659,1437,820,1732"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="661,1718,596,1824,591,1822,657,1715"/>
+<area shape="rect" id="Node000005" href="$d7/d24/classTrkrClusterIsMatcher.html" title=" " alt="" coords="391,1092,573,1344"/>
+<area shape="poly" id="edge19_Node000001_Node000005" title=" " alt="" coords="484,1343,484,1780,479,1780,479,1343"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="549,1342,593,1411,650,1483,646,1487,589,1414,545,1345"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="917,617,956,690"/>
+<area shape="poly" id="edge16_Node000004_Node000006" title=" " alt="" coords="958,681,997,749,1016,792,1030,836,1068,1000,1081,1070,1086,1135,1082,1200,1067,1265,1040,1336,999,1414,966,1457,925,1494,881,1524,836,1548,834,1543,878,1519,922,1489,962,1454,994,1411,1035,1334,1062,1264,1077,1199,1080,1135,1075,1071,1063,1001,1025,837,1011,793,992,752,953,684"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="937,690,918,905,906,1008,895,1059,869,1073,833,1079,743,1078,652,1073,615,1076,587,1084,584,1086,581,1081,585,1079,614,1070,652,1068,743,1072,832,1074,867,1068,890,1056,901,1007,913,904,931,689"/>
+<area shape="rect" id="Node000007" href="$d6/dfa/classTrkrCluster.html" title="Base class for cluster object." alt="" coords="5,494,126,812"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="51,812,55,877,67,943,78,974,92,1004,110,1031,132,1055,151,1066,179,1071,251,1071,324,1069,355,1072,379,1079,382,1081,379,1085,377,1084,354,1077,324,1074,251,1076,179,1076,150,1071,129,1059,106,1034,87,1006,73,976,62,944,49,878,46,812"/>
+<area shape="rect" id="Node000008" href="$d9/d24/classPHObject.html" title=" " alt="" coords="97,127,205,445"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="113,460,105,495,100,494,108,459"/>
+<area shape="rect" id="Node000013" href="$d0/d2c/classTrkrClusterContainer.html" title="Cluster container object." alt="" coords="151,506,325,801"/>
+<area shape="poly" id="edge13_Node000013_Node000008" title=" " alt="" coords="195,459,206,505,200,506,189,460"/>
+<area shape="rect" id="Node000009" href="$d5/d0f/classTObject.html" title=" " alt="" coords="121,5,182,78"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="154,93,154,127,148,127,148,93"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="361,617,389,690"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="375,689,373,758,374,850,383,954,403,1057,409,1076,404,1077,398,1058,377,954,369,850,367,758,370,689"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="461,617,500,690"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="483,689,484,1076,479,1076,478,689"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="558,617,686,690"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="626,689,631,880,626,984,620,1027,611,1059,601,1072,588,1083,586,1085,582,1082,584,1079,597,1068,606,1056,615,1025,620,984,625,880,621,689"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="202,801,195,867,198,935,204,967,214,999,229,1029,248,1056,262,1068,276,1073,307,1072,341,1068,360,1071,379,1079,381,1080,379,1085,377,1084,358,1076,341,1074,307,1077,275,1079,259,1072,244,1059,224,1031,209,1001,199,969,193,935,190,867,196,801"/>
+<area shape="rect" id="Node000014" href="$d3/d64/classActsGeometry.html" title=" " alt="" coords="710,506,877,801"/>
+<area shape="poly" id="edge14_Node000005_Node000014" title=" " alt="" coords="773,802,729,1059,712,1072,694,1078,660,1077,625,1073,606,1075,587,1084,585,1085,582,1080,585,1079,605,1070,625,1067,660,1071,693,1073,709,1068,725,1056,767,801"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="597,1165,753,1271"/>
+<area shape="poly" id="edge15_Node000004_Node000015" title=" " alt="" coords="675,1271,675,1339,683,1412,685,1420,679,1421,678,1413,670,1339,670,1271"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="777,1182,832,1254"/>
+<area shape="poly" id="edge17_Node000004_Node000016" title=" " alt="" coords="801,1254,771,1420,766,1419,796,1253"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="858,1182,967,1254"/>
+<area shape="poly" id="edge18_Node000004_Node000017" title=" " alt="" coords="912,1254,899,1329,887,1372,871,1414,831,1480,827,1477,866,1412,882,1371,893,1328,906,1253"/>
+</map>

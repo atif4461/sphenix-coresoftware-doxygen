@@ -1,0 +1,26 @@
+digraph "PHG4CylinderGeom_Spacalv3::get_max_lightguide_height"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4CylinderGeom_Spacalv3\l::get_max_lightguide_height",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="max tolerance needed for the light guide"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4CylinderGeom_Spacalv3\l::Print",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d61/classPHG4CylinderGeom__Spacalv3.html#ab15ad149ea75e222394cf00342045569",tooltip="Print geometry information for Spacal version 3."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4CylinderGeom_Spacalv3\l::get_tower_radial_position",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d61/classPHG4CylinderGeom__Spacalv3.html#ab14c3352a8d3f833e8fc7bc48cb4bdf4",tooltip="get approximate radial position of tower"];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4SpacalDetector\l::AddCellGeometryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da4/classPHG4SpacalDetector.html#af2c4c4c1f8ca4bba2552dd18f6ff54b5",tooltip="Add cell geometry node for SPACAL detector."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4FullProjTiltedSpacal\lDetector::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698",tooltip="Construct the full projected tilted SPACAL detector geometry within the given world volume."];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4FullProjSpacalCellReco\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#aea3e5a8a10917a094b537adc5201d6f9",tooltip="module initialization"];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4CylinderGeom_Spacalv3\l::get_tower_z_phi_ID",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d61/classPHG4CylinderGeom__Spacalv3.html#aa703c35320bf717fb66b80bf64f9f103",tooltip="Compute the z bin and global phi bin for a specified tower in a given sector."];
+  Node7 -> Node4 [id="edge7_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node6 [id="edge8_Node000007_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node8 [id="edge9_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4FullProjSpacalCellReco\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#aa31a2feab594c495ddf4133d72a9badb",tooltip="event processing"];
+}

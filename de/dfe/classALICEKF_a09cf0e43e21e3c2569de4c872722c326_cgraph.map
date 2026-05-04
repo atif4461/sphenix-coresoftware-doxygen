@@ -1,0 +1,86 @@
+<map id="ALICEKF::FilterStep" name="ALICEKF::FilterStep">
+<area shape="rect" id="Node000001" title="Perform a Kalman filter step for a given cluster and update track parameters." alt="" coords="5,602,150,630"/>
+<area shape="rect" id="Node000002" href="$de/d94/namespaceTrackFitUtils.html#a7a48cefc9f12d1b56c6305e4a91f9b2c" title="Compute the intersection points of two circles in the transverse plane." alt="" coords="234,5,382,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,601,89,497,112,337,128,254,147,176,170,112,196,67,219,48,222,52,200,71,174,114,152,178,133,255,117,338,94,498,83,602"/>
+<area shape="rect" id="Node000003" href="$d4/d60/classGPUTPCTrackParam.html#a5baf5f012e005d327ea14964e18c5afd" title="Add y z measurement with Kalman filter." alt="" coords="480,74,670,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="77,601,88,504,110,357,126,281,145,211,169,155,182,134,196,118,215,106,241,97,309,86,387,81,464,81,464,86,387,86,309,91,243,102,217,111,199,122,186,137,173,157,150,213,131,282,115,358,93,505,83,602"/>
+<area shape="rect" id="Node000009" href="$de/dfe/classALICEKF.html#a7ad540d485cdd55bf479b65ae5af28e8" title="Retrieve the longitudinal magnetic field component Bz at a given point." alt="" coords="512,175,638,203"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="77,601,85,546,105,467,120,424,140,381,165,340,196,304,229,277,266,255,305,236,345,221,425,201,495,191,496,196,426,206,347,226,307,241,268,259,232,282,200,308,169,343,145,383,125,426,110,469,91,547,83,602"/>
+<area shape="rect" id="Node000010" href="$de/dfe/classALICEKF.html#a099ebd31ee7fcf7d1b843a55adc97494" title="Retrieve the (i,j) element of the covariance matrix for a given tracker cluster." alt="" coords="218,779,398,807"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="89,629,130,692,162,728,199,759,222,771,220,776,196,763,158,732,126,695,84,632"/>
+<area shape="rect" id="Node000011" href="$d4/d60/classGPUTPCTrackParam.html#ace105b17284b84d723a0638b4824b105" title=" " alt="" coords="731,300,956,328"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="76,601,80,535,95,437,110,383,131,329,159,279,196,235,236,207,293,182,362,162,436,146,511,137,581,136,640,143,665,151,685,161,700,176,708,191,712,224,714,257,721,272,733,287,736,290,733,294,729,291,716,275,709,258,706,225,703,193,696,179,682,166,663,156,639,149,580,141,511,142,437,151,363,167,295,187,239,212,199,239,163,282,136,331,115,384,100,438,85,536,81,601"/>
+<area shape="rect" id="Node000013" href="$d4/d60/classGPUTPCTrackParam.html#ae229af04b6ffd5d64b2be6cd821753c1" title=" " alt="" coords="205,831,410,859"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="85,629,99,667,122,718,155,771,176,795,199,816,208,822,205,826,196,820,172,799,151,775,117,721,94,669,80,631"/>
+<area shape="rect" id="Node000014" href="$d4/d60/classGPUTPCTrackParam.html#aa9f9403f7be1c49cfc8416e0b6baf813" title=" " alt="" coords="201,883,415,911"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="84,629,94,676,115,741,130,776,149,810,172,841,199,868,206,873,203,878,196,872,168,845,145,813,125,778,110,743,89,677,78,630"/>
+<area shape="rect" id="Node000015" href="$d4/d60/classGPUTPCTrackParam.html#a1219e90ecfdfbfc524f104cedddf1d5e" title=" " alt="" coords="206,935,410,963"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="82,629,90,684,108,763,123,806,143,848,168,887,199,920,205,925,201,929,196,924,164,890,138,850,118,808,103,765,84,685,77,630"/>
+<area shape="rect" id="Node000016" href="$d4/d60/classGPUTPCTrackParam.html#a03f826c545f2b8c5ea9fe8b53bdd5ec5" title=" " alt="" coords="204,987,412,1031"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="82,630,87,692,104,784,118,834,139,884,166,931,200,973,203,975,199,979,196,976,161,934,134,887,113,836,98,785,82,693,77,630"/>
+<area shape="rect" id="Node000017" href="$d4/d60/classGPUTPCTrackParam.html#a4df2cacba911155f08342593649c76c3" title=" " alt="" coords="198,1055,418,1083"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="83,629,97,714,122,839,138,903,157,962,177,1010,200,1042,202,1044,198,1048,196,1045,173,1013,152,964,133,905,117,840,92,715,78,630"/>
+<area shape="rect" id="Node000018" href="$d4/d60/classGPUTPCTrackParam.html#a87cfad6028a1b1b0241454bafc8b69f6" title=" " alt="" coords="480,227,669,255"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="80,601,92,558,115,498,149,434,171,404,196,378,226,354,258,332,327,298,398,273,464,256,465,261,400,278,329,303,261,337,229,358,199,382,175,408,153,437,120,501,97,559,85,602"/>
+<area shape="rect" id="Node000019" href="$d4/d60/classGPUTPCTrackParam.html#a9df574517fda87c6c8ddfcf214409770" title=" " alt="" coords="480,474,669,502"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="94,599,139,567,197,537,264,517,335,502,465,488,465,493,335,508,266,522,199,542,142,572,98,603"/>
+<area shape="rect" id="Node000020" href="$d4/d60/classGPUTPCTrackParam.html#a67418330cdb9ebae1d1570c7a172a56f" title=" " alt="" coords="480,526,669,554"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="109,599,151,583,197,569,266,556,336,547,464,539,465,544,336,553,266,562,198,574,152,588,111,604"/>
+<area shape="rect" id="Node000021" href="$d4/d60/classGPUTPCTrackParam.html#ac1587d21b84b48cd506a241928e8036e" title=" " alt="" coords="740,609,947,654"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="150,614,725,627,725,632,150,620"/>
+<area shape="rect" id="Node000022" href="$d4/d60/classGPUTPCTrackParam.html#a53537ad04b139c3899d42f58264450ba" title=" " alt="" coords="750,678,937,706"/>
+<area shape="poly" id="edge24_Node000001_Node000022" title=" " alt="" coords="150,620,198,625,734,678,734,684,197,630,150,626"/>
+<area shape="rect" id="Node000023" href="$d4/d60/classGPUTPCTrackParam.html#a33f13a04cf31346c82348ab7f62f6b38" title=" " alt="" coords="750,558,937,586"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="150,609,735,575,735,581,150,614"/>
+<area shape="rect" id="Node000024" href="$d4/d60/classGPUTPCTrackParam.html#a9f57be3af6c1078cfe22778a94510833" title=" " alt="" coords="481,728,668,756"/>
+<area shape="poly" id="edge28_Node000001_Node000024" title=" " alt="" coords="93,628,137,670,166,691,199,708,265,728,335,740,403,746,465,747,465,752,403,751,334,746,264,734,197,713,164,696,133,674,90,632"/>
+<area shape="rect" id="Node000025" href="$de/dfe/classALICEKF.html#a3d53f85bf7c62a804f609abbac24db5f" title="Transport a track from an old radius to a new radius while updating the azimuthal angle." alt="" coords="203,391,413,419"/>
+<area shape="poly" id="edge30_Node000001_Node000025" title=" " alt="" coords="86,600,129,539,161,501,196,467,228,443,261,424,264,429,231,448,199,471,165,505,134,542,90,603"/>
+<area shape="rect" id="Node000004" href="$d4/d60/classGPUTPCTrackParam.html#a5df223f384a6ea22704627b9443d6bd9" title=" " alt="" coords="1032,139,1232,167"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="670,96,1017,137,1016,142,670,101"/>
+<area shape="rect" id="Node000005" href="$d4/d60/classGPUTPCTrackParam.html#acb4fdf33a972a981b423deb8bd425dd5" title=" " alt="" coords="744,152,943,180"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="626,100,779,145,778,150,624,105"/>
+<area shape="rect" id="Node000006" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="1113,587,1151,615"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="896,178,929,194,958,218,981,254,989,288,994,323,1006,364,1064,481,1116,572,1111,575,1059,484,1001,366,989,324,984,289,976,256,954,221,926,199,894,183"/>
+<area shape="poly" id="edge9_Node000006_Node000006" title=" " alt="" coords="1111,599,1083,588,1076,581,1076,574,1093,564,1132,561,1167,563,1186,571,1189,577,1186,584,1167,595,1165,590,1182,581,1183,577,1182,575,1166,569,1132,566,1095,569,1081,576,1081,579,1086,584,1113,594"/>
+<area shape="rect" id="Node000007" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="1387,587,1460,615"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1152,598,1371,598,1371,604,1152,604"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="1390,588,1384,578,1389,569,1402,563,1424,561,1447,563,1460,569,1457,574,1445,568,1424,566,1403,568,1392,572,1389,578,1394,585"/>
+<area shape="rect" id="Node000008" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="1587,587,1654,615"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1461,598,1572,598,1572,604,1461,604"/>
+<area shape="rect" id="Node000012" href="$d4/d60/classGPUTPCTrackParam.html#abc37a1e1926aabeec10472e3b92d28ae" title=" " alt="" coords="1033,326,1230,354"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="956,322,1018,327,1017,332,956,327"/>
+<area shape="poly" id="edge23_Node000021_Node000006" title=" " alt="" coords="947,618,1097,602,1098,607,947,623"/>
+<area shape="poly" id="edge25_Node000022_Node000006" title=" " alt="" coords="914,675,955,664,1032,637,1098,612,1100,617,1034,642,956,669,915,680"/>
+<area shape="poly" id="edge27_Node000023_Node000006" title=" " alt="" coords="937,578,1097,595,1097,600,937,584"/>
+<area shape="poly" id="edge29_Node000024_Node000006" title=" " alt="" coords="669,747,733,747,806,743,882,733,955,714,998,696,1038,672,1102,623,1105,628,1041,676,1000,701,957,720,883,738,807,749,733,752,669,752"/>
+<area shape="poly" id="edge35_Node000025_Node000009" title=" " alt="" coords="314,390,335,354,369,306,412,256,465,213,495,199,498,204,467,218,416,260,373,309,340,357,319,392"/>
+<area shape="poly" id="edge36_Node000025_Node000018" title=" " alt="" coords="325,389,416,314,439,291,465,271,493,258,495,263,467,275,443,295,420,318,329,393"/>
+<area shape="poly" id="edge37_Node000025_Node000019" title=" " alt="" coords="347,417,467,458,497,467,495,472,465,464,345,422"/>
+<area shape="poly" id="edge38_Node000025_Node000020" title=" " alt="" coords="327,417,386,463,426,489,467,511,487,518,485,523,465,515,423,493,383,467,324,421"/>
+<area shape="rect" id="Node000026" href="$d4/d60/classGPUTPCTrackParam.html#afd5bfcc61171afbb01ddeba13d173e38" title="Calculate fit parameters for a track given particle mass." alt="" coords="734,232,953,277"/>
+<area shape="poly" id="edge31_Node000025_Node000026" title=" " alt="" coords="328,388,388,351,425,331,465,314,529,295,594,280,718,261,719,267,595,286,530,300,467,320,428,336,390,356,331,393"/>
+<area shape="rect" id="Node000029" href="$d4/d60/classGPUTPCTrackParam.html#a2e55799a5ae01e23af6b5d1b24b2ec9d" title="Rotate the track parameters to a new XY coordinate system by angle alpha." alt="" coords="474,422,675,450"/>
+<area shape="poly" id="edge39_Node000025_Node000029" title=" " alt="" coords="414,414,459,420,459,425,413,420"/>
+<area shape="rect" id="Node000033" href="$d4/d60/classGPUTPCTrackParam.html#a4e95972f54c29323f01457a125703808" title="Transport track parameters to a given X coordinate accounting for material effects." alt="" coords="466,353,683,398"/>
+<area shape="poly" id="edge49_Node000025_Node000033" title=" " alt="" coords="413,391,450,387,451,392,414,396"/>
+<area shape="poly" id="edge34_Node000026_Node000004" title=" " alt="" coords="909,229,1075,170,1077,175,911,234"/>
+<area shape="rect" id="Node000027" href="$d4/d60/classGPUTPCTrackParam.html#ae06de11d993d2926816effe3f06da13d" title="Approximation of the BetheBloch formula for gas materials used in the sPHENIX TPC." alt="" coords="1004,240,1260,268"/>
+<area shape="poly" id="edge32_Node000026_Node000027" title=" " alt="" coords="953,252,988,252,988,257,953,257"/>
+<area shape="rect" id="Node000028" href="$d4/d60/classGPUTPCTrackParam.html#aff0e0adcee5bd2897b1b2f838c026da8" title="Parameterization of the Bethe Bloch formula inspired by Geant." alt="" coords="1308,232,1539,277"/>
+<area shape="poly" id="edge33_Node000027_Node000028" title=" " alt="" coords="1260,252,1293,252,1293,257,1260,257"/>
+<area shape="poly" id="edge40_Node000029_Node000011" title=" " alt="" coords="661,419,682,408,697,393,705,377,714,361,730,344,752,332,755,337,733,348,718,364,710,380,701,397,685,413,663,424"/>
+<area shape="poly" id="edge46_Node000029_Node000012" title=" " alt="" coords="644,419,682,408,706,397,731,388,804,371,879,358,1017,343,1018,349,880,364,805,376,732,393,708,402,684,413,645,424"/>
+<area shape="poly" id="edge41_Node000029_Node000021" title=" " alt="" coords="667,448,685,460,699,477,707,494,710,529,714,563,720,579,733,595,736,598,733,602,729,599,716,582,709,564,705,529,702,496,695,480,682,464,664,452"/>
+<area shape="poly" id="edge44_Node000029_Node000022" title=" " alt="" coords="668,448,685,460,704,486,712,513,713,539,710,565,707,591,708,616,715,640,733,665,739,669,735,673,729,668,711,643,703,617,702,590,704,564,707,539,707,513,699,489,681,464,665,452"/>
+<area shape="poly" id="edge45_Node000029_Node000023" title=" " alt="" coords="663,448,685,460,703,481,710,503,717,524,733,543,741,548,738,553,730,547,712,526,705,505,698,484,682,464,660,452"/>
+<area shape="rect" id="Node000030" href="$d4/d60/classGPUTPCTrackParam.html#a357c9edaf540a83ad30dc366f1ed210e" title=" " alt="" coords="734,506,953,534"/>
+<area shape="poly" id="edge42_Node000029_Node000030" title=" " alt="" coords="649,448,684,460,709,475,733,491,754,498,752,503,730,495,706,480,682,465,647,453"/>
+<area shape="rect" id="Node000031" href="$d4/d60/classGPUTPCTrackParam.html#aa627e9c5a76c9b2964e6f333feeb75b6" title=" " alt="" coords="760,454,927,482"/>
+<area shape="poly" id="edge47_Node000029_Node000031" title=" " alt="" coords="676,445,745,453,745,459,675,450"/>
+<area shape="rect" id="Node000032" href="$d4/d60/classGPUTPCTrackParam.html#a51193c882675893268c2a3c212f52be3" title=" " alt="" coords="761,402,926,430"/>
+<area shape="poly" id="edge48_Node000029_Node000032" title=" " alt="" coords="675,426,745,420,746,426,676,431"/>
+<area shape="poly" id="edge43_Node000030_Node000006" title=" " alt="" coords="908,531,956,544,1099,588,1097,593,955,549,907,537"/>
+<area shape="poly" id="edge50_Node000033_Node000026" title=" " alt="" coords="611,350,666,318,730,287,747,280,749,285,732,291,668,323,613,355"/>
+<area shape="poly" id="edge51_Node000033_Node000033" title=" " alt="" coords="524,353,523,343,531,334,549,329,575,327,603,329,620,336,619,341,602,334,575,332,550,334,534,339,528,345,529,352"/>
+</map>

@@ -1,0 +1,40 @@
+digraph "CMFlashClusterv2::CopyFrom"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="CMFlashClusterv2::CopyFrom",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="copy content from base class"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CMFlashCluster::CMFlashCluster",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d65/classCMFlashCluster.html#ad280392f05054805fa0304bf9f8bac11",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CMFlashCluster::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d65/classCMFlashCluster.html#a7d3d81cfda2bd6a2e85a0561833dfd5f",tooltip="copy content from base class"];
+  Node3 -> Node2 [id="edge4_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge5_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="CMFlashCluster::getAdc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d65/classCMFlashCluster.html#a86620bf6a21107b8f429b9cafdb61866",tooltip=" "];
+  Node1 -> Node5 [id="edge6_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="CMFlashCluster::getIsPhiGap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d65/classCMFlashCluster.html#a6fbea31fb1372e16d335f3eb7123a7e7",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="CMFlashCluster::getIsRGap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d65/classCMFlashCluster.html#a073dc852b77dc61d38d09cef40efad3a",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="CMFlashCluster::getX",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d65/classCMFlashCluster.html#a1ef7838122ea6d8377063e8177422817",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="CMFlashCluster::getY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d65/classCMFlashCluster.html#ad7e9bfc34aa70448e18868c4694c2c40",tooltip=" "];
+  Node1 -> Node9 [id="edge10_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="CMFlashCluster::getZ",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d65/classCMFlashCluster.html#a438cc40a2592b72e02354350174bdb3c",tooltip=" "];
+  Node1 -> Node10 [id="edge11_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="CMFlashClusterv2::setAdc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1f/classCMFlashClusterv2.html#a056711de4a147961121cf1fe1cf67c4e",tooltip=" "];
+  Node1 -> Node11 [id="edge12_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="CMFlashClusterv2::setIsPhiGap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1f/classCMFlashClusterv2.html#a40ed80e38271b6c9338cc67536bed79c",tooltip=" "];
+  Node1 -> Node12 [id="edge13_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="CMFlashClusterv2::setIsRGap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1f/classCMFlashClusterv2.html#a1967e49d2830a13887a58f92fd87b3b4",tooltip=" "];
+  Node1 -> Node13 [id="edge14_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="CMFlashClusterv2::setX",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1f/classCMFlashClusterv2.html#a03cc43a15af39aac3cbd003d66b6a8d3",tooltip=" "];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="CMFlashClusterv2::setY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1f/classCMFlashClusterv2.html#acc77d8435742475cf4fddeb170f66a72",tooltip=" "];
+  Node1 -> Node15 [id="edge16_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="CMFlashClusterv2::setZ",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d1f/classCMFlashClusterv2.html#aadac06a653da2d200366a5aabc276c59",tooltip=" "];
+}

@@ -1,0 +1,121 @@
+<map id="Fun4AllServer::topNode" name="Fun4AllServer::topNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1172,936,1346,964"/>
+<area shape="rect" id="Node000002" href="$da/d29/classFun4AllServer.html#afcfc5583204cac58b4e66a2406187a18" title="Reset event counter and initialize run timestamp then invoke BeginRun on all registered subsystems." alt="" coords="581,96,762,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1252,921,1237,793,1210,613,1192,520,1171,435,1148,364,1121,314,1086,274,1044,239,998,209,949,185,850,148,762,126,763,121,852,143,951,180,1000,205,1047,235,1089,270,1126,311,1153,362,1176,433,1197,519,1215,612,1242,792,1257,920"/>
+<area shape="rect" id="Node000004" href="$df/d51/Fun4All__ExportGeom_8C.html#a40e05d2152b4c050774c7412ded92018" title="get geometry from DST file and output TGeoManager ROOT files or other formats of geometry files" alt="" coords="16,57,173,85"/>
+<area shape="poly" id="edge18_Node000001_Node000004" title=" " alt="" coords="1253,921,1242,774,1219,563,1201,454,1179,354,1153,271,1138,239,1122,214,1073,163,1018,121,958,86,894,59,826,38,756,24,685,14,614,10,474,12,345,24,235,42,153,59,151,54,234,37,344,19,474,6,614,4,686,9,757,18,827,33,896,54,961,81,1021,116,1077,159,1126,211,1142,236,1158,269,1184,353,1206,453,1224,562,1248,774,1259,921"/>
+<area shape="rect" id="Node000008" href="$d9/d0f/Fun4All__ImportGeom_8C.html#a4305730a4ab39282cb439b6a10642623" title="Read in a Geometry file, and output DST and ROOT TGeo files." alt="" coords="15,469,174,497"/>
+<area shape="poly" id="edge19_Node000001_Node000008" title=" " alt="" coords="1255,921,1250,845,1243,796,1232,744,1215,692,1192,641,1161,596,1122,557,1102,547,1070,538,975,523,850,511,706,501,408,490,174,486,174,481,408,485,706,496,851,505,976,517,1071,533,1104,542,1125,553,1165,592,1196,639,1220,690,1237,743,1248,795,1255,844,1260,920"/>
+<area shape="rect" id="Node000010" href="$d6/deb/PHGeom__DSTInspection_8C.html#aff312f57f177e30d7d8ee73964bceecc" title=" " alt="" coords="5,548,184,576"/>
+<area shape="poly" id="edge51_Node000001_Node000010" title=" " alt="" coords="1254,921,1247,851,1228,759,1211,712,1188,667,1159,627,1122,593,1102,584,1071,577,978,565,855,558,714,555,419,556,184,561,184,556,419,551,714,549,855,553,978,560,1072,571,1104,579,1125,589,1163,623,1193,664,1216,710,1233,758,1253,850,1259,920"/>
+<area shape="rect" id="Node000015" href="$d0/d5d/classcaloTowerEmbed.html#a47dca61a379dc857ac0e1afa28405ded" title="Create node tree for embedding calorimeter towers." alt="" coords="869,603,1112,630"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="1251,921,1239,862,1216,787,1199,747,1178,710,1152,675,1122,645,1103,633,1105,629,1125,641,1156,671,1183,707,1204,745,1221,785,1244,860,1256,920"/>
+<area shape="rect" id="Node000017" href="$d9/df8/classPHG4GDMLUtility.html#adb03ec38807279cb5abaf38987c5a73f" title="save the current Geant4 geometry to GDML file. Reading PHG4GDMLConfig from topNode" alt="" coords="876,655,1105,682"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="1248,922,1232,874,1207,814,1171,753,1148,726,1122,703,1090,685,1093,681,1125,698,1152,722,1175,750,1212,812,1237,872,1253,920"/>
+<area shape="rect" id="Node000018" href="$d6/d6f/classFun4AllHepMCInputManager.html#ab49f9d3e9950f49dfe1323ac466e2021" title="Construct Fun4AllHepMCInputManager and initialize HepMC event map." alt="" coords="564,687,779,732"/>
+<area shape="poly" id="edge20_Node000001_Node000018" title=" " alt="" coords="1245,923,1227,884,1201,838,1166,793,1145,774,1122,757,1082,737,1038,721,993,710,948,703,859,697,779,699,779,694,859,691,949,697,995,705,1040,716,1084,732,1125,753,1149,769,1170,789,1205,835,1232,881,1250,921"/>
+<area shape="rect" id="Node000021" href="$db/d1f/classFun4AllOscarInputManager.html#a6eba24090795ccb027a1dedc87db1a85" title="Constructor for Fun4AllOscarInputManager initializing input manager with name and top node name." alt="" coords="570,757,774,801"/>
+<area shape="poly" id="edge23_Node000001_Node000021" title=" " alt="" coords="1241,924,1222,892,1195,857,1162,823,1122,798,1080,781,1035,768,943,756,854,756,774,763,774,758,853,751,943,751,1036,763,1082,775,1125,793,1165,819,1199,853,1226,889,1245,921"/>
+<area shape="rect" id="Node000022" href="$da/dd8/classFun4AllPrdfInputManager.html#a9fed8c89f4d51221f555fff3fd8167a6" title="Constructor initializes input manager and ensures PRDF node exists in top node." alt="" coords="894,858,1087,903"/>
+<area shape="poly" id="edge24_Node000001_Node000022" title=" " alt="" coords="1187,934,1079,906,1080,901,1188,929"/>
+<area shape="rect" id="Node000023" href="$d7/dff/classFun4AllStreamingInputManager.html#a59a4ff0993bd4b3ba75ea6450ff09c0f" title="Construct Fun4AllStreamingInputManager and initialize synchronization object." alt="" coords="873,927,1108,972"/>
+<area shape="poly" id="edge25_Node000001_Node000023" title=" " alt="" coords="1156,952,1108,952,1108,947,1156,947"/>
+<area shape="rect" id="Node000024" href="$d9/d88/classFun4AllStreamingLumiCountingInputManager.html#a17e6aa2c0cacd2ec13d7dc6c27bf7bf8" title="Constructor for Fun4AllStreamingLumiCountingInputManager." alt="" coords="857,996,1124,1058"/>
+<area shape="poly" id="edge26_Node000001_Node000024" title=" " alt="" coords="1194,971,1101,998,1099,993,1193,966"/>
+<area shape="rect" id="Node000025" href="$de/daa/classFun4AllTriggeredInputManager.html#a1e02d72783720a240f12e630130de6a2" title="Construct a Fun4AllTriggeredInputManager and initialize synchronization object." alt="" coords="877,1082,1104,1127"/>
+<area shape="poly" id="edge27_Node000001_Node000025" title=" " alt="" coords="1238,977,1189,1026,1158,1051,1125,1072,1099,1084,1096,1079,1122,1067,1155,1046,1186,1022,1234,974"/>
+<area shape="rect" id="Node000026" href="$df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468" title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one." alt="" coords="905,1202,1076,1247"/>
+<area shape="poly" id="edge28_Node000001_Node000026" title=" " alt="" coords="1251,979,1235,1024,1208,1080,1172,1136,1150,1162,1125,1185,1103,1200,1078,1211,1076,1206,1100,1195,1122,1181,1146,1159,1168,1133,1204,1077,1230,1022,1246,977"/>
+<area shape="rect" id="Node000027" href="$df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48" title="Get transient PHField from DST nodes. If not found, make a new one based on default_config." alt="" coords="586,1091,757,1136"/>
+<area shape="poly" id="edge41_Node000001_Node000027" title=" " alt="" coords="1250,980,1232,1019,1206,1064,1170,1108,1149,1126,1125,1142,1076,1161,1024,1173,971,1177,917,1176,818,1161,736,1139,737,1134,819,1156,918,1170,970,1172,1023,1167,1074,1156,1122,1137,1145,1122,1166,1104,1201,1061,1227,1016,1245,978"/>
+<area shape="rect" id="Node000037" href="$da/d29/classFun4AllServer.html#aabed04484f54e3bfafb5fa4adc8eaa10" title="Retrieve or create a PHCompositeNode with the given name under the specified top node." alt="" coords="903,807,1078,834"/>
+<area shape="poly" id="edge42_Node000001_Node000037" title=" " alt="" coords="1231,927,1183,886,1154,865,1123,848,1077,834,1079,828,1125,843,1157,861,1187,882,1235,923"/>
+<area shape="rect" id="Node000040" href="$da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89" title="Initialize default node tree under given top node." alt="" coords="890,1271,1091,1298"/>
+<area shape="poly" id="edge47_Node000001_Node000040" title=" " alt="" coords="1257,979,1245,1039,1222,1116,1205,1156,1183,1195,1157,1231,1125,1261,1093,1279,1090,1274,1122,1257,1153,1227,1179,1192,1200,1154,1217,1114,1240,1038,1251,978"/>
+<area shape="rect" id="Node000134" href="$d6/d27/classCopyIODataNodes.html#af1871f1583d811097477799799729560" title="Initialize run specific copying of I/O data nodes according to enabled flags." alt="" coords="893,1323,1088,1350"/>
+<area shape="poly" id="edge50_Node000001_Node000134" title=" " alt="" coords="1258,980,1250,1049,1229,1139,1211,1186,1189,1232,1161,1275,1125,1312,1108,1323,1089,1331,1087,1327,1106,1319,1122,1308,1156,1272,1184,1230,1207,1184,1223,1137,1245,1048,1253,979"/>
+<area shape="rect" id="Node000143" href="$d6/d27/classCopyIODataNodes.html#a67f005b0da1c479766f383c084f9e097" title="Process event and copy selected IO data nodes from the global top node to the local top node." alt="" coords="891,1374,1090,1419"/>
+<area shape="poly" id="edge52_Node000001_Node000143" title=" " alt="" coords="1260,979,1253,1056,1234,1160,1217,1215,1194,1269,1164,1320,1125,1364,1109,1376,1091,1385,1089,1380,1106,1372,1122,1360,1159,1316,1189,1267,1212,1213,1229,1158,1248,1055,1254,979"/>
+<area shape="rect" id="Node000146" href="$db/dd3/classHepMCCollisionVertex.html#a3d644dd4744cc9411519a835de04d5c6" title="Process event to add HepMC collision vertex to the event map." alt="" coords="907,1443,1074,1488"/>
+<area shape="poly" id="edge53_Node000001_Node000146" title=" " alt="" coords="1256,979,1239,1081,1210,1217,1193,1285,1172,1347,1150,1398,1126,1433,1102,1450,1075,1460,1073,1455,1100,1445,1122,1429,1145,1396,1167,1345,1187,1283,1205,1215,1234,1080,1251,979"/>
+<area shape="rect" id="Node000149" href="$d4/da9/classFun4AllInputManager.html#ac1910d048e912d51287df1e4f8579888" title="Register a subsystem with the Fun4All input manager." alt="" coords="911,1513,1070,1557"/>
+<area shape="poly" id="edge54_Node000001_Node000149" title=" " alt="" coords="1257,979,1242,1094,1215,1250,1197,1330,1176,1402,1153,1462,1126,1502,1100,1520,1071,1531,1070,1526,1098,1516,1122,1499,1148,1459,1171,1400,1192,1328,1210,1249,1237,1093,1252,979"/>
+<area shape="rect" id="Node000150" href="$da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0" title="Register a SubsysReco subsystem under a specified top node." alt="" coords="870,324,1111,352"/>
+<area shape="poly" id="edge55_Node000001_Node000150" title=" " alt="" coords="1250,921,1236,845,1211,737,1173,616,1149,555,1121,498,1094,454,1062,413,1005,354,1009,350,1066,410,1098,451,1126,495,1154,553,1178,614,1216,736,1242,843,1256,920"/>
+<area shape="rect" id="Node000151" href="$d4/da9/classFun4AllInputManager.html#a08fc36a2da8759e20f8e035afe5ef6e5" title="Process subsystems during event rejection and determine if event should be discarded." alt="" coords="911,1582,1070,1627"/>
+<area shape="poly" id="edge63_Node000001_Node000151" title=" " alt="" coords="1258,980,1245,1107,1220,1284,1202,1375,1181,1457,1155,1525,1141,1552,1126,1572,1101,1590,1072,1601,1070,1596,1098,1585,1122,1568,1137,1549,1150,1523,1176,1456,1197,1374,1214,1283,1240,1106,1252,979"/>
+<area shape="rect" id="Node000160" href="$d2/d4a/classFun4AllEventOutputManager.html#a55b6e9f0d43870b8fda84535210a61ff" title="Write current event to output stream." alt="" coords="887,1651,1094,1696"/>
+<area shape="poly" id="edge69_Node000001_Node000160" title=" " alt="" coords="1259,979,1248,1119,1224,1317,1207,1419,1185,1512,1158,1588,1143,1618,1126,1641,1096,1662,1093,1657,1122,1637,1138,1615,1153,1586,1180,1511,1201,1418,1219,1316,1242,1118,1253,979"/>
+<area shape="rect" id="Node000003" href="$da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a" title="run n events (0 means up to end of file)" alt="" coords="289,248,429,276"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="629,133,391,250,388,245,626,128"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="332,239,267,177,226,143,182,112,134,88,136,83,185,108,229,139,271,173,336,235"/>
+<area shape="rect" id="Node000005" href="$dc/db9/Fun4All__FillChargesMap__300evts__MDC2_8C.html#a8b10b6773ed57b9e67800f1059683bd9" title=" " alt="" coords="6,401,183,445"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="331,288,266,338,185,391,161,403,158,398,182,386,263,334,328,284"/>
+<area shape="rect" id="Node000006" href="$dc/d25/Fun4All__FillDCMap_8C.html#a58f83cb6a0866bc0e00d6b647f133d6e" title=" " alt="" coords="23,121,166,149"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="323,242,259,203,183,164,149,152,151,147,185,159,261,198,325,237"/>
+<area shape="rect" id="Node000007" href="$d8/df2/Fun4All__G4__Pi0__Tbt_8C.html#ad8532aac8897c66182c7c634dc60a310" title=" " alt="" coords="20,197,169,225"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="273,248,169,228,170,223,274,243"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="343,290,317,328,281,374,236,421,185,460,163,471,160,466,182,456,232,417,277,371,313,325,339,287"/>
+<area shape="rect" id="Node000009" href="$d4/df0/Fun4All__xingshift_8C.html#a163a9074d7e3e2a5ca0883c76afb37a4" title=" " alt="" coords="28,273,161,301"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="273,273,161,284,161,278,273,267"/>
+<area shape="poly" id="edge11_Node000003_Node000010" title=" " alt="" coords="345,291,283,393,237,454,185,510,157,533,127,550,125,545,154,528,182,507,233,451,278,390,341,288"/>
+<area shape="rect" id="Node000011" href="$d2/dc1/run__dump_8C.html#a6b68179498d474aeeb27db36fa8c13ae" title=" " alt="" coords="51,349,138,377"/>
+<area shape="poly" id="edge13_Node000003_Node000011" title=" " alt="" coords="307,284,134,351,132,346,305,279"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="140,185,124,178,94,176,67,178,51,183,48,188,54,195,50,198,42,188,48,179,66,173,95,171,125,173,142,180"/>
+<area shape="poly" id="edge10_Node000009_Node000009" title=" " alt="" coords="140,261,124,254,94,252,67,254,51,259,48,264,54,271,50,274,42,264,48,255,66,249,95,247,125,249,142,256"/>
+<area shape="poly" id="edge12_Node000010_Node000010" title=" " alt="" coords="140,535,124,529,94,527,67,529,51,534,48,539,54,546,50,549,42,539,48,529,66,523,95,521,125,524,142,530"/>
+<area shape="poly" id="edge14_Node000011_Node000011" title=" " alt="" coords="140,337,124,330,94,328,67,330,51,335,48,340,54,347,50,350,42,340,48,331,66,325,95,323,125,325,142,332"/>
+<area shape="rect" id="Node000016" href="$d0/d5d/classcaloTowerEmbed.html#aa954f94e823459aec84cec601781e324" title="Initialize run specific resources and node tree." alt="" coords="579,603,764,630"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="853,619,765,619,765,614,853,614"/>
+<area shape="rect" id="Node000019" href="$de/d99/classFun4AllHepMCPileupInputManager.html#a94b3b8e44e727ee4cfcad90d5f1933f7" title="Constructor for Fun4AllHepMCPileupInputManager." alt="" coords="232,653,486,697"/>
+<area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="549,699,486,692,486,687,549,694"/>
+<area shape="rect" id="Node000020" href="$de/d99/classFun4AllHepMCPileupInputManager.html#a4c33726287ab4652a3d668defcc879cf" title=" " alt="" coords="236,722,482,767"/>
+<area shape="poly" id="edge22_Node000018_Node000020" title=" " alt="" coords="549,726,483,733,482,728,549,721"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="891,1199,856,1186,832,1171,808,1158,757,1139,759,1134,810,1153,835,1167,858,1181,893,1194"/>
+<area shape="rect" id="Node000034" href="$d9/d69/classPHSimpleKFProp.html#acf8e513a28fcf747624780d1c2f214b7" title="Initialize run by retrieving required nodes, configuring magnetic field, and setting up the ALICE Kal..." alt="" coords="267,1152,451,1180"/>
+<area shape="poly" id="edge38_Node000026_Node000034" title=" " alt="" coords="889,1217,809,1208,451,1176,452,1171,810,1203,890,1211"/>
+<area shape="rect" id="Node000035" href="$d5/dbe/classPrelimDistortionCorrection.html#a0c7778097947c2bf4439ebaa7584abdc" title="Initialize run specific resources for distortion correction." alt="" coords="262,1203,456,1248"/>
+<area shape="poly" id="edge39_Node000026_Node000035" title=" " alt="" coords="889,1227,457,1228,456,1223,889,1222"/>
+<area shape="rect" id="Node000036" href="$d6/d80/classPrelimDistortionCorrectionAuAu.html#aaeaab6450f474daad89ffa2972723791" title="Initialize run specific resources and configure track fitter." alt="" coords="262,1273,456,1317"/>
+<area shape="poly" id="edge40_Node000026_Node000036" title=" " alt="" coords="889,1238,457,1287,456,1282,889,1233"/>
+<area shape="rect" id="Node000028" href="$d0/d78/classPHG4Reco.html#a66fc50f0871fbaf83b21edfa8ae98259" title="Initialize magnetic field configuration and attach to node tree." alt="" coords="284,876,434,904"/>
+<area shape="poly" id="edge30_Node000027_Node000028" title=" " alt="" coords="641,1081,561,989,519,946,485,919,460,908,433,900,435,895,462,903,487,914,522,942,565,985,645,1078"/>
+<area shape="rect" id="Node000030" href="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6" title="Initialize geometry, alignment and magnetic field for a new run." alt="" coords="258,928,460,956"/>
+<area shape="poly" id="edge31_Node000027_Node000030" title=" " alt="" coords="636,1083,570,1025,529,995,485,971,452,959,453,954,487,966,532,991,573,1020,640,1079"/>
+<area shape="rect" id="Node000031" href="$d9/d91/classPHG4TrackFastSim.html#a7ed1ea5f4718d84d769f1563b5147f71" title="Initialization Run, called for initialization of a run." alt="" coords="261,980,457,1008"/>
+<area shape="poly" id="edge32_Node000027_Node000031" title=" " alt="" coords="619,1086,556,1052,485,1022,447,1011,449,1006,487,1017,558,1047,621,1081"/>
+<area shape="rect" id="Node000032" href="$de/d25/classPHGenFitTrkFitter.html#a31b287e4d0925394b938f8eccccf7083" title="Initialization Run, called for initialization of a run." alt="" coords="288,1031,430,1076"/>
+<area shape="poly" id="edge33_Node000027_Node000032" title=" " alt="" coords="570,1097,430,1070,431,1065,571,1092"/>
+<area shape="rect" id="Node000033" href="$d5/daa/classPHRaveVertexing.html#a650b76ab2fb4616857eb52bb3a838971" title="Initialization Run, called for initialization of a run." alt="" coords="265,1100,453,1128"/>
+<area shape="poly" id="edge34_Node000027_Node000033" title=" " alt="" coords="570,1116,454,1116,454,1111,570,1111"/>
+<area shape="poly" id="edge35_Node000027_Node000034" title=" " alt="" coords="571,1133,447,1154,446,1149,570,1128"/>
+<area shape="poly" id="edge36_Node000027_Node000035" title=" " alt="" coords="608,1145,487,1194,450,1205,448,1200,485,1189,606,1140"/>
+<area shape="poly" id="edge37_Node000027_Node000036" title=" " alt="" coords="639,1149,572,1207,531,1237,487,1263,458,1275,455,1271,485,1258,528,1233,569,1203,635,1145"/>
+<area shape="poly" id="edge45_Node000037_Node000018" title=" " alt="" coords="944,802,881,774,808,747,770,735,771,730,810,742,883,769,946,797"/>
+<area shape="poly" id="edge46_Node000037_Node000021" title=" " alt="" coords="887,810,774,795,775,790,888,805"/>
+<area shape="rect" id="Node000038" href="$d7/d0b/classFun4AllDstInputManager.html#aadb10857043e34f5fbcf7933bcee9fcc" title="Open a DST file for reading and initialize run and event nodes." alt="" coords="581,826,762,871"/>
+<area shape="poly" id="edge43_Node000037_Node000038" title=" " alt="" coords="888,832,763,843,762,838,887,827"/>
+<area shape="rect" id="Node000039" href="$d0/ddf/classFun4AllRunNodeInputManager.html#ab7cae97f20caa68c3db1519d0353aaf0" title="Open a run node input file and load the corresponding run node into the top node." alt="" coords="562,895,781,940"/>
+<area shape="poly" id="edge44_Node000037_Node000039" title=" " alt="" coords="889,837,858,848,845,857,835,866,825,876,811,886,782,897,780,892,808,881,822,872,831,862,841,853,856,843,887,832"/>
+<area shape="rect" id="Node000041" href="$da/d29/classFun4AllServer.html#aa1939c3e2c3113cce0a6415103b4f5a5" title="Initialize the Fun4All server and core infrastructure." alt="" coords="593,1312,750,1340"/>
+<area shape="poly" id="edge48_Node000040_Node000041" title=" " alt="" coords="875,1302,751,1318,750,1313,874,1297"/>
+<area shape="rect" id="Node000164" href="$da/d29/classFun4AllServer.html#a3477a81b5b754fccc94dfa8283d041f4" title="Retrieve top node by name creating if necessary." alt="" coords="584,1364,759,1392"/>
+<area shape="poly" id="edge49_Node000040_Node000164" title=" " alt="" coords="877,1306,859,1314,845,1323,835,1333,826,1344,810,1354,760,1370,759,1365,808,1349,822,1340,831,1329,841,1319,856,1309,875,1301"/>
+<area shape="poly" id="edge56_Node000150_Node000002" title=" " alt="" coords="961,315,911,266,855,206,834,172,824,158,808,144,786,133,762,124,764,119,788,128,811,140,828,154,838,169,859,203,915,262,965,311"/>
+<area shape="poly" id="edge57_Node000150_Node000005" title=" " alt="" coords="854,354,810,358,183,418,183,412,809,353,854,348"/>
+<area shape="poly" id="edge58_Node000150_Node000006" title=" " alt="" coords="855,318,840,301,831,284,822,269,808,256,727,215,640,183,550,160,460,145,374,136,294,132,166,133,166,128,294,127,374,131,461,140,551,155,641,178,729,210,811,252,826,266,835,281,844,297,859,314"/>
+<area shape="poly" id="edge59_Node000150_Node000007" title=" " alt="" coords="867,323,857,320,809,303,649,264,486,239,316,223,170,216,170,210,317,218,486,234,650,258,810,298,858,315,868,318"/>
+<area shape="poly" id="edge60_Node000150_Node000008" title=" " alt="" coords="927,359,810,388,632,420,456,446,174,478,174,473,455,440,632,415,809,383,926,354"/>
+<area shape="poly" id="edge61_Node000150_Node000009" title=" " alt="" coords="855,333,161,294,161,288,855,328"/>
+<area shape="poly" id="edge62_Node000150_Node000011" title=" " alt="" coords="855,344,138,365,138,359,854,339"/>
+<area shape="rect" id="Node000152" href="$d7/d0b/classFun4AllDstInputManager.html#af2c20145c70376bd115a7d92273c972c" title="Run input manager to read events up to nevents from current or next file." alt="" coords="566,1643,777,1670"/>
+<area shape="poly" id="edge64_Node000151_Node000152" title=" " alt="" coords="896,1623,761,1645,761,1639,895,1617"/>
+<area shape="rect" id="Node000153" href="$d6/d6f/classFun4AllHepMCInputManager.html#abc2abd5f69e96e3fb974376f5f258f80" title="Run attempts to retrieve a valid HepMC event from input files." alt="" coords="554,1695,789,1722"/>
+<area shape="poly" id="edge65_Node000151_Node000153" title=" " alt="" coords="897,1626,859,1641,845,1652,836,1663,826,1674,811,1684,779,1697,777,1692,808,1679,822,1670,831,1659,841,1648,856,1637,895,1621"/>
+<area shape="rect" id="Node000154" href="$de/d99/classFun4AllHepMCPileupInputManager.html#a0afd07a242a008dab637fe4f6ba997bd" title="Process pileup events for the current run." alt="" coords="534,1487,809,1514"/>
+<area shape="poly" id="edge66_Node000151_Node000154" title=" " alt="" coords="895,1588,856,1572,841,1561,831,1550,822,1539,808,1530,777,1517,779,1512,811,1525,826,1535,836,1546,845,1557,859,1568,897,1583"/>
+<area shape="rect" id="Node000155" href="$db/d1f/classFun4AllOscarInputManager.html#abd9c677329f73038579c12aff1f8d42a" title="Run input manager to process events up to nevents." alt="" coords="559,1539,784,1566"/>
+<area shape="poly" id="edge67_Node000151_Node000155" title=" " alt="" coords="895,1592,761,1570,761,1564,896,1586"/>
+<area shape="rect" id="Node000156" href="$da/dd8/classFun4AllPrdfInputManager.html#a5a95556c61f0a9f209a3c178e81e4fac" title="Run input manager to read next event from PRDF files and store it in the data node." alt="" coords="564,1591,779,1618"/>
+<area shape="poly" id="edge68_Node000151_Node000156" title=" " alt="" coords="895,1607,779,1607,779,1602,895,1602"/>
+</map>

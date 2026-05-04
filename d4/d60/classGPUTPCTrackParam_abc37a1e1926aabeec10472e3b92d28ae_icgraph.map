@@ -1,0 +1,26 @@
+<map id="GPUTPCTrackParam::SinPhi" name="GPUTPCTrackParam::SinPhi">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1298,124,1495,152"/>
+<area shape="rect" id="Node000002" href="$d4/d60/classGPUTPCTrackParam.html#a27b172770d0e6d68fcf7370d71d291cf" title="Verify that track parameters and covariance matrix contain finite and physically reasonable values." alt="" coords="986,5,1250,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1358,119,1307,91,1249,65,1215,53,1217,48,1251,60,1309,86,1360,114"/>
+<area shape="rect" id="Node000003" href="$d4/d60/classGPUTPCTrackParam.html#ace105b17284b84d723a0638b4824b105" title=" " alt="" coords="1006,74,1230,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1301,124,1198,105,1199,100,1302,119"/>
+<area shape="rect" id="Node000008" href="$d4/d60/classGPUTPCTrackParam.html#a2e55799a5ae01e23af6b5d1b24b2ec9d" title="Rotate the track parameters to a new XY coordinate system by angle alpha." alt="" coords="737,126,938,154"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="1283,141,938,142,938,137,1283,136"/>
+<area shape="rect" id="Node000010" href="$d4/d60/classGPUTPCTrackParam.html#affd5d4fb9658313f04a3ddc2ec1e24d3" title="Rotate the coordinate system in XY by angle alpha." alt="" coords="1018,175,1218,203"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="1302,158,1199,177,1198,172,1301,153"/>
+<area shape="rect" id="Node000011" href="$d4/d60/classGPUTPCTrackParam.html#a0693bef61bbc4e19901f1271c215c3e9" title="Transport track parameters to a given X coordinate using linear approximation at phi0 with zero curva..." alt="" coords="998,227,1238,255"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="1361,163,1310,191,1251,217,1208,229,1207,224,1249,212,1308,186,1358,158"/>
+<area shape="rect" id="Node000004" href="$de/dfe/classALICEKF.html#a09cf0e43e21e3c2569de4c872722c326" title="Perform a Kalman filter step for a given cluster and update track parameters." alt="" coords="256,48,400,76"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1012,72,985,65,961,53,937,44,802,20,746,16,694,16,586,24,448,40,385,51,385,45,448,34,586,19,694,10,747,10,802,15,938,38,963,48,987,60,1013,67"/>
+<area shape="rect" id="Node000006" href="$d4/d60/classGPUTPCTrackParam.html#ad635b543205c917ebfb4b393fa503c9b" title="Compute the point on the helix that is closest to a given spatial coordinate." alt="" coords="448,48,689,76"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="1017,74,937,65,810,60,690,61,690,55,810,55,938,60,1018,68"/>
+<area shape="rect" id="Node000007" href="$d4/d60/classGPUTPCTrackParam.html#af5292b98a6bcc9a754d3f6b2706ab307" title="Compute the signed transverse path length from the track reference point to a target point." alt="" coords="743,74,932,102"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="990,90,932,90,932,85,990,85"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="1025,108,917,128,916,123,1024,102"/>
+<area shape="rect" id="Node000005" href="$de/dfe/classALICEKF.html#a44f906df99f1bd40e2db1d8e9705f4b0" title="Perform an ALICE style Kalman filter on a collection of track seed key lists and produce sPHENIX and ..." alt="" coords="5,48,208,76"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="240,65,208,65,208,60,240,60"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="727,80,690,76,690,71,728,75"/>
+<area shape="rect" id="Node000009" href="$de/dfe/classALICEKF.html#a3d53f85bf7c62a804f609abbac24db5f" title="Transport a track from an old radius to a new radius while updating the azimuthal angle." alt="" coords="464,112,674,140"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="722,137,674,134,674,129,722,131"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="498,111,382,79,384,74,500,105"/>
+</map>

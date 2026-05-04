@@ -1,0 +1,26 @@
+<map id="CaloTriggerEmulator::process_trigger" name="CaloTriggerEmulator::process_trigger">
+<area shape="rect" id="Node000001" title="Process trigger primitives for photon and jet triggers and fill output bits." alt="" coords="5,204,159,249"/>
+<area shape="rect" id="Node000002" href="$db/dda/classCaloTriggerEmulator.html#aa4690ee06b47aa5f226cedf0a5b36cc5" title="Determine if a given trigger primitive key is present in the fiber mask list." alt="" coords="228,5,381,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,202,136,133,168,94,205,60,213,55,216,60,208,64,172,98,140,136,97,205"/>
+<area shape="rect" id="Node000003" href="$db/dda/classCaloTriggerEmulator.html#ac8741a54e295eaef0a455c87872e5b2b" title="Compute trigger bits for a given sum and trigger type." alt="" coords="228,75,381,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,201,151,165,205,129,216,124,219,128,208,134,154,169,110,206"/>
+<area shape="rect" id="Node000004" href="$d6/ddd/namespaceTriggerDefs.html#af81600d954e34121b6058cb6d19a9753" title="Compute phi identifier for a primitive from a trigger sum key." alt="" coords="207,144,402,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,203,204,191,205,196,160,208"/>
+<area shape="rect" id="Node000007" href="$d6/ddd/namespaceTriggerDefs.html#a5673d047ab153c88a06914b00f925a45" title="Retrieve the eta index for a trigger sum based on its primitive type." alt="" coords="211,264,398,292"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="160,242,228,258,226,263,158,247"/>
+<area shape="rect" id="Node000009" href="$d6/ddd/namespaceTriggerDefs.html#aaa5097978be92fc976d9c9d165c4990d" title="Compute the phi sector identifier for a given trigger sum key." alt="" coords="212,212,397,240"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="159,224,196,224,196,229,159,229"/>
+<area shape="rect" id="Node000010" href="$dd/dcb/classTriggerPrimitive.html#a70018af39eb60d781933bcf7e2f97098" title="Retrieve constant range of sum entries." alt="" coords="210,316,399,344"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="115,247,158,275,208,301,227,309,225,314,206,306,155,279,112,251"/>
+<area shape="rect" id="Node000011" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="219,368,390,396"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="101,247,145,301,175,329,208,353,220,360,218,365,205,358,172,333,141,305,97,251"/>
+<area shape="rect" id="Node000005" href="$d6/ddd/namespaceTriggerDefs.html#ad8cac1f02acc72ec293f0fd69db086b5" title="Convert a TriggerSumKey to the corresponding DetectorId." alt="" coords="454,131,634,175"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="402,158,438,156,438,162,403,164"/>
+<area shape="rect" id="Node000006" href="$d6/ddd/namespaceTriggerDefs.html#abb33ad2eb86f1642b6b41ebb43c7c5f9" title="Convert a TriggerSumKey to its PrimitiveId component." alt="" coords="452,200,635,245"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="403,187,437,195,436,200,402,192"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="366,261,436,245,437,250,367,267"/>
+<area shape="rect" id="Node000008" href="$d6/ddd/namespaceTriggerDefs.html#afbb208317744d6969acecdfccec93060" title="Extract location identifier from trigger sum key." alt="" coords="450,268,637,296"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="398,277,434,278,434,283,398,283"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="397,222,437,221,437,227,398,227"/>
+<area shape="poly" id="edge11_Node000009_Node000008" title=" " alt="" coords="367,238,467,262,466,267,366,243"/>
+</map>

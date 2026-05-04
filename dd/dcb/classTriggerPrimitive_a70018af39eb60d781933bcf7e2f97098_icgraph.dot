@@ -1,0 +1,25 @@
+digraph "TriggerPrimitive::getSums"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TriggerPrimitive::getSums",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve constant range of sum entries."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CaloTriggerEmulator\l::process_organizer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dda/classCaloTriggerEmulator.html#ab0eaf251e1f5dec86815c2f0272b41ef",tooltip="Process organizer to build trigger primitives for EMCAL and HCAL and combine into jet primitives."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CaloTriggerEmulator\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dda/classCaloTriggerEmulator.html#a51370fb1c88349f20aa1e35a77a74bc0",tooltip="event processing method"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TriggerValid::process\l_towers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/df0/classTriggerValid.html#a02baa4888cc93f55306c87a8d788a71e",tooltip="Process calorimeter towers and trigger primitives for the current event."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TriggerValid::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/df0/classTriggerValid.html#a59cd4310f2c69c507a1153162e7ffe10",tooltip="event processing method"];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="CaloTriggerEmulator\l::process_trigger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dda/classCaloTriggerEmulator.html#a6a17e1f398b7f880ad732e5a7b073852",tooltip="Process trigger primitives for photon and jet triggers and fill output bits."];
+  Node6 -> Node3 [id="edge6_Node000006_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="MBDTriggerEmulator\l::process_trigger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/ddc/classMBDTriggerEmulator.html#a77bece4e35682353b6d1a1df725e96fb",tooltip="Emulate MBD trigger logic for the current event and fill trigger words."];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="MBDTriggerEmulator\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/ddc/classMBDTriggerEmulator.html#aa3a5b7250824bc77efa9be30bcc92418",tooltip="event processing method"];
+}

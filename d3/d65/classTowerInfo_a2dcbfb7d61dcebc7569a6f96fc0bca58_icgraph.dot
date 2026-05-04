@@ -1,0 +1,22 @@
+digraph "TowerInfo::get_isBadChi2"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TowerInfo::get_isBadChi2",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CaloStatusMapperDefs\l::GetTowerStatus",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d1e/namespaceCaloStatusMapperDefs.html#a48c1879dded7df8a3cc4a5a4f10a0647",tooltip="Returns enum corresponding to given tower status."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CaloStatusMapper::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d91/classCaloStatusMapper.html#a11667fedb65842b86985f54896b64791",tooltip="Grab inputs and fills histograms."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="CaloValid::process\l_towers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d11/classCaloValid.html#ab245377036dcca4c620a0ef89844a075",tooltip="Process event towers, triggers, MBD, and clusters to populate QA histograms."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="CaloValid::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d11/classCaloValid.html#afbcc52787b09f66af720afe42f1080bb",tooltip="event processing method"];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="HCalCosmics::process\l_towers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dab/classHCalCosmics.html#ad35cc6521d5f26d988254487fb0054d2",tooltip="Process tower information for HCal cosmics analysis."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="HCalCosmics::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dab/classHCalCosmics.html#a856cc818121f905b9a15a893acf00727",tooltip="Process a single event by handling towers and updating counters."];
+}

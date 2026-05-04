@@ -1,0 +1,20 @@
+<map id="BEmcRec::PredictEnergy" name="BEmcRec::PredictEnergy">
+<area shape="rect" id="Node000001" title="Predict corrected energy for a BEmc tower using profile probability or parametric method." alt="" coords="5,56,186,84"/>
+<area shape="rect" id="Node000002" href="$df/d23/classBEmcRec.html#a57755545e29364ec2d15ea91f8a52b31" title="Compute signed distance between two tower positions with optional cylindrical wrap around." alt="" coords="531,5,690,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,53,233,42,382,28,515,20,516,25,382,33,234,47,167,58"/>
+<area shape="rect" id="Node000003" href="$df/d23/classBEmcRec.html#a71c746ef3aa29ab463352ff177330f6f" title="Predicts the energy deposited in a tower given the shower centroid offset." alt="" coords="234,56,455,84"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,67,218,67,218,72,186,72"/>
+<area shape="rect" id="Node000004" href="$df/d23/classBEmcRec.html#a27562d25417207a7f823d99f000bf265" title="Predict tower energy from profiles used in GetProb." alt="" coords="240,108,449,136"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="166,82,260,102,259,107,165,87"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="426,105,454,93,468,81,477,69,486,56,502,44,515,37,518,41,504,48,490,60,481,72,472,85,456,97,428,110"/>
+<area shape="rect" id="Node000005" href="$df/d23/classBEmcRec.html#a4c1027d894ef61213ba6cea6b23b2ba5" title=" " alt="" coords="503,57,718,85"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="420,105,519,86,520,91,421,110"/>
+<area shape="rect" id="Node000006" href="$df/d23/classBEmcRec.html#a86884257d20b991f62732b4ccae5ca7a" title="Compute signed distance between two tower indices accounting for cylindrical geometry." alt="" coords="532,109,690,137"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="450,120,516,120,516,125,449,125"/>
+<area shape="rect" id="Node000007" href="$df/d23/classBEmcRec.html#ac115997c94dd0b83b134d54b052d9031" title="Convert local tower coordinates to global detector coordinates." alt="" coords="522,161,700,189"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="418,134,524,155,523,160,416,139"/>
+<area shape="rect" id="Node000008" href="$df/d23/classBEmcRec.html#ac06a7148c54aea33ad136927a1dbf254" title="Apply a trivial shower depth correction." alt="" coords="766,135,991,162"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="700,164,750,159,751,164,701,169"/>
+<area shape="rect" id="Node000009" href="$df/d23/classBEmcRec.html#a8b3cf9ce5eaa158a9793e350809d7a4b" title="Retrieve geometry for a tower given its x and y indices." alt="" coords="770,187,987,214"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="701,181,755,186,755,191,700,186"/>
+</map>

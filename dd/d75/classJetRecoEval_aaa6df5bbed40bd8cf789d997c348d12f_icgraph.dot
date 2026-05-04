@@ -1,0 +1,16 @@
+digraph "JetRecoEval::all_jets_from"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="JetRecoEval::all_jets_from",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="what reconstructed jets had contributions from this truth jet?"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="JetRecoEval::best_jet_from",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d75/classJetRecoEval.html#a631b92837e600fbdb6b966a556fc9077",tooltip="which reconstructed jet had the largest energy contribution from this truth jet?"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="JetRecoEval::unique\l_reco_jet_from_truth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d75/classJetRecoEval.html#a9775ea4a0c6e28f22da7997f4886f195",tooltip="Retrieve uniquely matched reconstructed jet for a given truth jet."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="JetRecoEval::unique\l_truth_jet_from_reco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d75/classJetRecoEval.html#ac6030b2b14c885e19e35f86ec828d8d8",tooltip="Retrieve the uniquely matched truth jet for a given reconstructed jet."];
+}

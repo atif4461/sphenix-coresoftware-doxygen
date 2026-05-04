@@ -1,0 +1,131 @@
+<map id="PHG4CylinderGeom_Spacalv3::get_tower_z_phi_ID" name="PHG4CylinderGeom_Spacalv3::get_tower_z_phi_ID">
+<area shape="rect" id="Node000001" title="Compute the z bin and global phi bin for a specified tower in a given sector." alt="" coords="5,1332,222,1377"/>
+<area shape="rect" id="Node000002" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#aa03acd42a810a5d871af48678e49b75e" title=" " alt="" coords="1098,576,1314,621"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,1329,278,1214,507,1035,644,933,790,830,943,731,1096,640,1127,625,1129,630,1099,645,946,736,793,835,647,938,510,1039,282,1218,143,1334"/>
+<area shape="rect" id="Node000003" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#ab15ad149ea75e222394cf00342045569" title="Print geometry information for Spacal version 3." alt="" coords="270,1704,486,1749"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="133,1376,354,1690,349,1693,129,1379"/>
+<area shape="rect" id="Node000004" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#aee1d22f280dbdc843ea0801a4e3230f3" title=" " alt="" coords="1098,1933,1314,1978"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="395,1702,452,1645,490,1616,533,1595,682,1545,748,1530,811,1525,871,1530,931,1549,990,1583,1052,1634,1077,1668,1087,1702,1086,1737,1080,1773,1074,1808,1072,1843,1079,1878,1100,1914,1108,1922,1104,1926,1096,1917,1074,1880,1066,1843,1068,1807,1075,1772,1081,1737,1082,1703,1072,1670,1048,1638,987,1587,928,1554,870,1536,811,1530,749,1536,683,1550,535,1600,493,1621,455,1649,399,1706"/>
+<area shape="rect" id="Node000005" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#af3f16db993e9a37e558c7448a8589283" title="max tolerance needed for the light guide" alt="" coords="535,1635,751,1679"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="466,1701,540,1681,541,1686,467,1706"/>
+<area shape="rect" id="Node000006" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#add47e789774fd2d1df261b7056f19fe9" title=" " alt="" coords="535,1704,751,1749"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="486,1724,520,1724,520,1729,486,1729"/>
+<area shape="rect" id="Node000007" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#a1748743d59b0ab2460685908236dea85" title="sub&#45;tower divider along the polar direction" alt="" coords="817,1833,1033,1878"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="405,1747,462,1790,497,1812,535,1828,602,1846,671,1856,739,1861,801,1861,801,1867,738,1866,670,1861,600,1851,533,1833,495,1816,459,1795,402,1751"/>
+<area shape="rect" id="Node000008" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#a43711db149bbea6f8502e79ec121b7a7" title="sub&#45;tower divider along the azimuthal direction" alt="" coords="817,1648,1033,1693"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="401,1702,458,1657,494,1636,533,1620,574,1610,616,1606,701,1609,781,1622,849,1640,847,1646,780,1627,701,1614,617,1611,575,1616,535,1625,497,1641,461,1662,405,1706"/>
+<area shape="rect" id="Node000009" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#a1874128506c0b4aeb67b91add19a1012" title=" " alt="" coords="535,1893,751,1938"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="400,1748,457,1809,495,1842,535,1872,558,1885,556,1889,533,1877,491,1847,453,1813,396,1751"/>
+<area shape="rect" id="Node000010" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#afe48f05d2388f7f28a36a392ab8482ae" title=" " alt="" coords="535,1963,751,2007"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="391,1748,412,1791,443,1845,485,1900,509,1926,536,1948,542,1953,539,1957,532,1953,506,1930,481,1904,439,1848,407,1793,386,1750"/>
+<area shape="rect" id="Node000011" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#afff9685c949aa877126f2d61cc498a11" title=" " alt="" coords="535,2032,751,2077"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="387,1749,404,1803,434,1876,477,1952,504,1987,536,2018,541,2022,538,2026,532,2022,500,1991,473,1955,429,1878,399,1805,382,1750"/>
+<area shape="rect" id="Node000012" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a91340b29587e1c381d7ae57bf8cf206e" title="Print detailed geometry parameters of the Spacal v2 detector." alt="" coords="535,376,751,421"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="381,1703,632,436,637,437,386,1704"/>
+<area shape="rect" id="Node000048" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#aeb7cb1018fe8ab92bf6095ff049577c2" title="check that all towers has consistent sub&#45;tower divider" alt="" coords="534,1773,752,1818"/>
+<area shape="poly" id="edge78_Node000003_Node000048" title=" " alt="" coords="467,1747,541,1766,540,1772,466,1752"/>
+<area shape="rect" id="Node000013" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a0e8ac85e51f0887c320547db6e133fe8" title=" " alt="" coords="1626,389,1843,434"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="688,419,741,442,801,460,910,476,1023,484,1135,486,1246,481,1449,461,1611,435,1612,440,1449,466,1246,486,1136,491,1023,490,910,482,800,465,739,447,686,424"/>
+<area shape="rect" id="Node000014" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a047b9f59904162f92bc5258f72b0dc11" title="azimuthal tilt in rad" alt="" coords="1626,32,1843,77"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="647,375,664,321,693,252,713,216,738,182,766,151,799,126,848,98,899,74,951,55,1006,39,1117,16,1229,5,1337,3,1440,8,1532,17,1611,28,1610,33,1531,22,1439,13,1337,9,1229,11,1118,22,1007,44,953,60,901,79,850,103,802,130,770,155,742,185,718,219,698,255,669,323,652,376"/>
+<area shape="rect" id="Node000015" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a9009529a99b082149733bd1c961499b5" title=" " alt="" coords="817,235,1033,279"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="673,374,730,335,799,296,830,283,832,288,802,301,733,339,676,378"/>
+<area shape="rect" id="Node000016" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#ac569237b75471f6758be63f58cf9406e" title=" " alt="" coords="1098,355,1314,399"/>
+<area shape="poly" id="edge28_Node000012_Node000016" title=" " alt="" coords="752,392,1082,379,1082,384,752,397"/>
+<area shape="rect" id="Node000017" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#abe75f8256b43f5dd7374670011801c00" title="Compute azimuthal width of a sector after applying tilt corrections." alt="" coords="1362,152,1578,197"/>
+<area shape="poly" id="edge39_Node000012_Node000017" title=" " alt="" coords="651,374,670,331,702,276,745,221,770,197,799,177,870,145,946,124,1025,113,1104,110,1180,114,1252,122,1374,145,1373,150,1252,127,1180,119,1104,115,1025,118,948,129,872,150,802,182,774,201,748,225,706,279,675,333,656,377"/>
+<area shape="rect" id="Node000020" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a6a475aee8b9aa8ac8882802bf1c78266" title="Get polar taper ratio." alt="" coords="1098,285,1314,330"/>
+<area shape="poly" id="edge29_Node000012_Node000020" title=" " alt="" coords="751,375,800,366,1082,323,1082,328,801,372,752,380"/>
+<area shape="rect" id="Node000021" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#aa961eb94adecf28445dfdba906d81517" title="Compute the effective block width." alt="" coords="1098,165,1314,210"/>
+<area shape="poly" id="edge40_Node000012_Node000021" title=" " alt="" coords="655,374,677,339,709,296,750,253,799,220,869,194,942,179,1015,172,1082,173,1082,178,1015,178,943,184,870,199,802,225,754,258,713,299,681,342,659,377"/>
+<area shape="rect" id="Node000023" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#ae249c0e2d9b48a86c1506fa7c41df4e6" title="regulated fiber distance in the non&#45;tapering direction" alt="" coords="817,594,1033,656"/>
+<area shape="poly" id="edge30_Node000012_Node000023" title=" " alt="" coords="660,420,716,498,756,542,802,580,808,584,805,588,799,585,752,546,712,501,656,423"/>
+<area shape="rect" id="Node000025" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#ac5273ac5034b7d214ae879916d22880d" title="regulated fiber distance in the tapering direction" alt="" coords="800,405,1050,450"/>
+<area shape="poly" id="edge34_Node000012_Node000025" title=" " alt="" coords="752,407,785,411,785,416,751,412"/>
+<area shape="rect" id="Node000026" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#af70147ada6b9c6cfb9f8669eae9d5347" title="Returns the visibility flag for azimuthal segmentation." alt="" coords="817,525,1033,570"/>
+<area shape="poly" id="edge41_Node000012_Node000026" title=" " alt="" coords="674,419,731,462,802,504,831,517,829,522,799,509,728,466,671,423"/>
+<area shape="rect" id="Node000027" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#ad54faefb41787c1896349ee5d83b5e42" title="Print geometry configuration details to standard output." alt="" coords="817,1280,1033,1325"/>
+<area shape="poly" id="edge42_Node000012_Node000027" title=" " alt="" coords="654,420,915,1264,910,1266,649,422"/>
+<area shape="poly" id="edge15_Node000015_Node000013" title=" " alt="" coords="1032,232,1100,225,1174,226,1247,240,1283,253,1316,271,1328,282,1335,294,1341,319,1346,344,1353,355,1363,365,1396,376,1457,385,1611,400,1611,406,1456,390,1395,381,1361,370,1348,359,1341,346,1336,320,1330,296,1324,285,1312,275,1280,258,1246,245,1173,232,1100,230,1033,237"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="969,278,1030,309,1099,340,1116,347,1114,352,1097,345,1027,313,967,282"/>
+<area shape="poly" id="edge22_Node000015_Node000020" title=" " alt="" coords="1034,274,1083,283,1082,288,1033,279"/>
+<area shape="poly" id="edge23_Node000015_Node000021" title=" " alt="" coords="1018,232,1097,212,1098,217,1019,237"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="1291,352,1313,340,1352,310,1388,275,1443,208,1447,211,1392,279,1356,314,1315,345,1293,357"/>
+<area shape="poly" id="edge18_Node000017_Node000013" title=" " alt="" coords="1498,195,1699,377,1695,381,1495,199"/>
+<area shape="poly" id="edge20_Node000017_Node000014" title=" " alt="" coords="1512,149,1625,93,1655,81,1657,86,1627,98,1515,154"/>
+<area shape="rect" id="Node000018" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a8e774c1fa0ee8f946a2947baba40d211" title="Returns the azimuthal number of sectors for this geometry." alt="" coords="1626,152,1843,197"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="1579,172,1611,172,1611,177,1579,177"/>
+<area shape="rect" id="Node000019" href="$d3/d63/classPHG4CylinderGeomv1.html#abfd6ffac2910c5613f2b29afd06f5235" title=" " alt="" coords="1891,313,2057,358"/>
+<area shape="poly" id="edge21_Node000017_Node000019" title=" " alt="" coords="1525,149,1592,128,1674,112,1718,109,1761,112,1804,121,1844,137,1867,152,1887,170,1921,213,1946,258,1963,298,1958,300,1941,260,1916,216,1883,174,1863,156,1841,142,1802,126,1761,117,1718,115,1675,117,1593,133,1526,154"/>
+<area shape="poly" id="edge24_Node000021_Node000013" title=" " alt="" coords="1285,208,1316,227,1332,247,1340,266,1348,284,1363,302,1639,382,1638,387,1361,306,1343,287,1335,268,1328,249,1312,231,1283,213"/>
+<area shape="poly" id="edge26_Node000021_Node000017" title=" " alt="" coords="1314,180,1346,178,1346,183,1314,185"/>
+<area shape="poly" id="edge25_Node000021_Node000019" title=" " alt="" coords="1315,200,1362,206,1498,218,1606,221,1711,231,1772,244,1844,264,1887,281,1927,303,1924,307,1885,286,1842,269,1771,249,1711,237,1605,227,1498,223,1362,212,1314,205"/>
+<area shape="rect" id="Node000022" href="$d3/d63/classPHG4CylinderGeomv1.html#aa74a5d1faad8a99c1c1e457e16191a2f" title="Retrieve the material thickness for this detector element." alt="" coords="1891,525,2057,570"/>
+<area shape="poly" id="edge27_Node000021_Node000022" title=" " alt="" coords="1295,208,1614,296,1762,341,1814,360,1844,375,1880,406,1912,442,1957,511,1952,514,1907,445,1877,409,1841,379,1812,365,1760,346,1612,301,1294,213"/>
+<area shape="poly" id="edge31_Node000023_Node000013" title=" " alt="" coords="1017,591,1049,580,1072,570,1097,561,1170,547,1232,540,1340,539,1392,539,1446,535,1507,524,1577,504,1638,475,1691,441,1694,446,1641,480,1579,509,1508,530,1447,540,1392,544,1340,545,1232,545,1170,552,1098,566,1074,575,1051,585,1019,596"/>
+<area shape="poly" id="edge32_Node000023_Node000016" title=" " alt="" coords="1030,591,1048,580,1176,411,1180,414,1051,584,1033,596"/>
+<area shape="rect" id="Node000024" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a8d3f13d9ef72123b475ec9530cd58d7f" title=" " alt="" coords="1626,883,1843,927"/>
+<area shape="poly" id="edge33_Node000023_Node000024" title=" " alt="" coords="943,655,966,700,1000,753,1045,805,1071,827,1099,845,1138,861,1192,874,1327,891,1476,900,1611,903,1611,908,1475,905,1326,897,1191,879,1137,866,1096,850,1068,831,1041,808,996,756,961,703,938,658"/>
+<area shape="poly" id="edge35_Node000025_Node000013" title=" " alt="" coords="1050,423,1611,412,1611,417,1050,428"/>
+<area shape="poly" id="edge36_Node000025_Node000016" title=" " alt="" coords="1049,403,1082,397,1083,402,1050,408"/>
+<area shape="poly" id="edge38_Node000025_Node000020" title=" " alt="" coords="967,403,1027,371,1097,340,1114,333,1116,338,1099,345,1030,376,969,407"/>
+<area shape="poly" id="edge37_Node000025_Node000024" title=" " alt="" coords="979,448,1018,475,1037,492,1052,512,1071,553,1076,592,1074,630,1068,666,1063,701,1063,735,1074,768,1099,802,1288,834,1611,884,1610,889,1287,839,1096,806,1069,771,1058,735,1057,700,1062,665,1069,629,1071,592,1065,554,1047,514,1033,496,1015,479,976,453"/>
+<area shape="poly" id="edge52_Node000027_Node000002" title=" " alt="" coords="936,1278,990,1161,1021,1081,1047,999,1053,964,1056,919,1060,814,1069,711,1080,669,1095,638,1105,628,1109,632,1100,641,1085,671,1075,712,1065,814,1062,920,1058,965,1052,1000,1026,1083,995,1163,940,1281"/>
+<area shape="poly" id="edge53_Node000027_Node000004" title=" " alt="" coords="945,1324,999,1410,1028,1467,1052,1527,1060,1565,1064,1613,1066,1726,1074,1836,1084,1881,1100,1913,1109,1922,1105,1926,1095,1916,1079,1883,1069,1837,1061,1727,1058,1613,1055,1566,1047,1529,1024,1469,995,1413,941,1327"/>
+<area shape="poly" id="edge60_Node000027_Node000024" title=" " alt="" coords="940,1324,1052,1562,1063,1598,1067,1629,1076,1655,1085,1667,1099,1679,1141,1699,1199,1713,1267,1723,1340,1726,1413,1724,1480,1715,1537,1701,1577,1679,1597,1657,1616,1627,1633,1589,1648,1545,1674,1443,1694,1329,1708,1214,1719,1105,1729,943,1734,943,1724,1105,1714,1214,1699,1330,1679,1444,1653,1546,1638,1591,1620,1629,1601,1660,1580,1683,1539,1705,1481,1721,1414,1729,1340,1732,1267,1728,1198,1718,1139,1704,1096,1683,1081,1671,1071,1658,1062,1630,1058,1599,1047,1563,935,1326"/>
+<area shape="rect" id="Node000028" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#ac5283d499c906674a0b193333754a7fb" title=" " alt="" coords="1098,1125,1314,1170"/>
+<area shape="poly" id="edge43_Node000027_Node000028" title=" " alt="" coords="952,1278,1016,1229,1096,1180,1109,1174,1112,1179,1099,1185,1019,1234,955,1282"/>
+<area shape="rect" id="Node000029" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#ae280de917f0a34b84427bb543189a214" title="Compute the azimuthal distance between neighboring sectors." alt="" coords="1098,747,1314,791"/>
+<area shape="poly" id="edge44_Node000027_Node000029" title=" " alt="" coords="933,1278,1010,1089,1057,981,1095,904,1133,849,1172,801,1176,805,1138,852,1100,906,1061,983,1014,1091,938,1280"/>
+<area shape="rect" id="Node000030" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a8cb9124c619c8f4093ba9d783a08e400" title="Compute number of azimuthal sectors for the cylinder geometry." alt="" coords="1362,772,1578,817"/>
+<area shape="poly" id="edge51_Node000027_Node000030" title=" " alt="" coords="1033,1298,1113,1294,1195,1285,1266,1271,1293,1261,1312,1250,1356,1205,1391,1152,1417,1094,1437,1034,1450,975,1459,920,1466,832,1471,832,1464,920,1456,976,1442,1036,1422,1096,1395,1155,1360,1208,1316,1254,1295,1266,1267,1276,1196,1290,1114,1299,1034,1304"/>
+<area shape="rect" id="Node000031" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a3cc66af0cc5c32424607f8783f0a397e" title=" " alt="" coords="1626,661,1843,706"/>
+<area shape="poly" id="edge64_Node000027_Node000031" title=" " alt="" coords="935,1278,988,1160,1020,1081,1047,999,1055,958,1056,921,1051,855,1050,824,1055,793,1069,763,1096,732,1133,710,1185,694,1248,682,1320,675,1472,670,1611,674,1611,679,1472,676,1320,680,1249,688,1186,699,1135,715,1099,736,1074,766,1060,795,1055,824,1056,854,1062,921,1060,959,1052,1000,1025,1083,993,1162,940,1281"/>
+<area shape="rect" id="Node000032" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#add1ec52eaf9322602ef6dfd910254a5d" title=" " alt="" coords="1098,1195,1314,1239"/>
+<area shape="poly" id="edge54_Node000027_Node000032" title=" " alt="" coords="1000,1277,1115,1242,1116,1247,1002,1282"/>
+<area shape="rect" id="Node000033" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#adfdfd9a4ff82f8c5108d8891f40160df" title=" " alt="" coords="1362,1336,1578,1381"/>
+<area shape="poly" id="edge55_Node000027_Node000033" title=" " alt="" coords="1034,1311,1347,1343,1346,1348,1033,1316"/>
+<area shape="rect" id="Node000034" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a1af98fc42b576afb33307375a8ecf4a6" title=" " alt="" coords="1362,1485,1578,1530"/>
+<area shape="poly" id="edge56_Node000027_Node000034" title=" " alt="" coords="941,1324,965,1362,1000,1409,1045,1454,1071,1474,1099,1489,1159,1511,1223,1522,1287,1525,1346,1523,1347,1528,1287,1530,1222,1527,1158,1516,1097,1494,1068,1478,1042,1458,996,1412,961,1365,936,1327"/>
+<area shape="rect" id="Node000035" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#aeeff794e3524d92619abd15448c70842" title="Get the fiber core material name." alt="" coords="1098,1435,1314,1479"/>
+<area shape="poly" id="edge57_Node000027_Node000035" title=" " alt="" coords="955,1323,1019,1371,1099,1420,1112,1426,1109,1431,1096,1425,1016,1376,952,1327"/>
+<area shape="rect" id="Node000036" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a29371b1df46f2015002e421861d1281f" title="Returns the fiber core step size." alt="" coords="1098,1555,1314,1599"/>
+<area shape="poly" id="edge58_Node000027_Node000036" title=" " alt="" coords="940,1324,964,1368,999,1424,1045,1482,1099,1534,1117,1545,1114,1550,1096,1538,1041,1486,995,1427,959,1371,935,1327"/>
+<area shape="rect" id="Node000037" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#ac3f7326913d0e557f899f3694c965c28" title="Compute the outer radius of a fiber including its cladding." alt="" coords="1098,1365,1314,1410"/>
+<area shape="poly" id="edge61_Node000027_Node000037" title=" " alt="" coords="1002,1323,1116,1358,1115,1363,1000,1328"/>
+<area shape="rect" id="Node000038" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a1fbfce3bbb3d8e6f2e52abee800e81fb" title=" " alt="" coords="1098,1624,1314,1669"/>
+<area shape="poly" id="edge65_Node000027_Node000038" title=" " alt="" coords="941,1324,1100,1610,1105,1614,1101,1618,1096,1614,936,1326"/>
+<area shape="rect" id="Node000041" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#ab6124b2b0b590f53a1d01d41a098a714" title=" " alt="" coords="1626,525,1843,570"/>
+<area shape="poly" id="edge68_Node000027_Node000041" title=" " alt="" coords="935,1278,989,1161,1020,1081,1047,999,1056,951,1057,908,1049,832,1048,796,1052,760,1067,724,1096,686,1155,669,1289,638,1610,570,1611,576,1290,644,1157,674,1099,690,1072,726,1058,761,1053,796,1054,831,1062,908,1061,952,1052,1000,1026,1083,994,1163,940,1281"/>
+<area shape="rect" id="Node000042" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#ae8ca344fb0dbf7298c9b598860c0f4ad" title="Getter for the x position of the object." alt="" coords="1098,1744,1314,1789"/>
+<area shape="poly" id="edge71_Node000027_Node000042" title=" " alt="" coords="944,1324,996,1411,1026,1468,1052,1527,1061,1557,1065,1584,1066,1632,1068,1655,1072,1677,1082,1699,1100,1723,1110,1733,1107,1737,1096,1727,1078,1702,1067,1678,1062,1655,1061,1633,1060,1585,1056,1558,1047,1529,1021,1470,991,1413,939,1327"/>
+<area shape="rect" id="Node000043" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a49031e70399934ee9ae2a4f138321f36" title="Provides access to the stored y coordinate." alt="" coords="1098,1813,1314,1858"/>
+<area shape="poly" id="edge72_Node000027_Node000043" title=" " alt="" coords="944,1324,998,1410,1027,1467,1052,1527,1063,1569,1066,1606,1061,1673,1060,1704,1064,1735,1076,1766,1100,1799,1102,1801,1098,1805,1096,1803,1072,1769,1059,1736,1055,1705,1056,1673,1060,1607,1057,1570,1047,1529,1022,1469,993,1413,940,1326"/>
+<area shape="rect" id="Node000044" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#ad71269174b5e85facb69dd9520cea079" title="Return half of the fiber distance along the z axis." alt="" coords="1362,1808,1578,1853"/>
+<area shape="poly" id="edge73_Node000027_Node000044" title=" " alt="" coords="944,1323,998,1410,1028,1467,1052,1527,1059,1561,1062,1605,1064,1707,1066,1759,1072,1805,1082,1843,1100,1869,1134,1891,1173,1904,1215,1908,1257,1905,1300,1897,1341,1885,1411,1857,1413,1862,1343,1890,1301,1902,1258,1910,1215,1913,1172,1909,1132,1896,1096,1872,1078,1845,1066,1806,1061,1759,1058,1708,1057,1605,1054,1562,1047,1529,1023,1469,994,1412,940,1326"/>
+<area shape="rect" id="Node000045" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#adf129ed6210b5a1fa9da3bfb7e7aade6" title=" " alt="" coords="1098,917,1314,962"/>
+<area shape="poly" id="edge75_Node000027_Node000045" title=" " alt="" coords="929,1279,948,1218,980,1136,1003,1092,1029,1048,1060,1008,1096,972,1101,969,1104,973,1099,976,1064,1011,1033,1051,1007,1094,985,1138,953,1220,934,1280"/>
+<area shape="rect" id="Node000046" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a2be29c52b03e02cd2e8c0269dcf321b4" title="Print cylinder geometry parameters to the provided output stream." alt="" coords="1098,987,1314,1031"/>
+<area shape="poly" id="edge76_Node000027_Node000046" title=" " alt="" coords="933,1279,955,1230,990,1166,1037,1099,1065,1069,1096,1042,1102,1037,1105,1042,1099,1046,1069,1072,1041,1103,994,1169,960,1232,938,1281"/>
+<area shape="rect" id="Node000047" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#acea3b7afb06d5f8b365637914ab3083c" title="Check if fiber virtualization is enabled." alt="" coords="1098,1056,1314,1101"/>
+<area shape="poly" id="edge77_Node000027_Node000047" title=" " alt="" coords="939,1278,965,1242,1001,1197,1045,1151,1096,1111,1105,1106,1108,1110,1099,1115,1049,1155,1005,1200,969,1245,943,1281"/>
+<area shape="poly" id="edge45_Node000029_Node000030" title=" " alt="" coords="1315,777,1347,780,1346,785,1314,782"/>
+<area shape="poly" id="edge50_Node000029_Node000031" title=" " alt="" coords="1314,749,1611,701,1612,706,1315,754"/>
+<area shape="poly" id="edge46_Node000030_Node000024" title=" " alt="" coords="1533,815,1579,833,1671,873,1669,878,1577,838,1531,820"/>
+<area shape="poly" id="edge47_Node000030_Node000031" title=" " alt="" coords="1531,769,1577,751,1669,711,1671,715,1579,756,1533,774"/>
+<area shape="poly" id="edge48_Node000031_Node000019" title=" " alt="" coords="1763,659,1802,624,1841,581,1877,526,1909,469,1955,371,1960,373,1914,472,1882,529,1845,584,1806,628,1766,663"/>
+<area shape="poly" id="edge49_Node000031_Node000022" title=" " alt="" coords="1774,659,1918,576,1921,580,1777,663"/>
+<area shape="poly" id="edge59_Node000036_Node000034" title=" " alt="" coords="1293,1552,1367,1532,1368,1537,1295,1557"/>
+<area shape="poly" id="edge62_Node000037_Node000033" title=" " alt="" coords="1314,1373,1346,1370,1347,1375,1315,1378"/>
+<area shape="poly" id="edge63_Node000037_Node000034" title=" " alt="" coords="1285,1408,1315,1420,1370,1447,1421,1475,1418,1480,1368,1452,1313,1425,1283,1413"/>
+<area shape="rect" id="Node000039" href="$d3/d63/classPHG4CylinderGeomv1.html#a9e1ab39a080d1e6bd2ca0f94f3ea5ea3" title="Abstract interface for objects providing a maximum z coordinate." alt="" coords="1387,1624,1553,1669"/>
+<area shape="poly" id="edge66_Node000038_Node000039" title=" " alt="" coords="1314,1644,1371,1644,1371,1649,1314,1649"/>
+<area shape="rect" id="Node000040" href="$d3/d63/classPHG4CylinderGeomv1.html#accd4d75b5de94a90a8ba37636477e054" title="Returns the minimum z coordinate value." alt="" coords="1387,1555,1553,1599"/>
+<area shape="poly" id="edge67_Node000038_Node000040" title=" " alt="" coords="1293,1621,1371,1600,1373,1605,1295,1626"/>
+<area shape="poly" id="edge69_Node000041_Node000019" title=" " alt="" coords="1759,523,1934,366,1938,370,1763,527"/>
+<area shape="poly" id="edge70_Node000041_Node000022" title=" " alt="" coords="1843,545,1875,545,1875,550,1843,550"/>
+<area shape="poly" id="edge74_Node000044_Node000024" title=" " alt="" coords="1502,1806,1541,1770,1560,1748,1576,1724,1624,1617,1661,1504,1689,1389,1708,1277,1721,1172,1728,1078,1731,943,1736,943,1733,1078,1726,1172,1713,1278,1694,1390,1667,1506,1629,1619,1581,1726,1565,1751,1545,1774,1505,1810"/>
+<area shape="poly" id="edge79_Node000048_Node000004" title=" " alt="" coords="753,1772,824,1767,901,1770,941,1776,979,1786,1017,1800,1051,1819,1064,1829,1071,1841,1078,1865,1084,1889,1089,1901,1099,1912,1114,1923,1111,1928,1096,1916,1085,1904,1079,1891,1073,1866,1066,1843,1060,1833,1048,1823,1014,1805,978,1791,940,1781,901,1775,824,1772,753,1778"/>
+<area shape="poly" id="edge80_Node000048_Node000007" title=" " alt="" coords="752,1816,803,1827,802,1832,751,1821"/>
+<area shape="poly" id="edge81_Node000048_Node000008" title=" " alt="" coords="721,1770,751,1759,814,1729,871,1698,873,1703,816,1734,753,1764,723,1775"/>
+</map>

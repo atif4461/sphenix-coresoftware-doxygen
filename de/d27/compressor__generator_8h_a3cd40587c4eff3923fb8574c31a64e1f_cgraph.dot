@@ -1,0 +1,16 @@
+digraph "approx"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="approx",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="addDiff",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d27/compressor__generator_8h.html#a07c3523753a5b1fee3093b20639631c5",tooltip="Insert a minimum value into a distance‑to‑set map."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="newLoc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d27/compressor__generator_8h.html#a36a547b00b24668a1daa347682c88e45",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="removeDiff",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d27/compressor__generator_8h.html#abb86606fc5cc22b39a9f9da2dc5d537f",tooltip=" "];
+}

@@ -1,0 +1,23 @@
+<map id="TowerInfoContainerv4::encode_key" name="TowerInfoContainerv4::encode_key">
+<area shape="rect" id="Node000001" title="Encode tower index into a detector specific key." alt="" coords="5,144,169,189"/>
+<area shape="rect" id="Node000002" href="$d9/da7/classTowerInfoContainer.html#ac28109adc73dabfe800b7904c4d1cd54" title="Encode an EMCal tower index into a unique key." alt="" coords="217,5,364,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,141,158,101,215,60,223,56,226,60,218,65,161,106,115,145"/>
+<area shape="rect" id="Node000004" href="$d9/da7/classTowerInfoContainer.html#a4833f23844cd130949f682fb87140b97" title="Encode an EPD tower index into a unique key." alt="" coords="217,75,364,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,141,208,122,209,127,155,146"/>
+<area shape="rect" id="Node000006" href="$d9/da7/classTowerInfoContainer.html#ab81bc5c6721ee6ef4e5500dfefc4f664" title="Encode HCAL tower index into a unique key." alt="" coords="217,144,364,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="169,164,201,164,201,169,169,169"/>
+<area shape="rect" id="Node000008" href="$d9/da7/classTowerInfoContainer.html#a45a70e57c633cac86df7e644964b982a" title="Encode MBD tower index into container key." alt="" coords="217,213,364,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="155,187,209,205,208,210,154,192"/>
+<area shape="rect" id="Node000010" href="$d9/da7/classTowerInfoContainer.html#a9a5eff8e16aba31cc2f01949894db82c" title="Encode ZDC tower index into container key." alt="" coords="217,283,364,327"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="115,187,161,227,218,268,226,273,223,277,215,273,158,231,111,191"/>
+<area shape="rect" id="Node000003" href="$da/d9c/namespaceTowerInfoDefs.html#a00c72a0d930085024ae2d7c90e9a36f0" title="Encode an EMCal tower index into a global eta‑phi key." alt="" coords="430,5,599,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,25,414,25,414,30,364,30"/>
+<area shape="rect" id="Node000005" href="$da/d9c/namespaceTowerInfoDefs.html#a7d30679410cca9436b542a3a682ca892" title="Encode an EPD tower index into a compact key." alt="" coords="414,83,615,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="364,94,399,94,399,100,364,100"/>
+<area shape="rect" id="Node000007" href="$da/d9c/namespaceTowerInfoDefs.html#a2e815ce9a29173aad1d9c56f4afc9fec" title="Encode a HCAL tower index into a 32‑bit global key." alt="" coords="413,152,616,180"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="364,164,397,164,397,169,364,169"/>
+<area shape="rect" id="Node000009" href="$da/d9c/namespaceTowerInfoDefs.html#aa448287eef3a9ac8dd81fb82ed68e7ef" title="Encode MBD PMT index into a compact key." alt="" coords="412,222,617,250"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="364,233,397,233,397,238,364,238"/>
+<area shape="rect" id="Node000011" href="$da/d9c/namespaceTowerInfoDefs.html#a9f24c18f2431c5eb0b0538ccfff5eafa" title="Encode ZDC tower index into a unique key." alt="" coords="416,291,614,319"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="364,302,400,302,400,308,364,308"/>
+</map>

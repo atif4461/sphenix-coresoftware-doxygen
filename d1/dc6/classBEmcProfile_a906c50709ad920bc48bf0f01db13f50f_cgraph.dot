@@ -1,0 +1,14 @@
+digraph "BEmcProfile::GetProb"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="BEmcProfile::GetProb",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute chi2 probability for an EMC cluster using tower energies and predicted shower shape."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="BEmcProfile::GetTowerEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc6/classBEmcProfile.html#a00a41fb7f32f3a56e03736ad463b112a",tooltip="Retrieve tower energy from module list."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="BEmcProfile::PredictEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc6/classBEmcProfile.html#aa054fc47bbc9802ac9013021b555fba8",tooltip=" "];
+}

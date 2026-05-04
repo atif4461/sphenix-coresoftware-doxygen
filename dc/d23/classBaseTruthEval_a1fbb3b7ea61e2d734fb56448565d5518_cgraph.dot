@@ -1,0 +1,28 @@
+digraph "BaseTruthEval::get_primary_shower"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="BaseTruthEval::get\l_primary_shower",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="what was the primary shower that is associated with this particle?"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4Shower::get_parent\l_particle_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d88/classPHG4Shower.html#a17b5d5c5516ee5cf0cf737a9b493af8a",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="BaseTruthEval::get\l_primary_particle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#a7def33b4d1e4fe19922faa02ea287a5c",tooltip="what was the primary particle that is associated with this particle?"];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4Particle::get_primary_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a64791a9cca8d548c7292f0843472f5a5",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="BaseTruthEval::has\l_reduced_node_pointers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#a988244333e36bcd3a7c9c68d4c345af5",tooltip="Check if the truth information node pointers are present (reduced) in the current evaluation."];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="BaseTruthEval::is_primary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#a98bebdc989a84ce46fff6fa958476041",tooltip="is this a primary shower?"];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4Shower::get_parent\l_shower_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d88/classPHG4Shower.html#a1da069eb14e8276c54335aa05facc3a4",tooltip=" "];
+  Node6 -> Node5 [id="edge7_Node000006_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node6 [id="edge8_Node000006_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4Particle::get_track_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a23b7432f9b345b67a00e5c005fa5ba52",tooltip=" "];
+  Node1 -> Node5 [id="edge10_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge11_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+}

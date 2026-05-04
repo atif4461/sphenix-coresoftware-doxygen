@@ -1,0 +1,14 @@
+<map id="Fun4AllServer::BeginRunTimeStamp" name="Fun4AllServer::BeginRunTimeStamp">
+<area shape="rect" id="Node000001" title="Set the begin of run timestamp." alt="" coords="1072,5,1286,50"/>
+<area shape="rect" id="Node000002" href="$d6/d51/classFun4CalServer.html#a90536e9d697d89a4baec569a921b6428" title="Set beginning of run timestamp using RunToTime singleton." alt="" coords="824,14,1024,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1056,30,1024,30,1024,25,1056,25"/>
+<area shape="rect" id="Node000003" href="$d6/d51/classFun4CalServer.html#a28562715e45af5e11e3684290ad29af9" title="Create calibration for a given calibrator and run." alt="" coords="5,14,243,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="809,28,570,24,291,25,243,26,243,21,291,20,570,19,809,22"/>
+<area shape="rect" id="Node000004" href="$d6/d51/classFun4CalServer.html#a93263310c5e6d11c5dcc80adcfef759c" title="Set current run number and update database entries for all runs in the internal list." alt="" coords="576,43,776,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="809,44,777,48,776,42,809,39"/>
+<area shape="rect" id="Node000005" href="$d6/d51/classFun4CalServer.html#ab517ef78ef97449042e942339c8638ab" title="Create or update calibration status entries in the database for a given calibrator." alt="" coords="291,35,528,79"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="560,60,528,60,528,54,560,54"/>
+<area shape="rect" id="Node000006" href="$d6/d51/classFun4CalServer.html#a863572058df6aafce7b481c45ddc8953" title="Finalize processing of all registered subsystems and record calibration results." alt="" coords="336,103,483,131"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="601,78,529,94,479,105,478,100,527,89,600,72"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="275,46,243,43,243,37,275,41"/>
+</map>

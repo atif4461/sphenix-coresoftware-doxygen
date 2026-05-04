@@ -1,0 +1,49 @@
+<map id="InttBCOMap::LoadFromCDB" name="InttBCOMap::LoadFromCDB">
+<area shape="rect" id="Node000001" title="Load calibration data from CDB using given calibration name." alt="" coords="5,291,205,318"/>
+<area shape="rect" id="Node000002" href="$d5/d4b/classCDBInterface.html#a43822e59a3876434355e4cd55eba6b23" title="Retrieve calibration URL from CDB for given domain and filename." alt="" coords="272,213,428,241"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,288,288,244,290,249,152,293"/>
+<area shape="rect" id="Node000016" href="$d5/d4b/classCDBInterface.html#ac1458cd6adb1e2944371c40a90dc9dfe" title="Get singleton instance of CDBInterface." alt="" coords="265,291,435,318"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="205,302,249,302,249,307,205,307"/>
+<area shape="rect" id="Node000017" href="$d1/dc0/classInttBCOMap.html#a99aaa72db2d032b8d061a6f67ae2f5ac" title="Load InttBCOMap data from a specified file." alt="" coords="253,368,447,396"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="152,316,290,360,288,365,151,321"/>
+<area shape="rect" id="Node000003" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="544,57,680,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="361,211,414,155,452,123,494,95,528,82,530,87,496,100,455,127,417,158,365,215"/>
+<area shape="rect" id="Node000004" href="$d1/da8/classPHFlag.html#a2527c60236838b31be8c04c17e529976" title="Retrieve string flag value by name." alt="" coords="528,109,697,137"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="372,211,426,179,494,147,519,139,521,144,496,152,429,184,375,215"/>
+<area shape="rect" id="Node000012" href="$d1/da8/classPHFlag.html#a71de108d2dfd732b6dddf097d2bb728e" title="Retrieve a 64bit flag value by name." alt="" coords="526,161,698,189"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="423,210,523,190,524,195,424,215"/>
+<area shape="rect" id="Node000013" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="534,213,690,241"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="428,224,519,224,519,230,428,230"/>
+<area shape="rect" id="Node000014" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="527,265,697,293"/>
+<area shape="poly" id="edge15_Node000002_Node000014" title=" " alt="" coords="424,239,524,259,523,264,423,244"/>
+<area shape="rect" id="Node000015" href="$d5/dec/classFun4AllBase.html#a891fac4046ceda71c2253e1db6a00022" title="Sets the verbosity of this module (0 by default=quiet)." alt="" coords="527,317,697,345"/>
+<area shape="poly" id="edge16_Node000002_Node000015" title=" " alt="" coords="379,239,496,302,521,310,519,315,494,307,376,244"/>
+<area shape="rect" id="Node000005" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="829,109,934,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="697,120,813,120,813,126,697,126"/>
+<area shape="rect" id="Node000011" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="794,161,969,189"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="688,135,791,155,790,160,687,140"/>
+<area shape="rect" id="Node000006" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="1041,161,1228,189"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="935,131,1049,155,1048,160,934,137"/>
+<area shape="rect" id="Node000007" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="1048,213,1221,241"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="935,128,962,136,987,148,1003,160,1012,174,1021,186,1035,198,1048,205,1045,210,1032,203,1017,190,1008,177,999,164,984,152,960,141,934,133"/>
+<area shape="rect" id="Node000008" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="1056,5,1213,33"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="905,107,962,75,1033,43,1056,35,1058,40,1035,48,965,80,908,111"/>
+<area shape="rect" id="Node000009" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="1045,57,1224,85"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="934,110,1048,86,1049,91,935,115"/>
+<area shape="rect" id="Node000010" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="1044,109,1225,137"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="935,120,1028,120,1028,126,935,126"/>
+<area shape="poly" id="edge12_Node000012_Node000005" title=" " alt="" coords="687,158,813,134,814,139,688,163"/>
+<area shape="poly" id="edge13_Node000012_Node000011" title=" " alt="" coords="699,172,778,172,778,178,699,178"/>
+<area shape="rect" id="Node000018" href="$dd/d3c/classCDBTTree.html#aa299d0220ccd1f3ae00623c462e4f88e" title="Load calibration data from ROOT file into internal maps." alt="" coords="1034,419,1235,446"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="448,379,692,385,839,392,986,405,1046,413,1045,418,985,410,839,398,692,390,448,384"/>
+<area shape="rect" id="Node000019" href="$d1/dc0/classInttBCOMap.html#a00094785acfa4bf1bf7c833a563560fe" title="Load BCO offset map from a CDBTTree object." alt="" coords="495,444,729,472"/>
+<area shape="poly" id="edge20_Node000017_Node000019" title=" " alt="" coords="401,394,548,437,546,442,400,399"/>
+<area shape="rect" id="Node000020" href="$d1/dc0/classInttBCOMap.html#ae8016cbba57deac59203a5842544c6a6" title="Compute the most frequent BCO offset across all servers and channels." alt="" coords="785,523,978,550"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="658,470,778,507,808,516,807,521,777,512,656,475"/>
+<area shape="rect" id="Node000021" href="$dd/d3c/classCDBTTree.html#a9d1ea2ef83055c97369bcab6220b8889" title="Retrieve integer calibration value for a given channel and field name." alt="" coords="797,419,966,446"/>
+<area shape="poly" id="edge22_Node000019_Node000021" title=" " alt="" coords="729,444,781,439,782,445,730,449"/>
+<area shape="rect" id="Node000022" href="$dd/d3c/classCDBTTree.html#a44b5ff7ca5fce79d032ad3d41daf9e1d" title="Retrieve integer calibration value by name." alt="" coords="777,471,986,498"/>
+<area shape="poly" id="edge24_Node000019_Node000022" title=" " alt="" coords="730,467,762,470,762,475,729,472"/>
+<area shape="poly" id="edge23_Node000021_Node000018" title=" " alt="" coords="966,430,1018,430,1018,435,966,435"/>
+<area shape="poly" id="edge25_Node000022_Node000018" title=" " alt="" coords="952,467,1048,447,1049,453,953,473"/>
+</map>

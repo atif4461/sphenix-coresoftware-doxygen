@@ -1,0 +1,40 @@
+<map id="GlobalVertexFastSimReco::process_event" name="GlobalVertexFastSimReco::process_event">
+<area shape="rect" id="Node000001" title="Process event for GlobalVertexFastSimReco." alt="" coords="5,394,194,439"/>
+<area shape="rect" id="Node000002" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="261,109,404,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,393,119,342,146,275,186,206,211,174,240,146,245,142,249,147,243,151,215,178,190,209,151,278,124,344,109,394"/>
+<area shape="rect" id="Node000008" href="$da/d6c/classPHG4TruthInfoContainer.html#ad3a7147134687db5b6ea5af66ffd1326" title="Retrieve the vertex identifier of the primary vertex based on highest embedding ID." alt="" coords="242,161,423,206"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="109,392,129,354,158,307,195,259,240,216,246,212,249,216,243,220,199,262,162,310,134,357,114,395"/>
+<area shape="rect" id="Node000011" href="$da/d6c/classPHG4TruthInfoContainer.html#acf130130dd475251d67c0f04c0e9cc49" title="Retrieve primary vertex pointer by vertex identifier." alt="" coords="244,230,421,275"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="119,392,171,339,204,310,240,285,249,280,252,284,243,289,208,315,174,343,123,395"/>
+<area shape="rect" id="Node000012" href="$d5/dc4/classGlobalVertexMap.html#a4df8ddd2378b21b1835bf3cc3b85161f" title=" " alt="" coords="243,299,422,326"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="136,391,185,364,241,337,261,329,263,334,243,342,187,368,139,396"/>
+<area shape="rect" id="Node000013" href="$d1/d39/classGlobalVertex.html#a6c595021c39d0350d26890f38ba32d04" title=" " alt="" coords="247,351,418,378"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="193,393,252,380,253,385,194,398"/>
+<area shape="rect" id="Node000014" href="$d1/d39/classGlobalVertex.html#a90295f99e5e1fe3ba87403ad4ee40dfe" title=" " alt="" coords="260,403,405,430"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="194,414,244,414,244,419,194,419"/>
+<area shape="rect" id="Node000015" href="$d1/d39/classGlobalVertex.html#aa18b2edaaa38c498f3a2af13010a3841" title=" " alt="" coords="247,455,418,482"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="194,435,253,448,252,453,193,440"/>
+<area shape="rect" id="Node000016" href="$d1/d39/classGlobalVertex.html#ac8e2b253f7a1efb2bf32b4c1a2228778" title=" " alt="" coords="258,507,406,534"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="139,437,187,465,243,491,263,499,261,504,241,496,185,469,136,442"/>
+<area shape="rect" id="Node000017" href="$d1/d39/classGlobalVertex.html#a74e384c69a8af7c503fa98ac421b80a2" title=" " alt="" coords="258,559,406,586"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="121,437,173,491,207,519,243,544,256,550,254,555,240,548,203,523,169,494,118,441"/>
+<area shape="rect" id="Node000018" href="$d1/d39/classGlobalVertex.html#a68574e5038a88be99ca9636e5c3cc364" title=" " alt="" coords="259,611,406,638"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="115,438,135,473,164,515,200,559,243,596,253,602,250,606,240,600,196,562,159,519,130,476,110,440"/>
+<area shape="rect" id="Node000019" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="247,663,418,690"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="111,438,128,483,156,539,194,598,217,624,243,648,251,653,248,658,240,652,214,628,190,601,151,542,123,485,106,440"/>
+<area shape="rect" id="Node000003" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="471,57,652,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,106,482,86,483,92,397,111"/>
+<area shape="rect" id="Node000007" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="480,109,644,137"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="404,120,464,120,464,126,404,126"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="523,58,516,48,521,39,537,33,562,31,589,33,603,40,601,44,587,38,562,36,538,38,525,43,521,48,527,55"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="744,5,886,33"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="632,54,728,34,729,39,633,59"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="749,57,881,85"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="653,68,733,68,733,74,653,74"/>
+<area shape="rect" id="Node000006" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="700,109,930,137"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="633,83,729,103,728,108,632,88"/>
+<area shape="rect" id="Node000009" href="$da/d6c/classPHG4TruthInfoContainer.html#a53587ae22361008bcee4c51cc1d8d242" title=" " alt="" coords="473,161,650,206"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="423,180,457,180,457,186,423,186"/>
+<area shape="rect" id="Node000010" href="$da/d6c/classPHG4TruthInfoContainer.html#a88f175ebf34c4c7b1de705bf272f821b" title="Determine whether a given vertex id corresponds to an embedded vertex." alt="" coords="473,230,650,275"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="409,204,472,223,470,228,408,209"/>
+</map>

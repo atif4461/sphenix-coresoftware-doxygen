@@ -1,0 +1,12 @@
+<map id="TpcTimeFrameBuilder::crc16_parity" name="TpcTimeFrameBuilder::crc16_parity">
+<area shape="rect" id="Node000001" title="Compute CRC16 and data parity for a given fee data block." alt="" coords="694,52,859,97"/>
+<area shape="rect" id="Node000002" href="$dc/d28/classTpcTimeFrameBuilder.html#a9ce07337047425b30014663f6c9e9f2d" title="Process digital current data from a FEE." alt="" coords="442,5,634,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="679,62,634,54,635,49,680,56"/>
+<area shape="rect" id="Node000005" href="$dc/d28/classTpcTimeFrameBuilder.html#aedfd4abd1b4c94dae33513dc53183062" title="Decode and process a data packet from a Front End Electronics module." alt="" coords="430,91,646,136"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="680,93,647,98,647,93,679,88"/>
+<area shape="rect" id="Node000003" href="$dc/d28/classTpcTimeFrameBuilder.html#a1c30b3f41823bc067d0ae510e3bd4eb8" title="Process raw FEE data for a given front end electronics identifier." alt="" coords="218,52,382,97"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="428,57,383,64,382,59,427,52"/>
+<area shape="rect" id="Node000004" href="$dc/d28/classTpcTimeFrameBuilder.html#a7d2e6e87d82ad40784e4e4078d9b4e50" title="Process a raw data packet and fill time frames." alt="" coords="5,52,170,97"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="202,78,170,78,170,72,202,72"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="414,96,382,91,383,86,415,91"/>
+</map>

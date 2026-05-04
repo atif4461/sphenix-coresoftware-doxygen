@@ -1,0 +1,17 @@
+<map id="PHG4TpcPadPlaneReadout::PHG4TpcPadPlaneReadout" name="PHG4TpcPadPlaneReadout::PHG4TpcPadPlaneReadout">
+<area shape="rect" id="Node000001" title="Constructor for PHG4TpcPadPlaneReadout initializing geometry parameters and random engine." alt="" coords="5,75,207,119"/>
+<area shape="rect" id="Node000002" href="$d4/d31/classPHParameterInterface.html#a2d4069d697a7bc6700ca79e6b42b07fa" title="Initialize all parameters for the subsystem." alt="" coords="276,5,440,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,71,260,52,262,57,191,77"/>
+<area shape="rect" id="Node000004" href="$da/d18/classPHG4TpcPadPlane.html#ae51026fbde9827c8443b7c5b5d48603d" title="Construct a PHG4TpcPadPlane subsystem instance." alt="" coords="255,75,461,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,94,239,94,239,100,207,100"/>
+<area shape="rect" id="Node000008" href="$d7/d6c/classPHG4TpcPadPlaneReadout.html#ae186d050cf8aa4e50fe2047aa7a88857" title="Read TPC gain maps from calibration ROOT file." alt="" coords="261,144,454,189"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="191,117,261,137,259,142,189,123"/>
+<area shape="rect" id="Node000003" href="$d4/d31/classPHParameterInterface.html#a221c3ea7cea9da2f1dbf16a7ab2464ee" title=" " alt="" coords="516,5,688,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="440,25,500,25,500,30,440,30"/>
+<area shape="rect" id="Node000005" href="$d4/d31/classPHParameterInterface.html#a751f70019b1736fb9c4b329774daeb93" title="Construct PHParameterInterface with given name." alt="" coords="516,75,688,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="461,94,500,94,500,100,461,100"/>
+<area shape="rect" id="Node000006" href="$d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477" title=" " alt="" coords="509,143,694,171"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="452,117,528,136,527,141,451,123"/>
+<area shape="rect" id="Node000007" href="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7" title="Constructor for Fun4AllBase validates module name." alt="" coords="742,143,932,171"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="695,154,726,154,726,160,695,160"/>
+</map>

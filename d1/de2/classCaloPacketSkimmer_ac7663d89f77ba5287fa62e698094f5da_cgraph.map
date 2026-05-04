@@ -1,0 +1,38 @@
+<map id="CaloPacketSkimmer::InitRun" name="CaloPacketSkimmer::InitRun">
+<area shape="rect" id="Node000001" title="Initialize run resources for CaloPacketSkimmer." alt="" coords="5,34,165,78"/>
+<area shape="rect" id="Node000002" href="$d8/db5/namespaceQAHistManagerDef.html#a95764557eee8578107f3f8cac5a640da" title="Get a pointer to the default hist manager for QA modules." alt="" coords="213,63,421,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,63,197,68,197,73,165,69"/>
+<area shape="rect" id="Node000004" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="1461,42,1632,70"/>
+<area shape="poly" id="edge20_Node000001_Node000004" title=" " alt="" coords="165,40,343,16,449,6,555,3,1067,3,1168,6,1270,14,1446,37,1445,42,1269,19,1168,11,1067,8,555,8,449,12,344,21,166,45"/>
+<area shape="rect" id="Node000003" href="$da/d29/classFun4AllServer.html#af5885837658eb26f98dbc697b58747a7" title="Retrieve a Fun4AllHistoManager by its name from the server registry." alt="" coords="691,44,923,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="421,77,676,62,676,67,422,82"/>
+<area shape="rect" id="Node000005" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Get singleton instance of Fun4AllServer." alt="" coords="469,156,643,183"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="384,106,501,147,499,152,382,111"/>
+<area shape="rect" id="Node000014" href="$da/d29/classFun4AllServer.html#a377f113767f24ce6413e678752ed7f53" title="Register a histogram manager with the server." alt="" coords="1208,94,1411,138"/>
+<area shape="poly" id="edge19_Node000002_Node000014" title=" " alt="" coords="421,86,1193,110,1193,115,421,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="923,54,1446,54,1446,59,923,60"/>
+<area shape="rect" id="Node000006" href="$da/d29/classFun4AllServer.html#a90e27f05f0b2e8b6fe462387b14bfb92" title="Construct a Fun4AllServer instance with the specified name." alt="" coords="702,156,912,183"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="644,175,687,176,687,181,644,181"/>
+<area shape="poly" id="edge18_Node000006_Node000005" title=" " alt="" coords="702,163,659,163,659,158,702,158"/>
+<area shape="rect" id="Node000007" href="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7" title="Constructor for Fun4AllBase validates module name." alt="" coords="971,156,1160,183"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="912,167,955,167,955,172,912,172"/>
+<area shape="rect" id="Node000008" href="$da/d29/classFun4AllServer.html#aa1939c3e2c3113cce0a6415103b4f5a5" title="Initialize the Fun4All server and core infrastructure." alt="" coords="987,213,1144,240"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="873,181,985,206,984,211,872,186"/>
+<area shape="rect" id="Node000009" href="$da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89" title="Initialize default node tree under given top node." alt="" coords="1209,402,1410,430"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1077,240,1097,271,1127,311,1165,353,1209,388,1218,393,1216,398,1207,393,1161,357,1122,315,1092,274,1073,243"/>
+<area shape="rect" id="Node000011" href="$d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e" title=" " alt="" coords="1236,264,1383,309"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="1125,238,1222,262,1221,268,1124,244"/>
+<area shape="rect" id="Node000012" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="1472,158,1621,186"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="1144,221,1270,214,1411,199,1473,187,1474,192,1412,204,1270,219,1145,227"/>
+<area shape="rect" id="Node000013" href="$da/d29/classFun4AllServer.html#a1d7daeb59511a7dc61a2566f4116a6ec" title="Register a histogram with the server histogram manager." alt="" coords="1208,162,1411,190"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="1135,210,1224,191,1225,196,1136,215"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="1120,210,1159,192,1173,182,1182,171,1192,160,1207,148,1216,143,1219,148,1209,153,1195,164,1186,174,1176,186,1161,197,1122,215"/>
+<area shape="rect" id="Node000015" href="$d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb" title="Record memory usage statistics for the current event to the configured output file." alt="" coords="1236,334,1383,378"/>
+<area shape="poly" id="edge16_Node000008_Node000015" title=" " alt="" coords="1086,239,1140,278,1209,319,1223,325,1220,330,1207,324,1137,282,1083,243"/>
+<area shape="rect" id="Node000010" href="$da/d29/classFun4AllServer.html#a8fb8dce491234faae7834d4fba2c5598" title=" " alt="" coords="1459,402,1634,430"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1411,413,1444,413,1444,419,1411,419"/>
+<area shape="poly" id="edge15_Node000014_Node000004" title=" " alt="" coords="1400,90,1473,72,1475,77,1401,96"/>
+<area shape="poly" id="edge14_Node000014_Node000012" title=" " alt="" coords="1408,136,1470,151,1469,157,1406,142"/>
+<area shape="rect" id="Node000016" href="$d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281" title="Retrieve memory usage statistics from proc self smaps and accumulate PSS values for heap mmap and oth..." alt="" coords="1473,334,1620,378"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="1384,353,1457,353,1457,359,1384,359"/>
+</map>

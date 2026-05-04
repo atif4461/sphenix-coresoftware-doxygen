@@ -1,0 +1,11 @@
+<map id="RawTower::identify" name="RawTower::identify">
+<area shape="rect" id="Node000001" title="Identify the object by writing a generic message to the supplied stream." alt="" coords="262,118,406,146"/>
+<area shape="rect" id="Node000002" href="$db/dc0/classLiteCaloEval.html#a1e34f2dbdb485ea4e0bbca833e63c887" title="Process event for LiteCaloEval." alt="" coords="29,5,190,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="297,112,213,65,184,53,186,48,215,60,300,107"/>
+<area shape="rect" id="Node000003" href="$d7/d10/classRawTowerBuilder.html#ad0a6455417563fffe5bed003d4421d24" title="Process event for raw tower building." alt="" coords="14,75,205,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,121,205,114,206,109,247,116"/>
+<area shape="rect" id="Node000004" href="$df/d0d/classRawTowerCombiner.html#a306ccff4853c204cff8bd74aab62488d" title="Process event merging raw towers into coarser granularity." alt="" coords="5,144,214,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,148,214,153,214,148,246,143"/>
+<area shape="rect" id="Node000005" href="$d0/db9/classRawTowerDigitizer.html#a867facaaf6f889a806d580a505ce8a3a" title="Process event digitization for all towers in the node tree." alt="" coords="34,213,185,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="300,156,215,203,186,215,184,210,213,199,297,152"/>
+</map>

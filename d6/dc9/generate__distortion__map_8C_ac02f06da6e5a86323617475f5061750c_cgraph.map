@@ -1,0 +1,122 @@
+<map id="generate_distortion_map" name="generate_distortion_map">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,407,190,434"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="57,408,50,398,56,388,72,382,98,380,125,383,140,389,138,394,124,388,97,385,73,387,59,392,56,397,61,405"/>
+<area shape="rect" id="Node000002" href="$de/d64/classAnnularFieldSim.html#a6a7cdf5118f1caaeff33e7853a456bcf" title="Generate separate distortion maps for each detector side." alt="" coords="238,557,433,602"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="122,433,289,546,286,550,119,437"/>
+<area shape="rect" id="Node000018" href="$de/d64/classAnnularFieldSim.html#a33dfea024e1870e3a8ce09a5bee6d5cf" title=" " alt="" coords="1011,5,1234,33"/>
+<area shape="poly" id="edge20_Node000001_Node000018" title=" " alt="" coords="101,405,117,364,144,307,184,248,208,221,236,198,328,144,427,101,530,69,634,45,736,29,832,19,995,13,996,18,833,24,737,34,635,50,532,74,429,106,331,149,239,203,212,225,188,251,149,310,121,366,106,407"/>
+<area shape="rect" id="Node000019" href="$de/d64/classAnnularFieldSim.html#a89aa84314e52d84ff41305d0c74e93b4" title=" " alt="" coords="1010,315,1236,342"/>
+<area shape="poly" id="edge21_Node000001_Node000019" title=" " alt="" coords="116,404,169,369,237,337,344,306,456,287,568,277,679,275,784,279,880,288,1034,309,1033,314,879,293,783,285,678,281,568,283,456,292,345,311,239,342,171,374,119,408"/>
+<area shape="rect" id="Node000020" href="$de/d64/classAnnularFieldSim.html#a157ca76b682a1e9b27748ce10d0d1342" title="Load digital current data from ADC histograms into the simulation." alt="" coords="254,352,417,396"/>
+<area shape="poly" id="edge22_Node000001_Node000020" title=" " alt="" coords="171,404,238,390,239,395,172,409"/>
+<area shape="rect" id="Node000021" href="$de/d64/classAnnularFieldSim.html#aefaee12b378d8d529325ed6b80b9e41a" title="Load space charge map from a ROOT file and forward it to the internal loader." alt="" coords="254,445,417,490"/>
+<area shape="poly" id="edge23_Node000001_Node000021" title=" " alt="" coords="172,432,239,446,238,451,171,437"/>
+<area shape="rect" id="Node000022" href="$de/d64/classAnnularFieldSim.html#a175c29098d76389623cf0c94db01c11e" title="Plot field slices for electric or magnetic field." alt="" coords="764,165,956,210"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="103,405,121,372,150,328,189,284,212,265,236,249,300,220,367,199,436,183,505,174,637,167,749,172,749,177,637,173,505,179,437,189,368,204,302,225,239,254,215,269,193,288,154,332,126,374,108,408"/>
+<area shape="rect" id="Node000027" href="$de/d64/classAnnularFieldSim.html#aa99cdfc4fd947bfc8a90fd606bd78e2d" title=" " alt="" coords="239,830,432,875"/>
+<area shape="poly" id="edge36_Node000001_Node000027" title=" " alt="" coords="109,434,317,815,312,818,104,436"/>
+<area shape="rect" id="Node000036" href="$d6/dc9/generate__distortion__map_8C.html#ad16e0b5db67db1642eb0e55a7d8e35ba" title=" " alt="" coords="245,1369,426,1397"/>
+<area shape="poly" id="edge45_Node000001_Node000036" title=" " alt="" coords="105,434,329,1353,324,1355,100,435"/>
+<area shape="rect" id="Node000003" href="$de/d64/classAnnularFieldSim.html#a89886f51584b79fee6e61ca60e353545" title="Map an azimuthal angle to the positive range [0, 2π)." alt="" coords="1284,365,1495,393"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="374,554,404,530,431,500,442,479,447,458,448,417,448,398,452,379,462,361,480,343,514,337,583,335,797,341,1269,368,1268,373,796,346,583,340,514,342,482,348,466,364,457,381,454,399,453,418,452,459,447,481,435,503,408,534,377,558"/>
+<area shape="rect" id="Node000004" href="$de/d64/classAnnularFieldSim.html#a8867f249bb06a1cc9a81c4211e3efffd" title=" " alt="" coords="494,686,698,731"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="368,600,420,636,482,671,497,678,495,683,480,676,417,641,365,604"/>
+<area shape="rect" id="Node000005" href="$de/d64/classAnnularFieldSim.html#ababaa9675b4f7a0ea774b3145623b892" title=" " alt="" coords="501,756,690,800"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="353,600,404,670,441,708,483,741,491,746,488,751,479,745,437,712,400,673,348,603"/>
+<area shape="rect" id="Node000006" href="$de/d64/classAnnularFieldSim.html#a9bd7d94036eb0cbe4cf182af460bee0e" title=" " alt="" coords="501,358,690,403"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="370,554,401,530,431,500,445,477,452,455,461,434,479,413,486,408,489,413,483,417,465,437,457,457,450,479,435,503,405,534,373,558"/>
+<area shape="rect" id="Node000007" href="$de/d64/classAnnularFieldSim.html#a983fff01de22f2bafd88331d636cd8ac" title=" " alt="" coords="501,428,690,472"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="365,554,417,518,480,482,495,476,497,481,482,487,420,522,368,558"/>
+<area shape="rect" id="Node000008" href="$de/d64/classAnnularFieldSim.html#a40820bf0428191ca881235216e51b7be" title="Returns a formatted string that combines the electric and magnetic field names." alt="" coords="501,497,690,542"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="433,554,485,542,487,547,434,559"/>
+<area shape="rect" id="Node000009" href="$de/d64/classAnnularFieldSim.html#ad53afae4fb00a68db2c9470ab1ce1962" title="Get formatted gas parameter string." alt="" coords="485,565,706,593"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="433,576,469,576,469,582,433,582"/>
+<area shape="rect" id="Node000010" href="$de/d64/classAnnularFieldSim.html#ad7a0368ad47a6a16d718ce7fb4efa13f" title="Return a human readable description of the current lookup configuration." alt="" coords="494,617,698,662"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="434,599,482,610,481,615,433,604"/>
+<area shape="rect" id="Node000011" href="$de/d64/classAnnularFieldSim.html#adbb9bba03c21915698421f313dc43071" title="Get the midpoint of a ROI cell in cylindrical coordinates." alt="" coords="1021,977,1225,1022"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="347,601,370,667,405,752,444,831,464,861,483,880,545,915,601,932,655,936,709,931,823,917,889,917,962,930,1015,947,1064,967,1062,972,1013,952,961,935,888,923,824,922,709,936,655,941,600,937,542,920,479,884,460,864,439,834,400,754,365,669,342,603"/>
+<area shape="rect" id="Node000012" href="$de/d64/classAnnularFieldSim.html#aae2d9b9913d410d22242028c08c6865a" title="Compute total distortion vector for a particle drifting from start to destination z." alt="" coords="501,825,690,870"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="347,601,365,645,394,702,433,760,456,787,483,810,489,815,486,819,479,815,453,791,429,764,389,705,360,647,342,603"/>
+<area shape="poly" id="edge13_Node000012_Node000003" title=" " alt="" coords="689,826,708,811,730,777,738,744,737,710,732,677,726,642,726,608,734,573,756,537,791,510,842,485,905,463,976,443,1129,412,1268,391,1269,396,1130,417,978,449,907,468,844,490,794,514,760,541,739,575,731,608,732,642,737,676,743,710,744,744,735,779,712,814,692,830"/>
+<area shape="rect" id="Node000013" href="$de/d64/classAnnularFieldSim.html#ac961e366f82550417663d8604e55aec2" title="Compute the distortion vector for a particle step to a specified z destination." alt="" coords="766,552,954,596"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="689,822,709,810,756,764,794,710,823,656,843,610,848,612,828,658,798,713,760,768,712,815,692,827"/>
+<area shape="poly" id="edge19_Node000013_Node000003" title=" " alt="" coords="904,549,954,525,1009,503,1072,485,1122,475,1172,465,1235,446,1294,422,1346,398,1349,403,1296,427,1237,451,1174,470,1123,480,1073,490,1011,508,956,530,906,554"/>
+<area shape="rect" id="Node000014" href="$de/d64/classAnnularFieldSim.html#a3451f4963ce7c171bfbd0d566d3f10b9" title=" " alt="" coords="1029,593,1216,638"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="955,586,1014,595,1013,601,954,591"/>
+<area shape="rect" id="Node000015" href="$de/d64/classAnnularFieldSim.html#af49cb183b20be9a1ceba70f1a3b5c64e" title="Integrate electric field along z from start to zdest assuming straight line path." alt="" coords="1016,517,1230,545"/>
+<area shape="poly" id="edge17_Node000013_Node000015" title=" " alt="" coords="954,556,1018,545,1019,551,955,561"/>
+<area shape="poly" id="edge16_Node000014_Node000014" title=" " alt="" coords="1073,593,1071,583,1080,574,1097,568,1123,566,1151,569,1168,575,1166,580,1150,574,1123,571,1098,573,1083,578,1077,584,1078,592"/>
+<area shape="poly" id="edge18_Node000015_Node000003" title=" " alt="" coords="1190,514,1235,497,1271,475,1306,450,1361,402,1365,406,1309,454,1274,480,1237,502,1192,519"/>
+<area shape="poly" id="edge24_Node000021_Node000021" title=" " alt="" coords="290,445,289,435,296,426,312,420,335,418,361,421,376,427,374,432,360,426,335,423,313,425,299,430,294,436,295,444"/>
+<area shape="poly" id="edge26_Node000022_Node000003" title=" " alt="" coords="957,195,1114,218,1186,232,1237,249,1276,271,1312,299,1368,352,1364,356,1309,303,1273,276,1235,254,1184,238,1113,223,956,200"/>
+<area shape="poly" id="edge34_Node000022_Node000018" title=" " alt="" coords="887,162,960,96,982,68,992,56,1008,44,1022,37,1024,41,1011,48,996,60,986,71,964,100,890,166"/>
+<area shape="poly" id="edge35_Node000022_Node000019" title=" " alt="" coords="903,208,963,249,978,264,987,276,996,288,1011,300,1025,306,1022,311,1008,304,992,292,982,280,973,267,960,253,900,212"/>
+<area shape="rect" id="Node000023" href="$de/d64/classAnnularFieldSim.html#aacf7dde3b9fea13b430836afa2a01ffa" title="Compute magnetic field vector at given position." alt="" coords="1017,263,1229,290"/>
+<area shape="poly" id="edge27_Node000022_Node000023" title=" " alt="" coords="918,208,1011,242,1053,255,1052,260,1009,247,916,213"/>
+<area shape="rect" id="Node000024" href="$de/d64/classAnnularFieldSim.html#a7508f125c1980cf816424b0e3b0e0f8b" title="Retrieve the charge value at a specified 3‑D position." alt="" coords="1014,57,1232,85"/>
+<area shape="poly" id="edge29_Node000022_Node000024" title=" " alt="" coords="891,162,945,128,1009,95,1032,87,1034,92,1011,100,947,132,894,167"/>
+<area shape="rect" id="Node000025" href="$de/d64/classAnnularFieldSim.html#afcbd44db4d9cf22a4c80a737c35ef634" title="Retrieve the electric field vector at a specified position." alt="" coords="1021,161,1224,189"/>
+<area shape="poly" id="edge31_Node000022_Node000025" title=" " alt="" coords="956,180,1006,178,1006,183,956,185"/>
+<area shape="rect" id="Node000026" href="$de/d64/classAnnularFieldSim.html#ac3106a1618f3f51868239210deaee3c5" title=" " alt="" coords="1014,109,1232,137"/>
+<area shape="poly" id="edge33_Node000022_Node000026" title=" " alt="" coords="951,162,1009,147,1045,138,1047,144,1010,152,953,167"/>
+<area shape="poly" id="edge28_Node000023_Node000003" title=" " alt="" coords="1196,288,1237,301,1298,327,1352,355,1349,360,1296,332,1235,306,1195,293"/>
+<area shape="poly" id="edge30_Node000024_Node000003" title=" " alt="" coords="1216,83,1238,96,1268,123,1295,155,1337,226,1366,295,1384,349,1379,351,1361,297,1333,228,1291,159,1264,127,1234,100,1213,88"/>
+<area shape="poly" id="edge32_Node000025_Node000003" title=" " alt="" coords="1198,187,1237,205,1281,239,1319,278,1374,351,1370,354,1315,281,1277,243,1235,209,1196,192"/>
+<area shape="rect" id="Node000028" href="$de/d64/classAnnularFieldSim.html#a7e5bfbb3d32ab1733d1fa653cdacbc1b" title="Compute the electric field vector at the specified cell indices." alt="" coords="514,1034,677,1079"/>
+<area shape="poly" id="edge37_Node000027_Node000028" title=" " alt="" coords="367,873,555,1022,552,1026,364,877"/>
+<area shape="rect" id="Node000029" href="$de/d64/classAnnularFieldSim.html#a41c47c61e74d8b39455b96b09890acba" title="Determine whether debug output should be printed for the current action." alt="" coords="758,1013,962,1041"/>
+<area shape="poly" id="edge38_Node000028_Node000029" title=" " alt="" coords="677,1045,743,1038,743,1043,678,1050"/>
+<area shape="rect" id="Node000030" href="$de/d64/classAnnularFieldSim.html#a9c93ebfb51787f51897612bf70cdc9fa" title="returns the geometric midpoint of a calorimeter cell specified by integer indices" alt="" coords="1031,1589,1214,1634"/>
+<area shape="poly" id="edge39_Node000028_Node000030" title=" " alt="" coords="679,1068,697,1077,712,1089,728,1111,736,1133,736,1176,737,1218,745,1239,760,1259,785,1277,809,1285,833,1287,857,1286,909,1286,936,1293,963,1309,994,1338,1022,1370,1065,1443,1096,1514,1115,1573,1110,1574,1091,1516,1061,1445,1017,1373,991,1341,960,1313,934,1298,908,1291,858,1291,833,1293,807,1290,782,1281,756,1262,740,1241,732,1219,731,1176,730,1134,723,1113,708,1093,694,1081,676,1072"/>
+<area shape="rect" id="Node000031" href="$de/d64/classAnnularFieldSim.html#aaada41d72ff17cae02000b4bc9e4be15" title="Compute the total electric field vector at a specified lattice cell." alt="" coords="778,1065,942,1110"/>
+<area shape="poly" id="edge40_Node000028_Node000031" title=" " alt="" coords="678,1063,763,1073,762,1079,677,1069"/>
+<area shape="rect" id="Node000032" href="$de/d64/classAnnularFieldSim.html#ad135dd5ff342110147544f8032671fb4" title="Compute the summed electric field vector at a specified global bin." alt="" coords="778,1204,942,1248"/>
+<area shape="poly" id="edge41_Node000028_Node000032" title=" " alt="" coords="679,1070,712,1089,724,1102,731,1115,737,1140,743,1165,749,1177,760,1189,767,1195,764,1199,756,1193,745,1180,738,1167,732,1142,726,1117,719,1105,709,1093,676,1074"/>
+<area shape="rect" id="Node000034" href="$de/d64/classAnnularFieldSim.html#a526ad468319e05b2cdbb37569c496048" title="Compute interpolated nonlocal field contribution at specified low resolution bin indices." alt="" coords="778,945,942,990"/>
+<area shape="poly" id="edge42_Node000028_Node000034" title=" " alt="" coords="663,1031,776,992,778,997,665,1036"/>
+<area shape="rect" id="Node000035" href="$de/d64/classAnnularFieldSim.html#a4a7d310d527ef4d9b7ba5a986b996317" title="sum the electric field over all source cells for a given target cell" alt="" coords="778,1134,942,1179"/>
+<area shape="poly" id="edge43_Node000028_Node000035" title=" " alt="" coords="679,1076,712,1089,736,1104,760,1119,773,1126,771,1130,757,1124,733,1109,709,1094,677,1081"/>
+<area shape="poly" id="edge44_Node000035_Node000011" title=" " alt="" coords="935,1131,960,1120,1028,1076,1084,1030,1087,1034,1031,1080,963,1124,938,1136"/>
+<area shape="rect" id="Node000037" href="$de/d64/classAnnularFieldSim.html#ab1fef85da048f753fa6b223fb7c309d7" title=" " alt="" coords="506,1654,686,1699"/>
+<area shape="poly" id="edge46_Node000036_Node000037" title=" " alt="" coords="343,1397,358,1443,386,1509,427,1579,453,1612,483,1640,493,1647,490,1652,479,1644,449,1615,423,1582,381,1511,353,1445,338,1398"/>
+<area shape="rect" id="Node000039" href="$de/d64/classAnnularFieldSim.html#ae050a053eaa70073d2cb8e0fd8095a71" title="Borrow a Rossegger table and apply a longitudinal shift." alt="" coords="506,1326,686,1371"/>
+<area shape="poly" id="edge49_Node000036_Node000039" title=" " alt="" coords="426,1368,489,1360,490,1365,427,1374"/>
+<area shape="rect" id="Node000040" href="$de/d64/classAnnularFieldSim.html#a0bd91ffdcaadc1d570aa28f43c42c0ea" title="Load a three‑dimensional magnetic field from a ROOT file." alt="" coords="488,1103,704,1130"/>
+<area shape="poly" id="edge50_Node000036_Node000040" title=" " alt="" coords="338,1368,354,1324,382,1262,424,1197,450,1167,479,1141,488,1135,491,1140,483,1145,454,1170,428,1200,387,1264,359,1326,343,1370"/>
+<area shape="rect" id="Node000043" href="$de/d64/classAnnularFieldSim.html#ac8d5d0f1f776dfed175c9f76f3d0b191" title="Load phi slice lookup tables from a ROOT file into the AnnularFieldSim instance." alt="" coords="514,1396,677,1440"/>
+<area shape="poly" id="edge54_Node000036_Node000043" title=" " alt="" coords="427,1393,499,1402,498,1408,426,1398"/>
+<area shape="rect" id="Node000044" href="$de/d64/classAnnularFieldSim.html#a91bd934caa7c86d36e56f3a0116b368d" title=" " alt="" coords="514,1465,677,1510"/>
+<area shape="poly" id="edge55_Node000036_Node000044" title=" " alt="" coords="364,1395,418,1422,482,1450,501,1457,499,1462,480,1455,416,1427,362,1400"/>
+<area shape="rect" id="Node000045" href="$de/d64/classAnnularFieldSim.html#a3f3bf08a1e0acb87ce83bdd442c6330f" title="Load electric field map from a ROOT file into the simulation." alt="" coords="496,1155,695,1182"/>
+<area shape="poly" id="edge56_Node000036_Node000045" title=" " alt="" coords="341,1368,359,1332,389,1284,430,1234,454,1211,480,1192,488,1187,491,1191,482,1196,457,1215,434,1237,394,1287,364,1334,345,1370"/>
+<area shape="rect" id="Node000046" href="$de/d64/classAnnularFieldSim.html#a2f49f50c2bc4351587ab6cf8e660111e" title="Populate field lookup tables according to the selected lookup case." alt="" coords="500,1724,692,1768"/>
+<area shape="poly" id="edge58_Node000036_Node000046" title=" " alt="" coords="341,1397,353,1455,377,1539,396,1585,420,1630,448,1672,483,1709,489,1714,485,1718,479,1713,444,1676,415,1633,391,1587,372,1541,347,1456,336,1398"/>
+<area shape="rect" id="Node000053" href="$de/d64/classAnnularFieldSim.html#a9590591e26ad3d6ae8dba0aa0a1be65a" title="Save the phi‑slice lookup table to a ROOT file." alt="" coords="512,1585,679,1630"/>
+<area shape="poly" id="edge66_Node000036_Node000053" title=" " alt="" coords="346,1396,365,1432,395,1479,435,1528,483,1570,500,1580,497,1585,479,1575,431,1532,391,1482,360,1434,341,1399"/>
+<area shape="rect" id="Node000054" href="$de/d64/classAnnularFieldSim.html#ae7eee225f3c41e6ccb0bfcee40cb0099" title=" " alt="" coords="500,1533,691,1561"/>
+<area shape="poly" id="edge67_Node000036_Node000054" title=" " alt="" coords="349,1396,402,1457,440,1491,482,1520,494,1525,492,1530,480,1524,436,1495,398,1460,345,1399"/>
+<area shape="rect" id="Node000055" href="$de/d64/classAnnularFieldSim.html#ab9f595e36e6c7af8568afdace7fea051" title="Set flat electric and magnetic fields for the annular field simulation." alt="" coords="506,1206,686,1251"/>
+<area shape="poly" id="edge69_Node000036_Node000055" title=" " alt="" coords="348,1367,402,1316,439,1286,480,1261,492,1255,494,1260,482,1265,443,1291,406,1320,352,1371"/>
+<area shape="rect" id="Node000056" href="$de/d64/classAnnularFieldSim.html#a81f469e55ef787ea4d173ac26de871c8" title=" " alt="" coords="481,1275,710,1302"/>
+<area shape="poly" id="edge70_Node000036_Node000056" title=" " alt="" coords="361,1366,415,1339,480,1311,504,1304,505,1309,482,1316,417,1344,363,1371"/>
+<area shape="rect" id="Node000038" href="$de/d64/classAnnularFieldSim.html#a504a099a8ae5f94df5956ab9d3c6aca4" title="Constructor that forwards to the detailed constructor with full region of interest." alt="" coords="767,1520,953,1564"/>
+<area shape="poly" id="edge47_Node000037_Node000038" title=" " alt="" coords="685,1653,709,1640,724,1624,732,1608,741,1591,757,1574,763,1570,766,1574,760,1579,745,1594,737,1611,728,1627,712,1644,688,1658"/>
+<area shape="poly" id="edge48_Node000038_Node000038" title=" " alt="" coords="810,1519,809,1509,817,1500,834,1495,860,1493,888,1495,905,1502,903,1507,887,1501,860,1498,835,1500,820,1505,814,1511,815,1518"/>
+<area shape="rect" id="Node000041" href="$de/d64/classAnnularFieldSim.html#a342f3f7e29c6a7f8fbce25fcf17e24c7" title="Load magnetic or electric field map from a ROOT TTree into the internal MultiArray." alt="" coords="763,1323,957,1350"/>
+<area shape="poly" id="edge51_Node000040_Node000041" title=" " alt="" coords="695,1129,712,1141,728,1161,736,1182,738,1223,739,1263,746,1283,760,1303,773,1313,769,1317,756,1306,741,1286,734,1264,732,1223,731,1183,724,1164,709,1145,692,1133"/>
+<area shape="poly" id="edge52_Node000041_Node000003" title=" " alt="" coords="889,1320,960,1279,1055,1216,1104,1177,1152,1133,1196,1085,1234,1032,1278,949,1313,859,1339,767,1358,677,1371,592,1379,517,1385,408,1391,408,1384,517,1376,593,1363,678,1344,768,1318,861,1283,951,1238,1035,1200,1088,1156,1137,1108,1181,1058,1221,963,1284,892,1324"/>
+<area shape="poly" id="edge53_Node000041_Node000030" title=" " alt="" coords="877,1349,1092,1576,1088,1580,873,1353"/>
+<area shape="poly" id="edge57_Node000045_Node000041" title=" " alt="" coords="694,1181,712,1192,725,1205,732,1220,738,1248,742,1276,749,1289,760,1303,775,1313,772,1318,757,1306,744,1292,737,1278,732,1249,727,1221,720,1208,709,1196,692,1185"/>
+<area shape="rect" id="Node000047" href="$de/d64/classAnnularFieldSim.html#a0860caf13830e3b6ffb63477e5d5d90d" title="Populate the full 3‑D lookup table of unit electric field contributions." alt="" coords="764,1658,956,1703"/>
+<area shape="poly" id="edge59_Node000046_Node000047" title=" " alt="" coords="688,1720,752,1704,753,1710,690,1725"/>
+<area shape="rect" id="Node000049" href="$de/d64/classAnnularFieldSim.html#a2bc090942421a5a9f185be13f2689d5a" title="Populate high resolution lookup table for field contributions." alt="" coords="764,1797,956,1842"/>
+<area shape="poly" id="edge61_Node000046_Node000049" title=" " alt="" coords="679,1766,763,1790,761,1795,678,1771"/>
+<area shape="rect" id="Node000050" href="$de/d64/classAnnularFieldSim.html#a8fcaff1d1d774fba15565f6990077ea0" title="Populate low resolution lookup table for annular field simulation." alt="" coords="764,1728,956,1772"/>
+<area shape="poly" id="edge63_Node000046_Node000050" title=" " alt="" coords="692,1745,749,1745,749,1751,692,1750"/>
+<area shape="rect" id="Node000052" href="$de/d64/classAnnularFieldSim.html#a266e4d2f962db9ca8c4ff25d6a34a574" title="Populate phi slice lookup table for the annular field simulation The routine iterates over all field ..." alt="" coords="764,1589,956,1634"/>
+<area shape="poly" id="edge64_Node000046_Node000052" title=" " alt="" coords="688,1721,709,1709,724,1694,732,1678,741,1661,757,1644,763,1639,766,1644,760,1648,745,1664,737,1680,728,1697,712,1713,691,1725"/>
+<area shape="poly" id="edge60_Node000047_Node000030" title=" " alt="" coords="947,1655,1020,1635,1021,1641,948,1660"/>
+<area shape="poly" id="edge62_Node000049_Node000030" title=" " alt="" coords="939,1794,960,1782,1001,1750,1039,1714,1096,1644,1100,1647,1043,1717,1005,1755,963,1787,941,1799"/>
+<area shape="poly" id="edge65_Node000052_Node000030" title=" " alt="" coords="957,1608,1016,1608,1016,1614,957,1614"/>
+<area shape="poly" id="edge68_Node000054_Node000038" title=" " alt="" coords="691,1543,752,1541,752,1547,692,1548"/>
+</map>

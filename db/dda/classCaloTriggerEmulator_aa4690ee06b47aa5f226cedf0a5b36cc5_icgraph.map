@@ -1,0 +1,13 @@
+<map id="CaloTriggerEmulator::CheckFiberMasks" name="CaloTriggerEmulator::CheckFiberMasks">
+<area shape="rect" id="Node000001" title="Determine if a given trigger primitive key is present in the fiber mask list." alt="" coords="408,75,561,119"/>
+<area shape="rect" id="Node000002" href="$db/dda/classCaloTriggerEmulator.html#ab0eaf251e1f5dec86815c2f0272b41ef" title="Process organizer to build trigger primitives for EMCAL and HCAL and combine into jet primitives." alt="" coords="207,5,360,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="402,72,350,53,351,48,404,67"/>
+<area shape="rect" id="Node000004" href="$db/dda/classCaloTriggerEmulator.html#aea638afc80ad33ad54d9ec2b50dce753" title="MakeTriggerOutput." alt="" coords="207,75,360,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="392,100,360,100,360,94,392,94"/>
+<area shape="rect" id="Node000005" href="$db/dda/classCaloTriggerEmulator.html#a6a17e1f398b7f880ad732e5a7b073852" title="Process trigger primitives for photon and jet triggers and fill output bits." alt="" coords="207,144,360,189"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="404,127,351,146,350,141,402,122"/>
+<area shape="rect" id="Node000003" href="$db/dda/classCaloTriggerEmulator.html#a51370fb1c88349f20aa1e35a77a74bc0" title="event processing method" alt="" coords="5,75,159,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="203,58,150,77,148,71,201,53"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="191,100,159,100,159,94,191,94"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="201,141,148,123,150,117,203,136"/>
+</map>

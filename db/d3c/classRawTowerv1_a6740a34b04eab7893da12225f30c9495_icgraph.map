@@ -1,0 +1,17 @@
+<map id="RawTowerv1::get_energy" name="RawTowerv1::get_energy">
+<area shape="rect" id="Node000001" title="energy assigned to the tower. Depending on stage of process and DST node name, it could be energy dep..." alt="" coords="461,140,645,168"/>
+<area shape="rect" id="Node000002" href="$db/d3c/classRawTowerv1.html#a0e71816b6c83df30ffc433fd78483e69" title="Print tower identification information to the provided output stream." alt="" coords="230,5,390,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="525,131,475,89,444,67,412,48,381,36,383,31,414,43,447,62,478,84,529,127"/>
+<area shape="rect" id="Node000003" href="$d8/d20/classRawTowerv2.html#ae7af05475127277a7da8b429c7ce5283" title="Print identification information for this RawTowerv2." alt="" coords="230,57,390,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="505,136,412,100,371,88,372,83,414,95,507,131"/>
+<area shape="rect" id="Node000004" href="$db/d3c/classRawTowerv1.html#a4fe7cf8b40d5c6644b8b4de10e63a85e" title="Check if raw tower contains nonzero energy." alt="" coords="233,109,388,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="445,143,388,136,388,130,446,138"/>
+<area shape="rect" id="Node000006" href="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853" title="event processing method" alt="" coords="217,161,404,206"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="445,170,405,174,404,169,445,164"/>
+<area shape="rect" id="Node000007" href="$d1/df8/classRawTowerBuilderByHitIndex.html#ab85246d41287b6eef693a467d41858b7" title="Process a single event building raw towers from G4 hits." alt="" coords="208,230,413,275"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="510,177,414,220,383,232,381,227,412,215,508,172"/>
+<area shape="rect" id="Node000008" href="$db/d3c/classRawTowerv1.html#a450f55e9eed23f7663ab7e51eef42a0c" title="Construct RawTowerv1 from a RawTower instance." alt="" coords="214,299,407,326"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="534,181,484,236,451,265,414,290,389,300,387,296,412,285,447,261,480,233,530,178"/>
+<area shape="rect" id="Node000005" href="$d8/d20/classRawTowerv2.html#a83b0ee355de190cd24e789ec2ff35b78" title="Check validity of the tower using base class implementation." alt="" coords="5,109,160,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="218,126,160,126,160,120,218,120"/>
+</map>

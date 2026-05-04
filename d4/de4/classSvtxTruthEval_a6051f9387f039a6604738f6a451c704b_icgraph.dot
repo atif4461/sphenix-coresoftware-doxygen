@@ -1,0 +1,15 @@
+digraph "SvtxTruthEval::all_truth_clusters"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTruthEval::all\l_truth_clusters",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve truth clusters associated with a given Geant4 particle."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxClusterEval::max\l_truth_cluster_by_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#a4ed068393b7f131534926b87b7b59e10",tooltip="Retrieve the truth cluster that best matches a reconstructed cluster based on the highest‑energy cont..."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxClusterEval::max\l_truth_particle_by_cluster\l_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#a71467fc0bd5e8af7a8d4ea2a0d124bc1",tooltip="Find truth particle with maximum energy contribution to the specified cluster."];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

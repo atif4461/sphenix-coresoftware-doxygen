@@ -1,0 +1,106 @@
+<map id="HepMCNodeReader::process_event" name="HepMCNodeReader::process_event">
+<area shape="rect" id="Node000001" title="Process event data from HepMC node and fill Geant4 in event structure." alt="" coords="5,700,212,744"/>
+<area shape="rect" id="Node000002" href="$db/d62/classPHG4InEvent.html#ad2c9552e01280a46e3e6fca2ec45b8ed" title=" " alt="" coords="264,16,472,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,699,125,571,154,382,175,285,199,195,226,122,241,93,258,71,260,69,264,72,262,74,246,96,231,124,204,197,180,286,160,383,130,571,115,699"/>
+<area shape="rect" id="Node000003" href="$db/d62/classPHG4InEvent.html#a1ce8225b21358e01f87adfd4b5d46d4b" title="Add a particle to a vertex in the event." alt="" coords="274,84,462,112"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="110,699,126,580,156,406,176,317,200,235,227,168,242,142,258,123,262,119,266,123,262,126,246,145,232,171,205,237,182,318,161,407,131,580,115,700"/>
+<area shape="rect" id="Node000004" href="$db/d62/classPHG4InEvent.html#a3aceec54176f99daca9282e7df169148" title="Add a vertex to the event." alt="" coords="287,136,448,164"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="110,698,128,588,159,430,180,349,203,275,229,214,258,173,272,163,275,167,262,177,234,217,208,277,185,350,165,431,133,588,116,699"/>
+<area shape="rect" id="Node000012" href="$d5/d41/classPHHepMCGenEventMap.html#a288daa0192450f4d7bde4fd4a24afd40" title=" " alt="" coords="279,188,456,232"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="107,699,113,615,121,557,134,493,153,426,179,360,213,298,258,243,265,237,268,240,262,246,218,301,184,362,158,428,139,494,126,558,118,615,113,699"/>
+<area shape="rect" id="Node000013" href="$d5/d41/classPHHepMCGenEventMap.html#a4b48c3c7d7fc1f83b5dd56ce7e3b41bc" title="fetch event" alt="" coords="265,256,471,284"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="108,699,115,621,124,569,137,512,156,452,182,394,216,340,258,293,261,290,265,294,262,297,220,343,187,397,161,454,142,513,129,570,121,622,113,699"/>
+<area shape="rect" id="Node000014" href="$d7/d7b/classPHHepMCGenEvent.html#ad6d35e17c4f42ea44a78427ded9275a5" title="collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns" alt="" coords="279,308,457,352"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="110,698,123,633,149,543,168,494,192,447,222,402,258,363,264,357,267,362,262,366,226,405,197,449,173,496,154,544,128,634,115,699"/>
+<area shape="rect" id="Node000015" href="$d7/d7b/classPHHepMCGenEvent.html#a5357ffedc82552a2f437229e545ecf0e" title=" " alt="" coords="279,377,457,422"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="113,698,129,644,158,573,200,497,227,462,258,432,264,427,267,431,261,436,231,466,205,500,163,575,134,646,118,700"/>
+<area shape="rect" id="Node000016" href="$d1/da8/classPHFlag.html#af4abfdece37b0376a8bf130e7281e905" title="Retrieve the value of a named floating‑point flag." alt="" coords="286,445,450,473"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="115,698,134,652,164,594,205,534,230,507,258,484,270,476,273,481,261,488,234,511,209,538,168,597,139,655,120,700"/>
+<area shape="rect" id="Node000024" href="$d7/d7b/classPHHepMCGenEvent.html#af1ce5fc1db2ed0e707d38d9c460e3562" title="LorentzRotation to translate from hepmc event frame to lab frame." alt="" coords="260,549,476,594"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="132,697,187,650,222,625,258,603,271,597,273,602,261,608,225,630,190,655,135,701"/>
+<area shape="rect" id="Node000025" href="$d1/da8/classPHFlag.html#a2527c60236838b31be8c04c17e529976" title="Retrieve string flag value by name." alt="" coords="283,497,452,525"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="119,698,141,661,172,617,211,572,258,534,267,529,270,534,261,539,215,576,176,620,145,664,124,700"/>
+<area shape="rect" id="Node000026" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="296,617,440,645"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="157,696,259,655,286,647,288,652,261,660,159,701"/>
+<area shape="rect" id="Node000032" href="$d7/d7b/classPHHepMCGenEvent.html#a086a77104ec225e191885f9db7538521" title="Retrieve the stored generated event." alt="" coords="260,669,476,697"/>
+<area shape="poly" id="edge34_Node000001_Node000032" title=" " alt="" coords="212,704,255,697,256,703,212,709"/>
+<area shape="rect" id="Node000033" href="$db/d62/classPHG4InEvent.html#a94f236e36feaa480baee6340efeb9bae" title="Identify event by printing vertex and particle information to the given output stream." alt="" coords="286,745,450,773"/>
+<area shape="poly" id="edge35_Node000001_Node000033" title=" " alt="" coords="212,734,271,743,270,748,212,739"/>
+<area shape="rect" id="Node000035" href="$d7/d7b/classPHHepMCGenEvent.html#aefba90e1138cf40fc9892de617dc3da8" title="Print identification information of the PHHepMCGenEvent object to the provided stream." alt="" coords="265,797,471,825"/>
+<area shape="poly" id="edge38_Node000001_Node000035" title=" " alt="" coords="160,742,261,782,288,790,287,795,259,787,158,747"/>
+<area shape="rect" id="Node000038" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="290,849,446,877"/>
+<area shape="poly" id="edge41_Node000001_Node000038" title=" " alt="" coords="135,743,190,789,224,813,261,834,279,842,277,846,258,839,221,818,187,794,131,747"/>
+<area shape="rect" id="Node000039" href="$d7/d7b/classPHHepMCGenEvent.html#af6e44f28d009dcad9a5b0d5edd1544e5" title="whether this event has been processed in Geant4 simulation" alt="" coords="284,901,452,946"/>
+<area shape="poly" id="edge42_Node000001_Node000039" title=" " alt="" coords="127,743,181,814,218,853,261,886,271,892,268,897,258,891,215,857,177,817,122,746"/>
+<area shape="rect" id="Node000040" href="$de/dc9/classPHG4Particle.html#a098cf300b6fc58abbf423adeb33414ae" title=" " alt="" coords="272,969,464,997"/>
+<area shape="poly" id="edge43_Node000001_Node000040" title=" " alt="" coords="120,744,139,789,168,847,209,906,234,933,261,956,268,960,265,964,258,960,230,937,205,910,164,850,134,792,115,746"/>
+<area shape="rect" id="Node000041" href="$d7/d7b/classPHHepMCGenEvent.html#aa06fdba410c23e1c64bf4fc649a5f191" title="collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns" alt="" coords="279,1072,456,1116"/>
+<area shape="poly" id="edge44_Node000001_Node000041" title=" " alt="" coords="117,744,131,804,158,886,178,930,201,974,229,1014,261,1051,275,1061,272,1066,258,1054,225,1018,196,976,173,933,153,888,126,806,111,745"/>
+<area shape="rect" id="Node000042" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="618,1049,656,1077"/>
+<area shape="poly" id="edge54_Node000001_Node000042" title=" " alt="" coords="117,744,132,799,159,872,178,909,202,946,229,979,261,1006,288,1019,325,1030,421,1046,522,1055,602,1059,602,1065,522,1061,421,1051,324,1035,286,1024,258,1011,225,982,197,949,174,912,154,874,127,801,112,745"/>
+<area shape="rect" id="Node000045" href="$de/dc9/classPHG4Particle.html#a86033bab0db8c268852ef7f5dc1b3526" title=" " alt="" coords="288,1140,448,1168"/>
+<area shape="poly" id="edge50_Node000001_Node000045" title=" " alt="" coords="114,744,122,818,145,922,164,978,189,1032,221,1083,261,1126,275,1136,272,1140,258,1131,217,1086,184,1035,159,980,140,923,117,819,108,745"/>
+<area shape="rect" id="Node000046" href="$de/dc9/classPHG4Particle.html#af700885c965fc60e76918dfdd338c1a4" title=" " alt="" coords="290,1192,446,1220"/>
+<area shape="poly" id="edge51_Node000001_Node000046" title=" " alt="" coords="113,744,118,826,126,882,139,943,158,1007,184,1069,218,1127,261,1177,277,1188,274,1193,258,1181,213,1130,179,1071,153,1008,134,944,121,883,113,827,107,745"/>
+<area shape="rect" id="Node000047" href="$de/dc9/classPHG4Particle.html#aa5ed831e682e7b8509008d945415608b" title=" " alt="" coords="290,1244,446,1272"/>
+<area shape="poly" id="edge52_Node000001_Node000047" title=" " alt="" coords="112,745,115,835,121,897,133,965,151,1037,178,1107,214,1172,236,1202,261,1229,277,1240,274,1245,258,1233,232,1206,210,1175,173,1109,146,1038,127,967,116,897,109,835,106,745"/>
+<area shape="rect" id="Node000048" href="$de/dc9/classPHG4Particle.html#a73df9a86d94e7222b804f69791deb323" title=" " alt="" coords="290,1296,446,1324"/>
+<area shape="poly" id="edge53_Node000001_Node000048" title=" " alt="" coords="115,744,133,858,164,1020,184,1103,207,1178,233,1240,262,1281,278,1293,275,1297,258,1285,229,1243,202,1180,179,1104,159,1021,127,859,110,745"/>
+<area shape="rect" id="Node000049" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="283,1348,453,1376"/>
+<area shape="poly" id="edge55_Node000001_Node000049" title=" " alt="" coords="115,744,131,867,160,1045,181,1136,204,1220,231,1288,246,1314,262,1333,271,1341,268,1345,258,1337,242,1317,227,1290,199,1221,175,1137,155,1046,125,868,110,745"/>
+<area shape="rect" id="Node000005" href="$db/d62/classPHG4InEvent.html#ab893e0a611fdd0867f68c2a6d694e7d2" title="Add a vertex to the event if it is not a duplicate of an existing vertex." alt="" coords="527,136,747,164"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="449,147,512,147,512,152,449,152"/>
+<area shape="rect" id="Node000006" href="$d6/d81/classPHG4VtxPoint.html#ae1e486888452aa0144358a4ceb50c922" title=" " alt="" coords="836,161,990,189"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="748,157,821,164,821,169,747,163"/>
+<area shape="rect" id="Node000007" href="$d6/d81/classPHG4VtxPoint.html#a271de766c9b21dbc56c3e339f8e42fc5" title=" " alt="" coords="835,213,991,241"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="682,162,799,198,833,207,831,212,798,203,680,167"/>
+<area shape="rect" id="Node000008" href="$d6/d81/classPHG4VtxPoint.html#a20e37ddb56c6ef297b77a99cb2377bf6" title=" " alt="" coords="835,265,991,293"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="658,162,718,205,758,229,799,250,821,258,819,263,797,255,755,234,715,210,655,166"/>
+<area shape="rect" id="Node000009" href="$d6/d81/classPHG4VtxPoint.html#a9b558f1924a5947a3aa3a407def653eb" title=" " alt="" coords="835,5,991,33"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="654,133,715,89,755,64,797,43,819,35,821,40,799,48,758,69,718,93,658,138"/>
+<area shape="rect" id="Node000010" href="$db/d62/classPHG4InEvent.html#a489d260a445904851ada927cb809116b" title=" " alt="" coords="828,57,998,85"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="679,133,798,95,831,87,832,92,799,100,680,138"/>
+<area shape="rect" id="Node000011" href="$db/d62/classPHG4InEvent.html#acf2cd0b0f9c809e5df6dda0de6b2a76e" title="Retrieve constant iterators to the beginning and end of the vertex list." alt="" coords="818,109,1008,137"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="747,137,802,131,803,136,748,142"/>
+<area shape="rect" id="Node000017" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="584,497,690,525"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="444,471,570,496,569,501,443,476"/>
+<area shape="rect" id="Node000023" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="550,445,725,473"/>
+<area shape="poly" id="edge22_Node000016_Node000023" title=" " alt="" coords="451,456,534,456,534,462,451,462"/>
+<area shape="rect" id="Node000018" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="820,388,1006,416"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="689,503,720,495,749,482,764,469,772,455,781,440,797,426,809,420,812,424,800,431,785,444,777,458,768,473,752,487,722,500,691,508"/>
+<area shape="rect" id="Node000019" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="826,440,1000,468"/>
+<area shape="poly" id="edge18_Node000017_Node000019" title=" " alt="" coords="689,498,828,469,829,474,690,503"/>
+<area shape="rect" id="Node000020" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="834,492,992,520"/>
+<area shape="poly" id="edge19_Node000017_Node000020" title=" " alt="" coords="690,507,819,505,819,510,690,513"/>
+<area shape="rect" id="Node000021" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="824,544,1002,572"/>
+<area shape="poly" id="edge20_Node000017_Node000021" title=" " alt="" coords="690,517,813,538,812,543,689,523"/>
+<area shape="rect" id="Node000022" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="822,596,1004,624"/>
+<area shape="poly" id="edge21_Node000017_Node000022" title=" " alt="" coords="667,523,727,552,799,581,827,589,825,594,797,586,725,557,665,528"/>
+<area shape="poly" id="edge25_Node000025_Node000017" title=" " alt="" coords="453,508,569,508,569,514,453,514"/>
+<area shape="poly" id="edge26_Node000025_Node000023" title=" " alt="" coords="443,494,546,474,547,479,444,499"/>
+<area shape="rect" id="Node000027" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="546,693,728,721"/>
+<area shape="poly" id="edge28_Node000026_Node000027" title=" " alt="" coords="430,643,477,655,577,686,576,691,475,660,429,648"/>
+<area shape="rect" id="Node000031" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="555,617,719,645"/>
+<area shape="poly" id="edge33_Node000026_Node000031" title=" " alt="" coords="440,628,539,628,539,634,440,634"/>
+<area shape="poly" id="edge29_Node000027_Node000027" title=" " alt="" coords="592,695,584,684,590,675,608,669,637,667,669,669,686,676,684,681,667,674,637,672,609,674,593,679,589,684,596,691"/>
+<area shape="rect" id="Node000028" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="842,648,984,676"/>
+<area shape="poly" id="edge30_Node000027_Node000028" title=" " alt="" coords="725,690,826,673,827,679,726,695"/>
+<area shape="rect" id="Node000029" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="847,700,979,728"/>
+<area shape="poly" id="edge31_Node000027_Node000029" title=" " alt="" coords="728,707,832,709,831,715,728,712"/>
+<area shape="rect" id="Node000030" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="798,752,1028,780"/>
+<area shape="poly" id="edge32_Node000027_Node000030" title=" " alt="" coords="706,719,830,746,829,751,705,724"/>
+<area shape="poly" id="edge37_Node000033_Node000033" title=" " alt="" coords="324,746,317,736,322,727,340,721,368,719,398,721,414,728,412,733,397,726,368,724,341,726,326,731,322,736,328,743"/>
+<area shape="rect" id="Node000034" href="$db/d62/classPHG4InEvent.html#a4505d4bac04780935c73451b0db03d73" title="Retrieve constant iterators spanning the internal particle list." alt="" coords="541,745,733,773"/>
+<area shape="poly" id="edge36_Node000033_Node000034" title=" " alt="" coords="450,756,525,756,525,762,450,762"/>
+<area shape="rect" id="Node000036" href="$d7/d7b/classPHHepMCGenEvent.html#a27394d76bdeadd03d94d5994aeddfd31" title="Return number of particles in the stored HepMC event." alt="" coords="546,849,729,877"/>
+<area shape="poly" id="edge39_Node000035_Node000036" title=" " alt="" coords="444,823,547,843,546,848,443,828"/>
+<area shape="rect" id="Node000037" href="$d7/d7b/classPHHepMCGenEvent.html#a7421b73d897628c57a81459196e76055" title="Return number of vertices in the stored HepMC event." alt="" coords="524,797,750,825"/>
+<area shape="poly" id="edge40_Node000035_Node000037" title=" " alt="" coords="472,808,508,808,508,814,472,814"/>
+<area shape="poly" id="edge45_Node000041_Node000042" title=" " alt="" coords="457,1081,603,1064,603,1070,457,1086"/>
+<area shape="poly" id="edge49_Node000042_Node000042" title=" " alt="" coords="616,1061,591,1050,585,1043,585,1036,601,1026,637,1023,670,1025,688,1033,688,1045,673,1056,670,1051,684,1043,683,1036,668,1031,637,1028,603,1031,590,1038,590,1041,594,1046,619,1056"/>
+<area shape="rect" id="Node000043" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="876,1049,950,1077"/>
+<area shape="poly" id="edge46_Node000042_Node000043" title=" " alt="" coords="657,1060,861,1060,861,1066,657,1066"/>
+<area shape="poly" id="edge47_Node000043_Node000043" title=" " alt="" coords="879,1050,874,1040,878,1031,891,1025,913,1023,936,1025,949,1032,946,1036,935,1030,913,1028,893,1030,882,1035,879,1040,884,1047"/>
+<area shape="rect" id="Node000044" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="1076,1049,1142,1077"/>
+<area shape="poly" id="edge48_Node000043_Node000044" title=" " alt="" coords="950,1060,1060,1060,1060,1066,950,1066"/>
+</map>

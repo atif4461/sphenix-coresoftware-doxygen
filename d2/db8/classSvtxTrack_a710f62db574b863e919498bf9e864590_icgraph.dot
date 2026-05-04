@@ -1,0 +1,24 @@
+digraph "SvtxTrack::get_charge"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTrack::get_charge",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="QAKFParticleTrackPtAsymmetry\l::analyzeTrackPtAsymmetry",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d46/classQAKFParticleTrackPtAsymmetry.html#a026609420ffbb7e008da5604d4ca6a34",tooltip="Analyze transverse momentum asymmetry of the two daughter tracks from a two‑body decay."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ActsPropagator::makeTrack\lParams",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/dea/classActsPropagator.html#a91aaa0a16c3d57f2eaa4ded5a27907d2",tooltip="Create Acts bound track parameters from a SvtxTrack and its associated vertex."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHActsTrackPropagator\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d47/classPHActsTrackPropagator.html#abd2fae16527525f0b6de0750cd87106f",tooltip="Process a single event by propagating all tracks stored in the internal track map."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHActsVertexPropagator\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d47/classPHActsVertexPropagator.html#a1da603897c916f8bc513a6b26c91a358",tooltip="Propagates each svtx track to a perigee surface using Acts propagator and updates track parameters."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="MakeMilleFiles::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d76/classMakeMilleFiles.html#a125dde1d0314fd7c3dba92d218b59898",tooltip="Process a single event and fill Millepede alignment data."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="MvtxMatchingEfficiencyWith\lShapes::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d55/classMvtxMatchingEfficiencyWithShapes.html#adfc5258f7649d24eabd157651befe027",tooltip="Process a single event and fill the analysis tree with MVTX matching efficiency and cluster shape inf..."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TpcSeedsQA::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d6c/classTpcSeedsQA.html#a4468d2812ff80bae2d0b63412e5780dd",tooltip="Process a single event and fill QA histograms."];
+}

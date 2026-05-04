@@ -1,0 +1,47 @@
+digraph "Fun4AllDstInputManager::SyncIt"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Fun4AllDstInputManager\l::SyncIt",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Synchronize current file with master sync object."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SyncObject::EventNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dbb/classSyncObject.html#aa650d97c0d3ace8ae7945f54224228ef",tooltip="set Event Number"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Fun4AllDstInputManager\l::fileclose",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#aba83e2505642f21db1e091193e206f9d",tooltip="Close the currently opened input file and clean up associated resources."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="InputFileHandler::IsOpen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Fun4AllBase::Name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893",tooltip="Returns the name of this module."];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="InputFileHandler::Update\lFileList",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb",tooltip="Update internal file list handling repeat logic."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="SyncObject::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dbb/classSyncObject.html#ae23b38b2e0358682b84024815af967f0",tooltip="Identify the object by writing a description to the provided output stream."];
+  Node1 -> Node5 [id="edge7_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Fun4AllDstInputManager\l::PushBackEvents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#a5c4da9899acdb1d96ac2405a7b3bae66",tooltip="Decrease the current event number in the input manager by i."];
+  Node8 -> Node5 [id="edge9_Node000008_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node9 [id="edge10_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="Fun4AllDstInputManager\l::ReadNextEventSyncObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#ade26017b627e0e1f1ec0dec62ac7fd52",tooltip="Read next event synchronization object from the current input file."];
+  Node9 -> Node3 [id="edge11_Node000009_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node5 [id="edge12_Node000009_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node10 [id="edge13_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="InputFileHandler::OpenNextFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#acf665524602bc5f8cc2398bfd26121ae",tooltip="Open the next file in the internal file list."];
+  Node10 -> Node11 [id="edge14_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="InputFileHandler::fileopen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a1cee3f2baa09932712f151fc0ba67db7",tooltip="Open input file for reading."];
+  Node10 -> Node12 [id="edge15_Node000010_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="InputFileHandler::GetOpening\lScript",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a0ef1f262db98136850cc1ad3be18a14d",tooltip=" "];
+  Node10 -> Node13 [id="edge16_Node000010_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="InputFileHandler::GetVerbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a60db005eca23d42b7e02e6c47af90095",tooltip=" "];
+  Node10 -> Node14 [id="edge17_Node000010_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="InputFileHandler::RunBefore\lOpening",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a811c67eb19cef0fba2d7c38b446d7955",tooltip="Execute optional script before opening the input file."];
+  Node9 -> Node15 [id="edge18_Node000009_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="Fun4AllInputManager\l::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664",tooltip="Gets the verbosity of this module."];
+  Node1 -> Node16 [id="edge19_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="SyncObject::RunNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dbb/classSyncObject.html#af1188def459d0ff933d71e37c7afc0c5",tooltip="set Run Number"];
+  Node1 -> Node17 [id="edge20_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="SyncObject::SegmentNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dbb/classSyncObject.html#a9e8ffb7e35744a8f46cc59b4cf8fa1ca",tooltip="set Segment Number"];
+  Node1 -> Node15 [id="edge21_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+}

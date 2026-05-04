@@ -1,0 +1,36 @@
+<map id="TpcSpaceChargeMatrixContainerv2::add" name="TpcSpaceChargeMatrixContainerv2::add">
+<area shape="rect" id="Node000001" title="add content from other container" alt="" coords="5,558,288,586"/>
+<area shape="rect" id="Node000002" href="$d0/dfa/classTpcSpaceChargeMatrixContainerv2.html#a77965977f760d32e637cf44d5b4187f4" title="increment cell entries" alt="" coords="336,29,586,74"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,557,157,475,168,415,186,348,210,277,242,207,283,141,334,84,338,81,341,85,338,88,287,145,246,209,215,279,191,349,174,416,162,476,152,558"/>
+<area shape="rect" id="Node000003" href="$d0/dfa/classTpcSpaceChargeMatrixContainerv2.html#ac1e9275a3691fbb9223c485fd5da791f" title="increment left hand side matrix" alt="" coords="336,99,586,143"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="147,557,162,485,194,376,218,316,249,257,288,202,334,154,339,150,342,154,337,158,292,205,254,260,223,318,199,378,167,486,153,558"/>
+<area shape="rect" id="Node000004" href="$d0/dfa/classTpcSpaceChargeMatrixContainerv2.html#a21508b18867632e62ad1bca29303aada" title="increment left hand side reduced rphi matrix" alt="" coords="336,168,586,213"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="149,556,167,495,202,405,227,356,257,307,293,262,334,223,339,219,343,223,337,227,297,266,262,310,232,358,207,407,172,497,154,558"/>
+<area shape="rect" id="Node000005" href="$d0/dfa/classTpcSpaceChargeMatrixContainerv2.html#a24c4ed06b7df9ba1629a980f5757a02c" title="increment left hand side reduced rphi matrix" alt="" coords="336,237,586,282"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="151,557,173,506,211,435,265,358,298,323,334,292,341,288,344,292,337,296,301,327,269,361,216,438,178,509,156,559"/>
+<area shape="rect" id="Node000006" href="$d0/dfa/classTpcSpaceChargeMatrixContainerv2.html#a9e6ca8defb31246ec67175eb6d02f36d" title="increment right hand side column" alt="" coords="336,307,586,351"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="154,556,180,517,221,465,273,409,303,384,334,361,344,356,346,361,337,366,306,388,277,413,225,468,185,520,159,559"/>
+<area shape="rect" id="Node000007" href="$d0/dfa/classTpcSpaceChargeMatrixContainerv2.html#a81bd539f38b65ea40656a1340d05c637" title="increment right hand side reduced rphi column" alt="" coords="336,376,586,421"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="161,555,233,495,282,461,334,431,349,424,351,429,337,435,285,465,236,500,165,559"/>
+<area shape="rect" id="Node000008" href="$d0/dfa/classTpcSpaceChargeMatrixContainerv2.html#a32561dfcc806efc2aa7af35627206d1a" title="increment right hand side reduced rphi column" alt="" coords="336,445,586,490"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="183,555,335,500,359,492,360,497,337,505,185,560"/>
+<area shape="rect" id="Node000009" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a35578a067de099014c363283ad0abff3" title="get entries for a given cell" alt="" coords="344,515,578,559"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="277,555,328,549,328,554,278,560"/>
+<area shape="rect" id="Node000010" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a2ac4e0e32a8cbf3e3a194b6404d0ac10" title="get grid dimensions" alt="" coords="344,584,578,629"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="278,583,328,589,328,594,277,589"/>
+<area shape="rect" id="Node000011" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a2c7fbab71ac696c8239df8ceb22c86be" title="get left hand side" alt="" coords="344,653,578,698"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="185,584,337,638,360,646,359,651,335,644,183,589"/>
+<area shape="rect" id="Node000012" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a058c0ab5cd018ca9559704a54dd547c7" title="get reduced rphi left hand side" alt="" coords="344,723,578,767"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="165,584,236,644,285,678,337,708,351,714,349,719,334,713,282,683,233,648,161,588"/>
+<area shape="rect" id="Node000013" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a6b4cd61475c641435b94720d0e4696c3" title="get reduced z left hand side" alt="" coords="344,792,578,837"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="159,584,185,623,225,675,277,730,306,756,337,777,346,783,344,787,334,782,303,760,273,734,221,679,180,626,154,587"/>
+<area shape="rect" id="Node000014" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a8432eb46326d9c3ea2a983a655f1a93b" title="get right hand side" alt="" coords="344,861,578,906"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="156,585,178,635,216,706,269,782,301,817,337,847,344,851,341,856,334,851,298,821,265,785,211,709,173,637,151,587"/>
+<area shape="rect" id="Node000015" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a6504775c33596f3d6fad34f1ce659e83" title="get reduced rphi right hand side" alt="" coords="344,931,578,975"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="154,585,172,647,207,736,232,785,262,833,297,878,337,916,343,920,339,924,334,920,293,881,257,836,227,788,202,738,167,648,149,587"/>
+<area shape="rect" id="Node000016" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#aa5f1b7c1c3868987ad05aba484892dd8" title="get reduced z right hand side" alt="" coords="344,1000,578,1045"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="153,586,167,657,199,765,223,825,254,884,292,938,337,986,342,989,339,993,334,990,288,942,249,886,218,827,194,767,162,658,147,587"/>
+<area shape="rect" id="Node000017" href="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#ae18508b33354cca3f85ed60f19e16b84" title="constructor" alt="" coords="340,1069,582,1114"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="152,586,162,668,174,727,191,794,215,864,246,934,287,999,338,1055,341,1058,338,1062,334,1059,283,1002,242,936,210,866,186,796,168,729,157,669,146,586"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="402,29,400,19,410,10,430,5,461,3,494,5,514,12,513,17,493,10,461,8,431,10,412,15,405,21,407,28"/>
+</map>

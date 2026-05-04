@@ -1,0 +1,51 @@
+<map id="JetRecoEval::all_truth_hits" name="JetRecoEval::all_truth_hits">
+<area shape="rect" id="Node000001" title="which truth hits contributed to this reconstructed jet?" alt="" coords="5,517,197,545"/>
+<area shape="rect" id="Node000002" href="$da/d7e/classCaloRawClusterEval.html#a6dca3e2823bfaf5a27c13c0c40c1ad82" title="what truth hits contributed energy to this tower?" alt="" coords="260,146,412,191"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,516,114,459,139,375,158,329,181,283,209,240,243,201,247,198,250,202,247,205,213,243,185,286,162,331,144,377,119,460,107,517"/>
+<area shape="rect" id="Node000003" href="$de/d0b/classCaloRawTowerEval.html#ac47d08a77fcfab78124cf54006fdccd0" title="what truth hits contributed energy to this tower?" alt="" coords="490,49,658,94"/>
+<area shape="poly" id="edge14_Node000001_Node000003" title=" " alt="" coords="100,517,106,447,114,397,126,342,144,285,169,229,201,177,243,132,268,113,296,98,355,77,416,67,473,63,474,68,417,72,357,83,298,103,271,118,246,136,205,180,173,231,149,287,131,344,119,398,111,448,105,517"/>
+<area shape="rect" id="Node000012" href="$df/dad/classSvtxTrackEval.html#a78d25e749c7b264662342f64d7cc46a5" title="Retrieve all truth PHG4Hit objects associated with a given SvtxTrack." alt="" coords="268,216,404,260"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="104,516,119,470,147,404,188,333,214,300,243,270,252,263,256,267,246,275,218,304,193,336,152,407,124,472,109,518"/>
+<area shape="rect" id="Node000013" href="$dd/d75/classJetRecoEval.html#ab096f9489df4d132fdf16e257f4a462c" title="get a copy of the lower level eval and its memory cache" alt="" coords="251,285,420,330"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="107,516,126,481,156,434,196,384,243,340,249,335,252,340,246,344,200,388,161,437,131,484,112,518"/>
+<area shape="rect" id="Node000014" href="$d7/da6/classJet.html#a2fbba305fca78cf16ab84463d085b2cb" title="Access the internal jet component vector." alt="" coords="266,353,406,381"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="111,515,163,455,201,420,243,390,254,385,256,390,246,395,204,424,167,459,115,519"/>
+<area shape="rect" id="Node000015" href="$dd/d75/classJetRecoEval.html#a6ce92722bc66598c246fa550411b86c9" title="get a copy of the lower level eval and its memory cache" alt="" coords="251,405,421,450"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="129,515,244,459,258,453,260,458,246,464,131,519"/>
+<area shape="rect" id="Node000016" href="$dd/d75/classJetRecoEval.html#a08562ed021760b1fd50780a517adf28f" title="get a copy of the lower level eval and its memory cache" alt="" coords="252,474,420,519"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="197,514,236,509,237,514,197,520"/>
+<area shape="rect" id="Node000017" href="$dd/d75/classJetRecoEval.html#a293ebe1e835263d0599f107b23ce4c6a" title="get a copy of the lower level eval and its memory cache" alt="" coords="253,544,419,588"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="197,543,238,549,237,554,197,548"/>
+<area shape="rect" id="Node000018" href="$dd/d75/classJetRecoEval.html#a5189a5ed72f6ce1ad48bf608ccdd1836" title="get a copy of the lower level eval and its memory cache" alt="" coords="249,613,422,658"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="131,543,246,598,260,604,258,609,244,603,129,548"/>
+<area shape="rect" id="Node000019" href="$dd/d75/classJetRecoEval.html#a13bbdbe9b978b83ef3a698c68c36b3d9" title="get a copy of the lower level eval and its memory cache" alt="" coords="245,682,427,727"/>
+<area shape="poly" id="edge22_Node000001_Node000019" title=" " alt="" coords="115,543,168,602,205,637,246,668,254,672,251,677,243,672,202,641,164,606,111,547"/>
+<area shape="rect" id="Node000020" href="$db/d10/classCaloEvalStack.html#a7afbc386314868a52dfef60f3780c46d" title=" " alt="" coords="264,752,408,796"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="111,544,129,582,158,634,198,689,246,737,252,742,249,746,243,741,194,692,154,637,124,585,106,547"/>
+<area shape="rect" id="Node000021" href="$db/d10/classCaloEvalStack.html#aaed81e09a6beb475210e6d1d424102aa" title=" " alt="" coords="264,821,408,866"/>
+<area shape="poly" id="edge24_Node000001_Node000021" title=" " alt="" coords="108,545,123,594,150,664,191,740,217,775,246,807,253,812,250,816,243,810,213,779,186,743,145,666,118,596,103,546"/>
+<area shape="rect" id="Node000022" href="$dd/d75/classJetRecoEval.html#a400e14f8920a9e379f040ca2b9eaa4b2" title="get a copy of the lower level eval and its memory cache" alt="" coords="255,890,417,935"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="107,545,118,605,142,693,160,742,183,790,212,836,247,876,250,879,246,883,243,880,208,839,179,793,155,744,137,695,112,606,102,546"/>
+<area shape="rect" id="Node000023" href="$d3/ded/classSvtxEvalStack.html#ab51ea8c7d43abcf55dee582dae200356" title=" " alt="" coords="264,960,408,1004"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="106,545,113,615,134,722,152,781,176,840,207,896,247,945,253,951,249,955,243,949,203,899,171,842,147,783,129,723,108,616,100,546"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,143,502,97,504,102,393,148"/>
+<area shape="rect" id="Node000008" href="$da/d7e/classCaloRawClusterEval.html#aee326420812763b03113c0063ffeddae" title="get a copy of the lower level tower eval and its memory cache" alt="" coords="731,249,885,294"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="412,147,470,138,537,134,606,138,673,154,714,185,773,237,769,241,711,189,671,159,605,143,537,139,471,143,413,152"/>
+<area shape="rect" id="Node000009" href="$d6/dc7/group__getters.html#ga8b86848f1470c8a908efc851e8d9c08c" title="return tower map for c++11 range&#45;based for&#45;loop" alt="" coords="475,168,672,196"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="412,170,459,173,459,178,412,175"/>
+<area shape="rect" id="Node000010" href="$d6/dc7/group__getters.html#ga797d78febeac5c357ce4990878168507" title=" " alt="" coords="486,220,661,248"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="413,187,476,205,505,213,504,218,474,210,412,192"/>
+<area shape="rect" id="Node000011" href="$da/d7e/classCaloRawClusterEval.html#a8c8269926e3f1b2723898750236fa878" title="has the eval initialized correctly for full sim DST nodes?" alt="" coords="484,296,663,340"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="408,189,429,201,444,215,454,229,463,242,477,257,516,285,513,290,473,261,459,246,449,232,440,219,425,205,406,194"/>
+<area shape="rect" id="Node000004" href="$d9/dd8/classRawTower.html#a7ad30feb09ca7850c002a088c32a050b" title="Retrieve a constant range of Geant4 cells associated with this tower." alt="" coords="723,5,893,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="657,50,727,34,729,39,659,55"/>
+<area shape="rect" id="Node000005" href="$dc/dfe/classPHG4Cell.html#a09dd9028bce6b527a61d09768dad8e35" title="Return an empty constant range of Geant4 hit entries for this cell." alt="" coords="729,57,887,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="658,68,713,68,713,74,658,74"/>
+<area shape="rect" id="Node000006" href="$de/d0b/classCaloRawTowerEval.html#af10c054c733eb652ab13675f8321255b" title="has the eval initialized correctly for full sim DST nodes?" alt="" coords="720,133,896,178"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="639,92,730,125,728,130,637,97"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="765,133,764,123,771,114,786,108,808,106,832,109,846,115,844,120,831,114,808,111,787,113,774,118,769,124,771,132"/>
+<area shape="rect" id="Node000007" href="$de/d0b/classCaloRawTowerEval.html#a86c06b3d2cbb008904d9f0811f9ad9c9" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="944,133,1117,178"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="896,152,928,152,928,158,896,158"/>
+<area shape="poly" id="edge12_Node000011_Node000008" title=" " alt="" coords="663,297,715,287,717,292,664,303"/>
+<area shape="poly" id="edge13_Node000011_Node000011" title=" " alt="" coords="529,295,528,285,535,276,551,271,574,269,599,271,614,278,612,283,598,277,574,274,552,276,538,281,533,287,534,295"/>
+</map>

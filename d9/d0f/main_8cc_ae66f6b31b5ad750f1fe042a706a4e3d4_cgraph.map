@@ -1,0 +1,15 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Entry point for flow afterburner executable." alt="" coords="5,65,60,93"/>
+<area shape="rect" id="Node000002" href="$d0/d73/flowAfterburner_8cc.html#a777ae3c79fe914424032c71cdfc5674f" title="Apply flow afterburner to a HepMC event." alt="" coords="108,65,229,93"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,76,92,76,92,82,60,82"/>
+<area shape="rect" id="Node000003" href="$d7/d9a/classAfterburner.html#ab425f3f02c8b9e12790a9c77107d04da" title="Apply anisotropic flow afterburner to particles in a HepMC event." alt="" coords="277,65,479,93"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,76,261,76,261,82,230,82"/>
+<area shape="rect" id="Node000004" href="$d7/d9a/classAfterburner.html#af19704d4e07854374689e59932a69a13" title="Apply anisotropic flow to a parent particle and rotate all its descendants." alt="" coords="527,22,741,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="480,63,512,58,512,64,480,68"/>
+<area shape="rect" id="Node000007" href="$d7/d9a/classAfterburner.html#ac42ad312bf951a9d911103ff88faaa00" title="Generate reaction plane angles for the flow afterburner and store them in the event." alt="" coords="564,92,704,136"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="480,90,549,100,549,105,480,96"/>
+<area shape="rect" id="Node000005" href="$d7/d9a/classAfterburner.html#aaf7276f9ac4ab4779da57b08ec42b37e" title="Retrieve the reaction plane angle psi_n for a given harmonic order." alt="" coords="789,5,942,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="741,30,774,26,774,32,742,35"/>
+<area shape="rect" id="Node000006" href="$d7/d9a/classAfterburner.html#a2c01e00bcf30785ff7cfaf1c04b79aa2" title="Evaluate the flow&#45;modified azimuthal function for a given angle." alt="" coords="789,57,942,85"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="742,54,773,58,773,63,741,60"/>
+</map>

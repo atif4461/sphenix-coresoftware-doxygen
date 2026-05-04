@@ -1,0 +1,65 @@
+<map id="CaloVtxReco::process_event" name="CaloVtxReco::process_event">
+<area shape="rect" id="Node000001" title="Process a single event and compute calorimeter based vertex." alt="" coords="5,700,168,744"/>
+<area shape="rect" id="Node000002" href="$de/d9e/classCaloVtxReco.html#af8ad041be31c1654bc4ec2f8eb9e7bc6" title="Compute the calorimeter‑based vertex z position from calibrated tower information." alt="" coords="216,446,399,491"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,697,214,571,274,501,278,504,218,574,109,701"/>
+<area shape="rect" id="Node000006" href="$d3/d65/classTowerInfo.html#aec47b24db774275f49d738950530b5e0" title=" " alt="" coords="473,575,638,602"/>
+<area shape="poly" id="edge22_Node000001_Node000006" title=" " alt="" coords="132,696,215,662,340,627,457,602,458,608,341,632,217,667,134,701"/>
+<area shape="rect" id="Node000008" href="$d9/da7/classTowerInfoContainer.html#a9d02209eb100fea85a2105a1965c3e2b" title=" " alt="" coords="470,626,642,671"/>
+<area shape="poly" id="edge25_Node000001_Node000008" title=" " alt="" coords="168,703,215,694,454,659,454,664,216,699,169,708"/>
+<area shape="rect" id="Node000010" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="484,695,627,722"/>
+<area shape="poly" id="edge26_Node000001_Node000010" title=" " alt="" coords="168,717,469,708,469,714,168,722"/>
+<area shape="rect" id="Node000020" href="$db/d6e/classCaloVertex.html#ac28b16660225f6c3953b26e089835aff" title=" " alt="" coords="488,747,623,774"/>
+<area shape="poly" id="edge34_Node000001_Node000020" title=" " alt="" coords="168,726,473,751,473,756,168,731"/>
+<area shape="rect" id="Node000022" href="$db/d40/classJetContainer.html#a522569b3d2b6a138b441b0864198e061" title=" " alt="" coords="230,784,384,812"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="154,742,251,776,249,781,152,747"/>
+<area shape="rect" id="Node000023" href="$d7/da6/classJet.html#a8e6dbb917cd7b9f7b02c199f71acc133" title=" " alt="" coords="264,836,351,864"/>
+<area shape="poly" id="edge24_Node000001_Node000023" title=" " alt="" coords="113,743,159,782,217,821,250,834,248,839,214,826,156,787,109,747"/>
+<area shape="rect" id="Node000024" href="$de/d9e/classCaloVtxReco.html#aca550850fa3912d19693b97520a8a24f" title="Compute eta for a tower after applying a longitudinal offset." alt="" coords="224,204,391,232"/>
+<area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="95,698,292,245,296,247,100,700"/>
+<area shape="rect" id="Node000026" href="$db/d40/classJetContainer.html#aed6af419e712c068ef0170c038b08078" title=" " alt="" coords="240,888,375,916"/>
+<area shape="poly" id="edge35_Node000001_Node000026" title=" " alt="" coords="103,743,148,808,180,843,217,873,228,879,225,884,214,877,177,847,144,811,99,746"/>
+<area shape="rect" id="Node000027" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="222,940,392,968"/>
+<area shape="poly" id="edge36_Node000001_Node000027" title=" " alt="" coords="98,744,115,783,140,832,174,882,217,925,225,930,222,935,214,929,170,886,135,835,110,785,93,746"/>
+<area shape="rect" id="Node000003" href="$d9/da7/classTowerInfoContainer.html#a76998c4033bb310ca5f8a74553ce1449" title=" " alt="" coords="482,57,629,102"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="316,445,396,242,407,204,412,172,422,143,445,112,467,97,470,101,449,116,426,145,417,174,412,205,402,244,321,447"/>
+<area shape="rect" id="Node000004" href="$da/d58/namespaceRawTowerDefs.html#a188fb7233354634d301c172177ab1ab6" title=" " alt="" coords="470,126,642,171"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="315,445,372,305,409,230,428,201,445,181,455,174,458,178,449,185,432,204,414,233,377,307,320,447"/>
+<area shape="rect" id="Node000005" href="$d8/dc4/classRawTowerGeom.html#a772770f6724ce4f5ad46e61b6c2876b7" title=" " alt="" coords="447,403,664,430"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="399,447,471,431,472,437,400,452"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="337,489,387,526,448,561,464,567,462,572,446,566,384,531,334,493"/>
+<area shape="rect" id="Node000007" href="$d3/d65/classTowerInfo.html#a838373bbe010f26fd68b2cf4be987298" title=" " alt="" coords="473,455,638,482"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="399,466,457,466,457,471,399,471"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="326,489,377,550,411,583,448,612,457,617,454,621,446,616,407,587,373,554,322,493"/>
+<area shape="rect" id="Node000009" href="$df/d49/classRawTowerGeomContainer.html#a48ee53db06ee704a2f87ac4baeeda854" title=" " alt="" coords="461,196,650,240"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="315,445,333,403,361,351,398,297,445,250,451,246,454,251,449,255,402,300,365,354,338,405,320,447"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="319,490,337,532,364,584,401,637,424,661,448,681,470,693,468,697,446,685,420,664,397,640,360,587,332,534,314,492"/>
+<area shape="rect" id="Node000016" href="$d9/da7/classTowerInfoContainer.html#a766b759f123cc7ee5846d870c5b0e8ad" title="Retrieve the eta bin index for a given tower key." alt="" coords="482,265,629,310"/>
+<area shape="poly" id="edge16_Node000002_Node000016" title=" " alt="" coords="322,444,373,383,407,349,446,320,466,309,469,313,448,324,410,353,376,386,326,447"/>
+<area shape="rect" id="Node000018" href="$d9/da7/classTowerInfoContainer.html#a242ec574510bc063eac421275bd3dfb6" title="Retrieve phi bin index for a given tower key." alt="" coords="482,334,629,379"/>
+<area shape="poly" id="edge18_Node000002_Node000018" title=" " alt="" coords="343,443,391,416,446,389,466,381,468,385,448,394,394,420,346,448"/>
+<area shape="poly" id="edge20_Node000002_Node000020" title=" " alt="" coords="316,491,331,541,357,607,396,675,420,705,449,732,475,746,472,751,445,736,416,709,391,678,352,609,326,543,311,492"/>
+<area shape="rect" id="Node000021" href="$d9/da7/classTowerInfoContainer.html#a032d99fcf2de16bdabcc1248f3362345" title=" " alt="" coords="482,506,629,551"/>
+<area shape="poly" id="edge21_Node000002_Node000021" title=" " alt="" coords="400,488,467,505,466,510,399,493"/>
+<area shape="rect" id="Node000011" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="727,669,908,697"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="628,699,711,691,712,696,628,704"/>
+<area shape="rect" id="Node000015" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="735,721,900,749"/>
+<area shape="poly" id="edge15_Node000010_Node000015" title=" " alt="" coords="628,713,720,723,719,728,628,718"/>
+<area shape="poly" id="edge11_Node000011_Node000011" title=" " alt="" coords="773,670,766,660,772,651,789,645,818,643,848,645,865,652,863,657,847,650,817,648,790,650,775,655,771,660,777,667"/>
+<area shape="rect" id="Node000012" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="1015,617,1156,645"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="892,666,999,645,1000,650,893,671"/>
+<area shape="rect" id="Node000013" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1019,669,1152,697"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="909,680,1003,680,1003,686,909,686"/>
+<area shape="rect" id="Node000014" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="971,721,1200,749"/>
+<area shape="poly" id="edge14_Node000011_Node000014" title=" " alt="" coords="893,695,996,715,995,720,892,700"/>
+<area shape="rect" id="Node000017" href="$da/d9c/namespaceTowerInfoDefs.html#acb37f4f1b13f1761640f02c036b4506d" title="Extract eta bin from tower key." alt="" coords="712,265,923,310"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="630,284,697,284,697,290,630,290"/>
+<area shape="rect" id="Node000019" href="$da/d9c/namespaceTowerInfoDefs.html#af1de44c462a3a6bba5c1790021e6809c" title="Extract phi bin index from combined tower key." alt="" coords="712,334,923,379"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="630,354,697,354,697,359,630,359"/>
+<area shape="poly" id="edge28_Node000024_Node000003" title=" " alt="" coords="322,201,375,158,409,133,446,111,466,102,468,107,448,116,412,138,378,162,326,206"/>
+<area shape="poly" id="edge29_Node000024_Node000004" title=" " alt="" coords="359,201,458,173,459,178,360,206"/>
+<area shape="poly" id="edge31_Node000024_Node000009" title=" " alt="" coords="391,215,445,215,445,220,391,220"/>
+<area shape="poly" id="edge32_Node000024_Node000016" title=" " alt="" coords="360,230,468,260,466,265,359,235"/>
+<area shape="poly" id="edge33_Node000024_Node000018" title=" " alt="" coords="326,230,378,274,412,298,448,319,468,329,466,334,446,324,409,302,375,278,322,234"/>
+<area shape="rect" id="Node000025" href="$d8/dc4/classRawTowerGeom.html#ad826c1c1db48f259b830134521e71f93" title=" " alt="" coords="464,5,647,33"/>
+<area shape="poly" id="edge30_Node000024_Node000025" title=" " alt="" coords="313,202,332,169,361,125,399,80,445,42,454,37,457,42,449,47,403,84,365,129,337,172,318,205"/>
+</map>

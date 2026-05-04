@@ -1,0 +1,22 @@
+digraph "SvtxTrackInfo_v2::set_x_outer_tpc"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTrackInfo_v2::set\l_x_outer_tpc",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrackInfo_v2::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db0/classSvtxTrackInfo__v2.html#a919d05a93161d9efceba89c465d1a510",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackInfoContainer\l_v2::add_trackinfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4b/classTrackInfoContainer__v2.html#a2d3035c209d98fc8504115ecdace4c92",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrackInfoContainer\l_v2::add_trackinfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d4b/classTrackInfoContainer__v2.html#a583da6152d7c3530ab2d1d02eaa83957",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SvtxTrackInfo_v2::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db0/classSvtxTrackInfo__v2.html#aad128861a0b0bc1add9d2c059e8dbb50",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SvtxTrackInfo_v2::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db0/classSvtxTrackInfo__v2.html#abadcefdff44b979dd0a51c45b46db851",tooltip="Copy assignment operator for SvtxTrackInfo_v2."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="SvtxTrackInfo_v2::SvtxTrack\lInfo_v2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db0/classSvtxTrackInfo__v2.html#a09f12e38c23a1e95d91a3aa9cd276e74",tooltip=" "];
+}

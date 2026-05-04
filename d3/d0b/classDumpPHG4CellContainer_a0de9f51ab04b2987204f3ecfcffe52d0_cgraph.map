@@ -1,0 +1,59 @@
+<map id="DumpPHG4CellContainer::process_Node" name="DumpPHG4CellContainer::process_Node">
+<area shape="rect" id="Node000001" title="Process a PHNode containing a PHG4CellContainer and dump its contents." alt="" coords="5,628,190,672"/>
+<area shape="rect" id="Node000002" href="$d7/dba/namespacePHG4CellDefs.html#a7b6039b35f7f1ead7b1be2fcaa7e38df" title="Extract binning value from encoded cell key." alt="" coords="252,5,448,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,627,112,506,138,330,157,239,179,157,205,89,220,62,236,43,238,40,242,44,240,46,224,65,210,91,184,158,162,241,143,331,117,506,104,627"/>
+<area shape="rect" id="Node000003" href="$d4/db9/namespacePHG4CellDefs_1_1ScintillatorSlatBinning.html#acc06b004e7bbf4ccae6b93ec6a0aaf0a" title="Retrieve the column bin index from a scintillator slat cell key." alt="" coords="255,732,446,776"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,670,239,717,257,723,255,728,237,722,139,675"/>
+<area shape="rect" id="Node000005" href="$d7/dba/namespacePHG4CellDefs.html#a195c6e84995def1ed68ecd3ca1159734" title="Retrieve detector id from cell key." alt="" coords="260,125,441,153"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="95,627,97,540,102,480,113,415,130,347,155,280,190,217,236,163,245,156,248,160,240,166,194,220,160,282,135,348,118,416,108,481,102,540,101,627"/>
+<area shape="rect" id="Node000006" href="$d6/dea/namespacePHG4CellDefs_1_1EtaPhiBinning.html#aa02b5c8e462bc6837c78175cdf9b206f" title="Retrieve the eta bin index from a PHG4CellDefs key." alt="" coords="245,246,456,291"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="99,627,109,563,133,475,151,428,173,382,202,339,236,301,240,298,243,302,240,305,206,342,178,385,156,431,138,477,115,564,104,627"/>
+<area shape="rect" id="Node000008" href="$da/d67/namespacePHG4CellDefs_1_1EtaXsizeBinning.html#aa4a027fc4150b9ff6dfeae2f63f61175" title="Get eta bin from a PHG4CellDefs key." alt="" coords="238,385,463,430"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="105,626,124,586,152,536,190,484,236,440,243,435,246,440,239,444,194,488,157,539,129,589,110,628"/>
+<area shape="rect" id="Node000009" href="$d1/d88/namespacePHG4CellDefs_1_1SpacalBinning.html#ad27177a627c77e286373d53db529df05" title="Retrieve the eta bin index from a PHG4CellDefs composite key." alt="" coords="244,316,456,360"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="101,626,116,574,142,505,181,433,207,400,236,371,241,367,244,371,239,374,211,403,186,436,147,507,121,576,106,628"/>
+<area shape="rect" id="Node000010" href="$d1/d88/namespacePHG4CellDefs_1_1SpacalBinning.html#aebba0da0e18c5b1b72e0b8f3411035d2" title="Retrieve fiber identifier from a cell key." alt="" coords="244,454,456,499"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="114,626,164,568,198,536,236,509,246,504,248,508,239,513,202,540,168,571,118,629"/>
+<area shape="rect" id="Node000011" href="$dd/dc9/namespacePHG4CellDefs_1_1MVTXBinning.html#a8559226c8f5e59d0f353939e74fe8a50" title="Compute linear index from MVTX cell key." alt="" coords="247,593,454,638"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="190,635,231,629,232,634,191,640"/>
+<area shape="rect" id="Node000013" href="$d6/dea/namespacePHG4CellDefs_1_1EtaPhiBinning.html#a3de64a794d1dfb24479801f4f4d24690" title="Retrieve the phi bin index from a combined cell key." alt="" coords="245,852,456,896"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="112,671,131,708,160,753,196,798,239,837,246,842,243,846,236,841,192,802,155,756,127,711,107,674"/>
+<area shape="rect" id="Node000014" href="$d6/d84/namespacePHG4CellDefs_1_1SizeBinning.html#a722c36ec35c9e162ddc37f9647973a03" title="Retrieve the phi bin index from a packed cell key." alt="" coords="252,524,448,568"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="139,625,237,578,255,571,257,576,239,583,141,630"/>
+<area shape="rect" id="Node000015" href="$d1/d88/namespacePHG4CellDefs_1_1SpacalBinning.html#a9f0f6217dd170c4877e56ca6782b28f4" title="Retrieve phi bin index from a cell key." alt="" coords="244,921,456,966"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="107,672,123,721,149,784,188,850,212,880,239,906,245,910,241,915,236,911,208,884,184,853,145,786,118,722,102,673"/>
+<area shape="rect" id="Node000016" href="$db/d1d/namespacePHG4CellDefs_1_1TPCBinning.html#af1d024095b52f6c8f099c375c95f3e1d" title="Retrieve phi bin index from a combined key." alt="" coords="253,990,448,1035"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="104,672,116,733,140,815,158,858,180,901,207,941,240,976,243,979,240,983,236,980,203,944,176,904,153,860,135,816,111,734,99,673"/>
+<area shape="rect" id="Node000017" href="$dc/dfe/classPHG4Cell.html#a42e05d988a7b10a3011cbb29ccc873cd" title="Retrieve human readable name and data type for a given cell property identifier." alt="" coords="248,800,453,828"/>
+<area shape="poly" id="edge22_Node000001_Node000017" title=" " alt="" coords="117,671,167,729,201,760,239,786,250,792,247,796,236,791,198,764,163,733,113,674"/>
+<area shape="rect" id="Node000018" href="$db/d1d/namespacePHG4CellDefs_1_1TPCBinning.html#ada6d40784388da4a252f63a9b3b1dfb0" title="Retrieve the radial bin index from a PHG4CellDefs key." alt="" coords="253,57,448,102"/>
+<area shape="poly" id="edge23_Node000001_Node000018" title=" " alt="" coords="99,627,115,519,144,365,163,285,185,213,209,153,236,112,239,109,243,113,240,116,214,156,190,215,168,287,149,366,120,520,104,628"/>
+<area shape="rect" id="Node000019" href="$d4/db9/namespacePHG4CellDefs_1_1ScintillatorSlatBinning.html#abb9c995449306b9037050b026e7436e9" title="Retrieve the row bin index from a cell key." alt="" coords="255,177,446,222"/>
+<area shape="poly" id="edge25_Node000001_Node000019" title=" " alt="" coords="97,627,104,552,124,446,142,389,166,332,197,279,236,232,241,227,244,231,240,236,201,282,170,334,147,391,129,448,109,553,102,627"/>
+<area shape="rect" id="Node000020" href="$da/d67/namespacePHG4CellDefs_1_1EtaXsizeBinning.html#a9576ee10aedd36a0b58f797e2a17a0d7" title="Retrieve xsize bin from cell key." alt="" coords="238,1060,463,1104"/>
+<area shape="poly" id="edge27_Node000001_Node000020" title=" " alt="" coords="103,672,110,744,131,844,149,898,172,952,202,1002,240,1045,243,1048,239,1052,236,1049,198,1005,168,954,144,900,126,845,105,745,97,673"/>
+<area shape="rect" id="Node000021" href="$d6/d84/namespacePHG4CellDefs_1_1SizeBinning.html#a65969fd6a8d43e6964beefd0d9bbd35e" title="Retrieve the z bin index from a packed cell key." alt="" coords="252,662,448,707"/>
+<area shape="poly" id="edge29_Node000001_Node000021" title=" " alt="" coords="191,660,237,666,236,672,190,665"/>
+<area shape="rect" id="Node000022" href="$d4/d97/classPHG4CellContainer.html#a5961e0e0f06fb85ae79acc5e5a1b0c6c" title="return all Cells matching a given detid" alt="" coords="274,1129,427,1174"/>
+<area shape="poly" id="edge31_Node000001_Node000022" title=" " alt="" coords="101,672,105,755,112,811,123,873,140,938,165,1002,197,1062,240,1115,261,1130,258,1134,236,1118,193,1065,160,1004,135,940,118,875,106,812,100,755,96,673"/>
+<area shape="rect" id="Node000023" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="268,1197,432,1225"/>
+<area shape="poly" id="edge32_Node000001_Node000023" title=" " alt="" coords="104,672,120,781,148,935,167,1014,188,1086,213,1145,240,1184,256,1196,252,1200,236,1188,208,1148,183,1088,162,1016,143,936,114,782,99,673"/>
+<area shape="rect" id="Node000024" href="$d4/d97/classPHG4CellContainer.html#acb8b3cea4311a3c81f8cd2592b9926fe" title=" " alt="" coords="261,1249,440,1277"/>
+<area shape="poly" id="edge33_Node000001_Node000024" title=" " alt="" coords="104,672,118,790,145,960,163,1047,185,1126,211,1191,225,1216,240,1235,249,1242,245,1246,236,1238,220,1219,206,1194,180,1128,158,1048,140,961,112,790,98,673"/>
+<area shape="rect" id="Node000004" href="$d9/d13/PHG4CellDefs_8cc.html#aac13c75c0c6204b67afd2b9f4d98d391" title="Extract the upper 16 bit key from a PHG4 cell key for a given binning." alt="" coords="511,895,694,922"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="439,774,464,786,498,808,530,833,580,881,577,885,527,837,495,812,462,791,437,779"/>
+<area shape="rect" id="Node000007" href="$d9/d13/PHG4CellDefs_8cc.html#a728902c52be0b58ad2d4d8232b2beb5b" title="Extract lower 16 bits of a cell key when the binning matches." alt="" coords="512,324,694,352"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="435,289,535,317,534,322,434,294"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="434,382,534,354,535,359,435,387"/>
+<area shape="poly" id="edge11_Node000010_Node000007" title=" " alt="" coords="435,451,462,439,523,401,573,360,576,364,526,405,464,444,437,456"/>
+<area shape="rect" id="Node000012" href="$d9/d13/PHG4CellDefs_8cc.html#a73bfd1ac42c08951fc694264bab4e880" title="Extract lower 32 bits of a PHG4Cell key after verifying binning." alt="" coords="533,601,672,629"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="455,612,517,612,517,618,455,618"/>
+<area shape="poly" id="edge15_Node000013_Node000004" title=" " alt="" coords="456,886,496,891,495,896,456,891"/>
+<area shape="poly" id="edge17_Node000014_Node000007" title=" " alt="" coords="441,521,461,509,501,475,536,436,585,363,589,366,540,439,505,479,465,513,443,525"/>
+<area shape="poly" id="edge19_Node000015_Node000004" title=" " alt="" coords="456,926,495,921,496,926,457,931"/>
+<area shape="poly" id="edge21_Node000016_Node000004" title=" " alt="" coords="430,987,462,975,561,928,564,932,464,980,432,992"/>
+<area shape="poly" id="edge24_Node000018_Node000007" title=" " alt="" coords="446,100,465,112,489,134,511,158,548,212,576,265,594,309,589,311,571,268,544,215,507,162,485,137,461,116,443,104"/>
+<area shape="poly" id="edge26_Node000019_Node000007" title=" " alt="" coords="437,220,464,231,526,271,576,311,573,315,523,275,462,236,435,225"/>
+<area shape="poly" id="edge28_Node000020_Node000004" title=" " alt="" coords="439,1057,462,1045,497,1019,530,990,580,933,584,937,534,993,501,1023,464,1049,441,1061"/>
+<area shape="poly" id="edge30_Node000021_Node000004" title=" " alt="" coords="444,705,465,717,507,755,543,799,571,843,591,880,586,882,566,846,538,802,503,759,461,721,441,710"/>
+</map>

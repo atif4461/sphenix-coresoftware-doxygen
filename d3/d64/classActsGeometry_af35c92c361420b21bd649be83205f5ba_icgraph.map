@@ -1,0 +1,88 @@
+<map id="ActsGeometry::getLocalCoords" name="ActsGeometry::getLocalCoords">
+<area shape="rect" id="Node000001" title="Retrieve local detector coordinates for a given cluster key and cluster object." alt="" coords="2672,767,2893,795"/>
+<area shape="poly" id="edge46_Node000001_Node000001" title=" " alt="" coords="2833,755,2815,748,2782,746,2752,748,2735,753,2731,758,2738,765,2734,768,2726,758,2732,748,2751,743,2782,741,2817,743,2835,750"/>
+<area shape="rect" id="Node000002" href="$d3/d64/classActsGeometry.html#abe7b8fadd95687eab97782238c1272ed" title="Compute global position of a TPC cluster." alt="" coords="2364,608,2624,636"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2741,762,2520,639,2523,634,2743,757"/>
+<area shape="rect" id="Node000029" href="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c" title="Generate source links for a given track seed and fill measurement container." alt="" coords="1825,759,2032,803"/>
+<area shape="poly" id="edge47_Node000001_Node000029" title=" " alt="" coords="2656,784,2032,784,2032,778,2656,778"/>
+<area shape="rect" id="Node000031" href="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d" title="Generate source links for a track using the cluster mover." alt="" coords="1825,828,2032,873"/>
+<area shape="poly" id="edge48_Node000001_Node000031" title=" " alt="" coords="2656,794,2032,845,2032,839,2656,789"/>
+<area shape="rect" id="Node000003" href="$d3/d64/classActsGeometry.html#a81e1d6479636cdf2b22d2acc993d7ff1" title="Compute global position of a tracker cluster using Acts geometry." alt="" coords="2080,499,2316,527"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2439,605,2237,530,2239,525,2441,600"/>
+<area shape="rect" id="Node000004" href="$de/d94/namespaceTrackFitUtils.html#af753ce36e7576ea5a7307daaba37f812" title="Project TPC fit parameters to silicon layers and associate nearest silicon clusters within a distance..." alt="" coords="1835,499,2022,527"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="2065,516,2022,516,2022,510,2065,510"/>
+<area shape="rect" id="Node000009" href="$de/d94/namespaceTrackFitUtils.html#a2f4c50b397295adf97e68f232c492251" title="Add clusters that lie within a distance cut from a fitted line." alt="" coords="1835,551,2022,595"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="2118,533,2022,555,2021,550,2117,528"/>
+<area shape="rect" id="Node000010" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a792dbfe6ae1c57cc74c4ab4c25457bd1" title="Compute truncated mean dEdx for a TPC track seed." alt="" coords="1858,689,1998,734"/>
+<area shape="poly" id="edge12_Node000003_Node000010" title=" " alt="" coords="2179,541,2118,609,2078,647,2033,679,2000,695,1998,691,2031,675,2075,643,2115,606,2175,538"/>
+<area shape="rect" id="Node000020" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a34d789265cb2c5b2ed2c78ae778a12bc" title="Calculate calibrated dEdx for a given track using TPC clusters." alt="" coords="1858,84,1998,129"/>
+<area shape="poly" id="edge24_Node000003_Node000020" title=" " alt="" coords="2190,485,2174,415,2144,324,2123,275,2098,227,2067,182,2030,143,1998,123,2000,119,2034,139,2071,179,2102,224,2128,273,2149,322,2179,414,2195,483"/>
+<area shape="rect" id="Node000021" href="$d6/d92/namespaceg4evalfn.html#a5313df3f8f0116273895bd65445cafdf" title="Construct a TrkrClusLoc object from a PHG4 truth cluster." alt="" coords="1841,152,2016,180"/>
+<area shape="poly" id="edge25_Node000003_Node000021" title=" " alt="" coords="2184,486,2161,434,2127,367,2083,296,2030,231,1996,203,1960,183,1963,178,1999,199,2034,227,2088,293,2132,365,2166,432,2189,484"/>
+<area shape="rect" id="Node000025" href="$d6/d92/namespaceg4evalfn.html#a51bd82af8c439a5ddafd73cbcc668e9b" title="Construct a TrkrClusLoc object for a SVTX cluster." alt="" coords="1842,240,2014,268"/>
+<area shape="poly" id="edge29_Node000003_Node000025" title=" " alt="" coords="2183,486,2161,441,2127,385,2084,329,2058,304,2031,282,2010,271,2013,266,2033,277,2062,300,2088,326,2132,382,2165,439,2188,484"/>
+<area shape="rect" id="Node000028" href="$d3/d0f/classTrksInJetQAClustManager.html#a5201aee3e92208c9400f2b31ad360dc4" title="============================================================================" alt="" coords="1836,292,2021,337"/>
+<area shape="poly" id="edge32_Node000003_Node000028" title=" " alt="" coords="2175,488,2115,420,2075,383,2031,351,2008,339,2010,335,2033,347,2078,379,2118,417,2179,485"/>
+<area shape="poly" id="edge33_Node000003_Node000029" title=" " alt="" coords="2187,542,2164,587,2130,642,2086,699,2034,748,2014,760,2011,756,2030,744,2082,696,2126,639,2159,584,2182,540"/>
+<area shape="poly" id="edge35_Node000003_Node000031" title=" " alt="" coords="2191,543,2172,601,2140,674,2094,751,2066,786,2034,818,2016,830,2013,825,2030,814,2062,783,2090,748,2135,672,2167,599,2186,541"/>
+<area shape="rect" id="Node000032" href="$de/d94/namespaceTrackFitUtils.html#a80236215f3f3c91e6f53316689959235" title="Retrieve global positions of clusters belonging to a tracklet." alt="" coords="1838,620,2019,665"/>
+<area shape="poly" id="edge36_Node000003_Node000032" title=" " alt="" coords="2164,538,2104,574,2033,610,2004,622,2002,617,2031,605,2101,569,2161,533"/>
+<area shape="rect" id="Node000037" href="$d2/dd7/classInttXYVertexFinder.html#a894470492f84dd68522c8c6d8e863af0" title="Process a single event within the Fun4All framework." alt="" coords="1857,361,2000,406"/>
+<area shape="poly" id="edge44_Node000003_Node000037" title=" " alt="" coords="2161,493,2101,457,2031,421,1999,408,2001,403,2033,416,2104,452,2164,488"/>
+<area shape="rect" id="Node000038" href="$d8/d0d/classInttZVertexFinder.html#a5615826980f562b8a70ef3031532b3f0" title="Process a single event and reconstruct the INTt Z vertex." alt="" coords="1857,431,2000,475"/>
+<area shape="poly" id="edge45_Node000003_Node000038" title=" " alt="" coords="2117,498,1999,471,2001,466,2119,493"/>
+<area shape="rect" id="Node000005" href="$d5/de1/classHelicalFitter.html#a2c91dd0d080d0cc62ba6cac912402b3b" title="Add silicon clusters to the helix fit using TrackFitUtils." alt="" coords="1588,352,1764,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1829,494,1823,490,1805,470,1798,450,1791,430,1775,411,1757,399,1760,395,1778,407,1795,427,1803,448,1810,467,1826,486,1832,489"/>
+<area shape="rect" id="Node000006" href="$d5/de1/classHelicalFitter.html#a98485e999dddb90f86479a58eb7b53a3" title="Process a single event and perform helical or straight line fits for silicon and/or TPC track seeds." alt="" coords="1597,491,1755,535"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1820,516,1756,516,1756,510,1820,510"/>
+<area shape="rect" id="Node000007" href="$dc/d54/classPHCosmicSiliconPropagator.html#a86b380592b27818d794f215a3b82827a" title="Process a single event and generate combined silicon and TPC seeds." alt="" coords="1575,560,1777,605"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="1853,534,1825,541,1752,562,1751,557,1824,536,1852,528"/>
+<area shape="rect" id="Node000008" href="$dd/d63/classPHSiliconHelicalPropagator.html#a45b97447e3eeb7efb980345f8bb6d809" title="Process event for silicon helical propagator." alt="" coords="1577,421,1775,466"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="1852,498,1824,490,1751,469,1752,464,1825,485,1853,492"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="1819,550,1755,534,1756,529,1821,545"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="1820,580,1777,581,1777,576,1820,574"/>
+<area shape="poly" id="edge11_Node000009_Node000008" title=" " alt="" coords="1831,545,1823,540,1807,525,1798,510,1790,495,1775,480,1755,469,1758,464,1778,476,1794,492,1803,507,1811,522,1826,536,1833,541"/>
+<area shape="rect" id="Node000011" href="$da/d3b/classKFParticle__Tools.html#a10bd3d996a6a86b189fff582b9edb048" title=" " alt="" coords="1579,975,1773,1003"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="1846,733,1827,748,1809,775,1802,802,1801,829,1804,856,1807,883,1807,911,1798,938,1779,966,1764,977,1761,973,1775,962,1793,936,1801,910,1802,883,1799,856,1796,829,1796,801,1804,773,1823,745,1843,729"/>
+<area shape="rect" id="Node000019" href="$d0/d15/classQAG4SimulationDistortions.html#a6ca085c14fc2c1f87ccdade934154401" title="Process a single event for QAG4SimulationDistortions." alt="" coords="1576,907,1776,951"/>
+<area shape="poly" id="edge23_Node000010_Node000019" title=" " alt="" coords="1846,734,1827,748,1813,766,1806,784,1803,820,1800,858,1793,877,1779,896,1764,908,1760,904,1775,892,1788,875,1795,857,1798,820,1801,783,1808,763,1823,744,1843,730"/>
+<area shape="rect" id="Node000012" href="$da/d3b/classKFParticle__Tools.html#a8d61d2e7d543e07be44f1600df52728d" title=" " alt="" coords="1315,975,1527,1003"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="1563,992,1528,992,1528,986,1563,986"/>
+<area shape="rect" id="Node000013" href="$da/d3b/classKFParticle__Tools.html#a88501a6ab1ec57007e26be66705a49d1" title=" " alt="" coords="1029,975,1267,1003"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="1299,992,1267,992,1267,986,1299,986"/>
+<area shape="rect" id="Node000014" href="$de/d4a/classKFParticle__eventReconstruction.html#a8eaf1011b0ed75eb915c26609e0a3182" title="Used to reconstruct more complicated decays with up to four intermediate states." alt="" coords="478,936,705,981"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="1013,984,705,967,706,962,1013,979"/>
+<area shape="rect" id="Node000017" href="$de/d4a/classKFParticle__eventReconstruction.html#abda5c8b6d5b0cf1ae1fecbe6436913dc" title="Basic building block for event reconstruction and selection." alt="" coords="753,996,981,1041"/>
+<area shape="poly" id="edge19_Node000013_Node000017" title=" " alt="" coords="1013,1006,982,1009,981,1004,1013,1000"/>
+<area shape="rect" id="Node000015" href="$de/d4a/classKFParticle__eventReconstruction.html#aaca26e12e1909c29e096a874797ead36" title="Construct decay candidates using primary vertices and daughter particles." alt="" coords="203,971,430,1015"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="463,977,431,981,430,976,462,972"/>
+<area shape="rect" id="Node000016" href="$d5/d72/classKFParticle__sPHENIX.html#aac7b97c325669f73559f04881cffae58" title="Process a single event within the Fun4All framework." alt="" coords="5,971,155,1015"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="187,996,155,996,155,990,187,990"/>
+<area shape="poly" id="edge22_Node000017_Node000014" title=" " alt="" coords="746,995,697,984,698,979,747,989"/>
+<area shape="rect" id="Node000018" href="$de/d4a/classKFParticle__eventReconstruction.html#aa34b02ebb9c1be33856e36b305f10811" title="Used to reconstruct simple decays with no intermediate states." alt="" coords="478,1005,705,1050"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="738,1025,706,1026,706,1021,738,1020"/>
+<area shape="poly" id="edge21_Node000018_Node000015" title=" " alt="" coords="462,1014,430,1010,431,1005,463,1009"/>
+<area shape="rect" id="Node000022" href="$d6/ded/classTrackClusEvaluator.html#a155b874a41b23b198f36fadc9ea340ae" title="Return vector of cluster locations that are matched to PHG4 hits." alt="" coords="1603,75,1749,119"/>
+<area shape="poly" id="edge26_Node000021_Node000022" title=" " alt="" coords="1852,151,1824,144,1748,122,1750,117,1825,138,1853,146"/>
+<area shape="rect" id="Node000023" href="$d6/ded/classTrackClusEvaluator.html#a0236d65478bd73479ce248654c256084" title="Return vector of TrkrClusLoc for all PHG4 clusters." alt="" coords="1603,144,1749,189"/>
+<area shape="poly" id="edge27_Node000021_Node000023" title=" " alt="" coords="1825,169,1749,169,1749,164,1825,164"/>
+<area shape="rect" id="Node000024" href="$d6/ded/classTrackClusEvaluator.html#ae8f4dcb3ba049b065b4976c55a7ac14c" title="Retrieve cluster locations for PHG4 clusters that have no match." alt="" coords="1579,5,1773,50"/>
+<area shape="poly" id="edge28_Node000021_Node000024" title=" " alt="" coords="1829,147,1823,143,1805,123,1798,103,1791,83,1775,64,1757,53,1760,48,1778,60,1795,81,1803,101,1810,121,1826,139,1832,143"/>
+<area shape="rect" id="Node000026" href="$d6/ded/classTrackClusEvaluator.html#a367258f4466e2d1609fdc96ad7930a92" title="Retrieve all SVTX cluster locations." alt="" coords="1603,283,1749,327"/>
+<area shape="poly" id="edge30_Node000025_Node000026" title=" " alt="" coords="1841,274,1750,293,1749,288,1840,269"/>
+<area shape="rect" id="Node000027" href="$d6/ded/classTrackClusEvaluator.html#a2953c88ad898cb1eabf2cf0d9ce058f3" title="Retrieve the locations of SVTX clusters that have not been matched." alt="" coords="1581,213,1771,258"/>
+<area shape="poly" id="edge31_Node000025_Node000027" title=" " alt="" coords="1826,249,1771,245,1771,240,1827,244"/>
+<area shape="rect" id="Node000030" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="1601,1027,1751,1071"/>
+<area shape="poly" id="edge34_Node000029_Node000030" title=" " alt="" coords="1829,815,1827,817,1810,842,1803,866,1801,890,1803,915,1805,940,1804,965,1796,990,1779,1016,1753,1035,1750,1031,1775,1012,1791,988,1799,964,1800,940,1798,915,1796,890,1797,865,1805,840,1823,814,1825,811"/>
+<area shape="poly" id="edge39_Node000032_Node000006" title=" " alt="" coords="1831,615,1823,610,1807,594,1798,579,1790,564,1775,550,1754,538,1757,533,1778,546,1794,561,1803,576,1811,591,1826,606,1833,610"/>
+<area shape="poly" id="edge40_Node000032_Node000007" title=" " alt="" coords="1822,620,1772,608,1773,603,1823,615"/>
+<area shape="poly" id="edge41_Node000032_Node000008" title=" " alt="" coords="1826,612,1823,609,1809,593,1802,576,1798,543,1794,511,1787,496,1775,480,1760,469,1763,464,1779,476,1792,493,1799,510,1803,543,1807,575,1814,590,1827,606,1830,609"/>
+<area shape="rect" id="Node000033" href="$d5/de1/classHelicalFitter.html#a0ca376fb01db52769599b52c9dfb370c" title="Retrieve clusters for a tracklet and fill global position and key vectors." alt="" coords="1586,837,1766,882"/>
+<area shape="poly" id="edge37_Node000032_Node000033" title=" " alt="" coords="1830,676,1827,679,1813,697,1806,715,1803,751,1800,789,1793,808,1779,827,1764,839,1760,835,1775,823,1788,805,1795,787,1798,751,1801,713,1808,694,1823,675,1826,672"/>
+<area shape="rect" id="Node000034" href="$d8/d99/classCosmicTrackQA.html#ac0c144ffa14178e3b3268954771f066b" title="Process a single event and fill QA histograms for cosmic tracks." alt="" coords="1586,629,1766,674"/>
+<area shape="poly" id="edge38_Node000032_Node000034" title=" " alt="" coords="1822,649,1767,651,1767,646,1822,644"/>
+<area shape="rect" id="Node000035" href="$db/d6c/classTpcSeedsQA.html#a4468d2812ff80bae2d0b63412e5780dd" title="Process a single event and fill QA histograms." alt="" coords="1596,699,1756,743"/>
+<area shape="poly" id="edge42_Node000032_Node000035" title=" " alt="" coords="1840,672,1751,701,1750,695,1839,667"/>
+<area shape="rect" id="Node000036" href="$de/d94/namespaceTrackFitUtils.html#aa6d9c8dcc339cd28343b39bad5688bc8" title="Compute track parameters assuming zero magnetic field using cluster positions." alt="" coords="1600,768,1752,813"/>
+<area shape="poly" id="edge43_Node000032_Node000036" title=" " alt="" coords="1832,675,1826,679,1810,698,1803,717,1795,737,1778,758,1754,773,1751,768,1775,754,1791,735,1798,715,1806,695,1823,675,1828,671"/>
+</map>

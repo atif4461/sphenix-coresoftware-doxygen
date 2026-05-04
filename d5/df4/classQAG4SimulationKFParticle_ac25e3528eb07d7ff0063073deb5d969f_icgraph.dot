@@ -1,0 +1,14 @@
+digraph "QAG4SimulationKFParticle::get_histo_prefix"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="QAG4SimulationKFParticle\l::get_histo_prefix",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct histogram name prefix for this module."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="QAG4SimulationKFParticle\l::Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/df4/classQAG4SimulationKFParticle.html#acb77e51e3a76cf82c014456503a7d5e9",tooltip="Initialize QA histograms for KFParticle analysis."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="QAG4SimulationKFParticle\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/df4/classQAG4SimulationKFParticle.html#a90300d5f56d13aee8a6fe305922187f1",tooltip="Process a single event using KFParticle reconstruction and fill analysis histograms."];
+}

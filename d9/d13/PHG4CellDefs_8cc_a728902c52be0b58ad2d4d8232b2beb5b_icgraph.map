@@ -1,0 +1,34 @@
+<map id="generic_lower_16bit_key" name="generic_lower_16bit_key">
+<area shape="rect" id="Node000001" title="Extract lower 16 bits of a cell key when the binning matches." alt="" coords="532,187,714,215"/>
+<area shape="rect" id="Node000002" href="$d6/dea/namespacePHG4CellDefs_1_1EtaPhiBinning.html#aa02b5c8e462bc6837c78175cdf9b206f" title="Retrieve the eta bin index from a PHG4CellDefs key." alt="" coords="266,5,476,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="600,176,551,120,518,90,483,65,460,53,462,48,485,60,522,86,554,116,604,173"/>
+<area shape="rect" id="Node000006" href="$da/d67/namespacePHG4CellDefs_1_1EtaXsizeBinning.html#aa4a027fc4150b9ff6dfeae2f63f61175" title="Get eta bin from a PHG4CellDefs key." alt="" coords="259,144,484,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="516,189,484,185,485,179,517,184"/>
+<area shape="rect" id="Node000007" href="$d1/d88/namespacePHG4CellDefs_1_1SpacalBinning.html#aebba0da0e18c5b1b72e0b8f3411035d2" title="Retrieve fiber identifier from a cell key." alt="" coords="265,283,478,327"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="584,225,485,273,453,285,451,280,483,268,582,220"/>
+<area shape="rect" id="Node000009" href="$d6/d84/namespacePHG4CellDefs_1_1SizeBinning.html#a722c36ec35c9e162ddc37f9647973a03" title="Retrieve the phi bin index from a packed cell key." alt="" coords="273,75,470,119"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="582,182,483,134,451,122,453,117,485,129,584,177"/>
+<area shape="rect" id="Node000011" href="$db/d1d/namespacePHG4CellDefs_1_1TPCBinning.html#ada6d40784388da4a252f63a9b3b1dfb0" title="Retrieve the radial bin index from a PHG4CellDefs key." alt="" coords="274,213,468,258"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="517,218,469,225,469,220,516,213"/>
+<area shape="rect" id="Node000012" href="$d4/db9/namespacePHG4CellDefs_1_1ScintillatorSlatBinning.html#abb9c995449306b9037050b026e7436e9" title="Retrieve the row bin index from a cell key." alt="" coords="276,352,466,397"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="604,229,554,286,522,316,485,342,462,354,460,349,483,337,518,312,551,282,600,226"/>
+<area shape="rect" id="Node000003" href="$d0/d39/classG4CellNtuple.html#a312e285a4bce0bc865cd8a5d6d4757c5" title="event processing method" alt="" coords="25,5,191,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="251,30,191,30,191,25,251,25"/>
+<area shape="rect" id="Node000004" href="$d5/dd0/classPHG4CylinderCellReco.html#a1d282a92e9d6254d37f5fffceb213684" title="event processing" alt="" coords="24,75,192,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="270,57,193,77,192,72,268,52"/>
+<area shape="rect" id="Node000005" href="$d3/d0b/classDumpPHG4CellContainer.html#a0de9f51ab04b2987204f3ecfcffe52d0" title="Process a PHNode containing a PHG4CellContainer and dump its contents." alt="" coords="16,213,200,258"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="264,61,261,64,247,81,240,97,237,132,234,167,226,185,213,203,197,215,194,211,209,199,222,182,228,166,232,131,235,96,243,78,257,61,260,57"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="270,196,196,215,195,210,268,191"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="268,281,195,261,196,256,270,276"/>
+<area shape="rect" id="Node000008" href="$dc/d20/classPHG4FullProjSpacalCellReco.html#aa31a2feab594c495ddf4133d72a9badb" title="event processing" alt="" coords="5,283,211,327"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="250,308,211,308,211,302,250,302"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="268,73,190,52,192,47,270,68"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="258,100,193,100,193,94,258,94"/>
+<area shape="poly" id="edge14_Node000009_Node000005" title=" " alt="" coords="267,129,260,134,245,150,237,167,229,185,212,203,193,215,190,211,209,199,224,182,232,165,240,147,257,130,264,125"/>
+<area shape="rect" id="Node000010" href="$d7/d10/classRawTowerBuilder.html#ad0a6455417563fffe5bed003d4421d24" title="Process event for raw tower building." alt="" coords="12,144,204,189"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="270,126,196,146,195,141,268,121"/>
+<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="258,238,201,238,201,233,258,233"/>
+<area shape="poly" id="edge19_Node000012_Node000005" title=" " alt="" coords="264,346,257,342,240,324,232,306,224,289,209,272,190,261,193,256,212,268,229,286,237,304,245,321,260,338,267,342"/>
+<area shape="rect" id="Node000013" href="$d1/dec/classHcalRawTowerBuilder.html#af9d1f141a1478bbd8c8d04d798c92781" title="Process event for Hcal raw tower building." alt="" coords="27,352,189,397"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="261,377,190,377,190,372,261,372"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="TpcDefs::getPad" name="TpcDefs::getPad">
+<area shape="rect" id="Node000001" title="Get the pad index from hitkey." alt="" coords="284,326,410,354"/>
+<area shape="rect" id="Node000002" href="$dd/dc0/classTpcClusterBuilder.html#a0ccc39c3be0dddc61924ba6856176c40" title="Build clusters from TPC hits for a given truth track." alt="" coords="48,5,193,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="340,311,330,258,311,192,280,123,259,92,234,64,214,51,192,41,194,36,217,46,237,60,263,89,285,121,316,190,335,257,345,310"/>
+<area shape="rect" id="Node000003" href="$d0/dc8/classTrksInJetQAHitManager.html#a6ac006150df31f5018b2b4d18e85a313" title="===========================================================================" alt="" coords="35,75,206,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="336,312,322,272,301,224,272,175,234,134,205,117,208,112,237,130,276,172,306,221,327,270,341,310"/>
+<area shape="rect" id="Node000004" href="$d7/ddb/classPHG4TpcElectronDrift.html#aeea2d1046042fabf274bc85a6221955f" title="Process event for TPC electron drift simulation." alt="" coords="40,144,201,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="329,314,290,257,264,228,234,203,201,186,203,182,237,199,268,224,294,254,333,311"/>
+<area shape="rect" id="Node000005" href="$d9/d15/classPHG4TpcPadBaselineShift.html#a3bb5562810279bd00fe4e241d8f94d52" title="Process a single event and apply baseline shift to TPC pad ADC values." alt="" coords="26,213,215,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="313,319,276,295,235,273,205,261,207,256,237,268,279,290,315,314"/>
+<area shape="rect" id="Node000006" href="$df/d22/classreadDigitalCurrents.html#a6a62faef5b06dd4f4ced98dda98a17bd" title="Process a single event within the Fun4All framework." alt="" coords="46,283,195,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="268,330,195,319,196,314,268,325"/>
+<area shape="rect" id="Node000007" href="$d4/d1d/classTpc3DClusterizer.html#a93d017d1dd124d9b80802fdc11d9bfd6" title="Process a single event within the Fun4All framework." alt="" coords="25,352,216,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="269,354,216,362,216,357,268,349"/>
+<area shape="rect" id="Node000008" href="$da/d87/classTpcClusterQA.html#a889cbf89016d5d74919d594afd112b2c" title="Process a single event within the Fun4All framework." alt="" coords="37,421,204,466"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="315,365,279,389,237,411,205,424,203,419,235,407,276,384,313,360"/>
+<area shape="rect" id="Node000009" href="$d2/d1a/classTpcCombinedRawDataUnpacker.html#a8e6a15ecbd82563278cdb842c8426a92" title="Process a single event from the node tree." alt="" coords="5,491,236,535"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="333,369,294,425,268,455,237,481,216,492,213,488,234,476,264,451,290,422,329,366"/>
+<area shape="rect" id="Node000010" href="$dd/dc4/classTpcCombinedRawDataUnpackerDebug.html#a5f20b1491f0026ece1a2997e917e4c1b" title="Process event for TpcCombinedRawDataUnpackerDebug." alt="" coords="5,560,236,605"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="341,369,327,409,306,458,276,507,237,550,219,562,216,557,234,546,272,504,301,456,322,407,336,367"/>
+<area shape="rect" id="Node000011" href="$d3/d9e/classTpcRawWriter.html#a2532df233f446e0b67f790d31f45d1ad" title="Process a single event for the TpcRawWriter module." alt="" coords="35,629,206,674"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="345,369,335,422,316,489,285,559,263,591,237,619,208,638,205,633,234,615,259,587,280,556,311,487,330,421,340,368"/>
+</map>

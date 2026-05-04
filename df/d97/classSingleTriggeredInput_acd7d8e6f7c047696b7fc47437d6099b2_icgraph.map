@@ -1,0 +1,13 @@
+<map id="SingleTriggeredInput::KeepMyPackets" name="SingleTriggeredInput::KeepMyPackets">
+<area shape="rect" id="Node000001" title=" " alt="" coords="656,40,811,85"/>
+<area shape="rect" id="Node000002" href="$d5/da4/classSingleGl1TriggeredInput.html#ae0bc1ed893810905aa61ce4920ebd92e" title="Create DST nodes for packets from event." alt="" coords="432,5,608,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="641,50,608,45,609,39,642,45"/>
+<area shape="rect" id="Node000003" href="$df/d97/classSingleTriggeredInput.html#a55a9b8d237d0e47a00d0a0fd882ca9ad" title="Create or retrieve DST nodes for packet storage and populate them from the given event." alt="" coords="443,75,597,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="642,80,598,87,597,82,641,75"/>
+<area shape="rect" id="Node000004" href="$df/d97/classSingleTriggeredInput.html#a7f5fbe72af4271a3d227839758de7fe1" title="Fill event vector with synchronized data events from input files." alt="" coords="230,75,384,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="428,100,384,100,384,94,428,94"/>
+<area shape="rect" id="Node000005" href="$d5/da4/classSingleGl1TriggeredInput.html#a121a71e126cb86f80b0a7455c61d3a1d" title="FillPool populates the event vector if there are remaining input files and not all events have been p..." alt="" coords="5,40,182,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="214,85,182,79,183,74,215,79"/>
+<area shape="rect" id="Node000006" href="$df/d97/classSingleTriggeredInput.html#a507f0a733e9688979a5887766aa431f2" title="Fill the event pool for a SingleTriggeredInput instance." alt="" coords="16,109,171,154"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="215,115,172,122,171,116,214,109"/>
+</map>

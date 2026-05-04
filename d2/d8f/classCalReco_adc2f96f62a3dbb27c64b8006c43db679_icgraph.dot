@@ -1,0 +1,16 @@
+digraph "CalReco::CopyTables"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="CalReco::CopyTables",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Stub implementation for copying calibration tables."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4CalServer::CopyTables",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d51/classFun4CalServer.html#a9941aef5edaec98db4db14da2e60179c",tooltip="Copy calibration tables from one run to another using provided calibrator."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Fun4CalServer::Overwrite\lCalibration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d51/classFun4CalServer.html#a0cc70b80c689b680aea205da99d04051",tooltip="Overwrite calibration data for a given run."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Fun4CalServer::FixMissing\lCalibration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d51/classFun4CalServer.html#aeec1caca8c4e4b7b40800ed86aa4d9e4",tooltip="Fix missing calibration entries for a given run."];
+}

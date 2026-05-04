@@ -1,0 +1,17 @@
+digraph "SvtxTrack_v1::end_clusters"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTrack_v1::end_clusters",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Return iterator to the end of the constant cluster collection."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrack_FastSim::\lidentify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/da8/classSvtxTrack__FastSim.html#a69d872d53515332c6f431be1da6887f4",tooltip="Identify and print detailed information of a SvtxTrack_FastSim object."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxTrack_FastSim_v1\l::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d68/classSvtxTrack__FastSim__v1.html#a0ed6fe69dd2febdf7c8828c60142ccac",tooltip="Identify the SvtxTrackFastSimv1 object and print its G4Hit IDs."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SvtxTrack_v1::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/de4/classSvtxTrack__v1.html#a7c816df61589ef81d5def0bee904d8d0",tooltip="Print a human‑readable summary of the SvtxTrack_v1 object to the given output stream."];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

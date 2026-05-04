@@ -1,0 +1,14 @@
+digraph "PHG4DetectorSubsystem::get_string_param"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4DetectorSubsystem\l::get_string_param",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve a string parameter from the subsystem configuration."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4CylinderSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc5/classPHG4CylinderSubsystem.html#a36e9fe9b69b4314846e245a1c6119cf3",tooltip="init runwise stuff"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4OHCalSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/df4/classPHG4OHCalSubsystem.html#a39ad4f74252db3f41d86408417c781b1",tooltip="Initialize the OHCal subsystem for a new run."];
+}

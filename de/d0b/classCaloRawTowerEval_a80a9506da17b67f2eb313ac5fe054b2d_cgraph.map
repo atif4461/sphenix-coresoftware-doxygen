@@ -1,0 +1,16 @@
+<map id="CaloRawTowerEval::all_truth_primary_particles" name="CaloRawTowerEval::all_truth_primary_particles">
+<area shape="rect" id="Node000001" title="Retrieve all primary truth particles contributing to a given tower." alt="" coords="5,116,186,160"/>
+<area shape="rect" id="Node000002" href="$de/d0b/classCaloRawTowerEval.html#a5a2cdd97ddb786afa4de18ee12bc5bf2" title="what primary showers contributed energy to this tower?" alt="" coords="234,30,412,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,112,246,78,248,83,158,117"/>
+<area shape="rect" id="Node000004" href="$de/d0b/classCaloRawTowerEval.html#a90bd4095586faf2ef722a6baf8c79691" title="has the eval initialized correctly for reduced sim DST nodes?" alt="" coords="467,81,646,126"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="186,128,451,108,452,114,187,134"/>
+<area shape="rect" id="Node000005" href="$de/d0b/classCaloRawTowerEval.html#a86c06b3d2cbb008904d9f0811f9ad9c9" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="701,112,875,156"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="186,136,653,135,686,135,686,140,653,140,186,141"/>
+<area shape="rect" id="Node000006" href="$d7/d3c/classCaloTruthEval.html#a8cf23ffd62bf8e3fe09775bf807b64bc" title="what was the primary particle associated with the shower object?" alt="" coords="253,201,392,246"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="158,158,248,192,246,197,156,163"/>
+<area shape="rect" id="Node000003" href="$d9/dd8/classRawTower.html#ab13148d0de5d525fe7a490fffc04e50c" title="Retrieve a constant range of Geant4 showers for this tower." alt="" coords="460,5,653,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,37,444,33,445,38,413,42"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="413,69,452,78,451,83,412,74"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="512,81,511,71,519,62,534,56,557,54,582,57,597,63,594,68,580,62,557,59,535,61,522,66,516,72,518,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="647,112,686,118,685,123,646,118"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="TrkrNtuplizer::InitRun" name="TrkrNtuplizer::InitRun">
+<area shape="rect" id="Node000001" title="Initialize run specific geometry and calibration data." alt="" coords="5,187,164,214"/>
+<area shape="rect" id="Node000002" href="$d7/db0/namespaceTpcDefs.html#a0202375ade5010ae596a2e0b7c7f5fd0" title="Generate a cluster key from indeces." alt="" coords="230,31,388,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,184,140,128,173,96,210,69,224,62,226,67,213,73,176,100,143,132,98,188"/>
+<area shape="rect" id="Node000006" href="$d1/dda/classPHG4TpcGeom.html#a394a737a5f4e070853d138a1b1c88283" title=" " alt="" coords="222,83,397,110"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="104,184,151,152,211,121,231,113,233,118,213,126,154,157,107,188"/>
+<area shape="rect" id="Node000007" href="$d1/dda/classPHG4TpcGeom.html#a6d042bc27816f3784c4649cdc2d8d777" title=" " alt="" coords="212,135,407,162"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="147,183,231,164,232,169,148,189"/>
+<area shape="rect" id="Node000008" href="$d1/dda/classPHG4TpcGeom.html#a3fe5405b4a41fc532974d168fe776f16" title=" " alt="" coords="212,187,407,214"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="164,198,196,198,196,203,164,203"/>
+<area shape="rect" id="Node000009" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="238,239,381,266"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="148,212,232,232,231,237,147,218"/>
+<area shape="rect" id="Node000015" href="$d5/d4b/classCDBInterface.html#ac1458cd6adb1e2944371c40a90dc9dfe" title="Get singleton instance of CDBInterface." alt="" coords="224,291,394,318"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="107,213,154,244,213,275,233,283,231,288,211,280,151,249,104,217"/>
+<area shape="rect" id="Node000016" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="224,343,394,370"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="98,213,143,269,176,301,213,328,226,334,224,339,210,332,173,305,140,273,94,217"/>
+<area shape="rect" id="Node000003" href="$d6/d3f/namespaceTrkrDefs.html#a5cc3b1fa8e62e3fc5fb698fe1991cfae" title="generate cluster key from hitset key and cluster index" alt="" coords="466,5,625,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,33,451,27,451,32,389,39"/>
+<area shape="rect" id="Node000004" href="$d7/db0/namespaceTpcDefs.html#a30fc79495c9e8d14327d1026cd7325c7" title="Generate a hitsetkey for the tpc." alt="" coords="460,57,631,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="389,51,446,57,445,63,389,56"/>
+<area shape="rect" id="Node000005" href="$d6/d3f/namespaceTrkrDefs.html#a418e306477093b8d17d587be70b908a3" title="generate the common upper 16 bits for hitsetkey" alt="" coords="713,57,885,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="631,68,698,68,698,74,631,74"/>
+<area shape="rect" id="Node000010" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="455,213,636,241"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="381,242,439,236,440,241,382,247"/>
+<area shape="rect" id="Node000014" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="464,265,628,293"/>
+<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="382,258,448,266,448,271,381,263"/>
+<area shape="poly" id="edge10_Node000010_Node000010" title=" " alt="" coords="505,214,499,204,504,195,520,189,546,187,573,189,588,196,586,200,572,194,546,192,521,194,507,199,504,204,510,211"/>
+<area shape="rect" id="Node000011" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="728,161,870,189"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="616,210,712,190,713,195,617,215"/>
+<area shape="rect" id="Node000012" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="733,213,865,241"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="637,224,717,224,717,230,637,230"/>
+<area shape="rect" id="Node000013" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="684,265,914,293"/>
+<area shape="poly" id="edge13_Node000010_Node000013" title=" " alt="" coords="617,239,713,259,712,264,616,244"/>
+</map>

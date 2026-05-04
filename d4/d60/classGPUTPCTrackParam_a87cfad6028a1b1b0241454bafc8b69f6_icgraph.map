@@ -1,0 +1,24 @@
+<map id="GPUTPCTrackParam::GetX" name="GPUTPCTrackParam::GetX">
+<area shape="rect" id="Node000001" title=" " alt="" coords="857,228,1047,256"/>
+<area shape="rect" id="Node000002" href="$de/dfe/classALICEKF.html#a44f906df99f1bd40e2db1d8e9705f4b0" title="Perform an ALICE style Kalman filter on a collection of track seed key lists and produce sPHENIX and ..." alt="" coords="5,279,208,306"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="941,271,921,308,893,351,856,391,834,409,811,423,763,442,714,454,664,461,613,463,562,460,511,453,413,431,321,400,241,366,130,309,133,304,243,361,323,395,414,425,512,448,563,455,613,458,664,456,713,449,762,437,808,418,831,405,852,388,889,347,917,305,936,268"/>
+<area shape="rect" id="Node000003" href="$d4/d60/classGPUTPCTrackParam.html#a27b172770d0e6d68fcf7370d71d291cf" title="Verify that track parameters and covariance matrix contain finite and physically reasonable values." alt="" coords="545,57,809,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="925,218,874,170,842,145,808,123,767,105,769,100,811,118,845,140,878,166,929,214"/>
+<area shape="rect" id="Node000004" href="$de/dfe/classALICEKF.html#a09cf0e43e21e3c2569de4c872722c326" title="Perform a Kalman filter step for a given cluster and update track parameters." alt="" coords="304,125,448,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="918,221,868,192,809,167,713,147,615,137,524,135,449,137,449,131,524,129,616,132,714,142,810,162,870,187,920,217"/>
+<area shape="rect" id="Node000005" href="$d4/d60/classGPUTPCTrackParam.html#ad635b543205c917ebfb4b393fa503c9b" title="Compute the point on the helix that is closest to a given spatial coordinate." alt="" coords="256,255,497,282"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="921,267,871,297,841,311,810,322,737,337,678,339,619,333,545,322,474,306,413,285,415,280,475,301,545,317,620,328,678,334,736,331,809,317,839,306,868,293,918,263"/>
+<area shape="rect" id="Node000006" href="$d4/d60/classGPUTPCTrackParam.html#a0d641cce40bc9d325b72354f96009a91" title="Compute squared Euclidean distance between this track and another track." alt="" coords="570,228,784,256"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="842,244,785,244,785,239,842,239"/>
+<area shape="rect" id="Node000007" href="$d4/d60/classGPUTPCTrackParam.html#a840931e34260f4f8f06ca50c05e322a5" title="Compute squared distance in XZ plane between this track and another." alt="" coords="561,280,793,308"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="860,262,755,282,754,277,859,257"/>
+<area shape="rect" id="Node000008" href="$d4/d60/classGPUTPCTrackParam.html#af5292b98a6bcc9a754d3f6b2706ab307" title="Compute the signed transverse path length from the track reference point to a target point." alt="" coords="583,176,771,204"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="859,227,754,207,755,202,860,222"/>
+<area shape="rect" id="Node000009" href="$d4/d60/classGPUTPCTrackParam.html#a347b9192f16033a14d90908bbeb0f4e8" title="Print track parameters and error variances to standard output." alt="" coords="584,381,771,409"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="930,269,879,319,846,344,811,366,764,383,762,378,808,361,843,340,875,315,926,266"/>
+<area shape="rect" id="Node000010" href="$de/dfe/classALICEKF.html#a3d53f85bf7c62a804f609abbac24db5f" title="Transport a track from an old radius to a new radius while updating the azimuthal angle." alt="" coords="572,5,782,33"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="937,215,917,176,889,130,852,84,808,47,782,34,784,29,811,42,856,81,893,127,922,174,941,213"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="338,163,134,280,132,276,335,159"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="584,210,546,219,421,257,419,252,544,214,583,205"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="568,40,546,47,504,65,463,87,399,127,396,123,460,82,501,61,544,42,566,35"/>
+</map>

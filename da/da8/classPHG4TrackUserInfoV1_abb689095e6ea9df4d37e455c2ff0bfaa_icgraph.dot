@@ -1,0 +1,16 @@
+digraph "PHG4TrackUserInfoV1::SetKeep"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4TrackUserInfoV1\l::SetKeep",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4TruthTrackingAction\l::PreUserTrackingAction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5c/classPHG4TruthTrackingAction.html#af910d1c962f76878f85116c87aba3531",tooltip="tracking action"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4TrackUserInfo::\lSetKeep",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d7f/namespacePHG4TrackUserInfo.html#abb1ec2691c38b8764dee9d35a9837761",tooltip="Set keep flag for a Geant4 track."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4EPDSteppingAction\l::UserSteppingAction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dc2/classPHG4EPDSteppingAction.html#ae1644f36e67123501e351509b3d12843",tooltip="Process a Geant4 step for the EPD detector and create or update a hit."];
+}

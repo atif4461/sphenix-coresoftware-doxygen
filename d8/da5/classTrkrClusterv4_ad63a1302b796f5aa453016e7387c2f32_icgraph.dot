@@ -1,0 +1,16 @@
+digraph "TrkrClusterv4::setAdc"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrkrClusterv4::setAdc",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcClusterBuilder::\lcluster_hits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc0/classTpcClusterBuilder.html#a0ccc39c3be0dddc61924ba6856176c40",tooltip="Build clusters from TPC hits for a given truth track."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrkrClusterv4::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/da5/classTrkrClusterv4.html#a0ca70da748448602186d4f284cd43e40",tooltip="copy content from base class"];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrkrClusterv4::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/da5/classTrkrClusterv4.html#aeb05d40a09e6e677c2baa22444a2c650",tooltip="copy content from base class"];
+}

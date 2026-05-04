@@ -1,0 +1,11 @@
+<map id="RawCluster::set_z" name="RawCluster::set_z">
+<area shape="rect" id="Node000001" title=" " alt="" coords="526,83,663,111"/>
+<area shape="rect" id="Node000002" href="$d2/d46/classRawClusterBuilderGraph.html#ae19143d2c8d7071e7cde26358e7623f5" title="Process a single event building raw clusters from calibrated towers." alt="" coords="280,5,460,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="532,81,444,53,445,48,534,76"/>
+<area shape="rect" id="Node000003" href="$d8/d5d/classRawClusterBuilderTemplate.html#a0146334be461b53ed1d9a183794c8277" title="Process a single event building raw clusters from tower or towerinfo data." alt="" coords="269,75,470,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="510,100,471,100,471,94,510,94"/>
+<area shape="rect" id="Node000004" href="$d8/db8/classCaloRecoUtility.html#ab8cae7615ee21fee2b6581007d09ce96" title="corrects cluster Z (implicitly also eta) for updated z vertex" alt="" coords="262,144,478,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="534,118,445,146,444,141,532,113"/>
+<area shape="rect" id="Node000005" href="$d6/de8/classRawClusterZVertexRecorrect.html#a77e9e8d2d15261e75a58fd287405fabf" title="Process a single event applying vertex corrections to raw clusters." alt="" coords="5,144,214,189"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="246,169,214,169,214,164,246,164"/>
+</map>

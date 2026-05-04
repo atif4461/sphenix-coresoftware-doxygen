@@ -1,0 +1,16 @@
+digraph "InttBCOMap::IsBad"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="InttBCOMap::IsBad",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Determine whether a specific BCO is flagged as bad for a given offline detector element."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="InttBCOMap::IsBad",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dc0/classInttBCOMap.html#a57ef9b36e7bdb53a98c3357e80a06129",tooltip="Determine whether a given BCO value is considered bad for a specific FELIX server and channel."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="InttNameSpace::ToRawData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/deb/namespaceInttNameSpace.html#ab75d69ba5d923ed43093d6adef832faf",tooltip="Convert online representation to raw data structure."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="InttFelix::OnlineToRawData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/namespaceInttFelix.html#a0097ee0a27c38a2c185be755d7daa8f5",tooltip="Convert online address to raw data felix mapping."];
+}

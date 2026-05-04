@@ -1,0 +1,19 @@
+<map id="AnnularFieldSim::swimToInAnalyticSteps" name="AnnularFieldSim::swimToInAnalyticSteps">
+<area shape="rect" id="Node000001" title="Propagate a particle to a target z position using analytic steps in the annular field." alt="" coords="5,14,202,59"/>
+<area shape="rect" id="Node000002" href="$de/d64/classAnnularFieldSim.html#a89886f51584b79fee6e61ca60e353545" title="Map an azimuthal angle to the positive range [0, 2π)." alt="" coords="747,5,959,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,26,485,10,592,8,699,10,732,11,731,16,699,15,592,13,485,15,202,31"/>
+<area shape="rect" id="Node000003" href="$de/d64/classAnnularFieldSim.html#ac961e366f82550417663d8604e55aec2" title="Compute the distortion vector for a particle step to a specified z destination." alt="" coords="250,81,437,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,57,246,73,245,79,186,62"/>
+<area shape="poly" id="edge8_Node000003_Node000002" title=" " alt="" coords="388,78,434,58,484,42,547,30,611,22,732,15,732,20,612,27,548,35,486,47,435,63,390,83"/>
+<area shape="rect" id="Node000004" href="$de/d64/classAnnularFieldSim.html#a3451f4963ce7c171bfbd0d566d3f10b9" title=" " alt="" coords="498,81,686,126"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="437,100,483,100,483,106,437,106"/>
+<area shape="rect" id="Node000005" href="$de/d64/classAnnularFieldSim.html#af49cb183b20be9a1ceba70f1a3b5c64e" title="Integrate electric field along z from start to zdest assuming straight line path." alt="" coords="486,149,699,177"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="438,124,486,135,516,143,515,148,484,140,436,129"/>
+<area shape="rect" id="Node000007" href="$de/d64/classAnnularFieldSim.html#aef1291170f9342d354fd2d9e41706fb0" title=" " alt="" coords="485,225,699,270"/>
+<area shape="poly" id="edge9_Node000003_Node000007" title=" " alt="" coords="383,124,486,186,537,215,534,219,484,191,380,128"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="545,81,543,71,551,62,568,56,592,54,619,57,635,63,633,68,618,62,592,59,569,61,554,66,549,72,550,80"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="670,146,698,135,735,115,769,90,825,42,828,46,773,94,738,119,700,140,672,151"/>
+<area shape="rect" id="Node000006" href="$d8/d64/classMultiArray.html#aec5a4ca1ee2a856a7574a75d6ad48568" title="Retrieve element from multi dimensional field." alt="" coords="793,149,913,177"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="699,160,778,160,778,166,699,166"/>
+<area shape="poly" id="edge10_Node000007_Node000007" title=" " alt="" coords="545,225,543,215,551,206,568,200,592,198,619,201,635,207,633,212,618,206,592,203,569,205,554,210,549,216,550,224"/>
+</map>

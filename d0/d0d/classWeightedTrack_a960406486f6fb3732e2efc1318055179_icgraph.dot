@@ -1,0 +1,12 @@
+digraph "WeightedTrack::get_path_length_of_pca"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="WeightedTrack::get\l_path_length_of_pca",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Finds the path length that gives the point of closest approach to the given point."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="WeightedTrack::get_pca",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d0d/classWeightedTrack.html#aae329662bdcc0a279dc10061b7d8aa26",tooltip="Returns the 3D position (in global coordinates) of the point on the track, with its current parameter..."];
+}

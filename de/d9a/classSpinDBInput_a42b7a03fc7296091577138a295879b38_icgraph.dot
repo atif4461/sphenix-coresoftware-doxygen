@@ -1,0 +1,21 @@
+digraph "SpinDBInput::CheckRunRow"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SpinDBInput::CheckRunRow",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Verify existence of a database entry for a specific run and QA level."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SpinDBInput::CreateRunRow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/classSpinDBInput.html#a1e70069d3abdd5ed5d4605e565b57df9",tooltip="Create a new run entry in the spin database."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SpinDBInput::DeleteRunRow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/classSpinDBInput.html#a119cf7dcb3fd73bd6a6be73db6430a2e",tooltip="Delete a row for a given run number and QA level from the spin table."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SpinDBInput::InitializeRunRow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/classSpinDBInput.html#a1089b1523926f5efdd2f6ed2108cd53b",tooltip="Initialize database entries for a given run and QA level."];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SpinDBInput::SetDefaultQA",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/classSpinDBInput.html#ad6ea6f38522427eada37cb5be36fa36e",tooltip="Set the default QA entry for the given run in the spin database."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SpinDBInput::UpdateDBContent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/classSpinDBInput.html#aaaa4495d4ef5adfe9582a71d333a53e8",tooltip="Update database content with spin data."];
+}

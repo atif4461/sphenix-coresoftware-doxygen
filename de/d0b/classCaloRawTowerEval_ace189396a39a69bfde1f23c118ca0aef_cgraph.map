@@ -1,0 +1,21 @@
+<map id="CaloRawTowerEval::max_truth_primary_shower_by_energy" name="CaloRawTowerEval::max_truth_primary_shower_by_energy">
+<area shape="rect" id="Node000001" title="which primary shower contributed the most energy to this tower?" alt="" coords="5,64,187,125"/>
+<area shape="rect" id="Node000002" href="$de/d0b/classCaloRawTowerEval.html#a5a2cdd97ddb786afa4de18ee12bc5bf2" title="what primary showers contributed energy to this tower?" alt="" coords="235,72,413,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,92,219,92,219,97,187,97"/>
+<area shape="rect" id="Node000004" href="$de/d0b/classCaloRawTowerEval.html#a90bd4095586faf2ef722a6baf8c79691" title="has the eval initialized correctly for reduced sim DST nodes?" alt="" coords="468,29,647,74"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="187,66,234,57,347,47,452,46,452,51,347,53,235,62,188,71"/>
+<area shape="rect" id="Node000006" href="$de/d0b/classCaloRawTowerEval.html#abe64f9fcff4f576efcaef1e607216577" title="how much energy did this primary shower contribute to this tower?" alt="" coords="237,141,410,186"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="188,119,234,134,233,139,186,124"/>
+<area shape="rect" id="Node000003" href="$d9/dd8/classRawTower.html#ab13148d0de5d525fe7a490fffc04e50c" title="Retrieve a constant range of Geant4 showers for this tower." alt="" coords="461,98,654,126"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="413,98,445,101,445,106,413,104"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="413,75,452,68,453,73,414,81"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="513,29,512,19,520,10,535,5,558,3,583,5,598,12,595,17,581,10,558,8,536,10,523,15,517,21,519,28"/>
+<area shape="rect" id="Node000005" href="$de/d0b/classCaloRawTowerEval.html#a86c06b3d2cbb008904d9f0811f9ad9c9" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="702,29,876,74"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="647,49,687,49,687,54,647,54"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="410,142,477,127,478,132,411,147"/>
+<area shape="poly" id="edge10_Node000006_Node000004" title=" " alt="" coords="389,138,411,127,435,106,459,84,469,79,472,83,463,89,439,110,415,131,392,143"/>
+<area shape="rect" id="Node000007" href="$d9/dd8/classRawTower.html#af8508a94f4b64147ad8e919f6d25fb5a" title="Find G4 shower by identifier." alt="" coords="463,150,652,178"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="411,161,448,161,448,166,411,166"/>
+<area shape="rect" id="Node000008" href="$db/d88/classPHG4Shower.html#a67f9ec8ddb81a68b90ac138da013038c" title=" " alt="" coords="481,202,634,230"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="411,180,478,195,477,201,410,185"/>
+</map>

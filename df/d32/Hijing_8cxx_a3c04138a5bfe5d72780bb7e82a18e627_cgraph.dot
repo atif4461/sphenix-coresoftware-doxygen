@@ -1,0 +1,32 @@
+digraph "main"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="main",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="entry point for sHijing application"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fillEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d32/Hijing_8cxx.html#a5167bc73bbfc90d28b8031d64ce33f44",tooltip="Fill a HepMC::GenEvent with particles and heavy‑ion information extracted from a Hijing event."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="hijfst_control",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/ddc/hijfst_8cc.html#a008bf25a2dabd099532d07fbffc0c07e",tooltip="Configure hijfst algorithm selection and parameters."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/ded/CaloCDB-FilterDatasets_8cc.html#a814244b02f6701fd8ead246678bb3dae",tooltip="Entry point for the dataset filtering utility."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="recoConsts::instance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="FilterDatasets::process",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d2b/classFilterDatasets.html#abb692ef5f92c737d204efb5bcf0bc93c",tooltip="Process input dataset and produce filtered output."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="myUtils::readCSV",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d06/classmyUtils.html#a14479b212500bcc69ab0007d5212c577",tooltip="Reads a CSV (or any line-delimited) file and applies a handler function to each line."];
+  Node4 -> Node8 [id="edge7_Node000004_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHFlag::set_StringFlag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da8/classPHFlag.html#a87db2b9dd3c72667bc339e1e106c67bb",tooltip="Set a string flag in the internal map."];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="v",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b",tooltip=" "];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="d1mach",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2",tooltip=" "];
+  Node10 -> Node10 [id="edge10_Node000010_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node11 [id="edge11_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="i1mcry",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9",tooltip=" "];
+  Node9 -> Node9 [id="edge12_Node000009_Node000009",color="steelblue1",style="solid",tooltip=" "];
+}

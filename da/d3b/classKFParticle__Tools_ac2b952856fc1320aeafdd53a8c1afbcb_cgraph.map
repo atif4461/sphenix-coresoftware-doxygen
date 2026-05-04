@@ -1,0 +1,24 @@
+<map id="KFParticle_Tools::makeAllDaughterParticles" name="KFParticle_Tools::makeAllDaughterParticles">
+<area shape="rect" id="Node000001" title="Build a vector of KFParticle objects representing all selected daughter tracks." alt="" coords="5,135,193,179"/>
+<area shape="rect" id="Node000002" href="$d2/dac/classSvtxTrackState.html#a988120512de3a4d4c6514d610894a2d6" title=" " alt="" coords="276,5,424,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,132,178,96,239,60,261,51,263,56,242,65,181,100,131,136"/>
+<area shape="rect" id="Node000003" href="$d2/dac/classSvtxTrackState.html#a2d34464a9ba3be726c19ca9daa8073a5" title=" " alt="" coords="276,75,424,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,132,260,116,261,121,194,137"/>
+<area shape="rect" id="Node000004" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="278,143,422,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,154,262,154,262,160,193,160"/>
+<area shape="rect" id="Node000010" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="280,195,420,223"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="194,174,265,189,264,194,193,179"/>
+<area shape="rect" id="Node000011" href="$da/d3b/classKFParticle__Tools.html#a2e61ebde2a928a61144a1561bc1f0ca8" title="Create a KFParticle from the current DST track without applying mass or vertex constraints." alt="" coords="241,247,459,275"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="137,177,186,206,242,232,265,240,263,245,240,237,183,210,134,182"/>
+<area shape="rect" id="Node000005" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="507,118,688,146"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="422,147,491,140,491,145,422,152"/>
+<area shape="rect" id="Node000009" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="516,170,680,198"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="422,162,500,171,500,176,422,167"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="556,119,549,109,554,99,571,93,598,91,627,94,642,100,640,105,625,99,598,96,572,98,557,103,554,109,560,116"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="780,66,922,94"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="668,115,764,95,765,100,669,120"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="785,118,917,146"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="689,129,769,129,769,134,689,134"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="736,170,966,198"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="669,144,765,163,764,169,668,149"/>
+</map>

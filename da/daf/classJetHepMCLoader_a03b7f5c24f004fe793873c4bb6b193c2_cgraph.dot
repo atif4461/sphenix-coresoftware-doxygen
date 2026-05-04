@@ -1,0 +1,14 @@
+digraph "JetHepMCLoader::InitRun"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="JetHepMCLoader::InitRun",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialize run specific resources and histograms for JetHepMCLoader."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllHistoManager\l::registerHisto",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d96/classFun4AllHistoManager.html#a7e1354855437fa28bb0d29dc0581d0a6",tooltip="Register a histogram with a given name in the manager."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Fun4AllBase::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664",tooltip="Gets the verbosity of this module."];
+}

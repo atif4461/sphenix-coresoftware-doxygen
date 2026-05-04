@@ -1,0 +1,63 @@
+<map id="PHSimpleKFProp::process_event" name="PHSimpleKFProp::process_event">
+<area shape="rect" id="Node000001" title="Process event for Kalman filter propagation." alt="" coords="5,535,194,579"/>
+<area shape="rect" id="Node000002" href="$d9/d67/namespaceTrackSeedHelper.html#a747183c5992dac5b4543a352dab51a9d" title="Fit a circular trajectory to seed clusters using the Taubin algorithm." alt="" coords="242,475,431,519"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,531,230,521,232,526,191,537"/>
+<area shape="rect" id="Node000010" href="$d0/d5e/classPHTimer.html#aee124cb440b1f7ca8bc8f2ffa596e2da" title="retrieve elapsed value since last restart (in ms)" alt="" coords="268,543,404,571"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="194,554,253,554,253,560,194,560"/>
+<area shape="rect" id="Node000011" href="$d9/d67/namespaceTrackSeedHelper.html#ad2f8e54ea39516770b4f8f145557af71" title="Compute the azimuthal angle of a track seed." alt="" coords="243,120,430,148"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="111,533,317,161,322,163,116,536"/>
+<area shape="rect" id="Node000016" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="265,595,408,623"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="195,575,256,589,255,594,193,580"/>
+<area shape="rect" id="Node000022" href="$d9/d67/namespaceTrackSeedHelper.html#ad44f25a52963cea292ceab331cabceeb" title="Fit a straight line to the seed clusters in r‑z and store the result." alt="" coords="247,327,426,355"/>
+<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="124,532,307,363,310,367,127,536"/>
+<area shape="rect" id="Node000026" href="$d0/d5e/classPHTimer.html#a433d96c3401380d49ff01acfd16ac69c" title="Restart timer." alt="" coords="272,647,400,675"/>
+<area shape="poly" id="edge33_Node000001_Node000026" title=" " alt="" coords="138,577,187,605,243,632,263,639,262,644,241,637,184,610,135,582"/>
+<area shape="rect" id="Node000027" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="251,699,422,727"/>
+<area shape="poly" id="edge34_Node000001_Node000027" title=" " alt="" coords="121,578,173,631,206,660,243,684,257,691,255,696,240,689,203,664,169,635,117,581"/>
+<area shape="rect" id="Node000003" href="$dc/d80/classTrackSeed.html#a513e9904f6837460a7b561d8348c3e13" title="Return a const iterator positioned at the end of the dummy cluster key set." alt="" coords="479,327,698,355"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="354,472,406,418,440,390,478,365,493,358,495,363,480,370,443,394,410,422,358,476"/>
+<area shape="rect" id="Node000004" href="$de/d94/namespaceTrackFitUtils.html#a1fc66cec7006835f80cb395bb4731d67" title="Fit a circle to a set of 2D points using the Taubin algebraic method." alt="" coords="516,535,661,579"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="432,517,502,534,501,539,431,522"/>
+<area shape="rect" id="Node000005" href="$dc/d80/classTrackSeed.html#ad32517668fd228928ed69c331c92daa5" title="Return a constant iterator to the end of the cluster key set." alt="" coords="485,431,692,459"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="431,475,503,460,504,465,432,480"/>
+<area shape="rect" id="Node000006" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="518,379,659,407"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="372,472,421,444,478,417,503,409,505,414,480,422,424,448,374,477"/>
+<area shape="rect" id="Node000007" href="$dc/d80/classTrackSeed.html#a786a37b3dbf588bccf19d67507ac54f8" title=" " alt="" coords="504,603,674,631"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="412,517,433,530,448,545,457,561,465,576,481,589,490,595,488,600,477,594,461,579,452,564,444,548,429,534,410,522"/>
+<area shape="rect" id="Node000008" href="$dc/d80/classTrackSeed.html#ab3698d184312699c15c5491eab9c35c2" title=" " alt="" coords="519,655,658,683"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="417,518,433,530,445,544,452,559,457,587,462,615,469,628,481,640,506,655,503,660,477,644,465,631,457,616,452,588,447,560,440,547,429,534,413,522"/>
+<area shape="rect" id="Node000009" href="$dc/d80/classTrackSeed.html#a639643f51c70123bd75c866c91bb6075" title=" " alt="" coords="520,483,658,511"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="431,494,504,494,504,500,431,500"/>
+<area shape="poly" id="edge11_Node000011_Node000003" title=" " alt="" coords="347,147,366,181,395,226,434,273,481,312,491,318,489,323,477,316,430,277,391,230,361,184,342,150"/>
+<area shape="rect" id="Node000012" href="$d9/d67/namespaceTrackSeedHelper.html#a37fc83a372bcb17ad6c0af444eee3f26" title="Compute the helix root coordinates from a TrackSeed." alt="" coords="492,70,685,97"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="408,117,501,98,502,104,409,122"/>
+<area shape="rect" id="Node000014" href="$dc/d80/classTrackSeed.html#ab847005283a5d599e88b31a3d642cecc" title=" " alt="" coords="791,6,931,33"/>
+<area shape="poly" id="edge17_Node000011_Node000014" title=" " alt="" coords="350,118,403,73,439,50,478,32,555,13,634,4,710,3,775,7,775,12,709,9,634,10,556,18,480,37,441,54,406,77,353,122"/>
+<area shape="rect" id="Node000015" href="$dc/d80/classTrackSeed.html#ad8ba4b0cdc30bb0973a5b26907f6a478" title=" " alt="" coords="791,120,931,148"/>
+<area shape="poly" id="edge18_Node000011_Node000015" title=" " alt="" coords="430,132,776,132,776,137,430,137"/>
+<area shape="poly" id="edge13_Node000012_Node000012" title=" " alt="" coords="546,71,539,61,544,51,561,45,589,43,618,46,634,52,632,57,617,51,589,48,562,50,548,55,544,61,550,68"/>
+<area shape="rect" id="Node000013" href="$dc/d80/classTrackSeed.html#ae78b5ecfe5fb4595493b065a5ab4aa8f" title=" " alt="" coords="775,68,947,96"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="685,80,760,80,760,85,685,86"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="650,67,784,35,785,40,651,72"/>
+<area shape="poly" id="edge16_Node000012_Node000015" title=" " alt="" coords="667,95,776,116,775,121,666,101"/>
+<area shape="rect" id="Node000017" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="498,783,679,811"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="410,619,433,634,445,647,453,661,459,689,464,717,470,731,481,744,502,761,525,774,523,779,499,766,477,748,466,733,459,719,453,690,448,663,441,650,429,638,407,624"/>
+<area shape="rect" id="Node000021" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="506,707,671,735"/>
+<area shape="poly" id="edge25_Node000016_Node000021" title=" " alt="" coords="408,621,433,633,448,648,457,664,466,678,481,692,493,699,491,704,477,696,461,682,453,666,444,652,429,638,405,626"/>
+<area shape="poly" id="edge21_Node000017_Node000017" title=" " alt="" coords="546,784,539,774,544,764,561,759,589,756,618,759,634,765,632,770,617,764,589,762,562,764,548,769,544,774,550,781"/>
+<area shape="rect" id="Node000018" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="790,731,932,759"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="665,780,775,759,776,764,666,785"/>
+<area shape="rect" id="Node000019" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="795,783,927,811"/>
+<area shape="poly" id="edge23_Node000017_Node000019" title=" " alt="" coords="680,794,780,794,780,800,680,800"/>
+<area shape="rect" id="Node000020" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="746,835,976,863"/>
+<area shape="poly" id="edge24_Node000017_Node000020" title=" " alt="" coords="666,809,770,829,769,834,665,814"/>
+<area shape="poly" id="edge27_Node000022_Node000003" title=" " alt="" coords="426,338,463,338,463,344,426,344"/>
+<area shape="poly" id="edge28_Node000022_Node000005" title=" " alt="" coords="361,353,414,384,480,416,503,424,502,429,478,421,412,389,358,358"/>
+<area shape="poly" id="edge29_Node000022_Node000006" title=" " alt="" coords="408,353,504,373,503,378,407,358"/>
+<area shape="rect" id="Node000023" href="$de/d94/namespaceTrackFitUtils.html#ab6471f5f4cdcf5bdcaaaca83504ac04e" title="line_fit" alt="" coords="512,223,665,251"/>
+<area shape="poly" id="edge30_Node000022_Node000023" title=" " alt="" coords="358,324,412,293,478,261,502,253,503,258,480,266,414,297,361,329"/>
+<area shape="rect" id="Node000024" href="$dc/d80/classTrackSeed.html#a444fb5b2d5c66d797dd8cbcbbab911b8" title=" " alt="" coords="510,275,667,303"/>
+<area shape="poly" id="edge31_Node000022_Node000024" title=" " alt="" coords="407,324,502,304,503,309,408,329"/>
+<area shape="rect" id="Node000025" href="$dc/d80/classTrackSeed.html#aac54db6e5eca3b0d24f82a5a469208c8" title=" " alt="" coords="519,171,658,199"/>
+<area shape="poly" id="edge32_Node000022_Node000025" title=" " alt="" coords="347,325,399,269,436,236,478,209,503,199,505,203,480,214,439,241,403,272,351,329"/>
+</map>

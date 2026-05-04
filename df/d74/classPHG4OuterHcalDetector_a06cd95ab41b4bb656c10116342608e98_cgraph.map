@@ -1,0 +1,20 @@
+<map id="PHG4OuterHcalDetector::ConstructHcalSingleScintillators" name="PHG4OuterHcalDetector::ConstructHcalSingleScintillators">
+<area shape="rect" id="Node000001" title="Construct the outer HCal scintillator geometry and associated cutouts." alt="" coords="5,141,243,186"/>
+<area shape="rect" id="Node000002" href="$df/d74/classPHG4OuterHcalDetector.html#a74680bbe2d1bcf687364acb954ccb8a4" title="Construct the scintillator box solid for the outer HCal detector." alt="" coords="307,5,494,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,139,216,99,290,60,305,53,307,58,292,65,219,104,158,143"/>
+<area shape="rect" id="Node000003" href="$d3/de7/classPHG4Detector.html#a02a35f200e91f5eb16ee16c537b5f61f" title="Create a temporary logical volume for visualization and invoke the overloaded DisplayVolume." alt="" coords="291,98,510,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,139,308,126,309,132,243,144"/>
+<area shape="rect" id="Node000004" href="$df/d02/classPHG4Utils.html#abdb6e84eedbd15893104110a0ed3ba88" title="Convert pseudorapidity to polar angle." alt="" coords="322,150,479,178"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="243,161,306,161,306,166,243,166"/>
+<area shape="rect" id="Node000005" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="381,226,420,254"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="209,184,367,228,366,233,207,189"/>
+<area shape="rect" id="Node000008" href="$df/d74/classPHG4OuterHcalDetector.html#af94cdf6247124475e849ddaee7d2762b" title="Compute the x coordinate where the infinite line defined by points p0 and p1 intersects a horizontal ..." alt="" coords="311,277,490,322"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="158,184,219,223,292,263,307,269,305,274,290,267,216,228,156,188"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="367,99,361,89,366,79,379,73,400,71,423,74,436,80,433,85,422,79,400,76,380,78,369,83,367,89,371,96"/>
+<area shape="poly" id="edge9_Node000005_Node000005" title=" " alt="" coords="379,235,364,224,362,211,375,202,400,199,421,201,435,207,439,216,435,226,430,223,434,216,431,211,420,206,400,204,377,207,367,213,369,221,382,231"/>
+<area shape="rect" id="Node000006" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="558,226,631,254"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="420,237,542,237,542,242,420,242"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="573,226,570,217,573,208,581,201,595,199,609,202,617,208,613,212,607,207,595,204,583,206,577,211,575,217,578,224"/>
+<area shape="rect" id="Node000007" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="679,226,746,254"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="632,237,664,237,664,242,632,242"/>
+</map>

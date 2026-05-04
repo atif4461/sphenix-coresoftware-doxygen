@@ -1,0 +1,18 @@
+<map id="PHMicromegasTpcTrackMatching::InitRun" name="PHMicromegasTpcTrackMatching::InitRun">
+<area shape="rect" id="Node000001" title="Initialize run by loading Micromegas geometry and acquiring required nodes." alt="" coords="5,46,242,91"/>
+<area shape="rect" id="Node000002" href="$d3/d5f/classCylinderGeomMicromegas.html#a64d175a4561692f8a3d308e7f627b453" title=" " alt="" coords="290,16,484,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,52,274,48,274,54,243,57"/>
+<area shape="rect" id="Node000003" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="315,84,458,112"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,79,300,86,299,91,242,84"/>
+<area shape="rect" id="Node000004" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="532,57,713,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="458,87,516,80,517,86,459,92"/>
+<area shape="rect" id="Node000008" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="540,109,705,137"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="459,103,525,110,525,115,458,108"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="583,58,576,48,581,39,597,33,623,31,650,33,665,40,663,44,649,38,623,36,598,38,584,43,581,48,587,55"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="805,5,947,33"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="693,54,789,34,790,39,694,59"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="810,57,942,85"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="714,68,794,68,794,74,714,74"/>
+<area shape="rect" id="Node000007" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="761,109,991,137"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="694,83,790,103,789,108,693,88"/>
+</map>

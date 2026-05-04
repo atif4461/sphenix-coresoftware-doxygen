@@ -1,0 +1,16 @@
+digraph "PHG4DetectorSubsystem::BeginRunExecuted"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4DetectorSubsystem\l::BeginRunExecuted",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="BeamLineMagnetSubsystem\l::Print",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d2a/classBeamLineMagnetSubsystem.html#ad6295f6f0d279de2a9cb62df9ef4c8db",tooltip="Print info (from SubsysReco)"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4BeamlineMagnetSubsystem\l::Print",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/de1/classPHG4BeamlineMagnetSubsystem.html#a00be4fa55e602f69dce37c3cdd668d2a",tooltip="Print info (from SubsysReco)"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4CylinderSubsystem\l::Print",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc5/classPHG4CylinderSubsystem.html#a298993c50cbb3019e65433e820a54024",tooltip="Print info (from SubsysReco)"];
+}

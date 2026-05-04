@@ -1,0 +1,15 @@
+<map id="MvtxDefs::genHitKey" name="MvtxDefs::genHitKey">
+<area shape="rect" id="Node000001" title="Generate a hitkey from a pixels column and row index." alt="" coords="491,143,650,171"/>
+<area shape="rect" id="Node000002" href="$dd/d69/namespaceMvtxPixelDefs.html#a484f5e85ceeaa1967bf98015e845cb00" title="Generate a pixelkey from a MvtxRawHit." alt="" coords="253,5,400,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="541,135,496,99,442,65,400,48,402,43,444,60,499,94,544,131"/>
+<area shape="rect" id="Node000003" href="$dd/d69/namespaceMvtxPixelDefs.html#ab966fc14dcc700983da3ca82e03f0d15" title="Generate a MVTX pixel key from detector coordinates." alt="" coords="245,75,408,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="496,142,407,120,409,114,497,136"/>
+<area shape="rect" id="Node000005" href="$d4/d56/classMvtxPixelMask.html#a712727c7f4535081a7e103b75654296a" title="Determine whether a given Mvtx raw hit is masked as a hot pixel." alt="" coords="228,143,425,171"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="476,160,425,160,425,154,476,154"/>
+<area shape="rect" id="Node000006" href="$dd/d50/classMvtxCombinedRawDataDecoder.html#a5d1daca77ea10f340fc030e46a139ca8" title="event processing" alt="" coords="210,195,443,239"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="497,178,421,197,419,191,496,172"/>
+<area shape="rect" id="Node000007" href="$de/d4d/classPHG4MvtxHitReco.html#a909a81a9eb5c91d222f0ed65462e4ed7" title="event processing" alt="" coords="227,264,426,309"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="544,183,499,220,444,254,417,266,415,261,442,249,496,215,541,179"/>
+<area shape="rect" id="Node000004" href="$d4/d56/classMvtxPixelMask.html#a4ee4c44f2ba1037b5d987c81c9273f3e" title="Load hot pixel map from CDB for MVTX detector." alt="" coords="5,75,162,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="229,100,162,100,162,94,229,94"/>
+</map>

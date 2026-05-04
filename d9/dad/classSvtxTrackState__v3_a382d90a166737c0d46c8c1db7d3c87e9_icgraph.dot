@@ -1,0 +1,14 @@
+digraph "SvtxTrackState_v3::SvtxTrackState_v3"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTrackState_v3::\lSvtxTrackState_v3",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct a SvtxTrackState_v3 object with a specified path length."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrackState_v3::\lCloneMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dad/classSvtxTrackState__v3.html#a629bc38d3ab84bae51d618660f5ad312",tooltip="Virtual copy constructor."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxTrackState_v3::\lReset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dad/classSvtxTrackState__v3.html#a40c789cce2d8e8ca82bad66c203bd154",tooltip="Clear Event."];
+}

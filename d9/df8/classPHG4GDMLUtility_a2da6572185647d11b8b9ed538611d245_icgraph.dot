@@ -1,0 +1,16 @@
+digraph "PHG4GDMLUtility::get_PHG4GDML_Schema"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4GDMLUtility::get\l_PHG4GDML_Schema",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4GDMLUtility::Dump\l_G4_GDML",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/df8/classPHG4GDMLUtility.html#afcf39153171628039001dd7d5f34ee48",tooltip="same as above but use default Geant functions as much as possible"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4Reco::Dump_G4_GDML",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d78/classPHG4Reco.html#a3b9a955d6f0e8960df1a6e8ac8303c93",tooltip="Dump detector geometry to GDML file."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4GDMLUtility::Dump_GDML",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/df8/classPHG4GDMLUtility.html#adb03ec38807279cb5abaf38987c5a73f",tooltip="save the current Geant4 geometry to GDML file. Reading PHG4GDMLConfig from topNode"];
+}

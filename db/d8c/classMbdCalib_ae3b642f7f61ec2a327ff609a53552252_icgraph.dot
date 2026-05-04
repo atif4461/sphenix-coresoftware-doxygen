@@ -1,0 +1,16 @@
+digraph "MbdCalib::Reset_Thresholds"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MbdCalib::Reset_Thresholds",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Reset all threshold calibration arrays to undefined NaN values."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MbdCalib::Download\l_Thresholds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8c/classMbdCalib.html#a19aeaeeb856aca5600297018e48401ee",tooltip="Download thresholds from a calibration source."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MbdCalib::Reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8c/classMbdCalib.html#ac6c0888e348fdfc4f367cab07ef1eaef",tooltip="Reset all calibration parameters to their default states."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="MbdCalib::MbdCalib",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8c/classMbdCalib.html#a682f671aed35fbb2a09df93d8464f4f5",tooltip="Constructor initializes MbdCalib object resets internal state creates geometry and configures templat..."];
+}

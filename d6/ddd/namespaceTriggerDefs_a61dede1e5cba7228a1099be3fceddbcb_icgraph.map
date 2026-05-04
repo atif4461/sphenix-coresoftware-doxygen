@@ -1,0 +1,18 @@
+<map id="TriggerDefs::GetPrimitiveId" name="TriggerDefs::GetPrimitiveId">
+<area shape="rect" id="Node000001" title="Convert a trigger primitive name to its corresponding PrimitiveId enumeration." alt="" coords="441,135,638,162"/>
+<area shape="rect" id="Node000002" href="$d1/d86/classLL1PacketGetter.html#aff77501624ae8d7ec9be1361a4b9ac56" title="Initialize run specific configuration for LL1 packet getter." alt="" coords="211,5,391,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="509,127,457,86,392,47,364,36,366,31,394,42,460,82,513,122"/>
+<area shape="rect" id="Node000003" href="$d1/d86/classLL1PacketGetter.html#add400d3263d508e22051355d1e54e9f6" title="Process event data and populate trigger primitive containers or LL1 output structures." alt="" coords="209,57,393,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="474,132,380,105,381,100,476,127"/>
+<area shape="rect" id="Node000004" href="$db/dda/classCaloTriggerEmulator.html#ab0eaf251e1f5dec86815c2f0272b41ef" title="Process organizer to build trigger primitives for EMCAL and HCAL and combine into jet primitives." alt="" coords="224,126,378,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="425,151,378,151,378,146,425,146"/>
+<area shape="rect" id="Node000006" href="$db/dda/classCaloTriggerEmulator.html#aea638afc80ad33ad54d9ec2b50dce753" title="MakeTriggerOutput." alt="" coords="224,196,378,240"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="476,170,379,198,377,193,474,165"/>
+<area shape="rect" id="Node000007" href="$df/ddc/classMBDTriggerEmulator.html#ab1e21ee8b248183affad56ab35c84f3d" title="MakeTriggerOutput." alt="" coords="223,265,378,310"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="511,175,458,215,394,255,369,267,367,262,392,250,455,210,508,170"/>
+<area shape="rect" id="Node000005" href="$db/dda/classCaloTriggerEmulator.html#a51370fb1c88349f20aa1e35a77a74bc0" title="event processing method" alt="" coords="6,161,160,206"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="209,166,161,174,160,168,209,160"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="209,206,160,198,161,193,209,201"/>
+<area shape="rect" id="Node000008" href="$df/ddc/classMBDTriggerEmulator.html#aa3a5b7250824bc77efa9be30bcc92418" title="event processing method" alt="" coords="5,265,161,310"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="208,290,161,290,161,284,208,284"/>
+</map>

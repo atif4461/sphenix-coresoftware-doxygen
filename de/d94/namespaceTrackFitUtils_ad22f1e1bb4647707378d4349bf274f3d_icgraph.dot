@@ -1,0 +1,18 @@
+digraph "TrackFitUtils::isMvtxEast"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrackFitUtils::isMvtxEast",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Determine if MVTX hitset is on east side."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackFitUtils::includeMvtxHit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d94/namespaceTrackFitUtils.html#a66b2fcbfa5e2f3a380ea52158235c920",tooltip="Determine whether a MVTX cluster should be kept based on side selection."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackFitUtils::fitClusters\lZeroField",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d94/namespaceTrackFitUtils.html#ae1b34e8bb7560e5840aae6abd2f2eec0",tooltip="Fit clusters in zero magnetic field using linear fits in xy and xz."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="HelicalFitter::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/de1/classHelicalFitter.html#a98485e999dddb90f86479a58eb7b53a3",tooltip="Process a single event and perform helical or straight line fits for silicon and/or TPC track seeds."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrackFitUtils::zero\l_field_track_params",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d94/namespaceTrackFitUtils.html#aa6d9c8dcc339cd28343b39bad5688bc8",tooltip="Compute track parameters assuming zero magnetic field using cluster positions."];
+}

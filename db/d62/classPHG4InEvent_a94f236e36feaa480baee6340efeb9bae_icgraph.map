@@ -1,0 +1,16 @@
+<map id="PHG4InEvent::identify" name="PHG4InEvent::identify">
+<area shape="rect" id="Node000001" title="Identify event by printing vertex and particle information to the given output stream." alt="" coords="260,187,423,215"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="381,174,367,168,341,166,317,168,304,173,300,178,306,185,302,188,295,178,300,169,316,163,341,161,369,163,383,169"/>
+<area shape="rect" id="Node000002" href="$db/d6c/classHepMCNodeReader.html#a9216b26c5e57c06c2276b0cc67495f0b" title="Process event data from HepMC node and fill Geant4 in event structure." alt="" coords="5,5,212,50"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="320,176,274,120,244,90,210,65,189,53,191,48,213,60,247,86,278,116,324,173"/>
+<area shape="rect" id="Node000003" href="$da/d36/classPHG4InputFilter.html#a5c72bad1de5fcb5446acd239dda3f4db" title="Filter particles in PHG4InEvent according to eta and pt selection criteria." alt="" coords="18,75,199,119"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="302,182,211,134,181,122,183,117,213,129,305,177"/>
+<area shape="rect" id="Node000004" href="$dd/d68/classPHG4ParticleGenerator.html#a27b1f33f182e52a875ead48612ad29d3" title="Generate particles for the current event and store them in the PHG4InEvent node." alt="" coords="23,144,194,189"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="244,189,194,182,195,176,245,184"/>
+<area shape="rect" id="Node000005" href="$d9/d78/classPHG4ParticleGeneratorD0.html#ab7b714e2007eaf957fd8790b5b0cfd39" title="Generate a D0 meson event, decay it to Kminus and piplus and store the particles in the PHG4InEvent n..." alt="" coords="14,213,203,258"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="245,218,204,224,203,219,244,213"/>
+<area shape="rect" id="Node000006" href="$dd/d13/classPHG4ParticleGun.html#a628a3341c5489016d87c637e55d333b7" title="Process a single event and fill PHG4InEvent with vertex and particles." alt="" coords="14,283,203,327"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="305,225,213,273,183,285,181,280,211,268,302,220"/>
+<area shape="rect" id="Node000007" href="$d0/d78/classPHG4Reco.html#a6d817542976ebb31fc3577289e9e77b0" title="event processing method" alt="" coords="13,351,204,379"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="325,230,279,287,248,317,213,342,189,353,187,348,210,337,244,313,275,283,320,226"/>
+</map>

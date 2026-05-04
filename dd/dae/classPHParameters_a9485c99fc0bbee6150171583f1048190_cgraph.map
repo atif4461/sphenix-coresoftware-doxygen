@@ -1,0 +1,35 @@
+<map id="PHParameters::SaveToNodeTree" name="PHParameters::SaveToNodeTree">
+<area shape="rect" id="Node000001" title="Save PHParameters object into node tree under given node name." alt="" coords="5,331,234,358"/>
+<area shape="rect" id="Node000002" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="321,80,530,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,328,393,116,397,120,140,332"/>
+<area shape="rect" id="Node000006" href="$dd/dae/classPHParameters.html#a4dc6a076735983c1a66c1739f2905012" title="Copy all stored parameter values into a PdbParameterMap instance." alt="" coords="282,269,569,297"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="192,327,337,298,338,303,193,333"/>
+<area shape="rect" id="Node000010" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="354,372,497,400"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="227,356,339,371,338,377,227,362"/>
+<area shape="rect" id="Node000015" href="$d8/d21/classPdbParameterMap.html#a92a2189dca701d55646b76a5a86e4100" title="Reset all parameter containers to empty state." alt="" coords="333,424,518,452"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="151,357,211,383,282,409,318,418,317,423,281,414,209,388,149,361"/>
+<area shape="rect" id="Node000003" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="890,196,1032,224"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="531,98,660,114,730,126,799,142,862,163,918,187,916,192,860,168,798,147,729,131,659,119,530,104"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="894,29,1028,57"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="468,77,537,57,617,41,686,34,755,32,879,35,879,40,755,37,686,39,617,46,538,62,469,82"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="636,55,779,82"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="530,82,621,74,621,79,531,87"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="918,30,911,20,916,11,933,5,961,3,991,5,1007,12,1005,16,989,10,961,8,934,10,920,15,916,20,922,27"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="779,59,879,49,879,54,780,64"/>
+<area shape="rect" id="Node000007" href="$d8/d21/classPdbParameterMap.html#a8ad4dc22c7352f3a20558f177f3aabc1" title="Set a double parameter in the map." alt="" coords="624,296,792,340"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="544,295,608,303,608,308,543,300"/>
+<area shape="rect" id="Node000008" href="$d8/d21/classPdbParameterMap.html#aa47d7a23c66ee4fc4bcedca941892f72" title="Set integer parameter in map." alt="" coords="624,157,792,202"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="465,266,630,205,631,210,466,271"/>
+<area shape="rect" id="Node000009" href="$d8/d21/classPdbParameterMap.html#adda244f2d8e7c3020f6dc8a0cffcbf97" title="Set string parameter in map." alt="" coords="624,226,792,271"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="543,266,608,258,608,263,544,271"/>
+<area shape="rect" id="Node000011" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="617,388,798,416"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="498,387,601,393,601,398,497,393"/>
+<area shape="rect" id="Node000014" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="626,440,790,468"/>
+<area shape="poly" id="edge17_Node000010_Node000014" title=" " alt="" coords="498,395,570,410,618,425,644,432,642,438,616,430,568,415,497,400"/>
+<area shape="poly" id="edge14_Node000011_Node000003" title=" " alt="" coords="738,385,797,350,873,289,933,233,937,237,877,293,800,355,740,390"/>
+<area shape="poly" id="edge13_Node000011_Node000011" title=" " alt="" coords="665,389,658,379,663,369,680,363,708,361,737,364,753,370,751,375,736,369,708,367,681,369,666,373,663,379,669,386"/>
+<area shape="rect" id="Node000012" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="895,363,1027,390"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="799,390,879,382,880,387,799,395"/>
+<area shape="rect" id="Node000013" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="846,415,1076,442"/>
+<area shape="poly" id="edge16_Node000011_Node000013" title=" " alt="" coords="799,409,831,412,830,417,799,414"/>
+</map>

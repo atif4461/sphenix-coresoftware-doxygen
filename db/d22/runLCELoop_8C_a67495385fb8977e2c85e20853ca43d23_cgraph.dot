@@ -1,0 +1,16 @@
+digraph "runLCELoop"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="runLCELoop",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CaloCalibEmc_Pi0::End",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classCaloCalibEmc__Pi0.html#ad5b8aa83915ede14b29f6c10fe2f4e45",tooltip="Called at the end of all processing."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CaloCalibEmc_Pi0::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classCaloCalibEmc__Pi0.html#a7915b4db459acb5fdb52817ef2a5c3c3",tooltip="Initialize run‑specific objects, histograms and the event TTree."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="CaloCalibEmc_Pi0::Loop",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/df5/classCaloCalibEmc__Pi0.html#a618d9ed1aeb3a7ef730a689a2c817ecd",tooltip="Loop over events applying calibration corrections and pi0 selection."];
+}

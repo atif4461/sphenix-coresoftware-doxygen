@@ -1,0 +1,12 @@
+digraph "PHGenIntegralv1::get_N_Generator_Accepted_Event"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHGenIntegralv1::get\l_N_Generator_Accepted_Event",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Number of accepted events in the event generator. This can be higher than m_NProcessedEvent depending..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHGenIntegralv1::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dd1/classPHGenIntegralv1.html#a14fc00fc76d262f90574e0e1bbcc8566",tooltip="Print generator summary information to the provided output stream."];
+}

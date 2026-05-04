@@ -1,0 +1,19 @@
+digraph "PHG4Cellv1::get_half_stave_index"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4Cellv1::get_half\l_stave_index",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4Cellv1::get_property_int",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d5e/classPHG4Cellv1.html#a6e5869bb9638f6f7363d46a9455c47d6",tooltip="Retrieve the integer value of a specified property."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4Cell::check_property",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dfe/classPHG4Cell.html#a662d88c74fbd5dc06d8dd9aac168210b",tooltip="Verify that a given property identifier matches the expected property type."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4Cell::get_property_info",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dfe/classPHG4Cell.html#a42e05d988a7b10a3011cbb29ccc873cd",tooltip="Retrieve human readable name and data type for a given cell property identifier."];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4Cell::get_property_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dfe/classPHG4Cell.html#ae01a8632ed5b6c88fab3c5d44ea9cad4",tooltip="Convert a PROPERTY_TYPE enum value to its textual representation."];
+}

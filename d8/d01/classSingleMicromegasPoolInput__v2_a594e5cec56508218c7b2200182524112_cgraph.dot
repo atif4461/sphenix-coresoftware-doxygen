@@ -1,0 +1,12 @@
+digraph "SingleMicromegasPoolInput_v2::~SingleMicromegasPoolInput_v2"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SingleMicromegasPoolInput\l_v2::~SingleMicromegasPoolInput_v2",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Destructor performs finalization for SingleMicromegasPoolInput_v2."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SingleStreamingInput\l::RunNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dbc/classSingleStreamingInput.html#a2795ed4ee7c1fee1b1c1ec1e712895b2",tooltip=" "];
+}

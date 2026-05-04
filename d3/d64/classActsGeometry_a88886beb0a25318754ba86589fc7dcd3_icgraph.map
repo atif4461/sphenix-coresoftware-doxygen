@@ -1,0 +1,66 @@
+<map id="ActsGeometry::geometry" name="ActsGeometry::geometry">
+<area shape="rect" id="Node000001" title="const accessor" alt="" coords="791,649,976,677"/>
+<area shape="rect" id="Node000002" href="$de/d94/namespaceTrackFitUtils.html#aab655d6c3d866df766951d1131456306" title="Compute the intersection point of a helix trajectory with the plane of a detector surface." alt="" coords="526,75,726,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="876,634,859,524,830,374,811,298,790,229,767,172,741,134,724,121,728,117,745,131,771,170,795,227,816,296,835,373,864,523,881,633"/>
+<area shape="rect" id="Node000003" href="$de/d94/namespaceTrackFitUtils.html#ad4197dc247553aa6cb9f5ff1abc21d1e" title="Compute the helix path length from a start point to its intersection with a given surface." alt="" coords="258,15,450,60"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="877,634,865,509,839,336,821,248,798,170,772,106,757,82,742,65,710,43,675,27,638,17,599,11,522,9,451,18,451,12,522,4,600,5,639,12,677,22,713,39,745,61,762,79,777,104,803,168,826,247,844,335,870,508,883,633"/>
+<area shape="rect" id="Node000005" href="$d8/def/classCylinderGeom__MvtxHelper.html#a6c3b2e7148e53d41d53706331315d5b1" title="Convert world coordinates to local detector coordinates for a given surface." alt="" coords="528,144,725,206"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="879,634,872,553,852,442,834,383,811,324,780,269,741,220,724,205,727,201,745,216,784,266,816,322,839,381,857,441,877,552,884,633"/>
+<area shape="rect" id="Node000007" href="$df/d9b/classCylinderGeomInttHelper.html#a5ec7fcec2ea136abc3daeb6985939737" title="Convert world coordinates to local detector coordinates using Acts geometry." alt="" coords="536,230,716,291"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="876,634,865,568,841,479,824,433,802,387,774,343,742,305,715,286,718,282,745,301,779,340,806,384,829,431,846,478,870,566,882,633"/>
+<area shape="rect" id="Node000008" href="$d3/d5f/classCylinderGeomMicromegas.html#a66f7ea3d4a6f63a9ec6066243b5f9d6b" title="convert world to local position coordinates in (planar) tile reference frame" alt="" coords="529,315,723,377"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="873,635,857,583,830,518,792,450,769,418,742,390,722,377,725,372,745,386,773,415,797,447,835,515,862,581,878,633"/>
+<area shape="rect" id="Node000010" href="$d3/d5f/classCylinderGeomMicromegas.html#a056e396d3114e0b71b2a2c7bc340732e" title="convert world to local direction coordinates in (planar) tile reference frame" alt="" coords="524,401,728,445"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="868,636,849,596,821,549,785,501,742,460,722,448,725,444,745,456,789,497,826,546,854,594,873,634"/>
+<area shape="rect" id="Node000011" href="$d3/d64/classActsGeometry.html#ab8287ee8c9dd2f249e778f2775463b8c" title="Retrieve the TPC surface corresponding to a world position." alt="" coords="542,470,711,515"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="858,639,808,587,776,560,742,536,704,518,707,513,745,531,779,556,812,583,862,635"/>
+<area shape="rect" id="Node000012" href="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d" title="Generate source links for a track using the cluster mover." alt="" coords="251,499,458,544"/>
+<area shape="poly" id="edge30_Node000001_Node000012" title=" " alt="" coords="851,642,801,609,742,580,670,559,596,544,458,528,459,523,596,538,671,554,744,575,804,604,854,637"/>
+<area shape="rect" id="Node000013" href="$d8/def/classCylinderGeom__MvtxHelper.html#a5be99d5c02b88511c541ec7bbdf86573" title="Convert local detector coordinates to world coordinates using Acts geometry." alt="" coords="528,590,725,651"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="780,649,725,639,726,634,781,643"/>
+<area shape="rect" id="Node000015" href="$d8/def/classCylinderGeom__MvtxHelper.html#a500ef4239fc8c6b422cda0bf82dee5a7" title="Transform local detector coordinates to global world coordinates." alt="" coords="528,675,725,737"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="781,683,726,692,725,687,780,677"/>
+<area shape="rect" id="Node000016" href="$df/d9b/classCylinderGeomInttHelper.html#a52ab75e7a671eead7826f4149bf14e7e" title="Transform local surface coordinates to global world coordinates." alt="" coords="536,760,716,822"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="851,688,802,719,745,751,717,763,715,758,742,746,799,715,848,684"/>
+<area shape="rect" id="Node000019" href="$df/d9b/classCylinderGeomInttHelper.html#a074cafa358f10b7641ea88a3f4086536" title="Convert local coordinates on a surface to global world coordinates using the Acts geometry context." alt="" coords="536,846,716,907"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="869,692,819,763,785,802,745,836,717,852,715,847,742,832,781,798,815,760,864,689"/>
+<area shape="rect" id="Node000020" href="$d3/d5f/classCylinderGeomMicromegas.html#aa6c3407b7b113888a03f0c85ba20b089" title="convert local to world position coordinates in (planar) tile reference frame" alt="" coords="529,931,723,993"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="876,693,859,742,832,803,794,866,771,895,745,921,725,935,722,931,742,917,767,892,790,863,828,800,854,740,871,691"/>
+<area shape="rect" id="Node000024" href="$d3/d5f/classCylinderGeomMicromegas.html#abb9a21f9855bd24a629d2206e15bd9c2" title="convert local to world position coordinates in (planar) tile reference frame" alt="" coords="529,1016,723,1078"/>
+<area shape="poly" id="edge26_Node000001_Node000024" title=" " alt="" coords="881,693,868,757,844,840,826,885,804,929,777,970,745,1006,725,1021,722,1017,742,1002,773,967,799,926,821,883,839,839,863,756,876,692"/>
+<area shape="rect" id="Node000025" href="$d3/d5f/classCylinderGeomMicromegas.html#af6c0568cb52d9d170fd46e0790d09dca" title="convert local to world direction coordinates in (planar) tile reference frame" alt="" coords="524,1102,728,1147"/>
+<area shape="poly" id="edge27_Node000001_Node000025" title=" " alt="" coords="884,693,877,771,857,878,839,936,815,992,784,1045,745,1092,729,1104,726,1100,741,1088,780,1042,811,990,834,934,852,877,872,771,879,692"/>
+<area shape="rect" id="Node000026" href="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c" title="Generate source links for a given track seed and fill measurement container." alt="" coords="522,1171,730,1216"/>
+<area shape="poly" id="edge28_Node000001_Node000026" title=" " alt="" coords="886,692,883,782,877,842,866,908,848,976,823,1043,789,1106,745,1161,730,1173,727,1169,741,1157,785,1103,818,1040,843,974,860,907,871,842,877,782,880,692"/>
+<area shape="rect" id="Node000028" href="$dc/db9/classMakeSourceLinks.html#a1314b55930ccfbc73cb584f02a61abe1" title="Reset transient transform map using provided id set and geometry." alt="" coords="509,1241,743,1285"/>
+<area shape="poly" id="edge31_Node000001_Node000028" title=" " alt="" coords="881,693,866,809,837,970,819,1052,797,1127,773,1188,745,1230,730,1242,727,1238,741,1227,768,1186,792,1125,814,1051,832,969,860,809,876,692"/>
+<area shape="rect" id="Node000029" href="$de/d94/namespaceTrackFitUtils.html#a247b53d2fdd50719d31799dede3fbdca" title="Compute the intersection of a 3D line with a detector surface." alt="" coords="548,1310,705,1355"/>
+<area shape="poly" id="edge33_Node000001_Node000029" title=" " alt="" coords="882,693,869,822,842,1004,823,1097,801,1182,775,1251,761,1279,745,1300,727,1314,706,1324,704,1319,724,1310,741,1296,756,1276,771,1249,796,1180,818,1096,837,1003,863,822,877,692"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="511,75,450,62,451,56,512,70"/>
+<area shape="rect" id="Node000004" href="$dd/d92/classTrackSeedTrackMapConverter.html#ad4684e56d489fc441709416cc8047607" title="Convert track seeds into SvtxTrack objects and populate the output track map." alt="" coords="248,85,461,129"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="511,104,462,106,462,101,511,99"/>
+<area shape="rect" id="Node000006" href="$de/d4d/classPHG4MvtxHitReco.html#a909a81a9eb5c91d222f0ed65462e4ed7" title="event processing" alt="" coords="255,154,454,199"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="512,178,454,179,454,173,512,173"/>
+<area shape="rect" id="Node000009" href="$d3/d5f/classCylinderGeomMicromegas.html#a446d39aa55edfe9045f9137b243d616f" title="get strip for a give world location and tile" alt="" coords="257,315,452,377"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="514,348,452,348,452,343,514,343"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="526,506,459,513,458,508,526,501"/>
+<area shape="rect" id="Node000014" href="$d8/def/classCylinderGeom__MvtxHelper.html#a81cdff98b51e99a55f7427f2db2c7eae" title="Compute world coordinates of sensor centre for a surface." alt="" coords="256,598,453,643"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="512,623,454,623,454,618,512,618"/>
+<area shape="rect" id="Node000017" href="$df/d9b/classCylinderGeomInttHelper.html#abde2007c70525813a948ec442618037c" title="Compute global coordinates of the centre of a surface segment." alt="" coords="265,769,444,813"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="521,794,444,794,444,788,521,788"/>
+<area shape="rect" id="Node000018" href="$df/d9b/classCylinderGeomInttHelper.html#a71e27fe11364affaff473ac184d1df79" title="Compute the global center position of a strip within an INTT ladder segment." alt="" coords="13,769,192,813"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="249,794,193,794,193,788,249,788"/>
+<area shape="rect" id="Node000021" href="$d3/d5f/classCylinderGeomMicromegas.html#ac1f69f02f79782a014badba93d295d39" title="get the phi range, in global coordinates, corresponding to a given tile" alt="" coords="5,905,200,949"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="513,938,461,930,324,923,200,924,200,919,325,917,461,924,514,932"/>
+<area shape="rect" id="Node000022" href="$d3/d5f/classCylinderGeomMicromegas.html#a0deab41e39d6b81607508549b2622930" title="Compute polar angle range for a given micromegas tile." alt="" coords="5,986,200,1031"/>
+<area shape="poly" id="edge22_Node000020_Node000022" title=" " alt="" coords="514,991,461,999,325,1010,200,1012,200,1007,324,1004,461,994,514,985"/>
+<area shape="rect" id="Node000023" href="$d3/d5f/classCylinderGeomMicromegas.html#a217a87056bf483514957b5a1537b6dae" title="get world coordinates for a given tile and strip" alt="" coords="257,939,452,984"/>
+<area shape="poly" id="edge23_Node000020_Node000023" title=" " alt="" coords="514,964,452,964,452,959,514,959"/>
+<area shape="poly" id="edge24_Node000023_Node000021" title=" " alt="" coords="241,949,200,943,201,938,242,944"/>
+<area shape="poly" id="edge25_Node000023_Node000022" title=" " alt="" coords="242,985,201,993,200,988,241,980"/>
+<area shape="rect" id="Node000027" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="279,1206,430,1251"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="507,1212,430,1221,430,1216,506,1206"/>
+<area shape="poly" id="edge32_Node000028_Node000027" title=" " alt="" coords="493,1249,430,1241,430,1235,494,1244"/>
+<area shape="rect" id="Node000030" href="$d8/d99/classCosmicTrackQA.html#ac0c144ffa14178e3b3268954771f066b" title="Process a single event and fill QA histograms for cosmic tracks." alt="" coords="264,1310,444,1355"/>
+<area shape="poly" id="edge34_Node000029_Node000030" title=" " alt="" coords="532,1335,445,1335,445,1330,532,1330"/>
+</map>

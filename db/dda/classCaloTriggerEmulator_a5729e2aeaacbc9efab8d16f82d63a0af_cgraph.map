@@ -1,0 +1,24 @@
+<map id="CaloTriggerEmulator::process_offline" name="CaloTriggerEmulator::process_offline">
+<area shape="rect" id="Node000001" title="Process offline calorimeter trigger emulation for the current event." alt="" coords="5,117,159,162"/>
+<area shape="rect" id="Node000002" href="$da/d9c/namespaceTowerInfoDefs.html#a00c72a0d930085024ae2d7c90e9a36f0" title="Encode an EMCal tower index into a global eta‑phi key." alt="" coords="224,5,393,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,115,156,87,205,60,219,54,221,59,208,65,159,92,117,119"/>
+<area shape="rect" id="Node000003" href="$da/d9c/namespaceTowerInfoDefs.html#a2e815ce9a29173aad1d9c56f4afc9fec" title="Encode a HCAL tower index into a 32‑bit global key." alt="" coords="207,74,410,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,119,229,103,231,108,160,125"/>
+<area shape="rect" id="Node000004" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="237,126,380,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="159,137,221,137,221,142,159,142"/>
+<area shape="rect" id="Node000010" href="$d1/d1a/classOfflinePacket.html#a28d8078f89e7c52950e79743c3399c67" title=" " alt="" coords="231,178,386,206"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="160,155,231,171,229,176,158,160"/>
+<area shape="rect" id="Node000011" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="223,230,394,258"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="115,160,158,188,208,215,228,222,226,227,206,219,155,193,112,165"/>
+<area shape="rect" id="Node000005" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="458,100,639,128"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="380,129,442,123,443,128,381,135"/>
+<area shape="rect" id="Node000009" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="466,152,631,180"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="381,145,451,153,451,158,380,150"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="508,102,501,92,506,82,522,76,549,74,577,76,592,83,590,88,576,82,549,79,524,81,510,86,506,91,512,98"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="731,48,873,76"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="619,97,715,77,716,83,620,102"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="736,100,868,128"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="640,112,720,112,720,117,640,117"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="687,152,917,180"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="620,126,716,146,715,151,619,131"/>
+</map>

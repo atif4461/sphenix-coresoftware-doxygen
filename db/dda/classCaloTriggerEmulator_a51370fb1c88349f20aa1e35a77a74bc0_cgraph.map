@@ -1,0 +1,125 @@
+<map id="CaloTriggerEmulator::process_event" name="CaloTriggerEmulator::process_event">
+<area shape="rect" id="Node000001" title="event processing method" alt="" coords="5,1061,159,1106"/>
+<area shape="rect" id="Node000002" href="$db/dda/classCaloTriggerEmulator.html#a2840ee11da2f6da5fd24f73fc4f8efd0" title="Get Nodes." alt="" coords="448,1364,602,1409"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,1106,100,1157,122,1222,138,1256,157,1288,180,1318,208,1343,233,1359,261,1371,319,1387,378,1394,433,1394,433,1399,378,1399,318,1392,259,1376,231,1363,205,1347,177,1322,153,1291,133,1258,117,1224,95,1158,84,1107"/>
+<area shape="rect" id="Node000009" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="701,1343,871,1371"/>
+<area shape="poly" id="edge78_Node000001_Node000009" title=" " alt="" coords="111,1105,163,1147,236,1201,322,1254,415,1299,483,1320,555,1335,686,1351,685,1356,554,1341,482,1325,413,1303,320,1259,233,1205,160,1152,108,1109"/>
+<area shape="rect" id="Node000010" href="$db/dda/classCaloTriggerEmulator.html#abcc042005acb713156a760099a866324" title="Identify the CaloTriggerEmulator and its subcomponents." alt="" coords="210,992,363,1037"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="149,1058,203,1040,205,1045,151,1063"/>
+<area shape="rect" id="Node000011" href="$db/dda/classCaloTriggerEmulator.html#ab0eaf251e1f5dec86815c2f0272b41ef" title="Process organizer to build trigger primitives for EMCAL and HCAL and combine into jet primitives." alt="" coords="210,553,363,598"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="90,1060,268,611,273,613,95,1062"/>
+<area shape="rect" id="Node000032" href="$db/dda/classCaloTriggerEmulator.html#aea638afc80ad33ad54d9ec2b50dce753" title="MakeTriggerOutput." alt="" coords="210,901,363,946"/>
+<area shape="poly" id="edge41_Node000001_Node000032" title=" " alt="" coords="108,1059,205,978,238,953,241,957,208,982,111,1063"/>
+<area shape="rect" id="Node000038" href="$db/dda/classCaloTriggerEmulator.html#a6a17e1f398b7f880ad732e5a7b073852" title="Process trigger primitives for photon and jet triggers and fill output bits." alt="" coords="210,1061,363,1106"/>
+<area shape="poly" id="edge54_Node000001_Node000038" title=" " alt="" coords="159,1081,194,1081,194,1086,159,1086"/>
+<area shape="rect" id="Node000040" href="$db/dda/classCaloTriggerEmulator.html#acf8cc4dfa3166d9f87eb6dc3d76999c5" title="MakePrimitives." alt="" coords="207,1539,366,1583"/>
+<area shape="poly" id="edge62_Node000001_Node000040" title=" " alt="" coords="94,1106,141,1232,209,1400,269,1524,264,1526,204,1402,136,1234,89,1108"/>
+<area shape="rect" id="Node000003" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="714,1403,858,1431"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="603,1393,699,1404,699,1409,602,1398"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="602,1375,685,1366,686,1371,603,1380"/>
+<area shape="rect" id="Node000004" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="936,1378,1117,1406"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="858,1407,920,1400,920,1406,858,1412"/>
+<area shape="rect" id="Node000008" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="944,1430,1108,1458"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="858,1422,929,1430,929,1436,858,1428"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="985,1379,979,1369,984,1359,1000,1353,1026,1351,1054,1354,1070,1360,1068,1365,1053,1359,1026,1356,1001,1358,987,1363,984,1369,990,1376"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="1209,1326,1350,1354"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="1097,1375,1193,1355,1194,1360,1098,1380"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1214,1378,1346,1406"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="1117,1389,1198,1389,1198,1394,1117,1394"/>
+<area shape="rect" id="Node000007" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="1165,1430,1394,1458"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="1098,1404,1194,1423,1193,1429,1097,1409"/>
+<area shape="poly" id="edge40_Node000011_Node000009" title=" " alt="" coords="294,598,307,648,329,713,365,780,388,810,416,836,444,853,472,861,499,861,527,859,554,857,582,858,610,867,638,887,682,937,717,995,743,1058,762,1122,774,1184,782,1241,787,1327,782,1327,777,1241,769,1184,756,1123,738,1060,712,998,678,941,635,891,607,872,581,864,554,862,527,864,500,867,471,866,442,858,412,840,384,814,361,783,325,715,302,649,289,599"/>
+<area shape="rect" id="Node000012" href="$db/dda/classCaloTriggerEmulator.html#a0952c820ed81e742435a9a4f52b57b1a" title="Determine whether a trigger sum key is present in the channel mask list." alt="" coords="443,523,607,567"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="363,563,428,555,428,560,363,569"/>
+<area shape="rect" id="Node000013" href="$db/dda/classCaloTriggerEmulator.html#aa4690ee06b47aa5f226cedf0a5b36cc5" title="Determine if a given trigger primitive key is present in the fiber mask list." alt="" coords="448,901,602,946"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="293,598,304,654,327,730,343,770,363,810,387,847,416,880,437,896,433,900,412,884,383,851,358,813,338,772,322,732,299,655,288,599"/>
+<area shape="rect" id="Node000014" href="$d6/ddd/namespaceTriggerDefs.html#aeed114df2f80146504411b305d3f2509" title="Convert detector name string to corresponding DetectorId enum." alt="" coords="428,591,622,619"/>
+<area shape="poly" id="edge14_Node000011_Node000014" title=" " alt="" coords="363,582,413,589,413,594,363,588"/>
+<area shape="rect" id="Node000015" href="$d6/ddd/namespaceTriggerDefs.html#af4769ca4ef91c141b4a35a919e90c404" title="Retrieve the eta index of a trigger primitive from its encoded key." alt="" coords="426,75,624,119"/>
+<area shape="poly" id="edge15_Node000011_Node000015" title=" " alt="" coords="284,553,287,474,293,420,303,361,319,299,341,238,372,181,412,130,415,127,418,131,416,133,377,184,346,240,324,301,308,362,298,421,293,474,290,553"/>
+<area shape="rect" id="Node000018" href="$d6/ddd/namespaceTriggerDefs.html#a66077004fcd9e13703e324529a2c753f" title="Retrieve eta identifier from trigger sum key." alt="" coords="427,144,623,189"/>
+<area shape="poly" id="edge18_Node000011_Node000018" title=" " alt="" coords="286,553,293,485,312,390,328,339,349,288,377,241,412,199,415,196,419,200,416,203,381,244,354,291,333,341,317,391,298,485,291,553"/>
+<area shape="rect" id="Node000021" href="$d6/ddd/namespaceTriggerDefs.html#a61dede1e5cba7228a1099be3fceddbcb" title="Convert a trigger primitive name to its corresponding PrimitiveId enumeration." alt="" coords="426,643,624,671"/>
+<area shape="poly" id="edge21_Node000011_Node000021" title=" " alt="" coords="337,596,415,628,443,636,441,641,413,633,335,601"/>
+<area shape="rect" id="Node000022" href="$d6/ddd/namespaceTriggerDefs.html#a5c72e4aba9b5219da5d9d014271a0daf" title="Extract the primitive location identifier from a trigger primitive key." alt="" coords="426,213,624,258"/>
+<area shape="poly" id="edge22_Node000011_Node000022" title=" " alt="" coords="288,552,299,495,320,419,337,378,357,339,382,301,412,268,416,265,419,269,416,272,386,305,362,341,342,381,326,421,304,497,293,553"/>
+<area shape="rect" id="Node000023" href="$d6/ddd/namespaceTriggerDefs.html#acce84e27968f6704e8c64a1c4551d467" title="Extract primitive location identifier from a TriggerSumKey." alt="" coords="426,283,624,327"/>
+<area shape="poly" id="edge23_Node000011_Node000023" title=" " alt="" coords="291,552,306,507,330,449,365,389,387,362,412,338,417,334,420,338,416,342,391,365,370,392,335,452,311,509,296,554"/>
+<area shape="rect" id="Node000024" href="$d6/ddd/namespaceTriggerDefs.html#a290ad362a093b466914445730a8709e4" title="Extract the phi index of a trigger primitive from its encoded key." alt="" coords="427,5,623,50"/>
+<area shape="poly" id="edge24_Node000011_Node000024" title=" " alt="" coords="288,553,302,449,328,301,345,226,364,157,387,100,412,61,415,58,418,62,416,64,392,102,370,158,350,227,333,302,307,449,293,553"/>
+<area shape="rect" id="Node000025" href="$d6/ddd/namespaceTriggerDefs.html#af81600d954e34121b6058cb6d19a9753" title="Compute phi identifier for a primitive from a trigger sum key." alt="" coords="428,352,623,397"/>
+<area shape="poly" id="edge27_Node000011_Node000025" title=" " alt="" coords="298,551,343,484,375,446,412,414,432,401,435,406,416,418,379,450,347,487,302,554"/>
+<area shape="rect" id="Node000026" href="$d6/ddd/namespaceTriggerDefs.html#a5673d047ab153c88a06914b00f925a45" title="Retrieve the eta index for a trigger sum based on its primitive type." alt="" coords="432,799,618,827"/>
+<area shape="poly" id="edge30_Node000011_Node000026" title=" " alt="" coords="297,598,313,638,337,689,371,741,392,764,416,784,424,790,421,794,412,788,389,768,367,744,333,692,308,640,292,599"/>
+<area shape="rect" id="Node000027" href="$d6/ddd/namespaceTriggerDefs.html#afbb208317744d6969acecdfccec93060" title="Extract location identifier from trigger sum key." alt="" coords="692,747,880,775"/>
+<area shape="poly" id="edge33_Node000011_Node000027" title=" " alt="" coords="302,551,347,501,378,476,413,457,475,435,528,424,554,425,580,430,608,441,638,458,658,476,678,504,718,581,753,664,777,731,772,733,748,666,713,583,674,507,654,479,635,462,605,446,578,435,553,430,528,429,477,440,415,462,381,480,351,505,306,555"/>
+<area shape="rect" id="Node000028" href="$d6/ddd/namespaceTriggerDefs.html#aaa5097978be92fc976d9c9d165c4990d" title="Compute the phi sector identifier for a given trigger sum key." alt="" coords="432,747,618,775"/>
+<area shape="poly" id="edge34_Node000011_Node000028" title=" " alt="" coords="302,597,346,665,378,701,415,732,427,738,424,743,413,737,374,705,341,668,297,600"/>
+<area shape="rect" id="Node000029" href="$dd/dcb/classTriggerPrimitive.html#a70018af39eb60d781933bcf7e2f97098" title="Retrieve constant range of sum entries." alt="" coords="430,1091,620,1119"/>
+<area shape="poly" id="edge37_Node000011_Node000029" title=" " alt="" coords="296,598,416,1077,420,1080,416,1084,412,1080,291,599"/>
+<area shape="rect" id="Node000030" href="$d6/ddd/namespaceTriggerDefs.html#a4bb5ea6ef69c2ce585b859391604b4b8" title="Construct a 32bit key encoding trigger detector primitive and location identifiers." alt="" coords="414,471,636,499"/>
+<area shape="poly" id="edge38_Node000011_Node000030" title=" " alt="" coords="325,550,366,528,413,508,434,501,436,506,415,513,369,533,327,555"/>
+<area shape="rect" id="Node000031" href="$d6/ddd/namespaceTriggerDefs.html#aa3ffe48b4ba44d3b3bdecc7bbc8e4f92" title="Encode trigger identifiers into a 32 bit key." alt="" coords="414,695,636,723"/>
+<area shape="poly" id="edge39_Node000011_Node000031" title=" " alt="" coords="310,596,356,639,384,661,415,680,432,687,429,692,413,685,381,666,352,644,306,600"/>
+<area shape="rect" id="Node000016" href="$d6/ddd/namespaceTriggerDefs.html#a43e14daf89b8f9d27442815a269449df" title="Convert trigger primitive key to detector identifier." alt="" coords="696,5,876,50"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="611,71,684,52,685,57,613,77"/>
+<area shape="rect" id="Node000017" href="$d6/ddd/namespaceTriggerDefs.html#aae1c53eb92ab6076b792da785fee1de7" title="Extract PrimitiveId from a TriggerPrimKey." alt="" coords="694,75,878,119"/>
+<area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="624,94,679,94,679,100,624,100"/>
+<area shape="rect" id="Node000019" href="$d6/ddd/namespaceTriggerDefs.html#ad8cac1f02acc72ec293f0fd69db086b5" title="Convert a TriggerSumKey to the corresponding DetectorId." alt="" coords="696,253,876,298"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="605,187,637,199,732,243,729,248,635,203,604,192"/>
+<area shape="rect" id="Node000020" href="$d6/ddd/namespaceTriggerDefs.html#abb33ad2eb86f1642b6b41ebb43c7c5f9" title="Convert a TriggerSumKey to its PrimitiveId component." alt="" coords="694,451,878,495"/>
+<area shape="poly" id="edge20_Node000018_Node000020" title=" " alt="" coords="621,187,638,199,659,225,668,251,675,278,687,309,726,377,763,436,759,439,721,380,682,311,669,279,663,252,655,228,635,203,618,191"/>
+<area shape="poly" id="edge25_Node000024_Node000016" title=" " alt="" coords="624,25,680,25,680,30,624,30"/>
+<area shape="poly" id="edge26_Node000024_Node000017" title=" " alt="" coords="613,48,685,68,684,73,611,53"/>
+<area shape="poly" id="edge28_Node000025_Node000019" title=" " alt="" coords="602,349,635,337,720,302,722,307,637,342,603,354"/>
+<area shape="poly" id="edge29_Node000025_Node000020" title=" " alt="" coords="588,395,637,413,712,442,710,447,635,418,587,400"/>
+<area shape="poly" id="edge31_Node000026_Node000020" title=" " alt="" coords="615,796,635,784,665,755,692,721,714,684,733,645,760,571,775,510,780,511,765,572,737,647,719,686,696,724,669,758,638,788,618,801"/>
+<area shape="poly" id="edge32_Node000026_Node000027" title=" " alt="" coords="598,796,697,776,698,781,599,801"/>
+<area shape="poly" id="edge35_Node000028_Node000020" title=" " alt="" coords="613,744,635,732,662,709,685,681,725,621,753,560,772,509,777,511,758,562,729,623,690,685,665,712,638,737,616,749"/>
+<area shape="poly" id="edge36_Node000028_Node000027" title=" " alt="" coords="618,758,677,758,677,764,618,764"/>
+<area shape="poly" id="edge53_Node000032_Node000009" title=" " alt="" coords="331,944,351,960,368,978,380,999,386,1020,389,1058,393,1094,401,1111,416,1128,443,1148,469,1158,494,1161,520,1161,576,1161,606,1168,638,1183,681,1216,718,1255,749,1295,771,1328,767,1331,744,1298,714,1259,677,1220,635,1187,604,1173,575,1166,521,1166,494,1167,467,1163,440,1153,412,1132,397,1114,388,1095,384,1059,381,1021,375,1002,364,981,347,963,328,949"/>
+<area shape="poly" id="edge42_Node000032_Node000012" title=" " alt="" coords="287,900,295,837,315,751,332,704,353,658,379,615,412,578,428,566,431,570,416,582,384,619,357,661,337,706,321,752,300,838,292,901"/>
+<area shape="poly" id="edge43_Node000032_Node000013" title=" " alt="" coords="363,921,433,921,433,926,363,926"/>
+<area shape="poly" id="edge45_Node000032_Node000014" title=" " alt="" coords="288,900,299,845,321,772,337,733,357,695,382,660,412,630,419,625,422,629,416,634,386,663,362,698,342,735,326,774,304,846,293,902"/>
+<area shape="poly" id="edge46_Node000032_Node000021" title=" " alt="" coords="290,900,304,854,328,794,364,733,386,706,412,682,420,676,423,681,416,686,390,709,368,736,333,797,309,855,296,902"/>
+<area shape="poly" id="edge51_Node000032_Node000030" title=" " alt="" coords="291,900,347,684,383,571,399,531,412,509,415,506,418,510,416,512,403,533,388,572,353,686,296,902"/>
+<area shape="poly" id="edge52_Node000032_Node000031" title=" " alt="" coords="294,900,311,863,336,818,370,772,412,734,422,728,425,732,416,738,374,776,341,821,315,866,299,902"/>
+<area shape="rect" id="Node000033" href="$dd/dcb/classTriggerPrimitive.html#ac6461a3f2ff03b410084d8699e5617a1" title=" " alt="" coords="448,971,602,1015"/>
+<area shape="poly" id="edge44_Node000032_Node000033" title=" " alt="" coords="364,943,434,964,433,969,362,948"/>
+<area shape="rect" id="Node000034" href="$d6/ddd/namespaceTriggerDefs.html#a6aa438aa097b93c24b8e9622e57590da" title="Compute a unique tower information key from detector and tower indices." alt="" coords="418,1552,632,1580"/>
+<area shape="poly" id="edge47_Node000032_Node000034" title=" " alt="" coords="335,944,353,959,368,978,378,1002,385,1031,391,1100,389,1180,385,1266,382,1351,383,1428,394,1494,403,1519,416,1539,417,1540,413,1544,412,1543,398,1522,388,1495,378,1429,376,1350,380,1266,384,1180,385,1100,380,1032,373,1004,364,981,350,963,331,949"/>
+<area shape="rect" id="Node000037" href="$d6/ddd/namespaceTriggerDefs.html#ab0093644e572dedeed32b33584eab6ab" title="Convert trigger name string to corresponding TriggerDefs TriggerId enum value." alt="" coords="434,1039,616,1067"/>
+<area shape="poly" id="edge50_Node000032_Node000037" title=" " alt="" coords="324,944,368,978,391,1004,400,1015,415,1025,426,1031,424,1036,413,1030,397,1019,387,1007,364,982,321,949"/>
+<area shape="rect" id="Node000035" href="$da/d9c/namespaceTowerInfoDefs.html#a00c72a0d930085024ae2d7c90e9a36f0" title="Encode an EMCal tower index into a global eta‑phi key." alt="" coords="701,1620,871,1665"/>
+<area shape="poly" id="edge48_Node000034_Node000035" title=" " alt="" coords="576,1578,693,1613,692,1618,575,1583"/>
+<area shape="rect" id="Node000036" href="$da/d9c/namespaceTowerInfoDefs.html#a2e815ce9a29173aad1d9c56f4afc9fec" title="Encode a HCAL tower index into a 32‑bit global key." alt="" coords="684,1558,888,1586"/>
+<area shape="poly" id="edge49_Node000034_Node000036" title=" " alt="" coords="632,1566,669,1567,669,1572,632,1571"/>
+<area shape="poly" id="edge61_Node000038_Node000009" title=" " alt="" coords="315,1104,360,1139,415,1172,447,1185,476,1192,526,1199,577,1206,605,1215,638,1229,675,1252,709,1279,763,1330,760,1333,706,1283,672,1256,635,1234,604,1220,576,1212,525,1204,474,1198,446,1190,413,1177,357,1144,312,1109"/>
+<area shape="poly" id="edge55_Node000038_Node000013" title=" " alt="" coords="348,1059,364,1047,380,1025,387,1002,394,979,412,956,433,943,436,947,416,960,399,982,392,1004,385,1027,368,1051,352,1063"/>
+<area shape="poly" id="edge57_Node000038_Node000025" title=" " alt="" coords="353,1059,364,1047,376,1025,385,997,394,928,395,846,392,758,389,669,388,585,394,513,401,483,412,458,435,428,465,403,468,407,439,431,416,461,407,485,400,514,393,586,394,669,398,757,401,846,399,928,390,998,381,1027,368,1051,356,1063"/>
+<area shape="poly" id="edge58_Node000038_Node000026" title=" " alt="" coords="351,1059,364,1047,378,1027,385,1008,389,970,392,931,399,910,412,887,443,856,478,832,481,837,446,860,416,891,404,912,398,932,395,971,391,1010,383,1030,368,1051,354,1063"/>
+<area shape="poly" id="edge59_Node000038_Node000028" title=" " alt="" coords="352,1059,364,1047,383,1014,390,981,389,948,384,916,380,884,380,851,389,819,412,786,418,780,422,784,416,789,394,821,385,852,385,883,390,915,395,948,396,981,388,1016,368,1051,356,1063"/>
+<area shape="poly" id="edge60_Node000038_Node000029" title=" " alt="" coords="363,1088,415,1092,415,1098,363,1093"/>
+<area shape="rect" id="Node000039" href="$db/dda/classCaloTriggerEmulator.html#ac8741a54e295eaef0a455c87872e5b2b" title="Compute trigger bits for a given sum and trigger type." alt="" coords="448,1244,602,1289"/>
+<area shape="poly" id="edge56_Node000038_Node000039" title=" " alt="" coords="305,1105,350,1163,381,1195,416,1223,436,1235,433,1239,412,1227,378,1199,346,1167,301,1108"/>
+<area shape="poly" id="edge77_Node000040_Node000009" title=" " alt="" coords="312,1536,357,1501,413,1469,474,1449,524,1443,574,1437,635,1419,659,1405,683,1389,721,1374,723,1379,686,1394,662,1409,637,1423,576,1442,525,1448,475,1454,415,1474,360,1506,315,1540"/>
+<area shape="poly" id="edge63_Node000040_Node000035" title=" " alt="" coords="347,1581,415,1601,556,1624,686,1635,686,1641,556,1629,413,1606,346,1587"/>
+<area shape="poly" id="edge64_Node000040_Node000036" title=" " alt="" coords="367,1581,414,1589,476,1595,525,1596,636,1589,676,1585,677,1591,637,1594,525,1601,476,1600,414,1594,366,1586"/>
+<area shape="rect" id="Node000041" href="$db/dda/classCaloTriggerEmulator.html#a5729e2aeaacbc9efab8d16f82d63a0af" title="Process offline calorimeter trigger emulation for the current event." alt="" coords="448,1484,602,1529"/>
+<area shape="poly" id="edge65_Node000040_Node000041" title=" " alt="" coords="366,1540,433,1525,434,1530,367,1545"/>
+<area shape="rect" id="Node000043" href="$db/dda/classCaloTriggerEmulator.html#a51e6532ec195435650cf12261276d799" title="Process simulated waveforms for EMCal HCalOut and HCalIn." alt="" coords="448,1705,602,1750"/>
+<area shape="poly" id="edge71_Node000040_Node000043" title=" " alt="" coords="307,1582,353,1633,383,1660,415,1684,437,1696,435,1701,413,1689,380,1664,350,1637,304,1586"/>
+<area shape="poly" id="edge68_Node000041_Node000003" title=" " alt="" coords="592,1481,728,1434,730,1439,594,1486"/>
+<area shape="poly" id="edge70_Node000041_Node000009" title=" " alt="" coords="601,1483,635,1463,650,1445,658,1427,666,1408,683,1390,707,1375,710,1379,686,1394,670,1411,663,1429,655,1448,638,1467,603,1488"/>
+<area shape="poly" id="edge66_Node000041_Node000035" title=" " alt="" coords="603,1522,638,1539,654,1553,663,1567,672,1581,686,1595,711,1611,708,1615,683,1599,668,1584,659,1570,650,1556,635,1543,601,1526"/>
+<area shape="poly" id="edge67_Node000041_Node000036" title=" " alt="" coords="603,1523,713,1551,712,1556,602,1528"/>
+<area shape="rect" id="Node000042" href="$d1/d1a/classOfflinePacket.html#a28d8078f89e7c52950e79743c3399c67" title=" " alt="" coords="709,1492,863,1520"/>
+<area shape="poly" id="edge69_Node000041_Node000042" title=" " alt="" coords="602,1504,693,1504,693,1509,602,1509"/>
+<area shape="poly" id="edge76_Node000043_Node000009" title=" " alt="" coords="548,1703,592,1654,615,1623,634,1591,645,1562,650,1535,650,1486,650,1463,654,1439,664,1415,682,1390,699,1376,702,1381,686,1393,669,1418,659,1441,655,1463,655,1486,655,1536,650,1563,639,1593,619,1626,597,1657,552,1707"/>
+<area shape="poly" id="edge72_Node000043_Node000035" title=" " alt="" coords="595,1702,700,1667,702,1672,597,1707"/>
+<area shape="poly" id="edge73_Node000043_Node000036" title=" " alt="" coords="549,1703,608,1655,683,1605,720,1589,722,1594,686,1610,611,1659,553,1707"/>
+<area shape="rect" id="Node000044" href="$d3/d65/classTowerInfo.html#a843b4f5f34fa380b0b9936cd6ca18146" title=" " alt="" coords="712,1708,860,1736"/>
+<area shape="poly" id="edge74_Node000043_Node000044" title=" " alt="" coords="602,1723,696,1721,696,1727,602,1729"/>
+<area shape="rect" id="Node000045" href="$d3/d65/classTowerInfo.html#a77d49d93904fc5849dbf339ff7ceb136" title=" " alt="" coords="693,1760,879,1805"/>
+<area shape="poly" id="edge75_Node000043_Node000045" title=" " alt="" coords="603,1741,678,1757,677,1762,602,1746"/>
+</map>

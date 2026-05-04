@@ -1,0 +1,73 @@
+<map id="PHG4Particle::get_pid" name="PHG4Particle::get_pid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1243,650,1404,678"/>
+<area shape="rect" id="Node000002" href="$d4/dc9/classPHG4DSTReader.html#a800782dd1b7ce1294a4760d71f609708" title="add a particle and associated vertex if _save_vertex" alt="" coords="1012,9,1173,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1317,635,1304,514,1279,346,1262,260,1242,181,1219,116,1193,72,1172,55,1175,51,1197,69,1224,114,1247,179,1267,258,1284,345,1309,513,1322,634"/>
+<area shape="rect" id="Node000004" href="$d4/d06/classDecayFinder.html#aa2ec77fc20af5ba75ee86ffdf85f5026" title="Determine whether a Geant4 particle passes the decay and kinematic selection." alt="" coords="990,83,1194,127"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1316,635,1300,528,1274,383,1257,309,1237,242,1216,186,1193,148,1171,130,1174,126,1197,145,1221,184,1243,240,1262,308,1279,382,1306,527,1321,634"/>
+<area shape="rect" id="Node000005" href="$d4/d06/classDecayFinder.html#a7fdf4bca3693d0dfccdaf19998f94911" title=" " alt="" coords="736,99,936,143"/>
+<area shape="poly" id="edge32_Node000001_Node000005" title=" " alt="" coords="1316,635,1300,537,1274,405,1257,339,1237,279,1216,231,1193,199,1160,185,1095,169,936,139,937,134,1097,164,1161,180,1197,195,1221,228,1242,277,1262,338,1279,404,1305,536,1321,634"/>
+<area shape="rect" id="Node000006" href="$d4/d06/classDecayFinder.html#a64a8e34e3785175edd545a3cd5c214a1" title=" " alt="" coords="214,151,389,179"/>
+<area shape="poly" id="edge17_Node000001_Node000006" title=" " alt="" coords="1315,635,1299,544,1272,424,1256,365,1237,312,1216,270,1193,243,1176,234,1146,227,1060,215,948,207,823,203,581,198,437,193,370,182,371,177,437,188,582,193,823,197,948,202,1061,210,1147,222,1177,229,1197,239,1220,267,1241,310,1261,364,1278,423,1304,542,1320,634"/>
+<area shape="rect" id="Node000009" href="$dd/de6/classKFParticle__truthAndDetTools.html#ac19eec0bb2f3f9284434f6af5f9c5352" title="Fill Geant4 truth branch vectors for a given particle." alt="" coords="990,253,1195,298"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="1317,634,1308,569,1287,482,1271,436,1251,391,1225,349,1193,312,1178,301,1182,297,1197,308,1229,346,1255,389,1276,434,1293,481,1314,568,1323,634"/>
+<area shape="rect" id="Node000013" href="$db/db2/classTruthNeutralMesonBuilder.html#ac65a8d9ab7c8424f37216c29e20e24b6" title="Determine if a shower originates from a photon conversion." alt="" coords="997,323,1188,367"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="1314,635,1300,583,1276,517,1241,449,1219,417,1193,388,1167,370,1170,366,1197,384,1223,413,1246,446,1281,515,1305,582,1319,634"/>
+<area shape="rect" id="Node000014" href="$db/db2/classTruthNeutralMesonBuilder.html#a511b2cac6ff236e805f2c5386f07a462" title="Process event and fill truth neutral meson container." alt="" coords="741,353,931,398"/>
+<area shape="poly" id="edge30_Node000001_Node000014" title=" " alt="" coords="1313,636,1299,590,1275,534,1240,478,1218,453,1194,433,1174,423,1148,414,1082,400,931,383,932,378,1082,394,1150,409,1177,418,1196,428,1222,450,1244,475,1280,532,1304,588,1318,635"/>
+<area shape="rect" id="Node000015" href="$da/dbf/classTruthJetInput.html#a4c3ed9ba972f59ab008fa8574ec26a20" title="Retrieve input truth jets from the node tree." alt="" coords="1026,443,1158,487"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="1306,638,1261,570,1230,533,1194,502,1158,483,1160,479,1196,497,1233,530,1265,567,1310,635"/>
+<area shape="rect" id="Node000016" href="$d4/de4/classSvtxTruthEval.html#af9ee08264b521af295fed374a381bfeb" title="Retrieve the PDG identifier of the parent particle for a given truth particle." alt="" coords="1007,512,1178,557"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="1294,642,1248,606,1194,571,1168,560,1170,555,1196,567,1251,602,1297,638"/>
+<area shape="rect" id="Node000017" href="$d4/de4/classSvtxTruthEval.html#ad6c6c02ef2f4dcbf48e1e9360f628082" title="Retrieve the PDG identifier of the primary particle associated with a given truth particle." alt="" coords="1003,581,1182,626"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="1252,648,1180,629,1182,624,1254,643"/>
+<area shape="rect" id="Node000018" href="$de/dc9/classPHG4Particle.html#a57ae4304cafa708b9fd5efe733fcd3d3" title="Compare two PHG4Particle objects for equality." alt="" coords="997,650,1188,678"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="1227,666,1188,666,1188,661,1227,661"/>
+<area shape="rect" id="Node000019" href="$d6/d02/classDetermineTowerBackground.html#a2f2c2c1d59dbf0df2debbedb977dfb57" title="Process a single event to determine tower background and flow parameters." alt="" coords="990,701,1195,746"/>
+<area shape="poly" id="edge22_Node000001_Node000019" title=" " alt="" coords="1254,684,1182,703,1180,698,1252,679"/>
+<area shape="rect" id="Node000020" href="$dd/d9f/classKshortReconstruction.html#aab5d291b84534d87eaf721e4ddb186c3" title="Process a single event to reconstruct K short candidates." alt="" coords="1012,771,1172,815"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="1297,690,1251,726,1196,761,1170,773,1168,768,1194,756,1248,721,1294,686"/>
+<area shape="rect" id="Node000021" href="$df/d93/classMbdDigitization.html#ac057a48a827f031ed90a4b605ed544ed" title="Process Event, called for each event." alt="" coords="1001,840,1184,885"/>
+<area shape="poly" id="edge24_Node000001_Node000021" title=" " alt="" coords="1310,693,1265,761,1233,798,1197,830,1176,842,1174,837,1193,826,1230,794,1261,758,1306,690"/>
+<area shape="rect" id="Node000022" href="$dc/dd7/classPHG4ScoringManager.html#a5d492ab9ed5d057011eff6654f83cf72" title="event processing method" alt="" coords="1011,909,1174,954"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="1317,694,1301,738,1276,794,1242,850,1220,876,1197,899,1175,913,1172,909,1193,895,1217,872,1237,847,1271,791,1296,736,1312,692"/>
+<area shape="rect" id="Node000023" href="$d9/d24/classPHTruthClustering.html#a32f3b05811ac36d8f08ae3c565edcfca" title="Fill truth cluster node with clusters derived from G4 truth particles." alt="" coords="1020,979,1165,1023"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="1321,694,1309,751,1286,824,1270,863,1250,901,1225,937,1197,968,1167,987,1164,983,1193,964,1221,933,1245,899,1265,861,1281,823,1303,750,1315,693"/>
+<area shape="rect" id="Node000024" href="$d0/d0c/classQAG4Decayer.html#aa696e43f8b271a9bb04e79109be46adc" title="Process a single event and fill heavy‑flavor QA histograms." alt="" coords="1007,1048,1178,1093"/>
+<area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="1323,693,1315,763,1295,854,1279,904,1257,952,1230,997,1197,1038,1180,1051,1176,1046,1193,1034,1226,994,1253,949,1274,902,1290,853,1310,762,1318,693"/>
+<area shape="rect" id="Node000025" href="$dc/d79/classQAG4SimulationTruthDecay.html#a5469feeef5882fb98cca6680d159d136" title="Process a single event, extracting truth decay information and filling QA histograms or ntuple." alt="" coords="992,1117,1193,1162"/>
+<area shape="poly" id="edge28_Node000001_Node000025" title=" " alt="" coords="1325,693,1321,774,1304,884,1288,944,1265,1002,1235,1058,1197,1107,1182,1119,1179,1115,1193,1103,1231,1055,1260,1000,1283,942,1299,883,1316,773,1320,693"/>
+<area shape="rect" id="Node000026" href="$da/d7d/classQAG4SimulationUpsilon.html#ab79aed70b129c1906b4d1986fe2a52d9" title="Process event for QAG4SimulationUpsilon analysis module." alt="" coords="1004,1187,1181,1231"/>
+<area shape="poly" id="edge29_Node000001_Node000026" title=" " alt="" coords="1321,693,1306,800,1280,944,1263,1017,1243,1083,1221,1138,1197,1176,1183,1188,1179,1184,1193,1173,1217,1136,1238,1081,1257,1015,1274,943,1301,799,1316,693"/>
+<area shape="rect" id="Node000027" href="$db/db2/classTruthNeutralMesonBuilder.html#a071068d700018b0c1e1ad7b344fe16b8" title="Determine whether a meson originating from a G4 shower should be rejected." alt="" coords="997,1256,1188,1301"/>
+<area shape="poly" id="edge31_Node000001_Node000027" title=" " alt="" coords="1322,693,1309,812,1284,977,1267,1061,1247,1138,1224,1201,1197,1245,1183,1257,1180,1253,1193,1242,1219,1199,1242,1136,1262,1060,1279,976,1304,811,1317,693"/>
+<area shape="rect" id="Node000028" href="$d8/d78/classPHG4ParticleGeneratorBase.html#a137691dcd69902557a3d316258f99962" title="Ensure particle name and PDG code are set and optionally embed the particle." alt="" coords="991,1325,1194,1370"/>
+<area shape="poly" id="edge33_Node000001_Node000028" title=" " alt="" coords="1323,693,1312,824,1289,1010,1272,1105,1251,1193,1226,1265,1212,1293,1197,1315,1183,1327,1180,1323,1193,1311,1208,1290,1221,1263,1246,1191,1267,1104,1283,1009,1307,824,1318,692"/>
+<area shape="rect" id="Node000003" href="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853" title="event processing method" alt="" coords="742,5,930,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="996,33,930,32,930,26,996,28"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="975,124,937,126,936,121,975,119"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="952,102,989,100,990,105,952,107"/>
+<area shape="poly" id="edge8_Node000005_Node000005" title=" " alt="" coords="878,86,862,80,836,77,812,79,797,84,791,90,793,98,787,99,786,88,794,80,811,74,836,72,864,75,880,81"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="721,125,585,130,437,142,370,153,369,148,437,137,584,125,720,119"/>
+<area shape="rect" id="Node000008" href="$d4/d06/classDecayFinder.html#ad514587b6f61acacd6eebf251573440b" title=" " alt="" coords="437,151,682,179"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="721,142,651,153,650,148,720,137"/>
+<area shape="rect" id="Node000007" href="$d4/d06/classDecayFinder.html#ab81647fd0317041647b6c248ac1069c0" title="Process a single event, searching for the configured decay." alt="" coords="5,143,166,187"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="198,168,166,168,166,162,198,162"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="421,168,390,168,390,162,421,162"/>
+<area shape="rect" id="Node000010" href="$dd/de6/classKFParticle__truthAndDetTools.html#ad020ae1958b487d9ec890bf683d78d79" title="Retrieve HepMC truth information for a daughter particle and fill output branches." alt="" coords="733,253,939,298"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="974,278,939,278,939,273,974,273"/>
+<area shape="rect" id="Node000011" href="$d9/dae/classKFParticle__nTuple.html#a19b5fd2a641c969245dc5bd891276240" title="Fills required information for your selection, also requests truth and detector information if needed..." alt="" coords="488,253,631,298"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="718,278,632,278,632,273,718,273"/>
+<area shape="rect" id="Node000012" href="$d5/d72/classKFParticle__sPHENIX.html#aac7b97c325669f73559f04881cffae58" title="Process a single event within the Fun4All framework." alt="" coords="227,253,376,298"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="472,278,376,278,376,273,472,273"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="982,361,932,367,931,362,981,356"/>
+<area shape="rect" id="Node000029" href="$da/ddc/classPHG4IonGun.html#acab314e46908041565e0e14e73325bab" title="Process a single event and generate ion primary particles." alt="" coords="755,1187,917,1231"/>
+<area shape="poly" id="edge34_Node000028_Node000029" title=" " alt="" coords="994,1320,988,1315,972,1297,963,1279,955,1262,940,1246,916,1232,918,1227,943,1242,960,1259,968,1277,976,1294,991,1311,998,1315"/>
+<area shape="rect" id="Node000030" href="$dd/d68/classPHG4ParticleGenerator.html#a27b1f33f182e52a875ead48612ad29d3" title="Generate particles for the current event and store them in the PHG4InEvent node." alt="" coords="751,1256,921,1301"/>
+<area shape="poly" id="edge35_Node000028_Node000030" title=" " alt="" coords="992,1323,921,1304,922,1299,993,1318"/>
+<area shape="rect" id="Node000031" href="$d9/d78/classPHG4ParticleGeneratorD0.html#ab7b714e2007eaf957fd8790b5b0cfd39" title="Generate a D0 meson event, decay it to Kminus and piplus and store the particles in the PHG4InEvent n..." alt="" coords="742,1325,930,1370"/>
+<area shape="poly" id="edge36_Node000028_Node000031" title=" " alt="" coords="976,1350,931,1350,931,1345,976,1345"/>
+<area shape="rect" id="Node000032" href="$d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#abd61007655fd3b068d1ab5b53828532a" title="Generate vector meson decay particles for a single event and fill the G4InEvent node." alt="" coords="730,1395,942,1439"/>
+<area shape="poly" id="edge37_Node000028_Node000032" title=" " alt="" coords="993,1377,922,1397,921,1391,992,1372"/>
+<area shape="rect" id="Node000033" href="$dd/d13/classPHG4ParticleGun.html#a628a3341c5489016d87c637e55d333b7" title="Process a single event and fill PHG4InEvent with vertex and particles." alt="" coords="741,1464,931,1509"/>
+<area shape="poly" id="edge38_Node000028_Node000033" title=" " alt="" coords="1053,1382,1002,1419,943,1454,916,1466,914,1461,940,1449,999,1415,1050,1378"/>
+</map>

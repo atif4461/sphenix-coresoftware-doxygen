@@ -1,0 +1,18 @@
+digraph "TowerInfov2::set_chi2"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TowerInfov2::set_chi2",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TowerInfov2::copy_tower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d55/classTowerInfov2.html#a1adcec4a6ac1a661bcebf4df646982ac",tooltip="Copy tower data from a TowerInfo object into this TowerInfov2."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TowerInfoSimv1::copy\l_tower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d7c/classTowerInfoSimv1.html#a378f61572f2fb3aac757ee59f9cda205",tooltip="Copy tower data from a generic TowerInfo object into this TowerInfoSimv1 instance."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TowerInfoSimv2::copy\l_tower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d81/classTowerInfoSimv2.html#aa60c1443be2e93944f7516cf1bc1d73a",tooltip="Copy tower data from a generic TowerInfo object into this simulated tower."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TowerInfov3::copy_tower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d28/classTowerInfov3.html#a6ebc354e75cc6d397c0444b1502b7ea2",tooltip="Copy tower information including waveform samples from another TowerInfo object."];
+}

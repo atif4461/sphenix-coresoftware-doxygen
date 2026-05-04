@@ -1,0 +1,48 @@
+digraph "PHG4TruthTrackingAction::PreUserTrackingAction"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4TruthTrackingAction\l::PreUserTrackingAction",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="tracking action"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHObject::CloneMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d24/classPHObject.html#a1c6736c25e4dadd665c13342036d3a5b",tooltip="Virtual copy constructor."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4Particle::get_track_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a23b7432f9b345b67a00e5c005fa5ba52",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4UserPrimaryParticleInformation\l::get_user_barcode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d9e/classPHG4UserPrimaryParticleInformation.html#a3558253bb3b74b1ecb73546b8d8d0ac1",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4Particle::get_vtx_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a79a815798f148cb5818497caae6dcb41",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4Particle::set_barcode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a098cf300b6fc58abbf423adeb33414ae",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4Showerv1::set_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dfa/classPHG4Showerv1.html#a2b0b0f0d7c0e2a823a6e3bb47eadeb9c",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4Particle::set_parent_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#ae5cd12d8d9a8c7bbf53abf9ee11ee4bc",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4Showerv1::set_parent\l_particle_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dfa/classPHG4Showerv1.html#a85bbe88fde234888349b4a7f8113302a",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4Showerv1::set_parent\l_shower_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dfa/classPHG4Showerv1.html#ac0cafe30afd46acc07a86917114a27e3",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PHG4Particle::set_primary_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a494545fca4c4656d717dd9837aaed1ed",tooltip=" "];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PHG4UserPrimaryParticleInformation\l::set_user_track_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d9e/classPHG4UserPrimaryParticleInformation.html#abf796dff20b709000ff3fffe4b3b66a0",tooltip=" "];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHG4UserPrimaryParticleInformation\l::set_user_vtx_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d9e/classPHG4UserPrimaryParticleInformation.html#a53d5ba12c7ec9eca7db286d6244eb359",tooltip=" "];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="PHG4TrackUserInfoV1\l::SetKeep",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da8/classPHG4TrackUserInfoV1.html#abb689095e6ea9df4d37e455c2ff0bfaa",tooltip=" "];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="PHG4TrackUserInfo::\lSetShower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d7f/namespacePHG4TrackUserInfo.html#a6c51cc021b583d69a7aa7fa7b6ebc29b",tooltip="Associate a PHG4Shower object with a Geant4 track."];
+  Node15 -> Node16 [id="edge15_Node000015_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="PHG4TrackUserInfoV1\l::SetShower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da8/classPHG4TrackUserInfoV1.html#a90dded524fae4df2473ea8105052cbb9",tooltip=" "];
+  Node1 -> Node17 [id="edge16_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="PHG4TrackUserInfo::\lSetUserPrimaryId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d7f/namespacePHG4TrackUserInfo.html#a03caebd1436815efcb5a30b94004efe9",tooltip="Set user primary identifier for a Geant4 track."];
+  Node17 -> Node18 [id="edge17_Node000017_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="PHG4TrackUserInfoV1\l::SetUserPrimaryId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da8/classPHG4TrackUserInfoV1.html#aa698373693814f05582c80e7da59aefa",tooltip=" "];
+  Node1 -> Node19 [id="edge18_Node000001_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="PHG4TrackUserInfo::\lSetUserTrackId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d7f/namespacePHG4TrackUserInfo.html#a82757358cfcf216d0cda4ab0eb084ae4",tooltip="Set user track identifier in a G4Track."];
+  Node19 -> Node20 [id="edge19_Node000019_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="PHG4TrackUserInfoV1\l::SetUserTrackId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/da8/classPHG4TrackUserInfoV1.html#a90c958f79ba16dcd742b81babd628571",tooltip=" "];
+}

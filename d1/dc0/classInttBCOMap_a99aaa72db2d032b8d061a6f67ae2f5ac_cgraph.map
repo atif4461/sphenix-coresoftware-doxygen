@@ -1,0 +1,15 @@
+<map id="InttBCOMap::LoadFromFile" name="InttBCOMap::LoadFromFile">
+<area shape="rect" id="Node000001" title="Load InttBCOMap data from a specified file." alt="" coords="5,42,200,69"/>
+<area shape="rect" id="Node000002" href="$dd/d3c/classCDBTTree.html#aa299d0220ccd1f3ae00623c462e4f88e" title="Load calibration data from ROOT file into internal maps." alt="" coords="786,94,988,121"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,38,279,20,421,5,500,3,581,5,661,13,739,28,771,38,802,52,855,82,852,87,800,57,769,43,738,33,660,18,580,10,500,8,422,11,279,25,170,44"/>
+<area shape="rect" id="Node000003" href="$d1/dc0/classInttBCOMap.html#a00094785acfa4bf1bf7c833a563560fe" title="Load BCO offset map from a CDBTTree object." alt="" coords="248,67,482,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,62,232,65,232,71,200,67"/>
+<area shape="rect" id="Node000004" href="$d1/dc0/classInttBCOMap.html#ae8016cbba57deac59203a5842544c6a6" title="Compute the most frequent BCO offset across all servers and channels." alt="" coords="538,42,731,69"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="482,67,522,63,522,69,483,72"/>
+<area shape="rect" id="Node000005" href="$dd/d3c/classCDBTTree.html#a9d1ea2ef83055c97369bcab6220b8889" title="Retrieve integer calibration value for a given channel and field name." alt="" coords="550,94,718,121"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="483,90,535,95,534,100,482,95"/>
+<area shape="rect" id="Node000006" href="$dd/d3c/classCDBTTree.html#a44b5ff7ca5fce79d032ad3d41daf9e1d" title="Retrieve integer calibration value by name." alt="" coords="530,146,738,173"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="410,93,531,130,561,139,560,144,529,135,409,98"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="719,105,771,105,771,110,719,110"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="705,142,800,122,802,128,706,148"/>
+</map>

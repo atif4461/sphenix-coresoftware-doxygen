@@ -1,0 +1,29 @@
+<map id="PHG4InputFilter::process_event" name="PHG4InputFilter::process_event">
+<area shape="rect" id="Node000001" title="Filter particles in PHG4InEvent according to eta and pt selection criteria." alt="" coords="5,132,187,176"/>
+<area shape="rect" id="Node000002" href="$db/d62/classPHG4InEvent.html#a3dd93bdfcca611ac18f565586fd0e126" title="Delete particle from internal list and free memory." alt="" coords="235,5,440,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,129,169,86,200,63,233,43,251,36,253,41,236,48,203,67,172,90,122,133"/>
+<area shape="rect" id="Node000003" href="$da/d36/classPHG4InputFilter.html#acf47b52aa23a2d9928f650817f59cc84" title="Compute pseudorapidity from Cartesian coordinates." alt="" coords="247,57,428,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,128,234,95,261,87,263,92,236,100,150,133"/>
+<area shape="rect" id="Node000004" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="266,109,409,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,140,250,132,251,137,188,145"/>
+<area shape="rect" id="Node000010" href="$db/d62/classPHG4InEvent.html#a019792133332292b79498aaf190176ef" title="Retrieve mutable iterators to the beginning and end of the particle list." alt="" coords="241,161,434,206"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="188,162,226,167,225,172,187,168"/>
+<area shape="rect" id="Node000011" href="$db/d62/classPHG4InEvent.html#a94f236e36feaa480baee6340efeb9bae" title="Identify event by printing vertex and particle information to the given output stream." alt="" coords="256,253,419,281"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="147,174,293,244,291,249,144,179"/>
+<area shape="rect" id="Node000013" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="252,305,422,333"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="116,175,165,233,199,264,236,290,249,297,247,302,233,295,195,268,162,237,112,178"/>
+<area shape="rect" id="Node000005" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="494,84,675,112"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="409,113,478,106,478,111,410,118"/>
+<area shape="rect" id="Node000009" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="502,136,666,164"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="410,128,487,137,486,142,409,134"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="542,85,535,75,541,65,557,59,584,57,613,60,629,66,627,71,612,65,584,63,558,65,544,69,541,75,547,82"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="772,32,914,60"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="656,81,757,60,758,66,657,86"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="777,84,909,112"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="675,95,761,95,761,100,675,100"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="728,136,958,164"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="657,110,756,130,755,135,656,115"/>
+<area shape="poly" id="edge13_Node000011_Node000011" title=" " alt="" coords="296,254,289,244,295,235,311,229,337,227,366,229,381,236,379,240,364,234,337,232,312,234,298,239,295,244,301,251"/>
+<area shape="rect" id="Node000012" href="$db/d62/classPHG4InEvent.html#a4505d4bac04780935c73451b0db03d73" title="Retrieve constant iterators spanning the internal particle list." alt="" coords="488,253,680,281"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="420,264,473,264,473,270,420,270"/>
+</map>

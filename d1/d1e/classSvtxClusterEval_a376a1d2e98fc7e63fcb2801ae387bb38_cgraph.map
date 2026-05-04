@@ -1,0 +1,15 @@
+<map id="SvtxClusterEval::FillRecoClusterFromG4HitCache" name="SvtxClusterEval::FillRecoClusterFromG4HitCache">
+<area shape="rect" id="Node000001" title="Fill reconstruction cluster cache from G4 hit truth associations." alt="" coords="5,104,189,149"/>
+<area shape="rect" id="Node000002" href="$d1/d1e/classSvtxClusterEval.html#ae2d6f811db24d80dac0f4b247de56bcd" title="Retrieve set of truth particles associated with a given cluster key." alt="" coords="237,104,385,149"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,124,221,124,221,129,189,129"/>
+<area shape="rect" id="Node000003" href="$d1/d1e/classSvtxClusterEval.html#a19f61841db8edf09e606635a790b1d2c" title="Retrieve all truth PHG4Hit objects associated with a given cluster key." alt="" coords="436,35,584,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="376,101,428,83,430,88,378,106"/>
+<area shape="rect" id="Node000006" href="$d4/de4/classSvtxTruthEval.html#ae575fcf72ce935a72f3c5a157abdd900" title="Retrieve the PHG4Particle associated with a given PHG4Hit." alt="" coords="440,104,579,149"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="385,124,425,124,425,129,385,129"/>
+<area shape="rect" id="Node000007" href="$d1/d1e/classSvtxClusterEval.html#a3e3879bf6110b7442b437ba803c5abc8" title=" " alt="" coords="433,173,586,218"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="378,147,430,165,428,170,376,152"/>
+<area shape="rect" id="Node000004" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="634,5,836,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="584,45,619,40,619,45,584,50"/>
+<area shape="rect" id="Node000005" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="665,74,805,102"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="584,64,650,73,649,79,584,70"/>
+</map>

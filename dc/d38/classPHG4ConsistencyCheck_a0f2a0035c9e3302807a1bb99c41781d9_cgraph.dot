@@ -1,0 +1,39 @@
+digraph "PHG4ConsistencyCheck::process_event"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4ConsistencyCheck\l::process_event",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="event processing"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4Particle::get_primary_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a64791a9cca8d548c7292f0843472f5a5",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="findNode::getClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHNodeIterator::findFirst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa",tooltip="Search recursively for the first node that matches a given type and name."];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHNode::getName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263",tooltip=" "];
+  Node4 -> Node6 [id="edge6_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHNode::getType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5",tooltip=" "];
+  Node4 -> Node7 [id="edge7_Node000004_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHNodeIterator::PHNodeIterator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240",tooltip="Constructor initializing the iterator with the specified composite node."];
+  Node3 -> Node8 [id="edge8_Node000003_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHDataNode::getData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4TruthInfoContainer\l::GetEmbeddedTrkIds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d6c/classPHG4TruthInfoContainer.html#a199eceae9b8feabb9d0166096ebfc150",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4HitContainer::getHits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d30/classPHG4HitContainer.html#aae172cc4360806cd0bb9b25079290ee8",tooltip="return all hits matching a given detid"];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PHG4TruthInfoContainer\l::GetParticle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d6c/classPHG4TruthInfoContainer.html#a175e3e0bbb61b850bf184368d920152f",tooltip="Retrieve particle pointer from container by track identifier."];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PHG4TruthInfoContainer\l::GetParticleRange",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d6c/classPHG4TruthInfoContainer.html#a1ee31482bc1d9463f16bf4de90273c41",tooltip="Get a range of iterators covering the entire container."];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHG4Particle::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a4627a601f593310250ef0583d1229ec4",tooltip="Identify the particle by writing a message to the provided output stream."];
+  Node1 -> Node14 [id="edge14_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="PHG4TruthInfoContainer\l::isEmbeded",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d6c/classPHG4TruthInfoContainer.html#a422cbc96a42020587ff934b08017a73e",tooltip="Determine embedding flag for a given track identifier."];
+  Node14 -> Node2 [id="edge15_Node000014_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node14 -> Node11 [id="edge16_Node000014_Node000011",color="steelblue1",style="solid",tooltip=" "];
+}

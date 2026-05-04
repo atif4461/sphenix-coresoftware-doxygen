@@ -1,0 +1,12 @@
+digraph "EmcCluster::GetE4"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="EmcCluster::GetE4",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns the energy in 2x2 towers around the cluster Center of Gravity."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="EmcCluster::GetTowerEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d04/classEmcCluster.html#ad96d96efb489f2a283ca0773b8883b6c",tooltip="Returns the EmcModule corresponding to the reconstructed impact tower."];
+}

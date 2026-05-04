@@ -1,0 +1,14 @@
+digraph "MbdOut::set_clocks"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MbdOut::set_clocks",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set clock identifiers for the given event."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MbdEvent::Calculate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d64/classMbdEvent.html#a855378f6cebc129803f811dd56d765c4",tooltip="Compute MBD event quantities from BBC PMT container and fill output structure."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MbdOutV2::CopyTo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d2b/classMbdOutV2.html#add801398c5459f032dc713683cce4f92",tooltip="Copy internal timing and vertex information to a MbdOut object."];
+}

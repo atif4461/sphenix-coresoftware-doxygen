@@ -1,0 +1,19 @@
+digraph "TrackFitUtils::get_line_point_pca"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrackFitUtils::get\l_line_point_pca",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute the xy point on a straight line that is closest to a given global point."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackFitUtils::line\l_dist_to_pca",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d94/namespaceTrackFitUtils.html#ae2feffe5fe9be8c43b640fcfb82675c4",tooltip="Compute the transverse Euclidean distance between a line defined by slope and intercept and a point o..."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="HelicalFitter::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/de1/classHelicalFitter.html#a98485e999dddb90f86479a58eb7b53a3",tooltip="Process a single event and perform helical or straight line fits for silicon and/or TPC track seeds."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrackFitUtils::z_fit\l_to_pca",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d94/namespaceTrackFitUtils.html#a4b67a5508667e6fb67cf572e80187567",tooltip="Fit the longitudinal coordinate (Z) as a function of distance along the principal component axis (PCA..."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrackFitUtils::zero\l_field_track_params",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d94/namespaceTrackFitUtils.html#aa6d9c8dcc339cd28343b39bad5688bc8",tooltip="Compute track parameters assuming zero magnetic field using cluster positions."];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,27 @@
+<map id="CaloTriggerEmulator::process_primitives" name="CaloTriggerEmulator::process_primitives">
+<area shape="rect" id="Node000001" title="MakeTriggerOutput." alt="" coords="5,283,159,327"/>
+<area shape="rect" id="Node000002" href="$db/dda/classCaloTriggerEmulator.html#a0952c820ed81e742435a9a4f52b57b1a" title="Determine whether a trigger sum key is present in the channel mask list." alt="" coords="236,5,400,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,281,100,235,123,176,158,114,180,85,205,60,220,50,223,54,208,64,184,89,162,117,128,178,105,237,91,283"/>
+<area shape="rect" id="Node000003" href="$db/dda/classCaloTriggerEmulator.html#aa4690ee06b47aa5f226cedf0a5b36cc5" title="Determine if a given trigger primitive key is present in the fiber mask list." alt="" coords="241,75,394,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="91,281,109,248,134,207,166,165,205,130,225,117,228,122,208,134,170,169,138,210,113,250,96,284"/>
+<area shape="rect" id="Node000004" href="$dd/dcb/classTriggerPrimitive.html#ac6461a3f2ff03b410084d8699e5617a1" title=" " alt="" coords="241,144,394,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="103,280,148,239,205,199,226,189,228,194,208,203,151,243,107,284"/>
+<area shape="rect" id="Node000005" href="$d6/ddd/namespaceTriggerDefs.html#aeed114df2f80146504411b305d3f2509" title="Convert detector name string to corresponding DetectorId enum." alt="" coords="221,212,415,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="131,280,206,250,234,242,236,247,208,256,133,285"/>
+<area shape="rect" id="Node000006" href="$d6/ddd/namespaceTriggerDefs.html#a61dede1e5cba7228a1099be3fceddbcb" title="Convert a trigger primitive name to its corresponding PrimitiveId enumeration." alt="" coords="219,264,416,292"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="159,294,203,289,204,294,159,299"/>
+<area shape="rect" id="Node000007" href="$d6/ddd/namespaceTriggerDefs.html#a6aa438aa097b93c24b8e9622e57590da" title="Compute a unique tower information key from detector and tower indices." alt="" coords="211,316,424,344"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="159,311,196,315,195,320,159,316"/>
+<area shape="rect" id="Node000010" href="$d6/ddd/namespaceTriggerDefs.html#ab0093644e572dedeed32b33584eab6ab" title="Convert trigger name string to corresponding TriggerDefs TriggerId enum value." alt="" coords="227,368,409,396"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="135,325,208,353,236,362,234,367,206,358,133,330"/>
+<area shape="rect" id="Node000011" href="$d6/ddd/namespaceTriggerDefs.html#a4bb5ea6ef69c2ce585b859391604b4b8" title="Construct a 32bit key encoding trigger detector primitive and location identifiers." alt="" coords="207,420,429,448"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="106,326,151,367,178,388,208,405,225,413,223,418,205,410,175,392,147,371,102,330"/>
+<area shape="rect" id="Node000012" href="$d6/ddd/namespaceTriggerDefs.html#aa3ffe48b4ba44d3b3bdecc7bbc8e4f92" title="Encode trigger identifiers into a 32 bit key." alt="" coords="207,472,428,500"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="97,326,140,392,171,428,208,457,219,464,217,468,205,462,168,432,136,396,93,329"/>
+<area shape="rect" id="Node000013" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="233,524,403,552"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="93,327,108,367,132,417,165,467,185,490,208,510,220,517,217,521,205,514,182,494,161,470,127,419,103,369,88,329"/>
+<area shape="rect" id="Node000008" href="$da/d9c/namespaceTowerInfoDefs.html#a00c72a0d930085024ae2d7c90e9a36f0" title="Encode an EMCal tower index into a global eta‑phi key." alt="" coords="494,279,663,323"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="425,316,478,310,479,315,425,321"/>
+<area shape="rect" id="Node000009" href="$da/d9c/namespaceTowerInfoDefs.html#a2e815ce9a29173aad1d9c56f4afc9fec" title="Encode a HCAL tower index into a 32‑bit global key." alt="" coords="477,347,680,375"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="425,340,462,345,462,350,425,346"/>
+</map>

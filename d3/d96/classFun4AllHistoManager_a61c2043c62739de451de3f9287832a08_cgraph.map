@@ -1,0 +1,36 @@
+<map id="Fun4AllHistoManager::dumpHistos" name="Fun4AllHistoManager::dumpHistos">
+<area shape="rect" id="Node000001" title="Write all registered histograms to a ROOT file." alt="" coords="5,205,166,250"/>
+<area shape="rect" id="Node000002" href="$d3/d96/classFun4AllHistoManager.html#ab0ef88b6985393483afb2cfa6cb6c4ee" title=" " alt="" coords="223,14,383,59"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,203,143,138,175,101,212,69,219,65,222,69,215,73,179,105,147,141,102,206"/>
+<area shape="rect" id="Node000003" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="235,83,370,110"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,202,153,161,212,121,227,114,229,119,215,125,157,165,111,206"/>
+<area shape="rect" id="Node000004" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="Retrieve integer flag value by name." alt="" coords="229,135,377,162"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,202,213,173,236,165,238,170,215,178,140,207"/>
+<area shape="rect" id="Node000012" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="225,187,381,214"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="166,215,209,209,210,215,166,220"/>
+<area shape="rect" id="Node000013" href="$de/d7e/classTDirectoryHelper.html#aad8dd2fbd310c358f0fa57b4b4a07045" title="Create nested ROOT directories according to a slash separated path." alt="" coords="214,239,392,266"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="166,234,198,238,198,243,166,239"/>
+<area shape="rect" id="Node000015" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="229,291,377,318"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="142,248,215,275,238,283,236,288,213,280,140,253"/>
+<area shape="rect" id="Node000016" href="$d3/d96/classFun4AllHistoManager.html#a17bbd8a0a3fb2f36d5045840bcc605bb" title="Execute the configured script after closing histograms." alt="" coords="223,342,383,387"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="112,248,158,288,215,328,224,333,222,337,212,332,155,292,109,252"/>
+<area shape="rect" id="Node000017" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="453,380,623,408"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="98,249,114,284,139,326,173,366,193,383,215,397,246,410,279,418,348,424,414,419,472,409,473,414,415,425,348,429,279,423,245,415,212,402,190,387,169,370,135,329,110,286,93,251"/>
+<area shape="rect" id="Node000005" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="486,109,591,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="377,138,470,128,470,133,377,143"/>
+<area shape="rect" id="Node000011" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="450,161,626,189"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="377,154,435,161,435,166,377,160"/>
+<area shape="rect" id="Node000006" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="684,5,871,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="562,106,616,75,683,43,704,36,706,41,685,48,619,80,564,111"/>
+<area shape="rect" id="Node000007" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="691,57,864,85"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="591,109,695,86,696,92,592,114"/>
+<area shape="rect" id="Node000008" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="699,109,856,137"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="591,120,683,120,683,126,591,126"/>
+<area shape="rect" id="Node000009" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="688,161,867,189"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="592,132,696,155,695,160,591,137"/>
+<area shape="rect" id="Node000010" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="687,213,868,241"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="592,129,638,148,653,160,663,174,671,186,686,198,698,205,695,209,683,203,667,190,658,177,649,164,635,152,590,134"/>
+<area shape="rect" id="Node000014" href="$de/d7e/classTDirectoryHelper.html#a05fda94e95bcb216abc68086c009cfb5" title="Split a hierarchical path string into its individual components." alt="" coords="440,239,636,266"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="392,250,424,250,424,255,392,255"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="384,372,438,379,437,384,383,377"/>
+</map>

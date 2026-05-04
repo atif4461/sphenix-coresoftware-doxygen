@@ -1,0 +1,46 @@
+<map id="DiodeReco::process_event" name="DiodeReco::process_event">
+<area shape="rect" id="Node000001" title="Process a single event extracting diode information from the raw data packet." alt="" coords="5,465,155,510"/>
+<area shape="rect" id="Node000002" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="252,83,396,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,464,84,397,102,304,117,254,138,206,166,160,201,121,218,110,236,102,238,106,220,114,204,125,170,164,143,208,122,256,107,305,90,397,84,465"/>
+<area shape="rect" id="Node000008" href="$da/d26/classDiodeReco.html#aa16b31de7c559c5e26accee261e0e62e" title="Compute integral of ADC values between low_bin and high_bin." alt="" coords="249,135,398,162"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="80,464,89,405,109,326,124,284,144,244,170,206,201,173,233,155,235,160,204,177,174,209,149,246,129,286,114,328,94,406,86,465"/>
+<area shape="rect" id="Node000009" href="$da/d26/classDiodeReco.html#ad2863cc8aa2752d1a85d1b6ca8b54ae7" title="Compute average of maximum ADC sum over sliding window." alt="" coords="248,187,400,214"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="82,464,94,414,116,349,151,282,174,251,201,225,232,208,235,213,204,229,178,255,155,285,121,351,99,415,88,465"/>
+<area shape="rect" id="Node000010" href="$da/d26/classDiodeReco.html#a3900e2aa161a9c73a13f034ffacd9487" title="Find the bin index with maximum summed ADC over a window of 2n+1 bins." alt="" coords="250,239,398,266"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="85,463,100,423,124,372,157,320,178,297,201,277,234,261,236,265,204,281,181,301,161,324,128,375,105,425,90,465"/>
+<area shape="rect" id="Node000011" href="$da/d26/classDiodeReco.html#a837a89aebcda397b6048d87f49adcf37" title="Count number of ADC entries that rise above the upper threshold after a below‑threshold region." alt="" coords="217,291,431,318"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="90,463,132,396,164,359,201,329,213,323,215,327,204,333,167,363,137,399,95,466"/>
+<area shape="rect" id="Node000012" href="$da/d26/classDiodeReco.html#ac042c66e4023f59bcc411cd556f16c18" title="Apply pedestal correction to the ADC waveform by subtracting the median pedestal value." alt="" coords="215,343,433,370"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="99,462,143,420,171,399,201,381,219,373,221,378,204,386,174,403,147,424,103,466"/>
+<area shape="rect" id="Node000013" href="$da/d26/classDiodeReco.html#ae7243c6281fc5e64fcc27cf77d092276" title="Compute pulse width from ADC samples given upper and lower thresholds." alt="" coords="238,395,410,422"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="128,462,202,433,232,424,234,429,204,438,130,467"/>
+<area shape="rect" id="Node000014" href="$d7/da0/classTpcDiodev1.html#ac6600bc7e0668fb57a0abd80dfc57982" title="Set ADC value for a specific sample index." alt="" coords="246,447,402,474"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="155,476,230,468,230,473,155,482"/>
+<area shape="rect" id="Node000015" href="$d7/da0/classTpcDiodev1.html#a7b6d1b797520cf08dc082111b117e202" title=" " alt="" coords="232,499,416,526"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="155,492,217,499,216,504,155,498"/>
+<area shape="rect" id="Node000016" href="$d7/da0/classTpcDiodev1.html#a0961237bf2e462a69b537ad5ef530edd" title=" " alt="" coords="232,551,416,578"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="132,508,204,535,234,544,232,549,202,540,130,513"/>
+<area shape="rect" id="Node000017" href="$d7/da0/classTpcDiodev1.html#af68cda5134fd5a10ea09fdbf0dc9e370" title=" " alt="" coords="231,603,416,630"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="104,508,147,549,175,570,204,587,221,595,219,600,201,592,172,574,144,553,100,512"/>
+<area shape="rect" id="Node000018" href="$d7/da0/classTpcDiodev1.html#a27e46f34fbcf670f8f9027f7e9775784" title=" " alt="" coords="233,655,415,682"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="95,509,137,575,168,610,204,640,220,648,217,652,201,644,164,614,133,578,90,512"/>
+<area shape="rect" id="Node000019" href="$d7/da0/classTpcDiodev1.html#abda465eb56dd4f5239bbd6b8376a9fb0" title=" " alt="" coords="203,707,445,734"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="90,509,105,549,128,599,161,650,182,672,204,692,213,697,210,702,201,696,178,676,157,653,124,602,100,551,85,511"/>
+<area shape="rect" id="Node000020" href="$d7/da0/classTpcDiodev1.html#adfe076b7aa2d03c23791518d3bd69a93" title=" " alt="" coords="230,759,418,786"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="88,509,99,559,121,623,155,689,178,718,204,744,217,752,214,757,201,748,174,722,151,691,116,625,94,560,83,511"/>
+<area shape="rect" id="Node000021" href="$d7/da0/classTpcDiodev1.html#aaf460a8a72203f3e72dd7d6c21391a0c" title=" " alt="" coords="222,811,426,838"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="86,510,94,568,114,646,129,687,149,727,174,764,204,796,210,800,207,805,201,800,170,767,144,730,124,689,109,647,89,569,80,510"/>
+<area shape="rect" id="Node000022" href="$d7/da0/classTpcDiodev1.html#a79bfbce1e3318f7fa9c77a3654d6e6df" title=" " alt="" coords="230,863,418,890"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="84,510,90,577,107,668,122,717,143,765,170,810,204,848,217,857,214,861,201,852,166,813,138,768,117,719,102,670,84,577,79,510"/>
+<area shape="rect" id="Node000003" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="493,57,674,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,87,477,79,478,84,396,92"/>
+<area shape="rect" id="Node000007" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="502,109,666,137"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="396,101,487,111,486,116,396,107"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="541,58,534,48,539,39,556,33,584,31,613,33,629,40,627,44,612,38,584,36,557,38,542,43,539,48,545,55"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="766,5,908,33"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="654,54,750,34,751,39,655,59"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="771,57,903,85"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="675,68,755,68,755,74,675,74"/>
+<area shape="rect" id="Node000006" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="722,109,952,137"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="655,83,751,103,750,108,654,88"/>
+</map>

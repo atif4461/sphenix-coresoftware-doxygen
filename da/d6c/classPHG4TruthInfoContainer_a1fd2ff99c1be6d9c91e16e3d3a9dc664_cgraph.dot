@@ -1,0 +1,12 @@
+digraph "PHG4TruthInfoContainer::is_sPHENIX_primary"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4TruthInfoContainer\l::is_sPHENIX_primary",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Determine whether a given particle is a sPHENIX primary."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4Particle::get_track_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc9/classPHG4Particle.html#a23b7432f9b345b67a00e5c005fa5ba52",tooltip=" "];
+}

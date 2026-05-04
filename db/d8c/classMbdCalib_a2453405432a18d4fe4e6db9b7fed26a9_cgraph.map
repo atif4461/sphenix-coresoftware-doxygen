@@ -1,0 +1,80 @@
+<map id="MbdCalib::Download_All" name="MbdCalib::Download_All">
+<area shape="rect" id="Node000001" title="Download all MBD calibration constants from CDB or local directory." alt="" coords="5,472,185,500"/>
+<area shape="rect" id="Node000002" href="$db/d8c/classMbdCalib.html#a94c86a5ce8340379c1ab86c6de735284" title="Download gain calibration constants for MBD PMTs from a database file." alt="" coords="253,271,408,315"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,470,152,402,189,361,231,326,239,321,242,325,234,330,192,365,156,405,107,473"/>
+<area shape="rect" id="Node000005" href="$db/d8c/classMbdCalib.html#a408c8f6132748ca45eea44a330346103" title=" " alt="" coords="496,479,647,507"/>
+<area shape="poly" id="edge58_Node000001_Node000005" title=" " alt="" coords="185,480,233,478,331,476,429,478,480,482,480,487,429,484,331,482,233,484,185,485"/>
+<area shape="rect" id="Node000006" href="$db/d8c/classMbdCalib.html#a4d8fbab302dc3455af9b44023f8e3b86" title="Download pedestal calibration from database file." alt="" coords="238,219,424,247"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="98,471,113,429,140,370,179,309,203,281,231,256,237,252,240,257,234,260,207,284,183,312,145,373,118,431,103,473"/>
+<area shape="rect" id="Node000007" href="$db/d8c/classMbdCalib.html#ad38306b54e9544f665c28360e0c0687c" title="Download pileup calibration constants from a ROOT or text file." alt="" coords="253,151,408,195"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="97,471,110,421,135,350,175,273,201,237,231,206,238,200,241,204,234,210,205,241,179,276,140,352,115,423,102,473"/>
+<area shape="rect" id="Node000009" href="$db/d8c/classMbdCalib.html#a8fe9511485912a47fa210f08979df753" title="Load sample maximum calibration values from a database file." alt="" coords="253,771,408,815"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="102,500,115,548,141,617,180,691,205,726,234,756,241,762,238,766,231,760,201,729,176,694,136,619,110,550,97,501"/>
+<area shape="rect" id="Node000011" href="$db/d8c/classMbdCalib.html#a0103ee403d288aa47aa0537debe5bda4" title="Load MBD shape and shape error calibrations from a database file." alt="" coords="253,632,408,677"/>
+<area shape="poly" id="edge20_Node000001_Node000011" title=" " alt="" coords="109,499,160,556,195,588,234,617,243,622,240,627,231,622,192,593,156,559,105,502"/>
+<area shape="rect" id="Node000012" href="$db/d8c/classMbdCalib.html#a2cc2212db7a228b1f374a37d91b5592c" title="Download and interpolate slewing correction constants for MBD channels." alt="" coords="253,701,408,746"/>
+<area shape="poly" id="edge25_Node000001_Node000012" title=" " alt="" coords="104,499,122,536,150,587,187,640,234,687,241,692,238,696,231,691,183,644,145,590,117,539,100,501"/>
+<area shape="rect" id="Node000013" href="$db/d8c/classMbdCalib.html#a9bb0210b36e211958c0ec24d424cbedb" title="Load MBD status calibration from a ROOT or text file." alt="" coords="253,840,408,885"/>
+<area shape="poly" id="edge30_Node000001_Node000013" title=" " alt="" coords="101,500,110,559,133,647,150,694,173,742,201,786,235,826,242,832,239,836,231,830,196,790,168,744,145,697,128,648,105,561,95,501"/>
+<area shape="rect" id="Node000014" href="$db/d8c/classMbdCalib.html#a23464661f476763e9b80b3668eac8438" title="Load T0 correction constants from a calibration database file." alt="" coords="253,73,408,118"/>
+<area shape="poly" id="edge34_Node000001_Node000014" title=" " alt="" coords="95,472,106,412,129,323,146,274,169,225,197,178,231,136,245,124,248,129,235,140,201,181,174,227,151,276,134,325,111,413,101,472"/>
+<area shape="rect" id="Node000016" href="$db/d8c/classMbdCalib.html#ae5685e23c9c509bec88a918271787024" title="Load time correction calibration for MBD from a database file." alt="" coords="253,563,408,607"/>
+<area shape="poly" id="edge39_Node000001_Node000016" title=" " alt="" coords="126,498,234,548,250,554,248,559,232,553,124,503"/>
+<area shape="rect" id="Node000017" href="$db/d8c/classMbdCalib.html#aea76a61ef996da7bff4ff568eda260b8" title="Download and interpolate time RMS calibration for MBD channels." alt="" coords="253,493,408,538"/>
+<area shape="poly" id="edge44_Node000001_Node000017" title=" " alt="" coords="185,495,238,501,237,507,185,500"/>
+<area shape="rect" id="Node000018" href="$db/d8c/classMbdCalib.html#a405f141b596125a9406624ce5471a916" title="Download TQT0 calibration constants from a database file." alt="" coords="233,339,429,367"/>
+<area shape="poly" id="edge49_Node000001_Node000018" title=" " alt="" coords="109,470,160,425,194,399,231,377,248,370,250,375,234,382,197,404,163,429,112,474"/>
+<area shape="rect" id="Node000019" href="$db/d8c/classMbdCalib.html#a1a92375af662fee66137f6ed66650de4" title="Download TTT0 calibration constants from database file." alt="" coords="234,391,428,419"/>
+<area shape="poly" id="edge53_Node000001_Node000019" title=" " alt="" coords="134,469,232,434,270,422,272,427,234,440,136,475"/>
+<area shape="rect" id="Node000020" href="$d5/d4b/classCDBInterface.html#ac1458cd6adb1e2944371c40a90dc9dfe" title="Get singleton instance of CDBInterface." alt="" coords="246,908,416,936"/>
+<area shape="poly" id="edge57_Node000001_Node000020" title=" " alt="" coords="99,500,104,571,111,621,122,677,139,736,163,794,194,848,235,895,237,897,234,901,231,899,190,851,158,796,134,738,117,679,106,622,99,571,94,501"/>
+<area shape="rect" id="Node000003" href="$dd/d3c/classCDBTTree.html#a6c83f8a7a9d350fcffbd10346837026d" title="Retrieve float calibration value for a given channel and field name." alt="" coords="479,378,663,406"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,313,430,325,527,368,525,373,428,330,398,318"/>
+<area shape="rect" id="Node000004" href="$dd/d3c/classCDBTTree.html#aa299d0220ccd1f3ae00623c462e4f88e" title="Load calibration data from ROOT file into internal maps." alt="" coords="713,428,915,456"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="409,290,467,293,532,301,600,314,666,335,702,352,735,373,789,416,786,420,732,377,699,356,664,339,599,319,531,306,466,299,409,295"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="411,312,431,326,449,348,458,369,465,391,479,415,507,444,537,468,534,472,504,448,475,419,460,394,453,371,445,350,427,330,408,317"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="641,403,730,422,729,427,640,409"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="405,245,430,256,467,280,501,309,552,364,548,368,497,313,464,285,428,261,403,250"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="425,234,481,241,543,253,607,270,667,296,707,322,742,354,796,414,792,418,739,357,703,326,664,301,605,275,542,258,481,246,424,240"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="415,245,431,256,447,276,456,295,460,334,462,373,468,394,479,415,505,445,534,468,531,472,501,449,475,419,463,396,457,374,455,334,451,297,442,279,427,260,412,250"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="410,193,431,206,472,243,508,286,558,363,553,366,504,289,469,247,427,210,407,198"/>
+<area shape="poly" id="edge12_Node000007_Node000004" title=" " alt="" coords="409,174,469,182,535,196,603,218,667,251,712,288,750,332,780,376,801,413,797,416,776,379,746,335,708,292,664,255,601,223,534,201,468,187,409,180"/>
+<area shape="poly" id="edge14_Node000007_Node000005" title=" " alt="" coords="410,190,431,206,450,233,459,258,461,284,461,309,460,360,466,387,479,416,504,445,533,468,530,472,500,449,475,418,461,388,455,360,455,309,456,284,454,260,445,235,427,209,407,194"/>
+<area shape="rect" id="Node000008" href="$db/d8c/classMbdCalib.html#ac666cdf7029c1de75ebfd68b1944ac7e" title="Reset all pileup calibration arrays to NaN values This comment was generated by openai/gpt&#45;oss&#45;120b a..." alt="" coords="484,124,658,152"/>
+<area shape="poly" id="edge13_Node000007_Node000008" title=" " alt="" coords="408,159,468,150,469,156,409,164"/>
+<area shape="poly" id="edge18_Node000009_Node000004" title=" " alt="" coords="409,803,469,807,536,804,603,789,635,776,664,759,698,729,726,694,749,654,768,613,793,534,806,471,811,472,799,535,773,615,754,657,730,697,702,733,667,763,637,781,605,794,537,809,469,812,409,809"/>
+<area shape="poly" id="edge19_Node000009_Node000005" title=" " alt="" coords="407,770,427,757,553,519,558,522,431,760,410,774"/>
+<area shape="rect" id="Node000010" href="$dd/d3c/classCDBTTree.html#a9d1ea2ef83055c97369bcab6220b8889" title="Retrieve integer calibration value for a given channel and field name." alt="" coords="487,682,655,710"/>
+<area shape="poly" id="edge16_Node000009_Node000010" title=" " alt="" coords="397,768,428,756,524,714,526,719,430,761,399,773"/>
+<area shape="poly" id="edge17_Node000010_Node000004" title=" " alt="" coords="632,679,664,662,710,616,749,563,779,512,799,469,804,472,783,514,753,566,714,620,667,666,634,684"/>
+<area shape="poly" id="edge21_Node000011_Node000003" title=" " alt="" coords="407,633,427,618,441,600,449,582,454,546,457,508,463,488,475,466,501,436,531,412,534,417,505,440,479,469,468,490,462,509,459,547,454,583,446,602,431,622,410,637"/>
+<area shape="poly" id="edge23_Node000011_Node000004" title=" " alt="" coords="409,647,467,640,533,628,600,609,664,581,703,556,738,526,791,467,795,470,742,529,706,560,667,586,602,614,534,633,468,646,409,653"/>
+<area shape="poly" id="edge24_Node000011_Node000005" title=" " alt="" coords="405,629,428,617,462,594,494,567,546,516,549,520,498,571,465,598,430,622,407,634"/>
+<area shape="poly" id="edge22_Node000011_Node000010" title=" " alt="" coords="409,665,472,676,471,681,408,670"/>
+<area shape="poly" id="edge26_Node000012_Node000003" title=" " alt="" coords="407,703,427,687,446,660,455,634,457,608,456,582,454,528,460,498,475,466,500,436,530,412,533,416,504,440,479,469,465,500,459,528,461,582,462,608,460,635,450,662,431,691,411,707"/>
+<area shape="poly" id="edge28_Node000012_Node000004" title=" " alt="" coords="409,741,469,751,535,753,602,744,634,734,664,719,695,695,722,665,745,632,764,597,790,527,805,471,810,472,795,529,768,599,750,635,727,669,699,699,667,723,636,739,603,749,535,758,468,756,409,747"/>
+<area shape="poly" id="edge29_Node000012_Node000005" title=" " alt="" coords="408,699,427,687,470,647,506,602,534,557,554,519,559,522,539,560,510,605,474,651,431,691,410,703"/>
+<area shape="poly" id="edge27_Node000012_Node000010" title=" " alt="" coords="408,712,471,705,472,710,409,717"/>
+<area shape="poly" id="edge32_Node000013_Node000004" title=" " alt="" coords="409,869,470,871,537,865,604,847,635,832,664,814,701,777,732,734,756,686,775,637,798,543,808,471,813,472,804,544,780,638,761,688,736,736,705,780,667,818,638,837,606,852,538,870,470,876,409,875"/>
+<area shape="poly" id="edge33_Node000013_Node000005" title=" " alt="" coords="407,841,427,826,442,807,451,789,459,754,462,716,474,669,514,586,551,519,556,521,519,589,480,671,468,716,464,755,456,791,447,810,431,830,410,845"/>
+<area shape="poly" id="edge31_Node000013_Node000010" title=" " alt="" coords="405,837,428,825,463,801,495,773,546,719,550,723,499,776,466,805,430,830,407,842"/>
+<area shape="poly" id="edge37_Node000014_Node000004" title=" " alt="" coords="409,76,469,69,537,69,605,82,637,94,667,111,703,142,733,179,757,221,776,264,801,348,812,413,807,414,795,349,771,266,752,223,728,182,699,145,664,115,635,99,603,87,536,75,469,74,409,81"/>
+<area shape="poly" id="edge38_Node000014_Node000005" title=" " alt="" coords="408,117,431,137,453,173,463,208,464,241,461,274,457,307,456,341,462,377,479,416,503,445,532,468,529,472,500,449,475,418,457,379,451,342,452,307,456,274,459,241,458,209,448,175,427,140,404,121"/>
+<area shape="rect" id="Node000015" href="$dd/d3c/classCDBTTree.html#a37b02ef3aea45a4c9ee989482c009fa2" title="Retrieve a single float calibration value by name." alt="" coords="477,5,665,50"/>
+<area shape="poly" id="edge35_Node000014_Node000015" title=" " alt="" coords="408,71,475,52,476,57,409,76"/>
+<area shape="poly" id="edge36_Node000015_Node000004" title=" " alt="" coords="643,48,667,67,701,109,730,155,753,203,772,252,798,344,811,412,806,413,793,345,767,254,748,205,725,157,697,112,663,71,639,53"/>
+<area shape="poly" id="edge40_Node000016_Node000003" title=" " alt="" coords="408,561,427,548,444,529,452,510,460,489,475,466,504,437,534,413,537,417,508,441,479,469,465,492,457,512,449,532,431,552,410,566"/>
+<area shape="poly" id="edge42_Node000016_Node000004" title=" " alt="" coords="409,581,531,569,599,556,664,536,698,521,730,502,783,464,786,468,733,506,700,525,666,541,600,561,532,574,409,586"/>
+<area shape="poly" id="edge43_Node000016_Node000005" title=" " alt="" coords="396,560,428,548,521,511,523,516,430,553,398,565"/>
+<area shape="poly" id="edge41_Node000016_Node000010" title=" " alt="" coords="401,605,430,617,534,671,532,676,428,622,399,610"/>
+<area shape="poly" id="edge45_Node000017_Node000003" title=" " alt="" coords="375,491,527,411,530,416,377,495"/>
+<area shape="poly" id="edge47_Node000017_Node000004" title=" " alt="" coords="409,524,466,529,531,530,598,527,665,516,696,506,727,492,779,463,781,467,729,497,698,511,666,521,599,532,531,536,466,534,409,529"/>
+<area shape="poly" id="edge48_Node000017_Node000005" title=" " alt="" coords="408,506,480,499,480,504,409,511"/>
+<area shape="poly" id="edge46_Node000017_Node000010" title=" " alt="" coords="409,536,430,548,468,576,502,608,553,668,549,671,498,612,464,580,428,553,406,541"/>
+<area shape="poly" id="edge50_Node000018_Node000003" title=" " alt="" coords="421,365,466,372,465,377,421,370"/>
+<area shape="poly" id="edge51_Node000018_Node000004" title=" " alt="" coords="429,343,544,345,606,352,666,364,728,388,781,417,778,422,726,393,665,369,605,357,543,350,429,349"/>
+<area shape="poly" id="edge52_Node000018_Node000005" title=" " alt="" coords="400,365,430,377,542,467,539,471,428,382,398,370"/>
+<area shape="poly" id="edge54_Node000019_Node000003" title=" " alt="" coords="428,397,463,395,463,400,429,402"/>
+<area shape="poly" id="edge55_Node000019_Node000004" title=" " alt="" coords="429,410,477,414,698,431,697,437,477,420,428,416"/>
+<area shape="poly" id="edge56_Node000019_Node000005" title=" " alt="" coords="381,417,430,435,478,459,511,471,509,476,476,463,428,439,380,422"/>
+</map>

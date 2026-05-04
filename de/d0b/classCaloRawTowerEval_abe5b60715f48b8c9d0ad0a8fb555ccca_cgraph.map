@@ -1,0 +1,27 @@
+<map id="CaloRawTowerEval::max_truth_primary_particle_by_energy" name="CaloRawTowerEval::max_truth_primary_particle_by_energy">
+<area shape="rect" id="Node000001" title="Return the primary truth particle with maximum energy contribution to the given tower." alt="" coords="5,92,187,153"/>
+<area shape="rect" id="Node000002" href="$d7/d3c/classCaloTruthEval.html#a8cf23ffd62bf8e3fe09775bf807b64bc" title="what was the primary particle associated with the shower object?" alt="" coords="256,5,395,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,89,254,54,256,59,173,94"/>
+<area shape="rect" id="Node000003" href="$de/d0b/classCaloRawTowerEval.html#a86c06b3d2cbb008904d9f0811f9ad9c9" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="932,224,1105,269"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,151,183,185,236,217,297,248,347,268,465,300,582,329,675,347,720,350,768,348,821,340,883,325,933,304,977,276,979,280,936,308,885,330,822,345,768,354,720,356,674,352,580,334,463,305,345,273,295,253,233,222,180,190,134,156"/>
+<area shape="rect" id="Node000004" href="$de/d0b/classCaloRawTowerEval.html#a90bd4095586faf2ef722a6baf8c79691" title="has the eval initialized correctly for reduced sim DST nodes?" alt="" coords="697,116,877,161"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,122,682,133,682,139,187,127"/>
+<area shape="rect" id="Node000005" href="$de/d0b/classCaloRawTowerEval.html#ace189396a39a69bfde1f23c118ca0aef" title="which primary shower contributed the most energy to this tower?" alt="" coords="235,146,416,208"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="188,141,220,149,219,154,186,147"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="857,159,885,171,968,214,965,218,883,175,855,164"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="743,116,741,106,749,97,764,91,787,89,812,92,827,98,825,103,811,97,787,95,765,97,752,101,747,107,748,115"/>
+<area shape="poly" id="edge15_Node000005_Node000004" title=" " alt="" coords="416,165,464,161,681,143,682,149,464,166,417,171"/>
+<area shape="rect" id="Node000006" href="$de/d0b/classCaloRawTowerEval.html#a5a2cdd97ddb786afa4de18ee12bc5bf2" title="what primary showers contributed energy to this tower?" alt="" coords="464,176,642,221"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="417,183,449,186,448,191,416,188"/>
+<area shape="rect" id="Node000008" href="$de/d0b/classCaloRawTowerEval.html#abe64f9fcff4f576efcaef1e607216577" title="how much energy did this primary shower contribute to this tower?" alt="" coords="466,245,640,290"/>
+<area shape="poly" id="edge10_Node000005_Node000008" title=" " alt="" coords="404,206,465,231,481,237,479,242,463,235,402,211"/>
+<area shape="poly" id="edge9_Node000006_Node000004" title=" " alt="" coords="642,173,682,163,683,168,643,178"/>
+<area shape="rect" id="Node000007" href="$d9/dd8/classRawTower.html#ab13148d0de5d525fe7a490fffc04e50c" title="Retrieve a constant range of Geant4 showers for this tower." alt="" coords="690,184,884,212"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="643,196,675,196,675,201,643,201"/>
+<area shape="poly" id="edge14_Node000008_Node000004" title=" " alt="" coords="622,242,641,231,655,216,664,202,673,186,689,171,695,166,698,171,692,175,677,190,669,204,660,219,644,235,624,247"/>
+<area shape="poly" id="edge12_Node000008_Node000007" title=" " alt="" coords="625,242,690,222,718,214,719,219,691,228,627,247"/>
+<area shape="rect" id="Node000009" href="$d9/dd8/classRawTower.html#af8508a94f4b64147ad8e919f6d25fb5a" title="Find G4 shower by identifier." alt="" coords="692,288,882,316"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="640,278,677,283,677,289,640,283"/>
+<area shape="rect" id="Node000010" href="$db/d88/classPHG4Shower.html#a67f9ec8ddb81a68b90ac138da013038c" title=" " alt="" coords="710,236,864,264"/>
+<area shape="poly" id="edge13_Node000008_Node000010" title=" " alt="" coords="640,259,695,254,695,260,640,264"/>
+</map>

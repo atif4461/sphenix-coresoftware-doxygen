@@ -1,0 +1,105 @@
+<map id="Fun4AllDstInputManager::fileopen" name="Fun4AllDstInputManager::fileopen">
+<area shape="rect" id="Node000001" title="Open a DST file for reading and initialize run and event nodes." alt="" coords="5,836,187,881"/>
+<area shape="rect" id="Node000002" href="$d2/d8a/classInputFileHandler.html#ae07764517975b5c81503842073fbaa10" title=" " alt="" coords="250,5,448,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,836,105,684,128,454,146,334,169,223,197,131,214,95,233,67,242,58,246,61,237,71,219,98,202,133,174,224,151,335,133,455,110,684,101,836"/>
+<area shape="rect" id="Node000003" href="$d7/d0b/classFun4AllDstInputManager.html#aba83e2505642f21db1e091193e206f9d" title="Close the currently opened input file and clean up associated resources." alt="" coords="258,311,440,355"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,836,98,751,104,692,115,628,132,560,157,493,190,429,233,373,244,362,248,366,237,376,194,432,162,495,137,562,120,629,109,693,103,751,100,836"/>
+<area shape="rect" id="Node000004" href="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef" title=" " alt="" coords="525,379,706,407"/>
+<area shape="poly" id="edge45_Node000001_Node000004" title=" " alt="" coords="94,835,96,754,101,699,112,639,129,577,154,518,188,463,233,418,253,406,281,398,351,388,431,384,509,385,509,390,431,389,351,393,282,403,255,411,236,422,192,467,159,520,134,579,117,640,107,699,101,754,99,835"/>
+<area shape="rect" id="Node000005" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="1314,295,1462,323"/>
+<area shape="poly" id="edge47_Node000001_Node000005" title=" " alt="" coords="94,836,97,742,102,675,113,601,130,522,155,443,188,367,232,297,275,244,314,199,354,162,395,133,439,111,489,96,547,88,614,85,886,85,993,81,1078,78,1118,82,1159,91,1204,108,1254,133,1296,165,1331,205,1358,245,1376,280,1372,283,1353,248,1326,208,1292,169,1252,138,1202,113,1158,96,1117,87,1078,84,993,86,886,90,614,90,548,93,491,102,441,116,397,138,357,166,318,203,279,247,237,300,193,369,160,445,135,524,118,602,108,676,102,742,99,836"/>
+<area shape="rect" id="Node000007" href="$d2/d8a/classInputFileHandler.html#a52040a9fdeeb4ee639c3bf832f06ab90" title=" " alt="" coords="250,844,448,872"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="187,856,234,856,234,861,187,861"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#afeaefab44bf0ab15a439926205924f19" title="Apply given PHNodeOperation to current node and all descendant nodes recursively." alt="" coords="526,751,705,779"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="108,834,128,804,156,769,192,736,234,711,278,696,325,690,372,691,418,696,504,717,571,742,569,747,502,722,417,701,371,696,325,696,279,702,236,715,195,740,160,773,132,807,112,837"/>
+<area shape="rect" id="Node000011" href="$df/d35/classRunHeader.html#a26cbb1b368e71475626206df1ebd89ea" title="get Run Number" alt="" coords="246,896,452,924"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="188,874,264,890,263,895,187,880"/>
+<area shape="rect" id="Node000012" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="277,623,420,651"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="105,835,124,798,152,753,189,706,233,667,261,652,264,657,236,671,193,710,157,756,129,801,110,837"/>
+<area shape="rect" id="Node000016" href="$da/d29/classFun4AllServer.html#aabed04484f54e3bfafb5fa4adc8eaa10" title="Retrieve or create a PHCompositeNode with the given name under the specified top node." alt="" coords="262,559,436,587"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="101,835,118,788,145,728,183,665,206,635,233,610,264,591,267,595,236,614,210,639,187,668,149,730,123,790,106,837"/>
+<area shape="rect" id="Node000021" href="$d4/da9/classFun4AllInputManager.html#aff157a77170a8ebc39829c47025e6e84" title=" " alt="" coords="269,948,428,993"/>
+<area shape="poly" id="edge28_Node000001_Node000021" title=" " alt="" coords="134,879,182,907,236,933,256,941,254,946,234,938,179,911,132,884"/>
+<area shape="rect" id="Node000022" href="$d4/db4/classDBInterface.html#ae656ee2b9fbab0a643b94aeecce366cb" title="Get singleton instance of DBInterface." alt="" coords="268,1016,430,1044"/>
+<area shape="poly" id="edge29_Node000001_Node000022" title=" " alt="" coords="114,880,163,942,197,975,236,1003,254,1011,252,1016,233,1007,194,979,159,945,110,883"/>
+<area shape="rect" id="Node000023" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Get singleton instance of Fun4AllServer." alt="" coords="262,431,436,459"/>
+<area shape="poly" id="edge30_Node000001_Node000023" title=" " alt="" coords="101,835,119,781,147,707,185,625,233,546,272,502,313,466,317,470,276,505,237,549,189,627,152,709,124,782,106,836"/>
+<area shape="rect" id="Node000034" href="$d4/db4/classDBInterface.html#ac63a6daafb84496763e8a261273ff3a1" title="Retrieve the full file path for a given logical name using the FROG service." alt="" coords="270,1068,428,1096"/>
+<area shape="poly" id="edge46_Node000001_Node000034" title=" " alt="" coords="109,880,127,918,155,965,191,1013,236,1053,256,1064,254,1069,233,1058,187,1017,150,968,122,920,104,882"/>
+<area shape="rect" id="Node000035" href="$d7/d4d/classPHNodeIOManager.html#a9e0aa24bf4a67163e8209497ed89af73" title="Read event data from file and return top node." alt="" coords="258,1120,440,1148"/>
+<area shape="poly" id="edge48_Node000001_Node000035" title=" " alt="" coords="106,880,121,928,147,989,185,1053,209,1081,236,1106,246,1112,243,1116,233,1110,205,1085,181,1056,142,992,116,930,101,882"/>
+<area shape="rect" id="Node000036" href="$d4/da9/classFun4AllInputManager.html#afa40ef128e564dd9f7fb8a74619d8eaf" title=" " alt="" coords="269,1172,428,1217"/>
+<area shape="poly" id="edge49_Node000001_Node000036" title=" " alt="" coords="104,880,117,937,141,1011,159,1051,180,1090,206,1126,236,1158,257,1171,254,1176,233,1162,202,1129,176,1093,154,1053,136,1013,111,938,99,882"/>
+<area shape="rect" id="Node000037" href="$de/d9e/classPHNodeIntegrate.html#ab09dcdd586a230ff194812834a4ff662" title="Assign the provided PHCompositeNode pointer to the global run node." alt="" coords="249,1240,448,1268"/>
+<area shape="poly" id="edge50_Node000001_Node000037" title=" " alt="" coords="101,881,109,949,130,1043,148,1094,171,1143,200,1188,236,1227,240,1230,237,1234,233,1231,196,1191,166,1145,143,1096,125,1045,104,950,96,882"/>
+<area shape="rect" id="Node000038" href="$de/d9e/classPHNodeIntegrate.html#a6ce5ce87bcbf05e20ae6d02d2414980a" title=" " alt="" coords="235,1292,463,1320"/>
+<area shape="poly" id="edge51_Node000001_Node000038" title=" " alt="" coords="100,881,105,957,113,1009,124,1065,141,1123,165,1179,196,1232,237,1278,242,1282,238,1286,233,1282,192,1235,160,1182,136,1124,119,1066,107,1010,100,958,95,881"/>
+<area shape="rect" id="Node000039" href="$d7/d0b/classFun4AllDstInputManager.html#a9fd8f9c68c617ade2ce969bf70581c0a" title="Set branch selection for input manager based on configured branch list." alt="" coords="258,725,440,770"/>
+<area shape="poly" id="edge52_Node000001_Node000039" title=" " alt="" coords="138,833,234,787,266,774,268,778,236,791,141,838"/>
+<area shape="rect" id="Node000042" href="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="536,923,695,967"/>
+<area shape="poly" id="edge59_Node000001_Node000042" title=" " alt="" coords="156,833,223,814,302,802,344,801,386,805,426,814,464,831,483,848,491,869,497,889,513,908,524,916,521,920,509,912,493,892,486,871,479,851,462,835,424,819,385,810,344,806,302,807,224,819,157,838"/>
+<area shape="rect" id="Node000043" href="$d4/da9/classFun4AllInputManager.html#af9bf7d76be5d2c0b10843ae734da9bbb" title=" " alt="" coords="269,1344,428,1389"/>
+<area shape="poly" id="edge57_Node000001_Node000043" title=" " alt="" coords="100,881,103,965,109,1022,120,1085,137,1151,161,1216,194,1276,237,1330,257,1345,254,1349,233,1334,190,1279,156,1218,132,1152,115,1086,104,1023,97,965,94,881"/>
+<area shape="rect" id="Node000044" href="$d4/da9/classFun4AllInputManager.html#a0c424de8330e161932a64ab7943517ea" title=" " alt="" coords="269,1413,428,1458"/>
+<area shape="poly" id="edge58_Node000001_Node000044" title=" " alt="" coords="103,881,118,990,147,1146,165,1226,187,1299,210,1359,237,1399,257,1415,254,1419,233,1403,206,1361,181,1301,160,1227,141,1147,113,991,97,881"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="441,351,536,373,535,378,439,356"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="420,307,538,272,693,230,870,190,1049,161,1154,143,1199,144,1254,161,1293,185,1327,217,1354,250,1374,280,1369,283,1350,254,1323,220,1290,189,1252,166,1199,149,1154,149,1050,166,871,195,695,235,539,277,421,313"/>
+<area shape="rect" id="Node000006" href="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb" title="Update internal file list handling repeat logic." alt="" coords="524,311,707,355"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="440,330,509,330,509,336,440,336"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="571,752,563,742,569,732,587,727,616,725,647,727,664,733,662,738,646,732,616,730,588,732,572,737,568,742,575,749"/>
+<area shape="rect" id="Node000009" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="819,699,951,727"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="691,748,803,726,804,731,692,753"/>
+<area shape="rect" id="Node000010" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="770,751,1000,779"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="705,762,755,762,755,768,705,768"/>
+<area shape="rect" id="Node000013" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="525,623,706,651"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="421,634,509,634,509,640,421,640"/>
+<area shape="rect" id="Node000015" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="534,675,698,703"/>
+<area shape="poly" id="edge18_Node000012_Node000015" title=" " alt="" coords="421,648,527,669,526,674,420,654"/>
+<area shape="poly" id="edge16_Node000013_Node000009" title=" " alt="" coords="682,649,721,661,769,684,805,694,803,699,767,689,719,666,680,654"/>
+<area shape="poly" id="edge17_Node000013_Node000010" title=" " alt="" coords="699,649,722,662,739,680,747,700,754,719,770,736,779,742,776,746,767,740,749,722,742,702,735,683,719,666,696,654"/>
+<area shape="poly" id="edge14_Node000013_Node000013" title=" " alt="" coords="571,624,563,614,569,604,587,599,616,597,647,599,664,605,662,610,646,604,616,602,588,604,572,609,568,614,575,621"/>
+<area shape="rect" id="Node000014" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="814,647,956,675"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="707,642,799,651,799,656,707,648"/>
+<area shape="poly" id="edge26_Node000016_Node000013" title=" " alt="" coords="410,585,541,616,539,622,409,590"/>
+<area shape="rect" id="Node000017" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="511,547,720,575"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="437,566,495,564,496,569,437,572"/>
+<area shape="rect" id="Node000020" href="$da/d29/classFun4AllServer.html#a8fb8dce491234faae7834d4fba2c5598" title=" " alt="" coords="1301,510,1475,538"/>
+<area shape="poly" id="edge27_Node000016_Node000020" title=" " alt="" coords="399,556,453,543,511,533,633,527,846,524,1285,521,1285,527,846,529,634,533,511,538,454,548,401,561"/>
+<area shape="poly" id="edge21_Node000017_Node000014" title=" " alt="" coords="691,573,722,585,737,596,746,606,756,617,770,627,801,640,799,645,767,631,752,621,742,610,733,600,719,590,689,578"/>
+<area shape="rect" id="Node000018" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="1085,610,1218,638"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="703,573,769,582,1069,614,1069,619,768,588,703,578"/>
+<area shape="rect" id="Node000019" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="814,546,956,574"/>
+<area shape="poly" id="edge24_Node000017_Node000019" title=" " alt="" coords="721,558,798,557,798,563,721,563"/>
+<area shape="poly" id="edge23_Node000018_Node000018" title=" " alt="" coords="1111,611,1104,601,1110,591,1125,585,1151,583,1179,586,1194,592,1192,597,1178,591,1151,588,1127,590,1113,595,1110,601,1115,608"/>
+<area shape="poly" id="edge25_Node000019_Node000018" title=" " alt="" coords="946,571,1076,603,1075,608,945,577"/>
+<area shape="rect" id="Node000024" href="$da/d29/classFun4AllServer.html#a90e27f05f0b2e8b6fe462387b14bfb92" title="Construct a Fun4AllServer instance with the specified name." alt="" coords="511,431,720,459"/>
+<area shape="poly" id="edge31_Node000023_Node000024" title=" " alt="" coords="437,451,496,451,496,457,437,456"/>
+<area shape="poly" id="edge44_Node000024_Node000023" title=" " alt="" coords="511,439,452,439,452,434,511,434"/>
+<area shape="rect" id="Node000025" href="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7" title="Constructor for Fun4AllBase validates module name." alt="" coords="790,328,980,356"/>
+<area shape="poly" id="edge32_Node000024_Node000025" title=" " alt="" coords="692,428,719,416,733,404,742,392,751,379,767,367,781,360,784,364,770,371,755,383,746,395,737,408,722,421,694,433"/>
+<area shape="rect" id="Node000026" href="$da/d29/classFun4AllServer.html#aa1939c3e2c3113cce0a6415103b4f5a5" title="Initialize the Fun4All server and core infrastructure." alt="" coords="806,380,964,408"/>
+<area shape="poly" id="edge33_Node000024_Node000026" title=" " alt="" coords="693,428,792,409,793,414,694,433"/>
+<area shape="poly" id="edge37_Node000026_Node000005" title=" " alt="" coords="963,378,1001,365,1014,357,1024,348,1034,340,1049,332,1112,315,1178,305,1241,301,1298,300,1298,306,1242,306,1178,310,1113,320,1051,337,1037,344,1027,352,1017,361,1003,370,965,383"/>
+<area shape="rect" id="Node000027" href="$da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89" title="Initialize default node tree under given top node." alt="" coords="1051,484,1252,512"/>
+<area shape="poly" id="edge34_Node000026_Node000027" title=" " alt="" coords="913,406,975,438,1051,471,1071,477,1069,482,1049,475,973,443,911,411"/>
+<area shape="rect" id="Node000028" href="$d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e" title=" " alt="" coords="1078,176,1225,221"/>
+<area shape="poly" id="edge36_Node000026_Node000028" title=" " alt="" coords="963,385,983,377,1000,366,1013,350,1020,334,1024,301,1027,266,1034,249,1048,231,1062,220,1066,224,1052,235,1039,251,1032,268,1029,302,1025,336,1018,353,1003,370,985,382,965,390"/>
+<area shape="rect" id="Node000029" href="$da/d29/classFun4AllServer.html#a1d7daeb59511a7dc61a2566f4116a6ec" title="Register a histogram with the server histogram manager." alt="" coords="1050,244,1253,272"/>
+<area shape="poly" id="edge38_Node000026_Node000029" title=" " alt="" coords="963,383,1000,366,1016,348,1024,329,1031,308,1048,288,1067,277,1070,281,1051,292,1036,311,1029,330,1021,351,1003,370,965,388"/>
+<area shape="rect" id="Node000030" href="$da/d29/classFun4AllServer.html#a377f113767f24ce6413e678752ed7f53" title="Register a histogram manager with the server." alt="" coords="1050,347,1253,391"/>
+<area shape="poly" id="edge39_Node000026_Node000030" title=" " alt="" coords="964,384,1034,377,1035,383,964,390"/>
+<area shape="rect" id="Node000032" href="$d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb" title="Record memory usage statistics for the current event to the configured output file." alt="" coords="1078,416,1225,461"/>
+<area shape="poly" id="edge42_Node000026_Node000032" title=" " alt="" coords="964,405,1063,421,1062,426,964,410"/>
+<area shape="poly" id="edge35_Node000027_Node000020" title=" " alt="" coords="1253,506,1286,510,1285,515,1252,512"/>
+<area shape="poly" id="edge40_Node000030_Node000005" title=" " alt="" coords="1242,343,1315,325,1316,330,1243,349"/>
+<area shape="rect" id="Node000031" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="1303,355,1473,383"/>
+<area shape="poly" id="edge41_Node000030_Node000031" title=" " alt="" coords="1253,366,1287,366,1287,372,1253,372"/>
+<area shape="rect" id="Node000033" href="$d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281" title="Retrieve memory usage statistics from proc self smaps and accumulate PSS values for heap mmap and oth..." alt="" coords="1314,416,1462,461"/>
+<area shape="poly" id="edge43_Node000032_Node000033" title=" " alt="" coords="1225,436,1299,436,1299,441,1225,441"/>
+<area shape="poly" id="edge53_Node000039_Node000005" title=" " alt="" coords="421,768,511,788,650,807,758,819,811,819,866,815,928,805,1001,788,1082,767,1145,745,1173,729,1199,709,1224,682,1251,648,1272,607,1279,569,1277,531,1272,495,1266,458,1266,421,1275,382,1299,342,1313,329,1317,333,1303,345,1280,384,1271,421,1272,458,1277,494,1283,531,1284,569,1277,609,1255,650,1228,686,1202,713,1176,734,1148,749,1084,772,1002,793,929,810,867,820,811,825,758,824,649,813,511,793,420,773"/>
+<area shape="rect" id="Node000040" href="$d7/d0b/classFun4AllDstInputManager.html#a0780e8587327c946e2f22078679abfcc" title="Enable synchronization of all defined sync variables for the input manager." alt="" coords="525,853,706,898"/>
+<area shape="poly" id="edge54_Node000039_Node000040" title=" " alt="" coords="427,768,464,787,479,798,489,810,498,821,512,832,534,844,531,849,510,837,495,825,485,813,476,802,462,791,424,773"/>
+<area shape="poly" id="edge56_Node000039_Node000042" title=" " alt="" coords="438,768,465,787,478,803,485,819,489,849,494,879,501,894,513,908,524,917,521,922,509,912,496,897,489,881,484,850,480,820,473,806,461,791,435,773"/>
+<area shape="rect" id="Node000041" href="$d7/d4d/classPHNodeIOManager.html#a93ee101914075639985d6c12b4a15ba2" title="Set read selection flag for a given object name." alt="" coords="768,853,1002,898"/>
+<area shape="poly" id="edge55_Node000040_Node000041" title=" " alt="" coords="707,873,753,873,753,878,707,878"/>
+</map>

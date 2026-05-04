@@ -1,0 +1,14 @@
+digraph "SvtxTruthEval::get_embed"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTruthEval::get\l_embed",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve embed flag for a given particle."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="QAG4SimulationTracking\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dbf/classQAG4SimulationTracking.html#ac2aeab5238fcf828f70c61b4976b57fe",tooltip="Process event for QAG4SimulationTracking analysis module."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="QAG4SimulationUpsilon\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d7d/classQAG4SimulationUpsilon.html#ab79aed70b129c1906b4d1986fe2a52d9",tooltip="Process event for QAG4SimulationUpsilon analysis module."];
+}

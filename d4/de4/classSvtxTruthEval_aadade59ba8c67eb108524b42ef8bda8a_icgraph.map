@@ -1,0 +1,16 @@
+<map id="SvtxTruthEval::all_truth_hits" name="SvtxTruthEval::all_truth_hits">
+<area shape="rect" id="Node000001" title="Retrieve all truth PHG4Hit objects from SVTX related hit containers." alt="" coords="715,96,850,141"/>
+<area shape="rect" id="Node000002" href="$d4/de4/classSvtxTruthEval.html#a6051f9387f039a6604738f6a451c704b" title="Retrieve truth clusters associated with a given Geant4 particle." alt="" coords="504,5,639,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="723,91,666,65,637,53,639,48,668,60,725,86"/>
+<area shape="rect" id="Node000005" href="$d3/d22/classJetTruthEval.html#a8b29603fecb26cdf0c7ca71bf8a06965" title="which truth hits were left by particles contributing to this truth jet?" alt="" coords="476,74,667,102"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="699,109,667,104,668,99,700,104"/>
+<area shape="rect" id="Node000006" href="$d4/de4/classSvtxTruthEval.html#a7f911f747430e3cd66359f8740660390" title="Retrieve the innermost truth hit associated with a given Geant4 particle." alt="" coords="494,125,650,170"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="700,132,651,139,650,134,700,127"/>
+<area shape="rect" id="Node000007" href="$d4/de4/classSvtxTruthEval.html#aec47c20c5c8a5c25c380ee6f0289c252" title="Retrieve the outermost truth hit for a given PHG4Particle." alt="" coords="493,195,650,239"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="732,151,668,185,641,197,638,192,666,180,730,146"/>
+<area shape="rect" id="Node000003" href="$d1/d1e/classSvtxClusterEval.html#a4ed068393b7f131534926b87b7b59e10" title="Retrieve the truth cluster that best matches a reconstructed cluster based on the highest‑energy cont..." alt="" coords="5,7,191,51"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="489,25,428,22,333,20,239,22,191,25,191,19,239,17,333,15,428,17,489,20"/>
+<area shape="rect" id="Node000004" href="$d1/d1e/classSvtxClusterEval.html#a71467fc0bd5e8af7a8d4ea2a0d124bc1" title="Find truth particle with maximum energy contribution to the specified cluster." alt="" coords="239,32,428,93"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="490,42,429,51,428,46,489,37"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="223,49,191,45,191,39,223,44"/>
+</map>

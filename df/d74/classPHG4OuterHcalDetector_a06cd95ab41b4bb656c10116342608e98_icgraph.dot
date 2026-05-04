@@ -1,0 +1,16 @@
+digraph "PHG4OuterHcalDetector::ConstructHcalSingleScintillators"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4OuterHcalDetector\l::ConstructHcalSingleScintillators",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct the outer HCal scintillator geometry and associated cutouts."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4OuterHcalDetector\l::ConstructHcalScintillator\lAssembly",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html#a9f55e777e35248cd06ac0f94bc59b03a",tooltip="Construct assembly of Hcal scintillator tiles and return assembly volume."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4OuterHcalDetector\l::ConstructOuterHcal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html#a7791a8bc9629b00efcd33f59f134e27a",tooltip="Construct the outer HCal geometry, scintillator assembly, steel plates and associated magnetic field."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4OuterHcalDetector\l::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html#ae159c3d2a294c687f9c0f4af6dbce281",tooltip="construct"];
+}

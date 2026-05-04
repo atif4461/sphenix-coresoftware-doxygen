@@ -1,0 +1,23 @@
+<map id="PHG4ParticleGeneratorBase::get_pdgcode" name="PHG4ParticleGeneratorBase::get_pdgcode">
+<area shape="rect" id="Node000001" title="Retrieve PDG code for particle name." alt="" coords="517,179,719,223"/>
+<area shape="rect" id="Node000002" href="$d8/d78/classPHG4ParticleGeneratorBase.html#a41b62f420dda09218795b7707d7cd261" title="Add a particle definition with a specified production vertex to the generator." alt="" coords="266,75,468,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="557,174,468,134,437,122,439,117,470,129,559,169"/>
+<area shape="rect" id="Node000005" href="$d5/df3/classPHG4SimpleEventGenerator.html#aec25f318fcd3bc837c29c6b557ec5ba5" title="Generate event vertex and particle list based on configured kinematic distributions." alt="" coords="265,213,469,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="502,220,470,224,469,219,501,214"/>
+<area shape="rect" id="Node000006" href="$d8/d78/classPHG4ParticleGeneratorBase.html#ad3bece97c2350072c683575ab5bdb53c" title="Assign particle name and corresponding PDG code to the first entry in the internal particle list." alt="" coords="266,283,468,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="559,233,470,273,439,285,437,280,468,268,557,228"/>
+<area shape="rect" id="Node000007" href="$d8/d78/classPHG4ParticleGeneratorBase.html#a137691dcd69902557a3d316258f99962" title="Ensure particle name and PDG code are set and optionally embed the particle." alt="" coords="266,144,468,189"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="501,188,468,183,469,178,502,182"/>
+<area shape="rect" id="Node000003" href="$d9/d78/classPHG4ParticleGeneratorD0.html#ab7b714e2007eaf957fd8790b5b0cfd39" title="Generate a D0 meson event, decay it to Kminus and piplus and store the particles in the PHG4InEvent n..." alt="" coords="17,75,205,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,100,206,100,206,94,250,94"/>
+<area shape="rect" id="Node000004" href="$d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#abd61007655fd3b068d1ab5b53828532a" title="Generate vector meson decay particles for a single event and fill the G4InEvent node." alt="" coords="5,5,217,50"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="266,73,195,53,197,48,268,67"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="266,142,195,123,197,117,268,137"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="269,138,263,134,247,116,238,98,230,81,215,64,196,53,199,48,218,60,235,78,243,96,251,113,266,130,272,134"/>
+<area shape="rect" id="Node000008" href="$da/ddc/classPHG4IonGun.html#acab314e46908041565e0e14e73325bab" title="Process a single event and generate ion primary particles." alt="" coords="30,144,192,189"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="250,169,192,169,192,164,250,164"/>
+<area shape="rect" id="Node000009" href="$dd/d68/classPHG4ParticleGenerator.html#a27b1f33f182e52a875ead48612ad29d3" title="Generate particles for the current event and store them in the PHG4InEvent node." alt="" coords="26,213,196,258"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="268,196,197,215,195,210,266,191"/>
+<area shape="rect" id="Node000010" href="$dd/d13/classPHG4ParticleGun.html#a628a3341c5489016d87c637e55d333b7" title="Process a single event and fill PHG4InEvent with vertex and particles." alt="" coords="16,283,206,327"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="272,199,266,203,251,220,243,237,235,255,218,272,199,284,196,280,215,268,230,252,238,235,247,217,263,199,269,194"/>
+</map>

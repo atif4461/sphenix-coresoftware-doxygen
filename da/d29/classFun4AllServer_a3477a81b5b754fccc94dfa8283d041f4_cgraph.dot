@@ -1,0 +1,16 @@
+digraph "Fun4AllServer::topNode"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Fun4AllServer::topNode",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve top node by name creating if necessary."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllServer::AddTopNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d29/classFun4AllServer.html#a76e4880f2838ed1522160c0826b0202a",tooltip="Add a top level PHCompositeNode to the server."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Fun4AllServer::InitNodeTree",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89",tooltip="Initialize default node tree under given top node."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Fun4AllServer::topNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d29/classFun4AllServer.html#a8fb8dce491234faae7834d4fba2c5598",tooltip=" "];
+}

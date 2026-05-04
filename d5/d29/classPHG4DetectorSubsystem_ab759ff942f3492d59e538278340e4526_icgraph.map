@@ -1,0 +1,61 @@
+<map id="PHG4DetectorSubsystem::GetParams" name="PHG4DetectorSubsystem::GetParams">
+<area shape="rect" id="Node000001" title=" " alt="" coords="294,976,479,1021"/>
+<area shape="rect" id="Node000002" href="$dd/d2a/classBeamLineMagnetSubsystem.html#acd07ea5e8eb515d7a63e240b47ae0909" title="init runwise stuff" alt="" coords="22,5,229,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,961,376,773,369,644,357,504,339,366,315,239,300,184,284,135,265,95,244,64,228,51,231,47,248,61,269,92,288,133,305,182,320,238,344,365,362,504,374,643,381,773,387,961"/>
+<area shape="rect" id="Node000003" href="$d4/dd0/classPHG4BbcSubsystem.html#ad9499fde0f409ad419de78ff0b9b5961" title="Initialize BBC subsystem for a new run." alt="" coords="22,75,229,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="381,960,374,785,352,537,335,410,311,294,281,198,263,161,244,133,228,120,231,116,248,130,268,159,286,196,316,292,340,409,358,536,379,785,387,960"/>
+<area shape="rect" id="Node000004" href="$d5/de1/classPHG4BeamlineMagnetSubsystem.html#a2aa2b63976efee1ee81a78c655ef9a47" title="init runwise stuff" alt="" coords="5,144,246,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="381,961,371,798,348,571,330,455,307,349,278,262,262,228,244,203,230,191,234,187,248,199,266,225,283,260,312,347,335,454,353,570,376,798,386,960"/>
+<area shape="rect" id="Node000005" href="$df/d14/classPHG4BlockSubsystem.html#a484f9a625742f91e92f8bd82571afbee" title="InitRunSubsystem." alt="" coords="43,213,208,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="380,961,368,811,344,604,326,499,303,404,276,325,260,295,244,272,227,259,207,249,210,244,230,254,248,269,265,292,281,323,308,402,331,498,349,603,374,810,386,960"/>
+<area shape="rect" id="Node000006" href="$d8/d6e/classPHG4ConeSubsystem.html#ae1e54cdc2185dc1a123791f5de667148" title="init runwise stuff" alt="" coords="40,283,211,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="379,961,366,823,339,638,321,544,299,459,273,389,259,362,244,342,228,329,210,320,213,315,231,324,248,338,263,359,278,387,304,457,326,543,345,637,371,823,385,960"/>
+<area shape="rect" id="Node000007" href="$db/dc5/classPHG4CylinderSubsystem.html#a36e9fe9b69b4314846e245a1c6119cf3" title="init runwise stuff" alt="" coords="34,352,217,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="378,961,363,837,335,672,316,589,295,514,271,452,244,411,216,392,219,387,248,407,275,450,300,512,321,588,340,671,368,836,384,960"/>
+<area shape="rect" id="Node000008" href="$d2/d10/classPHG4EPDSubsystem.html#a6e985d6791b6b248dab1eda1516084d4" title="Initialize run specific components of the EPD subsystem." alt="" coords="21,421,230,466"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="377,961,359,850,330,706,311,634,291,569,268,516,244,480,229,468,232,464,248,477,273,513,296,567,317,633,335,705,364,849,382,960"/>
+<area shape="rect" id="Node000009" href="$df/db1/classPHG4GDMLSubsystem.html#ac671073b43d55fdacf8ac98878326e55" title="Initialize run subsystem by creating GDML detector and configuring overlap check." alt="" coords="37,491,214,535"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="382,961,376,876,368,823,355,766,338,707,314,650,283,596,244,550,213,530,216,525,247,546,287,593,319,647,343,705,361,764,373,822,381,875,387,960"/>
+<area shape="rect" id="Node000010" href="$df/d6e/classPHG4IHCalSubsystem.html#aa168eeb99ffc0624dbef2afb92bd7592" title="Initialize run subsystem for IHCal detector." alt="" coords="43,560,208,605"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="380,961,369,888,346,796,329,748,306,701,278,657,244,619,227,607,207,597,209,593,230,602,247,615,282,654,311,698,334,746,351,795,374,887,385,960"/>
+<area shape="rect" id="Node000011" href="$d3/d62/classPHG4InnerHcalSubsystem.html#aff7b59edd38b7ee393b7992ef41c5ca1" title="Initialize the inner HCal subsystem for a new run." alt="" coords="30,629,221,674"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="376,962,362,902,337,828,319,790,298,753,273,718,244,688,220,673,223,669,247,684,277,715,303,750,324,787,342,826,367,900,381,960"/>
+<area shape="rect" id="Node000012" href="$dc/df8/classPHG4MicromegasSubsystem.html#a9cf5b66379db8e3bf8261079aaa20b23" title="Initialize run specific components for the Micromegas subsystem." alt="" coords="21,699,230,743"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="371,962,353,915,326,860,290,805,268,780,244,758,226,746,228,742,247,754,272,776,294,801,331,857,358,913,376,960"/>
+<area shape="rect" id="Node000013" href="$d0/df4/classPHG4OHCalSubsystem.html#a39ad4f74252db3f41d86408417c781b1" title="Initialize the OHCal subsystem for a new run." alt="" coords="40,768,211,813"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="363,964,315,894,282,858,244,827,210,810,212,805,247,823,285,854,319,891,368,961"/>
+<area shape="rect" id="Node000014" href="$da/d01/classPHG4OuterHcalSubsystem.html#a1f3de004c8899012a83b82a3072058a5" title="Initialize run specific components of the outer HCal subsystem." alt="" coords="28,837,223,882"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="347,968,300,931,244,897,217,885,219,880,247,892,303,926,350,963"/>
+<area shape="rect" id="Node000015" href="$d6/dca/classPHG4SpacalSubsystem.html#accf179cd9d61965925e99781b26d2966" title="init" alt="" coords="39,907,212,951"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="284,974,212,955,213,949,285,969"/>
+<area shape="rect" id="Node000016" href="$df/d1b/classPHG4sPHENIXMagnetSubsystem.html#ad7b19e23b5226e45160e3d64fa10e851" title="Initialize run subsystem for sPHENIX magnet." alt="" coords="8,976,243,1021"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="278,1001,243,1001,243,996,278,996"/>
+<area shape="rect" id="Node000017" href="$d5/d22/classPHG4TpcEndCapSubsystem.html#aac61e3ae75996d7b943a8cee515e8c06" title="Initialize run subsystem for the TpcEndCap detector." alt="" coords="25,1045,226,1090"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="285,1028,213,1047,212,1042,284,1023"/>
+<area shape="rect" id="Node000018" href="$d7/d0d/classPHG4TpcSubsystem.html#a94b5332ef69dc3d42772c72be89b0d37" title="Initialize run subsystem for TPC detector." alt="" coords="22,1115,229,1159"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="350,1033,303,1070,247,1105,219,1117,217,1112,244,1100,300,1066,347,1029"/>
+<area shape="rect" id="Node000019" href="$d1/d66/classPHG4ZDCSubsystem.html#a802eade7a5259395abc87a558924f5d4" title="Initialize the ZDC subsystem for a new run." alt="" coords="20,1184,231,1229"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="368,1036,319,1106,285,1143,247,1174,225,1186,223,1181,244,1169,282,1139,315,1103,363,1033"/>
+<area shape="rect" id="Node000020" href="$dd/d2a/classBeamLineMagnetSubsystem.html#ad6295f6f0d279de2a9cb62df9ef4c8db" title="Print info (from SubsysReco)" alt="" coords="22,1253,229,1298"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="376,1037,358,1084,331,1139,294,1195,272,1221,247,1243,228,1255,226,1251,244,1239,268,1217,290,1192,326,1137,353,1082,371,1035"/>
+<area shape="rect" id="Node000021" href="$d4/dd0/classPHG4BbcSubsystem.html#a1cb42e3e03c9103c1ebb3f3a005dfceb" title="Print info (from SubsysReco)" alt="" coords="30,1322,221,1350"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="382,1036,368,1097,343,1172,326,1211,304,1248,278,1283,247,1312,223,1327,220,1322,244,1308,274,1279,300,1245,321,1209,338,1170,363,1096,377,1035"/>
+<area shape="rect" id="Node000022" href="$d5/de1/classPHG4BeamlineMagnetSubsystem.html#a00be4fa55e602f69dce37c3cdd668d2a" title="Print info (from SubsysReco)" alt="" coords="5,1373,246,1418"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="384,1037,372,1106,349,1194,331,1240,308,1285,281,1326,247,1363,231,1375,228,1371,244,1359,277,1323,304,1282,326,1238,344,1192,367,1105,379,1036"/>
+<area shape="rect" id="Node000023" href="$db/dc5/classPHG4CylinderSubsystem.html#a298993c50cbb3019e65433e820a54024" title="Print info (from SubsysReco)" alt="" coords="34,1443,217,1487"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="387,1036,379,1118,358,1224,340,1280,317,1335,286,1387,247,1432,219,1451,216,1447,244,1428,282,1384,312,1333,335,1278,353,1223,374,1117,381,1036"/>
+<area shape="rect" id="Node000024" href="$df/db1/classPHG4GDMLSubsystem.html#ad69c66c563ec3971bb356b00a19b1b96" title="Print info (from SubsysReco)" alt="" coords="37,1512,214,1557"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="389,1036,385,1129,379,1189,367,1254,350,1321,325,1386,291,1447,248,1502,232,1514,215,1523,213,1518,229,1509,244,1498,287,1444,320,1384,345,1319,362,1253,373,1188,380,1129,383,1036"/>
+<area shape="rect" id="Node000025" href="$df/d6e/classPHG4IHCalSubsystem.html#a92d2626fffa5333ebd3cd9aea732260a" title="Print info (from SubsysReco)" alt="" coords="43,1581,208,1626"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="383,1036,367,1157,339,1317,320,1397,299,1470,275,1530,248,1571,230,1585,209,1595,207,1590,227,1580,244,1567,270,1527,294,1468,315,1396,333,1316,362,1156,378,1036"/>
+<area shape="rect" id="Node000026" href="$d3/d62/classPHG4InnerHcalSubsystem.html#ab85abe0938c19cd777e79e28a5c3a0b0" title="Print info (from SubsysReco)" alt="" coords="30,1651,221,1695"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="384,1036,370,1170,343,1351,325,1442,303,1525,277,1593,263,1620,248,1640,223,1658,220,1654,244,1636,259,1617,273,1591,298,1523,320,1441,338,1350,365,1169,379,1036"/>
+<area shape="rect" id="Node000027" href="$d0/df4/classPHG4OHCalSubsystem.html#a156daa3d200a4a4505f9c51cf5c958d1" title="Print info (from SubsysReco)" alt="" coords="40,1720,211,1765"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="385,1037,373,1184,348,1385,330,1487,307,1580,280,1657,264,1686,248,1709,231,1723,212,1733,210,1728,228,1719,244,1706,260,1684,275,1654,302,1578,324,1486,342,1384,368,1183,380,1036"/>
+<area shape="rect" id="Node000028" href="$da/d01/classPHG4OuterHcalSubsystem.html#abdd870e7e5ca23440bafea610c3442ac" title="Print info (from SubsysReco)" alt="" coords="28,1789,223,1834"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="386,1036,376,1196,352,1418,334,1531,311,1635,283,1720,266,1753,248,1779,224,1797,221,1792,244,1775,261,1750,278,1718,306,1633,329,1530,347,1417,370,1195,381,1036"/>
+<area shape="rect" id="Node000029" href="$df/d1b/classPHG4sPHENIXMagnetSubsystem.html#a3ac272b35ae794595221597161039353" title="Print info (from SubsysReco)" alt="" coords="8,1859,243,1903"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="387,1036,378,1208,357,1451,339,1575,315,1689,285,1783,267,1820,248,1848,234,1860,230,1856,244,1845,263,1817,280,1781,310,1688,333,1575,351,1450,373,1208,381,1036"/>
+<area shape="rect" id="Node000030" href="$d7/d0d/classPHG4TpcSubsystem.html#aa00f083eca41760f62922f8517afb692" title="Print info (from SubsysReco)" alt="" coords="30,1927,221,1955"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="387,1036,382,1222,375,1349,363,1486,346,1622,321,1746,306,1801,289,1848,270,1887,248,1918,222,1935,219,1930,244,1914,265,1885,284,1846,301,1799,316,1745,340,1621,358,1486,370,1349,377,1221,382,1036"/>
+</map>

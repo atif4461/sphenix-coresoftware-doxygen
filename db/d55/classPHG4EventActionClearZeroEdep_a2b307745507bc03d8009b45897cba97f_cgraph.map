@@ -1,0 +1,20 @@
+<map id="PHG4EventActionClearZeroEdep::EndOfEventAction" name="PHG4EventActionClearZeroEdep::EndOfEventAction">
+<area shape="rect" id="Node000001" title="Clears zero energy deposition hits from all PHG4HitContainer nodes listed in nodename_set." alt="" coords="5,128,205,172"/>
+<area shape="rect" id="Node000002" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="282,105,425,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,135,266,127,267,132,206,140"/>
+<area shape="rect" id="Node000008" href="$d4/d30/classPHG4HitContainer.html#a1cf8afd339b72457bd9d00c53587ed97" title="Remove hits with zero energy deposition from the container." alt="" coords="253,157,454,202"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="206,159,237,163,237,168,205,164"/>
+<area shape="rect" id="Node000003" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="502,57,683,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="425,102,505,86,506,91,426,108"/>
+<area shape="rect" id="Node000007" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="510,109,675,137"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="425,118,495,119,495,124,425,123"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="552,58,545,48,550,39,567,33,593,31,621,33,636,40,634,44,619,38,593,36,568,38,554,43,550,48,556,55"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="775,5,917,33"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="663,54,759,34,760,39,664,59"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="780,57,912,85"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="684,68,764,68,764,74,684,74"/>
+<area shape="rect" id="Node000006" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="731,109,961,137"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="664,83,760,103,759,108,663,88"/>
+<area shape="rect" id="Node000009" href="$d3/d9e/classPHG4Hit.html#a46bad8844c95e7fce6f0f366931873b7" title=" " alt="" coords="520,165,665,193"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="454,176,505,176,505,182,454,182"/>
+</map>

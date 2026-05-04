@@ -1,0 +1,15 @@
+digraph "/home/atif/sphenix-celloai/coresoftware/offline/packages/NodeDump/macro"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_51a6568fae0bc456edec092d885305b1 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="NodeDump", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_51a6568fae0bc456edec092d885305b1.html",tooltip=""]
+  dir_4917d171799ab2d0f3a6e2b444953dea [label="macro", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_4917d171799ab2d0f3a6e2b444953dea.html",tooltip=""];
+  }
+  dir_4edf85fb1ce0173a911ade25cb011161 [label="framework", fillcolor="#edf0f7", color="red", style="filled,dashed", URL="dir_4edf85fb1ce0173a911ade25cb011161.html",tooltip=""];
+  dir_4917d171799ab2d0f3a6e2b444953dea->dir_4edf85fb1ce0173a911ade25cb011161 [headlabel="2", labeldistance=1.5 headhref="dir_000095_000043.html" href="dir_000095_000043.html" color="steelblue1" fontcolor="steelblue1"];
+}

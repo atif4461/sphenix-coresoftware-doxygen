@@ -1,0 +1,23 @@
+<map id="TowerInfo::get_waveform_value" name="TowerInfo::get_waveform_value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="671,195,858,239"/>
+<area shape="rect" id="Node000002" href="$d5/d81/classTowerInfoSimv2.html#aa60c1443be2e93944f7516cf1bc1d73a" title="Copy tower data from a generic TowerInfo object into this simulated tower." alt="" coords="441,5,605,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="737,184,688,123,657,92,622,65,601,53,603,48,625,60,660,88,692,119,742,180"/>
+<area shape="rect" id="Node000003" href="$d3/d28/classTowerInfov3.html#a6ebc354e75cc6d397c0444b1502b7ea2" title="Copy tower information including waveform samples from another TowerInfo object." alt="" coords="432,74,615,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="726,186,678,149,622,115,594,105,596,100,625,111,681,145,729,182"/>
+<area shape="rect" id="Node000004" href="$d0/d5d/classcaloTowerEmbed.html#a35d828f8f626527fef2138d20f6dca06" title="Process a single event embedding calorimeter tower information." alt="" coords="428,125,618,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="669,193,603,173,604,168,671,187"/>
+<area shape="rect" id="Node000005" href="$d6/dd1/classCaloWaveformSim.html#a5f6f1e88d3db0c9cdad473392d571a22" title="Process a single event and fill calorimeter waveforms." alt="" coords="423,195,623,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="656,220,624,220,624,214,656,214"/>
+<area shape="rect" id="Node000006" href="$d3/df2/classDumpTowerInfoContainer.html#aee587d0c8b8970ff8fe3126dcd31b4e8" title="Process a node containing a TowerInfoContainer and dump its contents to the output stream." alt="" coords="430,264,616,309"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="671,247,604,266,603,261,669,241"/>
+<area shape="rect" id="Node000007" href="$db/dda/classCaloTriggerEmulator.html#a51e6532ec195435650cf12261276d799" title="Process simulated waveforms for EMCal HCalOut and HCalIn." alt="" coords="446,333,600,378"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="728,252,680,288,625,323,599,335,597,330,622,319,677,284,724,248"/>
+<area shape="rect" id="Node000010" href="$db/db3/classCaloFittingQA.html#a3e3555a008f381fc2d26b6fc9530dcd0" title="Process tower data for a given event." alt="" coords="439,403,607,447"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="745,254,696,324,663,360,625,393,604,404,602,400,622,388,659,357,692,320,741,251"/>
+<area shape="rect" id="Node000008" href="$db/dda/classCaloTriggerEmulator.html#acf8cc4dfa3166d9f87eb6dc3d76999c5" title="MakePrimitives." alt="" coords="211,333,370,378"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="431,358,371,358,371,353,431,353"/>
+<area shape="rect" id="Node000009" href="$db/dda/classCaloTriggerEmulator.html#a51370fb1c88349f20aa1e35a77a74bc0" title="event processing method" alt="" coords="5,333,159,378"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="196,358,159,358,159,353,196,353"/>
+<area shape="rect" id="Node000011" href="$db/db3/classCaloFittingQA.html#a743eea6c712388b12d7b6bcec8c08e3d" title="event processing method" alt="" coords="207,403,375,447"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="424,428,375,428,375,422,424,422"/>
+</map>

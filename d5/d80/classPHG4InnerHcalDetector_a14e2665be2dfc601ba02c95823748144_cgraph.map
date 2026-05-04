@@ -1,0 +1,38 @@
+<map id="PHG4InnerHcalDetector::ConstructInnerHcal" name="PHG4InnerHcalDetector::ConstructInnerHcal">
+<area shape="rect" id="Node000001" title="Construct the inner hcal geometry within the provided envelope logical volume." alt="" coords="5,220,181,265"/>
+<area shape="rect" id="Node000002" href="$d5/d80/classPHG4InnerHcalDetector.html#aad5b6acc234225ceb6eaf29933381b5d" title="Verify that the detector tilt angle is within physical limits and intersects the inner radius." alt="" coords="247,5,422,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,218,122,183,150,141,185,98,227,60,234,55,237,60,230,64,189,101,154,144,127,186,108,221"/>
+<area shape="rect" id="Node000003" href="$d5/d80/classPHG4InnerHcalDetector.html#a359e5d9d6fb34c9dabb6e88e681a64a4" title="Verify that detector geometry parameters are internally consistent." alt="" coords="247,75,422,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,217,164,173,227,129,239,124,241,128,230,134,167,177,118,221"/>
+<area shape="rect" id="Node000004" href="$d5/d80/classPHG4InnerHcalDetector.html#af94ed5fd62c5f62c5edca75296c6eddb" title="Construct assembly of scintillator tiles for inner HCal." alt="" coords="240,144,430,205"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,217,224,203,225,208,175,222"/>
+<area shape="rect" id="Node000012" href="$d3/de7/classPHG4Detector.html#a8e548682ab05493f7cdbd391bc4f67be" title="Retrieve a G4Material by name, optionally aborting on failure." alt="" coords="508,216,708,261"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="181,239,492,237,492,242,181,244"/>
+<area shape="rect" id="Node000013" href="$d5/d80/classPHG4InnerHcalDetector.html#ae5ca2ad3997c3c9b39789d27e92a2cc8" title="Construct the extruded steel plate solid for the inner HCal." alt="" coords="247,280,422,325"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="182,261,233,274,231,279,180,267"/>
+<area shape="rect" id="Node000015" href="$d3/de7/classPHG4Detector.html#a010c3ce04a20df68f63e189fd7af49d3" title=" " alt="" coords="229,348,441,376"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="122,263,170,300,230,335,245,341,243,346,227,339,167,304,119,267"/>
+<area shape="rect" id="Node000016" href="$d5/d80/classPHG4InnerHcalDetector.html#ab7ffaa8ee716a4f2fdd7ae91a2402f78" title="Compute tilt angle from number of crossings when tilt angle not predefined." alt="" coords="247,400,422,445"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="112,263,160,324,193,357,230,385,239,391,236,395,227,390,190,361,156,327,107,266"/>
+<area shape="rect" id="Node000005" href="$d5/d80/classPHG4InnerHcalDetector.html#ae19fae68c39f74a3cf795182af5a7bcf" title="Construct scintillator tiles for the inner HCal subsystem." alt="" coords="489,147,726,191"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="431,170,474,169,474,174,431,175"/>
+<area shape="poly" id="edge13_Node000004_Node000012" title=" " alt="" coords="431,194,496,209,494,215,430,199"/>
+<area shape="rect" id="Node000006" href="$d5/d80/classPHG4InnerHcalDetector.html#ac2baf8eb4f020b58b75f6aaac8e494f7" title="Construct scintillator solid geometry for inner HCal." alt="" coords="774,49,961,94"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="669,144,773,104,790,97,792,102,775,109,670,149"/>
+<area shape="rect" id="Node000007" href="$df/d02/classPHG4Utils.html#abdb6e84eedbd15893104110a0ed3ba88" title="Convert pseudorapidity to polar angle." alt="" coords="789,118,946,146"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="726,149,773,142,774,148,727,155"/>
+<area shape="rect" id="Node000008" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="848,194,887,222"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="727,184,833,200,832,205,726,189"/>
+<area shape="rect" id="Node000011" href="$d5/d80/classPHG4InnerHcalDetector.html#a935fa2ef6da246fad322a1455f81723a" title="Compute x coordinate of intersection of line defined by two points with horizontal line at given y." alt="" coords="780,245,955,290"/>
+<area shape="poly" id="edge12_Node000005_Node000011" title=" " alt="" coords="697,189,728,201,752,216,776,231,788,236,786,241,773,235,749,220,725,206,695,194"/>
+<area shape="poly" id="edge11_Node000008_Node000008" title=" " alt="" coords="846,202,834,191,833,179,845,170,867,167,886,169,898,174,903,182,901,191,896,190,898,183,895,178,885,174,868,172,847,175,838,181,838,188,850,198"/>
+<area shape="rect" id="Node000009" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="1009,194,1082,222"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="887,205,993,205,993,210,887,210"/>
+<area shape="poly" id="edge9_Node000009_Node000009" title=" " alt="" coords="1024,194,1021,185,1023,176,1032,169,1045,167,1060,170,1068,176,1064,180,1057,175,1045,172,1034,174,1028,179,1026,185,1029,192"/>
+<area shape="rect" id="Node000010" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="1130,194,1196,222"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="1082,205,1114,205,1114,210,1082,210"/>
+<area shape="rect" id="Node000014" href="$d5/d80/classPHG4InnerHcalDetector.html#a97e5840a544f4a0fbafa11b6ab75c7b6" title="Adjust secant edge of inner Hcal geometry to tangent of inner radius circle." alt="" coords="520,285,695,330"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="423,301,504,303,504,308,423,307"/>
+<area shape="rect" id="Node000017" href="$d3/de7/classPHG4Detector.html#a4e715f0e6414db625cf82232fdb859e1" title=" " alt="" coords="516,408,699,436"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="423,420,501,420,501,425,423,425"/>
+</map>

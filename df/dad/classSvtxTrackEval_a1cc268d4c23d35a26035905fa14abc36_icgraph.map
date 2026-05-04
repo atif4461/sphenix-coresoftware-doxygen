@@ -1,0 +1,21 @@
+<map id="SvtxTrackEval::max_truth_particle_by_nclusters" name="SvtxTrackEval::max_truth_particle_by_nclusters">
+<area shape="rect" id="Node000001" title="Retrieve the truth particle that contributes the maximum number of clusters to the given track." alt="" coords="728,65,933,110"/>
+<area shape="rect" id="Node000002" href="$d3/d32/classActsEvaluator.html#aa753c6696784324d0431a6e379785df9" title="Function to evaluate Trajectories fit results from the KF." alt="" coords="454,14,680,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="716,64,680,56,632,45,633,39,681,50,717,59"/>
+<area shape="rect" id="Node000004" href="$dd/d75/classJetRecoEval.html#af6356d19d3ff0ee9c9849348466e7d0e" title="what was the energy contribution to this reconstructed jet from this truth jet?" alt="" coords="478,65,657,110"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="713,90,657,90,657,85,713,85"/>
+<area shape="rect" id="Node000009" href="$de/dbf/classQAG4SimulationTracking.html#ac2aeab5238fcf828f70c61b4976b57fe" title="Process event for QAG4SimulationTracking analysis module." alt="" coords="476,135,658,179"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="729,117,655,137,654,131,728,112"/>
+<area shape="rect" id="Node000003" href="$d3/d32/classActsEvaluator.html#a1cb0d7dc6cc72bd1eb930d014276335b" title="Process a single track using Acts fitting results." alt="" coords="223,5,392,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="438,30,393,30,393,25,438,25"/>
+<area shape="rect" id="Node000005" href="$dd/d75/classJetRecoEval.html#a631b92837e600fbdb6b966a556fc9077" title="which reconstructed jet had the largest energy contribution from this truth jet?" alt="" coords="210,74,406,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="462,90,407,90,407,85,462,85"/>
+<area shape="rect" id="Node000008" href="$dd/d75/classJetRecoEval.html#af4bff244a32d216f097c7fab76c9b95a" title="which truth jet contributed the most energy to this reconstructed jet?" alt="" coords="221,125,394,170"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="463,114,395,130,394,125,462,109"/>
+<area shape="rect" id="Node000006" href="$dd/d75/classJetRecoEval.html#a9775ea4a0c6e28f22da7997f4886f195" title="Retrieve uniquely matched reconstructed jet for a given truth jet." alt="" coords="5,60,162,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="194,88,162,87,162,82,194,82"/>
+<area shape="rect" id="Node000007" href="$dd/d75/classJetRecoEval.html#ac6030b2b14c885e19e35f86ec828d8d8" title="Retrieve the uniquely matched truth jet for a given reconstructed jet." alt="" coords="5,129,162,174"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="236,109,210,116,157,131,156,126,209,110,234,103"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="214,123,162,108,163,103,215,118"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="206,152,162,153,162,148,206,147"/>
+</map>

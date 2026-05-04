@@ -1,0 +1,27 @@
+<map id="PHRandomSeed::operator unsigned int" name="PHRandomSeed::operator unsigned int">
+<area shape="rect" id="Node000001" title="conversion operator for unsigned int seed = PHRandomSeed();" alt="" coords="5,126,194,171"/>
+<area shape="rect" id="Node000002" href="$dd/d1f/classPHRandomSeed.html#a5418cdc134aabef0a1556c102a790b5f" title="get a seed" alt="" coords="242,135,430,162"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,146,226,146,226,151,194,151"/>
+<area shape="rect" id="Node000003" href="$dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55" title="Initialize random seed from recoConsts if flag RANDOMSEED is set." alt="" coords="478,135,664,162"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,146,463,146,463,151,430,151"/>
+<area shape="rect" id="Node000004" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="723,83,858,110"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="632,131,713,112,715,117,633,137"/>
+<area shape="rect" id="Node000005" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="Retrieve integer flag value by name." alt="" coords="716,135,865,162"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="664,146,701,146,701,151,664,151"/>
+<area shape="rect" id="Node000013" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="712,187,869,214"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="633,160,715,180,713,185,632,166"/>
+<area shape="rect" id="Node000006" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="952,109,1057,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="865,137,936,129,936,134,865,142"/>
+<area shape="rect" id="Node000012" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="917,161,1092,189"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="865,155,901,160,901,165,865,160"/>
+<area shape="rect" id="Node000007" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="1140,5,1326,33"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1025,107,1076,75,1139,43,1159,36,1161,41,1141,48,1079,80,1028,111"/>
+<area shape="rect" id="Node000008" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="1146,57,1320,85"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1057,109,1154,86,1155,92,1058,114"/>
+<area shape="rect" id="Node000009" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="1154,109,1312,137"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="1058,120,1139,120,1139,126,1058,126"/>
+<area shape="rect" id="Node000010" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="1144,161,1322,189"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="1058,132,1155,155,1154,160,1057,138"/>
+<area shape="rect" id="Node000011" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="1142,213,1324,241"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="1058,132,1093,148,1109,161,1118,174,1127,186,1141,198,1154,205,1151,209,1139,203,1123,190,1114,177,1105,164,1091,152,1056,137"/>
+</map>

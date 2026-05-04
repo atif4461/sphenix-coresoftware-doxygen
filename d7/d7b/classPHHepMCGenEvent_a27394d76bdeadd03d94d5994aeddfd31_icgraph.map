@@ -1,0 +1,29 @@
+<map id="PHHepMCGenEvent::size" name="PHHepMCGenEvent::size">
+<area shape="rect" id="Node000001" title="Return number of particles in the stored HepMC event." alt="" coords="773,168,957,196"/>
+<area shape="rect" id="Node000002" href="$d7/d7b/classPHHepMCGenEvent.html#aefba90e1138cf40fc9892de617dc3da8" title="Print identification information of the PHHepMCGenEvent object to the provided stream." alt="" coords="519,168,725,196"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="758,185,726,185,726,180,758,180"/>
+<area shape="rect" id="Node000003" href="$dc/d10/classPHHepMCGenEventv1.html#afb7c988a32932dc1f1afe00eab784378" title="Print detailed event information to the provided output stream." alt="" coords="281,5,454,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="594,160,539,112,470,65,445,53,447,48,472,60,543,108,598,156"/>
+<area shape="rect" id="Node000004" href="$d7/d7b/classPHHepMCGenEvent.html#abad76df3814831e36cbcf0aa2f845f04" title="Print identification information of the event to the provided output stream." alt="" coords="274,74,462,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="579,163,528,139,470,116,434,105,436,100,472,110,530,134,581,159"/>
+<area shape="rect" id="Node000005" href="$db/d6c/classHepMCNodeReader.html#a9216b26c5e57c06c2276b0cc67495f0b" title="Process event data from HepMC node and fill Geant4 in event structure." alt="" coords="265,125,471,170"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="503,169,471,164,472,159,504,164"/>
+<area shape="rect" id="Node000006" href="$da/daf/classJetHepMCLoader.html#a0f3ee3e4aa8a5cfc1c915d062dd7abb8" title="Process a single event loading HepMC jets into the JetContainer." alt="" coords="274,195,462,239"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="504,201,462,207,462,202,503,196"/>
+<area shape="rect" id="Node000007" href="$dc/dd7/classPHG4ScoringManager.html#a5d492ab9ed5d057011eff6654f83cf72" title="event processing method" alt="" coords="287,264,449,309"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="579,206,472,254,441,266,439,261,470,249,577,201"/>
+<area shape="rect" id="Node000008" href="$d8/d78/classPHG4ParticleGeneratorBase.html#a1c8fb7b3cb97ad9c0eb85468be4f0f1b" title="Reuse existing primary vertex from various sources if flag enabled." alt="" coords="267,333,469,378"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="601,210,546,266,511,297,472,323,449,335,446,330,470,319,508,293,543,263,597,206"/>
+<area shape="rect" id="Node000009" href="$da/ddc/classPHG4IonGun.html#acab314e46908041565e0e14e73325bab" title="Process a single event and generate ion primary particles." alt="" coords="30,160,192,205"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="267,326,263,323,251,310,244,296,238,270,232,244,226,231,215,219,190,203,193,199,218,215,230,228,237,242,243,268,249,294,255,307,267,319,270,322"/>
+<area shape="rect" id="Node000010" href="$dd/d68/classPHG4ParticleGenerator.html#a27b1f33f182e52a875ead48612ad29d3" title="Generate particles for the current event and store them in the PHG4InEvent node." alt="" coords="26,229,196,274"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="276,329,263,323,239,306,215,289,189,277,191,272,218,284,242,301,266,319,278,325"/>
+<area shape="rect" id="Node000011" href="$d9/d78/classPHG4ParticleGeneratorD0.html#ab7b714e2007eaf957fd8790b5b0cfd39" title="Generate a D0 meson event, decay it to Kminus and piplus and store the particles in the PHG4InEvent n..." alt="" coords="17,299,205,343"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="251,343,205,336,206,331,251,337"/>
+<area shape="rect" id="Node000012" href="$d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#abd61007655fd3b068d1ab5b53828532a" title="Generate vector meson decay particles for a single event and fill the G4InEvent node." alt="" coords="5,368,217,413"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="252,374,217,379,217,373,251,369"/>
+<area shape="rect" id="Node000013" href="$dd/d13/classPHG4ParticleGun.html#a628a3341c5489016d87c637e55d333b7" title="Process a single event and fill PHG4InEvent with vertex and particles." alt="" coords="16,437,206,482"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="308,388,218,427,185,439,184,434,216,423,306,383"/>
+<area shape="rect" id="Node000014" href="$d5/df3/classPHG4SimpleEventGenerator.html#aec25f318fcd3bc837c29c6b557ec5ba5" title="Generate event vertex and particle list based on configured kinematic distributions." alt="" coords="9,507,213,551"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="339,392,286,445,253,473,218,497,194,508,192,504,215,492,250,468,283,441,336,388"/>
+</map>

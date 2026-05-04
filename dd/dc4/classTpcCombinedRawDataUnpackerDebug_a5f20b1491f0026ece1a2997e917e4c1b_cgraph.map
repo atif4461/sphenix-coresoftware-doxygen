@@ -1,0 +1,74 @@
+<map id="TpcCombinedRawDataUnpackerDebug::process_event" name="TpcCombinedRawDataUnpackerDebug::process_event">
+<area shape="rect" id="Node000001" title="Process event for TpcCombinedRawDataUnpackerDebug." alt="" coords="5,795,236,839"/>
+<area shape="rect" id="Node000002" href="$dd/dc4/classTpcCombinedRawDataUnpackerDebug.html#a3791576e83756890e8c43b7a52e94d0b" title=" " alt="" coords="284,5,514,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,794,136,647,166,427,188,312,214,207,245,120,263,86,282,61,284,58,288,62,286,64,267,89,250,122,219,209,193,314,171,428,141,648,126,794"/>
+<area shape="rect" id="Node000003" href="$dd/dc4/classTpcCombinedRawDataUnpackerDebug.html#a4e09e17b726d90176bf06ed622931663" title="Create a unique pad key from side layer and pad number." alt="" coords="284,75,514,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,794,138,659,170,460,192,356,218,262,248,183,264,153,282,130,284,127,288,131,286,133,269,156,253,186,223,263,197,358,176,461,143,660,127,794"/>
+<area shape="rect" id="Node000004" href="$d4/d14/classTpcRawHit.html#a035fb76e0f53e095e185bb2ed3171992" title=" " alt="" coords="292,143,506,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="122,794,139,667,172,482,194,387,219,300,249,229,265,201,282,181,284,178,288,182,286,184,269,204,253,231,224,302,199,388,177,484,144,668,127,795"/>
+<area shape="rect" id="Node000006" href="$d5/d76/classTrkrHitSetContainer.html#aee7de3f6af1b2564963057f4c638d43a" title="find or add HitSet" alt="" coords="325,195,473,239"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="119,794,121,696,128,627,141,551,161,470,190,391,229,316,254,281,282,250,308,231,312,236,285,254,258,285,234,319,195,393,166,472,146,552,133,628,127,697,124,794"/>
+<area shape="rect" id="Node000007" href="$d7/db0/namespaceTpcDefs.html#ad6f7435b72ea8675313c2d016aa835f6" title="Generate a hitkey from a pad index and time bin." alt="" coords="324,263,474,291"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="119,794,124,703,131,640,144,570,165,498,193,426,232,360,255,329,282,302,308,285,311,290,285,306,259,333,236,363,198,428,170,499,150,571,137,641,129,704,124,795"/>
+<area shape="rect" id="Node000008" href="$d7/db0/namespaceTpcDefs.html#a30fc79495c9e8d14327d1026cd7325c7" title="Generate a hitsetkey for the tpc." alt="" coords="314,315,484,343"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="120,794,128,711,137,654,151,592,172,527,199,464,236,405,282,354,298,343,301,347,285,358,240,408,204,466,177,529,156,593,142,655,133,711,125,794"/>
+<area shape="rect" id="Node000010" href="$d4/d14/classTpcRawHit.html#a4b9a5842cb62cf0f57108c7c15b8fff7" title=" " alt="" coords="310,367,488,395"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="121,794,132,719,158,614,179,557,206,502,240,450,282,406,294,397,297,401,285,410,244,453,210,504,183,559,163,615,137,720,126,795"/>
+<area shape="rect" id="Node000011" href="$d4/d14/classTpcRawHit.html#a5f99c0323d2993850c31fcf71d83d6c1" title=" " alt="" coords="325,419,473,447"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="122,794,136,727,165,636,185,587,212,540,244,496,282,458,309,442,311,447,285,462,248,499,216,543,190,590,170,638,141,729,128,795"/>
+<area shape="rect" id="Node000012" href="$d4/d14/classTpcRawHit.html#ad9fe6602a670abfaba19cbb2e8df696e" title=" " alt="" coords="307,471,490,499"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="124,794,141,735,171,658,192,617,218,577,247,540,282,508,291,502,294,506,285,512,251,544,222,580,197,619,176,660,146,737,129,795"/>
+<area shape="rect" id="Node000013" href="$df/dc7/classTpcRawHitContainer.html#ad9ac7e85be6212dfe3356eb3299ee511" title=" " alt="" coords="322,523,476,567"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="129,793,150,748,183,690,227,629,253,602,282,577,306,564,308,568,285,582,257,606,231,633,188,693,155,750,133,795"/>
+<area shape="rect" id="Node000014" href="$df/dc7/classTpcRawHitContainer.html#a2ea84db09c222047ac43a39f15da429e" title=" " alt="" coords="322,592,476,637"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="135,793,195,721,236,681,282,647,306,635,308,639,285,651,239,685,198,725,140,796"/>
+<area shape="rect" id="Node000015" href="$d4/d14/classTpcRawHit.html#a3bbd7984023820981e266173308cc848" title=" " alt="" coords="308,660,490,688"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="145,792,205,745,243,720,283,699,303,691,305,696,285,703,245,724,208,749,148,796"/>
+<area shape="rect" id="Node000016" href="$d1/dda/classPHG4TpcGeom.html#a6d042bc27816f3784c4649cdc2d8d777" title=" " alt="" coords="301,712,496,740"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="171,792,283,749,309,742,310,747,285,754,173,797"/>
+<area shape="rect" id="Node000017" href="$dd/dc4/classTpcCombinedRawDataUnpackerDebug.html#aa70de6ded340abf3dcb00cb8f99df3bc" title=" " alt="" coords="284,764,514,809"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="236,802,268,798,268,803,236,807"/>
+<area shape="rect" id="Node000018" href="$d4/d14/classTpcRawHit.html#a6047825ed045dc6cd7ce1a834e538a6b" title=" " alt="" coords="288,832,510,860"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="236,826,272,830,272,836,236,832"/>
+<area shape="rect" id="Node000019" href="$d4/d14/classTpcRawHit.html#a506bb744074652afc42effa00c7f7a67" title=" " alt="" coords="288,884,510,912"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="186,837,284,869,317,878,315,883,283,874,184,843"/>
+<area shape="rect" id="Node000020" href="$d4/d14/classTpcRawHit.html#a13b34f2c6b976a3bf04bab77af6d56f5" title=" " alt="" coords="308,936,490,964"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="151,838,211,881,247,902,285,921,306,929,304,934,283,926,244,907,208,885,148,842"/>
+<area shape="rect" id="Node000021" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="327,988,470,1016"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="140,838,199,906,240,943,285,973,313,985,311,990,282,978,236,947,195,910,136,842"/>
+<area shape="rect" id="Node000027" href="$d9/dc1/classTrkrHitSet.html#a37ac32e4359d1b904585bfde3be88718" title="Get all hits." alt="" coords="329,1040,469,1068"/>
+<area shape="poly" id="edge27_Node000001_Node000027" title=" " alt="" coords="135,839,157,880,190,930,233,982,258,1005,285,1025,315,1039,313,1044,282,1030,255,1010,230,986,186,934,153,882,130,841"/>
+<area shape="rect" id="Node000028" href="$d5/d76/classTrkrHitSetContainer.html#a6cd3ae7cd01487095313ecba1a331971" title="return all HitSets matching a given detid" alt="" coords="325,1092,473,1137"/>
+<area shape="poly" id="edge28_Node000001_Node000028" title=" " alt="" coords="132,839,152,888,184,953,228,1020,255,1051,285,1078,312,1093,309,1097,282,1082,252,1055,224,1023,179,956,147,891,127,841"/>
+<area shape="rect" id="Node000029" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="329,1160,469,1188"/>
+<area shape="poly" id="edge29_Node000001_Node000029" title=" " alt="" coords="128,839,144,901,173,985,194,1030,219,1073,249,1113,285,1147,315,1163,312,1167,282,1151,245,1116,215,1076,189,1032,168,987,138,903,123,840"/>
+<area shape="rect" id="Node000030" href="$d7/d7c/classPHG4TpcGeomContainer.html#aa584ed2ee87c9fc653db30aeca843bd8" title="Retrieve geometry object for specified TPC layer." alt="" coords="308,1212,490,1257"/>
+<area shape="poly" id="edge30_Node000001_Node000030" title=" " alt="" coords="127,839,140,909,168,1006,189,1058,215,1109,247,1156,285,1198,296,1206,292,1210,282,1202,243,1159,210,1111,184,1060,163,1007,135,910,122,840"/>
+<area shape="rect" id="Node000031" href="$d7/db0/namespaceTpcDefs.html#a5009e86d9bf74a453e860b3650aac4d4" title="Get the pad index from hitkey." alt="" coords="336,1280,462,1308"/>
+<area shape="poly" id="edge31_Node000001_Node000031" title=" " alt="" coords="125,840,133,921,143,977,157,1037,177,1100,205,1161,241,1218,285,1267,302,1278,322,1286,320,1291,300,1283,282,1271,236,1221,200,1164,173,1102,152,1039,137,978,128,922,120,840"/>
+<area shape="rect" id="Node000032" href="$d7/db0/namespaceTpcDefs.html#aaee8d42aaa9f7331459a8589f9550086" title="Get the sector id from hitsetkey." alt="" coords="321,1332,477,1360"/>
+<area shape="poly" id="edge32_Node000001_Node000032" title=" " alt="" coords="124,839,130,929,138,990,151,1058,171,1129,199,1198,237,1262,260,1291,285,1318,308,1332,305,1337,282,1322,256,1295,233,1265,195,1200,166,1130,146,1059,132,991,124,929,119,840"/>
+<area shape="rect" id="Node000033" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="333,1384,464,1412"/>
+<area shape="poly" id="edge33_Node000001_Node000033" title=" " alt="" coords="124,839,126,937,132,1005,145,1080,164,1158,193,1236,233,1308,258,1340,285,1370,301,1381,319,1389,317,1394,298,1386,282,1374,254,1343,229,1310,188,1238,159,1160,139,1081,127,1005,121,937,118,840"/>
+<area shape="rect" id="Node000034" href="$d7/db0/namespaceTpcDefs.html#a3ec8638cf9427c7955840853dbd96383" title="Get the time bin from hitkey." alt="" coords="333,1436,465,1464"/>
+<area shape="poly" id="edge34_Node000001_Node000034" title=" " alt="" coords="127,839,146,961,179,1137,201,1227,226,1310,255,1377,270,1403,285,1422,301,1433,319,1441,317,1446,298,1438,282,1426,265,1406,250,1380,221,1312,196,1229,174,1138,140,962,122,840"/>
+<area shape="rect" id="Node000035" href="$da/d9b/classTrkrHit.html#a2b328710e55704e72a391113bccc8e76" title=" " alt="" coords="341,1488,457,1516"/>
+<area shape="poly" id="edge35_Node000001_Node000035" title=" " alt="" coords="127,840,144,970,176,1162,198,1261,223,1351,253,1425,269,1453,285,1474,304,1487,326,1495,324,1500,302,1492,282,1478,264,1456,248,1427,218,1353,192,1262,170,1163,138,971,122,840"/>
+<area shape="rect" id="Node000036" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="314,1540,484,1568"/>
+<area shape="poly" id="edge36_Node000001_Node000036" title=" " alt="" coords="126,840,142,979,172,1187,194,1294,220,1392,251,1472,268,1503,286,1526,301,1538,298,1542,282,1530,263,1506,246,1475,215,1394,189,1295,167,1187,136,980,121,840"/>
+<area shape="rect" id="Node000005" href="$d4/d14/classTpcRawHit.html#a215ad8f9ba0bd7b2b52fa6d8ae4337e9" title=" " alt="" coords="568,143,737,171"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="506,154,553,154,553,160,506,160"/>
+<area shape="rect" id="Node000009" href="$d6/d3f/namespaceTrkrDefs.html#a418e306477093b8d17d587be70b908a3" title="generate the common upper 16 bits for hitsetkey" alt="" coords="567,315,738,343"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="485,326,551,326,551,332,485,332"/>
+<area shape="rect" id="Node000022" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="562,963,743,991"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="471,993,546,985,547,990,471,998"/>
+<area shape="rect" id="Node000026" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="570,1015,735,1043"/>
+<area shape="poly" id="edge26_Node000021_Node000026" title=" " alt="" coords="471,1007,555,1016,554,1021,471,1013"/>
+<area shape="poly" id="edge22_Node000022_Node000022" title=" " alt="" coords="610,964,603,954,608,944,625,939,653,937,682,939,698,945,696,950,681,944,653,942,626,944,611,949,608,954,614,961"/>
+<area shape="rect" id="Node000023" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="835,911,977,939"/>
+<area shape="poly" id="edge23_Node000022_Node000023" title=" " alt="" coords="723,960,819,940,820,945,724,965"/>
+<area shape="rect" id="Node000024" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="840,963,972,991"/>
+<area shape="poly" id="edge24_Node000022_Node000024" title=" " alt="" coords="744,974,824,974,824,980,744,980"/>
+<area shape="rect" id="Node000025" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="791,1015,1021,1043"/>
+<area shape="poly" id="edge25_Node000022_Node000025" title=" " alt="" coords="724,989,820,1009,819,1014,723,994"/>
+</map>

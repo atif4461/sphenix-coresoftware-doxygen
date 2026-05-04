@@ -1,0 +1,26 @@
+<map id="ActsSurfaceMaps::getSurface" name="ActsSurfaceMaps::getSurface">
+<area shape="rect" id="Node000001" title="Retrieve surface object for given cluster key and cluster pointer." alt="" coords="5,124,217,151"/>
+<area shape="rect" id="Node000002" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="766,67,968,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,121,181,72,221,47,264,28,333,12,405,4,478,4,549,9,617,19,681,31,787,59,785,65,680,37,617,24,549,14,478,9,406,9,334,17,266,33,223,52,185,77,128,125"/>
+<area shape="rect" id="Node000003" href="$d0/dcd/structActsSurfaceMaps.html#a4d90e968eccac7ee8637a4185257752d" title="Retrieve the Micromegas surface associated with a specific hit set key." alt="" coords="265,42,500,70"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,121,264,86,311,72,313,77,265,91,156,126"/>
+<area shape="rect" id="Node000004" href="$d0/dcd/structActsSurfaceMaps.html#a695d2d4f30905e0fe8698b6ff3cf7b9f" title="Retrieve silicon surface associated with a given hitsetkey." alt="" coords="280,144,485,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,146,265,151,264,157,217,152"/>
+<area shape="rect" id="Node000005" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="563,90,703,118"/>
+<area shape="poly" id="edge13_Node000001_Node000005" title=" " alt="" coords="217,128,547,107,547,112,217,133"/>
+<area shape="rect" id="Node000009" href="$d6/dfa/classTrkrCluster.html#a5477c21eadbd6affeda674630b5ab048" title=" " alt="" coords="285,213,480,241"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="143,149,199,174,265,199,291,206,290,211,264,204,197,179,141,154"/>
+<area shape="rect" id="Node000010" href="$d0/dcd/structActsSurfaceMaps.html#a691d679c52679272d765a96e2d970e78" title="Retrieve the TPC surface pointer for a given hitset and sub‑surface key." alt="" coords="265,266,500,294"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="129,150,186,199,224,226,266,250,289,259,287,264,264,255,222,231,183,203,125,154"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="474,141,559,120,561,125,475,146"/>
+<area shape="rect" id="Node000006" href="$d6/d9e/namespaceInttDefs.html#ab8a699f33fb26a6360adc245c0f8a41f" title="Zero the crossing bits in a copy of the hitsetkey." alt="" coords="548,142,718,170"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="485,160,532,158,532,163,485,165"/>
+<area shape="rect" id="Node000007" href="$d8/df1/namespaceMvtxDefs.html#a565f45f9bf464fdd1ecc31cdd7e349d3" title="Zero the strobe bits in the cluster key." alt="" coords="550,218,717,246"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="471,187,563,211,562,216,470,192"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="657,216,717,179,815,118,818,123,720,184,660,220"/>
+<area shape="poly" id="edge9_Node000007_Node000007" title=" " alt="" coords="593,219,587,209,592,200,608,194,633,192,661,194,675,201,673,205,659,199,633,197,609,199,595,204,592,209,598,216"/>
+<area shape="rect" id="Node000008" href="$d6/d3f/namespaceTrkrDefs.html#a5cc3b1fa8e62e3fc5fb698fe1991cfae" title="generate cluster key from hitset key and cluster index" alt="" coords="787,218,947,246"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="717,229,772,229,772,235,717,235"/>
+<area shape="rect" id="Node000011" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="563,270,703,298"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="500,279,547,280,547,285,500,285"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="PHG4TpcPadBaselineShift::process_event" name="PHG4TpcPadBaselineShift::process_event">
+<area shape="rect" id="Node000001" title="Process a single event and apply baseline shift to TPC pad ADC values." alt="" coords="5,478,194,522"/>
+<area shape="rect" id="Node000002" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="506,193,687,220"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,477,118,381,148,248,167,181,189,120,213,72,240,41,268,22,295,10,321,4,346,3,399,15,459,40,502,68,537,105,565,144,585,178,580,181,560,147,533,109,498,72,457,45,398,20,346,9,321,9,297,15,271,27,243,45,218,75,194,122,172,182,153,249,124,382,107,478"/>
+<area shape="rect" id="Node000006" href="$d7/db0/namespaceTpcDefs.html#ad6f7435b72ea8675313c2d016aa835f6" title="Generate a hitkey from a pad index and time bin." alt="" coords="275,54,424,82"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="99,477,106,402,126,298,144,242,168,187,200,136,240,91,259,78,262,83,243,95,204,139,173,189,149,244,131,299,111,403,104,477"/>
+<area shape="rect" id="Node000007" href="$d1/dda/classPHG4TpcGeom.html#aab1d1a312cd1a561226c874d29d7e324" title="Returns simulated drift velocity." alt="" coords="259,106,440,150"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="101,476,113,414,137,329,156,284,178,239,206,197,240,161,244,157,248,161,244,164,211,201,183,242,160,286,142,331,118,415,106,477"/>
+<area shape="rect" id="Node000008" href="$d1/dda/classPHG4TpcGeom.html#ac65ed8049186b4f94d9ab7aa4ec52ab9" title="Placeholder implementation returning an invalid phi bin count." alt="" coords="249,174,451,202"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="103,476,117,422,143,351,161,313,183,276,209,242,240,212,247,207,250,212,243,217,213,245,187,279,166,315,148,353,122,424,108,478"/>
+<area shape="rect" id="Node000009" href="$d1/dda/classPHG4TpcGeom.html#a4c7d246d792f49583eea2e9f31a451af" title=" " alt="" coords="242,226,458,254"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="105,476,122,431,150,374,189,315,213,288,240,264,249,259,252,263,243,269,217,291,193,318,155,376,127,433,110,478"/>
+<area shape="rect" id="Node000010" href="$d1/dda/classPHG4TpcGeom.html#a3fe5405b4a41fc532974d168fe776f16" title=" " alt="" coords="252,278,448,306"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="110,476,130,440,159,397,196,353,240,316,251,310,254,315,243,321,200,357,163,400,134,443,114,478"/>
+<area shape="rect" id="Node000011" href="$d1/dda/classPHG4TpcGeom.html#ad39b333098dea6a993d29d7e9a812205" title="Returns the number of z bins for the detector geometry." alt="" coords="255,330,444,358"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="117,475,169,421,203,392,240,368,256,361,258,366,243,373,206,397,173,425,121,479"/>
+<area shape="rect" id="Node000012" href="$d1/dda/classPHG4TpcGeom.html#a5983eac3c7a662d9ff2b902eb99171dc" title=" " alt="" coords="248,382,452,410"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="135,475,184,447,241,420,264,412,266,417,243,425,186,451,137,479"/>
+<area shape="rect" id="Node000013" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="278,434,422,462"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="194,478,264,463,266,468,195,483"/>
+<area shape="rect" id="Node000015" href="$da/d9b/classTrkrHit.html#a303657b941583484a800e80a96eebe0f" title=" " alt="" coords="281,486,419,514"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="194,497,265,497,265,503,194,503"/>
+<area shape="rect" id="Node000016" href="$d9/dc1/classTrkrHitSet.html#a37ac32e4359d1b904585bfde3be88718" title="Get all hits." alt="" coords="280,538,420,566"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="195,517,266,532,264,537,194,522"/>
+<area shape="rect" id="Node000017" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="280,590,420,618"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="137,520,186,548,243,575,266,583,264,588,241,580,184,553,135,525"/>
+<area shape="rect" id="Node000018" href="$d7/d7c/classPHG4TpcGeomContainer.html#aa584ed2ee87c9fc653db30aeca843bd8" title="Retrieve geometry object for specified TPC layer." alt="" coords="259,642,441,686"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="122,521,174,574,207,602,243,627,253,632,251,637,240,631,204,606,170,578,118,525"/>
+<area shape="rect" id="Node000019" href="$d7/db0/namespaceTpcDefs.html#a5009e86d9bf74a453e860b3650aac4d4" title="Get the pad index from hitkey." alt="" coords="287,710,413,738"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="113,521,131,560,160,608,197,656,243,696,273,710,270,715,240,701,193,660,155,611,127,562,108,524"/>
+<area shape="rect" id="Node000020" href="$d7/db0/namespaceTpcDefs.html#aaee8d42aaa9f7331459a8589f9550086" title="Get the sector id from hitsetkey." alt="" coords="272,762,428,790"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="109,522,126,569,153,631,192,694,216,722,243,747,259,757,256,761,240,751,212,726,187,697,148,633,121,571,104,523"/>
+<area shape="rect" id="Node000021" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="284,814,416,842"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="107,522,120,579,146,654,164,694,186,733,212,768,243,799,271,814,268,819,240,803,208,772,181,736,159,696,141,656,115,580,102,523"/>
+<area shape="rect" id="Node000022" href="$d7/db0/namespaceTpcDefs.html#a3ec8638cf9427c7955840853dbd96383" title="Get the time bin from hitkey." alt="" coords="284,866,416,894"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="106,522,115,587,139,677,156,724,180,771,208,814,243,851,270,867,268,871,240,855,204,817,175,773,152,726,133,678,110,588,100,523"/>
+<area shape="rect" id="Node000023" href="$da/d9b/classTrkrHit.html#a2b328710e55704e72a391113bccc8e76" title=" " alt="" coords="292,918,408,946"/>
+<area shape="poly" id="edge24_Node000001_Node000023" title=" " alt="" coords="104,522,111,596,132,699,150,755,174,809,205,859,243,903,259,914,278,922,276,927,257,919,240,907,200,863,169,811,145,757,127,701,106,597,99,523"/>
+<area shape="rect" id="Node000024" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="265,970,435,998"/>
+<area shape="poly" id="edge25_Node000001_Node000024" title=" " alt="" coords="103,522,107,604,114,660,125,721,143,784,167,847,201,905,244,955,253,962,249,967,240,959,196,908,163,849,138,786,120,722,109,661,102,605,98,522"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="555,194,548,184,553,174,570,168,597,166,626,169,641,175,639,180,624,174,597,171,571,173,557,178,553,183,559,191"/>
+<area shape="rect" id="Node000003" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="779,141,921,168"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="667,189,763,170,764,175,668,195"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="784,193,916,220"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="688,204,768,204,768,209,688,209"/>
+<area shape="rect" id="Node000005" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="735,245,965,272"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="668,218,764,238,763,244,667,224"/>
+<area shape="poly" id="edge14_Node000013_Node000002" title=" " alt="" coords="421,436,457,419,480,399,502,376,538,326,565,275,583,233,588,236,570,278,542,328,506,380,484,403,459,423,423,441"/>
+<area shape="rect" id="Node000014" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="514,434,679,462"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="422,445,499,445,499,451,422,451"/>
+</map>

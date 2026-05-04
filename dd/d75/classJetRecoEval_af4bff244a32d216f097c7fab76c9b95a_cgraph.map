@@ -1,0 +1,122 @@
+<map id="JetRecoEval::max_truth_jet_by_energy" name="JetRecoEval::max_truth_jet_by_energy">
+<area shape="rect" id="Node000001" title="which truth jet contributed the most energy to this reconstructed jet?" alt="" coords="5,939,179,983"/>
+<area shape="rect" id="Node000002" href="$dd/d75/classJetRecoEval.html#a277ecc26833b4e3e16f96018aa921702" title="what truth jets contributed to this reconstructed jet?" alt="" coords="227,866,418,894"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,936,265,897,267,902,158,941"/>
+<area shape="rect" id="Node000032" href="$dd/d75/classJetRecoEval.html#af6356d19d3ff0ee9c9849348466e7d0e" title="what was the energy contribution to this reconstructed jet from this truth jet?" alt="" coords="466,1077,645,1122"/>
+<area shape="poly" id="edge37_Node000001_Node000032" title=" " alt="" coords="170,981,464,1070,463,1075,169,986"/>
+<area shape="rect" id="Node000003" href="$dd/d75/classJetRecoEval.html#a35d98fcca277d5034d66e06d7e832e87" title="what truth particles contributed to this reconstructed jet?" alt="" coords="476,800,636,845"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,863,460,843,461,848,383,868"/>
+<area shape="rect" id="Node000004" href="$df/dad/classSvtxTrackEval.html#a62e98f45f00aecf81de1d3df574db70f" title="Retrieve all Monte Carlo truth particles associated with a reconstructed SvtxTrack." alt="" coords="967,1379,1103,1423"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="559,799,573,750,598,688,616,656,637,626,662,599,692,577,748,549,774,541,800,537,825,538,850,545,875,558,900,578,910,596,918,625,928,711,932,824,933,950,933,1192,937,1281,942,1312,948,1332,962,1351,980,1367,976,1371,958,1355,943,1334,937,1314,932,1282,928,1192,927,950,927,824,923,711,913,626,905,598,896,581,872,562,848,549,824,543,800,542,776,546,750,554,695,582,666,603,641,629,620,659,603,690,578,752,564,800"/>
+<area shape="rect" id="Node000008" href="$da/d7e/classCaloRawClusterEval.html#a7eb3923a9351902ac451910b71068d19" title="what particles contributed energy to this cluster?" alt="" coords="719,306,872,368"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="557,799,568,728,592,627,609,570,631,514,659,458,691,407,724,375,727,379,695,411,663,461,636,516,614,572,597,628,573,729,562,800"/>
+<area shape="rect" id="Node000016" href="$de/d0b/classCaloRawTowerEval.html#a3cd0ac230f085c40d0d2a025deadf01d" title="what particles contributed energy to this tower?" alt="" coords="705,67,886,111"/>
+<area shape="poly" id="edge17_Node000003_Node000016" title=" " alt="" coords="559,799,603,590,642,442,691,293,731,200,771,124,776,126,736,203,696,295,648,444,609,591,564,800"/>
+<area shape="rect" id="Node000021" href="$dd/d75/classJetRecoEval.html#ab096f9489df4d132fdf16e257f4a462c" title="get a copy of the lower level eval and its memory cache" alt="" coords="711,1077,880,1122"/>
+<area shape="poly" id="edge26_Node000003_Node000021" title=" " alt="" coords="566,844,582,890,609,949,646,1010,669,1038,695,1063,700,1067,697,1071,692,1067,665,1042,642,1013,604,951,577,892,561,846"/>
+<area shape="rect" id="Node000022" href="$d7/da6/classJet.html#a2fbba305fca78cf16ab84463d085b2cb" title="Access the internal jet component vector." alt="" coords="965,1294,1105,1322"/>
+<area shape="poly" id="edge27_Node000003_Node000022" title=" " alt="" coords="557,799,568,742,591,668,609,629,631,593,659,560,692,533,747,505,773,496,798,493,823,495,848,502,873,515,900,534,909,565,924,637,963,859,1031,1278,1026,1279,958,859,919,638,904,566,895,537,871,519,846,507,822,500,798,498,774,502,749,509,695,538,662,564,636,596,614,632,596,670,573,743,562,800"/>
+<area shape="rect" id="Node000023" href="$dd/d75/classJetRecoEval.html#a6ce92722bc66598c246fa550411b86c9" title="get a copy of the lower level eval and its memory cache" alt="" coords="710,1216,881,1261"/>
+<area shape="poly" id="edge28_Node000003_Node000023" title=" " alt="" coords="568,844,648,1064,658,1106,663,1140,672,1170,695,1202,699,1206,696,1210,691,1205,667,1172,658,1141,653,1107,643,1066,563,846"/>
+<area shape="rect" id="Node000024" href="$dd/d75/classJetRecoEval.html#a08562ed021760b1fd50780a517adf28f" title="get a copy of the lower level eval and its memory cache" alt="" coords="712,592,879,637"/>
+<area shape="poly" id="edge29_Node000003_Node000024" title=" " alt="" coords="567,798,615,724,650,683,692,647,698,642,701,647,695,651,654,687,619,728,571,801"/>
+<area shape="rect" id="Node000025" href="$dd/d75/classJetRecoEval.html#a293ebe1e835263d0599f107b23ce4c6a" title="get a copy of the lower level eval and its memory cache" alt="" coords="712,661,879,706"/>
+<area shape="poly" id="edge30_Node000003_Node000025" title=" " alt="" coords="580,797,630,757,692,716,704,710,706,715,695,721,633,761,584,801"/>
+<area shape="rect" id="Node000026" href="$dd/d75/classJetRecoEval.html#a5189a5ed72f6ce1ad48bf608ccdd1836" title="get a copy of the lower level eval and its memory cache" alt="" coords="709,731,882,775"/>
+<area shape="poly" id="edge31_Node000003_Node000026" title=" " alt="" coords="635,797,701,778,702,783,636,802"/>
+<area shape="rect" id="Node000027" href="$dd/d75/classJetRecoEval.html#a13bbdbe9b978b83ef3a698c68c36b3d9" title="get a copy of the lower level eval and its memory cache" alt="" coords="704,800,887,845"/>
+<area shape="poly" id="edge32_Node000003_Node000027" title=" " alt="" coords="636,820,689,820,689,825,636,825"/>
+<area shape="rect" id="Node000028" href="$db/d10/classCaloEvalStack.html#a7afbc386314868a52dfef60f3780c46d" title=" " alt="" coords="724,869,867,914"/>
+<area shape="poly" id="edge33_Node000003_Node000028" title=" " alt="" coords="636,843,710,864,708,869,635,848"/>
+<area shape="rect" id="Node000029" href="$db/d10/classCaloEvalStack.html#aaed81e09a6beb475210e6d1d424102aa" title=" " alt="" coords="724,939,867,983"/>
+<area shape="poly" id="edge34_Node000003_Node000029" title=" " alt="" coords="584,843,633,884,695,924,711,932,708,937,692,929,630,888,580,847"/>
+<area shape="rect" id="Node000030" href="$dd/d75/classJetRecoEval.html#a400e14f8920a9e379f040ca2b9eaa4b2" title="get a copy of the lower level eval and its memory cache" alt="" coords="714,1008,877,1053"/>
+<area shape="poly" id="edge35_Node000003_Node000030" title=" " alt="" coords="571,843,619,917,654,958,695,994,702,998,699,1003,692,998,650,962,615,920,567,846"/>
+<area shape="rect" id="Node000031" href="$d3/ded/classSvtxEvalStack.html#ab51ea8c7d43abcf55dee582dae200356" title=" " alt="" coords="724,1147,867,1191"/>
+<area shape="poly" id="edge36_Node000003_Node000031" title=" " alt="" coords="567,844,622,997,659,1079,678,1111,695,1132,711,1144,708,1148,691,1136,673,1114,655,1082,617,999,562,846"/>
+<area shape="rect" id="Node000005" href="$d2/db8/classSvtxTrack.html#a915b273940c053948796e100deaa5f13" title=" " alt="" coords="1211,1538,1343,1566"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1105,1420,1126,1434,1142,1453,1150,1473,1158,1491,1174,1510,1207,1529,1204,1534,1170,1514,1154,1494,1145,1475,1138,1456,1122,1438,1102,1425"/>
+<area shape="rect" id="Node000006" href="$df/dad/classSvtxTrackEval.html#a4d27c097f0e8d952df3788b896cd6b91" title=" " alt="" coords="1446,1619,1588,1663"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1103,1391,1166,1389,1239,1394,1314,1409,1350,1423,1384,1440,1426,1475,1461,1519,1487,1564,1505,1604,1500,1606,1482,1566,1456,1522,1423,1479,1381,1445,1348,1427,1312,1414,1238,1399,1166,1394,1103,1396"/>
+<area shape="rect" id="Node000007" href="$d9/da8/classSvtxTrack__FastSim.html#a70b317335b88ae96d6eb8a4e83aeb479" title="Retrieve the stored truth track identifier." alt="" coords="1202,1455,1352,1499"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="1104,1420,1190,1447,1188,1452,1103,1425"/>
+<area shape="rect" id="Node000009" href="$da/d7e/classCaloRawClusterEval.html#aa317364a6b44d67d5295250c6419d3bf" title="what primary showers contributed energy to this cluster?" alt="" coords="959,306,1111,368"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="872,334,943,334,943,340,872,340"/>
+<area shape="rect" id="Node000012" href="$da/d7e/classCaloRawClusterEval.html#a8347f7a372a07d892ff8dc3a41d29463" title="has the eval initialized correctly for reduced sim DST nodes?" alt="" coords="1172,281,1382,326"/>
+<area shape="poly" id="edge16_Node000008_Node000012" title=" " alt="" coords="836,303,886,272,945,248,994,237,1034,235,1124,248,1169,258,1211,273,1209,278,1167,263,1124,253,1034,240,995,242,946,253,888,277,839,308"/>
+<area shape="rect" id="Node000014" href="$d7/d3c/classCaloTruthEval.html#a8cf23ffd62bf8e3fe09775bf807b64bc" title="what was the primary particle associated with the shower object?" alt="" coords="965,136,1104,181"/>
+<area shape="poly" id="edge14_Node000008_Node000014" title=" " alt="" coords="823,304,877,251,944,197,963,186,966,191,947,202,881,255,827,308"/>
+<area shape="rect" id="Node000015" href="$da/d7e/classCaloRawClusterEval.html#a0782afee0d26a073f2b262e32d684a2c" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="959,392,1111,437"/>
+<area shape="poly" id="edge15_Node000008_Node000015" title=" " alt="" coords="873,359,949,384,948,389,871,364"/>
+<area shape="rect" id="Node000010" href="$d6/dc7/group__getters.html#ga8b86848f1470c8a908efc851e8d9c08c" title="return tower map for c++11 range&#45;based for&#45;loop" alt="" coords="1178,410,1376,438"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1112,366,1173,389,1212,402,1211,407,1171,394,1110,371"/>
+<area shape="rect" id="Node000011" href="$d6/dc7/group__getters.html#ga797d78febeac5c357ce4990878168507" title=" " alt="" coords="1190,474,1365,502"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="1110,366,1126,378,1142,396,1150,414,1158,430,1174,447,1206,465,1203,470,1170,451,1154,433,1145,416,1137,399,1122,382,1107,370"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="1111,324,1156,318,1157,323,1112,329"/>
+<area shape="poly" id="edge13_Node000012_Node000012" title=" " alt="" coords="1231,281,1230,271,1238,262,1254,257,1277,255,1303,257,1318,264,1316,269,1302,262,1277,260,1255,262,1241,267,1235,273,1237,280"/>
+<area shape="rect" id="Node000013" href="$da/d7e/classCaloRawClusterEval.html#aee326420812763b03113c0063ffeddae" title="get a copy of the lower level tower eval and its memory cache" alt="" coords="1440,417,1594,462"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1352,324,1384,339,1435,371,1480,405,1476,409,1432,375,1381,343,1350,329"/>
+<area shape="poly" id="edge23_Node000016_Node000014" title=" " alt="" coords="876,109,951,131,949,136,874,114"/>
+<area shape="rect" id="Node000017" href="$de/d0b/classCaloRawTowerEval.html#a5a2cdd97ddb786afa4de18ee12bc5bf2" title="what primary showers contributed energy to this tower?" alt="" coords="946,67,1124,111"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="886,86,930,86,930,92,886,92"/>
+<area shape="rect" id="Node000019" href="$de/d0b/classCaloRawTowerEval.html#a90bd4095586faf2ef722a6baf8c79691" title="has the eval initialized correctly for reduced sim DST nodes?" alt="" coords="1188,53,1367,98"/>
+<area shape="poly" id="edge25_Node000016_Node000019" title=" " alt="" coords="880,63,945,52,1035,46,1124,52,1172,56,1172,62,1124,57,1035,52,946,57,881,69"/>
+<area shape="rect" id="Node000020" href="$de/d0b/classCaloRawTowerEval.html#a86c06b3d2cbb008904d9f0811f9ad9c9" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="1430,5,1604,50"/>
+<area shape="poly" id="edge24_Node000016_Node000020" title=" " alt="" coords="846,64,893,45,945,30,1007,19,1071,11,1198,5,1316,7,1415,14,1415,19,1316,12,1198,10,1071,17,1008,24,946,36,895,50,848,69"/>
+<area shape="rect" id="Node000018" href="$d9/dd8/classRawTower.html#ab13148d0de5d525fe7a490fffc04e50c" title="Retrieve a constant range of Geant4 showers for this tower." alt="" coords="1180,352,1374,380"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="1113,110,1126,122,1144,150,1151,178,1152,206,1149,233,1147,259,1148,285,1156,311,1174,337,1180,342,1176,346,1170,340,1151,313,1142,286,1141,259,1144,232,1147,206,1146,179,1139,152,1122,125,1109,114"/>
+<area shape="poly" id="edge20_Node000017_Node000019" title=" " alt="" coords="1124,81,1172,79,1172,84,1125,87"/>
+<area shape="poly" id="edge22_Node000019_Node000019" title=" " alt="" coords="1231,53,1230,43,1238,34,1254,29,1277,27,1303,29,1318,36,1316,41,1302,34,1277,32,1255,34,1241,39,1235,45,1237,52"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="1367,55,1414,45,1415,51,1368,60"/>
+<area shape="poly" id="edge40_Node000032_Node000021" title=" " alt="" coords="646,1097,695,1097,695,1102,646,1102"/>
+<area shape="poly" id="edge41_Node000032_Node000022" title=" " alt="" coords="559,1122,564,1196,570,1245,581,1298,598,1352,622,1403,654,1449,695,1487,747,1516,771,1523,795,1525,819,1523,843,1516,896,1487,910,1474,918,1461,923,1432,927,1400,933,1382,944,1365,964,1344,988,1328,991,1332,968,1348,948,1368,937,1384,932,1401,929,1433,923,1463,914,1478,899,1491,846,1520,820,1528,795,1531,770,1528,745,1521,692,1491,650,1453,618,1406,593,1354,576,1299,565,1246,558,1197,554,1123"/>
+<area shape="poly" id="edge42_Node000032_Node000023" title=" " alt="" coords="584,1121,633,1161,695,1201,706,1207,704,1212,692,1206,630,1165,580,1125"/>
+<area shape="poly" id="edge56_Node000032_Node000024" title=" " alt="" coords="564,1076,601,981,643,856,650,824,653,796,653,745,655,721,660,698,672,673,691,647,698,641,701,645,695,651,676,676,665,699,660,722,658,745,658,796,655,825,648,858,606,983,569,1078"/>
+<area shape="poly" id="edge57_Node000032_Node000025" title=" " alt="" coords="563,1076,643,856,653,815,658,781,667,750,691,717,698,711,702,715,695,720,672,752,663,782,658,816,648,858,568,1078"/>
+<area shape="poly" id="edge58_Node000032_Node000026" title=" " alt="" coords="562,1076,617,923,655,840,673,808,691,786,695,782,699,786,695,790,678,811,659,843,622,925,567,1078"/>
+<area shape="poly" id="edge59_Node000032_Node000027" title=" " alt="" coords="561,1076,577,1030,604,971,642,909,665,880,692,855,697,851,700,855,695,859,669,884,646,912,609,973,582,1032,566,1078"/>
+<area shape="poly" id="edge61_Node000032_Node000028" title=" " alt="" coords="567,1076,615,1002,650,960,692,924,708,914,711,919,695,928,654,964,619,1005,571,1079"/>
+<area shape="poly" id="edge62_Node000032_Node000029" title=" " alt="" coords="580,1075,630,1034,692,993,708,985,711,990,695,998,633,1038,584,1079"/>
+<area shape="poly" id="edge63_Node000032_Node000030" title=" " alt="" coords="635,1074,701,1055,702,1060,636,1079"/>
+<area shape="poly" id="edge64_Node000032_Node000031" title=" " alt="" coords="636,1120,710,1142,708,1147,635,1125"/>
+<area shape="rect" id="Node000033" href="$d3/d22/classJetTruthEval.html#a5d9abe5c432bef3f5f495400b9603e52" title="which truth particle contributed to this truth jet?" alt="" coords="715,1285,876,1330"/>
+<area shape="poly" id="edge38_Node000032_Node000033" title=" " alt="" coords="571,1121,619,1194,654,1235,695,1271,703,1276,700,1280,692,1275,650,1239,615,1198,567,1124"/>
+<area shape="rect" id="Node000034" href="$da/d7e/classCaloRawClusterEval.html#a1df87a8403be2e5146a922554953c4e7" title="how much energy did this primary truth shower contribute to this cluster" alt="" coords="702,421,889,466"/>
+<area shape="poly" id="edge43_Node000032_Node000034" title=" " alt="" coords="564,1076,602,981,643,856,657,779,660,716,667,654,676,619,691,579,723,523,759,476,764,480,727,526,696,581,681,620,672,655,666,716,662,779,648,858,607,983,569,1078"/>
+<area shape="rect" id="Node000035" href="$de/d0b/classCaloRawTowerEval.html#abe64f9fcff4f576efcaef1e607216577" title="how much energy did this primary shower contribute to this tower?" alt="" coords="948,683,1122,727"/>
+<area shape="poly" id="edge55_Node000032_Node000035" title=" " alt="" coords="560,1122,568,1189,588,1279,605,1326,628,1370,658,1410,695,1443,748,1472,773,1480,798,1483,822,1481,846,1474,871,1462,896,1443,908,1413,924,1346,962,1140,1025,743,1031,743,968,1141,929,1347,913,1415,900,1447,873,1466,848,1479,823,1487,797,1489,772,1485,746,1477,692,1447,654,1414,623,1373,600,1328,583,1280,562,1190,555,1123"/>
+<area shape="rect" id="Node000039" href="$d2/db8/classSvtxTrack.html#a58a58a4f27be25ea96d89408d98e34e7" title=" " alt="" coords="731,1354,860,1382"/>
+<area shape="poly" id="edge60_Node000032_Node000039" title=" " alt="" coords="566,1122,581,1168,607,1228,645,1289,668,1316,695,1340,718,1353,715,1358,692,1345,665,1320,641,1292,603,1230,576,1170,561,1123"/>
+<area shape="rect" id="Node000040" href="$de/dc9/classPHG4Particle.html#a23b7432f9b345b67a00e5c005fa5ba52" title=" " alt="" coords="699,1406,892,1434"/>
+<area shape="poly" id="edge65_Node000032_Node000040" title=" " alt="" coords="563,1122,576,1177,601,1250,618,1288,639,1326,665,1361,695,1391,702,1396,699,1400,692,1395,661,1364,635,1329,613,1291,596,1252,571,1178,558,1123"/>
+<area shape="rect" id="Node000041" href="$dd/d75/classJetRecoEval.html#ae2f686cb549d8446a80cd7544ce3de76" title="get a copy of the lower level eval and its memory cache" alt="" coords="695,1627,896,1655"/>
+<area shape="poly" id="edge66_Node000032_Node000041" title=" " alt="" coords="563,1122,578,1227,607,1376,625,1451,646,1520,670,1576,695,1614,698,1616,694,1620,691,1617,665,1579,641,1522,620,1453,601,1377,573,1228,557,1123"/>
+<area shape="rect" id="Node000042" href="$df/dad/classSvtxTrackEval.html#a1cc268d4c23d35a26035905fa14abc36" title="Retrieve the truth particle that contributes the maximum number of clusters to the given track." alt="" coords="693,1559,898,1603"/>
+<area shape="poly" id="edge67_Node000032_Node000042" title=" " alt="" coords="560,1122,566,1200,586,1310,603,1371,627,1431,657,1487,695,1538,706,1548,703,1552,691,1541,652,1490,622,1433,598,1372,581,1311,561,1201,555,1123"/>
+<area shape="poly" id="edge39_Node000033_Node000022" title=" " alt="" coords="876,1305,949,1305,949,1310,876,1310"/>
+<area shape="poly" id="edge51_Node000034_Node000010" title=" " alt="" coords="890,447,1002,451,1124,446,1188,438,1189,443,1124,452,1002,456,890,453"/>
+<area shape="poly" id="edge52_Node000034_Node000011" title=" " alt="" coords="890,450,946,456,1174,476,1173,481,945,461,889,456"/>
+<area shape="poly" id="edge54_Node000034_Node000012" title=" " alt="" coords="842,419,870,400,896,378,910,355,916,333,924,311,944,292,973,278,1004,269,1068,261,1131,264,1189,275,1188,280,1131,270,1068,266,1005,274,975,283,947,297,929,314,921,334,915,357,900,381,873,405,844,423"/>
+<area shape="poly" id="edge50_Node000034_Node000013" title=" " alt="" coords="862,464,964,493,1094,518,1165,526,1238,528,1311,523,1382,510,1429,492,1471,469,1473,473,1431,497,1383,516,1312,529,1238,533,1165,531,1093,523,962,498,861,469"/>
+<area shape="poly" id="edge53_Node000034_Node000015" title=" " alt="" coords="889,430,943,423,943,428,890,435"/>
+<area shape="poly" id="edge44_Node000034_Node000035" title=" " alt="" coords="876,464,900,483,916,508,923,532,924,578,925,623,932,646,948,669,950,671,946,675,944,672,927,648,920,624,919,578,918,532,911,510,896,487,873,469"/>
+<area shape="rect" id="Node000038" href="$d7/d3c/classCaloTruthEval.html#a4d2ab62ada677f474c71eaf2222bb3e8" title="what was the primary shower associated with the shower object?" alt="" coords="965,613,1104,658"/>
+<area shape="poly" id="edge49_Node000034_Node000038" title=" " alt="" coords="873,464,899,483,911,497,918,511,925,539,930,566,937,579,948,592,959,603,956,607,944,596,932,582,925,567,919,540,913,513,907,500,896,487,870,469"/>
+<area shape="poly" id="edge46_Node000035_Node000018" title=" " alt="" coords="1110,680,1122,669,1143,634,1150,600,1149,567,1144,534,1139,500,1138,466,1147,431,1170,397,1181,386,1185,390,1174,400,1152,434,1144,467,1144,500,1149,533,1155,567,1155,601,1147,636,1126,672,1113,684"/>
+<area shape="poly" id="edge48_Node000035_Node000019" title=" " alt="" coords="1110,680,1122,669,1139,633,1149,584,1154,526,1155,463,1157,339,1161,286,1169,244,1185,206,1205,170,1246,109,1250,112,1210,173,1190,209,1175,246,1166,286,1162,339,1161,463,1159,526,1154,585,1144,635,1126,672,1114,684"/>
+<area shape="rect" id="Node000036" href="$d9/dd8/classRawTower.html#af8508a94f4b64147ad8e919f6d25fb5a" title="Find G4 shower by identifier." alt="" coords="1182,718,1372,746"/>
+<area shape="poly" id="edge45_Node000035_Node000036" title=" " alt="" coords="1122,712,1167,717,1167,722,1122,717"/>
+<area shape="rect" id="Node000037" href="$db/d88/classPHG4Shower.html#a67f9ec8ddb81a68b90ac138da013038c" title=" " alt="" coords="1200,666,1354,694"/>
+<area shape="poly" id="edge47_Node000035_Node000037" title=" " alt="" coords="1122,693,1185,687,1186,692,1122,699"/>
+<area shape="poly" id="edge68_Node000042_Node000004" title=" " alt="" coords="870,1556,896,1538,913,1512,919,1487,925,1461,944,1434,952,1427,955,1431,948,1437,930,1463,924,1488,918,1515,900,1542,873,1560"/>
+<area shape="poly" id="edge69_Node000042_Node000005" title=" " alt="" coords="898,1572,1195,1554,1196,1559,898,1577"/>
+<area shape="poly" id="edge74_Node000042_Node000006" title=" " alt="" coords="878,1601,899,1614,915,1630,923,1646,931,1661,947,1673,1009,1696,1075,1710,1142,1714,1209,1712,1274,1704,1335,1693,1437,1666,1439,1671,1336,1698,1275,1710,1210,1717,1142,1720,1074,1715,1008,1702,944,1678,927,1665,918,1649,910,1633,896,1618,876,1606"/>
+<area shape="poly" id="edge75_Node000042_Node000007" title=" " alt="" coords="897,1556,1186,1494,1187,1499,898,1562"/>
+<area shape="rect" id="Node000043" href="$df/dad/classSvtxTrackEval.html#a1dd0fdc1d1776c7b0b0643a9ab7cf25f" title="Retrieve number of clusters contributed by a given particle to a track." alt="" coords="949,1619,1121,1663"/>
+<area shape="poly" id="edge70_Node000042_Node000043" title=" " alt="" coords="888,1601,934,1613,933,1618,887,1607"/>
+<area shape="rect" id="Node000045" href="$d4/de4/classSvtxTruthEval.html#ae575fcf72ce935a72f3c5a157abdd900" title="Retrieve the PHG4Particle associated with a given PHG4Hit." alt="" coords="965,1448,1104,1493"/>
+<area shape="poly" id="edge73_Node000042_Node000045" title=" " alt="" coords="856,1556,896,1537,944,1509,968,1497,971,1502,947,1514,899,1542,858,1561"/>
+<area shape="rect" id="Node000044" href="$df/dad/classSvtxTrackEval.html#add4977defc053407dcaccf555ab467de" title="Calculate number of clusters contributed by a track to a given truth particle and cache results." alt="" coords="1198,1619,1356,1663"/>
+<area shape="poly" id="edge71_Node000043_Node000044" title=" " alt="" coords="1121,1638,1183,1638,1183,1644,1121,1644"/>
+<area shape="poly" id="edge72_Node000044_Node000006" title=" " alt="" coords="1356,1638,1431,1638,1431,1644,1356,1644"/>
+</map>

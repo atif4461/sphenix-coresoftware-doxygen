@@ -1,0 +1,59 @@
+<map id="TpcRawWriter::process_event" name="TpcRawWriter::process_event">
+<area shape="rect" id="Node000001" title="Process a single event for the TpcRawWriter module." alt="" coords="5,574,176,619"/>
+<area shape="rect" id="Node000002" href="$de/d55/classRawHitSet.html#a21fdade2d8164e9bc897173bc0fc496f" title="Add a hit to this container using a specific key." alt="" coords="256,5,396,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,574,105,463,131,304,149,222,170,147,194,86,222,44,240,31,243,35,226,48,199,88,175,149,154,223,137,305,111,463,97,574"/>
+<area shape="rect" id="Node000003" href="$dc/dd9/classRawHitSetv1.html#a8664192a175b36dd8938210a1486dc7a" title="Add a RawHit pointer to the internal hit collection." alt="" coords="248,57,404,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,573,108,473,136,331,154,259,174,193,197,139,222,101,234,91,238,95,226,105,202,141,179,195,159,261,141,332,114,473,98,574"/>
+<area shape="rect" id="Node000004" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="476,160,657,188"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="92,573,107,479,134,348,152,283,173,223,196,176,222,145,258,125,297,114,338,110,379,112,458,128,522,151,520,156,457,134,379,117,338,115,298,119,260,130,225,149,200,179,178,226,157,284,140,350,113,480,98,574"/>
+<area shape="rect" id="Node000008" href="$d1/dda/classPHG4TpcGeom.html#ac65ed8049186b4f94d9ab7aa4ec52ab9" title="Placeholder implementation returning an invalid phi bin count." alt="" coords="225,159,427,186"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="90,574,96,501,114,400,131,345,154,291,184,241,222,197,227,193,231,197,226,201,188,244,159,294,136,347,120,401,101,502,95,574"/>
+<area shape="rect" id="Node000009" href="$d1/dda/classPHG4TpcGeom.html#ad39b333098dea6a993d29d7e9a812205" title="Returns the number of z bins for the detector geometry." alt="" coords="231,211,420,238"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="91,573,100,509,121,422,138,375,160,329,188,286,222,249,228,244,231,248,225,253,192,290,165,332,143,377,126,423,105,510,96,574"/>
+<area shape="rect" id="Node000010" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="254,263,398,290"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="93,573,105,518,128,444,145,405,166,367,192,332,222,301,238,290,241,295,225,305,196,335,171,370,150,408,133,446,110,519,98,574"/>
+<area shape="rect" id="Node000012" href="$d6/d9e/namespaceInttDefs.html#a70039b392cd393f5812981f69a73c94b" title="Get the time bucket id from the cluskey." alt="" coords="264,315,388,342"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="95,573,110,526,136,467,172,406,196,377,222,353,249,338,251,343,225,357,199,381,177,409,140,469,115,528,100,574"/>
+<area shape="rect" id="Node000013" href="$d8/df1/namespaceMvtxDefs.html#a1168eb31a2fe1f73988744e3bdedd24f" title="Get the strobe id from the cluskey." alt="" coords="259,367,393,394"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="99,573,117,536,143,490,179,444,222,405,243,394,245,398,225,409,183,448,148,493,121,538,104,575"/>
+<area shape="rect" id="Node000014" href="$dc/dd9/classRawHitSetv1.html#af08756c0dd962319464ab23cc73d6d3c" title="Get all hits." alt="" coords="246,419,406,446"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="105,572,153,514,186,483,222,457,236,450,238,455,225,461,189,487,157,518,109,576"/>
+<area shape="rect" id="Node000015" href="$d9/dc1/classTrkrHitSet.html#a37ac32e4359d1b904585bfde3be88718" title="Get all hits." alt="" coords="256,471,396,498"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="120,571,167,539,223,509,243,501,245,506,225,514,169,544,123,576"/>
+<area shape="rect" id="Node000016" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="256,523,396,550"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="176,572,223,559,251,552,252,557,224,564,177,577"/>
+<area shape="rect" id="Node000017" href="$d7/d7c/classPHG4TpcGeomContainer.html#aa584ed2ee87c9fc653db30aeca843bd8" title="Retrieve geometry object for specified TPC layer." alt="" coords="235,574,417,619"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="176,594,219,594,219,599,176,599"/>
+<area shape="rect" id="Node000018" href="$d7/db0/namespaceTpcDefs.html#a5009e86d9bf74a453e860b3650aac4d4" title="Get the pad index from hitkey." alt="" coords="263,643,389,670"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="177,616,224,629,252,636,251,641,223,634,176,621"/>
+<area shape="rect" id="Node000019" href="$d6/d9e/namespaceInttDefs.html#af05e3c5a7a065fbbf4c515698cecbfda" title="Get the row index from hitkey." alt="" coords="261,695,391,722"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="123,617,169,649,225,679,247,688,245,693,223,684,167,654,120,622"/>
+<area shape="rect" id="Node000020" href="$d8/df1/namespaceMvtxDefs.html#a8c10f1bd18a4e4eb490f2809ed6ad9aa" title="Get the row index from hitkey." alt="" coords="255,747,396,774"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="109,617,157,675,189,706,225,732,242,740,239,745,222,736,186,710,153,679,105,621"/>
+<area shape="rect" id="Node000021" href="$d7/db0/namespaceTpcDefs.html#aaee8d42aaa9f7331459a8589f9550086" title="Get the sector id from hitsetkey." alt="" coords="248,799,404,826"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="104,618,121,655,148,700,183,745,225,784,235,790,232,794,222,788,179,749,143,703,117,657,99,620"/>
+<area shape="rect" id="Node000022" href="$d2/ddf/namespaceMicromegasDefs.html#a2fe6e0c6bae0942ebbaed297a84b5eda" title="Extract strip number from hit key." alt="" coords="231,851,421,878"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="100,619,115,665,140,724,177,784,199,812,225,836,233,841,230,845,222,840,196,816,172,787,136,726,110,667,95,620"/>
+<area shape="rect" id="Node000023" href="$d7/db0/namespaceTpcDefs.html#a3ec8638cf9427c7955840853dbd96383" title="Get the time bin from hitkey." alt="" coords="260,903,392,930"/>
+<area shape="poly" id="edge24_Node000001_Node000023" title=" " alt="" coords="98,619,110,674,133,747,150,785,171,823,196,858,225,888,246,901,243,905,222,892,192,861,166,826,145,788,128,749,105,675,93,620"/>
+<area shape="rect" id="Node000024" href="$db/d23/classRawHitv1.html#aaf395e3f4967a66184b3500724de24f1" title="Set the ADC count with saturation at USHRT_MAX." alt="" coords="258,955,394,982"/>
+<area shape="poly" id="edge25_Node000001_Node000024" title=" " alt="" coords="96,619,105,683,126,770,143,816,165,861,192,903,225,940,245,952,242,957,222,944,188,907,160,864,138,818,121,771,100,684,91,620"/>
+<area shape="rect" id="Node000025" href="$db/d23/classRawHitv1.html#af809d14848c79182013aa75e90d4e371" title="Set the phi bin index for this raw hit." alt="" coords="249,1007,402,1034"/>
+<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="95,619,101,691,120,792,136,846,159,899,188,949,225,992,237,1000,233,1005,222,996,184,952,154,902,131,848,114,793,96,692,90,619"/>
+<area shape="rect" id="Node000026" href="$db/d23/classRawHitv1.html#a5ff1ca21b67519a871e313b8b10b3b87" title="Set the time bin index for the raw hit." alt="" coords="255,1059,396,1086"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="94,619,97,699,103,754,113,814,129,876,153,937,184,994,225,1044,243,1056,240,1060,222,1048,180,997,148,939,124,878,108,815,97,755,91,700,89,619"/>
+<area shape="rect" id="Node000027" href="$dc/dd9/classRawHitSetv1.html#a24399c8643d98b095e027f3b25f759d0" title="{" alt="" coords="224,1111,428,1138"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="97,619,113,721,140,865,158,938,178,1005,201,1060,226,1096,230,1100,226,1104,222,1100,196,1062,173,1007,153,940,135,866,107,722,92,620"/>
+<area shape="rect" id="Node000028" href="$dc/dd9/classRawHitSetv1.html#ae00344ea75627faa82d71b51b19718ef" title=" " alt="" coords="256,1163,396,1190"/>
+<area shape="poly" id="edge29_Node000001_Node000028" title=" " alt="" coords="97,619,110,730,137,890,154,972,175,1046,199,1107,226,1148,243,1161,240,1165,222,1152,194,1110,170,1048,149,973,131,891,105,731,91,619"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="526,161,519,151,524,141,540,135,567,133,595,136,610,142,608,147,594,141,567,139,542,141,528,145,524,151,530,158"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="749,108,891,136"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="637,157,733,137,734,142,638,162"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="754,160,886,188"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="658,171,738,171,738,176,658,176"/>
+<area shape="rect" id="Node000007" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="705,212,935,240"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="638,186,734,206,733,211,637,191"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="391,260,427,247,481,222,529,194,532,199,484,226,429,252,392,265"/>
+<area shape="rect" id="Node000011" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="484,263,649,290"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="398,274,469,274,469,279,398,279"/>
+</map>

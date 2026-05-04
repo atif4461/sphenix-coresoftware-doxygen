@@ -1,0 +1,16 @@
+digraph "PHG4TpcEndCapSubsystem::SetDefaultParameters"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4TpcEndCapSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialize default geometry, material, and electronics parameters for the TPC endcap subsystem."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4DetectorSubsystem\l::set_default_double_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d29/classPHG4DetectorSubsystem.html#a4b15c4efd6415380306bd39144c4c8a4",tooltip="Set default double parameter if not already defined."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4DetectorSubsystem\l::set_default_int_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d29/classPHG4DetectorSubsystem.html#aff8499a0c11c3fa5be809484bbd51693",tooltip="Set a default integer parameter for the subsystem."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4DetectorSubsystem\l::set_default_string_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d29/classPHG4DetectorSubsystem.html#a8643b3dcbba55cda5f11cb15d4e7857b",tooltip="Set a default string parameter in the subsystem."];
+}

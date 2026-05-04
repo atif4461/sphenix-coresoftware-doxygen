@@ -1,0 +1,28 @@
+digraph "PHG4SpacalSteppingAction::UserSteppingAction"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4SpacalSteppingAction\l::UserSteppingAction",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="stepping action"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4SpacalSteppingAction\l::get_zmax",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dea/classPHG4SpacalSteppingAction.html#a8bcf9d2abca8d891aa26bc9472fee4ff",tooltip="Retrieve maximum z coordinate of detector geometry with small offset."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4SpacalSteppingAction\l::get_zmin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dea/classPHG4SpacalSteppingAction.html#a17d6c0d53dfb1a5292f20f7bba1df5ca",tooltip="Retrieve the minimum z coordinate of the detector geometry with a small offset."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4SteppingAction\l::GetName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d3f/classPHG4SteppingAction.html#a7a658bf05734c64484881f964cd5bd47",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4SteppingAction\l::GetVisibleEnergyDeposition",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d3f/classPHG4SteppingAction.html#a57aa751589ae9eb0c2e6563948e85513",tooltip="get amount of energy that can make scintillation light, in Unit of GeV."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4SteppingAction\l::StoreLocalCoordinate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d3f/classPHG4SteppingAction.html#aea99a3121d5ff333ed1a6e7cfd7a0645",tooltip="Extract local coordinate of the hit and save to PHG4Hit."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4Hit::set_local_x",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d9e/classPHG4Hit.html#ac449eb61ec1278c2d89bc607e116cb32",tooltip=" "];
+  Node6 -> Node8 [id="edge7_Node000006_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4Hit::set_local_y",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d9e/classPHG4Hit.html#a09f814b153fc0571bd348cb4060f04cd",tooltip=" "];
+  Node6 -> Node9 [id="edge8_Node000006_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4Hit::set_local_z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d9e/classPHG4Hit.html#a090904bbfd0db9593405c19fd24eab7b",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4SteppingAction\l::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d3f/classPHG4SteppingAction.html#a44c4e36bf9e99c3cb7ae1fb5a45b1f4a",tooltip=" "];
+}

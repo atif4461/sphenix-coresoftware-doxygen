@@ -1,0 +1,39 @@
+<map id="ClusterErrorPara::get_simple_cluster_error" name="ClusterErrorPara::get_simple_cluster_error">
+<area shape="rect" id="Node000001" title="Compute simple error estimates for a given tracker cluster." alt="" coords="5,282,167,327"/>
+<area shape="rect" id="Node000002" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="229,5,369,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,281,103,232,127,168,163,102,186,71,213,44,219,39,222,43,216,48,190,74,168,105,132,171,108,234,95,283"/>
+<area shape="rect" id="Node000003" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="229,57,369,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,281,109,241,134,191,169,139,213,94,219,90,222,95,216,99,173,142,139,193,114,243,97,283"/>
+<area shape="rect" id="Node000004" href="$d4/dc0/classClusterErrorPara.html#a1f246e941460eed60498820ada3c56b4" title="Compute the phi error for an INTT cluster based on layer and cluster size." alt="" coords="221,109,377,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="101,280,148,223,179,192,213,164,220,159,223,164,216,168,182,196,152,227,106,283"/>
+<area shape="rect" id="Node000006" href="$d4/dc0/classClusterErrorPara.html#a6cb84ea174ddaf533369915681d5314b" title="Compute the z error for an INTT cluster using its size and a pitch error constant." alt="" coords="221,386,377,431"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="128,325,216,371,228,377,226,382,213,376,126,330"/>
+<area shape="rect" id="Node000008" href="$d4/dc0/classClusterErrorPara.html#a4e56e3647066c851f15fb1a62cc19b25" title="Compute the phi error for a given detector layer and cluster." alt="" coords="219,178,379,223"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="126,279,213,233,226,227,228,232,216,238,128,284"/>
+<area shape="rect" id="Node000009" href="$d4/dc0/classClusterErrorPara.html#a1678dd4274148640f077eeabc39d4d1d" title="Compute the z‑direction measurement error (in mm) for a given detector layer and particle velocity." alt="" coords="219,456,379,500"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="106,326,152,382,182,413,216,441,223,445,220,450,213,445,179,417,148,386,101,329"/>
+<area shape="rect" id="Node000010" href="$d4/dc0/classClusterErrorPara.html#a2f85df2881a35be6b101afd6fbcdf769" title="Compute the azimuthal (phi) error for a MVTX cluster." alt="" coords="215,248,383,292"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="166,289,199,283,199,289,167,294"/>
+<area shape="rect" id="Node000011" href="$d4/dc0/classClusterErrorPara.html#a96b46a49f65833a8cde707e3b4c181c2" title="Compute the MVTX z position error for a given cluster." alt="" coords="215,317,383,362"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="167,315,199,320,199,326,166,320"/>
+<area shape="rect" id="Node000012" href="$d4/dc0/classClusterErrorPara.html#a5f09be566f58b6fda1b3e4a634a8bf22" title="Compute the phi error for a TPC cluster using layer, track angle and cluster attributes." alt="" coords="222,525,376,570"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="98,326,115,366,141,415,175,466,216,511,221,514,217,518,213,514,170,469,136,417,110,368,93,328"/>
+<area shape="rect" id="Node000015" href="$d4/dc0/classClusterErrorPara.html#a2056c26208b38a1b1e513e7988c3a930" title="Compute the longitudinal (z) error for a TPC cluster based on layer, beta and ADC information." alt="" coords="222,594,376,639"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="94,326,108,378,131,445,167,517,190,550,217,580,220,583,216,587,213,584,186,553,162,519,126,447,103,379,89,328"/>
+<area shape="rect" id="Node000005" href="$d6/dfa/classTrkrCluster.html#aba758d32cd06d6c5d5c99ed22c3625e7" title=" " alt="" coords="434,256,601,284"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="362,152,384,164,443,204,491,243,487,247,440,208,382,168,359,156"/>
+<area shape="rect" id="Node000007" href="$d6/dfa/classTrkrCluster.html#afbf2003cf6e846a0c945f6c27fcb8e50" title=" " alt="" coords="439,360,595,388"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="377,393,423,386,424,391,378,399"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="372,221,457,248,456,253,371,226"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="356,453,382,441,475,393,478,398,384,446,358,457"/>
+<area shape="poly" id="edge12_Node000010_Node000005" title=" " alt="" coords="384,267,418,267,418,272,384,272"/>
+<area shape="poly" id="edge13_Node000010_Node000007" title=" " alt="" coords="358,290,384,302,478,350,475,355,382,307,356,295"/>
+<area shape="poly" id="edge15_Node000011_Node000005" title=" " alt="" coords="371,314,456,286,457,291,372,319"/>
+<area shape="poly" id="edge16_Node000011_Node000007" title=" " alt="" coords="384,350,424,356,423,362,383,355"/>
+<area shape="poly" id="edge20_Node000012_Node000005" title=" " alt="" coords="368,522,381,511,396,491,404,471,408,433,411,393,417,371,429,347,453,316,481,292,484,296,457,320,433,350,422,373,416,394,414,434,409,473,400,493,385,514,371,526"/>
+<area shape="rect" id="Node000013" href="$d6/dfa/classTrkrCluster.html#a6aa34b2de7c9c2432e37ab1a18e7e8fe" title=" " alt="" coords="441,533,593,561"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="376,544,426,544,426,550,376,550"/>
+<area shape="rect" id="Node000014" href="$d6/dfa/classTrkrCluster.html#a9b66d90a94b8942ca83299368eb74a28" title=" " alt="" coords="431,593,603,621"/>
+<area shape="poly" id="edge19_Node000012_Node000014" title=" " alt="" coords="377,566,450,586,449,591,375,571"/>
+<area shape="poly" id="edge22_Node000015_Node000014" title=" " alt="" coords="376,611,415,609,415,614,376,616"/>
+</map>

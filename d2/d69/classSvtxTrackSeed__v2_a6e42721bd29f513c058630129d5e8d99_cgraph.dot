@@ -1,0 +1,25 @@
+digraph "SvtxTrackSeed_v2::operator="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SvtxTrackSeed_v2::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Assign the contents of another SvtxTrackSeed_v2 to this instance."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrackSeed_v2::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d69/classSvtxTrackSeed__v2.html#ade16bdb9f4f38f43572d13a7e0857c64",tooltip="Copy the contents of a TrackSeed into this SvtxTrackSeed_v2 instance."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackSeed::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d80/classTrackSeed.html#ab1b19e945add06eeccab3ae8c97c3003",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrackSeed::TrackSeed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d80/classTrackSeed.html#aefe817b02d69167fa2fcef5100e73166",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrackSeed::get_crossing\l_estimate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d80/classTrackSeed.html#ac9a656f444547315bf2f0ea9098aa1e0",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TrackSeed::get_silicon\l_seed_index",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d80/classTrackSeed.html#a6ba05275ca63500d16d8095c565d95f8",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TrackSeed::get_tpc\l_seed_index",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d80/classTrackSeed.html#a16f0dd96095d3f7088492b25ae5dcbbb",tooltip=" "];
+  Node2 -> Node4 [id="edge7_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="SvtxTrackSeed_v2::SvtxTrack\lSeed_v2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d69/classSvtxTrackSeed__v2.html#aa9a77cca696a51bb23f1b33aa44d09df",tooltip=" "];
+}

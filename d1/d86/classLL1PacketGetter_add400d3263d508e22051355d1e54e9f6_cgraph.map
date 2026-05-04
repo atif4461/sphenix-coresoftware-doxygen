@@ -1,0 +1,28 @@
+<map id="LL1PacketGetter::process_event" name="LL1PacketGetter::process_event">
+<area shape="rect" id="Node000001" title="Process event data and populate trigger primitive containers or LL1 output structures." alt="" coords="5,230,190,275"/>
+<area shape="rect" id="Node000002" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="277,83,420,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,228,166,174,199,145,236,121,261,110,263,115,239,126,203,149,169,178,119,231"/>
+<area shape="rect" id="Node000008" href="$d6/ddd/namespaceTriggerDefs.html#aeed114df2f80146504411b305d3f2509" title="Convert detector name string to corresponding DetectorId enum." alt="" coords="252,135,446,162"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="132,227,181,199,237,173,260,165,262,170,239,178,183,204,135,232"/>
+<area shape="rect" id="Node000009" href="$d6/ddd/namespaceTriggerDefs.html#a61dede1e5cba7228a1099be3fceddbcb" title="Convert a trigger primitive name to its corresponding PrimitiveId enumeration." alt="" coords="250,187,448,214"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="189,231,263,215,264,221,191,236"/>
+<area shape="rect" id="Node000010" href="$d6/ddd/namespaceTriggerDefs.html#ab0093644e572dedeed32b33584eab6ab" title="Convert trigger name string to corresponding TriggerDefs TriggerId enum value." alt="" coords="258,239,440,266"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="190,250,242,250,242,255,190,255"/>
+<area shape="rect" id="Node000011" href="$d6/ddd/namespaceTriggerDefs.html#a4bb5ea6ef69c2ce585b859391604b4b8" title="Construct a 32bit key encoding trigger detector primitive and location identifiers." alt="" coords="238,291,460,318"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="191,269,264,284,263,290,189,274"/>
+<area shape="rect" id="Node000012" href="$d6/ddd/namespaceTriggerDefs.html#aa3ffe48b4ba44d3b3bdecc7bbc8e4f92" title="Encode trigger identifiers into a 32 bit key." alt="" coords="238,343,460,370"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="135,273,183,301,239,327,262,335,260,340,237,332,181,306,132,278"/>
+<area shape="rect" id="Node000013" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="264,395,434,422"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="119,274,169,327,203,356,239,380,254,387,252,391,236,384,199,360,166,331,115,277"/>
+<area shape="rect" id="Node000003" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="508,57,689,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="421,87,492,79,493,85,421,92"/>
+<area shape="rect" id="Node000007" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="516,109,681,137"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="421,101,501,110,501,115,421,107"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="556,58,549,48,555,39,571,33,599,31,628,33,644,40,642,44,627,38,599,36,573,38,558,43,555,48,561,55"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="781,5,923,33"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="669,54,765,34,766,39,670,59"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="786,57,918,85"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="690,68,770,68,770,74,690,74"/>
+<area shape="rect" id="Node000006" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="737,109,967,137"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="670,83,766,103,765,108,669,88"/>
+</map>

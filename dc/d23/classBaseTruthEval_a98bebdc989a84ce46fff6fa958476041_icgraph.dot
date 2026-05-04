@@ -1,0 +1,26 @@
+digraph "BaseTruthEval::is_primary"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="BaseTruthEval::is_primary",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="is this a primary shower?"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="BaseTruthEval::get\l_primary_particle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#a7def33b4d1e4fe19922faa02ea287a5c",tooltip="what was the primary particle that is associated with this particle?"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="BaseTruthEval::get\l_embed",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#a4283b2f124d147df8499373f59372773",tooltip="what was the embed flag set for this particle?"];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="BaseTruthEval::get\l_primary_particle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#ab61d7f1ac372d54076f59f6fcebd3585",tooltip="which primary particle resulted in this truth hit?"];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="BaseTruthEval::get\l_primary_particle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#adc3cb5b39ad856e0b0cb19a09a04e0df",tooltip="what was the primary particle that is associated with this shower?"];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="BaseTruthEval::get\l_primary_shower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#a1fbb3b7ea61e2d734fb56448565d5518",tooltip="what was the primary shower that is associated with this particle?"];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="BaseTruthEval::get\l_primary_shower",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#a33511b72aa6663af766391a6da4f7663",tooltip="what was the primary shower for this possibly secondary shower?"];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="BaseTruthEval::is_primary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d23/classBaseTruthEval.html#a6f415bfe15e689b3fbb6426fd80f9e2b",tooltip="is this a primary particle?"];
+  Node1 -> Node1 [id="edge9_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

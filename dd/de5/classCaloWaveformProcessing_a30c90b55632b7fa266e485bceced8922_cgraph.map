@@ -1,0 +1,13 @@
+<map id="CaloWaveformProcessing::calo_processing_ONNX" name="CaloWaveformProcessing::calo_processing_ONNX">
+<area shape="rect" id="Node000001" title="Process calorimeter waveform vectors using ONNX inference and fallback logic." alt="" coords="5,36,193,80"/>
+<area shape="rect" id="Node000002" href="$d1/dd7/onnxlib_8cc.html#aeda94382534d2b89b1857f11769d41ff" title="Perform ONNX inference using provided Ort session." alt="" coords="241,5,355,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,37,225,31,226,36,194,42"/>
+<area shape="rect" id="Node000003" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="279,81,317,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,73,264,86,263,92,193,78"/>
+<area shape="poly" id="edge6_Node000003_Node000003" title=" " alt="" coords="276,86,269,75,271,65,280,57,298,55,319,59,327,69,322,72,316,63,298,60,283,62,275,67,274,74,281,83"/>
+<area shape="rect" id="Node000004" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="403,81,476,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="317,92,387,92,387,98,317,98"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="418,82,415,72,418,63,426,57,440,55,454,57,462,64,458,68,452,62,440,60,428,62,422,66,420,72,423,80"/>
+<area shape="rect" id="Node000005" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="524,81,591,109"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="477,92,509,92,509,98,477,98"/>
+</map>

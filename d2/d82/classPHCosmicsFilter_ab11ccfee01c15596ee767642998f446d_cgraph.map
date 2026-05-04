@@ -1,0 +1,18 @@
+<map id="PHCosmicsFilter::InitRun" name="PHCosmicsFilter::InitRun">
+<area shape="rect" id="Node000001" title="Initialize run by retrieving required nodes and creating missing ones." alt="" coords="5,84,187,112"/>
+<area shape="rect" id="Node000002" href="$d2/d82/classPHCosmicsFilter.html#af9c84f0047c254bdd552df08fa4a523d" title="Retrieve required geometry and cluster nodes from the top node tree." alt="" coords="235,84,434,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,95,219,95,219,100,187,100"/>
+<area shape="rect" id="Node000003" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="482,84,625,112"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="434,95,466,95,466,100,434,100"/>
+<area shape="rect" id="Node000004" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="673,57,855,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="626,86,658,82,658,87,626,91"/>
+<area shape="rect" id="Node000008" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="682,109,846,137"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="626,104,667,109,666,114,626,109"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="728,58,722,48,727,39,741,33,764,31,789,33,802,40,800,44,787,38,764,36,742,38,730,43,727,48,732,55"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="947,5,1088,33"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="835,54,931,34,932,39,836,59"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="951,57,1084,85"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="855,68,936,68,936,74,855,74"/>
+<area shape="rect" id="Node000007" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="903,109,1132,137"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="836,83,932,103,931,108,835,88"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="RawCluster::set_prob" name="RawCluster::set_prob">
+<area shape="rect" id="Node000001" title="cluster template probability for EM shower" alt="" coords="256,118,415,146"/>
+<area shape="rect" id="Node000002" href="$d8/db8/classCaloRecoUtility.html#a6f05c4e51b91ddd3876491c44e95d10f" title="Compute probability correction for a cluster given a Z vertex." alt="" coords="10,5,203,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="296,112,207,65,178,53,180,48,209,60,299,107"/>
+<area shape="rect" id="Node000003" href="$d8/d5d/classRawClusterBuilderTemplate.html#a0146334be461b53ed1d9a183794c8277" title="Process a single event building raw clusters from tower or towerinfo data." alt="" coords="6,75,207,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,120,207,115,208,110,241,115"/>
+<area shape="rect" id="Node000004" href="$df/dbd/classRawClusterCNNClassifier.html#a1588f2f843b6ec71bdf801abf4334f9a" title="Process event for raw cluster cnn classifier." alt="" coords="14,144,199,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="241,149,199,155,199,150,240,143"/>
+<area shape="rect" id="Node000005" href="$da/dcc/classRawClusterLikelihoodProfile.html#ae8c2b3a881a89dffa6d99587e3167184" title="Process event for raw cluster likelihood profiling." alt="" coords="5,213,208,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="299,156,209,203,180,215,178,210,207,199,296,151"/>
+</map>

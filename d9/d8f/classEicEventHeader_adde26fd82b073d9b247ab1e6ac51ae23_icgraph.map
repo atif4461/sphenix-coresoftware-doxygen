@@ -1,0 +1,35 @@
+<map id="EicEventHeader::check_property" name="EicEventHeader::check_property">
+<area shape="rect" id="Node000001" title="Verify that a given property identifier matches the expected property type." alt="" coords="440,387,610,431"/>
+<area shape="rect" id="Node000002" href="$df/d7f/classEicEventHeaderv1.html#a1678d10a30becd5b85615f9ff1a8b289" title="Retrieve a float property value given its PROPERTY identifier." alt="" coords="223,144,392,189"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,377,327,191,331,188,496,373"/>
+<area shape="rect" id="Node000007" href="$df/d7f/classEicEventHeaderv1.html#a5acc18a5d515ed45174f5fe7b1a9b6ea" title="Retrieve integer property value identified by PROPERTY enum." alt="" coords="223,283,392,327"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="468,381,391,342,364,330,367,325,393,337,471,377"/>
+<area shape="rect" id="Node000009" href="$df/d7f/classEicEventHeaderv1.html#ad953365d4e70f50e7471e31f8496c28a" title="Retrieve unsigned integer property value identified by property id." alt="" coords="223,352,392,397"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="424,396,392,390,393,385,425,390"/>
+<area shape="rect" id="Node000010" href="$df/d7f/classEicEventHeaderv1.html#a46deb4d421be1e977584e5150fcd95e5" title="Set a float property in the event header." alt="" coords="223,421,392,466"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="425,428,393,433,392,428,424,422"/>
+<area shape="rect" id="Node000016" href="$df/d7f/classEicEventHeaderv1.html#a05cf5cd5eb20e3b2a592fa309f7bd659" title="Set an integer property value identified by a PROPERTY enum." alt="" coords="223,491,392,535"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="471,441,393,481,367,493,364,488,391,476,468,437"/>
+<area shape="rect" id="Node000017" href="$df/d7f/classEicEventHeaderv1.html#ad98a7660e601d7a56801daeb38383e2d" title="Set an unsigned integer property in the event header." alt="" coords="223,560,392,605"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="500,446,453,498,425,526,393,550,373,562,370,557,391,545,421,522,450,495,496,442"/>
+<area shape="rect" id="Node000003" href="$df/d7f/classEicEventHeaderv1.html#a9a37ff4083abefcb0c214d2adc915da0" title=" " alt="" coords="5,5,175,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="268,136,224,99,173,65,151,53,153,48,176,60,227,95,272,131"/>
+<area shape="rect" id="Node000004" href="$df/d7f/classEicEventHeaderv1.html#a7fb46cf717da4189076779fcb5df138c" title=" " alt="" coords="5,75,175,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="220,141,162,123,163,117,221,136"/>
+<area shape="rect" id="Node000005" href="$df/d7f/classEicEventHeaderv1.html#ac4aa3e5fc66bc7ab7d73113397549614" title=" " alt="" coords="5,144,175,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="207,169,175,169,175,164,207,164"/>
+<area shape="rect" id="Node000006" href="$df/d7f/classEicEventHeaderv1.html#a655acff3dba482ca255eefc99ab2c262" title=" " alt="" coords="5,213,175,258"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="221,196,163,215,162,210,220,191"/>
+<area shape="rect" id="Node000008" href="$df/d7f/classEicEventHeaderv1.html#a06a59f24b8896e106ab02921a3b5cf53" title=" " alt="" coords="5,283,175,327"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="207,308,175,308,175,302,207,302"/>
+<area shape="rect" id="Node000011" href="$df/d7f/classEicEventHeaderv1.html#a0f7f9f7bd1efc58cdc8ae880329fa870" title=" " alt="" coords="6,352,174,397"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="220,419,162,400,163,395,221,414"/>
+<area shape="rect" id="Node000012" href="$df/d7f/classEicEventHeaderv1.html#a3b507dcea95860efe1fdef4bd3e3f9ba" title=" " alt="" coords="6,421,174,466"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="208,446,175,446,175,441,208,441"/>
+<area shape="rect" id="Node000013" href="$df/d7f/classEicEventHeaderv1.html#a2c0ff9339d91f9554785c944b79091dd" title=" " alt="" coords="6,491,174,535"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="221,474,163,493,162,487,220,469"/>
+<area shape="rect" id="Node000014" href="$df/d7f/classEicEventHeaderv1.html#a6692cd434282472cda8b254adc50a074" title=" " alt="" coords="6,560,174,605"/>
+<area shape="poly" id="edge13_Node000010_Node000014" title=" " alt="" coords="230,476,224,480,209,497,201,514,193,532,176,550,158,562,155,557,173,546,188,529,196,512,205,494,221,476,226,472"/>
+<area shape="rect" id="Node000015" href="$df/d7f/classEicEventHeaderv1.html#a3eeb900714d38f0d01e282e3a223497a" title=" " alt="" coords="6,629,174,674"/>
+<area shape="poly" id="edge14_Node000010_Node000015" title=" " alt="" coords="227,478,225,480,212,497,205,514,201,548,197,583,190,601,177,619,162,631,159,627,173,615,185,598,192,581,196,547,200,513,207,495,221,477,223,474"/>
+</map>

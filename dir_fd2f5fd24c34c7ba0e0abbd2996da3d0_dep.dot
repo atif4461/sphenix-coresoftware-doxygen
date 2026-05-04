@@ -1,0 +1,19 @@
+digraph "/home/atif/sphenix-celloai/coresoftware/offline/framework/ffarawmodules"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_4edf85fb1ce0173a911ade25cb011161 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="framework", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_4edf85fb1ce0173a911ade25cb011161.html",tooltip=""]
+  dir_73cb52e0417bda5cdf416a4734b3027d [label="phool", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_73cb52e0417bda5cdf416a4734b3027d.html",tooltip=""];
+  dir_8a187143ab72558485f19e33a50526f6 [label="ffarawobjects", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_8a187143ab72558485f19e33a50526f6.html",tooltip=""];
+  dir_f2bd61dfae5b0121fd011ce3a40509f0 [label="fun4all", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_f2bd61dfae5b0121fd011ce3a40509f0.html",tooltip=""];
+  dir_fd2f5fd24c34c7ba0e0abbd2996da3d0 [label="ffarawmodules", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_fd2f5fd24c34c7ba0e0abbd2996da3d0.html",tooltip=""];
+  }
+  dir_fd2f5fd24c34c7ba0e0abbd2996da3d0->dir_73cb52e0417bda5cdf416a4734b3027d [headlabel="91", labeldistance=1.5 headhref="dir_000037_000119.html" href="dir_000037_000119.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_fd2f5fd24c34c7ba0e0abbd2996da3d0->dir_8a187143ab72558485f19e33a50526f6 [headlabel="41", labeldistance=1.5 headhref="dir_000037_000038.html" href="dir_000037_000038.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_fd2f5fd24c34c7ba0e0abbd2996da3d0->dir_f2bd61dfae5b0121fd011ce3a40509f0 [headlabel="73", labeldistance=1.5 headhref="dir_000037_000045.html" href="dir_000037_000045.html" color="steelblue1" fontcolor="steelblue1"];
+}

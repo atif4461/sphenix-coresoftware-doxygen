@@ -1,0 +1,21 @@
+<map id="InputFileHandler::AddToFileOpened" name="InputFileHandler::AddToFileOpened">
+<area shape="rect" id="Node000001" title=" " alt="" coords="275,283,473,327"/>
+<area shape="rect" id="Node000002" href="$d7/d0b/classFun4AllDstInputManager.html#aadb10857043e34f5fbcf7933bcee9fcc" title="Open a DST file for reading and initialize run and event nodes." alt="" coords="25,5,207,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="357,269,338,222,309,167,272,112,250,87,225,64,206,52,209,48,228,60,253,83,276,108,314,164,343,220,362,267"/>
+<area shape="rect" id="Node000003" href="$dd/d8c/classFun4AllDstPileupInputManager.html#a7ccc46ca589cef79be92719892b0ee3d" title="Open a DST file for reading and optionally read the run tree." alt="" coords="5,75,227,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="349,271,298,201,264,165,225,134,204,122,207,118,228,129,267,161,302,198,354,268"/>
+<area shape="rect" id="Node000004" href="$d6/d6f/classFun4AllHepMCInputManager.html#a668554061600fec90eb3968ec191849a" title="Open a HepMC input file and initialize the appropriate input streams." alt="" coords="13,144,219,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="333,275,283,238,225,203,198,192,200,187,228,199,286,234,336,271"/>
+<area shape="rect" id="Node000005" href="$db/d1f/classFun4AllOscarInputManager.html#a90d077019c91b2ab37435fa3c67d5a1b" title="Open an input file for the Oscar manager." alt="" coords="18,213,214,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="273,281,201,261,202,256,274,275"/>
+<area shape="rect" id="Node000006" href="$da/dd8/classFun4AllPrdfInputManager.html#a5e907f18028590b60903b3a610c4ff26" title="Open a new PRDF file for reading." alt="" coords="23,283,209,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="259,308,209,308,209,302,259,302"/>
+<area shape="rect" id="Node000007" href="$d5/d00/classFun4AllSingleDstPileupInputManager.html#a26e2b9acef41b96b88196f0116336a22" title="Open a DST file and initialize internal managers for event and background processing." alt="" coords="14,352,218,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="274,335,202,354,201,349,273,329"/>
+<area shape="rect" id="Node000008" href="$d3/dbc/classSingleStreamingInput.html#ab3e4f96429f4487c406a8e18bacf2ab6" title="Open a new input file for streaming." alt="" coords="35,421,197,466"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="336,339,286,376,228,411,198,424,196,419,225,407,283,372,333,335"/>
+<area shape="rect" id="Node000009" href="$db/d23/classSingleStreamingInputv2.html#ab7e1aad12059a3bc33b67ead6b96952c" title="Open a streaming input file and initialize the event iterator." alt="" coords="27,491,205,535"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="354,342,302,412,267,449,228,481,206,493,204,488,225,476,264,445,298,409,349,339"/>
+<area shape="rect" id="Node000010" href="$df/d97/classSingleTriggeredInput.html#aa10e43c0dcaa20042b602501402e8016" title="Open the specified file and initialise the event iterator." alt="" coords="39,560,193,605"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="362,343,343,390,314,446,276,502,253,527,228,550,195,569,192,564,225,545,250,523,272,498,309,443,338,388,357,341"/>
+</map>

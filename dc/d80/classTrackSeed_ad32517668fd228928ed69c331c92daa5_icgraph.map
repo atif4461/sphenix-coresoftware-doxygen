@@ -1,0 +1,112 @@
+<map id="TrackSeed::end_cluster_keys" name="TrackSeed::end_cluster_keys">
+<area shape="rect" id="Node000001" title="Return a constant iterator to the end of the cluster key set." alt="" coords="805,983,1013,1011"/>
+<area shape="rect" id="Node000002" href="$d5/d55/classMvtxMatchingEfficiencyWithShapes.html#aea613a005ffb513508c174a61e9827c0" title="Calculate the truncated mean dEdx for a given TPC track seed." alt="" coords="538,23,746,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="903,968,890,797,863,544,843,412,818,290,789,188,773,147,755,116,730,90,700,70,703,66,734,86,759,113,777,145,794,186,823,289,848,411,868,543,895,797,909,967"/>
+<area shape="rect" id="Node000004" href="$db/d6c/classTpcSeedsQA.html#a698664ca8aeece23137162691aecceb1" title="Calculate the truncated mean dE/dx for a given TPC track seed." alt="" coords="554,256,730,284"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="902,968,884,834,853,645,833,548,809,458,783,384,755,332,725,305,690,287,692,282,728,301,759,329,788,382,814,457,838,547,858,644,889,834,907,967"/>
+<area shape="rect" id="Node000006" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a792dbfe6ae1c57cc74c4ab4c25457bd1" title="Compute truncated mean dEdx for a TPC track seed." alt="" coords="572,343,712,387"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="905,968,898,871,890,806,877,733,858,656,832,579,798,504,755,436,729,410,698,390,701,386,732,406,759,433,803,502,837,577,863,654,882,731,895,805,903,871,910,968"/>
+<area shape="rect" id="Node000016" href="$db/d77/classPHGhostRejection.html#aa8ca2e5952a9e2f26622fa434495e759" title="Determine if two track seeds share enough clusters to be flagged as ghost tracks." alt="" coords="527,447,757,491"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="900,968,884,895,855,794,813,682,786,626,755,575,716,529,674,494,678,490,720,525,759,571,791,624,818,679,860,792,889,894,905,967"/>
+<area shape="rect" id="Node000018" href="$d9/d67/namespaceTrackSeedHelper.html#a747183c5992dac5b4543a352dab51a9d" title="Fit a circular trajectory to seed clusters using the Taubin algorithm." alt="" coords="548,744,737,789"/>
+<area shape="poly" id="edge11_Node000001_Node000018" title=" " alt="" coords="886,973,831,906,795,868,756,834,723,811,690,792,692,787,726,806,759,830,798,865,835,903,890,969"/>
+<area shape="rect" id="Node000023" href="$dd/d63/classPHSiliconHelicalPropagator.html#a45b97447e3eeb7efb980345f8bb6d809" title="Process event for silicon helical propagator." alt="" coords="273,819,472,863"/>
+<area shape="poly" id="edge53_Node000001_Node000023" title=" " alt="" coords="874,976,820,944,756,914,684,892,609,874,471,853,472,847,610,869,685,886,758,909,823,939,876,972"/>
+<area shape="rect" id="Node000025" href="$dd/d92/classTrackSeedTrackMapConverter.html#ad4684e56d489fc441709416cc8047607" title="Convert track seeds into SvtxTrack objects and populate the output track map." alt="" coords="266,888,479,933"/>
+<area shape="poly" id="edge60_Node000001_Node000025" title=" " alt="" coords="859,980,810,962,757,948,685,935,612,926,479,916,480,910,613,920,686,929,758,942,812,957,861,975"/>
+<area shape="rect" id="Node000026" href="$d4/d52/classTrackSeed__v1.html#a5d958ebfe3d2412618b3830ca99edef4" title="Copy data from a source TrackSeed into this TrackSeed_v1 instance." alt="" coords="550,956,734,984"/>
+<area shape="poly" id="edge19_Node000001_Node000026" title=" " alt="" coords="789,988,735,982,735,977,790,982"/>
+<area shape="rect" id="Node000032" href="$d3/d8a/classTrackSeed__v2.html#a836f63043e176392c82f0c5537c91877" title="Copy data from a TrackSeed object into this TrackSeed_v2 instance." alt="" coords="550,1008,734,1036"/>
+<area shape="poly" id="edge25_Node000001_Node000032" title=" " alt="" coords="790,1011,735,1016,735,1011,789,1006"/>
+<area shape="rect" id="Node000038" href="$dd/de6/classKFParticle__truthAndDetTools.html#a0dfa098affc59d7f9cb09aa49ba3aae0" title="Fill detector related branches for a daughter particle." alt="" coords="540,1060,745,1105"/>
+<area shape="poly" id="edge31_Node000001_Node000038" title=" " alt="" coords="853,1019,758,1050,720,1062,719,1057,757,1045,851,1014"/>
+<area shape="rect" id="Node000040" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a49c53aa9c51fe3ade0fe2247051d15bf" title="Retrieve cluster keys from a TrackSeed." alt="" coords="572,127,712,171"/>
+<area shape="poly" id="edge34_Node000001_Node000040" title=" " alt="" coords="906,968,904,846,898,759,886,661,868,556,841,449,804,344,755,246,739,225,721,205,681,174,684,170,724,201,744,221,760,244,809,342,846,447,873,555,891,660,903,758,909,845,911,968"/>
+<area shape="rect" id="Node000043" href="$d2/d93/classTrkrNtuplizer.html#aca4a462f16446274bbd3e565de8ea9d5" title="Retrieve cluster keys associated with a SvtxTrack." alt="" coords="576,1129,709,1174"/>
+<area shape="poly" id="edge38_Node000001_Node000043" title=" " alt="" coords="885,1024,830,1072,795,1097,759,1119,710,1139,708,1134,756,1115,792,1093,826,1068,881,1020"/>
+<area shape="rect" id="Node000047" href="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c" title="Generate source links for a given track seed and fill measurement container." alt="" coords="538,585,746,630"/>
+<area shape="poly" id="edge42_Node000001_Node000047" title=" " alt="" coords="898,969,880,910,850,834,809,753,784,714,755,679,726,653,693,633,696,628,729,649,759,675,788,711,814,750,855,832,885,909,903,967"/>
+<area shape="rect" id="Node000048" href="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d" title="Generate source links for a track using the cluster mover." alt="" coords="538,1199,746,1243"/>
+<area shape="poly" id="edge44_Node000001_Node000048" title=" " alt="" coords="895,1026,873,1063,842,1107,804,1151,759,1189,738,1200,735,1196,756,1184,800,1147,838,1103,869,1060,891,1023"/>
+<area shape="rect" id="Node000049" href="$d9/d67/namespaceTrackSeedHelper.html#ad44f25a52963cea292ceab331cabceeb" title="Fit a straight line to the seed clusters in r‑z and store the result." alt="" coords="553,688,731,716"/>
+<area shape="poly" id="edge45_Node000001_Node000049" title=" " alt="" coords="897,969,879,918,850,854,809,789,784,759,756,734,729,719,732,714,759,729,788,756,814,786,855,852,884,916,902,967"/>
+<area shape="rect" id="Node000050" href="$dd/d9f/classKshortReconstruction.html#aab5d291b84534d87eaf721e4ddb186c3" title="Process a single event to reconstruct K short candidates." alt="" coords="562,1268,722,1313"/>
+<area shape="poly" id="edge52_Node000001_Node000050" title=" " alt="" coords="901,1027,883,1076,853,1139,812,1203,787,1232,759,1258,724,1277,721,1272,756,1253,783,1228,808,1200,848,1136,878,1074,896,1025"/>
+<area shape="rect" id="Node000051" href="$df/de4/classPHSiliconSeedMerger.html#a68816299b0b5abbf7a59b59810c00ae0" title="Merge overlapping silicon seed tracks by consolidating MVTX cluster keys." alt="" coords="562,1337,722,1382"/>
+<area shape="poly" id="edge54_Node000001_Node000051" title=" " alt="" coords="905,1027,890,1089,863,1170,844,1212,820,1254,792,1293,759,1327,724,1347,721,1343,756,1323,788,1289,816,1251,839,1210,858,1168,885,1087,900,1026"/>
+<area shape="rect" id="Node000052" href="$d5/dbe/classPrelimDistortionCorrection.html#ad707e0f0a8b3a3f05b528126eb2c10f1" title="Process a single event applying preliminary distortion corrections to TPC track seeds." alt="" coords="545,1407,739,1451"/>
+<area shape="poly" id="edge55_Node000001_Node000052" title=" " alt="" coords="908,1027,897,1101,872,1200,853,1253,828,1305,797,1354,759,1396,741,1409,738,1405,756,1392,793,1350,823,1302,848,1251,867,1199,892,1100,903,1026"/>
+<area shape="rect" id="Node000053" href="$d6/d80/classPrelimDistortionCorrectionAuAu.html#aa272136335740089cdc88cef18c47370" title="Process event applying preliminary distortion correction for AuAu collisions." alt="" coords="545,1476,739,1521"/>
+<area shape="poly" id="edge56_Node000001_Node000053" title=" " alt="" coords="910,1026,903,1112,894,1168,881,1229,862,1293,836,1355,802,1414,759,1466,741,1479,738,1475,755,1462,798,1411,831,1353,857,1291,876,1228,889,1167,898,1111,904,1026"/>
+<area shape="rect" id="Node000054" href="$de/dbf/classQAG4SimulationTracking.html#ac2aeab5238fcf828f70c61b4976b57fe" title="Process event for QAG4SimulationTracking analysis module." alt="" coords="551,1545,733,1590"/>
+<area shape="poly" id="edge57_Node000001_Node000054" title=" " alt="" coords="911,1026,908,1123,902,1188,890,1259,871,1333,844,1406,807,1474,759,1535,735,1552,732,1548,755,1531,803,1471,839,1404,866,1331,884,1258,896,1187,903,1122,906,1026"/>
+<area shape="rect" id="Node000055" href="$d1/d05/classQAG4SimulationVertex.html#a5d6b9df173a4094d3744572a9e2410d0" title="Process a single event within the Fun4All framework." alt="" coords="557,1615,727,1659"/>
+<area shape="poly" id="edge58_Node000001_Node000055" title=" " alt="" coords="907,1027,890,1151,859,1323,839,1412,815,1492,789,1559,775,1584,759,1604,729,1625,726,1620,756,1600,770,1581,784,1556,810,1491,834,1410,854,1322,884,1150,902,1026"/>
+<area shape="rect" id="Node000056" href="$d9/dae/classTpcSeedFilter.html#a16a29c0e1af69494d4bd27d939c31f92" title="Process a single event applying seed selection cuts." alt="" coords="558,1684,726,1729"/>
+<area shape="poly" id="edge59_Node000001_Node000056" title=" " alt="" coords="908,1026,893,1163,863,1357,843,1456,819,1547,792,1622,776,1651,759,1673,744,1686,727,1695,725,1690,741,1682,755,1670,771,1648,787,1620,814,1545,838,1455,858,1356,887,1162,902,1026"/>
+<area shape="rect" id="Node000003" href="$d5/d55/classMvtxMatchingEfficiencyWithShapes.html#adfc5258f7649d24eabd157651befe027" title="Process a single event and fill the analysis tree with MVTX matching efficiency and cluster shape inf..." alt="" coords="269,5,476,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="522,40,476,37,477,32,523,35"/>
+<area shape="rect" id="Node000005" href="$db/d6c/classTpcSeedsQA.html#a4468d2812ff80bae2d0b63412e5780dd" title="Process a single event and fill QA histograms." alt="" coords="292,213,452,258"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="539,260,452,249,453,243,539,254"/>
+<area shape="rect" id="Node000007" href="$da/d3b/classKFParticle__Tools.html#a10bd3d996a6a86b189fff582b9edb048" title=" " alt="" coords="275,351,470,379"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="556,368,470,368,470,362,556,362"/>
+<area shape="rect" id="Node000015" href="$d0/d15/classQAG4SimulationDistortions.html#a6ca085c14fc2c1f87ccdade934154401" title="Process a single event for QAG4SimulationDistortions." alt="" coords="273,283,472,327"/>
+<area shape="poly" id="edge8_Node000006_Node000015" title=" " alt="" coords="556,349,472,330,473,325,557,343"/>
+<area shape="rect" id="Node000008" href="$da/d3b/classKFParticle__Tools.html#a8d61d2e7d543e07be44f1600df52728d" title=" " alt="" coords="5,351,218,379"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="259,368,218,368,218,362,259,362"/>
+<area shape="rect" id="Node000017" href="$db/d77/classPHGhostRejection.html#af845dfdc7b6743b74e786cf6b012096c" title="Identify and reject ghost tracks from the seed collection." alt="" coords="287,403,458,447"/>
+<area shape="poly" id="edge10_Node000016_Node000017" title=" " alt="" coords="511,450,458,442,458,436,512,445"/>
+<area shape="rect" id="Node000019" href="$d5/d22/classAzimuthalSeeder.html#a7cb59f4af1508622d0b65cbad6737f19" title="Process a single event and generate track seeds from MVTX clusters." alt="" coords="277,611,468,655"/>
+<area shape="poly" id="edge12_Node000018_Node000019" title=" " alt="" coords="541,739,525,730,510,714,501,699,492,684,477,670,457,658,459,653,481,666,497,681,505,696,514,711,529,726,544,735"/>
+<area shape="rect" id="Node000020" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="297,472,448,517"/>
+<area shape="poly" id="edge13_Node000018_Node000020" title=" " alt="" coords="533,737,525,729,507,704,500,678,498,653,500,628,502,603,501,579,494,555,477,531,463,519,447,510,449,506,466,515,481,527,499,553,506,578,508,604,506,628,504,653,505,677,512,701,529,726,536,733"/>
+<area shape="rect" id="Node000021" href="$dc/d54/classPHCosmicSiliconPropagator.html#a86b380592b27818d794f215a3b82827a" title="Process a single event and generate combined silicon and TPC seeds." alt="" coords="272,680,473,725"/>
+<area shape="poly" id="edge14_Node000018_Node000021" title=" " alt="" coords="531,743,469,728,470,723,533,738"/>
+<area shape="rect" id="Node000022" href="$d8/d56/classPHSiliconCosmicSeeding.html#ab2e58f82964d08c350a0620be4cfe12e" title="Process a single event and produce silicon cosmic track seeds." alt="" coords="281,749,464,794"/>
+<area shape="poly" id="edge15_Node000018_Node000022" title=" " alt="" coords="532,771,464,773,464,767,532,766"/>
+<area shape="poly" id="edge16_Node000018_Node000023" title=" " alt="" coords="545,796,457,821,455,815,544,791"/>
+<area shape="rect" id="Node000024" href="$d9/d69/classPHSimpleKFProp.html#a0e11d66809451e62d6001f3aa4cf392e" title="Process event for Kalman filter propagation." alt="" coords="278,541,466,586"/>
+<area shape="poly" id="edge17_Node000018_Node000024" title=" " alt="" coords="534,737,525,730,512,713,505,696,500,663,496,631,490,616,477,600,462,589,465,584,481,596,494,613,502,630,506,663,510,695,516,710,529,726,538,733"/>
+<area shape="poly" id="edge18_Node000018_Node000025" title=" " alt="" coords="602,800,546,840,480,878,453,890,451,885,478,873,543,835,599,796"/>
+<area shape="rect" id="Node000027" href="$d1/d86/classTrackSeed__FastSim__v1.html#a609058821b1081324803628ae0c7b48c" title="Copy data from a source TrackSeed into this TrackSeed_FastSim_v1 instance." alt="" coords="288,1112,456,1157"/>
+<area shape="poly" id="edge20_Node000026_Node000027" title=" " alt="" coords="538,993,529,999,517,1011,511,1023,505,1048,499,1075,492,1088,481,1102,458,1117,455,1112,477,1098,488,1085,494,1073,500,1047,506,1021,513,1008,525,995,534,988"/>
+<area shape="rect" id="Node000029" href="$d4/d52/classTrackSeed__v1.html#a84301e53ce301c81d1facfd0e9f7a945" title="Assignment operator for TrackSeed_v1 copies data from another instance unless self assignment." alt="" coords="280,956,464,984"/>
+<area shape="poly" id="edge22_Node000026_Node000029" title=" " alt="" coords="535,973,465,973,465,968,535,968"/>
+<area shape="rect" id="Node000030" href="$d4/d52/classTrackSeed__v1.html#a5819c802d692f6ed8d238a99ad233aa3" title="Copy constructors." alt="" coords="269,1008,476,1036"/>
+<area shape="poly" id="edge23_Node000026_Node000030" title=" " alt="" coords="552,990,449,1010,448,1005,551,985"/>
+<area shape="rect" id="Node000031" href="$d4/d52/classTrackSeed__v1.html#a9a5f745b54d549e9bbaa0b61dd25faa5" title="Copy constructor for TrackSeed_v1." alt="" coords="269,1060,476,1088"/>
+<area shape="poly" id="edge24_Node000026_Node000031" title=" " alt="" coords="542,993,528,999,514,1011,505,1024,496,1037,480,1050,453,1062,451,1058,478,1045,492,1034,501,1021,510,1007,526,995,539,988"/>
+<area shape="rect" id="Node000028" href="$d1/d86/classTrackSeed__FastSim__v1.html#a7b293327c5bfa473e4609f878d5c9f56" title="Construct a TrackSeed_FastSim_v1 from a source TrackSeed." alt="" coords="23,1112,200,1157"/>
+<area shape="poly" id="edge21_Node000027_Node000028" title=" " alt="" coords="273,1137,200,1137,200,1132,273,1132"/>
+<area shape="rect" id="Node000033" href="$d4/d01/classTrackSeed__FastSim__v2.html#af5e05ec67049626311a18a42bffc0425" title="Copy data from source TrackSeed into this object." alt="" coords="288,1336,456,1381"/>
+<area shape="poly" id="edge26_Node000032_Node000033" title=" " alt="" coords="538,1041,529,1049,506,1083,497,1116,498,1149,504,1184,510,1218,511,1254,503,1289,481,1325,458,1343,455,1339,477,1322,498,1287,506,1253,505,1219,499,1185,493,1150,492,1115,501,1080,525,1046,535,1037"/>
+<area shape="rect" id="Node000035" href="$d3/d8a/classTrackSeed__v2.html#a9a547d6e2c4970a00212f4f219a4eba3" title="Assignment operator for TrackSeed_v2 copies data from another instance." alt="" coords="280,1180,464,1208"/>
+<area shape="poly" id="edge28_Node000032_Node000035" title=" " alt="" coords="538,1043,529,1050,516,1064,510,1078,506,1109,501,1140,494,1156,481,1171,464,1182,461,1178,477,1167,490,1153,496,1139,500,1108,504,1076,512,1061,525,1046,535,1039"/>
+<area shape="rect" id="Node000036" href="$d3/d8a/classTrackSeed__v2.html#aa439b71dabc9394cc0e635e5a0bd0ab2" title="Copy constructors." alt="" coords="269,1232,476,1260"/>
+<area shape="poly" id="edge29_Node000032_Node000036" title=" " alt="" coords="538,1042,529,1050,513,1070,506,1090,505,1133,505,1178,497,1200,481,1222,464,1234,461,1230,477,1218,493,1197,500,1177,500,1133,501,1089,508,1067,525,1046,535,1038"/>
+<area shape="rect" id="Node000037" href="$d3/d8a/classTrackSeed__v2.html#a4fa476277596f8ec73e04da45411734d" title="Copy constructor for TrackSeed_v2." alt="" coords="269,1284,476,1312"/>
+<area shape="poly" id="edge30_Node000032_Node000037" title=" " alt="" coords="538,1042,529,1049,510,1076,502,1103,502,1131,505,1159,509,1187,509,1216,501,1245,481,1274,465,1286,461,1282,477,1270,496,1243,504,1216,504,1188,500,1160,496,1131,497,1102,505,1074,525,1046,534,1038"/>
+<area shape="rect" id="Node000034" href="$d4/d01/classTrackSeed__FastSim__v2.html#aceae892e792c513c8b03ff50477953e7" title="Construct a TrackSeed_FastSim_v2 from an existing TrackSeed." alt="" coords="23,1336,200,1381"/>
+<area shape="poly" id="edge27_Node000033_Node000034" title=" " alt="" coords="273,1361,200,1361,200,1356,273,1356"/>
+<area shape="rect" id="Node000039" href="$d9/dae/classKFParticle__nTuple.html#a19b5fd2a641c969245dc5bd891276240" title="Fills required information for your selection, also requests truth and detector information if needed..." alt="" coords="301,1405,444,1450"/>
+<area shape="poly" id="edge32_Node000038_Node000039" title=" " alt="" coords="531,1117,529,1119,507,1153,499,1187,500,1220,505,1254,511,1289,512,1324,504,1359,481,1395,465,1409,446,1418,443,1414,462,1404,477,1391,499,1357,507,1323,506,1289,500,1255,494,1221,494,1186,502,1151,525,1115,527,1113"/>
+<area shape="rect" id="Node000012" href="$d5/d72/classKFParticle__sPHENIX.html#aac7b97c325669f73559f04881cffae58" title="Process a single event within the Fun4All framework." alt="" coords="37,1405,186,1450"/>
+<area shape="poly" id="edge33_Node000039_Node000012" title=" " alt="" coords="285,1430,187,1430,187,1425,285,1425"/>
+<area shape="poly" id="edge37_Node000040_Node000003" title=" " alt="" coords="588,121,535,92,478,65,448,53,449,48,480,60,538,87,591,116"/>
+<area shape="rect" id="Node000041" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a34d789265cb2c5b2ed2c78ae778a12bc" title="Calculate calibrated dEdx for a given track using TPC clusters." alt="" coords="302,144,442,189"/>
+<area shape="poly" id="edge35_Node000040_Node000041" title=" " alt="" coords="556,157,443,165,443,159,556,152"/>
+<area shape="rect" id="Node000042" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a9fe133a26af25cc77ed9eb8aaea521d4" title="Compute local and global fit residuals for a given track." alt="" coords="302,75,442,119"/>
+<area shape="poly" id="edge36_Node000040_Node000042" title=" " alt="" coords="556,135,442,113,443,108,557,130"/>
+<area shape="rect" id="Node000044" href="$d2/d93/classTrkrNtuplizer.html#a5b7e079d1e912e41a93a5ace1499e954" title="Retrieve set of tracks associated with given cluster key." alt="" coords="47,1500,176,1545"/>
+<area shape="poly" id="edge39_Node000043_Node000044" title=" " alt="" coords="562,1166,544,1175,529,1188,507,1222,500,1257,502,1291,508,1326,514,1361,515,1396,505,1430,481,1464,465,1473,437,1481,357,1496,176,1519,176,1513,356,1490,436,1476,463,1468,477,1460,501,1428,510,1395,509,1361,503,1327,496,1292,495,1256,502,1220,525,1185,541,1171,559,1161"/>
+<area shape="rect" id="Node000046" href="$d2/d93/classTrkrNtuplizer.html#a6c1e437776e8c4bc3083f119092a260e" title="Build cache mapping each cluster key to the set of tracks that contain it." alt="" coords="275,1525,470,1570"/>
+<area shape="poly" id="edge40_Node000043_Node000046" title=" " alt="" coords="562,1166,544,1175,529,1188,514,1208,504,1228,495,1267,497,1305,504,1344,511,1384,514,1424,505,1466,496,1487,481,1508,459,1527,456,1523,477,1505,491,1484,500,1464,508,1424,506,1385,499,1345,492,1306,490,1266,499,1226,510,1205,525,1185,541,1171,560,1161"/>
+<area shape="poly" id="edge41_Node000046_Node000044" title=" " alt="" coords="259,1539,176,1531,176,1526,259,1534"/>
+<area shape="poly" id="edge43_Node000047_Node000020" title=" " alt="" coords="583,580,478,531,447,520,449,515,480,527,585,575"/>
+<area shape="poly" id="edge46_Node000049_Node000019" title=" " alt="" coords="570,687,461,659,463,653,571,682"/>
+<area shape="poly" id="edge47_Node000049_Node000020" title=" " alt="" coords="583,684,552,667,525,644,514,629,507,614,502,585,496,558,489,544,477,531,446,512,449,507,481,527,493,541,501,556,507,584,512,612,518,626,529,641,555,663,586,680"/>
+<area shape="poly" id="edge48_Node000049_Node000021" title=" " alt="" coords="537,705,473,705,473,700,537,700"/>
+<area shape="poly" id="edge49_Node000049_Node000022" title=" " alt="" coords="571,723,528,734,462,751,461,746,526,729,569,718"/>
+<area shape="poly" id="edge50_Node000049_Node000023" title=" " alt="" coords="543,725,529,734,513,751,505,770,497,789,481,808,462,820,459,816,477,804,493,786,500,768,508,748,525,730,540,721"/>
+<area shape="poly" id="edge51_Node000049_Node000024" title=" " alt="" coords="593,684,525,644,502,622,478,601,454,589,456,584,480,596,505,618,529,640,596,679"/>
+</map>

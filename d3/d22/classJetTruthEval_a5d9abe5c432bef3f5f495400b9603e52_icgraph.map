@@ -1,0 +1,19 @@
+<map id="JetTruthEval::all_truth_particles" name="JetTruthEval::all_truth_particles">
+<area shape="rect" id="Node000001" title="which truth particle contributed to this truth jet?" alt="" coords="693,57,854,102"/>
+<area shape="rect" id="Node000002" href="$d3/d22/classJetTruthEval.html#a8b29603fecb26cdf0c7ca71bf8a06965" title="which truth hits were left by particles contributing to this truth jet?" alt="" coords="454,5,645,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="678,56,645,47,604,36,606,31,646,42,679,51"/>
+<area shape="rect" id="Node000003" href="$d3/d22/classJetTruthEval.html#abfb6a77aa0c6490d5c48ac50ce84a2cf" title="which showers were left by particles contributing to this truth jet?" alt="" coords="470,57,630,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="678,82,630,82,630,76,678,76"/>
+<area shape="rect" id="Node000004" href="$dd/d75/classJetRecoEval.html#af6356d19d3ff0ee9c9849348466e7d0e" title="what was the energy contribution to this reconstructed jet from this truth jet?" alt="" coords="460,126,639,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="686,109,625,128,624,123,684,104"/>
+<area shape="rect" id="Node000005" href="$dd/d75/classJetRecoEval.html#a631b92837e600fbdb6b966a556fc9077" title="which reconstructed jet had the largest energy contribution from this truth jet?" alt="" coords="210,104,406,132"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="444,138,406,133,407,128,445,133"/>
+<area shape="rect" id="Node000008" href="$dd/d75/classJetRecoEval.html#af4bff244a32d216f097c7fab76c9b95a" title="which truth jet contributed the most energy to this reconstructed jet?" alt="" coords="221,156,394,200"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="445,164,395,170,395,165,444,159"/>
+<area shape="rect" id="Node000006" href="$dd/d75/classJetRecoEval.html#a9775ea4a0c6e28f22da7997f4886f195" title="Retrieve uniquely matched reconstructed jet for a given truth jet." alt="" coords="5,90,162,135"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="194,118,162,117,162,112,194,112"/>
+<area shape="rect" id="Node000007" href="$dd/d75/classJetRecoEval.html#ac6030b2b14c885e19e35f86ec828d8d8" title="Retrieve the uniquely matched truth jet for a given reconstructed jet." alt="" coords="5,160,162,204"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="236,139,210,146,157,162,156,156,209,141,234,134"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="214,153,162,138,163,133,215,148"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="206,182,162,183,162,178,206,177"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="MvtxDefs::resetStrobe" name="MvtxDefs::resetStrobe">
+<area shape="rect" id="Node000001" title="Zero the strobe bits in the cluster key." alt="" coords="1002,152,1169,180"/>
+<area shape="poly" id="edge12_Node000001_Node000001" title=" " alt="" coords="1126,139,1112,133,1085,131,1061,133,1047,137,1044,143,1050,150,1045,153,1039,143,1044,133,1060,127,1085,125,1113,128,1128,134"/>
+<area shape="rect" id="Node000002" href="$d0/dcd/structActsSurfaceMaps.html#a695d2d4f30905e0fe8698b6ff3cf7b9f" title="Retrieve silicon surface associated with a given hitsetkey." alt="" coords="748,109,954,154"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="985,154,954,149,955,144,986,149"/>
+<area shape="rect" id="Node000012" href="$dc/dc4/classMvtxHitPruner.html#a629a539be61749a2db0532b4abb025ca" title="event processing" alt="" coords="764,178,938,223"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="986,183,939,190,938,185,986,178"/>
+<area shape="rect" id="Node000003" href="$dd/d8f/classAlignmentTransformation.html#a23db75a5ef5b77f824a0a26ea028150d" title="Create alignment transformation map using geometry nodes and alignment parameters." alt="" coords="502,14,688,59"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="773,106,656,62,658,57,775,101"/>
+<area shape="rect" id="Node000005" href="$d0/dcd/structActsSurfaceMaps.html#a1b0b524d05c0ebec5a999b1442195de8" title="Retrieve surface object for given cluster key and cluster pointer." alt="" coords="489,117,700,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="733,134,701,134,701,128,733,128"/>
+<area shape="rect" id="Node000011" href="$de/d4d/classPHG4MvtxHitReco.html#a909a81a9eb5c91d222f0ed65462e4ed7" title="event processing" alt="" coords="495,169,694,214"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="738,160,694,171,692,166,737,155"/>
+<area shape="rect" id="Node000004" href="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6" title="Initialize geometry, alignment and magnetic field for a new run." alt="" coords="236,5,438,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="486,32,439,29,439,23,486,27"/>
+<area shape="rect" id="Node000006" href="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c" title="Generate source links for a given track seed and fill measurement container." alt="" coords="234,57,441,102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="507,116,441,103,442,98,508,111"/>
+<area shape="rect" id="Node000008" href="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d" title="Generate source links for a track using the cluster mover." alt="" coords="234,126,441,171"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="474,142,441,144,441,139,473,137"/>
+<area shape="rect" id="Node000009" href="$de/d94/namespaceTrackFitUtils.html#a247b53d2fdd50719d31799dede3fbdca" title="Compute the intersection of a 3D line with a detector surface." alt="" coords="259,196,416,240"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="509,152,490,159,466,172,442,186,412,197,410,193,440,181,464,167,488,154,507,147"/>
+<area shape="rect" id="Node000007" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="20,57,171,102"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="218,82,171,82,171,76,218,76"/>
+<area shape="rect" id="Node000010" href="$d8/d99/classCosmicTrackQA.html#ac0c144ffa14178e3b3268954771f066b" title="Process a single event and fill QA histograms for cosmic tracks." alt="" coords="5,196,186,240"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="243,220,186,220,186,215,243,215"/>
+</map>

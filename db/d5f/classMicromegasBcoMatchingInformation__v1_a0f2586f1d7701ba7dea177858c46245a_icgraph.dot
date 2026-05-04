@@ -1,0 +1,16 @@
+digraph "MicromegasBcoMatchingInformation_v1::get_adjusted_multiplier"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MicromegasBcoMatchingInformation\l_v1::get_adjusted_multiplier",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="get adjusted multiplier"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MicromegasBcoMatchingInformation\l_v1::find_reference_from_data",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classMicromegasBcoMatchingInformation__v1.html#ab687d553970b40c851e26fc40a695b56",tooltip="find reference from data"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MicromegasBcoMatchingInformation\l_v1::get_predicted_fee_bco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classMicromegasBcoMatchingInformation__v1.html#a7778e3bc62a5b265cbe18044f17e487a",tooltip="get predicted fee_bco from gtm_bco"];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="MicromegasBcoMatchingInformation\l_v1::find_gtm_bco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classMicromegasBcoMatchingInformation__v1.html#a285d7a291f700bac0f97859807a5fa80",tooltip="find gtm bco matching a given fee"];
+}

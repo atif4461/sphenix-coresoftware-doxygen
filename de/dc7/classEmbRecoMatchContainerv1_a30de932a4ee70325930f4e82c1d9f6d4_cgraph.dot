@@ -1,0 +1,16 @@
+digraph "EmbRecoMatchContainerv1::identify"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="EmbRecoMatchContainerv1\l::identify",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Print summary of embedded reconstructed track matching information to the provided stream."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="EmbRecoMatchv1::idTruthTrack",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d30/classEmbRecoMatchv1.html#a7a8ed405b4298ed90deeb7fdef75668e",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="EmbRecoMatchContainerv1\l::nMatches",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc7/classEmbRecoMatchContainerv1.html#abbed5e2603697aea912a29a7e18eb9d9",tooltip="add a match set"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="EmbRecoMatchContainerv1\l::nTruthUnmatched",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc7/classEmbRecoMatchContainerv1.html#a78c00f3a57402d4de5a0a16c60482793",tooltip=" "];
+}

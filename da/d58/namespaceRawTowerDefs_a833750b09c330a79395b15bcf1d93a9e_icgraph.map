@@ -1,0 +1,33 @@
+<map id="RawTowerDefs::convert_name_to_caloid" name="RawTowerDefs::convert_name_to_caloid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="575,256,749,301"/>
+<area shape="rect" id="Node000002" href="$d5/d80/classPHG4InnerHcalDetector.html#a9308f1728ca9cca9a544fa813d9c15de" title="Add geometry node for inner Hcal detector." alt="" coords="305,5,480,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="646,243,628,201,602,152,568,105,525,64,504,52,480,43,481,38,506,47,529,60,572,101,606,150,632,198,650,241"/>
+<area shape="rect" id="Node000004" href="$df/d74/classPHG4OuterHcalDetector.html#a52b9577fb8bb467e25e4cd0538db5466" title="Add geometry node for outer hcal detector." alt="" coords="303,75,482,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="636,245,589,187,559,158,526,134,481,115,483,110,528,129,562,154,593,184,640,242"/>
+<area shape="rect" id="Node000006" href="$d0/da4/classPHG4SpacalDetector.html#a6adf2ae56b8cfea0ee63c01ec7d5dd2f" title="Add tower geometry node to the detector hierarchy." alt="" coords="297,144,488,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="613,250,572,225,526,203,487,190,489,185,528,199,574,221,616,245"/>
+<area shape="rect" id="Node000008" href="$d2/d39/classCaloGeomMapping.html#a799637d7b2bdd4ccb69486c20d9d1908" title="Create geometry node for specified detector within the node tree." alt="" coords="258,212,527,240"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="559,261,468,243,469,238,560,256"/>
+<area shape="rect" id="Node000010" href="$d7/d10/classRawTowerBuilder.html#a01f91227474fd72e2e630a577973b67b" title="Create geometry and tower nodes in the node tree." alt="" coords="280,264,505,292"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="559,281,506,281,506,276,559,276"/>
+<area shape="rect" id="Node000012" href="$df/d0d/classRawTowerCombiner.html#a9dbc0b9dfed20dcd3a9a5f6dcf53636d" title="Create and configure tower geometry and node connections for a given detector." alt="" coords="292,316,493,361"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="560,304,494,319,493,313,559,298"/>
+<area shape="rect" id="Node000014" href="$d1/df8/classRawTowerBuilderByHitIndex.html#a00f3d954fe5b8d73911153304004419c" title="Set detector name and corresponding calorimeter identifier." alt="" coords="290,385,495,430"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="625,313,580,346,528,375,496,388,495,383,526,371,577,341,622,308"/>
+<area shape="rect" id="Node000015" href="$d4/db4/classDeadHotMapLoader.html#a84b8b8f0f4fbb17e326b7cd4d7415644" title="Initialize run specific dead tower map for detector." alt="" coords="290,454,494,482"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="644,316,598,383,566,417,528,445,496,459,494,454,526,440,562,413,593,379,640,313"/>
+<area shape="rect" id="Node000016" href="$d1/dec/classHcalRawTowerBuilder.html#a994bccbb0d39fa5e9d29d3b9c2ed42de" title="Initialize run specific configuration for HcalRawTowerBuilder." alt="" coords="311,505,474,550"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="650,316,632,358,606,406,572,454,529,495,503,510,475,520,473,515,501,505,525,491,567,451,601,403,627,355,646,314"/>
+<area shape="rect" id="Node000003" href="$d5/d80/classPHG4InnerHcalDetector.html#adcc55f5d190de67371fb9bf28015c68a" title="construct" alt="" coords="20,5,195,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="289,30,196,30,196,25,289,25"/>
+<area shape="rect" id="Node000005" href="$df/d74/classPHG4OuterHcalDetector.html#ae159c3d2a294c687f9c0f4af6dbce281" title="construct" alt="" coords="18,75,197,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="288,100,197,100,197,94,288,94"/>
+<area shape="rect" id="Node000007" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698" title="Construct the full projected tilted SPACAL detector geometry within the given world volume." alt="" coords="15,144,200,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="281,169,200,169,200,164,281,164"/>
+<area shape="rect" id="Node000009" href="$d2/d39/classCaloGeomMapping.html#a062a4db99a2e6645d206d4c2b97058d4" title="Initialize CaloGeomMapping module and create geometry node." alt="" coords="20,212,195,240"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="242,229,195,229,195,224,242,224"/>
+<area shape="rect" id="Node000011" href="$d7/d10/classRawTowerBuilder.html#a0de2c995e7f7cc3bd357d65af5d5d987" title="Initialize run by locating geometry node and creating output nodes." alt="" coords="14,264,201,292"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="264,281,202,281,202,276,264,276"/>
+<area shape="rect" id="Node000013" href="$df/d0d/classRawTowerCombiner.html#a09f1dc91a89b5f30ab1bd5f1965d3cb3" title="Initialize run specific configuration for tower combination." alt="" coords="5,324,210,352"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="276,341,210,341,210,336,276,336"/>
+</map>

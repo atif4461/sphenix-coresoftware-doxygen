@@ -1,0 +1,17 @@
+<map id="RawTowerGeomContainer::get_phibins" name="RawTowerGeomContainer::get_phibins">
+<area shape="rect" id="Node000001" title=" " alt="" coords="520,179,709,223"/>
+<area shape="rect" id="Node000002" href="$df/d0d/classRawTowerCombiner.html#a9dbc0b9dfed20dcd3a9a5f6dcf53636d" title="Create and configure tower geometry and node connections for a given detector." alt="" coords="264,5,466,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="584,168,535,115,504,88,471,65,448,53,450,48,473,60,507,84,538,111,588,165"/>
+<area shape="rect" id="Node000004" href="$d9/d8f/classCaloTriggerSim.html#a11ddf4c1a6c8b80e55a6820ad9781d52" title="Process a single event and compute calorimeter tower energy maps." alt="" coords="276,75,454,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="556,174,471,134,440,122,442,117,473,129,558,169"/>
+<area shape="rect" id="Node000005" href="$d2/d46/classRawClusterBuilderGraph.html#ae19143d2c8d7071e7cde26358e7623f5" title="Process a single event building raw clusters from calibrated towers." alt="" coords="275,144,455,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="504,188,455,181,456,176,505,183"/>
+<area shape="rect" id="Node000006" href="$df/d75/classRawClusterPositionCorrection.html#a5769946f9c4ef0e0ed307a1a18f40ab9" title="Process a single event and apply position dependent energy recalibration to raw clusters." alt="" coords="258,213,472,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="505,219,473,223,472,218,504,214"/>
+<area shape="rect" id="Node000007" href="$d7/d13/classSubtractTowers.html#a4c116cec7e202346e813b6587dae234e" title="Process event subtracting background from tower energies." alt="" coords="276,283,454,327"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="558,233,473,273,442,285,440,280,471,268,556,228"/>
+<area shape="rect" id="Node000008" href="$da/dda/classSubtractTowersCS.html#a763b209f4ab201a2f537dc444ac01bca" title="Process a single event and apply constituent subtraction to EMCal, inner HCal and outer HCal tower co..." alt="" coords="267,352,462,397"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="588,237,538,291,507,318,473,342,450,354,448,349,471,337,504,314,535,287,584,234"/>
+<area shape="rect" id="Node000003" href="$df/d0d/classRawTowerCombiner.html#a09f1dc91a89b5f30ab1bd5f1965d3cb3" title="Initialize run specific configuration for tower combination." alt="" coords="5,14,210,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,30,210,30,210,25,249,25"/>
+</map>

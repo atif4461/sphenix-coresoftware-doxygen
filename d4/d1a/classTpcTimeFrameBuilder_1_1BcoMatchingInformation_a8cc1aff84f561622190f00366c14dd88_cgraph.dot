@@ -1,0 +1,12 @@
+digraph "TpcTimeFrameBuilder::BcoMatchingInformation::get_predicted_fee_bco"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::get_predicted_fee_bco",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="get predicted fee_bco from gtm_bco"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcTimeFrameBuilder\l::BcoMatchingInformation\l::is_verified",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#ab868ad8fd9bfd2997cf38b0f884111c4",tooltip="true if matching information is verified"];
+}

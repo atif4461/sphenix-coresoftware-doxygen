@@ -1,0 +1,93 @@
+<map id="SingleTriggeredInput::FillPool" name="SingleTriggeredInput::FillPool">
+<area shape="rect" id="Node000001" title="Fill the event pool for a SingleTriggeredInput instance." alt="" coords="5,381,160,426"/>
+<area shape="rect" id="Node000002" href="$df/d97/classSingleTriggeredInput.html#a23913be855ac0348b50ef48744ead458" title=" " alt="" coords="478,467,632,511"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,424,208,445,341,468,463,481,462,486,340,474,207,450,139,429"/>
+<area shape="rect" id="Node000003" href="$df/d97/classSingleTriggeredInput.html#a1ecd38f58e9f7b78b9bda28193d9cc38" title="Check alignment between SEB and GL1 diff pools for a given packet." alt="" coords="219,227,384,271"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="100,379,145,331,175,304,206,281,215,277,217,281,209,286,178,309,149,334,104,383"/>
+<area shape="rect" id="Node000005" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="1004,299,1152,327"/>
+<area shape="poly" id="edge55_Node000001_Node000005" title=" " alt="" coords="86,380,99,333,122,272,157,209,180,181,206,156,236,136,264,122,291,114,317,110,373,108,443,105,552,94,694,84,766,83,833,86,892,95,937,111,962,127,985,147,1023,194,1051,243,1069,284,1064,286,1046,245,1018,197,981,151,959,131,934,115,891,100,833,92,766,88,694,89,553,99,443,110,373,114,317,115,292,119,266,127,239,140,209,160,183,184,161,212,127,274,104,334,91,382"/>
+<area shape="rect" id="Node000007" href="$df/d97/classSingleTriggeredInput.html#a7922cd8c06e966dce37f2c483beca4a4" title=" " alt="" coords="748,125,903,170"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="90,380,106,343,130,297,164,251,206,212,269,176,338,151,409,134,481,124,552,120,619,120,733,130,733,135,619,126,552,125,482,129,410,139,339,156,272,181,209,216,168,254,135,300,110,345,94,382"/>
+<area shape="rect" id="Node000008" href="$df/d97/classSingleTriggeredInput.html#abc068b25735edbdc394740a91cdd4d3a" title=" " alt="" coords="208,296,395,341"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="141,378,227,344,229,349,143,383"/>
+<area shape="rect" id="Node000009" href="$df/d97/classSingleTriggeredInput.html#a957c15e7c768d15f6b32fe9710094aaf" title="Check FEM clock alignment across a pool of events for a given packet." alt="" coords="475,5,635,50"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="82,380,88,317,107,231,123,185,144,141,171,101,206,67,234,48,265,34,331,16,398,10,459,11,459,17,398,15,332,21,267,39,237,53,209,71,176,104,149,144,128,187,112,232,94,318,87,381"/>
+<area shape="rect" id="Node000010" href="$df/d97/classSingleTriggeredInput.html#a8c83ffef0979f89f46404eda054a4a79" title=" " alt="" coords="478,536,632,581"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="115,424,158,453,209,480,273,503,340,521,463,545,462,550,339,526,272,508,207,485,155,458,112,429"/>
+<area shape="rect" id="Node000011" href="$df/d97/classSingleTriggeredInput.html#a7f5fbe72af4271a3d227839758de7fe1" title="Fill event vector with synchronized data events from input files." alt="" coords="224,596,378,641"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="99,425,144,492,175,530,209,564,239,586,236,590,206,568,171,533,140,495,95,428"/>
+<area shape="rect" id="Node000026" href="$df/d97/classSingleTriggeredInput.html#af42d4e089c34ff2184142ba44a296c4c" title="Fill internal clock and clock‑difference arrays for a given packet." alt="" coords="478,347,632,391"/>
+<area shape="poly" id="edge51_Node000001_Node000026" title=" " alt="" coords="160,395,462,373,463,378,160,401"/>
+<area shape="rect" id="Node000027" href="$df/d97/classSingleTriggeredInput.html#a5d24c0f6f22d951f324567ba86ff05d7" title="Retrieve CLOCK value from packet identified by pid in given event." alt="" coords="748,351,903,395"/>
+<area shape="poly" id="edge52_Node000001_Node000027" title=" " alt="" coords="160,406,388,412,527,410,667,401,733,391,734,396,668,406,527,415,388,417,160,411"/>
+<area shape="rect" id="Node000028" href="$df/d97/classSingleTriggeredInput.html#ac63b35769e1dac34c18205f066382a77" title=" " alt="" coords="478,908,632,953"/>
+<area shape="poly" id="edge53_Node000001_Node000028" title=" " alt="" coords="95,426,139,527,172,590,210,652,265,730,312,789,366,840,444,893,465,904,462,909,442,898,363,844,308,793,261,733,205,654,167,593,134,529,90,428"/>
+<area shape="rect" id="Node000029" href="$df/d97/classSingleTriggeredInput.html#ad361b141aa7a9f55e30e8c67a1803323" title=" " alt="" coords="478,977,632,1022"/>
+<area shape="poly" id="edge54_Node000001_Node000029" title=" " alt="" coords="86,426,89,507,95,562,104,623,120,686,142,749,171,809,210,863,236,889,265,911,331,946,400,970,463,985,462,991,398,976,329,951,262,916,232,893,206,867,167,812,137,751,115,688,99,624,89,563,84,507,81,427"/>
+<area shape="rect" id="Node000004" href="$df/d97/classSingleTriggeredInput.html#a2388c12808a99a6d62ad83db26b3394f" title="Verify that the majority FEM clock difference between two consecutive events matches a given GL1 diff..." alt="" coords="478,176,632,221"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,230,462,214,463,219,384,235"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="384,253,989,303,988,308,384,258"/>
+<area shape="rect" id="Node000006" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="470,295,640,323"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="384,266,479,288,478,294,383,271"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="636,14,705,11,783,16,863,33,901,47,937,67,965,89,990,115,1029,175,1056,235,1072,283,1067,285,1051,237,1024,177,986,118,962,93,934,71,899,52,862,38,782,21,705,16,636,19"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="609,48,760,116,758,121,606,53"/>
+<area shape="poly" id="edge13_Node000011_Node000002" title=" " alt="" coords="330,593,380,557,442,521,462,512,464,517,444,526,383,561,333,598"/>
+<area shape="poly" id="edge44_Node000011_Node000005" title=" " alt="" coords="379,632,446,640,522,639,560,634,598,625,633,611,666,591,679,578,686,564,690,533,694,501,700,484,713,468,741,447,768,435,793,429,819,427,873,423,902,417,935,405,996,371,1046,334,1050,339,999,375,937,410,903,422,873,429,819,432,794,434,769,440,744,452,717,472,705,487,699,502,695,534,691,566,683,581,669,595,635,615,599,630,561,639,522,644,446,645,379,638"/>
+<area shape="poly" id="edge50_Node000011_Node000006" title=" " alt="" coords="304,595,318,541,344,469,362,432,384,395,411,361,441,332,454,324,457,328,445,336,415,365,389,398,367,434,349,471,323,542,310,596"/>
+<area shape="poly" id="edge34_Node000011_Node000010" title=" " alt="" coords="378,597,462,578,463,583,380,603"/>
+<area shape="rect" id="Node000012" href="$df/d97/classSingleTriggeredInput.html#a55a9b8d237d0e47a00d0a0fd882ca9ad" title="Create or retrieve DST nodes for packet storage and populate them from the given event." alt="" coords="478,839,632,883"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="325,639,445,762,517,826,513,830,441,766,322,643"/>
+<area shape="rect" id="Node000023" href="$df/d97/classSingleTriggeredInput.html#a52b122ed76fd7c058fa0f46a6d49eae9" title="Close the currently opened input file." alt="" coords="478,656,632,701"/>
+<area shape="poly" id="edge30_Node000011_Node000023" title=" " alt="" coords="380,634,463,654,462,659,378,639"/>
+<area shape="poly" id="edge35_Node000011_Node000026" title=" " alt="" coords="317,594,370,528,441,452,506,399,510,403,445,456,374,532,322,598"/>
+<area shape="poly" id="edge40_Node000011_Node000028" title=" " alt="" coords="327,640,363,681,397,733,407,757,412,780,415,820,421,857,430,875,445,894,466,909,463,913,441,898,425,878,416,858,410,820,407,780,402,759,393,736,359,684,323,643"/>
+<area shape="poly" id="edge41_Node000011_Node000029" title=" " alt="" coords="308,641,319,704,343,791,360,838,383,883,411,926,445,963,465,977,462,981,441,967,407,929,378,886,356,840,337,793,314,705,303,642"/>
+<area shape="rect" id="Node000032" href="$d2/d8a/classInputFileHandler.html#acf665524602bc5f8cc2398bfd26121ae" title="Open the next file in the internal file list." alt="" coords="443,724,667,752"/>
+<area shape="poly" id="edge45_Node000011_Node000032" title=" " alt="" coords="331,639,382,676,444,711,461,717,459,722,442,715,379,681,328,643"/>
+<area shape="rect" id="Node000013" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="721,1062,930,1090"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="634,872,653,881,669,894,684,913,691,932,694,970,696,1006,703,1024,717,1042,730,1052,727,1056,713,1046,699,1027,691,1008,689,970,686,933,679,915,665,898,650,886,632,877"/>
+<area shape="rect" id="Node000017" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="988,960,1169,988"/>
+<area shape="poly" id="edge21_Node000012_Node000017" title=" " alt="" coords="634,873,669,894,681,907,687,921,692,949,698,976,705,987,717,997,755,1016,796,1026,838,1030,881,1028,963,1013,1029,992,1030,997,964,1018,882,1033,838,1035,795,1032,753,1021,714,1002,700,990,693,978,687,950,682,923,676,910,666,898,631,878"/>
+<area shape="rect" id="Node000020" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="754,891,897,919"/>
+<area shape="poly" id="edge26_Node000012_Node000020" title=" " alt="" coords="633,871,739,888,738,894,632,876"/>
+<area shape="rect" id="Node000022" href="$df/d97/classSingleTriggeredInput.html#acd7d8e6f7c047696b7fc47437d6099b2" title=" " alt="" coords="748,943,903,987"/>
+<area shape="poly" id="edge29_Node000012_Node000022" title=" " alt="" coords="634,879,669,893,693,911,717,928,735,936,733,941,714,933,690,915,666,898,632,884"/>
+<area shape="rect" id="Node000014" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="1265,1012,1406,1040"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="907,1059,983,1048,1124,1035,1250,1027,1250,1033,1124,1040,984,1053,908,1064"/>
+<area shape="rect" id="Node000015" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="1269,1100,1402,1128"/>
+<area shape="poly" id="edge17_Node000013_Node000015" title=" " alt="" coords="905,1087,984,1098,1127,1108,1254,1111,1254,1117,1127,1113,983,1104,904,1093"/>
+<area shape="rect" id="Node000016" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="1007,1062,1150,1090"/>
+<area shape="poly" id="edge19_Node000013_Node000016" title=" " alt="" coords="931,1073,992,1073,992,1078,931,1078"/>
+<area shape="poly" id="edge18_Node000015_Node000015" title=" " alt="" coords="1292,1102,1285,1092,1290,1082,1308,1076,1336,1074,1366,1076,1382,1083,1380,1088,1365,1082,1336,1079,1309,1081,1294,1086,1290,1091,1296,1098"/>
+<area shape="poly" id="edge20_Node000016_Node000015" title=" " alt="" coords="1150,1084,1254,1099,1253,1105,1150,1089"/>
+<area shape="poly" id="edge23_Node000017_Node000014" title=" " alt="" coords="1151,986,1250,1006,1249,1012,1150,991"/>
+<area shape="poly" id="edge22_Node000017_Node000017" title=" " alt="" coords="1035,962,1028,952,1034,942,1051,936,1078,934,1108,936,1124,943,1122,948,1107,942,1078,939,1052,941,1037,946,1034,951,1040,958"/>
+<area shape="rect" id="Node000018" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1270,908,1402,936"/>
+<area shape="poly" id="edge24_Node000017_Node000018" title=" " alt="" coords="1150,957,1254,936,1255,941,1151,962"/>
+<area shape="rect" id="Node000019" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="1221,960,1450,988"/>
+<area shape="poly" id="edge25_Node000017_Node000019" title=" " alt="" coords="1169,972,1205,972,1205,977,1169,977"/>
+<area shape="poly" id="edge27_Node000020_Node000017" title=" " alt="" coords="893,917,936,928,1020,953,1019,958,935,933,891,922"/>
+<area shape="rect" id="Node000021" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="996,884,1160,912"/>
+<area shape="poly" id="edge28_Node000020_Node000021" title=" " alt="" coords="897,900,980,898,981,904,897,906"/>
+<area shape="poly" id="edge32_Node000023_Node000005" title=" " alt="" coords="632,657,666,635,677,621,683,606,688,576,693,546,700,531,714,516,742,496,769,486,795,482,821,481,875,480,903,473,934,459,972,432,1006,399,1057,338,1061,341,1010,403,976,436,937,463,905,478,875,485,821,487,796,487,770,491,744,501,717,520,705,534,698,548,693,577,689,608,682,623,669,639,634,662"/>
+<area shape="rect" id="Node000024" href="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef" title=" " alt="" coords="735,599,916,627"/>
+<area shape="poly" id="edge31_Node000023_Node000024" title=" " alt="" coords="632,656,715,636,746,628,747,633,716,641,633,661"/>
+<area shape="rect" id="Node000025" href="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb" title="Update internal file list handling repeat logic." alt="" coords="734,531,917,575"/>
+<area shape="poly" id="edge33_Node000023_Node000025" title=" " alt="" coords="630,653,666,635,680,623,689,611,699,598,714,585,723,580,726,585,717,590,702,602,693,614,684,626,669,639,633,658"/>
+<area shape="poly" id="edge39_Node000026_Node000005" title=" " alt="" coords="632,350,715,336,859,321,988,314,989,319,859,327,716,341,633,355"/>
+<area shape="poly" id="edge36_Node000026_Node000007" title=" " alt="" coords="631,349,666,332,694,307,729,267,797,181,801,184,733,270,698,310,669,337,634,354"/>
+<area shape="poly" id="edge37_Node000026_Node000027" title=" " alt="" coords="633,367,733,369,733,374,633,373"/>
+<area shape="poly" id="edge38_Node000027_Node000005" title=" " alt="" coords="903,352,1001,328,1003,334,904,357"/>
+<area shape="rect" id="Node000030" href="$df/d97/classSingleTriggeredInput.html#a04671622bc7c515832e3d0c1f2406311" title="Constructor initializing SingleTriggeredInput with the provided module name." alt="" coords="744,1133,907,1178"/>
+<area shape="poly" id="edge42_Node000029_Node000030" title=" " alt="" coords="591,1020,717,1099,764,1124,761,1128,714,1103,589,1025"/>
+<area shape="rect" id="Node000031" href="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7" title="Constructor for Fun4AllBase validates module name." alt="" coords="984,1163,1173,1191"/>
+<area shape="poly" id="edge43_Node000030_Node000031" title=" " alt="" coords="907,1160,969,1165,968,1170,907,1165"/>
+<area shape="rect" id="Node000033" href="$d2/d8a/classInputFileHandler.html#a1cee3f2baa09932712f151fc0ba67db7" title="Open input file for reading." alt="" coords="731,719,920,747"/>
+<area shape="poly" id="edge46_Node000032_Node000033" title=" " alt="" coords="668,733,716,732,716,738,668,739"/>
+<area shape="rect" id="Node000034" href="$d2/d8a/classInputFileHandler.html#a0ef1f262db98136850cc1ad3be18a14d" title=" " alt="" coords="719,771,932,815"/>
+<area shape="poly" id="edge47_Node000032_Node000034" title=" " alt="" coords="628,750,704,766,703,771,627,755"/>
+<area shape="rect" id="Node000035" href="$d2/d8a/classInputFileHandler.html#a60db005eca23d42b7e02e6c47af90095" title=" " alt="" coords="715,839,936,867"/>
+<area shape="poly" id="edge48_Node000032_Node000035" title=" " alt="" coords="579,751,639,788,716,825,736,832,734,837,714,830,637,792,576,755"/>
+<area shape="rect" id="Node000036" href="$d2/d8a/classInputFileHandler.html#a811c67eb19cef0fba2d7c38b446d7955" title="Execute optional script before opening the input file." alt="" coords="723,651,928,695"/>
+<area shape="poly" id="edge49_Node000032_Node000036" title=" " alt="" coords="620,721,667,710,720,697,722,702,668,716,622,726"/>
+</map>

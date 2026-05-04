@@ -1,0 +1,99 @@
+<map id="CaloRawTowerEval::has_reduced_node_pointers" name="CaloRawTowerEval::has_reduced_node_pointers">
+<area shape="rect" id="Node000001" title="has the eval initialized correctly for reduced sim DST nodes?" alt="" coords="1630,677,1809,721"/>
+<area shape="poly" id="edge57_Node000001_Node000001" title=" " alt="" coords="1756,664,1743,658,1719,655,1698,657,1685,662,1680,668,1681,676,1676,676,1675,666,1682,657,1697,652,1719,650,1744,652,1759,659"/>
+<area shape="rect" id="Node000002" href="$de/d0b/classCaloRawTowerEval.html#a4882efe806599ed03f7e6464455c6eb9" title="Retrieve all TowerInfo objects linked to a primary PHG4Particle." alt="" coords="942,102,1110,147"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1711,661,1696,545,1669,394,1651,318,1630,251,1607,196,1580,161,1528,125,1469,101,1407,86,1342,80,1278,80,1217,85,1112,104,1111,99,1216,80,1278,75,1342,74,1407,81,1471,95,1530,120,1584,157,1611,194,1635,249,1657,317,1674,392,1701,544,1717,660"/>
+<area shape="rect" id="Node000003" href="$de/d0b/classCaloRawTowerEval.html#a654373e57c8739a07defc197ebc66d0b" title="Retrieve set of TowerInfo pointers associated with all towers that contain the given primary shower." alt="" coords="1178,195,1346,240"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1716,661,1712,577,1705,524,1694,467,1677,410,1653,354,1621,304,1580,261,1554,243,1527,229,1466,212,1404,206,1346,208,1346,203,1404,201,1467,207,1528,224,1557,238,1583,257,1625,301,1657,352,1682,408,1699,466,1710,523,1717,576,1722,661"/>
+<area shape="rect" id="Node000004" href="$de/d0b/classCaloRawTowerEval.html#a64d453a7e6a44dbc76a44aa7dc1b88ee" title="Retrieve the tower with maximum energy contribution for a primary shower." alt="" coords="936,187,1116,232"/>
+<area shape="poly" id="edge36_Node000001_Node000004" title=" " alt="" coords="1710,662,1693,557,1665,421,1647,354,1627,294,1604,246,1580,214,1553,194,1524,178,1462,155,1395,144,1326,143,1259,149,1196,161,1091,189,1090,184,1195,155,1259,144,1326,138,1395,139,1463,150,1526,173,1556,189,1584,210,1609,243,1632,292,1652,353,1670,420,1698,556,1716,661"/>
+<area shape="rect" id="Node000005" href="$de/d0b/classCaloRawTowerEval.html#a3c49a80cddd342336c487ec493ff9b6a" title="Retrieve best tower info associated with a primary PHG4Particle." alt="" coords="699,111,879,156"/>
+<area shape="poly" id="edge35_Node000001_Node000005" title=" " alt="" coords="1712,661,1699,534,1673,366,1655,282,1634,206,1609,145,1595,122,1580,105,1538,73,1493,48,1445,30,1395,17,1343,10,1290,8,1184,15,1080,34,986,60,904,88,841,113,839,108,902,83,984,55,1079,29,1183,10,1290,3,1344,5,1396,12,1447,25,1496,43,1541,68,1583,101,1599,119,1613,143,1639,204,1661,281,1678,365,1704,534,1718,661"/>
+<area shape="rect" id="Node000006" href="$de/d0b/classCaloRawTowerEval.html#aa4fd291619249c3c6ea981b35578db0b" title="what towers did this primary truth particle contribute energy to?" alt="" coords="942,321,1110,365"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1710,662,1696,601,1672,525,1654,486,1634,448,1609,412,1580,381,1531,340,1484,312,1439,295,1392,286,1344,285,1292,289,1168,305,1095,322,1093,317,1168,300,1291,283,1344,279,1393,281,1440,290,1486,307,1534,336,1583,377,1613,409,1638,445,1659,484,1676,523,1701,600,1715,661"/>
+<area shape="rect" id="Node000007" href="$de/d0b/classCaloRawTowerEval.html#a83b1ea7e25a3176afebbfbcb390a8a10" title="what towers did this primary shower contribute energy to?" alt="" coords="1178,385,1346,429"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1701,663,1682,623,1656,577,1622,531,1580,493,1524,461,1463,438,1402,424,1346,415,1347,410,1403,418,1464,433,1526,456,1583,489,1626,528,1660,574,1687,621,1706,661"/>
+<area shape="rect" id="Node000008" href="$de/d0b/classCaloRawTowerEval.html#a03d715e60bcac5e2a1e36580a372314d" title="which tower did this primary shower contribute the most energy to?" alt="" coords="936,621,1116,665"/>
+<area shape="poly" id="edge34_Node000001_Node000008" title=" " alt="" coords="1614,698,1407,688,1168,668,1117,661,1117,656,1168,663,1408,683,1614,693"/>
+<area shape="rect" id="Node000009" href="$de/d0b/classCaloRawTowerEval.html#a8fa1befd5a2ebd1ffb575ce4f59090b8" title="which tower did the primary truth particle contribute the most energy to?" alt="" coords="699,681,879,725"/>
+<area shape="poly" id="edge33_Node000001_Node000009" title=" " alt="" coords="1614,703,1582,703,879,705,879,700,1582,698,1614,697"/>
+<area shape="rect" id="Node000010" href="$de/d0b/classCaloRawTowerEval.html#a3cd0ac230f085c40d0d2a025deadf01d" title="what particles contributed energy to this tower?" alt="" coords="1172,523,1352,568"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="1653,673,1581,644,1459,604,1347,571,1349,566,1461,599,1583,639,1655,668"/>
+<area shape="rect" id="Node000018" href="$de/d0b/classCaloRawTowerEval.html#a80a9506da17b67f2eb313ac5fe054b2d" title="Retrieve all primary truth particles contributing to a given tower." alt="" coords="1172,315,1352,360"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="1706,662,1689,612,1663,552,1627,491,1605,464,1580,440,1527,404,1468,378,1408,361,1352,349,1353,344,1409,356,1469,373,1529,400,1583,435,1609,460,1632,488,1668,549,1694,610,1711,660"/>
+<area shape="rect" id="Node000019" href="$de/d0b/classCaloRawTowerEval.html#a5a2cdd97ddb786afa4de18ee12bc5bf2" title="what primary showers contributed energy to this tower?" alt="" coords="1403,503,1582,548"/>
+<area shape="poly" id="edge22_Node000001_Node000019" title=" " alt="" coords="1684,667,1636,623,1580,577,1538,551,1541,546,1583,573,1640,619,1687,664"/>
+<area shape="rect" id="Node000021" href="$de/d0b/classCaloRawTowerEval.html#ace189396a39a69bfde1f23c118ca0aef" title="which primary shower contributed the most energy to this tower?" alt="" coords="1171,1000,1352,1062"/>
+<area shape="poly" id="edge60_Node000001_Node000021" title=" " alt="" coords="1709,737,1691,783,1665,838,1629,893,1607,918,1583,940,1529,974,1469,998,1409,1015,1353,1025,1352,1020,1408,1010,1467,993,1527,969,1580,935,1604,914,1625,889,1660,835,1687,781,1704,735"/>
+<area shape="rect" id="Node000022" href="$de/d0b/classCaloRawTowerEval.html#a28c7d49b96e05bc33d3ee6bef2a5f6a8" title="which particle contributed the most energy to this tower?" alt="" coords="936,1096,1117,1158"/>
+<area shape="poly" id="edge58_Node000001_Node000022" title=" " alt="" coords="1715,737,1698,840,1669,973,1651,1039,1631,1099,1608,1147,1584,1179,1533,1218,1485,1244,1437,1258,1390,1262,1340,1258,1288,1248,1167,1215,1112,1191,1065,1160,1068,1156,1114,1186,1169,1210,1289,1242,1341,1253,1390,1257,1436,1253,1483,1239,1530,1214,1580,1176,1604,1144,1626,1097,1646,1038,1664,972,1692,839,1710,736"/>
+<area shape="rect" id="Node000023" href="$de/d0b/classCaloRawTowerEval.html#abe5b60715f48b8c9d0ad0a8fb555ccca" title="Return the primary truth particle with maximum energy contribution to the given tower." alt="" coords="936,1241,1117,1303"/>
+<area shape="poly" id="edge59_Node000001_Node000023" title=" " alt="" coords="1717,737,1704,859,1678,1019,1660,1099,1639,1171,1613,1228,1599,1250,1583,1266,1548,1284,1500,1295,1441,1301,1376,1303,1239,1298,1117,1286,1118,1281,1239,1292,1376,1298,1441,1296,1499,1290,1547,1279,1580,1262,1595,1247,1609,1226,1634,1169,1655,1098,1673,1018,1699,858,1712,737"/>
+<area shape="rect" id="Node000024" href="$de/d0b/classCaloRawTowerEval.html#a7e3ed5c58d1099b2d4c11279ac1702eb" title="Find the primary truth shower that contributes the largest energy to the specified tower." alt="" coords="1171,592,1352,654"/>
+<area shape="poly" id="edge61_Node000001_Node000024" title=" " alt="" coords="1614,684,1352,640,1353,635,1615,679"/>
+<area shape="rect" id="Node000025" href="$de/d0b/classCaloRawTowerEval.html#aea873314b6679a32d9b59f0d44b33f5c" title="Retrieve set of primary truth showers associated with a tower." alt="" coords="1403,1326,1582,1371"/>
+<area shape="poly" id="edge32_Node000001_Node000025" title=" " alt="" coords="1717,737,1700,863,1672,1032,1654,1118,1633,1197,1610,1262,1584,1309,1562,1327,1558,1323,1580,1305,1605,1260,1628,1195,1649,1117,1667,1032,1695,862,1711,736"/>
+<area shape="rect" id="Node000026" href="$de/d0b/classCaloRawTowerEval.html#a1ca5279dd155a148f0a7cdfcb601f15c" title="how much energy did this primary truth particle contribute to this tower?" alt="" coords="1175,1086,1348,1131"/>
+<area shape="poly" id="edge37_Node000001_Node000026" title=" " alt="" coords="1715,737,1702,799,1677,875,1660,914,1639,953,1613,988,1583,1020,1557,1039,1529,1056,1468,1082,1406,1098,1349,1106,1348,1101,1405,1092,1466,1076,1527,1052,1554,1035,1580,1016,1609,985,1634,950,1655,912,1672,873,1697,797,1710,736"/>
+<area shape="rect" id="Node000027" href="$de/d0b/classCaloRawTowerEval.html#abe64f9fcff4f576efcaef1e607216577" title="how much energy did this primary shower contribute to this tower?" alt="" coords="1406,881,1579,925"/>
+<area shape="poly" id="edge38_Node000001_Node000027" title=" " alt="" coords="1684,733,1521,882,1517,878,1680,729"/>
+<area shape="rect" id="Node000035" href="$de/d0b/classCaloRawTowerEval.html#adc840b297c81f403eefe81728b9cc10a" title="Compute the energy contribution of a primary particle to a given tower." alt="" coords="1175,1155,1348,1200"/>
+<area shape="poly" id="edge55_Node000001_Node000035" title=" " alt="" coords="1719,737,1711,813,1690,912,1673,964,1650,1014,1620,1061,1583,1102,1558,1122,1530,1139,1469,1162,1407,1175,1349,1181,1349,1176,1406,1170,1467,1157,1527,1134,1555,1118,1580,1098,1616,1058,1645,1012,1668,962,1685,911,1706,812,1714,736"/>
+<area shape="rect" id="Node000036" href="$de/d0b/classCaloRawTowerEval.html#aa78408c6b349b86c0753364d6b230172" title="Compute energy contribution of a primary shower to a tower." alt="" coords="1406,1395,1579,1440"/>
+<area shape="poly" id="edge56_Node000001_Node000036" title=" " alt="" coords="1718,737,1704,878,1679,1071,1661,1169,1639,1258,1613,1333,1599,1362,1584,1385,1570,1397,1567,1393,1580,1381,1595,1359,1609,1331,1634,1257,1655,1168,1673,1070,1699,878,1713,737"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="1188,192,1084,150,1086,145,1190,187"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="1162,217,1117,215,1117,210,1162,211"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="939,185,860,159,862,154,941,179"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="1162,383,1110,368,1112,363,1163,377"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="1172,441,1170,443,1156,463,1149,482,1146,521,1144,561,1136,582,1122,603,1098,622,1095,618,1118,600,1132,580,1138,560,1141,521,1143,481,1151,460,1166,440,1169,437"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="921,672,880,683,879,677,920,667"/>
+<area shape="rect" id="Node000011" href="$dd/d75/classJetRecoEval.html#a35d98fcca277d5034d66e06d7e832e87" title="what truth particles contributed to this reconstructed jet?" alt="" coords="946,545,1106,589"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="1156,558,1107,562,1107,557,1156,552"/>
+<area shape="rect" id="Node000012" href="$dd/d75/classJetRecoEval.html#a277ecc26833b4e3e16f96018aa921702" title="what truth jets contributed to this reconstructed jet?" alt="" coords="693,629,885,657"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="941,597,836,631,834,626,939,592"/>
+<area shape="rect" id="Node000013" href="$dd/d75/classJetRecoEval.html#aaa6df5bbed40bd8cf789d997c348d12f" title="what reconstructed jets had contributions from this truth jet?" alt="" coords="454,649,645,677"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="678,655,646,658,646,652,678,649"/>
+<area shape="rect" id="Node000017" href="$dd/d75/classJetRecoEval.html#af4bff244a32d216f097c7fab76c9b95a" title="which truth jet contributed the most energy to this reconstructed jet?" alt="" coords="221,823,394,868"/>
+<area shape="poly" id="edge18_Node000012_Node000017" title=" " alt="" coords="714,664,694,671,631,699,550,739,407,811,372,825,370,820,405,806,548,735,628,694,692,666,712,659"/>
+<area shape="rect" id="Node000014" href="$dd/d75/classJetRecoEval.html#a631b92837e600fbdb6b966a556fc9077" title="which reconstructed jet had the largest energy contribution from this truth jet?" alt="" coords="210,769,406,797"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="507,686,339,771,337,766,505,682"/>
+<area shape="rect" id="Node000015" href="$dd/d75/classJetRecoEval.html#a9775ea4a0c6e28f22da7997f4886f195" title="Retrieve uniquely matched reconstructed jet for a given truth jet." alt="" coords="5,827,162,872"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="242,804,210,813,159,829,157,824,209,808,240,799"/>
+<area shape="rect" id="Node000016" href="$dd/d75/classJetRecoEval.html#ac6030b2b14c885e19e35f86ec828d8d8" title="Retrieve the uniquely matched truth jet for a given reconstructed jet." alt="" coords="5,758,162,803"/>
+<area shape="poly" id="edge17_Node000014_Node000016" title=" " alt="" coords="194,784,162,784,162,778,194,779"/>
+<area shape="poly" id="edge19_Node000017_Node000015" title=" " alt="" coords="206,850,162,851,162,845,206,845"/>
+<area shape="poly" id="edge20_Node000017_Node000016" title=" " alt="" coords="214,821,162,806,163,800,215,816"/>
+<area shape="poly" id="edge23_Node000019_Node000003" title=" " alt="" coords="1471,490,1422,403,1389,353,1353,305,1322,271,1290,242,1293,238,1325,267,1357,301,1393,349,1426,400,1475,488"/>
+<area shape="poly" id="edge24_Node000019_Node000007" title=" " alt="" coords="1444,496,1354,444,1328,432,1330,427,1357,439,1447,492"/>
+<area shape="poly" id="edge25_Node000019_Node000010" title=" " alt="" coords="1388,537,1353,540,1352,535,1388,532"/>
+<area shape="poly" id="edge26_Node000019_Node000018" title=" " alt="" coords="1466,492,1418,432,1387,401,1354,374,1334,363,1336,358,1357,370,1391,397,1422,429,1470,489"/>
+<area shape="rect" id="Node000020" href="$dd/d75/classJetRecoEval.html#a2b04ad28662aae87324971bb37e70bac" title="what truth showers contributed to this reconstructed jet?" alt="" coords="1182,454,1342,499"/>
+<area shape="poly" id="edge27_Node000019_Node000020" title=" " alt="" coords="1388,506,1342,496,1343,491,1389,501"/>
+<area shape="poly" id="edge28_Node000019_Node000021" title=" " alt="" coords="1487,564,1472,637,1446,733,1408,838,1385,890,1358,939,1332,973,1303,1001,1300,998,1328,969,1353,936,1380,887,1403,836,1441,731,1467,636,1482,563"/>
+<area shape="poly" id="edge31_Node000019_Node000024" title=" " alt="" coords="1425,557,1338,594,1335,589,1423,552"/>
+<area shape="poly" id="edge29_Node000021_Node000022" title=" " alt="" coords="1171,1071,1105,1098,1103,1093,1169,1066"/>
+<area shape="poly" id="edge30_Node000021_Node000023" title=" " alt="" coords="1172,1074,1170,1075,1152,1098,1144,1120,1136,1144,1122,1171,1093,1209,1062,1243,1058,1239,1088,1206,1118,1168,1132,1142,1139,1118,1148,1096,1166,1072,1168,1070"/>
+<area shape="poly" id="edge40_Node000027_Node000004" title=" " alt="" coords="1454,872,1354,789,1325,770,1299,757,1251,738,1207,714,1186,694,1166,667,1142,618,1131,573,1131,531,1135,490,1140,449,1142,406,1136,360,1118,309,1089,268,1055,234,1059,231,1093,264,1122,307,1141,359,1147,406,1145,449,1140,491,1136,531,1137,573,1147,616,1170,664,1190,691,1210,709,1253,733,1301,752,1328,766,1357,785,1457,868"/>
+<area shape="poly" id="edge39_Node000027_Node000008" title=" " alt="" coords="1410,877,1292,829,1228,797,1167,762,1101,714,1049,668,1053,664,1104,710,1169,758,1231,793,1295,824,1412,872"/>
+<area shape="poly" id="edge53_Node000027_Node000021" title=" " alt="" coords="1441,936,1357,984,1324,1002,1321,997,1354,979,1438,931"/>
+<area shape="poly" id="edge54_Node000027_Node000024" title=" " alt="" coords="1475,867,1455,824,1428,773,1394,721,1354,674,1330,656,1334,652,1357,670,1399,718,1433,771,1460,822,1479,865"/>
+<area shape="poly" id="edge50_Node000027_Node000026" title=" " alt="" coords="1473,940,1425,1008,1393,1044,1357,1076,1337,1088,1334,1083,1354,1071,1390,1040,1421,1005,1469,937"/>
+<area shape="rect" id="Node000028" href="$da/d7e/classCaloRawClusterEval.html#a1df87a8403be2e5146a922554953c4e7" title="how much energy did this primary truth shower contribute to this cluster" alt="" coords="1168,881,1355,925"/>
+<area shape="poly" id="edge41_Node000027_Node000028" title=" " alt="" coords="1391,906,1356,906,1356,900,1391,900"/>
+<area shape="rect" id="Node000032" href="$dd/d75/classJetRecoEval.html#af6356d19d3ff0ee9c9849348466e7d0e" title="what was the energy contribution to this reconstructed jet from this truth jet?" alt="" coords="699,959,879,1004"/>
+<area shape="poly" id="edge52_Node000027_Node000032" title=" " alt="" coords="1392,932,1356,940,1239,967,1187,976,1120,984,994,990,879,989,879,983,994,985,1120,979,1186,971,1238,962,1355,935,1390,927"/>
+<area shape="poly" id="edge51_Node000027_Node000035" title=" " alt="" coords="1482,941,1464,987,1437,1042,1402,1097,1357,1145,1340,1157,1337,1152,1354,1141,1397,1094,1432,1039,1459,985,1477,939"/>
+<area shape="rect" id="Node000029" href="$da/d7e/classCaloRawClusterEval.html#aadd6df22b452d89c41139c157fe9d14e" title="which cluster did this primary truth shower contribute the most energy to?" alt="" coords="950,895,1102,940"/>
+<area shape="poly" id="edge42_Node000028_Node000029" title=" " alt="" coords="1152,912,1103,915,1103,910,1152,907"/>
+<area shape="rect" id="Node000031" href="$da/d7e/classCaloRawClusterEval.html#a7a286115cba7a692a7a6da4cdfaf1fca" title="how much energy did this primary truth particle contribute to this cluster" alt="" coords="933,741,1120,785"/>
+<area shape="poly" id="edge44_Node000028_Node000031" title=" " alt="" coords="1183,875,1166,864,1151,847,1142,830,1133,815,1118,800,1099,788,1102,783,1122,795,1138,812,1147,828,1155,844,1170,860,1186,871"/>
+<area shape="poly" id="edge45_Node000028_Node000032" title=" " alt="" coords="1192,934,1121,955,995,974,879,982,879,977,994,969,1119,950,1190,929"/>
+<area shape="rect" id="Node000033" href="$da/d7e/classCaloRawClusterEval.html#ac0e58d7e3a9311943294ce4a7ac4d290" title="which primary shower contributed the most energy to this cluster?" alt="" coords="949,809,1104,871"/>
+<area shape="poly" id="edge48_Node000028_Node000033" title=" " alt="" coords="1160,879,1103,863,1105,858,1161,873"/>
+<area shape="rect" id="Node000030" href="$da/d7e/classCaloRawClusterEval.html#a88fec8e70a64c5cb4986bcc4ad519470" title="which cluster did this primary truth particle contribute the most energy to?" alt="" coords="713,890,865,935"/>
+<area shape="poly" id="edge43_Node000029_Node000030" title=" " alt="" coords="935,918,866,917,866,911,935,913"/>
+<area shape="poly" id="edge46_Node000032_Node000014" title=" " alt="" coords="700,954,692,949,677,936,667,922,658,910,644,897,582,863,530,845,475,832,405,813,360,800,362,795,407,808,476,827,531,840,584,858,647,893,662,906,672,919,680,932,695,945,702,949"/>
+<area shape="poly" id="edge47_Node000032_Node000017" title=" " alt="" coords="692,957,389,871,390,866,693,952"/>
+<area shape="rect" id="Node000034" href="$da/d7e/classCaloRawClusterEval.html#acf8fb6e0c09e48569dc1a6d3a6f2a065" title="which particle contributed the most energy to this cluster?" alt="" coords="712,804,866,866"/>
+<area shape="poly" id="edge49_Node000033_Node000034" title=" " alt="" coords="934,841,866,839,867,834,934,835"/>
+</map>

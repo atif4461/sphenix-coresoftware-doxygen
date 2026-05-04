@@ -1,0 +1,24 @@
+<map id="mvtx::PayLoadCont::getSize" name="mvtx::PayLoadCont::getSize">
+<area shape="rect" id="Node000001" title="get offset of the current ptr from the head" alt="" coords="775,29,931,74"/>
+<area shape="rect" id="Node000002" href="$d4/d26/structmvtx_1_1GBTLink.html#ad6225c43f445604b75082c8a95e4cedd" title=" " alt="" coords="317,5,524,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="768,27,727,19,623,12,524,14,524,8,623,6,728,14,769,22"/>
+<area shape="rect" id="Node000004" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a85e250b959d8578551575cb2907abf56" title="fill n bytes with given symbol" alt="" coords="572,29,727,74"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="760,54,728,54,728,48,760,48"/>
+<area shape="rect" id="Node000005" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a5ad0703c5973fc37a15bbdc3492e0dbf" title="make sure buffer may accept at least n bytes" alt="" coords="572,98,727,143"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="772,81,718,100,717,95,770,76"/>
+<area shape="rect" id="Node000003" href="$d4/d26/structmvtx_1_1GBTLink.html#ac3f8f594b30c6515949befeeac8a6d31" title=" " alt="" coords="5,5,269,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="301,22,269,22,269,16,301,16"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="556,41,524,36,524,31,557,36"/>
+<area shape="rect" id="Node000006" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a7093298a2b3126ba8c256342c5833652" title="Append data using provided getter function." alt="" coords="343,70,498,115"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="556,112,498,105,499,99,557,106"/>
+<area shape="rect" id="Node000007" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a3a545de0f8c1ef90c91d26c09dab543d" title="fill n bytes with given symbol w/o checking for the size" alt="" coords="343,140,498,184"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="557,140,499,150,498,145,556,135"/>
+<area shape="rect" id="Node000008" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a849a301e7d4be5918b61248a30a9eaaa" title="add new byte to the buffer" alt="" coords="47,76,227,104"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="333,137,268,119,215,107,216,102,269,114,334,132"/>
+<area shape="rect" id="Node000009" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a79c45bbcab38296e1298abc6e041f6ab" title="shrink buffer to requested size, no check on over/under flow" alt="" coords="47,128,227,156"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="327,158,227,151,227,145,327,153"/>
+<area shape="rect" id="Node000010" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a11e4bca5479818624caf7785df3636de" title="Add a byte value to the internal buffer." alt="" coords="47,180,227,208"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="328,175,227,186,227,181,327,170"/>
+<area shape="rect" id="Node000011" href="$d1/d6f/classmvtx_1_1PayLoadCont.html#a8bc650f4539cc019d498cb1f75515b66" title="add n bytes to the buffer, expand if needed. no check for overlap" alt="" coords="51,232,223,260"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="352,193,269,222,220,234,219,229,268,217,350,188"/>
+</map>

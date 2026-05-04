@@ -1,0 +1,22 @@
+<map id="TriggerDefs::getSumLocId" name="TriggerDefs::getSumLocId">
+<area shape="rect" id="Node000001" title="Extract location identifier from trigger sum key." alt="" coords="646,64,834,92"/>
+<area shape="rect" id="Node000002" href="$d6/ddd/namespaceTriggerDefs.html#a5673d047ab153c88a06914b00f925a45" title="Retrieve the eta index for a trigger sum based on its primitive type." alt="" coords="412,64,598,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="631,81,599,81,599,76,631,76"/>
+<area shape="rect" id="Node000003" href="$db/dda/classCaloTriggerEmulator.html#ab0eaf251e1f5dec86815c2f0272b41ef" title="Process organizer to build trigger primitives for EMCAL and HCAL and combine into jet primitives." alt="" coords="210,5,363,50"/>
+<area shape="poly" id="edge12_Node000001_Node000003" title=" " alt="" coords="651,64,598,56,474,43,363,34,363,29,475,37,599,50,651,59"/>
+<area shape="rect" id="Node000008" href="$d6/ddd/namespaceTriggerDefs.html#aaa5097978be92fc976d9c9d165c4990d" title="Compute the phi sector identifier for a given trigger sum key." alt="" coords="412,116,598,144"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="660,99,572,118,571,113,659,94"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="427,63,363,48,364,43,428,58"/>
+<area shape="rect" id="Node000005" href="$de/df0/classTriggerValid.html#a02baa4888cc93f55306c87a8d788a71e" title="Process calorimeter towers and trigger primitives for the current event." alt="" coords="209,144,364,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="433,100,413,107,389,120,365,134,341,146,339,141,363,129,386,115,411,103,432,95"/>
+<area shape="rect" id="Node000007" href="$db/dda/classCaloTriggerEmulator.html#a6a17e1f398b7f880ad732e5a7b073852" title="Process trigger primitives for photon and jet triggers and fill output bits." alt="" coords="210,75,363,119"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="397,90,364,93,363,88,396,85"/>
+<area shape="rect" id="Node000004" href="$db/dda/classCaloTriggerEmulator.html#a51370fb1c88349f20aa1e35a77a74bc0" title="event processing method" alt="" coords="6,40,160,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="195,46,161,52,160,47,194,41"/>
+<area shape="rect" id="Node000006" href="$de/df0/classTriggerValid.html#a59cd4310f2c69c507a1153162e7ffe10" title="event processing method" alt="" coords="5,144,161,189"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="193,169,161,169,161,164,193,164"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="194,84,160,78,161,73,195,79"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="425,113,411,106,386,86,362,64,342,53,345,48,366,60,389,82,413,101,428,108"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="403,150,365,156,364,151,402,145"/>
+<area shape="poly" id="edge11_Node000008_Node000007" title=" " alt="" coords="397,117,363,111,364,106,398,111"/>
+</map>

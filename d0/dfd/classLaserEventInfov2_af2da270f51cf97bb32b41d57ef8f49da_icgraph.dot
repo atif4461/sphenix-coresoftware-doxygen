@@ -1,0 +1,16 @@
+digraph "LaserEventInfov2::isGl1LaserPileupEvent"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="LaserEventInfov2::isGl1Laser\lPileupEvent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="LaserEventInfov2::CopyTo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dfd/classLaserEventInfov2.html#ac1449886431fb9f064d69e8b56ccf0f6",tooltip="Copy data from this LaserEventInfov2 to the supplied LaserEventInfo object."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="LaserEventInfov2::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dfd/classLaserEventInfov2.html#a67b5a671a79803f417f40a39530fac21",tooltip="Print summary information of a LaserEventInfov2 object to the provided stream."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="LaserEventInfov2::setIsGl1\lLaserPileupEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/dfd/classLaserEventInfov2.html#abf9122ba7142e321bcb5bc9b2f9323cf",tooltip=" "];
+}

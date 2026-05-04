@@ -1,0 +1,33 @@
+<map id="RawTowerCombiner::process_event" name="RawTowerCombiner::process_event">
+<area shape="rect" id="Node000001" title="Process event merging raw towers into coarser granularity." alt="" coords="5,369,214,414"/>
+<area shape="rect" id="Node000002" href="$d9/dd8/classRawTower.html#aa6bf4e71a4d91275f281689007069d57" title=" " alt="" coords="280,5,437,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,368,124,304,151,216,170,170,194,124,224,81,260,44,266,39,269,43,263,48,228,84,199,127,175,172,156,218,129,305,117,369"/>
+<area shape="rect" id="Node000003" href="$d9/dd8/classRawTower.html#ac525ab50aec43e3b88f9ddf1470349e9" title=" " alt="" coords="268,57,449,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,368,129,312,158,239,177,200,200,162,228,127,260,96,267,90,270,95,263,100,232,130,205,165,182,203,162,241,134,314,118,369"/>
+<area shape="rect" id="Node000004" href="$d9/dd8/classRawTower.html#abe1baf0e3e39fd6088afe3032e392b37" title=" " alt="" coords="276,109,440,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,367,135,321,165,262,207,200,232,172,260,148,269,142,272,146,263,152,236,176,211,204,170,264,140,323,121,369"/>
+<area shape="rect" id="Node000005" href="$d9/dd8/classRawTower.html#ade1c1ea0891ce4318a5acf627e7b0baa" title="Get bin phi index." alt="" coords="277,161,440,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="120,367,142,331,173,285,213,239,260,200,271,193,274,198,263,204,217,243,177,289,146,333,125,370"/>
+<area shape="rect" id="Node000006" href="$d9/dd8/classRawTower.html#af3bd99902a9de44e405726232a186982" title="energy assigned to the tower. Depending on stage of process and DST node name, it could be energy dep..." alt="" coords="274,213,442,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="127,367,183,309,220,278,260,252,275,244,277,249,263,256,223,282,187,313,131,371"/>
+<area shape="rect" id="Node000007" href="$d9/dd8/classRawTower.html#a7ad30feb09ca7850c002a088c32a050b" title="Retrieve a constant range of Geant4 cells associated with this tower." alt="" coords="274,265,443,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="144,366,198,334,261,303,281,296,283,301,263,308,200,339,147,371"/>
+<area shape="rect" id="Node000008" href="$d9/dd8/classRawTower.html#ab13148d0de5d525fe7a490fffc04e50c" title="Retrieve a constant range of Geant4 showers for this tower." alt="" coords="262,317,455,345"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="204,366,282,347,284,352,206,371"/>
+<area shape="rect" id="Node000009" href="$df/d0d/classRawTowerCombiner.html#a8e44cc483b11e46ea7657f4786705c22" title="get the new ieta from the old" alt="" coords="269,369,448,414"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="214,388,253,388,253,394,214,394"/>
+<area shape="rect" id="Node000010" href="$df/d0d/classRawTowerCombiner.html#a17b18461239ddc1520487f5f5f7ea7c0" title="get the new iphi from the old" alt="" coords="269,438,448,483"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="193,412,262,431,260,436,192,417"/>
+<area shape="rect" id="Node000011" href="$d9/dd8/classRawTower.html#a0fdc53056b0144f930688fae3a58971d" title="Time stamp assigned to the tower. Depending on the tower maker, it could be rise time or peak time." alt="" coords="282,507,435,534"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="139,412,194,453,263,493,277,499,275,504,260,498,191,457,136,416"/>
+<area shape="rect" id="Node000012" href="$d9/dd8/classRawTower.html#a3c849dcc004d39ba334efbac98a707a7" title="Identify the object by writing a generic message to the supplied stream." alt="" coords="286,559,430,586"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="129,412,183,478,221,513,263,544,276,550,273,555,260,548,218,517,180,481,125,415"/>
+<area shape="rect" id="Node000013" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="284,611,432,638"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="123,412,144,452,175,502,215,553,263,596,272,601,270,606,260,600,211,556,170,505,139,455,119,415"/>
+<area shape="rect" id="Node000014" href="$d9/dd8/classRawTower.html#ab5d2ef8076b5750583766daadf746be1" title="energy assigned to the tower. Depending on stage of process and DST node name, it could be energy dep..." alt="" coords="275,663,442,690"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="120,413,138,462,167,526,209,592,234,622,263,648,271,653,268,658,260,652,231,625,205,595,163,528,133,464,115,415"/>
+<area shape="rect" id="Node000015" href="$d9/dd8/classRawTower.html#a28dce50dbd7ba96ad4c47a17ee097d94" title="Time stamp assigned to the tower. Depending on the tower maker, it could be rise time or peak time." alt="" coords="282,715,434,742"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="118,413,132,471,160,549,179,590,203,630,231,667,263,700,270,705,267,709,260,704,227,671,198,633,175,592,155,551,127,473,113,415"/>
+<area shape="rect" id="Node000016" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="273,767,444,794"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="116,413,128,480,153,571,173,620,197,668,227,713,263,752,269,756,266,761,260,756,223,716,192,671,168,623,148,573,123,481,111,414"/>
+</map>

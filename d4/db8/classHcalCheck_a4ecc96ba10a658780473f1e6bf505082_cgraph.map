@@ -1,0 +1,28 @@
+<map id="HcalCheck::process_event" name="HcalCheck::process_event">
+<area shape="rect" id="Node000001" title="Process a single event by retrieving HCAL packet data from the node tree." alt="" coords="5,109,154,154"/>
+<area shape="rect" id="Node000002" href="$df/d7b/classDumpPacket.html#a31f4da1843e815bd7fd55f823d79e259" title=" " alt="" coords="202,5,416,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,106,148,74,200,43,220,36,222,41,203,48,151,78,109,111"/>
+<area shape="rect" id="Node000003" href="$df/d7b/classDumpPacket.html#a3bcd97df797b375b1a5891297480576d" title="Dump the contents of an OfflinePacket to a dedicated dump file." alt="" coords="210,57,408,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,107,201,94,230,87,231,92,202,99,155,112"/>
+<area shape="rect" id="Node000006" href="$d1/d7e/classCaloPacketContainer.html#a0e32fb066350789cd32f86e23201d674" title=" " alt="" coords="231,109,386,154"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="154,128,216,128,216,134,154,134"/>
+<area shape="rect" id="Node000007" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="237,177,380,205"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="155,150,202,163,231,171,230,176,201,168,153,155"/>
+<area shape="rect" id="Node000013" href="$d1/d7e/classCaloPacketContainer.html#acf5a86df5400fa208adc1f50d9f6c048" title=" " alt="" coords="231,229,386,274"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="110,152,152,184,203,214,218,221,216,226,200,219,149,188,107,156"/>
+<area shape="rect" id="Node000004" href="$d1/d1a/classOfflinePacket.html#a60fed1c858060ac0178ebd3a83045e1b" title="Dump the contents of the OfflinePacket to the given output stream." alt="" coords="485,17,636,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="400,54,470,43,470,48,401,59"/>
+<area shape="rect" id="Node000005" href="$d1/d1a/classOfflinePacket.html#a7ac5662c88d25f6d2bd1ddb2b4db9488" title=" " alt="" coords="464,69,657,97"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="409,73,449,75,449,81,409,79"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="470,167,651,194"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="381,185,454,182,455,188,381,191"/>
+<area shape="rect" id="Node000012" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="478,219,643,246"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="381,200,463,214,462,219,380,206"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="518,168,511,158,516,148,533,142,561,140,590,142,606,149,604,154,589,148,561,145,534,147,520,152,516,157,522,165"/>
+<area shape="rect" id="Node000009" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="749,115,891,142"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="633,163,734,143,735,148,634,169"/>
+<area shape="rect" id="Node000010" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="754,167,886,194"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="652,178,738,178,738,183,652,183"/>
+<area shape="rect" id="Node000011" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="705,219,935,246"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="634,192,733,212,732,218,633,198"/>
+</map>

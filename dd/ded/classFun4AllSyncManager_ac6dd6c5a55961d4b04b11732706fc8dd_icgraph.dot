@@ -1,0 +1,12 @@
+digraph "Fun4AllSyncManager::Print"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Fun4AllSyncManager\l::Print",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Print information about input managers when requested."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllSyncManager\l::skip",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/ded/classFun4AllSyncManager.html#a9b5874f83d4984e24572838d55513eb3",tooltip="skip n events (0 means up to the end of file). Skip means read, don't process."];
+}

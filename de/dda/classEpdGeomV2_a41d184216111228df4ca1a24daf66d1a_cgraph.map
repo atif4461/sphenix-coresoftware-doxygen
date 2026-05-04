@@ -1,0 +1,14 @@
+<map id="EpdGeomV2::set_phi0" name="EpdGeomV2::set_phi0">
+<area shape="rect" id="Node000001" title="Set the azimuthal offset phi0 for a specific EPD tile." alt="" coords="5,35,170,62"/>
+<area shape="rect" id="Node000002" href="$da/d9c/namespaceTowerInfoDefs.html#a789cccaab5a87fcc4671f92661d28894" title="Compute phi bin for an EPD tower from its key." alt="" coords="218,26,361,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,46,202,46,202,51,170,51"/>
+<area shape="rect" id="Node000003" href="$da/d9c/namespaceTowerInfoDefs.html#a953898b2e082f247a5dcb46720a7fafc" title="Extract the arm identifier from a tower key." alt="" coords="792,21,935,65"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="356,23,409,11,507,3,606,5,699,14,777,24,776,30,698,19,606,11,507,9,409,16,357,28"/>
+<area shape="rect" id="Node000004" href="$da/d9c/namespaceTowerInfoDefs.html#acdcd895ff78d6d66c853553657471a92" title="Return radial bin index for a given EPD tower key." alt="" coords="409,26,552,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="361,46,394,46,394,51,361,51"/>
+<area shape="rect" id="Node000005" href="$da/d9c/namespaceTowerInfoDefs.html#a7610aec2a9ff9b58e5e5ea46f82240d2" title="Compute the EPD sector index from a global tower key." alt="" coords="600,81,744,125"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="361,69,409,80,500,93,586,98,585,104,500,98,409,86,360,74"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="553,45,776,42,776,47,553,50"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="554,66,586,76,585,81,552,72"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="743,78,776,68,778,73,745,83"/>
+</map>

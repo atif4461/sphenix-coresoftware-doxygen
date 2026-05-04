@@ -1,0 +1,27 @@
+<map id="AnnularFieldSim::swimTo" name="AnnularFieldSim::swimTo">
+<area shape="rect" id="Node000001" title="Swim particle to a target z position." alt="" coords="5,163,190,190"/>
+<area shape="rect" id="Node000002" href="$de/d64/classAnnularFieldSim.html#a5868eb5808ec182e9299bee9be6f5b0f" title="Propagate a particle to a target z position using analytic steps in the annular field." alt="" coords="482,188,678,232"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,180,467,199,467,205,190,186"/>
+<area shape="rect" id="Node000009" href="$de/d64/classAnnularFieldSim.html#a61f0b23cecab5b9f7e5feac62a3838e4" title="Compute propagated position at given z using straight line plus field distortion." alt="" coords="238,121,434,166"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="190,161,222,156,223,162,191,166"/>
+<area shape="rect" id="Node000003" href="$de/d64/classAnnularFieldSim.html#a89886f51584b79fee6e61ca60e353545" title="Map an azimuthal angle to the positive range [0, 2π)." alt="" coords="1224,144,1435,172"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="622,230,723,279,789,305,863,328,941,344,1020,350,1099,344,1138,334,1175,321,1220,293,1258,256,1289,218,1311,184,1316,186,1293,221,1262,260,1223,297,1177,326,1139,339,1100,349,1020,356,940,349,861,333,787,310,721,284,620,235"/>
+<area shape="rect" id="Node000004" href="$de/d64/classAnnularFieldSim.html#ac961e366f82550417663d8604e55aec2" title="Compute the distortion vector for a particle step to a specified z destination." alt="" coords="726,153,914,198"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="679,193,710,188,711,194,679,198"/>
+<area shape="poly" id="edge9_Node000004_Node000003" title=" " alt="" coords="914,176,962,177,1069,180,1176,177,1225,172,1225,177,1176,182,1069,185,962,182,914,181"/>
+<area shape="rect" id="Node000005" href="$de/d64/classAnnularFieldSim.html#a3451f4963ce7c171bfbd0d566d3f10b9" title=" " alt="" coords="975,266,1162,311"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="872,196,1005,257,1003,262,870,201"/>
+<area shape="rect" id="Node000006" href="$de/d64/classAnnularFieldSim.html#af49cb183b20be9a1ceba70f1a3b5c64e" title="Integrate electric field along z from start to zdest assuming straight line path." alt="" coords="962,47,1176,74"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="849,150,900,116,961,83,978,77,980,82,963,88,903,120,852,154"/>
+<area shape="rect" id="Node000008" href="$de/d64/classAnnularFieldSim.html#aef1291170f9342d354fd2d9e41706fb0" title=" " alt="" coords="962,122,1176,167"/>
+<area shape="poly" id="edge10_Node000004_Node000008" title=" " alt="" coords="914,161,946,157,946,162,914,166"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="1021,266,1020,256,1028,247,1044,242,1069,240,1096,242,1112,249,1110,253,1094,247,1069,245,1046,247,1031,252,1025,258,1027,265"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="1140,72,1177,83,1237,108,1290,134,1288,139,1235,113,1175,88,1139,78"/>
+<area shape="rect" id="Node000007" href="$d8/d64/classMultiArray.html#aec5a4ca1ee2a856a7574a75d6ad48568" title="Retrieve element from multi dimensional field." alt="" coords="1270,47,1389,74"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="1176,58,1254,58,1254,63,1176,63"/>
+<area shape="poly" id="edge11_Node000008_Node000008" title=" " alt="" coords="1021,122,1020,112,1028,103,1044,98,1069,96,1096,98,1112,105,1110,109,1094,103,1069,101,1046,103,1031,108,1025,114,1027,121"/>
+<area shape="rect" id="Node000010" href="$de/d64/classAnnularFieldSim.html#aae2d9b9913d410d22242028c08c6865a" title="Compute total distortion vector for a particle drifting from start to destination z." alt="" coords="486,118,675,163"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="434,139,470,139,470,144,434,145"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="622,115,723,69,789,44,863,23,941,8,1021,3,1101,10,1140,19,1177,33,1194,43,1204,56,1213,70,1226,84,1293,133,1290,138,1222,88,1208,73,1200,59,1190,47,1175,38,1138,24,1100,15,1021,8,942,13,864,28,791,49,725,74,624,120"/>
+<area shape="poly" id="edge15_Node000010_Node000004" title=" " alt="" coords="676,152,711,157,711,162,675,157"/>
+</map>

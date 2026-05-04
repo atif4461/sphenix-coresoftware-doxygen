@@ -1,0 +1,31 @@
+<map id="PHG4StepStatusDecode::GetStepStatus" name="PHG4StepStatusDecode::GetStepStatus">
+<area shape="rect" id="Node000001" title="Decode integer step status to its string representation." alt="" coords="289,456,465,501"/>
+<area shape="rect" id="Node000002" href="$d1/dc5/classBeamLineMagnetSteppingAction.html#abb9c33b1eceb8d382d74afa5c279a0ce" title="stepping action" alt="" coords="6,5,240,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="372,441,364,362,344,261,327,208,304,156,275,107,239,64,224,52,227,48,243,60,279,104,309,153,332,206,349,260,370,362,377,440"/>
+<area shape="rect" id="Node000003" href="$d3/d82/classPHG4BbcSteppingAction.html#a1766e3be6a0e8f9b657d8df955090830" title="stepping action" alt="" coords="33,75,213,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="369,441,357,375,334,292,317,249,296,207,270,168,239,134,211,116,214,112,242,130,274,165,301,204,322,247,339,290,363,374,374,440"/>
+<area shape="rect" id="Node000004" href="$d1/da2/classPHG4BlockSteppingAction.html#a6ab00136dad6c347e42a24665b4f4aa5" title="stepping action" alt="" coords="27,144,219,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="365,441,350,388,324,324,288,258,265,229,239,203,218,189,221,185,242,199,269,225,292,256,329,321,355,386,370,440"/>
+<area shape="rect" id="Node000005" href="$da/d58/classPHG4CylinderSteppingAction.html#a36deff66c7ba2e6ae97d234ec1efce2d" title="stepping action" alt="" coords="18,213,228,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="359,443,340,403,314,357,280,311,239,272,220,261,222,256,242,268,284,308,318,354,345,401,364,441"/>
+<area shape="rect" id="Node000006" href="$d7/dc2/classPHG4EPDSteppingAction.html#ae1644f36e67123501e351509b3d12843" title="Process a Geant4 step for the EPD detector and create or update a hit." alt="" coords="32,283,214,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="348,445,301,392,271,365,239,342,213,329,215,324,242,337,275,361,305,388,352,442"/>
+<area shape="rect" id="Node000007" href="$d6/d5a/classPHG4IHCalSteppingAction.html#a80b1bb7c5e4fd749c047c1f99fe62e47" title="stepping action" alt="" coords="28,352,218,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="321,451,240,411,207,400,209,395,242,407,324,446"/>
+<area shape="rect" id="Node000008" href="$df/dec/classPHG4InnerHcalSteppingAction.html#a8e48a0e2268f23222bf8acddd9e7a34e" title="stepping action" alt="" coords="14,421,232,466"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="273,467,232,461,233,456,273,462"/>
+<area shape="rect" id="Node000009" href="$de/d87/classPHG4MicromegasSteppingAction.html#a27060b67655370a43fcae6544f1a04aa" title="stepping action" alt="" coords="5,491,241,535"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="273,495,241,500,241,494,273,490"/>
+<area shape="rect" id="Node000010" href="$de/d05/classPHG4OHCalSteppingAction.html#a144944ad79035e5fdf4ac2e0443a7180" title="stepping action" alt="" coords="25,560,221,605"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="324,511,242,550,209,562,207,557,240,545,321,506"/>
+<area shape="rect" id="Node000011" href="$d3/d77/classPHG4OuterHcalSteppingAction.html#a212d3081cbabd0b44034b5467a86a5e2" title="stepping action" alt="" coords="13,629,233,674"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="352,515,305,569,275,596,242,619,218,631,216,626,239,615,271,592,301,565,348,511"/>
+<area shape="rect" id="Node000012" href="$d4/d8c/classPHG4PSTOFSteppingAction.html#afc72b2ac8985c21fd716c504830d81f5" title="stepping action" alt="" coords="25,699,221,743"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="364,516,345,556,318,603,284,649,242,688,222,701,220,696,239,684,280,645,314,600,340,554,359,514"/>
+<area shape="rect" id="Node000013" href="$d7/d22/classPHG4sPHENIXMagnetSteppingAction.html#a8add3f223c27bcbf8f398aea5aa76448" title="stepping action" alt="" coords="13,768,233,813"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="370,517,355,571,329,635,292,701,269,731,242,758,225,770,222,765,239,754,265,728,288,698,324,633,350,569,365,515"/>
+<area shape="rect" id="Node000014" href="$d9/d1f/classPHG4TpcEndCapSteppingAction.html#a70f1873d993cd94d18654b2af52a98c0" title="stepping action" alt="" coords="9,837,237,882"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="374,517,363,583,339,666,322,710,301,753,274,792,242,827,226,839,223,835,239,823,270,789,296,750,317,708,334,665,357,582,369,516"/>
+<area shape="rect" id="Node000015" href="$dc/d04/classPHG4TpcSteppingAction.html#a07949d3df0d1a4345675bc7fc2787333" title="stepping action" alt="" coords="34,907,212,951"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="377,516,370,595,349,697,332,751,309,803,279,853,242,896,214,915,211,911,239,892,275,850,304,801,327,749,344,696,364,594,372,516"/>
+</map>

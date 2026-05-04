@@ -1,0 +1,12 @@
+digraph "PHG4InnerHcalDetector::ConstructSteelPlate"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4InnerHcalDetector\l::ConstructSteelPlate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct the extruded steel plate solid for the inner HCal."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4InnerHcalDetector\l::ShiftSecantToTangent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d80/classPHG4InnerHcalDetector.html#a97e5840a544f4a0fbafa11b6ab75c7b6",tooltip="Adjust secant edge of inner Hcal geometry to tangent of inner radius circle."];
+}

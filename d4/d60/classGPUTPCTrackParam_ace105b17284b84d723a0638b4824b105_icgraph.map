@@ -1,0 +1,17 @@
+<map id="GPUTPCTrackParam::GetCosPhi" name="GPUTPCTrackParam::GetCosPhi">
+<area shape="rect" id="Node000001" title=" " alt="" coords="986,29,1210,57"/>
+<area shape="rect" id="Node000002" href="$de/dfe/classALICEKF.html#a09cf0e43e21e3c2569de4c872722c326" title="Perform a Kalman filter step for a given cluster and update track parameters." alt="" coords="256,29,400,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="970,30,937,27,693,9,585,10,448,20,385,31,385,26,448,15,585,4,693,4,938,22,970,25"/>
+<area shape="rect" id="Node000004" href="$d4/d60/classGPUTPCTrackParam.html#ad635b543205c917ebfb4b393fa503c9b" title="Compute the point on the helix that is closest to a given spatial coordinate." alt="" coords="448,29,689,57"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="970,46,690,46,690,40,970,40"/>
+<area shape="rect" id="Node000005" href="$d4/d60/classGPUTPCTrackParam.html#af5292b98a6bcc9a754d3f6b2706ab307" title="Compute the signed transverse path length from the track reference point to a target point." alt="" coords="743,55,932,82"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="971,58,933,62,932,57,970,53"/>
+<area shape="rect" id="Node000006" href="$d4/d60/classGPUTPCTrackParam.html#a2e55799a5ae01e23af6b5d1b24b2ec9d" title="Rotate the track parameters to a new XY coordinate system by angle alpha." alt="" coords="737,107,938,134"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1039,65,938,96,895,109,893,104,937,91,1038,60"/>
+<area shape="rect" id="Node000003" href="$de/dfe/classALICEKF.html#a44f906df99f1bd40e2db1d8e9705f4b0" title="Perform an ALICE style Kalman filter on a collection of track seed key lists and produce sPHENIX and ..." alt="" coords="5,29,208,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,46,208,46,208,40,240,40"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="727,61,690,57,690,52,728,55"/>
+<area shape="rect" id="Node000007" href="$de/dfe/classALICEKF.html#a3d53f85bf7c62a804f609abbac24db5f" title="Transport a track from an old radius to a new radius while updating the azimuthal angle." alt="" coords="464,93,674,121"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="722,117,674,115,674,110,722,112"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="498,91,382,60,384,55,500,86"/>
+</map>

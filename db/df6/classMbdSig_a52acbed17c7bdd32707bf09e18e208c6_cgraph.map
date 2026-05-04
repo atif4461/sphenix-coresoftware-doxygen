@@ -1,0 +1,18 @@
+<map id="MbdSig::SetXY" name="MbdSig::SetXY">
+<area shape="rect" id="Node000001" title="Set XY data for a channel and fill raw and pedestal subtracted histograms." alt="" coords="5,96,121,124"/>
+<area shape="rect" id="Node000002" href="$db/df6/classMbdSig.html#ad8ed1d59081fdcb7a5162f5928b1b6ba" title="Compute event pedestal from raw pulse samples between specified indices." alt="" coords="171,5,345,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,93,120,68,168,42,183,36,185,41,170,47,123,72,85,98"/>
+<area shape="rect" id="Node000004" href="$db/df6/classMbdSig.html#ab9b96b1a9847b9b767d560834a4d9782" title="Calculate pedestal for current event using presample region." alt="" coords="171,57,345,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="121,98,155,93,156,98,121,103"/>
+<area shape="rect" id="Node000005" href="$db/df6/classMbdSig.html#a4e22f04fc13d000a449bb1efc6c8463c" title="Draw Subtracted Waveform." alt="" coords="395,124,542,152"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="121,111,379,129,379,134,121,116"/>
+<area shape="rect" id="Node000006" href="$db/df6/classMbdSig.html#a61008793ae9ab4c862e849dd4f617d93" title="Remove pileup contributions from the waveform of the current channel." alt="" coords="169,176,347,204"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="95,122,170,155,201,168,200,173,168,160,93,127"/>
+<area shape="rect" id="Node000003" href="$db/df6/classMbdSig.html#a4abfa1dba52a11eef2e75f0f988c19af" title="Set pedestal mean and RMS for channel." alt="" coords="404,36,534,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="346,29,389,36,388,41,345,35"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="345,64,388,58,389,64,346,70"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="341,99,402,117,401,122,340,105"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="317,173,394,153,395,159,318,178"/>
+<area shape="rect" id="Node000007" href="$db/df6/classMbdSig.html#ad3cd4335c1d7264cf2fd40629072a43b" title="Compute tail contribution of Mbd signal model." alt="" coords="399,176,538,204"/>
+<area shape="poly" id="edge9_Node000006_Node000007" title=" " alt="" coords="347,187,383,187,383,192,347,192"/>
+</map>

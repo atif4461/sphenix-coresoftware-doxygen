@@ -1,0 +1,16 @@
+digraph "PHG4CylinderGeom_Spacalv3::identify"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4CylinderGeom_Spacalv3\l::identify",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Identify prints geometry parameters to output stream."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4SpacalDetector\l::AddCellGeometryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da4/classPHG4SpacalDetector.html#af2c4c4c1f8ca4bba2552dd18f6ff54b5",tooltip="Add cell geometry node for SPACAL detector."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4FullProjTiltedSpacal\lDetector::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698",tooltip="Construct the full projected tilted SPACAL detector geometry within the given world volume."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4FullProjSpacalCellReco\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#aea3e5a8a10917a094b537adc5201d6f9",tooltip="module initialization"];
+}

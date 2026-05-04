@@ -1,0 +1,12 @@
+digraph "SvtxTrackMap_v2::~SvtxTrackMap_v2"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SvtxTrackMap_v2::~SvtxTrack\lMap_v2",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Destructor for SvtxTrackMap_v2 that resets internal state."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrackMap_v2::Reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/db7/classSvtxTrackMap__v2.html#af3c5b1e5d2ea8e03a32151d44abb626d",tooltip="Reset the SvtxTrackMap_v2 by deleting all SvtxTrack objects and clearing the internal map This commen..."];
+}

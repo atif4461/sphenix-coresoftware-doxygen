@@ -1,0 +1,12 @@
+digraph "TpcClusterBuilder::addhitset"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TpcClusterBuilder::\laddhitset",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Add or update a hit in a hitset for the current embedded track."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4TpcPadPlaneReadout\l::MapToPadPlane",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6c/classPHG4TpcPadPlaneReadout.html#a856e45f59af40fc40c55484f8ca58d2e",tooltip="Map a single GEM electron to TPC pad plane and fill hit containers."];
+}

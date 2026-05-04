@@ -1,0 +1,16 @@
+digraph "EventHeaderv1::get_RunNumber"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="EventHeaderv1::get\l_RunNumber",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="get Run Number"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="EventHeaderv1::CopyTo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d76/classEventHeaderv1.html#ae3dbb921b7b8421ae1ea79b76aaf0c5d",tooltip="Copy all run, sequence and property values from this EventHeaderv1 into the supplied EventHeader."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="EventHeaderv2::CopyTo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d20/classEventHeaderv2.html#a22282f7479ecfecd6c330e140058279b",tooltip="Copy event header data from this object to another EventHeader."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="EventHeaderv2::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d20/classEventHeaderv2.html#ad822ecffe5475dbf70baeb5ccb2eecb3",tooltip="Print identification information for the EventHeaderv2 object."];
+}

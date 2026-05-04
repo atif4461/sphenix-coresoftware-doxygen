@@ -1,0 +1,14 @@
+digraph "GlobalVertexv1::GlobalVertexv1"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="GlobalVertexv1::GlobalVertexv1",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct a GlobalVertexv1 object with specified vertex type identifier."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GlobalVertexv1::CloneMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d60/classGlobalVertexv1.html#af384b44a589c443d848d762f320645b7",tooltip="Virtual copy constructor."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GlobalVertexv1::Reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d60/classGlobalVertexv1.html#ab24baffc5e6b03ee98088bfff6f0f1dd",tooltip="Clear Event."];
+}

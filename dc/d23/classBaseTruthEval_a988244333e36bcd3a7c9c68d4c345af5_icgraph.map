@@ -1,0 +1,51 @@
+<map id="BaseTruthEval::has_reduced_node_pointers" name="BaseTruthEval::has_reduced_node_pointers">
+<area shape="rect" id="Node000001" title="Check if the truth information node pointers are present (reduced) in the current evaluation." alt="" coords="672,545,852,590"/>
+<area shape="rect" id="Node000002" href="$dc/d23/classBaseTruthEval.html#a443a09b6f15a320ff923ef5d930f44c4" title="which secondary showers are inside this shower?" alt="" coords="451,5,607,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="759,530,755,438,748,378,737,314,720,247,696,181,664,119,622,64,606,51,609,47,626,60,668,116,701,179,725,245,742,313,754,377,760,437,764,530"/>
+<area shape="rect" id="Node000003" href="$dc/d23/classBaseTruthEval.html#ac62b58b54f3e184b28ab9d44ea4292f7" title="do these two particle pointers resolve to the same particle?" alt="" coords="458,75,600,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="757,530,749,449,729,343,711,287,688,232,659,180,622,134,599,117,602,112,626,130,663,177,693,229,716,285,734,342,755,448,762,529"/>
+<area shape="rect" id="Node000004" href="$dc/d23/classBaseTruthEval.html#adaeb22c1c26b4729c1185c13156bc22a" title="do these two shower pointers resolve to the same shower?" alt="" coords="458,144,600,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="754,530,743,461,720,374,702,328,681,283,654,240,623,203,599,187,602,182,626,199,659,237,685,280,707,325,725,372,748,460,760,529"/>
+<area shape="rect" id="Node000005" href="$dc/d23/classBaseTruthEval.html#a431bd69deaddb2d0de37aecf771518a5" title="do these two vertex pointers resolve to the same vertex?" alt="" coords="458,213,600,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="750,531,734,476,708,409,671,340,648,308,623,279,597,261,600,256,626,275,653,304,676,337,713,407,739,474,755,529"/>
+<area shape="rect" id="Node000006" href="$dc/d23/classBaseTruthEval.html#a4283b2f124d147df8499373f59372773" title="what was the embed flag set for this particle?" alt="" coords="5,460,148,505"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="685,542,624,525,494,502,363,490,243,484,148,483,148,478,243,479,363,484,494,497,625,520,687,537"/>
+<area shape="rect" id="Node000007" href="$dc/d23/classBaseTruthEval.html#ae47d2802c8c23008fbb4da2165867ecb" title="what was the parent particle of this particle?" alt="" coords="458,333,600,378"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="737,534,689,466,658,431,623,399,593,381,595,376,626,395,662,427,694,463,742,530"/>
+<area shape="rect" id="Node000008" href="$dc/d23/classBaseTruthEval.html#ac3045216b60b1b54d9fdd81e3a07b938" title="which particle left this truth hit?" alt="" coords="220,384,362,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="731,536,684,490,655,468,623,450,557,427,487,414,420,407,362,406,362,401,421,402,488,408,558,422,625,445,658,463,687,485,735,532"/>
+<area shape="rect" id="Node000009" href="$dc/d23/classBaseTruthEval.html#ab61d7f1ac372d54076f59f6fcebd3585" title="which primary particle resulted in this truth hit?" alt="" coords="5,384,148,429"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="750,531,735,481,710,423,673,367,650,343,623,323,591,307,558,296,488,285,416,287,345,299,277,318,215,341,119,386,117,381,213,336,275,313,344,294,416,281,488,279,559,291,593,302,626,319,653,339,677,363,714,420,740,479,755,530"/>
+<area shape="rect" id="Node000010" href="$dc/d23/classBaseTruthEval.html#a7def33b4d1e4fe19922faa02ea287a5c" title="what was the primary particle that is associated with this particle?" alt="" coords="220,504,362,549"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="656,555,624,552,362,532,362,527,625,546,657,550"/>
+<area shape="rect" id="Node000011" href="$dc/d23/classBaseTruthEval.html#adc3cb5b39ad856e0b0cb19a09a04e0df" title="what was the primary particle that is associated with this shower?" alt="" coords="5,543,148,587"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="657,570,148,568,148,563,657,565"/>
+<area shape="rect" id="Node000012" href="$dc/d23/classBaseTruthEval.html#a1fbb3b7ea61e2d734fb56448565d5518" title="what was the primary shower that is associated with this particle?" alt="" coords="5,620,148,665"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="760,606,745,722,719,873,701,947,679,1014,655,1068,641,1088,626,1103,568,1139,539,1150,510,1157,454,1158,399,1145,346,1119,294,1082,243,1036,194,983,164,944,140,900,121,855,106,810,86,726,77,665,83,665,91,725,111,808,126,853,145,898,169,941,198,979,247,1032,297,1078,349,1114,401,1140,455,1153,509,1152,537,1145,565,1134,623,1099,637,1085,650,1065,674,1012,696,946,713,871,740,721,754,605"/>
+<area shape="rect" id="Node000013" href="$dc/d23/classBaseTruthEval.html#a3806c816f6d1a3cf14a69834e60e3b64" title="which primary shower contains this truth hit?" alt="" coords="458,680,600,725"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="724,602,679,637,626,670,600,682,598,677,623,665,675,632,721,598"/>
+<area shape="rect" id="Node000014" href="$dc/d23/classBaseTruthEval.html#a33511b72aa6663af766391a6da4f7663" title="what was the primary shower for this possibly secondary shower?" alt="" coords="220,709,362,754"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="746,605,727,639,700,677,666,712,626,739,593,752,559,761,488,767,421,763,362,753,363,748,421,757,488,761,558,755,591,747,623,735,663,708,696,674,722,636,742,602"/>
+<area shape="rect" id="Node000015" href="$dc/d23/classBaseTruthEval.html#ad3f606dcf24aeca41b79f5d64f68dc0e" title="what was the vertex creation point of the particle?" alt="" coords="458,800,600,845"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="748,605,728,645,701,693,667,741,626,783,598,802,595,797,623,779,663,737,697,690,724,643,743,603"/>
+<area shape="rect" id="Node000016" href="$dc/d23/classBaseTruthEval.html#a722677b3dde86c733aa0f7a9a0fb2749" title=" " alt="" coords="455,869,603,914"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="755,606,740,661,714,729,677,798,653,830,626,859,605,873,602,869,623,855,649,827,672,795,709,727,735,660,750,604"/>
+<area shape="rect" id="Node000017" href="$dc/d23/classBaseTruthEval.html#ac0e4471cf9a8a877339f46ba903d0c14" title="was this truth hit left by this particle?" alt="" coords="443,939,615,983"/>
+<area shape="poly" id="edge21_Node000001_Node000017" title=" " alt="" coords="759,606,747,674,724,760,706,805,685,849,658,891,626,928,611,940,607,936,622,924,654,888,680,847,701,803,719,758,742,673,754,605"/>
+<area shape="rect" id="Node000018" href="$dc/d23/classBaseTruthEval.html#a8b3bfeea64a5eee4a3bb2c3fcc380b7e" title="is this truth hit inside this shower?" alt="" coords="443,1008,615,1053"/>
+<area shape="poly" id="edge22_Node000001_Node000018" title=" " alt="" coords="762,606,754,686,733,790,715,846,692,900,663,952,626,998,611,1010,608,1005,622,994,658,949,688,898,710,844,728,789,749,685,757,605"/>
+<area shape="rect" id="Node000019" href="$dc/d23/classBaseTruthEval.html#a6f415bfe15e689b3fbb6426fd80f9e2b" title="is this a primary particle?" alt="" coords="196,942,386,970"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="759,605,743,714,716,854,698,923,677,985,653,1035,626,1067,601,1083,578,1093,556,1097,534,1097,487,1086,433,1067,392,1048,355,1022,303,972,306,968,358,1018,395,1043,435,1063,489,1081,534,1092,555,1092,577,1088,599,1078,623,1063,649,1032,672,983,693,922,711,853,738,713,754,605"/>
+<area shape="rect" id="Node000020" href="$dc/d23/classBaseTruthEval.html#a98bebdc989a84ce46fff6fa958476041" title="is this a primary shower?" alt="" coords="434,628,624,656"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="677,598,576,630,574,625,675,593"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="204,409,148,409,148,404,204,404"/>
+<area shape="poly" id="edge11_Node000010_Node000006" title=" " alt="" coords="204,511,147,500,149,494,205,506"/>
+<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="235,498,117,432,120,427,238,494"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="205,545,148,555,148,550,204,539"/>
+<area shape="poly" id="edge14_Node000010_Node000012" title=" " alt="" coords="236,559,121,622,118,617,233,554"/>
+<area shape="poly" id="edge25_Node000020_Node000010" title=" " alt="" coords="484,624,337,552,340,547,486,619"/>
+<area shape="poly" id="edge26_Node000020_Node000012" title=" " alt="" coords="418,645,148,645,148,640,418,640"/>
+<area shape="poly" id="edge27_Node000020_Node000014" title=" " alt="" coords="455,663,435,670,339,711,337,706,433,665,454,658"/>
+<area shape="poly" id="edge28_Node000020_Node000019" title=" " alt="" coords="440,667,436,670,416,691,406,713,400,738,388,767,302,943,297,940,384,765,395,736,401,711,411,689,432,666,436,662"/>
+<area shape="poly" id="edge29_Node000020_Node000020" title=" " alt="" coords="569,616,555,610,529,607,505,609,492,614,488,619,494,626,489,630,483,620,488,610,504,604,529,602,556,604,571,611"/>
+</map>

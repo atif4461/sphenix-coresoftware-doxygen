@@ -1,0 +1,29 @@
+digraph "EventHeaderv2::CopyTo"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="EventHeaderv2::CopyTo",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Copy event header data from this object to another EventHeader."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="EventHeaderv1::CopyTo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d76/classEventHeaderv1.html#ae3dbb921b7b8421ae1ea79b76aaf0c5d",tooltip="Copy all run, sequence and property values from this EventHeaderv1 into the supplied EventHeader."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="EventHeaderv1::get\l_EvtSequence",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d76/classEventHeaderv1.html#ab8ad8d1f6eddbc0094e3a24fa6d47d99",tooltip="get Event Number"];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="EventHeaderv1::get\l_RunNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d76/classEventHeaderv1.html#a0810657430643577826128ef1786225b",tooltip="get Run Number"];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="EventHeader::set_EvtSequence",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#a5487a23f60e4115c4c4ebc88a58c4818",tooltip="set Event Number"];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="EventHeader::set_floatval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#ad9c0fa8ff99917da9d516f463559095f",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="EventHeader::set_intval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#a4c7893fa4da51f077dab24f662dc8e09",tooltip=" "];
+  Node2 -> Node8 [id="edge7_Node000002_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="EventHeader::set_RunNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#ab1acdf5fa445b3795d08c1a2c57aad20",tooltip="set Run Number"];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="EventHeaderv2::get\l_BunchCrossing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d20/classEventHeaderv2.html#a46325d21e26947b7244b1b78f04a4deb",tooltip="bunch crossing"];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="EventHeader::set_BunchCrossing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/db2/classEventHeader.html#a998f7a3b683daf74415bcd4b776d155d",tooltip="bunch crossing"];
+  Node10 -> Node7 [id="edge10_Node000010_Node000007",color="steelblue1",style="solid",tooltip=" "];
+}

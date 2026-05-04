@@ -1,0 +1,20 @@
+digraph "PHRaveVertexing::process_event"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHRaveVertexing::process\l_event",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Process Event, called for each event."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrack::begin_cluster_keys",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a00de1b776a053b534c35219a27cd2511",tooltip="Return an iterator to the end of the dummy cluster key set for a const track."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxTrack::end_cluster_keys",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a10cf671f9cddb154c3aee1e4f913d815",tooltip="Return a constant iterator to the end of the cluster key set."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SvtxTrack::get_ndf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#adeaef5716e6e2782ed89659e605d76c6",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrkrDefs::getTrkrId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70",tooltip="Get the tracker ID from either key type."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Fun4AllBase::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664",tooltip="Gets the verbosity of this module."];
+}

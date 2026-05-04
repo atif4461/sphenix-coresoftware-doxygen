@@ -1,0 +1,36 @@
+<map id="RunToTime::instance" name="RunToTime::instance">
+<area shape="rect" id="Node000001" title="Returns the singleton instance of RunToTime." alt="" coords="1104,215,1260,243"/>
+<area shape="rect" id="Node000002" href="$d6/d51/classFun4CalServer.html#af1a64b5a7bf6e437dcf1891fd9068173" title="Initialize run processing for given run number." alt="" coords="584,31,769,59"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1169,201,1153,162,1129,118,1096,75,1077,57,1054,42,1013,24,969,14,924,9,879,9,794,18,726,33,724,28,793,13,878,3,924,3,970,8,1015,19,1057,37,1080,52,1100,71,1134,115,1158,160,1174,199"/>
+<area shape="rect" id="Node000003" href="$d6/d51/classFun4CalServer.html#a074e4ad02724dc149a9975d29701d836" title="Find the closest good calibration run relative to a given run." alt="" coords="825,120,1056,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1145,209,1103,184,1055,162,1020,151,1021,146,1057,157,1105,180,1148,204"/>
+<area shape="rect" id="Node000005" href="$d6/d51/classFun4CalServer.html#ae29b1bd216f2f7f0b3542d6937466d8d" title="Find the run number closest to the given run that satisfies all required calibrations." alt="" coords="841,52,1040,97"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1158,205,1113,157,1085,132,1054,111,1031,100,1033,95,1057,107,1088,128,1117,153,1162,201"/>
+<area shape="rect" id="Node000006" href="$d6/d51/classFun4CalServer.html#a0efa1d8df294264795e250a7b4453605" title="Retrieve PHTimeStamp of the most recent successful run prior to the given run number." alt="" coords="837,172,1044,217"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1087,218,1044,212,1045,206,1088,213"/>
+<area shape="rect" id="Node000007" href="$d6/d51/classFun4CalServer.html#a9425b2e0d6c05a50ba52750e48dd7508" title="Retrieve begin and end run timestamps in ticks." alt="" coords="838,241,1043,286"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1088,245,1044,251,1043,246,1088,240"/>
+<area shape="rect" id="Node000013" href="$d6/d51/classFun4CalServer.html#a90536e9d697d89a4baec569a921b6428" title="Set beginning of run timestamp using RunToTime singleton." alt="" coords="841,362,1040,389"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="1162,257,1118,305,1089,330,1057,351,1027,364,1025,359,1054,347,1086,326,1114,302,1159,253"/>
+<area shape="rect" id="Node000014" href="$d6/d51/classFun4CalServer.html#adc2dde1e220d37c833f397cf10e725d4" title="Set end of run time for given run number." alt="" coords="841,310,1040,337"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="1148,254,1105,278,1057,301,1021,312,1020,307,1055,296,1103,273,1145,249"/>
+<area shape="rect" id="Node000015" href="$d6/d51/classFun4CalServer.html#a1dc17c0248d71b3d484ae8c13619f40e" title="Synchronize oncal timestamps with run database." alt="" coords="845,413,1036,458"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="1170,258,1127,330,1095,370,1057,403,1037,415,1034,410,1054,399,1091,366,1122,327,1165,255"/>
+<area shape="rect" id="Node000004" href="$d6/d51/classFun4CalServer.html#aeec1caca8c4e4b7b40800ed86aa4d9e4" title="Fix missing calibration entries for a given run." alt="" coords="580,112,773,157"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="810,137,773,137,773,132,810,132"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="826,64,770,58,770,53,826,59"/>
+<area shape="rect" id="Node000008" href="$d6/d51/classFun4CalServer.html#ad2db8feb4ae8c681b66a4ca589a821c1" title="Adjust timestamps for Rich calibration covering multiple runs." alt="" coords="576,216,777,261"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="823,255,777,251,778,245,823,250"/>
+<area shape="rect" id="Node000009" href="$d6/d51/classFun4CalServer.html#a93263310c5e6d11c5dcc80adcfef759c" title="Set current run number and update database entries for all runs in the internal list." alt="" coords="576,335,777,363"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="849,293,826,301,719,337,718,332,824,296,848,288"/>
+<area shape="rect" id="Node000010" href="$d6/d51/classFun4CalServer.html#ab517ef78ef97449042e942339c8638ab" title="Create or update calibration status entries in the database for a given calibrator." alt="" coords="291,387,528,431"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="597,369,513,388,511,383,596,364"/>
+<area shape="rect" id="Node000012" href="$d6/d51/classFun4CalServer.html#a863572058df6aafce7b481c45ddc8953" title="Finalize processing of all registered subsystems and record calibration results." alt="" coords="336,335,483,363"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="561,352,484,352,484,346,561,346"/>
+<area shape="rect" id="Node000011" href="$d6/d51/classFun4CalServer.html#a28562715e45af5e11e3684290ad29af9" title="Create calibration for a given calibrator and run." alt="" coords="5,395,243,423"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="275,412,243,412,243,406,275,406"/>
+<area shape="poly" id="edge15_Node000013_Node000009" title=" " alt="" coords="825,367,777,362,778,356,826,361"/>
+<area shape="poly" id="edge14_Node000013_Node000011" title=" " alt="" coords="858,396,706,424,528,446,409,454,290,446,233,437,179,426,181,421,234,432,291,441,409,448,528,441,705,418,857,390"/>
+<area shape="poly" id="edge18_Node000014_Node000009" title=" " alt="" coords="826,337,777,342,777,337,826,332"/>
+<area shape="poly" id="edge17_Node000014_Node000011" title=" " alt="" coords="825,310,712,300,578,296,433,303,361,312,291,326,249,340,209,359,147,397,144,392,207,354,247,335,290,321,360,307,433,298,578,291,713,295,826,305"/>
+</map>

@@ -1,0 +1,17 @@
+digraph "PHG4GDMLWriteDefine::Scale_vectorWrite"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4GDMLWriteDefine\l::Scale_vectorWrite",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Write a scale vector element to a GDML DOM."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4GDMLWriteDefine\l::ScaleWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/def/classPHG4GDMLWriteDefine.html#ac973867a2bfb3936e03b19553f52d05b",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4GDMLWriteStructure\l::PhysvolWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d72/classPHG4GDMLWriteStructure.html#a9ceee0f814c50ac0c41ce286b572ab99",tooltip="Write physical volume element to GDML DOM tree."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4GDMLWriteStructure\l::TraverseVolumeTree",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d72/classPHG4GDMLWriteStructure.html#aaaab1c4981fe6a1feeccc3b58fa15b6e",tooltip="Traverse volume hierarchy and generate GDML elements."];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

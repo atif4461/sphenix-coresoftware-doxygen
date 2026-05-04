@@ -1,0 +1,12 @@
+digraph "BcoInfov1::get_current_evtno"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="BcoInfov1::get_current\l_evtno",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="BcoInfov1::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d12/classBcoInfov1.html#a67150aabd9dbc258085a8826a4aa2f55",tooltip="Print identification and BCO information to the supplied output stream."];
+}

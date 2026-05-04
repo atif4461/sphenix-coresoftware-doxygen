@@ -1,0 +1,12 @@
+digraph "SingleMicromegasPoolInput_v2::GetSomeMoreEvents"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SingleMicromegasPoolInput\l_v2::GetSomeMoreEvents",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Evaluate the Micromegas event pool and decide if additional events should be retrieved."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SingleMicromegasPoolInput\l_v2::FillPool",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d01/classSingleMicromegasPoolInput__v2.html#a79240b93cf2e936657df21a9cfb81c42",tooltip="Fill internal event pool from input files until no more events are available."];
+}

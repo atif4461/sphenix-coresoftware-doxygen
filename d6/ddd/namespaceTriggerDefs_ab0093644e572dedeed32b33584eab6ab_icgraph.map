@@ -1,0 +1,13 @@
+<map id="TriggerDefs::GetTriggerId" name="TriggerDefs::GetTriggerId">
+<area shape="rect" id="Node000001" title="Convert trigger name string to corresponding TriggerDefs TriggerId enum value." alt="" coords="439,100,621,128"/>
+<area shape="rect" id="Node000002" href="$d1/d86/classLL1PacketGetter.html#aff77501624ae8d7ec9be1361a4b9ac56" title="Initialize run specific configuration for LL1 packet getter." alt="" coords="209,5,389,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="490,95,443,70,390,47,358,36,359,31,392,42,445,65,492,90"/>
+<area shape="rect" id="Node000003" href="$d1/d86/classLL1PacketGetter.html#add400d3263d508e22051355d1e54e9f6" title="Process event data and populate trigger primitive containers or LL1 output structures." alt="" coords="207,57,391,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="423,100,391,96,392,90,424,95"/>
+<area shape="rect" id="Node000004" href="$db/dda/classCaloTriggerEmulator.html#aea638afc80ad33ad54d9ec2b50dce753" title="MakeTriggerOutput." alt="" coords="222,126,376,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="424,132,376,140,375,134,423,127"/>
+<area shape="rect" id="Node000006" href="$db/dda/classCaloTriggerEmulator.html#aceb3faacb0771a43036240a9f41af847" title="Set TriggerType." alt="" coords="222,196,376,240"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="490,138,392,186,364,197,362,193,390,181,488,133"/>
+<area shape="rect" id="Node000005" href="$db/dda/classCaloTriggerEmulator.html#a51370fb1c88349f20aa1e35a77a74bc0" title="event processing method" alt="" coords="5,126,159,171"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="207,151,159,151,159,146,207,146"/>
+</map>

@@ -1,0 +1,40 @@
+<map id="Fun4CalServer::FixMissingCalibration" name="Fun4CalServer::FixMissingCalibration">
+<area shape="rect" id="Node000001" title="Fix missing calibration entries for a given run." alt="" coords="5,225,198,270"/>
+<area shape="rect" id="Node000002" href="$d6/d51/classFun4CalServer.html#a074e4ad02724dc149a9975d29701d836" title="Find the closest good calibration run relative to a given run." alt="" coords="246,309,476,337"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,268,297,302,295,307,179,273"/>
+<area shape="rect" id="Node000003" href="$d6/d51/classFun4CalServer.html#aec902f8be02eeba1aa908acf063cc2e2" title="Attempt to establish ODBC connection to configured database with retry logic." alt="" coords="806,55,1000,82"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="118,223,170,162,205,129,244,101,317,62,378,40,442,27,524,15,589,6,641,3,693,6,759,15,811,28,858,46,856,51,809,33,758,20,693,11,641,8,590,12,524,21,443,33,379,45,319,67,247,105,208,133,174,166,122,226"/>
+<area shape="rect" id="Node000009" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="567,489,715,517"/>
+<area shape="poly" id="edge16_Node000001_Node000009" title=" " alt="" coords="133,268,185,306,247,346,382,419,444,445,525,474,553,483,552,488,523,479,442,450,380,424,244,351,182,310,130,272"/>
+<area shape="rect" id="Node000011" href="$d6/d51/classFun4CalServer.html#a64e6184aad17e36315a233749a24d80e" title="Insert a run number into a database table if it does not already exist." alt="" coords="268,173,454,218"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="198,225,253,214,254,219,199,231"/>
+<area shape="rect" id="Node000013" href="$d6/d51/classFun4CalServer.html#a0cc70b80c689b680aea205da99d04051" title="Overwrite calibration data for a given run." alt="" coords="267,484,454,528"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="122,268,175,336,248,415,316,472,313,476,244,418,171,339,117,271"/>
+<area shape="rect" id="Node000016" href="$d6/d51/classFun4CalServer.html#a3342334b1e6cb76ed6864f52ed3e8ced" title="Update a database table column for a given run number." alt="" coords="548,29,735,57"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="134,222,185,190,245,158,326,126,409,98,557,58,558,64,411,103,328,131,247,163,187,194,136,227"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="384,307,429,274,453,252,474,228,489,198,493,170,501,143,509,130,522,117,542,106,569,97,636,83,714,74,791,69,791,74,715,79,637,88,570,102,544,111,526,121,513,133,505,145,499,171,494,200,478,231,457,256,432,278,387,311"/>
+<area shape="rect" id="Node000004" href="$dc/d4a/classRunToTime.html#a0cca8ec56299eeb632f0ab32aa3b2333" title=" " alt="" coords="545,385,737,413"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="416,335,573,378,572,383,414,340"/>
+<area shape="rect" id="Node000005" href="$dc/d4a/classRunToTime.html#a1bee93a23fa478ffdf84109d7165c81e" title=" " alt="" coords="552,232,731,260"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="404,306,523,270,557,261,559,266,525,275,406,311"/>
+<area shape="rect" id="Node000006" href="$da/dc2/classPHTimeStamp.html#ad0ccc5b017225753abc423ff89fc0bed" title="Retrieve number of tics from stored binary time." alt="" coords="556,284,726,312"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="476,310,541,304,541,310,477,315"/>
+<area shape="rect" id="Node000007" href="$dc/d4a/classRunToTime.html#a48de36b60ad6e4093a3e8dd7e403e4b7" title="Returns the singleton instance of RunToTime." alt="" coords="563,437,719,465"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="399,335,438,353,478,377,492,390,501,401,511,412,525,422,549,432,547,437,523,427,507,416,497,405,488,393,474,381,435,358,397,340"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="409,335,445,352,478,377,495,404,501,429,508,452,526,474,554,490,551,494,522,479,503,455,496,430,490,406,474,381,442,357,406,340"/>
+<area shape="rect" id="Node000010" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="818,156,988,184"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="424,335,494,346,580,352,625,350,670,345,715,336,757,321,799,296,834,262,863,227,884,196,888,199,867,230,838,266,802,300,759,326,716,341,671,351,625,356,580,357,494,351,423,340"/>
+<area shape="rect" id="Node000008" href="$dc/d4a/classRunToTime.html#a87518edc20f481793b4794638e36b15a" title=" " alt="" coords="816,437,990,465"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="720,449,801,449,801,454,720,454"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="454,188,802,172,802,177,454,194"/>
+<area shape="rect" id="Node000012" href="$d6/d51/classFun4CalServer.html#a3e34c06524f774c5a899c1fbebfc895d" title="Check if a run number exists in a database table." alt="" coords="524,131,758,158"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="453,176,546,159,547,164,454,181"/>
+<area shape="poly" id="edge13_Node000012_Node000003" title=" " alt="" coords="695,128,758,110,841,85,842,90,759,115,696,133"/>
+<area shape="poly" id="edge14_Node000012_Node000010" title=" " alt="" coords="759,153,803,157,802,163,759,159"/>
+<area shape="rect" id="Node000014" href="$d6/d51/classFun4CalServer.html#a9941aef5edaec98db4db14da2e60179c" title="Copy calibration tables from one run to another using provided calibrator." alt="" coords="542,541,740,569"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="455,520,544,535,543,541,455,525"/>
+<area shape="rect" id="Node000015" href="$d2/d8f/classCalReco.html#adc2f96f62a3dbb27c64b8006c43db679" title="Stub implementation for copying calibration tables." alt="" coords="825,541,981,569"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="740,553,809,553,809,558,740,558"/>
+<area shape="poly" id="edge21_Node000016_Node000003" title=" " alt="" coords="736,50,791,55,791,60,735,55"/>
+<area shape="poly" id="edge22_Node000016_Node000010" title=" " alt="" coords="673,55,860,146,857,151,671,60"/>
+</map>

@@ -1,0 +1,31 @@
+<map id="XingShiftCal::End" name="XingShiftCal::End">
+<area shape="rect" id="Node000001" title="End method invoked after processing is complete." alt="" coords="5,150,138,178"/>
+<area shape="rect" id="Node000002" href="$df/d04/classXingShiftCal.html#a070ea74f0671588c8888a69bd2ecaa19" title="Perform crossing shift calibration." alt="" coords="213,43,380,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,147,250,76,253,80,104,152"/>
+<area shape="rect" id="Node000004" href="$df/d04/classXingShiftCal.html#ab4612fdc43dee8df6cba6f9e0bb873c8" title="Commit crossing shift and spin pattern data to the spin database." alt="" coords="186,150,407,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,161,170,161,170,166,138,166"/>
+<area shape="rect" id="Node000009" href="$df/d04/classXingShiftCal.html#a70e94a18fc38ed7cb743a5918aae4f71" title="Write crossing shift calibration to CDB." alt="" coords="204,303,389,331"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="95,176,263,292,260,296,92,180"/>
+<area shape="rect" id="Node000003" href="$df/d04/classXingShiftCal.html#ad7e3adb966353408871a7e3c695c87e0" title="Determine the crossing shift from trigger count data and fill patterns." alt="" coords="455,5,680,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,45,439,39,440,44,381,51"/>
+<area shape="rect" id="Node000005" href="$d4/db4/classDBInterface.html#a6744fe7f09f572f227f1961bfd7551f7" title="Retrieve ODBC statement for given database name." alt="" coords="752,87,948,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="332,147,389,127,454,110,527,101,602,95,737,93,737,99,602,101,528,106,456,116,390,132,333,152"/>
+<area shape="rect" id="Node000006" href="$d4/db4/classDBInterface.html#ae656ee2b9fbab0a643b94aeecce366cb" title="Get singleton instance of DBInterface." alt="" coords="769,163,931,191"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="407,164,754,172,754,177,407,169"/>
+<area shape="rect" id="Node000007" href="$df/d04/classXingShiftCal.html#a5728562951cd6fcdc314313d40d3fa34" title="Perform spin database quality assurance for the current run." alt="" coords="480,124,655,152"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="407,151,465,145,465,151,408,156"/>
+<area shape="rect" id="Node000008" href="$df/d04/classXingShiftCal.html#a242b4fcbf766d0ff77f963c9e2734026" title="Generate a PostgreSQL array literal string with constant float values." alt="" coords="460,226,675,254"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="350,176,501,219,500,224,348,181"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="655,124,737,113,737,119,656,129"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="656,148,754,161,754,167,655,153"/>
+<area shape="rect" id="Node000010" href="$dd/d3c/classCDBTTree.html#a457324e26513cf523b34f04034a66b91" title="Mark single entry as locked." alt="" coords="476,278,660,306"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="389,306,460,299,460,304,390,311"/>
+<area shape="rect" id="Node000011" href="$dd/d3c/classCDBTTree.html#a160b6401872c9243d77c727c4e344bae" title="Set integer field in single entry map." alt="" coords="464,330,671,358"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="390,323,449,329,449,335,389,329"/>
+<area shape="rect" id="Node000012" href="$dd/d3c/classCDBTTree.html#a5a5ca5ad59f70c2d23963c3a31a79c04" title="Write the CDB TTree data to file after ensuring commits." alt="" coords="472,382,663,410"/>
+<area shape="poly" id="edge13_Node000009_Node000012" title=" " alt="" coords="339,329,456,366,488,375,487,380,454,372,337,334"/>
+<area shape="rect" id="Node000013" href="$dd/d3c/classCDBTTree.html#ae295f921d221b85a0a9382ed1befb52e" title="WriteMultipleCDBTTree creates a ROOT TTree with branches for all stored entry maps and fills it for e..." alt="" coords="728,355,972,383"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="663,384,713,379,713,385,664,389"/>
+<area shape="rect" id="Node000014" href="$dd/d3c/classCDBTTree.html#a7067249489e1659127e493a4cbfadd8e" title="Create and fill a ROOT TTree for single entry data." alt="" coords="735,407,965,435"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="664,402,720,407,719,412,663,407"/>
+</map>

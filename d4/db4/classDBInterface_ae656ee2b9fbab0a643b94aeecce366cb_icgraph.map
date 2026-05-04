@@ -1,0 +1,38 @@
+<map id="DBInterface::instance" name="DBInterface::instance">
+<area shape="rect" id="Node000001" title="Get singleton instance of DBInterface." alt="" coords="725,464,887,492"/>
+<area shape="rect" id="Node000002" href="$df/d04/classXingShiftCal.html#ab4612fdc43dee8df6cba6f9e0bb873c8" title="Commit crossing shift and spin pattern data to the spin database." alt="" coords="186,404,407,432"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="806,507,797,570,777,649,761,690,739,729,712,763,679,792,621,823,593,831,566,834,539,831,512,823,453,792,409,754,374,707,347,655,327,601,313,548,304,500,296,432,301,432,309,500,318,547,332,599,352,653,379,704,413,750,457,788,514,818,540,826,566,828,592,826,619,818,676,788,708,760,735,726,756,688,772,647,792,569,800,507"/>
+<area shape="rect" id="Node000004" href="$d0/d20/classTpcLaminationFitting.html#ae9755bf19ed2c17de1dad2915aedd61f" title="End method performs final analysis steps for TpcLaminationFitting." alt="" coords="471,57,661,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="801,449,795,377,776,282,760,232,739,183,711,138,676,98,660,88,663,83,679,95,715,135,743,181,765,230,782,281,800,376,807,448"/>
+<area shape="rect" id="Node000005" href="$d7/d0b/classFun4AllDstInputManager.html#aadb10857043e34f5fbcf7933bcee9fcc" title="Open a DST file for reading and initialize run and event nodes." alt="" coords="476,109,657,154"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="798,449,787,390,765,314,749,275,729,236,705,200,676,168,656,154,659,150,679,164,709,196,734,233,754,272,770,313,792,389,804,448"/>
+<area shape="rect" id="Node000006" href="$dd/d8c/classFun4AllDstPileupInputManager.html#a7ccc46ca589cef79be92719892b0ee3d" title="Open a DST file for reading and optionally read the run tree." alt="" coords="456,178,677,223"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="795,450,780,403,756,346,721,287,700,261,676,237,658,226,661,221,679,233,704,257,725,284,760,344,785,401,800,448"/>
+<area shape="rect" id="Node000007" href="$d6/d6f/classFun4AllHepMCInputManager.html#a668554061600fec90eb3968ec191849a" title="Open a HepMC input file and initialize the appropriate input streams." alt="" coords="463,248,669,292"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="789,452,745,379,713,340,676,307,656,295,659,291,679,302,717,336,750,376,794,449"/>
+<area shape="rect" id="Node000008" href="$db/d1f/classFun4AllOscarInputManager.html#a90d077019c91b2ab37435fa3c67d5a1b" title="Open an input file for the Oscar manager." alt="" coords="468,317,664,362"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="778,455,733,415,676,376,651,364,653,360,679,372,736,410,782,451"/>
+<area shape="rect" id="Node000009" href="$da/dd8/classFun4AllPrdfInputManager.html#a5e907f18028590b60903b3a610c4ff26" title="Open a new PRDF file for reading." alt="" coords="474,386,659,431"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="740,462,645,434,647,429,742,457"/>
+<area shape="rect" id="Node000010" href="$d0/ddf/classFun4AllRunNodeInputManager.html#ab7cae97f20caa68c3db1519d0353aaf0" title="Open a run node input file and load the corresponding run node into the top node." alt="" coords="457,456,675,500"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="710,480,676,480,676,475,710,475"/>
+<area shape="rect" id="Node000011" href="$d5/d00/classFun4AllSingleDstPileupInputManager.html#a26e2b9acef41b96b88196f0116336a22" title="Open a DST file and initialize internal managers for event and background processing." alt="" coords="464,525,668,570"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="742,499,647,527,645,522,740,494"/>
+<area shape="rect" id="Node000012" href="$d3/dbc/classSingleStreamingInput.html#ab3e4f96429f4487c406a8e18bacf2ab6" title="Open a new input file for streaming." alt="" coords="486,594,647,639"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="782,505,736,545,679,584,648,598,646,593,676,580,733,541,778,501"/>
+<area shape="rect" id="Node000013" href="$df/d97/classSingleTriggeredInput.html#aa10e43c0dcaa20042b602501402e8016" title="Open the specified file and initialise the event iterator." alt="" coords="489,664,643,708"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="794,507,750,580,717,619,679,653,645,671,643,666,676,649,713,616,745,576,789,504"/>
+<area shape="rect" id="Node000014" href="$de/df6/classInttCombinedRawDataDecoder.html#aa68fe6c46e5e5319619f8710c385e93c" title="Initialize run specific resources and node tree structures for INTT raw data decoding." alt="" coords="455,733,677,778"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="800,508,785,554,760,612,725,671,704,699,679,723,661,735,658,730,676,718,700,695,721,668,756,610,780,552,795,506"/>
+<area shape="rect" id="Node000015" href="$d5/dcb/classSingleInttPoolInput.html#a80e92e8e6b482ea04409bc08e6700183" title="Determine if the specified run number corresponds to a streaming data taking mode." alt="" coords="494,904,638,948"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="807,508,802,584,783,687,767,742,745,797,716,848,679,893,661,907,640,917,638,912,658,903,675,889,712,845,740,795,762,741,778,686,796,583,802,507"/>
+<area shape="rect" id="Node000017" href="$de/da1/classInttOdbcQuery.html#aa151b63d9b9b7061beb08afb69a418df" title="execute database query for given run number" alt="" coords="486,852,647,880"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="806,507,797,574,777,663,760,709,739,755,712,798,679,836,649,855,646,850,676,832,708,795,734,753,755,707,772,661,792,573,800,507"/>
+<area shape="rect" id="Node000018" href="$df/d04/classXingShiftCal.html#a5728562951cd6fcdc314313d40d3fa34" title="Perform spin database quality assurance for the current run." alt="" coords="479,5,653,33"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="803,449,799,369,793,317,783,260,767,203,744,146,714,94,676,48,652,33,655,28,679,44,719,90,749,144,772,201,788,259,798,316,805,368,808,448"/>
+<area shape="rect" id="Node000003" href="$df/d04/classXingShiftCal.html#a6857b8322729e157b23fc0e8f0b1a12c" title="End method invoked after processing is complete." alt="" coords="5,404,138,432"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="170,420,138,420,138,415,170,415"/>
+<area shape="rect" id="Node000016" href="$d5/dcb/classSingleInttPoolInput.html#abf890aecd6600bae253136ac19289fea" title="Fill internal INTT pools with events from input files." alt="" coords="224,904,368,948"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="479,928,369,928,369,923,479,923"/>
+<area shape="poly" id="edge18_Node000018_Node000002" title=" " alt="" coords="467,41,457,48,417,89,384,137,358,189,338,242,312,339,302,404,297,403,307,338,333,240,353,187,380,135,413,86,453,44,464,36"/>
+</map>

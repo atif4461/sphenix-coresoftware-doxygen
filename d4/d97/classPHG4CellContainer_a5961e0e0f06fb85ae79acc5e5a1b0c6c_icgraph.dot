@@ -1,0 +1,34 @@
+digraph "PHG4CellContainer::getCells"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4CellContainer::\lgetCells",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="return all Cells matching a given detid"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4BlockCellReco::\lCheckEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d5e/classPHG4BlockCellReco.html#a0476fbcc657a5d65320e593a067429cb",tooltip="Verify consistency of energy sums between cells stored hits and showers."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4BlockCellReco::\lprocess_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d5e/classPHG4BlockCellReco.html#a604bead822cfe6203b3a3b9ffa48543b",tooltip="event processing"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4CylinderCellReco\l::CheckEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dd0/classPHG4CylinderCellReco.html#a79bc62b14d2fdf91ad9b8976514553e8",tooltip="Verify energy consistency between cell energies and stored hit and shower energies."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4CylinderCellReco\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dd0/classPHG4CylinderCellReco.html#a1d282a92e9d6254d37f5fffceb213684",tooltip="event processing"];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4FullProjSpacalCellReco\l::CheckEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#ad400215b36a0f870b86785364c622d8f",tooltip="Verify that total deposited energy in cells matches the summed G4 hit energy."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4FullProjSpacalCellReco\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#aa31a2feab594c495ddf4133d72a9badb",tooltip="event processing"];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4HcalCellReco::CheckEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d53/classPHG4HcalCellReco.html#af8a314c42be2b158775f3003d468c024",tooltip="Check consistency of energy between G4 hits and reconstructed cells."];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4HcalCellReco::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d53/classPHG4HcalCellReco.html#ab3ef6fa9a2ef00b3309926f3f70c6941",tooltip="event processing"];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="G4CellNtuple::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d39/classG4CellNtuple.html#a312e285a4bce0bc865cd8a5d6d4757c5",tooltip="event processing method"];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="HcalRawTowerBuilder\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dec/classHcalRawTowerBuilder.html#af9d1f141a1478bbd8c8d04d798c92781",tooltip="Process event for Hcal raw tower building."];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="RawTowerBuilder::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d10/classRawTowerBuilder.html#ad0a6455417563fffe5bed003d4421d24",tooltip="Process event for raw tower building."];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="DumpPHG4CellContainer\l::process_Node",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d0b/classDumpPHG4CellContainer.html#a0de9f51ab04b2987204f3ecfcffe52d0",tooltip="Process a PHNode containing a PHG4CellContainer and dump its contents."];
+}

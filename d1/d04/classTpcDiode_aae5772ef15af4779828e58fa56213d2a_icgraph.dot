@@ -1,0 +1,20 @@
+digraph "TpcDiode::get_maxadc"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TpcDiode::get_maxadc",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcDiodeContainerv1\l::get_Laser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d38/classTpcDiodeContainerv1.html#a04c175a64f05cb7c7215c752804726ed",tooltip="Determine which laser diode fired based on ADC threshold."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TpcDiodeContainerv1\l::get_EGG",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d38/classTpcDiodeContainerv1.html#a4fa8600df367ba6e15e7b2dbe171cd20",tooltip="Retrieve list of diode pointers belonging to EGG region based on laser identifier."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TpcDiodeContainerv1\l::get_PO1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d38/classTpcDiodeContainerv1.html#a22e460913b66fd1b50a684f5d222533c",tooltip="Retrieve PO1 diode pointers based on laser configuration."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TpcDiodeContainerv1\l::get_PO2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d38/classTpcDiodeContainerv1.html#a1a9549827cfffa583b2f4b4c8a5397d9",tooltip="Retrieve pointers to PO2 diodes based on current laser configuration."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TpcDiodev1::TpcDiodev1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/da0/classTpcDiodev1.html#ad58dfbb59718ac76c8083706c5e8da3b",tooltip="Construct a TpcDiodev1 object from a source TpcDiode instance."];
+}

@@ -1,0 +1,68 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="PHG4Detector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/de7/classPHG4Detector.html",tooltip="base class for phenix detector creation"];
+  Node0 -> Node1 [id="edge572_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="BeamLineMagnetDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d95/classBeamLineMagnetDetector.html",tooltip=" "];
+  Node0 -> Node2 [id="edge573_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4BbcDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d22/classPHG4BbcDetector.html",tooltip=" "];
+  Node0 -> Node3 [id="edge574_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4BeamlineMagnetDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/ddc/classPHG4BeamlineMagnetDetector.html",tooltip=" "];
+  Node0 -> Node4 [id="edge575_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4BlockDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d36/classPHG4BlockDetector.html",tooltip=" "];
+  Node0 -> Node5 [id="edge576_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4CEmcTestBeamDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/da7/classPHG4CEmcTestBeamDetector.html",tooltip=" "];
+  Node0 -> Node6 [id="edge577_Node000000_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4ConeDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d41/classPHG4ConeDetector.html",tooltip=" "];
+  Node0 -> Node7 [id="edge578_Node000000_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4CylinderDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d95/classPHG4CylinderDetector.html",tooltip=" "];
+  Node0 -> Node8 [id="edge579_Node000000_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4EICMvtxDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/dfc/classPHG4EICMvtxDetector.html",tooltip=" "];
+  Node0 -> Node9 [id="edge580_Node000000_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4EPDDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/de1/classPHG4EPDDetector.html",tooltip=" "];
+  Node0 -> Node10 [id="edge581_Node000000_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4EnvelopeDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/df3/classPHG4EnvelopeDetector.html",tooltip=" "];
+  Node0 -> Node11 [id="edge582_Node000000_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PHG4GDMLDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d0d/classPHG4GDMLDetector.html",tooltip="PHG4GDMLDetector is a generic detector built from a GDML import."];
+  Node0 -> Node12 [id="edge583_Node000000_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PHG4HcalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d1f/classPHG4HcalDetector.html",tooltip=" "];
+  Node0 -> Node13 [id="edge584_Node000000_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHG4IHCalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d76/classPHG4IHCalDetector.html",tooltip=" "];
+  Node0 -> Node14 [id="edge585_Node000000_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="PHG4InnerHcalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d80/classPHG4InnerHcalDetector.html",tooltip="Detector class for the inner hadronic calorimeter provides geometry construction volume identificatio..."];
+  Node0 -> Node15 [id="edge586_Node000000_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="PHG4InttDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/de8/classPHG4InttDetector.html",tooltip=" "];
+  Node0 -> Node16 [id="edge587_Node000000_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="PHG4MicromegasDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d5c/classPHG4MicromegasDetector.html",tooltip=" "];
+  Node0 -> Node17 [id="edge588_Node000000_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="PHG4MvtxDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dc1/classPHG4MvtxDetector.html",tooltip=" "];
+  Node0 -> Node18 [id="edge589_Node000000_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="PHG4OHCalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/classPHG4OHCalDetector.html",tooltip=" "];
+  Node0 -> Node19 [id="edge590_Node000000_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="PHG4OuterHcalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html",tooltip=" "];
+  Node0 -> Node20 [id="edge591_Node000000_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="PHG4PSTOFDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d9a/classPHG4PSTOFDetector.html",tooltip="Detector class for the PSTOF subsystem within the sPHENIX simulation framework."];
+  Node0 -> Node21 [id="edge592_Node000000_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="PHG4SectorDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d5e/classPHG4SectorDetector.html",tooltip=" "];
+  Node0 -> Node23 [id="edge593_Node000000_Node000023",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="PHG4SpacalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da4/classPHG4SpacalDetector.html",tooltip=" "];
+  Node23 -> Node24 [id="edge594_Node000023_Node000024",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="PHG4FullProjSpacalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classPHG4FullProjSpacalDetector.html",tooltip=" "];
+  Node23 -> Node25 [id="edge595_Node000023_Node000025",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node25 [id="Node000025",label="PHG4FullProjTiltedSpacal\lDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html",tooltip="Fully projective SPACAL built from 2D tapered modules and allow azimuthal tilts."];
+  Node0 -> Node26 [id="edge596_Node000000_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node26 [id="Node000026",label="PHG4TpcDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d81/classPHG4TpcDetector.html",tooltip="Tpc detector implementation for Geant4 within Fun4All framework."];
+  Node0 -> Node27 [id="edge597_Node000000_Node000027",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node27 [id="Node000027",label="PHG4TpcEndCapDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d5a/classPHG4TpcEndCapDetector.html",tooltip=" "];
+  Node0 -> Node28 [id="edge598_Node000000_Node000028",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node28 [id="Node000028",label="PHG4ZDCDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/df2/classPHG4ZDCDetector.html",tooltip="Geometry and hit handling for the Zero Degree Calorimeter (ZDC) subsystem."];
+  Node0 -> Node29 [id="edge599_Node000000_Node000029",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node29 [id="Node000029",label="PHG4sPHENIXMagnetDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dae/classPHG4sPHENIXMagnetDetector.html",tooltip=" "];
+  Node22 [id="Node000022",label="PHG4Sector::PHG4SectorConstructor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dbd/classPHG4Sector_1_1PHG4SectorConstructor.html",tooltip="Generalized detector which use sectors of flat panels to cover full azimuthal acceptance."];
+  Node22 -> Node21 [id="edge600_Node000022_Node000021",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

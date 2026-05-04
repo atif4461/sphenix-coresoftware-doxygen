@@ -1,0 +1,31 @@
+<map id="PHG4Particle::get_e" name="PHG4Particle::get_e">
+<area shape="rect" id="Node000001" title=" " alt="" coords="922,282,1071,310"/>
+<area shape="rect" id="Node000002" href="$d4/dc9/classPHG4DSTReader.html#a800782dd1b7ce1294a4760d71f609708" title="add a particle and associated vertex if _save_vertex" alt="" coords="680,9,841,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="984,268,969,225,946,173,913,120,872,74,840,54,843,50,875,70,918,116,950,170,974,223,989,266"/>
+<area shape="rect" id="Node000004" href="$d3/d32/classActsEvaluator.html#aa753c6696784324d0431a6e379785df9" title="Function to evaluate Trajectories fit results from the KF." alt="" coords="647,83,874,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="981,269,964,235,940,196,909,157,872,125,852,114,854,109,875,120,913,153,944,193,969,232,986,266"/>
+<area shape="rect" id="Node000006" href="$dd/de6/classKFParticle__truthAndDetTools.html#ac19eec0bb2f3f9284434f6af5f9c5352" title="Fill Geant4 truth branch vectors for a given particle." alt="" coords="658,135,863,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="970,273,927,233,872,194,847,182,849,177,875,189,930,228,974,269"/>
+<area shape="rect" id="Node000010" href="$da/dbf/classTruthJetInput.html#a4c3ed9ba972f59ab008fa8574ec26a20" title="Retrieve input truth jets from the node tree." alt="" coords="694,204,827,249"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="932,280,827,248,828,243,933,274"/>
+<area shape="rect" id="Node000011" href="$d6/d02/classDetermineTowerBackground.html#a2f2c2c1d59dbf0df2debbedb977dfb57" title="Process a single event to determine tower background and flow parameters." alt="" coords="658,273,863,318"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="906,298,864,298,864,293,906,293"/>
+<area shape="rect" id="Node000012" href="$df/d93/classMbdDigitization.html#ac057a48a827f031ed90a4b605ed544ed" title="Process Event, called for each event." alt="" coords="669,343,852,387"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="933,317,840,345,838,339,931,312"/>
+<area shape="rect" id="Node000013" href="$dd/d68/classPHG4ParticleGenerator.html#a27b1f33f182e52a875ead48612ad29d3" title="Generate particles for the current event and store them in the PHG4InEvent node." alt="" coords="675,412,846,457"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="974,322,930,363,875,402,847,415,845,410,872,397,927,359,970,318"/>
+<area shape="rect" id="Node000014" href="$d0/d0c/classQAG4Decayer.html#aa696e43f8b271a9bb04e79109be46adc" title="Process a single event and fill heavy‑flavor QA histograms." alt="" coords="675,481,846,526"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="985,325,943,397,912,437,875,471,847,487,845,482,872,467,909,433,939,394,981,322"/>
+<area shape="rect" id="Node000015" href="$d9/df8/classTrkrTruthTrackv1.html#ad7530777420c26eab3658ba801f6e077" title="Construct a truth track object from a Monte Carlo particle and its production vertex." alt="" coords="665,551,856,595"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="991,325,977,372,954,430,921,489,900,516,875,540,858,552,855,548,872,536,896,513,916,486,949,428,972,370,986,324"/>
+<area shape="rect" id="Node000003" href="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853" title="event processing method" alt="" coords="403,5,590,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="664,33,591,32,591,26,664,28"/>
+<area shape="rect" id="Node000005" href="$d3/d32/classActsEvaluator.html#a1cb0d7dc6cc72bd1eb930d014276335b" title="Process a single track using Acts fitting results." alt="" coords="412,75,581,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="632,100,582,100,582,94,632,94"/>
+<area shape="rect" id="Node000007" href="$dd/de6/classKFParticle__truthAndDetTools.html#ad020ae1958b487d9ec890bf683d78d79" title="Retrieve HepMC truth information for a daughter particle and fill output branches." alt="" coords="394,144,599,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="642,164,600,165,600,160,642,159"/>
+<area shape="rect" id="Node000008" href="$d9/dae/classKFParticle__nTuple.html#a19b5fd2a641c969245dc5bd891276240" title="Fills required information for your selection, also requests truth and detector information if needed..." alt="" coords="203,144,346,189"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="379,169,347,169,347,164,379,164"/>
+<area shape="rect" id="Node000009" href="$d5/d72/classKFParticle__sPHENIX.html#aac7b97c325669f73559f04881cffae58" title="Process a single event within the Fun4All framework." alt="" coords="5,144,155,189"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="187,169,155,169,155,164,187,164"/>
+</map>

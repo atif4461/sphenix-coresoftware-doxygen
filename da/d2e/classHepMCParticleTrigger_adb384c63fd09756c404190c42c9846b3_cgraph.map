@@ -1,0 +1,22 @@
+<map id="HepMCParticleTrigger::process_event" name="HepMCParticleTrigger::process_event">
+<area shape="rect" id="Node000001" title="Process event and apply HepMC particle trigger criteria." alt="" coords="5,92,166,137"/>
+<area shape="rect" id="Node000002" href="$d5/d41/classPHHepMCGenEventMap.html#aec32d85bc5bb55e2397ccff1cdde1456" title="iterator from lowest ID to highest, i.e. background to signal" alt="" coords="233,5,410,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,89,213,60,232,53,234,58,215,65,141,94"/>
+<area shape="rect" id="Node000003" href="$d5/d41/classPHHepMCGenEventMap.html#ad7ad142823b710078650f164661c22aa" title=" " alt="" coords="217,74,426,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,103,201,99,201,104,166,108"/>
+<area shape="rect" id="Node000004" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="250,126,393,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="166,120,234,128,234,133,165,126"/>
+<area shape="rect" id="Node000010" href="$d7/d7b/classPHHepMCGenEvent.html#a086a77104ec225e191885f9db7538521" title="Retrieve the stored generated event." alt="" coords="214,178,429,206"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="140,135,215,162,243,171,241,176,213,168,138,140"/>
+<area shape="rect" id="Node000005" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="477,100,658,128"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="393,130,461,123,462,128,393,135"/>
+<area shape="rect" id="Node000009" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="486,152,650,180"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="393,145,470,153,469,158,393,150"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="526,102,519,92,524,82,541,76,568,74,596,76,612,83,610,88,595,82,568,79,542,81,528,86,524,91,530,98"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="750,48,892,76"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="638,97,734,77,735,83,639,102"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="755,100,887,128"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="659,112,739,112,739,117,659,117"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="706,152,936,180"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="639,126,735,146,734,151,638,131"/>
+</map>

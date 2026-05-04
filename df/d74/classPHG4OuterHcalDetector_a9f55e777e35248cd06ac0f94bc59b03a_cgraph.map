@@ -1,0 +1,24 @@
+<map id="PHG4OuterHcalDetector::ConstructHcalScintillatorAssembly" name="PHG4OuterHcalDetector::ConstructHcalScintillatorAssembly">
+<area shape="rect" id="Node000001" title="Construct assembly of Hcal scintillator tiles and return assembly volume." alt="" coords="5,168,196,229"/>
+<area shape="rect" id="Node000002" href="$df/d74/classPHG4OuterHcalDetector.html#a06cd95ab41b4bb656c10116342608e98" title="Construct the outer HCal scintillator geometry and associated cutouts." alt="" coords="244,141,481,186"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,183,228,179,229,184,196,188"/>
+<area shape="rect" id="Node000010" href="$d3/de7/classPHG4Detector.html#a8e548682ab05493f7cdbd391bc4f67be" title="Retrieve a G4Material by name, optionally aborting on failure." alt="" coords="262,211,462,255"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="196,208,247,215,246,220,196,214"/>
+<area shape="rect" id="Node000003" href="$df/d74/classPHG4OuterHcalDetector.html#a74680bbe2d1bcf687364acb954ccb8a4" title="Construct the scintillator box solid for the outer HCal detector." alt="" coords="546,5,732,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="394,139,455,99,528,60,543,53,545,58,530,65,457,104,397,143"/>
+<area shape="rect" id="Node000004" href="$d3/de7/classPHG4Detector.html#a02a35f200e91f5eb16ee16c537b5f61f" title="Create a temporary logical volume for visualization and invoke the overloaded DisplayVolume." alt="" coords="529,98,748,126"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="481,139,546,126,547,132,482,144"/>
+<area shape="rect" id="Node000005" href="$df/d02/classPHG4Utils.html#abdb6e84eedbd15893104110a0ed3ba88" title="Convert pseudorapidity to polar angle." alt="" coords="560,150,717,178"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="481,161,544,161,544,166,481,166"/>
+<area shape="rect" id="Node000006" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="619,226,658,254"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="447,184,606,228,604,233,445,189"/>
+<area shape="rect" id="Node000009" href="$df/d74/classPHG4OuterHcalDetector.html#af94cdf6247124475e849ddaee7d2762b" title="Compute the x coordinate where the infinite line defined by points p0 and p1 intersects a horizontal ..." alt="" coords="550,277,728,322"/>
+<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="462,184,483,196,499,213,507,230,515,247,531,263,538,268,535,272,527,267,511,250,503,233,495,216,479,200,459,189"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="605,99,600,89,604,79,617,73,639,71,662,74,674,80,672,85,660,79,639,76,619,78,608,83,605,89,610,96"/>
+<area shape="poly" id="edge10_Node000006_Node000006" title=" " alt="" coords="617,235,602,224,601,211,614,202,639,199,660,201,673,207,678,216,673,226,669,223,672,216,669,211,658,206,639,204,615,207,606,213,607,221,621,231"/>
+<area shape="rect" id="Node000007" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="796,226,870,254"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="658,237,781,237,781,242,658,242"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="812,226,808,217,811,208,819,201,833,199,847,202,855,208,852,212,845,207,833,204,821,206,815,211,814,217,817,224"/>
+<area shape="rect" id="Node000008" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="918,226,984,254"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="870,237,902,237,902,242,870,242"/>
+</map>

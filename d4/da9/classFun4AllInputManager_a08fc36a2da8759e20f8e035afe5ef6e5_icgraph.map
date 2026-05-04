@@ -1,0 +1,15 @@
+<map id="Fun4AllInputManager::RejectEvent" name="Fun4AllInputManager::RejectEvent">
+<area shape="rect" id="Node000001" title="Process subsystems during event rejection and determine if event should be discarded." alt="" coords="329,128,488,172"/>
+<area shape="rect" id="Node000002" href="$d7/d0b/classFun4AllDstInputManager.html#af2c20145c70376bd115a7d92273c972c" title="Run input manager to read events up to nevents from current or next file." alt="" coords="38,5,248,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="374,118,331,81,279,48,246,36,248,31,282,43,334,76,377,114"/>
+<area shape="rect" id="Node000003" href="$d6/d6f/classFun4AllHepMCInputManager.html#abc2abd5f69e96e3fb974376f5f258f80" title="Run attempts to retrieve a valid HepMC event from input files." alt="" coords="25,57,261,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="343,124,280,100,231,88,233,83,281,95,345,119"/>
+<area shape="rect" id="Node000004" href="$de/d99/classFun4AllHepMCPileupInputManager.html#a0afd07a242a008dab637fe4f6ba997bd" title="Process pileup events for the current run." alt="" coords="5,109,281,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="313,143,281,140,281,134,313,138"/>
+<area shape="rect" id="Node000005" href="$db/d1f/classFun4AllOscarInputManager.html#abd9c677329f73038579c12aff1f8d42a" title="Run input manager to process events up to nevents." alt="" coords="30,161,256,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="313,162,256,167,256,162,313,156"/>
+<area shape="rect" id="Node000006" href="$da/dd8/classFun4AllPrdfInputManager.html#a5a95556c61f0a9f209a3c178e81e4fac" title="Run input manager to read next event from PRDF files and store it in the data node." alt="" coords="36,213,250,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="343,181,281,203,232,215,230,210,280,198,341,176"/>
+<area shape="rect" id="Node000007" href="$d5/d00/classFun4AllSingleDstPileupInputManager.html#a01149fa86dc066e4413d6b02e94df581" title="Process events from input files and optionally add pileup background." alt="" coords="41,265,245,310"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="376,185,333,222,282,255,247,269,245,264,279,250,330,217,373,181"/>
+</map>

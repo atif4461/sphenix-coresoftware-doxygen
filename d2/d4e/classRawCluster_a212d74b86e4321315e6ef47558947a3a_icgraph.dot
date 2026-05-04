@@ -1,0 +1,16 @@
+digraph "RawCluster::identify"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="RawCluster::identify",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Identify the object by writing a generic message to the supplied stream."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ClusterIso::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dcb/classClusterIso.html#aff723b32a96c2118ecd896ffed9f2752",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="RawClusterBuilderGraph\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d46/classRawClusterBuilderGraph.html#ae19143d2c8d7071e7cde26358e7623f5",tooltip="Process a single event building raw clusters from calibrated towers."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="RawClusterDeadHotMask\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1b/classRawClusterDeadHotMask.html#ace3afa9b2a1ebe6da25a7a04881ace26",tooltip="Process event and mask clusters containing dead towers."];
+}

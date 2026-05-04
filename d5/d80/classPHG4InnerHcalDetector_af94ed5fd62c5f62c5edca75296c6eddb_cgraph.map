@@ -1,0 +1,21 @@
+<map id="PHG4InnerHcalDetector::ConstructHcalScintillatorAssembly" name="PHG4InnerHcalDetector::ConstructHcalScintillatorAssembly">
+<area shape="rect" id="Node000001" title="Construct assembly of scintillator tiles for inner HCal." alt="" coords="5,130,196,192"/>
+<area shape="rect" id="Node000002" href="$d5/d80/classPHG4InnerHcalDetector.html#ae19fae68c39f74a3cf795182af5a7bcf" title="Construct scintillator tiles for the inner HCal subsystem." alt="" coords="244,104,481,149"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,146,228,141,229,147,196,151"/>
+<area shape="rect" id="Node000009" href="$d3/de7/classPHG4Detector.html#a8e548682ab05493f7cdbd391bc4f67be" title="Retrieve a G4Material by name, optionally aborting on failure." alt="" coords="262,173,462,218"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="196,171,247,178,246,183,196,176"/>
+<area shape="rect" id="Node000003" href="$d5/d80/classPHG4InnerHcalDetector.html#ac2baf8eb4f020b58b75f6aaac8e494f7" title="Construct scintillator solid geometry for inner HCal." alt="" coords="529,5,715,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,101,528,60,545,53,547,58,530,65,424,106"/>
+<area shape="rect" id="Node000004" href="$df/d02/classPHG4Utils.html#abdb6e84eedbd15893104110a0ed3ba88" title="Convert pseudorapidity to polar angle." alt="" coords="544,74,701,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="481,106,528,99,528,104,482,111"/>
+<area shape="rect" id="Node000005" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="603,150,641,178"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="482,141,588,156,587,161,481,146"/>
+<area shape="rect" id="Node000008" href="$d5/d80/classPHG4InnerHcalDetector.html#a935fa2ef6da246fad322a1455f81723a" title="Compute x coordinate of intersection of line defined by two points with horizontal line at given y." alt="" coords="534,201,710,246"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="451,147,482,159,506,172,530,187,543,192,541,197,528,191,504,177,480,163,449,152"/>
+<area shape="poly" id="edge8_Node000005_Node000005" title=" " alt="" coords="601,158,588,147,587,135,599,126,622,123,640,125,653,130,658,138,656,147,651,146,653,139,649,134,639,130,622,128,601,131,592,137,593,144,604,154"/>
+<area shape="rect" id="Node000006" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="763,150,837,178"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="642,161,748,161,748,166,642,166"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="779,150,775,141,778,132,786,125,800,123,814,126,822,132,819,136,812,131,800,128,788,130,782,135,781,141,784,148"/>
+<area shape="rect" id="Node000007" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="885,150,951,178"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="837,161,869,161,869,166,837,166"/>
+</map>

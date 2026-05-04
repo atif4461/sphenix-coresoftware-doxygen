@@ -1,0 +1,113 @@
+<map id="PHG4BlockCellReco::InitRun" name="PHG4BlockCellReco::InitRun">
+<area shape="rect" id="Node000001" title="module initialization" alt="" coords="5,1110,164,1154"/>
+<area shape="rect" id="Node000002" href="$d3/d78/classPHG4BlockCellGeomContainer.html#a172b6bade479d19eb8b60d3eb5177f92" title="Add a layer geometry to the container." alt="" coords="215,75,436,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,1109,84,922,88,782,97,628,112,474,134,331,149,268,166,212,186,166,210,131,211,128,215,132,214,134,191,168,171,214,154,269,140,332,117,474,102,629,93,782,89,922,88,1109"/>
+<area shape="rect" id="Node000003" href="$d1/dd7/classPHG4BlockCellGeom.html#a9f8e86026c376e6462f09bd91b9c972a" title=" " alt="" coords="518,24,683,69"/>
+<area shape="poly" id="edge46_Node000001_Node000003" title=" " alt="" coords="84,1109,95,894,119,558,136,387,157,236,181,122,195,84,210,61,242,37,278,20,316,10,356,5,436,6,508,18,507,23,435,12,356,10,317,15,280,25,245,42,214,65,200,86,186,124,162,237,141,388,124,559,100,894,89,1110"/>
+<area shape="rect" id="Node000004" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="221,144,430,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="83,1110,84,930,88,796,97,650,112,503,135,368,149,309,167,257,187,214,210,181,211,179,215,183,214,185,191,216,172,259,155,310,140,369,117,504,102,651,93,796,89,930,88,1110"/>
+<area shape="rect" id="Node000008" href="$da/d11/classPHParameterContainerInterface.html#a6b9c21a2904f8461d34f48fdf4a715df" title="Check existence of detector id in parameter container." alt="" coords="212,195,439,240"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="83,1109,87,942,93,819,103,684,119,549,141,425,171,322,189,281,210,251,212,248,216,252,214,254,194,284,176,323,146,426,124,550,109,685,98,819,92,942,89,1109"/>
+<area shape="rect" id="Node000009" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="510,610,691,638"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="86,1109,99,1009,124,869,140,798,160,734,183,682,210,647,231,636,259,627,331,617,414,614,495,615,495,620,414,619,332,622,260,632,233,641,213,652,188,684,165,735,146,799,129,870,104,1009,91,1110"/>
+<area shape="rect" id="Node000012" href="$d2/dd7/classPHG4BlockGeomContainer.html#a8bd77952c119c0899681f959f9bd9bb2" title=" " alt="" coords="228,334,423,378"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="84,1109,91,965,111,749,128,637,149,533,176,448,192,415,210,389,214,385,218,388,214,393,197,417,181,450,154,535,133,638,117,750,97,965,89,1109"/>
+<area shape="rect" id="Node000013" href="$df/d82/classPHG4BlockGeom.html#a4f0f37d84dbc6324ee40d97cc7aab808" title=" " alt="" coords="245,403,406,448"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="84,1109,94,977,116,782,132,681,153,588,179,511,193,481,210,458,229,443,233,447,214,462,198,484,184,513,158,589,137,682,121,783,99,977,90,1110"/>
+<area shape="rect" id="Node000014" href="$df/d82/classPHG4BlockGeom.html#a7b4707e668cfedb32ce65460e1fc3d26" title="Abstract interface for objects providing a Y coordinate of their geometric centre." alt="" coords="245,472,406,517"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="85,1110,96,990,120,815,136,725,157,643,181,575,195,548,210,528,229,512,232,516,214,531,199,551,186,577,162,644,142,727,125,816,102,990,90,1110"/>
+<area shape="rect" id="Node000015" href="$df/d82/classPHG4BlockGeom.html#a03082661822d28f673fe15e1db2d3c84" title=" " alt="" coords="245,542,406,586"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="86,1109,100,1003,126,852,143,775,162,703,185,645,210,604,229,587,233,592,214,607,189,647,167,705,148,776,131,853,105,1004,91,1110"/>
+<area shape="rect" id="Node000016" href="$da/d11/classPHParameterContainerInterface.html#a5a11ab834b2e7924e318bc05378c3c6a" title="Retrieve double parameter value for a given detector id and parameter name." alt="" coords="212,264,439,309"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="84,1109,89,953,107,716,123,593,145,479,173,385,190,348,210,320,212,318,216,321,214,323,195,351,178,387,150,480,129,594,113,717,95,953,89,1109"/>
+<area shape="rect" id="Node000018" href="$df/d02/classPHG4Utils.html#a2cd4f6a5b7ad3b260e25c09c9c891e1e" title="Compute pseudorapidity from polar angle." alt="" coords="253,661,398,689"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="82,1109,85,1031,90,978,100,920,115,860,138,801,169,746,210,698,237,681,240,686,213,702,174,749,143,803,121,862,105,921,95,979,90,1031,88,1109"/>
+<area shape="rect" id="Node000019" href="$df/d82/classPHG4BlockGeom.html#aba75dabc4eb5c22faf5366c4f6a9743c" title="Returns layer identifier placeholder." alt="" coords="245,712,406,757"/>
+<area shape="poly" id="edge22_Node000001_Node000019" title=" " alt="" coords="84,1109,91,1043,111,951,127,902,148,853,176,808,210,768,229,753,232,758,213,771,180,811,153,856,132,904,116,953,97,1043,90,1110"/>
+<area shape="rect" id="Node000020" href="$df/d82/classPHG4BlockGeom.html#a04381419e0293a87666da19449f5185b" title=" " alt="" coords="245,782,406,826"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="86,1109,98,1054,120,981,136,942,156,904,181,868,210,837,229,823,232,828,213,841,185,871,161,906,141,944,125,983,103,1055,92,1110"/>
+<area shape="rect" id="Node000021" href="$df/d82/classPHG4BlockGeom.html#a6dab40e41492dc6e6b26108692005a08" title="Returns the Y dimension size of the object." alt="" coords="245,851,406,896"/>
+<area shape="poly" id="edge24_Node000001_Node000021" title=" " alt="" coords="90,1108,105,1066,130,1011,164,955,186,929,210,906,229,894,232,898,213,910,190,932,169,958,134,1014,110,1068,95,1110"/>
+<area shape="rect" id="Node000022" href="$df/d82/classPHG4BlockGeom.html#ab3ca010de23a525625074e997a446c15" title="Returns size in z dimension Virtual method issues warning and returns NaN This comment was generated ..." alt="" coords="245,920,406,965"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="96,1108,141,1043,173,1006,210,975,229,964,232,969,213,980,177,1010,145,1046,100,1111"/>
+<area shape="rect" id="Node000023" href="$df/d82/classPHG4BlockGeom.html#a50de85ce6678f81b98465892bb352cb0" title=" " alt="" coords="245,990,406,1034"/>
+<area shape="poly" id="edge26_Node000001_Node000023" title=" " alt="" coords="113,1107,157,1075,210,1044,229,1036,231,1041,213,1049,160,1080,116,1111"/>
+<area shape="rect" id="Node000024" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="254,1058,397,1086"/>
+<area shape="poly" id="edge27_Node000001_Node000024" title=" " alt="" coords="164,1107,211,1095,242,1087,243,1093,212,1100,165,1113"/>
+<area shape="rect" id="Node000026" href="$da/d11/classPHParameterContainerInterface.html#a3e333c434f101b328c8d3edc7a7a07a9" title=" " alt="" coords="212,1110,439,1154"/>
+<area shape="poly" id="edge30_Node000001_Node000026" title=" " alt="" coords="164,1129,196,1129,196,1135,164,1135"/>
+<area shape="rect" id="Node000027" href="$da/d11/classPHParameterContainerInterface.html#a4b031dcd6ea030722809e318aed73a43" title=" " alt="" coords="212,1179,439,1224"/>
+<area shape="poly" id="edge31_Node000001_Node000027" title=" " alt="" coords="165,1152,231,1172,230,1177,163,1157"/>
+<area shape="rect" id="Node000028" href="$d1/dd7/classPHG4BlockCellGeom.html#ab79eac30d54f68a37d0c43228cd2f279" title="Identify prints geometry parameters to output stream." alt="" coords="243,1248,408,1293"/>
+<area shape="poly" id="edge32_Node000001_Node000028" title=" " alt="" coords="110,1153,155,1194,213,1234,229,1242,227,1246,210,1238,152,1198,106,1157"/>
+<area shape="rect" id="Node000029" href="$d2/dd7/classPHG4BlockGeomContainer.html#a538fa776b6bf11ecdace2acafe7f4b52" title="Identify magnetic field and layer geometry information." alt="" coords="228,1342,423,1386"/>
+<area shape="poly" id="edge33_Node000001_Node000029" title=" " alt="" coords="100,1154,145,1225,177,1266,213,1303,257,1332,254,1337,210,1308,173,1270,141,1228,96,1156"/>
+<area shape="rect" id="Node000030" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="251,1410,400,1438"/>
+<area shape="poly" id="edge35_Node000001_Node000030" title=" " alt="" coords="92,1154,104,1205,127,1271,143,1306,162,1339,186,1370,213,1397,238,1411,235,1415,210,1401,182,1374,158,1342,138,1308,122,1273,99,1207,87,1155"/>
+<area shape="rect" id="Node000031" href="$d7/d6b/classPHParametersContainer.html#a03fe54dd6e793fbf0423db36d934c207" title=" " alt="" coords="237,1462,414,1506"/>
+<area shape="poly" id="edge36_Node000001_Node000031" title=" " alt="" coords="91,1155,101,1213,122,1292,138,1334,158,1376,183,1414,213,1448,225,1457,222,1461,210,1451,179,1417,153,1378,133,1336,117,1294,95,1215,86,1156"/>
+<area shape="rect" id="Node000032" href="$da/d11/classPHParameterContainerInterface.html#aca8df1df6b4d8744ae9abaeec7bca577" title="Save parameter container to specified node in run node tree." alt="" coords="212,1531,439,1576"/>
+<area shape="poly" id="edge37_Node000001_Node000032" title=" " alt="" coords="89,1155,95,1225,113,1322,129,1375,150,1426,178,1475,214,1517,217,1520,213,1524,210,1521,174,1478,146,1429,124,1376,108,1323,90,1226,84,1155"/>
+<area shape="rect" id="Node000033" href="$d1/dd7/classPHG4BlockCellGeom.html#a9be5cc6d3bc532551b08fd41053eed6f" title=" " alt="" coords="243,1600,408,1645"/>
+<area shape="poly" id="edge38_Node000001_Node000033" title=" " alt="" coords="88,1155,90,1236,95,1291,105,1351,120,1414,142,1476,173,1535,214,1586,230,1599,227,1604,210,1590,169,1538,138,1479,115,1416,99,1352,90,1291,84,1236,82,1155"/>
+<area shape="rect" id="Node000034" href="$d1/dd7/classPHG4BlockCellGeom.html#a242cefc0d9909e76becc19dac593d238" title="Set the number of eta bins for the block cell geometry." alt="" coords="243,2155,408,2200"/>
+<area shape="poly" id="edge39_Node000001_Node000034" title=" " alt="" coords="88,1155,89,1345,93,1486,101,1641,116,1797,139,1941,154,2005,171,2060,191,2106,214,2141,231,2156,227,2160,210,2145,186,2109,166,2062,149,2006,134,1942,111,1798,96,1641,87,1486,83,1345,83,1155"/>
+<area shape="rect" id="Node000037" href="$d1/dd7/classPHG4BlockCellGeom.html#a4bdf406988d6fce19fcbe586afd1ce6e" title="Set the minimum eta coordinate for the block cell geometry." alt="" coords="243,2016,408,2061"/>
+<area shape="poly" id="edge42_Node000001_Node000037" title=" " alt="" coords="89,1155,93,1321,99,1443,109,1576,125,1709,147,1832,176,1934,194,1973,214,2002,231,2017,227,2021,210,2006,189,1975,171,1935,142,1833,120,1710,104,1576,94,1443,87,1321,83,1155"/>
+<area shape="rect" id="Node000038" href="$d1/dd7/classPHG4BlockCellGeom.html#a4af634c9aca39c3fc8640ce56320d9a7" title="Set eta step size for block cell geometry." alt="" coords="243,2086,408,2130"/>
+<area shape="poly" id="edge44_Node000001_Node000038" title=" " alt="" coords="88,1155,91,1333,96,1464,105,1608,121,1753,143,1887,157,1945,174,1997,192,2039,214,2072,231,2086,227,2090,210,2075,188,2042,169,1999,152,1947,138,1888,115,1754,100,1609,90,1464,85,1333,83,1155"/>
+<area shape="rect" id="Node000039" href="$d7/d6b/classPHParametersContainer.html#a92892fa8d43d450411a403024a376034" title=" " alt="" coords="237,1878,414,1922"/>
+<area shape="poly" id="edge47_Node000001_Node000039" title=" " alt="" coords="89,1155,97,1298,117,1511,133,1622,155,1723,181,1807,197,1839,214,1864,226,1875,222,1879,210,1867,192,1842,176,1809,149,1725,128,1622,112,1511,92,1298,84,1155"/>
+<area shape="rect" id="Node000040" href="$df/d5e/classPHG4BlockCellReco.html#a2afdd029abc569f84dcd627107c7c2b5" title="Set cell size and binning for a given layer." alt="" coords="246,1947,404,1992"/>
+<area shape="poly" id="edge48_Node000001_Node000040" title=" " alt="" coords="89,1155,95,1309,113,1543,129,1665,151,1778,179,1870,195,1906,214,1933,234,1949,231,1953,210,1937,191,1909,174,1872,146,1779,124,1666,108,1544,90,1310,84,1155"/>
+<area shape="rect" id="Node000041" href="$d1/dd7/classPHG4BlockCellGeom.html#ac86540c485c2a91cd2294b8a94affaae" title="Set number of bins in x direction for block cell geometry." alt="" coords="243,1808,408,1853"/>
+<area shape="poly" id="edge49_Node000001_Node000041" title=" " alt="" coords="90,1155,99,1286,121,1478,138,1577,159,1669,184,1744,198,1773,214,1794,230,1808,227,1812,210,1798,194,1775,179,1746,153,1670,133,1578,116,1479,94,1286,84,1155"/>
+<area shape="rect" id="Node000043" href="$d1/dd7/classPHG4BlockCellGeom.html#ac7b3cc3c2fbf72366f52b4f063c91708" title="Set the minimum x coordinate for the block cell geometry." alt="" coords="243,1670,408,1714"/>
+<area shape="poly" id="edge52_Node000001_Node000043" title=" " alt="" coords="91,1154,105,1260,130,1411,147,1488,166,1559,189,1617,214,1656,230,1669,227,1673,210,1659,184,1619,161,1561,142,1490,125,1412,99,1261,86,1155"/>
+<area shape="rect" id="Node000044" href="$d1/dd7/classPHG4BlockCellGeom.html#a18843d5d8b32ff156e5c87c1888411ad" title="Set the step size in the x direction for the block cell geometry." alt="" coords="243,1739,408,1784"/>
+<area shape="poly" id="edge54_Node000001_Node000044" title=" " alt="" coords="90,1155,102,1273,126,1445,142,1533,163,1614,186,1680,200,1706,214,1725,230,1739,227,1743,210,1729,195,1709,181,1682,157,1615,137,1534,120,1446,97,1274,85,1155"/>
+<area shape="rect" id="Node000045" href="$da/d11/classPHParameterContainerInterface.html#a23926b47f33ef3c8dcf8fcfda7891341" title="Update parameters from macro definitions into the parameter container." alt="" coords="212,2224,439,2269"/>
+<area shape="poly" id="edge56_Node000001_Node000045" title=" " alt="" coords="90,1155,103,1370,129,1707,146,1879,166,2032,189,2148,201,2187,214,2211,215,2213,211,2216,209,2214,196,2189,184,2149,161,2032,141,1880,123,1707,97,1371,84,1155"/>
+<area shape="rect" id="Node000050" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="240,2293,410,2321"/>
+<area shape="poly" id="edge61_Node000001_Node000050" title=" " alt="" coords="89,1155,101,1383,125,1743,142,1927,163,2090,187,2214,200,2255,214,2280,228,2292,225,2296,210,2283,195,2257,182,2215,157,2091,137,1927,120,1743,95,1383,84,1155"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="436,75,502,62,503,67,436,80"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="806,356,948,383"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="393,169,581,213,667,235,715,250,755,271,792,296,851,343,848,347,788,300,752,276,713,255,665,240,580,218,391,175"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="810,128,944,155"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="430,143,487,139,651,135,795,136,795,142,651,140,487,144,431,148"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="530,153,672,181"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="431,158,514,161,514,167,430,164"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="830,129,823,119,829,109,847,103,877,101,909,103,927,110,925,115,908,109,877,106,848,108,832,113,828,118,835,125"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="672,158,795,146,795,152,673,163"/>
+<area shape="poly" id="edge12_Node000009_Node000005" title=" " alt="" coords="616,608,847,392,851,396,619,612"/>
+<area shape="poly" id="edge11_Node000009_Node000009" title=" " alt="" coords="554,612,546,601,552,592,571,586,601,584,633,586,650,593,648,598,632,591,601,589,572,591,556,596,552,601,558,608"/>
+<area shape="rect" id="Node000010" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="811,637,943,665"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="692,630,796,640,795,646,692,636"/>
+<area shape="rect" id="Node000011" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="762,585,992,613"/>
+<area shape="poly" id="edge14_Node000009_Node000011" title=" " alt="" coords="692,613,747,608,747,613,692,618"/>
+<area shape="rect" id="Node000017" href="$dd/dae/classPHParameters.html#a333017103f8178e3cf9d8111dd62b2ad" title="Retrieve double parameter value by name from internal map." alt="" coords="504,264,697,309"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="440,284,488,284,488,289,440,289"/>
+<area shape="poly" id="edge28_Node000024_Node000009" title=" " alt="" coords="397,1065,418,1057,437,1045,479,1001,512,950,539,895,559,839,584,732,595,653,600,654,590,733,564,840,544,897,517,953,483,1004,441,1049,421,1062,398,1070"/>
+<area shape="rect" id="Node000025" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="518,1058,683,1086"/>
+<area shape="poly" id="edge29_Node000024_Node000025" title=" " alt="" coords="398,1069,503,1069,503,1075,398,1075"/>
+<area shape="poly" id="edge34_Node000029_Node000029" title=" " alt="" coords="279,1342,278,1332,286,1323,302,1317,325,1315,351,1318,367,1324,365,1329,350,1323,325,1320,303,1322,289,1327,283,1333,285,1341"/>
+<area shape="rect" id="Node000035" href="$d1/dd7/classPHG4BlockCellGeom.html#a7c76f76769eb0b8af980824f803ff3e6" title="Check that the binning method is eta based." alt="" coords="501,2034,700,2078"/>
+<area shape="poly" id="edge40_Node000034_Node000035" title=" " alt="" coords="407,2152,438,2140,496,2113,548,2084,550,2089,498,2118,440,2145,409,2157"/>
+<area shape="rect" id="Node000036" href="$d1/dd7/classPHG4BlockCellGeom.html#a4d2e958eba6de5e61b5f94df0290e139" title="Return a human readable description string for the specified binning type index." alt="" coords="794,1912,960,1957"/>
+<area shape="poly" id="edge41_Node000035_Node000036" title=" " alt="" coords="652,2031,809,1961,811,1966,655,2036"/>
+<area shape="poly" id="edge43_Node000037_Node000035" title=" " alt="" coords="409,2041,486,2046,485,2052,408,2047"/>
+<area shape="poly" id="edge45_Node000038_Node000035" title=" " alt="" coords="408,2090,486,2075,487,2080,409,2095"/>
+<area shape="rect" id="Node000042" href="$d1/dd7/classPHG4BlockCellGeom.html#ac2161bb4e47b42f3180467fe8f0c0b6f" title="Verify that the binning method for the x direction matches allowed types." alt="" coords="508,1774,694,1818"/>
+<area shape="poly" id="edge50_Node000041_Node000042" title=" " alt="" coords="408,1818,492,1807,492,1812,409,1823"/>
+<area shape="poly" id="edge51_Node000042_Node000036" title=" " alt="" coords="648,1817,819,1903,816,1908,646,1821"/>
+<area shape="poly" id="edge53_Node000043_Node000042" title=" " alt="" coords="406,1713,440,1724,537,1765,535,1769,438,1729,404,1718"/>
+<area shape="poly" id="edge55_Node000044_Node000042" title=" " alt="" coords="409,1769,492,1780,492,1785,408,1775"/>
+<area shape="rect" id="Node000046" href="$da/d11/classPHParameterContainerInterface.html#aecf517f5138dc3f206ac2b8e092aacdb" title="Create and initialize parameter set for given detector id." alt="" coords="487,2207,714,2252"/>
+<area shape="poly" id="edge57_Node000045_Node000046" title=" " alt="" coords="439,2237,471,2235,472,2240,440,2242"/>
+<area shape="rect" id="Node000047" href="$dd/dae/classPHParameters.html#a75005aa44390e1eb574603b0b230152b" title="Set double parameter in internal map." alt="" coords="504,2276,697,2321"/>
+<area shape="poly" id="edge58_Node000045_Node000047" title=" " alt="" coords="440,2266,490,2275,489,2280,439,2271"/>
+<area shape="rect" id="Node000048" href="$dd/dae/classPHParameters.html#a62881b44dd0564425633070316af66ec" title="Set integer parameter in internal map." alt="" coords="518,2346,683,2390"/>
+<area shape="poly" id="edge59_Node000045_Node000048" title=" " alt="" coords="418,2267,440,2279,456,2293,465,2306,474,2319,489,2331,505,2340,503,2345,485,2336,470,2322,461,2309,452,2296,438,2284,415,2272"/>
+<area shape="rect" id="Node000049" href="$dd/dae/classPHParameters.html#a2ebd6e499647b20dd41ca164e71ca061" title="Set string parameter in internal map." alt="" coords="508,2138,693,2182"/>
+<area shape="poly" id="edge60_Node000045_Node000049" title=" " alt="" coords="402,2221,438,2210,486,2192,508,2185,510,2190,488,2197,440,2215,403,2227"/>
+</map>

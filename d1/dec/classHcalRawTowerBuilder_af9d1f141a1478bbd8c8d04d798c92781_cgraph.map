@@ -1,0 +1,60 @@
+<map id="HcalRawTowerBuilder::process_event" name="HcalRawTowerBuilder::process_event">
+<area shape="rect" id="Node000001" title="Process event for Hcal raw tower building." alt="" coords="5,558,168,603"/>
+<area shape="rect" id="Node000002" href="$d9/dd8/classRawTower.html#aa6bf4e71a4d91275f281689007069d57" title=" " alt="" coords="232,5,390,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,557,101,449,127,295,144,216,164,144,187,85,214,44,217,40,221,44,218,48,192,87,169,146,149,217,132,296,107,450,93,558"/>
+<area shape="rect" id="Node000003" href="$d9/dd8/classRawTower.html#ac525ab50aec43e3b88f9ddf1470349e9" title=" " alt="" coords="220,57,402,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="88,558,103,459,130,321,147,250,167,185,189,132,214,96,218,92,222,96,218,100,194,135,172,187,153,251,135,322,109,460,93,558"/>
+<area shape="rect" id="Node000004" href="$dc/dfe/classPHG4Cell.html#a94a52d4c3d9402fa224e8d2c1d783cd0" title=" " alt="" coords="234,109,388,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="85,558,88,480,94,427,104,370,120,310,143,250,174,195,214,147,219,142,223,146,218,150,178,198,148,253,125,311,109,371,99,428,93,480,90,558"/>
+<area shape="rect" id="Node000005" href="$d4/db9/namespacePHG4CellDefs_1_1ScintillatorSlatBinning.html#acc06b004e7bbf4ccae6b93ec6a0aaf0a" title="Retrieve the column bin index from a scintillator slat cell key." alt="" coords="216,161,406,206"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="87,558,95,492,115,401,132,352,153,303,180,257,214,216,217,213,220,217,218,220,185,260,158,305,137,353,120,402,100,493,92,558"/>
+<area shape="rect" id="Node000007" href="$dc/dfe/classPHG4Cell.html#a459ecd72fd49a06a06dfec4b842c094e" title=" " alt="" coords="236,229,386,257"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="88,557,98,499,120,421,136,380,157,339,183,301,214,268,221,262,224,267,217,272,187,304,162,342,141,382,125,423,103,501,93,558"/>
+<area shape="rect" id="Node000008" href="$dc/dfe/classPHG4Cell.html#ab10d08b1fba5f32068edfc4fe025a167" title=" " alt="" coords="238,281,384,309"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="90,557,103,508,127,444,163,377,187,346,214,320,222,314,225,318,217,324,191,350,168,380,132,446,108,509,95,558"/>
+<area shape="rect" id="Node000009" href="$d9/dd8/classRawTower.html#af3bd99902a9de44e405726232a186982" title="energy assigned to the tower. Depending on stage of process and DST node name, it could be energy dep..." alt="" coords="227,333,395,361"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="93,557,109,517,135,467,170,416,191,392,214,372,223,366,226,370,217,376,194,396,174,419,139,470,114,519,98,559"/>
+<area shape="rect" id="Node000010" href="$d3/d65/classTowerInfo.html#aec47b24db774275f49d738950530b5e0" title=" " alt="" coords="228,385,394,413"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="98,556,144,491,176,454,214,424,225,417,228,422,217,428,180,458,148,494,103,559"/>
+<area shape="rect" id="Node000011" href="$dc/dfe/classPHG4Cell.html#af65c789581fa5fb000083d135e7b23d6" title="Retrieve constant range of Geant4 shower energy deposit entries." alt="" coords="217,437,405,465"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="108,556,154,514,183,493,214,474,227,468,229,473,217,479,186,497,158,518,112,560"/>
+<area shape="rect" id="Node000012" href="$dc/dfe/classPHG4Cell.html#aaea4b8fc5c4ffc754344e5309382e681" title=" " alt="" coords="237,489,384,534"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="160,555,221,536,223,541,162,560"/>
+<area shape="rect" id="Node000013" href="$dc/dfe/classPHG4Cell.html#a056784a46b5a32ab0f6166454d7b1f42" title=" " alt="" coords="222,558,400,603"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="168,578,206,578,206,583,168,583"/>
+<area shape="rect" id="Node000014" href="$d4/db9/namespacePHG4CellDefs_1_1ScintillatorSlatBinning.html#abb9c995449306b9037050b026e7436e9" title="Retrieve the row bin index from a cell key." alt="" coords="216,628,406,672"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="162,601,222,620,221,625,160,606"/>
+<area shape="rect" id="Node000016" href="$d9/da7/classTowerInfoContainer.html#abc0a3967fe5cb3d957e03ef526b06415" title=" " alt="" coords="237,697,384,742"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="113,601,159,642,217,682,227,688,225,692,214,687,156,646,109,605"/>
+<area shape="rect" id="Node000017" href="$d1/dec/classHcalRawTowerBuilder.html#ac7cc2f54d3e3c31f91c4b0875c945683" title="Compute tower row index from cell row index." alt="" coords="230,766,392,811"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="101,602,146,675,179,716,217,752,223,756,220,760,214,756,175,720,141,678,97,604"/>
+<area shape="rect" id="Node000018" href="$d4/d97/classPHG4CellContainer.html#a5961e0e0f06fb85ae79acc5e5a1b0c6c" title="return all Cells matching a given detid" alt="" coords="234,836,388,880"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="96,603,111,648,136,707,171,768,193,796,217,821,223,825,219,830,214,825,189,800,167,771,131,709,106,650,91,604"/>
+<area shape="rect" id="Node000019" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="239,904,382,932"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="93,603,103,661,125,739,141,780,161,821,187,858,217,891,227,897,224,902,214,894,183,861,157,823,136,782,120,741,98,662,88,604"/>
+<area shape="rect" id="Node000025" href="$d4/d97/classPHG4CellContainer.html#a31412f3b061d06419be2bc788ef9e423" title="Compute total energy deposition summed over all cells in the container." alt="" coords="234,956,388,1000"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="92,603,100,668,120,759,137,808,158,856,185,901,218,941,223,946,220,950,214,945,180,904,153,858,132,809,115,760,95,669,87,603"/>
+<area shape="rect" id="Node000026" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="237,1024,385,1052"/>
+<area shape="poly" id="edge26_Node000001_Node000026" title=" " alt="" coords="90,603,93,681,99,733,109,790,125,850,148,908,178,963,218,1011,225,1017,222,1021,214,1014,174,966,143,911,120,851,104,791,94,734,88,681,85,603"/>
+<area shape="rect" id="Node000027" href="$d9/dd8/classRawTower.html#ab5d2ef8076b5750583766daadf746be1" title="energy assigned to the tower. Depending on stage of process and DST node name, it could be energy dep..." alt="" coords="227,1076,394,1104"/>
+<area shape="poly" id="edge27_Node000001_Node000027" title=" " alt="" coords="93,603,109,701,135,839,153,910,172,974,194,1026,218,1061,222,1065,218,1069,214,1065,189,1029,167,976,147,911,130,840,103,702,88,603"/>
+<area shape="rect" id="Node000028" href="$d3/d65/classTowerInfo.html#a43d0cdf6977d627bcb5c54d30906ce31" title=" " alt="" coords="229,1128,393,1156"/>
+<area shape="poly" id="edge28_Node000001_Node000028" title=" " alt="" coords="93,603,107,711,132,865,149,944,169,1015,192,1074,218,1113,221,1117,217,1121,214,1117,187,1076,164,1017,144,945,127,866,101,712,88,604"/>
+<area shape="rect" id="Node000029" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="226,1180,396,1208"/>
+<area shape="poly" id="edge29_Node000001_Node000029" title=" " alt="" coords="92,603,104,720,129,889,146,976,166,1056,190,1122,203,1147,218,1165,221,1169,217,1173,214,1169,199,1149,185,1124,161,1058,140,978,123,890,99,721,87,603"/>
+<area shape="rect" id="Node000006" href="$d9/d13/PHG4CellDefs_8cc.html#aac13c75c0c6204b67afd2b9f4d98d391" title="Extract the upper 16 bit key from a PHG4 cell key for a given binning." alt="" coords="454,169,637,197"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="407,180,438,180,438,186,407,186"/>
+<area shape="rect" id="Node000015" href="$d9/d13/PHG4CellDefs_8cc.html#a728902c52be0b58ad2d4d8232b2beb5b" title="Extract lower 16 bits of a cell key when the binning matches." alt="" coords="454,636,637,664"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="407,647,439,647,439,652,407,652"/>
+<area shape="rect" id="Node000020" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="455,879,636,906"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="383,907,439,901,440,907,383,913"/>
+<area shape="rect" id="Node000024" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="464,931,628,958"/>
+<area shape="poly" id="edge24_Node000019_Node000024" title=" " alt="" coords="383,923,448,931,448,936,383,929"/>
+<area shape="poly" id="edge20_Node000020_Node000020" title=" " alt="" coords="506,880,499,870,504,860,520,854,546,852,573,855,588,861,586,866,572,860,546,857,521,859,508,864,504,869,510,877"/>
+<area shape="rect" id="Node000021" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="729,827,871,854"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="617,875,714,855,715,861,618,881"/>
+<area shape="rect" id="Node000022" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="734,879,866,906"/>
+<area shape="poly" id="edge22_Node000020_Node000022" title=" " alt="" coords="637,890,718,890,718,895,637,895"/>
+<area shape="rect" id="Node000023" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="685,931,915,958"/>
+<area shape="poly" id="edge23_Node000020_Node000023" title=" " alt="" coords="618,904,714,924,713,930,617,910"/>
+</map>

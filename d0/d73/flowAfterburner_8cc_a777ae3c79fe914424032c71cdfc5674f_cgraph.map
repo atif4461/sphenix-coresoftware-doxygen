@@ -1,0 +1,13 @@
+<map id="flowAfterburner" name="flowAfterburner">
+<area shape="rect" id="Node000001" title="Apply flow afterburner to a HepMC event." alt="" coords="5,65,127,93"/>
+<area shape="rect" id="Node000002" href="$d7/d9a/classAfterburner.html#ab425f3f02c8b9e12790a9c77107d04da" title="Apply anisotropic flow afterburner to particles in a HepMC event." alt="" coords="175,65,377,93"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,76,159,76,159,82,127,82"/>
+<area shape="rect" id="Node000003" href="$d7/d9a/classAfterburner.html#af19704d4e07854374689e59932a69a13" title="Apply anisotropic flow to a parent particle and rotate all its descendants." alt="" coords="425,22,638,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="377,63,409,58,410,64,378,68"/>
+<area shape="rect" id="Node000006" href="$d7/d9a/classAfterburner.html#ac42ad312bf951a9d911103ff88faaa00" title="Generate reaction plane angles for the flow afterburner and store them in the event." alt="" coords="462,92,601,136"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="378,90,447,100,446,105,377,96"/>
+<area shape="rect" id="Node000004" href="$d7/d9a/classAfterburner.html#aaf7276f9ac4ab4779da57b08ec42b37e" title="Retrieve the reaction plane angle psi_n for a given harmonic order." alt="" coords="687,5,839,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="639,30,671,26,672,32,639,35"/>
+<area shape="rect" id="Node000005" href="$d7/d9a/classAfterburner.html#a2c01e00bcf30785ff7cfaf1c04b79aa2" title="Evaluate the flow&#45;modified azimuthal function for a given angle." alt="" coords="686,57,840,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="639,54,671,58,670,63,639,60"/>
+</map>

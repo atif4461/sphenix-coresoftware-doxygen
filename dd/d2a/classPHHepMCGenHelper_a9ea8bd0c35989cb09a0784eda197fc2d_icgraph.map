@@ -1,0 +1,15 @@
+<map id="PHHepMCGenHelper::get_PHHepMCGenEvent_template" name="PHHepMCGenHelper::get_PHHepMCGenEvent_template">
+<area shape="rect" id="Node000001" title="choice of reference version of the PHHepMCGenEvent" alt="" coords="810,109,1033,154"/>
+<area shape="rect" id="Node000002" href="$dd/d2a/classPHHepMCGenHelper.html#ab0c755f6e53c0bf57ccd314a0017d227" title="send HepMC::GenEvent to DST tree. This function takes ownership of evt" alt="" coords="562,109,762,154"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="795,134,763,134,763,129,795,129"/>
+<area shape="rect" id="Node000003" href="$db/d1f/classFun4AllOscarInputManager.html#a1537e89c4e652f70747fbbef18ceadc4" title="Convert the next Oscar event from the input file into a HepMC::GenEvent." alt="" coords="298,5,494,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="603,105,513,65,479,53,481,48,515,60,605,100"/>
+<area shape="rect" id="Node000005" href="$d9/d3a/classPHPythia8.html#a534c21ef917fe92922c6757a75ca84e1" title="Process a single event within the Fun4All framework." alt="" coords="323,75,470,119"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="546,119,469,109,470,104,547,114"/>
+<area shape="rect" id="Node000006" href="$d3/d49/classReadEICFiles.html#a7dd6da2318a9ea07bb3569bc2d5549c6" title="Process a single event from the EIC input file and fill HepMC structures." alt="" coords="315,144,478,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="547,149,479,158,478,153,546,144"/>
+<area shape="rect" id="Node000007" href="$d6/d6f/classFun4AllHepMCInputManager.html#abc2abd5f69e96e3fb974376f5f258f80" title="Run attempts to retrieve a valid HepMC event from input files." alt="" coords="279,212,514,240"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="606,164,515,204,477,214,475,209,513,198,604,159"/>
+<area shape="rect" id="Node000004" href="$db/d1f/classFun4AllOscarInputManager.html#abd9c677329f73038579c12aff1f8d42a" title="Run input manager to process events up to nevents." alt="" coords="5,14,231,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="283,30,231,30,231,25,283,25"/>
+</map>

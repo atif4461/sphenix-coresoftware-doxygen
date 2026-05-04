@@ -1,0 +1,18 @@
+digraph "SvtxHitEval::get_energy_contribution"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SvtxHitEval::get_energy\l_contribution",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute total energy deposited by a given G4 particle in the truth hits linked to a detector hit."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxHitEval::all_truth_hits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d62/classSvtxHitEval.html#aecddd0a706e859726fa9147eba09afe5",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrkrHitSet::getHit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dc1/classTrkrHitSet.html#a19d87ffe21052f59d148ed35788b05b8",tooltip="Get a specific hit based on its index."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrkrDefs::getTrkrId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70",tooltip="Get the tracker ID from either key type."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SvtxHitEval::get_truth_eval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d62/classSvtxHitEval.html#a48938b6230e50fc508540baa0c0bee8f",tooltip=" "];
+}

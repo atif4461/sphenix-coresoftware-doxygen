@@ -1,0 +1,12 @@
+digraph "TrackVertexCrossingAssoc_v1::sizeTracks"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrackVertexCrossingAssoc\l_v1::sizeTracks",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Return the number of tracks stored in the internal association map."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackVertexCrossingAssoc\l_v1::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d0a/classTrackVertexCrossingAssoc__v1.html#a9fe54ca99c2c57e68ffbd4ac25f8d693",tooltip="Identify prints vertex and track associations for each crossing."];
+}

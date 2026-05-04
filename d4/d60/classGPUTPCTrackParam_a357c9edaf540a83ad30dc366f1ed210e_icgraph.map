@@ -1,0 +1,17 @@
+<map id="GPUTPCTrackParam::SetSinPhi" name="GPUTPCTrackParam::SetSinPhi">
+<area shape="rect" id="Node000001" title=" " alt="" coords="964,54,1182,82"/>
+<area shape="rect" id="Node000002" href="$de/dfe/classALICEKF.html#a44f906df99f1bd40e2db1d8e9705f4b0" title="Perform an ALICE style Kalman filter on a collection of track seed key lists and produce sPHENIX and ..." alt="" coords="5,29,208,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="995,53,915,38,731,16,586,8,441,13,256,26,209,31,208,26,255,21,441,7,586,3,731,11,916,33,996,48"/>
+<area shape="rect" id="Node000003" href="$d4/d60/classGPUTPCTrackParam.html#ab8f13d83726bd39db53e7b3903431d7a" title="Track parameter container for GPU TPC reconstruction." alt="" coords="448,29,667,56"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="948,64,668,50,668,45,948,59"/>
+<area shape="rect" id="Node000004" href="$d4/d60/classGPUTPCTrackParam.html#a2e55799a5ae01e23af6b5d1b24b2ec9d" title="Rotate the track parameters to a new XY coordinate system by angle alpha." alt="" coords="715,79,916,107"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="948,83,916,86,916,81,948,77"/>
+<area shape="rect" id="Node000007" href="$d4/d60/classGPUTPCTrackParam.html#affd5d4fb9658313f04a3ddc2ec1e24d3" title="Rotate the coordinate system in XY by angle alpha." alt="" coords="715,131,916,159"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="1016,89,916,121,873,133,872,128,915,116,1014,84"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="432,45,208,45,208,40,432,40"/>
+<area shape="rect" id="Node000005" href="$de/dfe/classALICEKF.html#a3d53f85bf7c62a804f609abbac24db5f" title="Transport a track from an old radius to a new radius while updating the azimuthal angle." alt="" coords="452,81,663,108"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="700,96,663,97,663,91,700,91"/>
+<area shape="rect" id="Node000006" href="$de/dfe/classALICEKF.html#a09cf0e43e21e3c2569de4c872722c326" title="Perform a Kalman filter step for a given cluster and update track parameters." alt="" coords="256,79,400,107"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="437,96,400,96,400,91,437,91"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="249,78,169,59,171,54,250,73"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "SvtxTrack_v4::get_charge"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SvtxTrack_v4::get_charge",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrack_v4::get_positive\l_charge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db9/classSvtxTrack__v4.html#a4ce9a4162a63f2c2a252f73b4ec09bdf",tooltip=" "];
+}

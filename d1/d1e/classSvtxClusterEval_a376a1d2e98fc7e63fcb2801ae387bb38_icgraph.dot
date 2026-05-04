@@ -1,0 +1,18 @@
+digraph "SvtxClusterEval::FillRecoClusterFromG4HitCache"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxClusterEval::FillReco\lClusterFromG4HitCache",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Fill reconstruction cluster cache from G4 hit truth associations."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxClusterEval::all\l_clusters_from",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#a084923c9a81dba1d830b390970ac3c8d",tooltip="Retrieve all reconstructed cluster keys associated with a given truth particle."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxClusterEval::best\l_cluster_from",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#a9091398a04a3d0bafff1f96be89c84b2",tooltip="Determine the cluster key with the highest energy contribution for a given truth hit."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="QAG4SimulationVertex\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classQAG4SimulationVertex.html#a5d6b9df173a4094d3744572a9e2410d0",tooltip="Process a single event within the Fun4All framework."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SvtxClusterEval::reco\l_cluster_from_truth_cluster",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#added2590560c42b75c264ca8cefb838a",tooltip="Find the reconstructed cluster that best matches a given truth cluster."];
+}

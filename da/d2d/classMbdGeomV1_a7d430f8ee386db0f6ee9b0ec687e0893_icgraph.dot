@@ -1,0 +1,12 @@
+digraph "MbdGeomV1::set_xyz"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MbdGeomV1::set_xyz",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set the Cartesian coordinates of a PMT and compute its cylindrical radius and azimuthal angle."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MbdGeomV1::MbdGeomV1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d2d/classMbdGeomV1.html#a301d3db13764baab042a15beb967dc1e",tooltip="Initialize MbdGeomV1 geometry by assigning PMT positions."];
+}

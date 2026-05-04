@@ -1,0 +1,63 @@
+<map id="CaloGeomMapping::BuildDetailedGeometry" name="CaloGeomMapping::BuildDetailedGeometry">
+<area shape="rect" id="Node000001" title="Build detailed geometry for electromagnetic calorimeter." alt="" coords="5,451,247,495"/>
+<area shape="rect" id="Node000002" href="$da/d58/namespaceRawTowerDefs.html#a188fb7233354634d301c172177ab1ab6" title=" " alt="" coords="318,5,490,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,450,140,375,168,271,190,214,217,159,252,106,293,60,303,53,306,57,296,64,256,110,222,161,195,217,173,273,145,377,133,451"/>
+<area shape="rect" id="Node000003" href="$d8/dc4/classRawTowerGeom.html#ad788240f82a8e4ea29e987e6fe2feb4a" title=" " alt="" coords="295,74,513,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,450,143,383,173,291,194,242,221,194,254,149,293,111,298,107,301,112,296,115,258,153,226,197,199,244,178,293,148,384,133,451"/>
+<area shape="rect" id="Node000004" href="$d2/dd8/classRawTowerGeomv5.html#a20f794542421e021b4975987aa7f5bc1" title=" " alt="" coords="318,125,490,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="132,449,151,395,184,323,231,246,260,211,293,180,303,173,306,178,296,184,264,215,235,249,189,325,156,397,137,451"/>
+<area shape="rect" id="Node000005" href="$d8/dc4/classRawTowerGeom.html#a06628d3d5f62f86a841654d06f0f1974" title=" " alt="" coords="295,194,513,222"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="134,449,156,403,190,343,236,282,263,255,293,231,301,226,303,231,296,235,267,259,240,286,194,346,160,405,139,451"/>
+<area shape="rect" id="Node000006" href="$d2/dd8/classRawTowerGeomv5.html#a2285ad24ccdce4ef9b9918a41da8d8cb" title=" " alt="" coords="318,245,490,290"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="142,448,203,376,246,335,293,300,303,295,305,299,296,305,249,339,207,380,146,452"/>
+<area shape="rect" id="Node000007" href="$d8/dc4/classRawTowerGeom.html#a772770f6724ce4f5ad46e61b6c2876b7" title=" " alt="" coords="295,314,512,342"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="150,448,213,399,252,373,294,351,309,344,311,349,296,355,255,377,216,403,154,453"/>
+<area shape="rect" id="Node000008" href="$d2/dd8/classRawTowerGeomv5.html#ab78a76873e7a2255e8d8ffdc06b15bab" title=" " alt="" coords="318,365,490,410"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="201,447,314,412,315,417,202,453"/>
+<area shape="rect" id="Node000009" href="$dd/d3c/classCDBTTree.html#ad3b65f3fb7f7ab641785bae097214be5" title="Retrieve double calibration value for a given channel and field name." alt="" coords="305,484,502,512"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="247,481,290,485,290,491,247,487"/>
+<area shape="rect" id="Node000010" href="$dd/d3c/classCDBTTree.html#aa299d0220ccd1f3ae00623c462e4f88e" title="Load calibration data from ROOT file into internal maps." alt="" coords="561,380,762,408"/>
+<area shape="poly" id="edge27_Node000001_Node000010" title=" " alt="" coords="247,456,513,420,573,409,574,414,513,425,247,462"/>
+<area shape="rect" id="Node000011" href="$d5/d4b/classCDBInterface.html#a43822e59a3876434355e4cd55eba6b23" title="Retrieve calibration URL from CDB for given domain and filename." alt="" coords="326,536,482,564"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="201,493,295,521,328,530,326,535,294,526,199,498"/>
+<area shape="rect" id="Node000023" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="576,692,747,720"/>
+<area shape="poly" id="edge32_Node000001_Node000023" title=" " alt="" coords="159,494,221,534,296,573,328,584,356,590,406,594,456,600,484,609,514,624,530,637,539,651,548,665,563,677,575,684,572,689,559,682,544,668,535,654,526,641,512,629,482,614,455,605,406,599,355,595,326,589,294,578,218,539,156,498"/>
+<area shape="rect" id="Node000025" href="$d5/d4b/classCDBInterface.html#ac1458cd6adb1e2944371c40a90dc9dfe" title="Get singleton instance of CDBInterface." alt="" coords="319,638,489,666"/>
+<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="149,494,211,555,252,589,296,617,324,630,322,635,293,622,249,593,207,559,145,498"/>
+<area shape="rect" id="Node000026" href="$d2/dd8/classRawTowerGeomv5.html#a7043044d92447efa60e1165b6c4fa6cb" title="Set the rotation angle around the X axis." alt="" coords="302,690,506,718"/>
+<area shape="poly" id="edge28_Node000001_Node000026" title=" " alt="" coords="141,494,165,534,200,583,244,633,296,675,307,681,305,686,293,679,240,637,196,586,161,536,137,497"/>
+<area shape="rect" id="Node000027" href="$d2/dd8/classRawTowerGeomv5.html#a144059ae6d2d184bcf652da6b5c59f75" title=" " alt="" coords="302,742,506,770"/>
+<area shape="poly" id="edge29_Node000001_Node000027" title=" " alt="" coords="138,495,159,544,192,607,238,672,266,702,296,727,305,732,302,737,293,731,262,705,234,676,188,610,154,546,133,497"/>
+<area shape="rect" id="Node000028" href="$d2/dd8/classRawTowerGeomv5.html#a5afa72d989f4711e4946da8f933be511" title=" " alt="" coords="303,794,505,822"/>
+<area shape="poly" id="edge30_Node000001_Node000028" title=" " alt="" coords="135,495,153,553,185,630,206,671,232,711,262,747,296,779,304,784,301,789,293,783,258,751,228,714,202,674,180,632,148,555,130,497"/>
+<area shape="rect" id="Node000029" href="$d2/dd8/classRawTowerGeomv5.html#a2ef92c34ffec6332dbe524f29a261305" title="Set the eight tower vertices and compute geometric centers for various face groups." alt="" coords="319,845,489,890"/>
+<area shape="poly" id="edge31_Node000001_Node000029" title=" " alt="" coords="134,495,149,561,180,651,201,700,228,748,259,792,296,831,307,839,303,843,293,835,255,795,223,750,197,702,175,653,144,562,129,496"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="471,481,512,464,526,453,535,442,544,430,560,419,574,412,576,417,562,423,548,434,539,445,529,457,514,469,473,486"/>
+<area shape="rect" id="Node000012" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="594,484,729,512"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="476,533,578,512,579,518,477,538"/>
+<area shape="rect" id="Node000013" href="$d1/da8/classPHFlag.html#a2527c60236838b31be8c04c17e529976" title="Retrieve string flag value by name." alt="" coords="577,588,746,616"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="477,562,575,582,574,587,476,567"/>
+<area shape="rect" id="Node000021" href="$d1/da8/classPHFlag.html#a71de108d2dfd732b6dddf097d2bb728e" title="Retrieve a 64bit flag value by name." alt="" coords="576,536,748,564"/>
+<area shape="poly" id="edge20_Node000011_Node000021" title=" " alt="" coords="482,548,560,548,560,553,482,553"/>
+<area shape="rect" id="Node000022" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="584,640,740,668"/>
+<area shape="poly" id="edge23_Node000011_Node000022" title=" " alt="" coords="473,562,514,580,529,592,539,603,548,615,562,625,576,632,574,637,560,630,544,619,535,607,526,595,512,585,471,567"/>
+<area shape="poly" id="edge24_Node000011_Node000023" title=" " alt="" coords="483,562,515,580,526,593,533,605,539,631,545,655,552,666,563,678,570,683,567,687,559,682,548,670,540,657,534,632,528,607,522,596,511,584,480,567"/>
+<area shape="rect" id="Node000024" href="$d5/dec/classFun4AllBase.html#a891fac4046ceda71c2253e1db6a00022" title="Sets the verbosity of this module (0 by default=quiet)." alt="" coords="576,432,747,460"/>
+<area shape="poly" id="edge25_Node000011_Node000024" title=" " alt="" coords="481,535,512,521,526,510,535,497,544,484,560,471,573,464,575,469,562,475,548,487,539,500,530,513,514,526,483,540"/>
+<area shape="rect" id="Node000014" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="845,536,951,564"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="728,585,830,563,831,568,729,590"/>
+<area shape="rect" id="Node000020" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="810,588,986,616"/>
+<area shape="poly" id="edge19_Node000013_Node000020" title=" " alt="" coords="747,600,795,600,795,605,747,605"/>
+<area shape="rect" id="Node000015" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="1034,432,1220,460"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="919,534,970,503,1033,471,1053,463,1055,468,1035,475,972,507,922,538"/>
+<area shape="rect" id="Node000016" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="1040,484,1214,512"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="951,536,1047,514,1048,519,952,541"/>
+<area shape="rect" id="Node000017" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="1048,536,1206,564"/>
+<area shape="poly" id="edge16_Node000014_Node000017" title=" " alt="" coords="951,548,1032,548,1032,553,951,553"/>
+<area shape="rect" id="Node000018" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="1038,588,1216,616"/>
+<area shape="poly" id="edge17_Node000014_Node000018" title=" " alt="" coords="952,560,1048,582,1047,587,951,565"/>
+<area shape="rect" id="Node000019" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="1036,640,1218,668"/>
+<area shape="poly" id="edge18_Node000014_Node000019" title=" " alt="" coords="952,559,987,575,1003,588,1012,601,1021,613,1035,625,1047,632,1045,637,1032,630,1017,617,1007,604,999,591,984,579,950,564"/>
+<area shape="poly" id="edge21_Node000021_Node000014" title=" " alt="" coords="748,548,829,548,829,553,748,553"/>
+<area shape="poly" id="edge22_Node000021_Node000020" title=" " alt="" coords="729,562,817,582,816,587,728,567"/>
+</map>

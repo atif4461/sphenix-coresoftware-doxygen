@@ -1,0 +1,44 @@
+<map id="TowerInfo::get_time" name="TowerInfo::get_time">
+<area shape="rect" id="Node000001" title=" " alt="" coords="930,447,1080,475"/>
+<area shape="rect" id="Node000002" href="$de/d9d/classTowerInfov1.html#acad7d2743c8bca3a975e9d39dfdb41d8" title="Copy time and energy from another TowerInfo object." alt="" coords="689,18,873,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1001,432,995,358,978,260,962,208,942,156,914,108,880,66,854,48,857,44,883,62,919,105,946,154,968,206,983,259,1001,358,1006,431"/>
+<area shape="rect" id="Node000003" href="$da/d55/classTowerInfov2.html#a1adcec4a6ac1a661bcebf4df646982ac" title="Copy tower data from a TowerInfo object into this TowerInfov2." alt="" coords="449,43,632,71"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="1000,432,994,364,976,276,961,230,940,185,914,144,880,110,863,99,839,91,776,77,703,68,633,63,633,57,704,63,777,72,840,85,865,95,883,106,918,141,945,183,966,228,982,275,1000,363,1006,431"/>
+<area shape="rect" id="Node000007" href="$de/d99/classTowerInfov4.html#a4e4788d6e03ea1f8a8d2adc3239e2d57" title="Copy tower attributes from given TowerInfo object." alt="" coords="689,119,873,147"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="998,432,988,374,967,301,952,262,932,225,908,190,880,160,864,150,867,145,883,156,913,187,937,222,956,260,972,299,993,373,1003,431"/>
+<area shape="rect" id="Node000008" href="$df/d01/classTowerJetInput.html#ae27d1124857e5b518c8277b23b4b8cc3" title="Retrieve input towers and construct pseudo jets from top node." alt="" coords="712,171,850,215"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="993,433,979,388,955,334,923,278,903,252,880,230,849,211,852,207,883,226,907,249,927,275,960,331,984,386,999,431"/>
+<area shape="rect" id="Node000009" href="$d5/de9/classCaloTowerCalib.html#a5e007723dd9acf61b72b77fcc371b13d" title="Calibrate raw tower energies and optionally times for a given event." alt="" coords="691,240,871,285"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="988,435,945,367,915,331,880,299,861,288,863,283,883,295,919,327,950,364,992,432"/>
+<area shape="rect" id="Node000010" href="$d0/d5d/classcaloTowerEmbed.html#a35d828f8f626527fef2138d20f6dca06" title="Process a single event embedding calorimeter tower information." alt="" coords="686,309,876,354"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="976,439,933,403,880,369,856,357,858,352,883,364,936,399,979,435"/>
+<area shape="rect" id="Node000011" href="$d8/d07/classcaloTreeGen.html#a8991d78a57bed5f6d3eb559762e24ba4" title="Process event data for caloTreeGen module." alt="" coords="701,379,861,423"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="935,445,861,425,862,420,937,440"/>
+<area shape="rect" id="Node000012" href="$df/d3c/classEpdReco.html#ae05f71f18268353c46f2d217fd21ec3e" title="Process a single event for sEPD reconstruction." alt="" coords="691,447,871,475"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="914,464,871,464,871,458,914,458"/>
+<area shape="rect" id="Node000013" href="$d8/d5d/classRawClusterBuilderTemplate.html#a0146334be461b53ed1d9a183794c8277" title="Process a single event building raw clusters from tower or towerinfo data." alt="" coords="680,499,882,543"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="937,482,868,501,866,496,935,477"/>
+<area shape="rect" id="Node000014" href="$dc/d23/classRetowerCEMC.html#a6959064ee85c9697ac2506ea6e89ce91" title="Process a single event and retower CEMC data." alt="" coords="695,568,867,613"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="979,487,936,523,883,558,858,570,856,565,880,553,933,519,976,483"/>
+<area shape="rect" id="Node000015" href="$d7/d13/classSubtractTowers.html#a4c116cec7e202346e813b6587dae234e" title="Process event subtracting background from tower energies." alt="" coords="692,637,870,682"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="992,490,950,558,919,595,883,627,863,639,861,634,880,623,915,591,945,555,988,487"/>
+<area shape="rect" id="Node000016" href="$df/d58/classZdcReco.html#a1205b10eba451d3bdb7b4613f0bb9912" title="Process a single event using the Fun4All node tree." alt="" coords="691,706,871,734"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="999,491,985,536,962,592,928,648,907,674,883,696,865,707,862,703,880,692,904,670,924,645,957,589,980,534,994,489"/>
+<area shape="rect" id="Node000017" href="$d3/df2/classDumpTowerInfoContainer.html#aee587d0c8b8970ff8fe3126dcd31b4e8" title="Process a node containing a TowerInfoContainer and dump its contents to the output stream." alt="" coords="688,757,874,802"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="1002,491,990,545,968,613,933,685,910,718,883,747,867,759,864,755,880,743,906,714,928,682,963,611,984,543,996,490"/>
+<area shape="rect" id="Node000018" href="$d7/d11/classCaloValid.html#ab245377036dcca4c620a0ef89844a075" title="Process event towers, triggers, MBD, and clusters to populate QA histograms." alt="" coords="711,827,851,871"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="1004,491,996,557,977,644,961,690,941,736,915,778,883,816,853,836,850,832,880,812,911,775,936,733,956,688,972,642,991,556,999,490"/>
+<area shape="rect" id="Node000020" href="$dd/dab/classHCalCosmics.html#ad35cc6521d5f26d988254487fb0054d2" title="Process tower information for HCal cosmics analysis." alt="" coords="698,896,864,941"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="1006,491,1002,568,985,673,970,730,949,786,920,839,884,886,866,900,862,895,880,882,916,836,944,784,965,728,980,672,997,568,1001,490"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="674,46,633,50,633,45,673,40"/>
+<area shape="rect" id="Node000004" href="$dc/d7c/classTowerInfoSimv1.html#a378f61572f2fb3aac757ee59f9cda205" title="Copy tower data from a generic TowerInfo object into this TowerInfoSimv1 instance." alt="" coords="227,5,392,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="433,46,392,41,392,35,434,41"/>
+<area shape="rect" id="Node000006" href="$d3/d28/classTowerInfov3.html#a6ebc354e75cc6d397c0444b1502b7ea2" title="Copy tower information including waveform samples from another TowerInfo object." alt="" coords="218,74,401,102"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="434,74,402,78,401,73,433,69"/>
+<area shape="rect" id="Node000005" href="$d5/d81/classTowerInfoSimv2.html#aa60c1443be2e93944f7516cf1bc1d73a" title="Copy tower data from a generic TowerInfo object into this simulated tower." alt="" coords="5,5,170,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="212,30,170,30,170,25,212,25"/>
+<area shape="rect" id="Node000019" href="$d7/d11/classCaloValid.html#afbcc52787b09f66af720afe42f1080bb" title="event processing method" alt="" coords="470,827,611,871"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="695,852,611,852,611,846,695,846"/>
+<area shape="rect" id="Node000021" href="$dd/dab/classHCalCosmics.html#a856cc818121f905b9a15a893acf00727" title="Process a single event by handling towers and updating counters." alt="" coords="458,896,623,941"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="683,921,624,921,624,916,683,916"/>
+</map>

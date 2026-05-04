@@ -1,0 +1,19 @@
+<map id="Fun4CalServer::updateDB" name="Fun4CalServer::updateDB">
+<area shape="rect" id="Node000001" title="Update a database table column for a given run number." alt="" coords="825,150,1013,178"/>
+<area shape="rect" id="Node000002" href="$d6/d51/classFun4CalServer.html#ad2db8feb4ae8c681b66a4ca589a821c1" title="Adjust timestamps for Rich calibration covering multiple runs." alt="" coords="576,5,777,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="888,142,838,103,776,65,750,53,752,48,779,60,841,99,891,138"/>
+<area shape="rect" id="Node000003" href="$d6/d51/classFun4CalServer.html#af1a64b5a7bf6e437dcf1891fd9068173" title="Initialize run processing for given run number." alt="" coords="584,74,769,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="857,147,723,105,724,100,859,142"/>
+<area shape="rect" id="Node000004" href="$d6/d51/classFun4CalServer.html#ab517ef78ef97449042e942339c8638ab" title="Create or update calibration status entries in the database for a given calibrator." alt="" coords="291,141,528,186"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="810,166,529,166,529,161,810,161"/>
+<area shape="rect" id="Node000006" href="$d6/d51/classFun4CalServer.html#a863572058df6aafce7b481c45ddc8953" title="Finalize processing of all registered subsystems and record calibration results." alt="" coords="336,239,483,267"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="899,192,849,243,815,268,778,286,734,298,689,304,643,305,598,302,515,288,451,270,452,265,516,282,598,297,643,300,689,299,733,293,776,281,813,263,845,239,895,188"/>
+<area shape="rect" id="Node000007" href="$d6/d51/classFun4CalServer.html#aeec1caca8c4e4b7b40800ed86aa4d9e4" title="Fix missing calibration entries for a given run." alt="" coords="580,227,773,271"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="865,186,778,217,745,229,743,224,776,212,863,181"/>
+<area shape="rect" id="Node000008" href="$d6/d51/classFun4CalServer.html#a93263310c5e6d11c5dcc80adcfef759c" title="Set current run number and update database entries for all runs in the internal list." alt="" coords="576,175,777,203"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="810,178,777,181,777,176,809,172"/>
+<area shape="rect" id="Node000005" href="$d6/d51/classFun4CalServer.html#a28562715e45af5e11e3684290ad29af9" title="Create calibration for a given calibrator and run." alt="" coords="5,150,243,178"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="275,166,243,166,243,161,275,161"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="561,181,528,178,529,172,561,175"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="602,210,471,241,470,236,601,204"/>
+</map>

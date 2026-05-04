@@ -1,0 +1,23 @@
+digraph "FillTruthRecoMatchTree::process_event"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="FillTruthRecoMatchTree\l::process_event",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Process a single event and fill the truth reco match tree."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FillTruthRecoMatchTree\l::clear_clusvecs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd3/classFillTruthRecoMatchTree.html#a205e2a898050ce119baaf606c4472e55",tooltip="Clear internal cluster vectors and optionally print debug information."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrkrDefs::getLayer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100",tooltip="Get the layer number from either key type."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="FillTruthRecoMatchTree\l::print_mvtx_diagnostics",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd3/classFillTruthRecoMatchTree.html#aece59a5fa68faebef091c61ee98fbade",tooltip="Print MVTX diagnostic summary for truth and reconstructed tracks."];
+  Node4 -> Node3 [id="edge4_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="G4Eval::unmatchedSvtxTrkIds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d71/namespaceG4Eval.html#a19c586ce2fe22488e305ce471c597898",tooltip="Return vector of Svtx track ids that are not present in the matched reco list."];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="EmbRecoMatchContainer\l::ids_RecoMatched",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d45/classEmbRecoMatchContainer.html#a779dae6cdbd3dbb2930bbd302ee5a190",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Fun4AllBase::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664",tooltip="Gets the verbosity of this module."];
+}

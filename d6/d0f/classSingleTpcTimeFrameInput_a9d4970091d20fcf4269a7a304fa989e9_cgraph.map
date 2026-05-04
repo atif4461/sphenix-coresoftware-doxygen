@@ -1,0 +1,39 @@
+<map id="SingleTpcTimeFrameInput::FillPool" name="SingleTpcTimeFrameInput::FillPool">
+<area shape="rect" id="Node000001" title="FillPool processes events and assembles Tpc time frames for the specified targetBCO." alt="" coords="5,315,197,359"/>
+<area shape="rect" id="Node000002" href="$d7/dff/classFun4AllStreamingInputManager.html#af2eaef852f43874ef059c46993b21121" title="Add a TPC raw hit to the internal map keyed by bunch clock." alt="" coords="245,5,471,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,313,121,261,148,193,188,122,214,89,243,60,248,57,251,61,246,64,218,93,192,125,153,196,126,263,110,315"/>
+<area shape="rect" id="Node000004" href="$d3/dbc/classSingleStreamingInput.html#a4afd5b74dd0f970779414274c1489a8c" title=" " alt="" coords="277,75,438,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="110,313,129,273,158,224,196,173,243,130,262,118,265,123,246,134,200,177,162,227,134,276,114,315"/>
+<area shape="rect" id="Node000005" href="$d3/dbc/classSingleStreamingInput.html#aa5bc32a277c473c828955316b5f6d958" title="Close the current input file and clean up iterator." alt="" coords="277,144,438,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="120,313,173,260,207,231,243,205,267,193,270,198,246,210,210,235,176,264,124,316"/>
+<area shape="rect" id="Node000007" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="555,212,703,240"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="129,312,181,278,212,262,244,249,320,231,399,221,474,217,539,218,539,223,474,223,399,226,321,236,245,254,214,267,183,283,132,316"/>
+<area shape="rect" id="Node000009" href="$d2/d8a/classInputFileHandler.html#a52040a9fdeeb4ee639c3bf832f06ab90" title=" " alt="" coords="259,263,457,291"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="195,311,244,300,277,292,278,297,245,305,196,317"/>
+<area shape="rect" id="Node000010" href="$d3/dbc/classSingleStreamingInput.html#a28e46f74fceea67c8f90abacc5d934f5" title=" " alt="" coords="277,315,438,359"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="197,334,262,334,262,340,197,340"/>
+<area shape="rect" id="Node000011" href="$d2/d8a/classInputFileHandler.html#a60db005eca23d42b7e02e6c47af90095" title=" " alt="" coords="519,382,739,410"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="186,357,245,369,378,384,504,391,503,396,378,389,244,374,185,363"/>
+<area shape="rect" id="Node000012" href="$d2/d8a/classInputFileHandler.html#acf665524602bc5f8cc2398bfd26121ae" title="Open the next file in the internal file list." alt="" coords="246,434,470,462"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="139,357,189,386,246,413,283,426,281,431,244,418,186,391,137,362"/>
+<area shape="rect" id="Node000016" href="$d3/dbc/classSingleStreamingInput.html#a2795ed4ee7c1fee1b1c1ec1e712895b2" title=" " alt="" coords="277,485,438,530"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="122,358,174,414,208,445,246,471,264,480,262,485,243,475,205,449,170,418,118,361"/>
+<area shape="rect" id="Node000017" href="$d3/dbc/classSingleStreamingInput.html#a239cc931094cba18549ad0b5289338e1" title=" " alt="" coords="265,555,451,599"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="114,359,134,398,162,447,200,497,246,540,253,545,250,549,243,544,196,501,158,450,129,401,110,361"/>
+<area shape="rect" id="Node000018" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="273,623,443,651"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="110,359,124,411,151,480,169,515,191,550,217,582,246,610,260,618,257,623,243,614,213,586,187,553,164,518,146,482,119,413,105,360"/>
+<area shape="rect" id="Node000003" href="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="550,5,709,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,25,534,25,534,30,472,30"/>
+<area shape="rect" id="Node000006" href="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef" title=" " alt="" coords="538,92,720,120"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="438,146,548,122,549,127,440,151"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="440,182,549,206,548,211,438,187"/>
+<area shape="rect" id="Node000008" href="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb" title="Update internal file list handling repeat logic." alt="" coords="538,144,721,189"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="439,164,522,164,522,169,439,169"/>
+<area shape="poly" id="edge15_Node000012_Node000011" title=" " alt="" coords="433,431,538,410,539,416,435,436"/>
+<area shape="rect" id="Node000013" href="$d2/d8a/classInputFileHandler.html#a1cee3f2baa09932712f151fc0ba67db7" title="Open input file for reading." alt="" coords="535,434,723,462"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="470,445,519,445,519,450,470,450"/>
+<area shape="rect" id="Node000014" href="$d2/d8a/classInputFileHandler.html#a0ef1f262db98136850cc1ad3be18a14d" title=" " alt="" coords="522,485,736,530"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="424,460,511,479,509,484,423,465"/>
+<area shape="rect" id="Node000015" href="$d2/d8a/classInputFileHandler.html#a811c67eb19cef0fba2d7c38b446d7955" title="Execute optional script before opening the input file." alt="" coords="527,555,731,599"/>
+<area shape="poly" id="edge16_Node000012_Node000015" title=" " alt="" coords="451,460,473,471,490,488,498,506,505,524,521,540,527,545,524,549,517,544,501,527,493,508,485,491,469,475,449,464"/>
+</map>

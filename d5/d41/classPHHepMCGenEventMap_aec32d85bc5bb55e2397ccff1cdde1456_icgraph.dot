@@ -1,0 +1,16 @@
+digraph "PHHepMCGenEventMap::begin"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHHepMCGenEventMap\l::begin",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="iterator from lowest ID to highest, i.e. background to signal"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="HepMCJetTrigger::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d79/classHepMCJetTrigger.html#ae3c7da8a2e25b34a46fd12efaa2149ad",tooltip="Process event for HepMC jet trigger."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="HepMCParticleTrigger\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d2e/classHepMCParticleTrigger.html#adb384c63fd09756c404190c42c9846b3",tooltip="Process event and apply HepMC particle trigger criteria."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="DumpPHHepMCGenEventMap\l::process_Node",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dda/classDumpPHHepMCGenEventMap.html#a0883ab20f3197faa647006dd5f546cb3",tooltip="Process a PHNode containing a PHHepMCGenEventMap and dump its contents."];
+}

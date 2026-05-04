@@ -1,0 +1,14 @@
+digraph "ALICEKF::ALICEKF"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ALICEKF::ALICEKF",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct ALICEKF object with required inputs."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ALICEKF::ALICEKF",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dfe/classALICEKF.html#a18eab1780cdba4d3a4f4de87b54cf29c",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ALICEKF::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dfe/classALICEKF.html#a391916429ea4f669939197016fe2ba36",tooltip=" "];
+}

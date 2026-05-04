@@ -1,0 +1,21 @@
+<map id="PHHepMCGenHelper::CopySettings" name="PHHepMCGenHelper::CopySettings">
+<area shape="rect" id="Node000001" title="Copy vertex and beam configuration from this helper to another." alt="" coords="5,291,255,319"/>
+<area shape="rect" id="Node000002" href="$dd/d2a/classPHHepMCGenHelper.html#a3fec8449d5589e0a7dbb886c000fa531" title="Constructor initializes GSL random generator with Mersenne Twister and seeds it using PHRandomSeed Th..." alt="" coords="303,5,557,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,290,156,245,191,183,240,117,269,86,301,60,309,55,312,60,304,64,273,90,244,120,195,186,160,248,140,292"/>
+<area shape="rect" id="Node000003" href="$dd/d2a/classPHHepMCGenHelper.html#a1d4bc5e383b9e22df08a98a5b2f00c6a" title=" " alt="" coords="318,75,542,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,289,201,213,248,168,301,129,312,124,314,128,304,134,251,172,205,217,143,293"/>
+<area shape="rect" id="Node000004" href="$dd/d2a/classPHHepMCGenHelper.html#a5db065e12d85a2f467d62d19a8cdd8ec" title="Set the beam angular Z coefficients for horizontal and vertical components." alt="" coords="313,144,546,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,288,215,245,302,199,319,192,321,197,304,203,218,249,152,293"/>
+<area shape="rect" id="Node000005" href="$dd/d2a/classPHHepMCGenHelper.html#a241e3d225d7cd1fe802a746ad5525ad4" title="Set beam bunch width for the two colliding beams." alt="" coords="338,213,522,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="193,288,323,258,324,263,194,293"/>
+<area shape="rect" id="Node000006" href="$dd/d2a/classPHHepMCGenHelper.html#af11152924161c3851c708c943cc956ac" title="Set the polar and azimuthal angles for the two colliding beams." alt="" coords="331,283,528,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="255,302,316,302,316,308,255,308"/>
+<area shape="rect" id="Node000007" href="$dd/d2a/classPHHepMCGenHelper.html#a1efa535f8b08a7a72e5b66121c7da777" title="toss a new vertex according to a Uniform or Gaus distribution" alt="" coords="338,352,522,413"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="188,317,324,352,322,357,186,322"/>
+<area shape="rect" id="Node000008" href="$dd/d2a/classPHHepMCGenHelper.html#aad7308b0a8bbfcdc2106b5be191ec37e" title="set the mean value of the vertex distribution, use PHENIX units of cm, ns" alt="" coords="332,437,528,482"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="149,317,214,368,258,397,304,423,318,429,316,434,301,427,255,402,211,373,146,321"/>
+<area shape="rect" id="Node000009" href="$dd/d2a/classPHHepMCGenHelper.html#a4a9dfd6131b1e3bfb1428875a88a98ea" title="set the width of the vertex distribution function about the mean, use PHENIX units of cm,..." alt="" coords="333,507,527,551"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="142,318,166,353,203,401,250,450,304,492,320,501,317,505,301,497,246,454,199,404,162,357,138,321"/>
+<area shape="rect" id="Node000010" href="$dd/d2a/classPHHepMCGenHelper.html#aee736fba2545d33aace09ed46d891e44" title="simulate bunch interaction instead of applying vertex distributions" alt="" coords="337,576,523,621"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="139,318,159,365,194,431,242,502,272,534,304,561,324,573,321,578,301,566,268,538,238,505,189,434,154,368,134,320"/>
+</map>

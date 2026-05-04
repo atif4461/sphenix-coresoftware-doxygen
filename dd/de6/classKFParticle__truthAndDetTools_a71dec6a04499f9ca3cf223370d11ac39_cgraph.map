@@ -1,0 +1,52 @@
+<map id="KFParticle_truthAndDetTools::fillCaloBranch" name="KFParticle_truthAndDetTools::fillCaloBranch">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,412,211,457"/>
+<area shape="rect" id="Node000002" href="$dd/de6/classKFParticle__truthAndDetTools.html#a45fa9a50a9d6c13cd1638d3a44131b00" title="Extract 5x5 tower grid around EMCal cluster center and store phi eta energy for given daughter." alt="" coords="259,117,464,162"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,411,132,362,161,298,203,231,228,200,257,172,262,168,266,172,260,176,232,203,207,234,166,300,137,364,119,412"/>
+<area shape="rect" id="Node000008" href="$d6/dc7/group__getters.html#ga156d383a06a55e4caab80006d2e38685" title="reduced chi2 for EM shower" alt="" coords="282,186,440,214"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="117,410,137,370,168,320,208,268,257,224,267,218,270,223,260,228,212,272,172,323,142,373,122,413"/>
+<area shape="rect" id="Node000009" href="$d6/dc7/group__getters.html#gaa50ec0ceb78de346ece65d248e23da77" title="cluster ID" alt="" coords="290,238,433,266"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="123,410,177,343,215,307,257,276,274,268,276,273,260,281,218,311,181,347,127,413"/>
+<area shape="rect" id="Node000010" href="$d2/dac/classSvtxTrackState.html#ae5189cca7d9e6af33a607f5434e34e99" title=" " alt="" coords="280,290,442,318"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="134,410,189,368,257,328,277,320,279,325,260,333,192,373,137,414"/>
+<area shape="rect" id="Node000011" href="$d2/dac/classSvtxTrackState.html#aca3b8c2c77cdc437154d0ff043cf31fc" title=" " alt="" coords="280,342,442,370"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="171,409,258,380,287,371,288,377,259,385,173,414"/>
+<area shape="rect" id="Node000012" href="$d6/dc7/group__getters.html#ga1a13b9618e21d2e7cc47b760a10d73ad" title=" " alt="" coords="292,394,430,422"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="211,421,277,414,277,419,212,426"/>
+<area shape="rect" id="Node000013" href="$d2/dac/classSvtxTrackState.html#ac7d55dc54940f4c08b749993a271b14d" title=" " alt="" coords="281,446,442,474"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="212,442,265,447,265,453,211,447"/>
+<area shape="rect" id="Node000014" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="290,498,433,526"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="175,455,259,482,288,491,287,496,258,488,173,460"/>
+<area shape="rect" id="Node000020" href="$d0/d0e/classRawClusterUtility.html#a3261266f538776e8f1c741937cf278fd" title="Get energy vector of cluster based on cluster energy." alt="" coords="290,549,432,594"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="139,455,194,495,260,535,277,542,275,547,257,539,191,499,136,459"/>
+<area shape="rect" id="Node000023" href="$d6/dc7/group__getters.html#ga7d485f76b87f22c8c56cbcf6ce209acb" title="Tower operations." alt="" coords="272,618,451,646"/>
+<area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="125,456,147,489,178,530,216,570,260,604,269,609,266,614,257,609,212,574,174,533,143,492,120,459"/>
+<area shape="rect" id="Node000024" href="$dd/de6/classKFParticle__truthAndDetTools.html#a66e81e82ad832605e23fb296b1aef868" title="Retrieve a SvtxTrack pointer from a SvtxTrackMap given a track identifier." alt="" coords="259,669,464,714"/>
+<area shape="poly" id="edge24_Node000001_Node000024" title=" " alt="" coords="121,456,141,498,171,552,211,607,260,655,266,659,263,663,257,659,207,611,167,555,136,501,116,458"/>
+<area shape="rect" id="Node000025" href="$dd/de6/classKFParticle__truthAndDetTools.html#a69d0c3a56e569c809e7d1f2c62639802" title="Normalize angular difference to range minus pi to pi." alt="" coords="259,739,464,783"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="117,456,133,511,162,583,204,659,230,694,260,724,265,728,262,732,257,728,226,697,199,661,157,585,128,512,112,458"/>
+<area shape="rect" id="Node000003" href="$da/d9c/namespaceTowerInfoDefs.html#a00c72a0d930085024ae2d7c90e9a36f0" title="Encode an EMCal tower index into a global eta‑phi key." alt="" coords="519,5,688,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="403,114,511,60,525,54,527,59,513,65,405,119"/>
+<area shape="rect" id="Node000004" href="$d3/d65/classTowerInfo.html#aec47b24db774275f49d738950530b5e0" title=" " alt="" coords="521,74,686,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="464,115,520,103,522,108,465,120"/>
+<area shape="rect" id="Node000005" href="$d8/dc4/classRawTowerGeom.html#ad826c1c1db48f259b830134521e71f93" title=" " alt="" coords="512,126,695,154"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="465,137,496,137,496,142,465,142"/>
+<area shape="rect" id="Node000006" href="$d8/dc4/classRawTowerGeom.html#ac37db35407526c2f98ec5ddbdf3d1510" title=" " alt="" coords="512,178,695,206"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="465,159,522,171,520,177,464,164"/>
+<area shape="rect" id="Node000007" href="$d6/dc7/group__getters.html#ga797d78febeac5c357ce4990878168507" title=" " alt="" coords="516,230,691,258"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="441,160,465,172,480,183,490,194,499,205,513,215,527,221,525,226,511,219,496,208,486,198,477,187,463,177,439,165"/>
+<area shape="rect" id="Node000015" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="513,450,694,478"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="433,495,515,478,516,484,434,500"/>
+<area shape="rect" id="Node000019" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="522,502,686,530"/>
+<area shape="poly" id="edge19_Node000014_Node000019" title=" " alt="" coords="433,510,506,511,506,517,433,516"/>
+<area shape="poly" id="edge15_Node000015_Node000015" title=" " alt="" coords="562,451,556,441,561,431,577,425,604,423,632,426,647,432,645,437,631,431,604,428,578,430,564,435,561,441,567,448"/>
+<area shape="rect" id="Node000016" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="787,398,929,426"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="675,447,772,426,773,432,676,452"/>
+<area shape="rect" id="Node000017" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="792,450,924,478"/>
+<area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="695,461,776,461,776,466,695,466"/>
+<area shape="rect" id="Node000018" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="743,502,973,530"/>
+<area shape="poly" id="edge18_Node000015_Node000018" title=" " alt="" coords="676,476,772,496,771,501,675,481"/>
+<area shape="rect" id="Node000021" href="$d6/dc7/group__getters.html#ga072ca44dc992ff5454ee825d0d99d423" title="total energy" alt="" coords="516,556,692,584"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="433,569,500,568,500,574,433,574"/>
+<area shape="rect" id="Node000022" href="$d6/dc7/group__getters.html#gaea5779ca25795d3b83a1c9853a1221d9" title=" " alt="" coords="512,608,695,636"/>
+<area shape="poly" id="edge22_Node000020_Node000022" title=" " alt="" coords="433,584,520,602,519,607,432,589"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="TrackSeed_v1::get_theta" name="TrackSeed_v1::get_theta">
+<area shape="rect" id="Node000001" title="Compute theta from slope using arctangent." alt="" coords="1064,31,1244,58"/>
+<area shape="rect" id="Node000002" href="$d4/d52/classTrackSeed__v1.html#ae2496c9ebb709c03b5d4e6e3cdc36030" title="Compute pseudorapidity from the polar angle." alt="" coords="849,5,1016,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1048,35,1016,31,1017,26,1049,30"/>
+<area shape="rect" id="Node000004" href="$d4/d52/classTrackSeed__v1.html#ab579630c365104255665030a163f361e" title="Compute longitudinal momentum component from total momentum and polar angle." alt="" coords="437,31,598,58"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="1048,47,599,47,599,42,1048,42"/>
+<area shape="rect" id="Node000003" href="$d4/d52/classTrackSeed__v1.html#a4d5c7a0b5cf94f09716d7ec3e2105585" title="Compute the total momentum magnitude from transverse momentum and pseudorapidity." alt="" coords="646,5,801,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="833,22,801,22,801,16,833,16"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="631,33,599,37,598,32,631,28"/>
+<area shape="rect" id="Node000005" href="$d4/d52/classTrackSeed__v1.html#a027316319483def135b37d1339608af7" title="Print summary information of the TrackSeed_v1 object to the provided stream." alt="" coords="222,31,389,58"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="421,47,389,47,389,42,421,42"/>
+<area shape="rect" id="Node000006" href="$d1/d86/classTrackSeed__FastSim__v1.html#a9493bcfe41af6da5ca644bc7fd5a5b50" title="Identify the TrackSeed_FastSim_v1 object and write its data to a stream." alt="" coords="5,22,174,67"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="206,47,174,47,174,42,206,42"/>
+</map>

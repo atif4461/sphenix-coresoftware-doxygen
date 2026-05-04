@@ -1,0 +1,15 @@
+<map id="PHG4ParticleGeneratorBase::get_vtx_y" name="PHG4ParticleGeneratorBase::get_vtx_y">
+<area shape="rect" id="Node000001" title=" " alt="" coords="265,179,467,223"/>
+<area shape="rect" id="Node000002" href="$da/ddc/classPHG4IonGun.html#acab314e46908041565e0e14e73325bab" title="Process a single event and generate ion primary particles." alt="" coords="30,5,192,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,169,282,115,250,88,215,65,191,52,193,48,218,60,253,84,286,112,338,165"/>
+<area shape="rect" id="Node000003" href="$dd/d68/classPHG4ParticleGenerator.html#a27b1f33f182e52a875ead48612ad29d3" title="Generate particles for the current event and store them in the PHG4InEvent node." alt="" coords="26,75,196,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="305,174,216,134,184,122,186,117,218,129,307,169"/>
+<area shape="rect" id="Node000004" href="$d9/d78/classPHG4ParticleGeneratorD0.html#ab7b714e2007eaf957fd8790b5b0cfd39" title="Generate a D0 meson event, decay it to Kminus and piplus and store the particles in the PHG4InEvent n..." alt="" coords="17,144,205,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="249,188,205,182,206,177,249,182"/>
+<area shape="rect" id="Node000005" href="$d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#abd61007655fd3b068d1ab5b53828532a" title="Generate vector meson decay particles for a single event and fill the G4InEvent node." alt="" coords="5,213,217,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="249,220,217,224,217,219,249,214"/>
+<area shape="rect" id="Node000006" href="$dd/d13/classPHG4ParticleGun.html#a628a3341c5489016d87c637e55d333b7" title="Process a single event and fill PHG4InEvent with vertex and particles." alt="" coords="16,283,206,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="307,233,218,273,186,285,184,280,216,268,305,228"/>
+<area shape="rect" id="Node000007" href="$d5/df3/classPHG4SimpleEventGenerator.html#aec25f318fcd3bc837c29c6b557ec5ba5" title="Generate event vertex and particle list based on configured kinematic distributions." alt="" coords="9,352,213,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="338,237,286,290,253,318,218,342,194,354,192,349,215,337,250,314,282,287,334,233"/>
+</map>

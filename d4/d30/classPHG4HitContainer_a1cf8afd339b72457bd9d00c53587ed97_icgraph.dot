@@ -1,0 +1,12 @@
+digraph "PHG4HitContainer::RemoveZeroEDep"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4HitContainer::Remove\lZeroEDep",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Remove hits with zero energy deposition from the container."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4EventActionClearZero\lEdep::EndOfEventAction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d55/classPHG4EventActionClearZeroEdep.html#a2b307745507bc03d8009b45897cba97f",tooltip="Clears zero energy deposition hits from all PHG4HitContainer nodes listed in nodename_set."];
+}

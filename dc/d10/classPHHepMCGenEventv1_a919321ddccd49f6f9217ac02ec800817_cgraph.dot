@@ -1,0 +1,12 @@
+digraph "PHHepMCGenEventv1::get_LorentzRotation_Lab2EvtGen"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHHepMCGenEventv1::\lget_LorentzRotation\l_Lab2EvtGen",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="LorentzRotation to translate from lab frame to hepmc event frame."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHHepMCGenEventv1::\lget_LorentzRotation\l_EvtGen2Lab",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/classPHHepMCGenEventv1.html#afeaabaf8bba68c6b046d44a41f47ade5",tooltip="LorentzRotation to translate from hepmc event frame to lab frame."];
+}

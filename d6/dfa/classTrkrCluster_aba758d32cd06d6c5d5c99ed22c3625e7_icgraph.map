@@ -1,0 +1,56 @@
+<map id="TrkrCluster::getPhiSize" name="TrkrCluster::getPhiSize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="697,360,865,388"/>
+<area shape="rect" id="Node000002" href="$d8/da5/classTrkrClusterv4.html#a0ca70da748448602186d4f284cd43e40" title="copy content from base class" alt="" coords="464,5,645,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="774,345,763,283,741,203,725,161,704,119,678,81,648,48,629,36,632,31,651,44,683,78,709,117,730,158,746,201,769,282,779,344"/>
+<area shape="rect" id="Node000004" href="$d2/d06/classTrkrClusterv5.html#a72f9ef44452b7bb3c7fa482ce1cf958a" title="copy content from base class" alt="" coords="464,57,645,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="772,346,758,292,735,225,698,157,675,126,648,99,631,88,634,83,651,94,679,122,703,154,740,223,764,291,777,344"/>
+<area shape="rect" id="Node000006" href="$d4/dc0/classClusterErrorPara.html#af9505cdfcb43bee14451de98118efbfd" title="Compute modified cluster error for version five." alt="" coords="459,109,649,154"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="767,347,749,307,723,259,689,210,648,168,630,156,633,152,651,164,693,207,728,256,754,305,771,345"/>
+<area shape="rect" id="Node000010" href="$d4/dc0/classClusterErrorPara.html#a3cc7dd7856440089b623fea5b0577f43" title="Compute phi error for an INTT cluster based on layer and cluster phi size." alt="" coords="476,178,632,223"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="759,349,712,293,681,263,648,237,627,226,629,221,651,233,685,259,716,289,763,346"/>
+<area shape="rect" id="Node000011" href="$d4/dc0/classClusterErrorPara.html#a1f246e941460eed60498820ada3c56b4" title="Compute the phi error for an INTT cluster based on layer and cluster size." alt="" coords="476,386,632,431"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="682,392,633,399,632,394,681,386"/>
+<area shape="rect" id="Node000015" href="$d4/dc0/classClusterErrorPara.html#a4e56e3647066c851f15fb1a62cc19b25" title="Compute the phi error for a given detector layer and cluster." alt="" coords="474,248,634,292"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="741,354,648,307,620,295,622,290,650,302,743,350"/>
+<area shape="rect" id="Node000016" href="$d4/dc0/classClusterErrorPara.html#aac073b15f114e2cf85d71b2cd24afb84" title="Compute azimuthal error for MVTX cluster based on its phi and z sizes." alt="" coords="470,594,638,639"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="771,403,754,443,728,491,693,541,651,584,633,596,630,591,648,580,689,537,723,489,749,441,767,401"/>
+<area shape="rect" id="Node000017" href="$d4/dc0/classClusterErrorPara.html#a2f85df2881a35be6b101afd6fbcdf769" title="Compute the azimuthal (phi) error for a MVTX cluster." alt="" coords="470,456,638,500"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="743,398,650,446,622,457,620,452,648,441,741,393"/>
+<area shape="rect" id="Node000019" href="$d4/dc0/classClusterErrorPara.html#a65d70e9ebe690839874f5ef0e8ee1d81" title="Compute the MVTX z‑direction position error for a given cluster." alt="" coords="470,664,638,708"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="776,404,762,456,738,523,701,592,678,625,651,653,635,665,632,661,648,649,674,621,697,589,733,521,757,455,771,402"/>
+<area shape="rect" id="Node000020" href="$d4/dc0/classClusterErrorPara.html#a96b46a49f65833a8cde707e3b4c181c2" title="Compute the MVTX z position error for a given cluster." alt="" coords="470,525,638,570"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="763,402,716,458,685,488,651,515,629,527,627,522,648,510,681,484,712,455,759,399"/>
+<area shape="rect" id="Node000021" href="$db/d6c/classTpcSeedsQA.html#a4468d2812ff80bae2d0b63412e5780dd" title="Process a single event and fill QA histograms." alt="" coords="474,733,634,778"/>
+<area shape="poly" id="edge29_Node000001_Node000021" title=" " alt="" coords="779,404,769,468,747,553,730,599,709,643,683,685,651,722,636,735,632,730,647,719,679,682,704,641,725,597,742,552,764,467,774,403"/>
+<area shape="rect" id="Node000022" href="$d4/dc0/classClusterErrorPara.html#a5f09be566f58b6fda1b3e4a634a8bf22" title="Compute the phi error for a TPC cluster using layer, track angle and cluster attributes." alt="" coords="477,317,631,362"/>
+<area shape="poly" id="edge30_Node000001_Node000022" title=" " alt="" coords="682,361,631,354,632,348,683,356"/>
+<area shape="rect" id="Node000003" href="$d8/da5/classTrkrClusterv4.html#aeb05d40a09e6e677c2baa22444a2c650" title="copy content from base class" alt="" coords="217,5,398,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="448,22,398,22,398,16,448,16"/>
+<area shape="rect" id="Node000005" href="$d2/d06/classTrkrClusterv5.html#ab9987da30ab28706ecb893c3cd8d98f2" title="copy content from base class" alt="" coords="217,57,398,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="448,74,398,74,398,68,448,68"/>
+<area shape="rect" id="Node000007" href="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c" title="Generate source links for a given track seed and fill measurement container." alt="" coords="204,109,411,154"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="443,134,411,134,411,128,443,128"/>
+<area shape="rect" id="Node000009" href="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d" title="Generate source links for a track using the cluster mover." alt="" coords="204,178,411,223"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="458,161,390,180,389,175,457,156"/>
+<area shape="rect" id="Node000008" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="5,109,156,154"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="188,134,156,134,156,128,188,128"/>
+<area shape="rect" id="Node000012" href="$d4/dc0/classClusterErrorPara.html#a5d51576a31f3b764dd54c6d061cbd4f8" title="Compute squared position errors for a given cluster." alt="" coords="230,317,385,362"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="460,385,385,364,386,358,462,380"/>
+<area shape="rect" id="Node000013" href="$d4/dc0/classClusterErrorPara.html#adf3c3218e92844f80f04fc0ac52d095b" title="Compute the silicon cluster error for a given tracker cluster." alt="" coords="230,456,385,500"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="462,437,386,459,385,453,460,432"/>
+<area shape="rect" id="Node000014" href="$d4/dc0/classClusterErrorPara.html#ac3c0b5f0cd3b4f39a08555c6cec6f8d9" title="Compute simple error estimates for a given tracker cluster." alt="" coords="227,386,388,431"/>
+<area shape="poly" id="edge13_Node000011_Node000014" title=" " alt="" coords="460,411,388,411,388,406,460,406"/>
+<area shape="poly" id="edge15_Node000015_Node000012" title=" " alt="" coords="460,299,386,320,385,315,458,294"/>
+<area shape="poly" id="edge16_Node000015_Node000014" title=" " alt="" coords="467,302,461,306,445,323,438,340,429,358,413,376,390,390,387,385,409,372,425,355,433,338,441,320,457,303,464,298"/>
+<area shape="poly" id="edge19_Node000017_Node000012" title=" " alt="" coords="464,450,457,445,441,427,433,409,425,392,409,376,384,361,387,357,413,372,429,389,438,407,445,424,461,441,467,445"/>
+<area shape="poly" id="edge21_Node000017_Node000013" title=" " alt="" coords="455,480,385,480,385,475,455,475"/>
+<area shape="poly" id="edge22_Node000017_Node000014" title=" " alt="" coords="456,453,388,434,389,429,458,448"/>
+<area shape="rect" id="Node000018" href="$d4/dc0/classClusterErrorPara.html#a504ee2aa3f11dd0531bf9525d7b46e54" title="Compute fixed TPC cluster error for a given cluster." alt="" coords="227,525,388,570"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="458,507,389,527,387,522,457,502"/>
+<area shape="poly" id="edge25_Node000020_Node000012" title=" " alt="" coords="460,517,457,514,443,496,436,478,433,443,429,409,422,392,409,376,384,358,387,354,413,372,427,390,434,408,438,443,441,477,448,494,461,511,464,513"/>
+<area shape="poly" id="edge27_Node000020_Node000013" title=" " alt="" coords="457,523,385,502,386,497,458,517"/>
+<area shape="poly" id="edge28_Node000020_Node000014" title=" " alt="" coords="464,519,457,514,441,497,433,479,425,462,409,445,387,432,390,427,413,441,429,459,438,477,445,494,461,511,467,515"/>
+<area shape="poly" id="edge26_Node000020_Node000018" title=" " alt="" coords="454,550,388,550,388,544,454,544"/>
+<area shape="poly" id="edge31_Node000022_Node000012" title=" " alt="" coords="461,342,386,342,386,336,461,336"/>
+<area shape="poly" id="edge32_Node000022_Node000014" title=" " alt="" coords="463,368,389,388,388,383,461,362"/>
+</map>

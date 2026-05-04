@@ -1,0 +1,14 @@
+digraph "SingleTriggeredInput::CheckFemDiffIdx"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SingleTriggeredInput\l::CheckFemDiffIdx",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Verify that the majority FEM clock difference between two consecutive events matches a given GL1 diff..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SingleTriggeredInput\l::CheckPoolAlignment",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d97/classSingleTriggeredInput.html#a1ecd38f58e9f7b78b9bda28193d9cc38",tooltip="Check alignment between SEB and GL1 diff pools for a given packet."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SingleTriggeredInput\l::FillPool",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d97/classSingleTriggeredInput.html#a507f0a733e9688979a5887766aa431f2",tooltip="Fill the event pool for a SingleTriggeredInput instance."];
+}

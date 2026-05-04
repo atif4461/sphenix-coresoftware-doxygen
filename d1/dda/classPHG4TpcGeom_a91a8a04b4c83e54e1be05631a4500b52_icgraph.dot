@@ -1,0 +1,16 @@
+digraph "PHG4TpcGeom::get_CM_halfwidth"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4TpcGeom::get_CM\l_halfwidth",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Abstract interface for objects providing a centre of mass half width."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MakeActsGeometry::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6",tooltip="Initialize geometry, alignment and magnetic field for a new run."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4TpcDirectLaser\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d3c/classPHG4TpcDirectLaser.html#ab420868a68ab2a3d4e06c44baf9a88ae",tooltip="run initialization"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4TpcElectronDrift\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/ddb/classPHG4TpcElectronDrift.html#afc67056d307665339988e63c165d7b9a",tooltip="Initialize run specific resources and node tree for TPC electron drift."];
+}

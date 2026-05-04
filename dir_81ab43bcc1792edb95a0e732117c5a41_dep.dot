@@ -1,0 +1,15 @@
+digraph "/home/atif/sphenix-celloai/coresoftware/calibrations/framework/fun4cal"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_6b941d2a42967fb3ef61105cfb4f8864 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="framework", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_6b941d2a42967fb3ef61105cfb4f8864.html",tooltip=""]
+  dir_81ab43bcc1792edb95a0e732117c5a41 [label="fun4cal", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_81ab43bcc1792edb95a0e732117c5a41.html",tooltip=""];
+  }
+  dir_15d59da18995d124096f100e50a063bb [label="offline", fillcolor="#edf0f7", color="red", style="filled,dashed", URL="dir_15d59da18995d124096f100e50a063bb.html",tooltip=""];
+  dir_81ab43bcc1792edb95a0e732117c5a41->dir_15d59da18995d124096f100e50a063bb [headlabel="15", labeldistance=1.5 headhref="dir_000048_000110.html" href="dir_000048_000110.html" color="steelblue1" fontcolor="steelblue1"];
+}

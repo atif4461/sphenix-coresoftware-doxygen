@@ -1,0 +1,20 @@
+digraph "mvtx::PayLoadCont::append"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="mvtx::PayLoadCont::\lappend",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Append data using provided getter function."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="mvtx::PayLoadCont::\lgetFreeCapacity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d6f/classmvtx_1_1PayLoadCont.html#a5ad0703c5973fc37a15bbdc3492e0dbf",tooltip="make sure buffer may accept at least n bytes"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="mvtx::PayLoadCont::\lgetSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d6f/classmvtx_1_1PayLoadCont.html#a17549db2712b4ee4738016842559bb7e",tooltip="get offset of the current ptr from the head"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="mvtx::PayLoadCont::\lmoveUnusedToHead",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d6f/classmvtx_1_1PayLoadCont.html#ab9955257592356a441f2bbc91f7274dd",tooltip="move unused data to the head and upload new chunk of data"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="mvtx::PayLoadCont::\lgetOffset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d6f/classmvtx_1_1PayLoadCont.html#aedf0c2cfaba4d58a763f53d1db0d9617",tooltip="booked capacity"];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="mvtx::PayLoadCont::\lgetUnusedSize",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d6f/classmvtx_1_1PayLoadCont.html#aa953fa798dcc6fc6eb6f983d7194131c",tooltip="get filled size"];
+}

@@ -1,0 +1,14 @@
+digraph "SvtxVertex::set_t"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxVertex::set_t",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHTruthVertexing::Process",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d07/classPHTruthVertexing.html#a21823928a2de85f0ceba1f847bdb8313",tooltip="Process truth vertices and copy them into the SvtxVertexMap."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxVertex::set_t0",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d6d/classSvtxVertex.html#ab61dc238485b8f683c80f7cd2a9ae8ed",tooltip=" "];
+}

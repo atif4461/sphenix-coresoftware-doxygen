@@ -1,0 +1,12 @@
+digraph "SvtxTruthEval::get_truth_hits_from_truth_cluster"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTruthEval::get\l_truth_hits_from_truth\l_cluster",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve the set of Geant4 hits linked to a specified truth cluster."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxClusterEval::reco\l_cluster_from_truth_cluster",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#added2590560c42b75c264ca8cefb838a",tooltip="Find the reconstructed cluster that best matches a given truth cluster."];
+}

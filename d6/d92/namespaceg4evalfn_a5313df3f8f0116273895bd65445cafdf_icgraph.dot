@@ -1,0 +1,16 @@
+digraph "g4evalfn::clusloc_PHG4"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="g4evalfn::clusloc_PHG4",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct a TrkrClusLoc object from a PHG4 truth cluster."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackClusEvaluator\l::clusloc_matched",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ded/classTrackClusEvaluator.html#a155b874a41b23b198f36fadc9ea340ae",tooltip="Return vector of cluster locations that are matched to PHG4 hits."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackClusEvaluator\l::phg4_clusloc_all",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ded/classTrackClusEvaluator.html#a0236d65478bd73479ce248654c256084",tooltip="Return vector of TrkrClusLoc for all PHG4 clusters."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrackClusEvaluator\l::phg4_clusloc_unmatched",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/ded/classTrackClusEvaluator.html#ae8f4dcb3ba049b065b4976c55a7ac14c",tooltip="Retrieve cluster locations for PHG4 clusters that have no match."];
+}

@@ -1,0 +1,71 @@
+<map id="Tpc3DClusterizer::process_event" name="Tpc3DClusterizer::process_event">
+<area shape="rect" id="Node000001" title="Process a single event within the Fun4All framework." alt="" coords="5,541,196,586"/>
+<area shape="rect" id="Node000002" href="$d4/d1d/classTpc3DClusterizer.html#a5165c9474cc443a3db991195703d609c" title="Compute cluster parameters from a collection of hits and associated ADC values and store the resultin..." alt="" coords="271,146,438,191"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,540,114,475,138,387,156,339,180,292,208,247,242,208,256,196,259,201,246,212,212,251,184,295,161,341,143,389,119,477,107,541"/>
+<area shape="rect" id="Node000007" href="$d7/db0/namespaceTpcDefs.html#aaee8d42aaa9f7331459a8589f9550086" title="Get the sector id from hitsetkey." alt="" coords="536,213,693,241"/>
+<area shape="poly" id="edge31_Node000001_Node000007" title=" " alt="" coords="103,540,116,484,141,410,160,371,182,334,210,300,242,272,274,252,309,237,382,219,455,212,521,213,521,218,455,217,383,224,310,242,277,257,245,276,213,304,187,337,164,374,146,412,121,485,108,541"/>
+<area shape="rect" id="Node000008" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="549,265,680,293"/>
+<area shape="poly" id="edge32_Node000001_Node000008" title=" " alt="" coords="105,540,121,492,148,430,188,368,213,340,242,317,277,298,314,284,391,267,467,263,534,265,533,271,467,268,392,273,315,289,279,303,245,321,217,344,192,371,152,432,126,493,110,541"/>
+<area shape="rect" id="Node000009" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="524,341,705,369"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="107,539,124,497,152,444,191,393,215,371,242,353,280,337,320,326,361,320,402,318,480,323,547,335,546,340,480,329,402,324,361,326,321,331,282,342,245,358,218,375,195,396,156,447,129,499,112,541"/>
+<area shape="rect" id="Node000013" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="287,419,422,446"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="125,538,177,497,209,475,243,457,271,446,273,451,245,462,211,480,180,501,128,542"/>
+<area shape="rect" id="Node000014" href="$d7/db0/namespaceTpcDefs.html#ad6f7435b72ea8675313c2d016aa835f6" title="Generate a hitkey from a pad index and time bin." alt="" coords="280,471,429,498"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="159,538,243,509,273,500,274,505,244,514,161,543"/>
+<area shape="rect" id="Node000015" href="$d7/db0/namespaceTpcDefs.html#a30fc79495c9e8d14327d1026cd7325c7" title="Generate a hitsetkey for the tpc." alt="" coords="269,523,440,550"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="196,551,253,544,254,550,196,556"/>
+<area shape="rect" id="Node000017" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="Retrieve integer flag value by name." alt="" coords="280,575,428,602"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="196,570,265,577,264,582,196,575"/>
+<area shape="rect" id="Node000025" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="283,367,426,394"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="114,539,165,472,201,436,242,405,267,393,269,398,245,409,204,440,169,476,118,542"/>
+<area shape="rect" id="Node000027" href="$d9/dc1/classTrkrHitSet.html#a37ac32e4359d1b904585bfde3be88718" title="Get all hits." alt="" coords="284,627,424,654"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="163,584,244,611,275,620,274,625,243,616,161,589"/>
+<area shape="rect" id="Node000028" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="284,679,424,706"/>
+<area shape="poly" id="edge29_Node000001_Node000028" title=" " alt="" coords="128,584,180,625,245,663,271,673,269,678,243,668,177,629,125,588"/>
+<area shape="rect" id="Node000029" href="$d7/db0/namespaceTpcDefs.html#a5009e86d9bf74a453e860b3650aac4d4" title="Get the pad index from hitkey." alt="" coords="291,731,418,758"/>
+<area shape="poly" id="edge30_Node000001_Node000029" title=" " alt="" coords="118,584,169,650,205,686,245,716,278,730,275,734,242,720,201,690,165,654,114,588"/>
+<area shape="rect" id="Node000030" href="$d7/db0/namespaceTpcDefs.html#a3ec8638cf9427c7955840853dbd96383" title="Get the time bin from hitkey." alt="" coords="288,783,420,810"/>
+<area shape="poly" id="edge33_Node000001_Node000030" title=" " alt="" coords="113,585,132,625,160,675,198,725,221,748,245,768,275,782,272,787,242,772,217,752,194,729,156,678,127,627,108,587"/>
+<area shape="rect" id="Node000031" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="276,835,432,862"/>
+<area shape="poly" id="edge34_Node000001_Node000031" title=" " alt="" coords="110,585,126,635,153,698,192,764,217,794,245,820,263,831,261,835,242,824,213,798,188,767,148,701,121,636,105,587"/>
+<area shape="rect" id="Node000032" href="$d4/d1d/classTpc3DClusterizer.html#a8b85039c7a19392d73baad2241073e9c" title="Remove cluster hits from the provided containers." alt="" coords="244,887,465,914"/>
+<area shape="poly" id="edge35_Node000001_Node000032" title=" " alt="" coords="108,585,121,644,146,722,164,763,186,803,213,840,245,872,252,877,249,881,242,876,209,843,182,806,159,765,141,723,115,645,103,587"/>
+<area shape="rect" id="Node000033" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="269,939,440,966"/>
+<area shape="poly" id="edge36_Node000001_Node000033" title=" " alt="" coords="106,586,116,652,139,744,157,793,180,841,209,885,245,924,257,932,254,936,242,928,205,889,176,844,152,795,134,746,111,653,101,586"/>
+<area shape="rect" id="Node000003" href="$d6/d3f/namespaceTrkrDefs.html#a5cc3b1fa8e62e3fc5fb698fe1991cfae" title="generate cluster key from hitset key and cluster index" alt="" coords="535,57,694,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,143,512,95,538,87,539,92,514,100,402,148"/>
+<area shape="rect" id="Node000004" href="$d1/dda/classPHG4TpcGeom.html#a394a737a5f4e070853d138a1b1c88283" title=" " alt="" coords="527,109,702,137"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="437,151,516,138,517,143,438,157"/>
+<area shape="rect" id="Node000005" href="$d1/dda/classPHG4TpcGeom.html#a3fe5405b4a41fc532974d168fe776f16" title=" " alt="" coords="517,161,712,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="438,168,502,170,502,175,438,173"/>
+<area shape="rect" id="Node000006" href="$d1/dda/classPHG4TpcGeom.html#a5983eac3c7a662d9ff2b902eb99171dc" title=" " alt="" coords="513,5,716,33"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="377,144,435,93,472,66,512,43,529,36,531,41,514,48,475,71,438,97,380,148"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="438,185,536,207,535,212,437,190"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="394,189,450,220,514,250,536,258,534,263,512,255,447,225,391,194"/>
+<area shape="poly" id="edge9_Node000009_Node000009" title=" " alt="" coords="571,342,563,332,569,323,586,317,615,315,645,317,661,324,660,329,644,322,615,320,587,322,572,327,569,332,575,339"/>
+<area shape="rect" id="Node000010" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="808,289,950,317"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="688,338,792,317,793,323,689,343"/>
+<area shape="rect" id="Node000011" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="813,341,945,369"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="706,352,797,352,797,358,706,358"/>
+<area shape="rect" id="Node000012" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="764,393,994,421"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="689,367,790,387,789,392,688,372"/>
+<area shape="rect" id="Node000016" href="$d6/d3f/namespaceTrkrDefs.html#a418e306477093b8d17d587be70b908a3" title="generate the common upper 16 bits for hitsetkey" alt="" coords="529,523,700,550"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="440,534,513,534,513,539,440,539"/>
+<area shape="rect" id="Node000018" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="562,627,667,654"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="428,600,547,624,546,630,427,606"/>
+<area shape="rect" id="Node000024" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="527,575,702,602"/>
+<area shape="poly" id="edge24_Node000017_Node000024" title=" " alt="" coords="429,586,511,586,511,591,429,591"/>
+<area shape="rect" id="Node000019" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="786,731,972,758"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="641,653,696,684,765,715,791,724,789,729,763,720,694,689,638,657"/>
+<area shape="rect" id="Node000020" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="792,523,966,550"/>
+<area shape="poly" id="edge20_Node000018_Node000020" title=" " alt="" coords="667,630,692,622,715,612,729,600,738,587,747,574,763,561,777,554,779,559,766,565,751,577,742,590,733,603,718,616,694,627,668,635"/>
+<area shape="rect" id="Node000021" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="800,575,958,602"/>
+<area shape="poly" id="edge21_Node000018_Node000021" title=" " alt="" coords="667,628,790,603,791,609,668,633"/>
+<area shape="rect" id="Node000022" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="790,627,968,654"/>
+<area shape="poly" id="edge22_Node000018_Node000022" title=" " alt="" coords="668,638,775,638,775,643,668,643"/>
+<area shape="rect" id="Node000023" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="788,679,970,706"/>
+<area shape="poly" id="edge23_Node000018_Node000023" title=" " alt="" coords="668,648,791,672,790,678,667,653"/>
+<area shape="poly" id="edge26_Node000025_Node000009" title=" " alt="" coords="426,371,508,363,509,368,427,376"/>
+<area shape="rect" id="Node000026" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="532,393,697,421"/>
+<area shape="poly" id="edge27_Node000025_Node000026" title=" " alt="" coords="427,385,518,395,517,400,426,390"/>
+</map>

@@ -1,0 +1,18 @@
+digraph "TrackSeed::g4hit_ids"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrackSeed::g4hit_ids",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve the map of Geant4 hit identifiers associated with this track seed."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackSeed_FastSim_v1\l::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d86/classTrackSeed__FastSim__v1.html#a609058821b1081324803628ae0c7b48c",tooltip="Copy data from a source TrackSeed into this TrackSeed_FastSim_v1 instance."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackSeed_FastSim_v1\l::TrackSeed_FastSim_v1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d86/classTrackSeed__FastSim__v1.html#a7b293327c5bfa473e4609f878d5c9f56",tooltip="Construct a TrackSeed_FastSim_v1 from a source TrackSeed."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrackSeed_FastSim_v2\l::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d01/classTrackSeed__FastSim__v2.html#af5e05ec67049626311a18a42bffc0425",tooltip="Copy data from source TrackSeed into this object."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrackSeed_FastSim_v2\l::TrackSeed_FastSim_v2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d01/classTrackSeed__FastSim__v2.html#aceae892e792c513c8b03ff50477953e7",tooltip="Construct a TrackSeed_FastSim_v2 from an existing TrackSeed."];
+}

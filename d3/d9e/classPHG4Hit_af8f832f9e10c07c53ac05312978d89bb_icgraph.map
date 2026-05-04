@@ -1,0 +1,41 @@
+<map id="PHG4Hit::get_trkid" name="PHG4Hit::get_trkid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="710,402,853,430"/>
+<area shape="rect" id="Node000002" href="$df/dad/classSvtxTrackEval.html#a42ac8451a0d81a9d6deb3f13b7f0bbd3" title="Retrieve all SvtxTrack objects that share the same truth track identifier as the given PHG4Hit." alt="" coords="500,5,637,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="776,387,768,321,750,235,735,189,715,144,691,102,661,64,636,47,639,43,664,60,695,99,720,142,740,187,755,234,774,320,781,386"/>
+<area shape="rect" id="Node000003" href="$d8/d5c/classTruthClusterizerBase.html#a49a1c89a4afa675b1f9ad4a1a251696f" title="Check the status of a PHG4Hit and update internal track tracking flags." alt="" coords="491,75,646,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="773,387,762,334,741,266,708,195,686,163,661,134,645,122,648,118,664,130,690,159,713,193,746,264,767,332,779,386"/>
+<area shape="rect" id="Node000004" href="$d3/d9e/classPHG4Hit.html#a9849ab6aeb1834f2d57461f2a5cd093d" title="Copy all hit data from another PHG4Hit object." alt="" coords="494,143,644,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="771,388,758,343,736,288,704,232,684,206,661,184,643,174,646,169,664,180,688,203,708,229,741,285,763,341,776,386"/>
+<area shape="rect" id="Node000008" href="$d4/de4/classSvtxTruthEval.html#a2b62c06968f1705c6f8cc2b578746275" title="Fill truth hit cache by associating G4 hits with truth particles." alt="" coords="484,195,653,239"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="765,389,724,322,695,285,661,254,642,242,645,238,664,250,699,282,728,319,769,387"/>
+<area shape="rect" id="Node000010" href="$dc/d23/classBaseTruthEval.html#ac3045216b60b1b54d9fdd81e3a07b938" title="which particle left this truth hit?" alt="" coords="498,264,640,309"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="753,393,712,358,661,323,638,312,640,307,664,319,715,354,757,389"/>
+<area shape="rect" id="Node000012" href="$d1/d1e/classSvtxClusterEval.html#abd7851ec294047271ce26d8824d2af81" title="Retrieve the global track identifier and detector layer for a given cluster based on associated truth..." alt="" coords="476,333,661,378"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="715,400,650,381,651,376,716,395"/>
+<area shape="rect" id="Node000014" href="$d3/d9e/classPHG4Hit.html#a4677e30b3f0d6dec33ea16750e287d56" title="Prints detailed hit information to the supplied output stream." alt="" coords="502,402,635,430"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="695,418,636,418,636,413,695,413"/>
+<area shape="rect" id="Node000015" href="$dc/d23/classBaseTruthEval.html#ac0e4471cf9a8a877339f46ba903d0c14" title="was this truth hit left by this particle?" alt="" coords="482,453,655,498"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="716,437,651,455,650,450,715,432"/>
+<area shape="rect" id="Node000016" href="$d3/d9e/classPHG4Hit.html#a0bc331aaf588180e354ba1cdbcae8aba" title="Stream insertion operator for PHG4Hit." alt="" coords="488,522,649,550"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="758,442,716,479,664,513,637,524,635,519,661,508,712,474,754,438"/>
+<area shape="rect" id="Node000017" href="$df/d93/classMbdDigitization.html#ac057a48a827f031ed90a4b605ed544ed" title="Process Event, called for each event." alt="" coords="478,573,660,618"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="767,444,725,503,696,535,664,563,644,575,641,570,661,559,693,531,721,500,762,441"/>
+<area shape="rect" id="Node000018" href="$d8/dc7/classMomentumEvaluator.html#a57a5a38c5590636286793eadcacddbad" title="Process a single event within the Fun4All framework." alt="" coords="486,643,652,687"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="774,445,759,486,736,536,705,587,664,632,647,644,644,640,661,628,700,584,731,534,754,484,769,443"/>
+<area shape="rect" id="Node000019" href="$df/df1/classPHG4DstCompressReco.html#aa9383f6b2e8b34191c345611c8222268" title="event processing" alt="" coords="480,712,657,757"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="779,445,767,499,746,567,713,639,690,672,664,702,648,714,645,709,661,698,686,669,708,636,741,565,762,498,773,444"/>
+<area shape="rect" id="Node000020" href="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853" title="event processing method" alt="" coords="475,781,662,826"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="781,445,774,511,755,598,740,644,720,690,695,733,664,771,650,783,646,779,660,767,691,729,715,687,735,642,750,596,768,510,776,445"/>
+<area shape="rect" id="Node000005" href="$d5/d60/classPHG4HitEval.html#aa047ef4c978433f49e1b6f39050cc075" title="Copy data from a source PHObject into this PHG4HitEval instance." alt="" coords="249,91,427,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="488,142,402,122,403,117,490,137"/>
+<area shape="rect" id="Node000007" href="$d9/d35/classPHG4Hitv1.html#a2bd73935561899a900c6ad37d43245e8" title="Construct a PHG4Hitv1 from a PHG4Hit pointer." alt="" coords="252,143,424,171"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="478,160,424,160,424,154,478,154"/>
+<area shape="rect" id="Node000006" href="$d5/d60/classPHG4HitEval.html#a01e507ac99396484a9e138e92bf2cead" title="Construct PHG4HitEval from a PHG4Hit pointer." alt="" coords="5,91,201,119"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="233,108,201,108,201,102,233,102"/>
+<area shape="rect" id="Node000009" href="$d4/de4/classSvtxTruthEval.html#a3a24dd3f6c0363248b168715d7467a4f" title="Retrieve all truth hits associated with a given PHG4Particle." alt="" coords="271,195,405,239"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="468,220,405,220,405,214,468,214"/>
+<area shape="rect" id="Node000011" href="$dc/d23/classBaseTruthEval.html#ab61d7f1ac372d54076f59f6fcebd3585" title="which primary particle resulted in this truth hit?" alt="" coords="267,264,409,309"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="482,289,410,289,410,284,482,284"/>
+<area shape="rect" id="Node000013" href="$d1/d1e/classSvtxClusterEval.html#aea125d30358376360f89706a917607c0" title="Retrieve cluster key with highest hit count for specified global track id and layer." alt="" coords="258,333,418,378"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="461,358,419,358,419,353,461,353"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="SvtxClusterEval::all_truth_particles" name="SvtxClusterEval::all_truth_particles">
+<area shape="rect" id="Node000001" title="Retrieve set of truth particles associated with a given cluster key." alt="" coords="724,137,873,182"/>
+<area shape="rect" id="Node000002" href="$d1/d1e/classSvtxClusterEval.html#a2a7200dd1b701897d19bcc38fccafb12" title="Retrieve all truth clusters associated with a given cluster key, optionally using a cached result." alt="" coords="507,29,655,74"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="750,131,675,89,648,77,650,72,678,84,752,126"/>
+<area shape="rect" id="Node000003" href="$d1/d1e/classSvtxClusterEval.html#a376a1d2e98fc7e63fcb2801ae387bb38" title="Fill reconstruction cluster cache from G4 hit truth associations." alt="" coords="490,99,673,143"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="709,146,673,140,674,135,710,141"/>
+<area shape="rect" id="Node000008" href="$d1/d1e/classSvtxClusterEval.html#a71467fc0bd5e8af7a8d4ea2a0d124bc1" title="Find truth particle with maximum energy contribution to the specified cluster." alt="" coords="486,168,676,229"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="709,178,677,184,676,179,708,173"/>
+<area shape="rect" id="Node000010" href="$d1/d1e/classSvtxClusterEval.html#acfd3a615b33f784c3b8df13b58e9958a" title="Find the truth particle that contributes the largest energy to a given cluster." alt="" coords="486,253,676,298"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="757,193,719,219,678,243,652,255,649,250,675,239,717,215,754,189"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="617,17,603,10,581,8,561,10,548,15,543,21,545,28,539,29,538,19,545,10,560,5,581,3,605,5,619,12"/>
+<area shape="rect" id="Node000004" href="$d1/d1e/classSvtxClusterEval.html#a084923c9a81dba1d830b390970ac3c8d" title="Retrieve all reconstructed cluster keys associated with a given truth particle." alt="" coords="271,99,420,143"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="474,124,420,124,420,118,474,118"/>
+<area shape="rect" id="Node000005" href="$d1/d1e/classSvtxClusterEval.html#a9091398a04a3d0bafff1f96be89c84b2" title="Determine the cluster key with the highest energy contribution for a given truth hit." alt="" coords="25,29,185,74"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="256,98,184,77,186,72,257,93"/>
+<area shape="rect" id="Node000006" href="$d1/d05/classQAG4SimulationVertex.html#a5d6b9df173a4094d3744572a9e2410d0" title="Process a single event within the Fun4All framework." alt="" coords="20,99,190,143"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="256,124,191,124,191,118,256,118"/>
+<area shape="rect" id="Node000007" href="$d1/d1e/classSvtxClusterEval.html#added2590560c42b75c264ca8cefb838a" title="Find the reconstructed cluster that best matches a given truth cluster." alt="" coords="5,168,205,213"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="257,149,186,170,184,165,256,144"/>
+<area shape="rect" id="Node000009" href="$d1/d1e/classSvtxClusterEval.html#a4ed068393b7f131534926b87b7b59e10" title="Retrieve the truth cluster that best matches a reconstructed cluster based on the highest‑energy cont..." alt="" coords="253,176,438,221"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="471,201,438,201,438,196,471,196"/>
+</map>

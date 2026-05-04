@@ -1,0 +1,46 @@
+digraph "BEmcRec::SetTowerGeometry"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="BEmcRec::SetTowerGeometry",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set tower geometry for given indices."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="RawTowerGeom::get_center\l_high_eta_x",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a0d22ba2e87cfd2d2bdbf483c5930081a",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="RawTowerGeom::get_center\l_high_eta_y",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a5856764d6a34aab7d834822063747d3b",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="RawTowerGeom::get_center\l_high_eta_z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a3f29aed778e553f6decde981706fb8ed",tooltip="Retrieve the z coordinate of the detector center at high pseudorapidity."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="RawTowerGeom::get_center\l_high_phi_x",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a2e0d2efe34900ba0c00af30416f83b7b",tooltip="Retrieve the x coordinate of the high phi sector center."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="RawTowerGeom::get_center\l_high_phi_y",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a04af310d52b0bf67f1460ca66861b5a5",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="RawTowerGeom::get_center\l_high_phi_z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a1548938d72fdfb229b960d0c7461b869",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="RawTowerGeom::get_center\l_low_eta_x",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a829b88e2103ffdce9be9f8a62c4947c6",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="RawTowerGeom::get_center\l_low_eta_y",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#aea13ab5f828d3c25fdae6728c2dc962d",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="RawTowerGeom::get_center\l_low_eta_z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a2ddd48d6164f15919733c48f5280237e",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="RawTowerGeom::get_center\l_low_phi_x",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a3634ba1b4583ba8233e861fbcde6b23c",tooltip=" "];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="RawTowerGeom::get_center\l_low_phi_y",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a6be0c6c04b5ba9d4fe729c01fcea7bb7",tooltip=" "];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="RawTowerGeom::get_center\l_low_phi_z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#aa590ea209c6fcc15b339972c8956a6cf",tooltip=" "];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="RawTowerGeom::get_center_x",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#ad788240f82a8e4ea29e987e6fe2feb4a",tooltip=" "];
+  Node1 -> Node15 [id="edge14_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="RawTowerGeom::get_center_y",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a06628d3d5f62f86a841654d06f0f1974",tooltip=" "];
+  Node1 -> Node16 [id="edge15_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="RawTowerGeom::get_center_z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a772770f6724ce4f5ad46e61b6c2876b7",tooltip=" "];
+  Node1 -> Node17 [id="edge16_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="RawTowerGeom::get_rotx",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#aba1f16a343484eb48eef250b96618a96",tooltip=" "];
+  Node1 -> Node18 [id="edge17_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="RawTowerGeom::get_roty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a4ea30bcc92bb9e24e308a2eafb8b76a1",tooltip=" "];
+  Node1 -> Node19 [id="edge18_Node000001_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="RawTowerGeom::get_rotz",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/dc4/classRawTowerGeom.html#a7d9b17e9a0ef911ef571a38ed046eee3",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "Fun4AllStreamingLumiCountingInputManager::~Fun4AllStreamingLumiCountingInputManager"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Fun4AllStreamingLumiCounting\lInputManager::~Fun4AllStreaming\lLumiCountingInputManager",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Destructor releases resources associated with streaming lumi counting input manager."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllStreamingLumiCounting\lInputManager::fileclose",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d88/classFun4AllStreamingLumiCountingInputManager.html#a1c5907b70fd95eadae46ba4ce4589a54",tooltip="Close the input manager file and return status."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="InputFileHandler::IsOpen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef",tooltip=" "];
+}

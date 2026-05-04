@@ -1,0 +1,14 @@
+digraph "TrackClusEvaluator::addClusKeys"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TrackClusEvaluator\l::addClusKeys",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Add cluster keys from a truth track to internal list and sort them."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrkrTruthTrack::getClusters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dc0/classTrkrTruthTrack.html#ac2f8d66159ab2758e25f35cad737bbb1",tooltip="Get reference to the vector of cluster keys associated with this truth track."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrkrDefs::getHitSetKeyFrom\lClusKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331",tooltip="Get the upper 32 bits from cluster keys."];
+}

@@ -1,0 +1,19 @@
+<map id="MbdEvent::ProcessPackets" name="MbdEvent::ProcessPackets">
+<area shape="rect" id="Node000001" title="Process packets for a BBC event and fill the provided raw container." alt="" coords="5,192,199,220"/>
+<area shape="rect" id="Node000002" href="$d5/d64/classMbdEvent.html#aed181a994f393d718833209363f76282" title="Reset all MBD event raw and derived data members to default invalid or zero values." alt="" coords="288,5,416,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,190,161,120,200,79,245,44,273,31,275,36,248,48,203,83,165,123,114,193"/>
+<area shape="rect" id="Node000003" href="$d5/d64/classMbdEvent.html#a0b581914b0fbb43c011fdbb4e740adad" title="Fill histograms with ADC samples and perform on‑the‑fly sample‑maximum calibration." alt="" coords="247,57,458,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,190,170,143,207,118,245,95,263,88,266,93,248,100,209,122,174,148,120,194"/>
+<area shape="rect" id="Node000004" href="$d0/d3a/classMbdRawContainer.html#a597ebd26b5b9a857455ffb2396eeeff4" title="get MbdRawHit Object" alt="" coords="251,109,454,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="136,189,246,147,274,139,275,144,248,152,137,194"/>
+<area shape="rect" id="Node000005" href="$db/d4f/classMbdRawHit.html#a0639c1964b6a8022ad6edaca871934dd" title=" " alt="" coords="263,161,442,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="199,191,247,185,248,191,199,197"/>
+<area shape="rect" id="Node000006" href="$d0/d3a/classMbdRawContainer.html#abb1f7e7e76fa6f5321b068f2c2058dd8" title="Set clock identifiers for a given event placeholder implementation." alt="" coords="268,213,436,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="199,215,253,221,252,226,199,220"/>
+<area shape="rect" id="Node000007" href="$db/d4f/classMbdRawHit.html#ad3ebd00fb2d8faee56ea50462ea6d57b" title=" " alt="" coords="268,281,437,309"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="132,218,185,243,248,267,270,274,268,279,246,272,183,247,130,223"/>
+<area shape="rect" id="Node000008" href="$d0/d3a/classMbdRawContainer.html#a811b98e36a0f9d71afdd43f5bb81fbc0" title="Set number of PMTs placeholder implementation." alt="" coords="248,333,457,361"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="119,218,172,267,209,295,248,318,264,325,262,330,245,323,206,299,169,271,115,222"/>
+<area shape="rect" id="Node000009" href="$db/d4f/classMbdRawHit.html#a8f7bb3d5de0c55f3e87681f405526ec8" title=" " alt="" coords="274,385,431,413"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="114,219,134,250,164,292,203,334,248,370,260,377,258,382,245,375,199,338,160,295,129,253,109,221"/>
+</map>

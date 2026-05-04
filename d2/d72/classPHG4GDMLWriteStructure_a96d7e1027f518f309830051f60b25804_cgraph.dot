@@ -1,0 +1,14 @@
+digraph "PHG4GDMLWriteStructure::ExportEnergyCuts"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4GDMLWriteStructure\l::ExportEnergyCuts",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Export energy cut values for gamma electron positron and proton from a logical volume."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4GDMLWriteStructure\l::AddVolumeAuxiliary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d72/classPHG4GDMLWriteStructure.html#a4c65efa3c955eb394620d83b69ab1ade",tooltip="Add an auxiliary structure to the map for a given logical volume."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4GDMLWriteStructure\l::ConvertToString",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d72/classPHG4GDMLWriteStructure.html#a9a129dbd936390e5c951c4eb3a264155",tooltip="Convert a double value to a G4String."];
+}

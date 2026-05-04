@@ -1,0 +1,61 @@
+digraph "PHG4DetectorGroupSubsystem::InitRun"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4DetectorGroupSubsystem\l::InitRun",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialize run for detector group subsystem."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHCompositeNode::addNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4",tooltip="Add a child node to this composite node after checking for name conflicts."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHNode::getName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHNode::PHNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb",tooltip="Construct a PHNode with the specified name and an empty secondary identifier."];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHNode::setParent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198",tooltip=" "];
+  Node5 -> Node4 [id="edge6_Node000005_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4Subsystem::DefineMaterials",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/df7/classPHG4Subsystem.html#aa13094c08ce6992ef22c4a032d2bd6bb",tooltip=" "];
+  Node1 -> Node7 [id="edge8_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHNodeIterator::findFirst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa",tooltip="Search recursively for the first node that matches a given type and name."];
+  Node7 -> Node7 [id="edge9_Node000007_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node3 [id="edge10_Node000007_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node8 [id="edge11_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHNode::getType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5",tooltip=" "];
+  Node7 -> Node9 [id="edge12_Node000007_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHNodeIterator::PHNodeIterator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240",tooltip="Constructor initializing the iterator with the specified composite node."];
+  Node1 -> Node10 [id="edge13_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4DetectorGroupSubsystem\l::get_filetype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a24f35a252d8583cbbbc6ba5364864ad3",tooltip=" "];
+  Node1 -> Node11 [id="edge14_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="findNode::getClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f",tooltip=" "];
+  Node11 -> Node7 [id="edge15_Node000011_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node11 -> Node12 [id="edge16_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PHDataNode::getData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3",tooltip=" "];
+  Node1 -> Node13 [id="edge17_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHG4DetectorGroupSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#abec0c72c8b4cd658b94bf986539de1d5",tooltip="Initialize run specific resources for the subsystem."];
+  Node1 -> Node14 [id="edge18_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="Fun4AllBase::Name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893",tooltip="Returns the name of this module."];
+  Node1 -> Node15 [id="edge19_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="PdbParameterMapContainer\l::print",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d7d/classPdbParameterMapContainer.html#a16c8b0bd57f95cfe149cdd30efa093da",tooltip="Print contents of the parameter map container."];
+  Node1 -> Node16 [id="edge20_Node000001_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="PHG4DetectorGroupSubsystem\l::ReadParamsFromFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#ab0a3fd0c62d1248cc844008cc91041b6",tooltip="Dummy implementation for reading detector group parameters from a file."];
+  Node1 -> Node17 [id="edge21_Node000001_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="PHG4DetectorGroupSubsystem\l::SuperDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a6e3ca72b9e3ed37d83d3e4089a7322c7",tooltip=" "];
+  Node1 -> Node18 [id="edge22_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="PHG4DetectorGroupSubsystem\l::UpdateParametersWithMacro",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a388dbfc8434dc9dce81adcce6b031bd8",tooltip="Update detector parameter containers with values stored in macro parameter maps."];
+  Node18 -> Node19 [id="edge23_Node000018_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="PHParametersContainer\l::GetParametersToModify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6b/classPHParametersContainer.html#a2734b470dbfebf4ca98d7cd8114efd6c",tooltip="Retrieve modifiable parameters for a given detector ID."];
+  Node18 -> Node20 [id="edge24_Node000018_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="PHG4DetectorGroupSubsystem\l::GetParamsContainer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a5d2731957de8d10a8c84f74733a751ce",tooltip=" "];
+  Node18 -> Node21 [id="edge25_Node000018_Node000021",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="PHParameters::set_double\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a75005aa44390e1eb574603b0b230152b",tooltip="Set double parameter in internal map."];
+  Node18 -> Node22 [id="edge26_Node000018_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="PHParameters::set_int\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a62881b44dd0564425633070316af66ec",tooltip="Set integer parameter in internal map."];
+  Node18 -> Node23 [id="edge27_Node000018_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="PHParameters::set_string\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a2ebd6e499647b20dd41ca164e71ca061",tooltip="Set string parameter in internal map."];
+  Node1 -> Node24 [id="edge28_Node000001_Node000024",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="Fun4AllBase::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664",tooltip="Gets the verbosity of this module."];
+}

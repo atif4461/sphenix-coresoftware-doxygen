@@ -1,0 +1,45 @@
+<map id="RawCluster::get_energy" name="RawCluster::get_energy">
+<area shape="rect" id="Node000001" title="total energy" alt="" coords="915,496,1091,524"/>
+<area shape="rect" id="Node000002" href="$dd/d75/classJetRecoEval.html#a167505c601b9f8a0504844d913a13c61" title="what was the energy contribution to this reconstructed jet from a particular source" alt="" coords="669,93,848,138"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="996,481,985,416,962,330,944,284,923,239,896,197,865,159,840,141,843,136,868,155,901,193,928,236,949,282,967,328,990,415,1001,480"/>
+<area shape="rect" id="Node000003" href="$d5/d98/classClusterJetInput.html#a93647b5e12b963d4cf0514f296e2b072" title="Retrieve input jets from cluster containers based on configuration." alt="" coords="425,5,571,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="995,481,983,422,959,346,942,307,921,269,895,233,865,203,838,186,811,177,786,176,760,177,733,179,706,177,678,170,649,152,630,130,623,108,617,86,601,64,570,47,573,42,604,60,622,83,628,106,635,128,652,148,680,165,707,172,733,173,759,172,786,170,812,172,840,181,868,199,899,230,925,266,947,305,964,345,988,421,1000,480"/>
+<area shape="rect" id="Node000004" href="$d0/d0e/classRawClusterUtility.html#a0a0108c3ad85ae3f9c06bf0f5acfc717" title="Transverse energy of cluster with respect to given vertex position." alt="" coords="687,384,830,429"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="962,491,866,443,829,430,831,425,868,439,965,486"/>
+<area shape="rect" id="Node000005" href="$d0/d0e/classRawClusterUtility.html#a3261266f538776e8f1c741937cf278fd" title="Get energy vector of cluster based on cluster energy." alt="" coords="687,213,830,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="990,483,972,438,946,384,910,328,865,279,829,257,832,253,868,275,914,325,950,381,977,436,995,481"/>
+<area shape="rect" id="Node000011" href="$df/dbd/classRawClusterCNNClassifier.html#a1588f2f843b6ec71bdf801abf4334f9a" title="Process event for raw cluster cnn classifier." alt="" coords="406,283,590,327"/>
+<area shape="poly" id="edge17_Node000001_Node000011" title=" " alt="" coords="986,484,967,450,941,410,906,372,865,342,833,327,798,315,726,301,655,296,591,297,591,292,655,290,726,295,799,310,835,322,868,337,910,368,945,407,972,447,991,481"/>
+<area shape="rect" id="Node000012" href="$da/dcc/classRawClusterLikelihoodProfile.html#ae8c2b3a881a89dffa6d99587e3167184" title="Process event for raw cluster likelihood profiling." alt="" coords="397,352,599,397"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="983,485,963,457,936,425,903,396,866,374,799,355,730,347,662,349,600,355,600,350,662,343,730,342,800,349,868,369,906,392,940,422,967,453,987,482"/>
+<area shape="rect" id="Node000013" href="$d8/db8/classCaloRecoUtility.html#a6f05c4e51b91ddd3876491c44e95d10f" title="Compute probability correction for a cluster given a Z vertex." alt="" coords="662,453,855,498"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="899,498,855,492,856,487,900,493"/>
+<area shape="rect" id="Node000014" href="$da/d1d/classEMCalShowerShapes.html#a8faa2ddea9b02bb1f788c0ea3c96b793" title="Process event for EMCal shower shape analysis." alt="" coords="676,523,841,567"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="899,528,842,536,841,531,899,522"/>
+<area shape="rect" id="Node000015" href="$d8/d66/classJetDSTSkimmer.html#a01459bda9841e159fb32d31e4b011a2e" title="Process event and apply jet and cluster thresholds." alt="" coords="668,592,849,637"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="965,534,868,582,837,594,835,589,866,577,962,530"/>
+<area shape="rect" id="Node000016" href="$de/d55/classPhotonClusterBuilder.html#a025a7c2bf4085849c84a8ae7935ede4c" title="Process a single event and build photon clusters." alt="" coords="679,661,838,706"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="984,538,936,595,904,625,868,651,839,666,837,661,865,647,900,621,932,591,980,535"/>
+<area shape="rect" id="Node000017" href="$df/d75/classRawClusterPositionCorrection.html#a5769946f9c4ef0e0ed307a1a18f40ab9" title="Process a single event and apply position dependent energy recalibration to raw clusters." alt="" coords="651,731,866,775"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="993,539,975,579,948,628,912,678,868,720,849,732,846,728,865,716,908,674,943,625,970,577,988,537"/>
+<area shape="rect" id="Node000018" href="$d6/de8/classRawClusterZVertexRecorrect.html#a77e9e8d2d15261e75a58fd287405fabf" title="Process a single event applying vertex corrections to raw clusters." alt="" coords="394,820,602,865"/>
+<area shape="poly" id="edge20_Node000001_Node000018" title=" " alt="" coords="999,540,986,595,961,663,944,699,923,733,898,764,868,790,848,801,822,810,755,824,678,834,603,840,602,835,677,829,754,819,821,805,846,796,865,785,894,760,919,729,939,696,956,661,981,593,994,539"/>
+<area shape="rect" id="Node000019" href="$d0/d73/classRawClusterv1.html#a5f9ddfbd947a72615d1ee595d0cabe22" title="Construct a RawClusterv1 object from a source RawCluster." alt="" coords="654,919,863,947"/>
+<area shape="poly" id="edge21_Node000001_Node000019" title=" " alt="" coords="1003,540,996,615,976,714,959,768,936,819,906,868,868,910,852,921,849,917,865,906,902,864,931,817,954,766,971,713,991,614,998,540"/>
+<area shape="rect" id="Node000020" href="$d8/db8/classCaloRecoUtility.html#ab8cae7615ee21fee2b6581007d09ce96" title="corrects cluster Z (implicitly also eta) for updated z vertex" alt="" coords="650,851,867,895"/>
+<area shape="poly" id="edge22_Node000001_Node000020" title=" " alt="" coords="1000,540,987,600,962,679,945,720,924,761,899,799,868,834,842,852,839,848,865,830,894,796,919,758,940,718,957,677,982,599,994,539"/>
+<area shape="poly" id="edge8_Node000005_Node000003" title=" " alt="" coords="672,214,648,196,635,179,628,162,624,128,620,96,613,80,601,64,570,45,573,40,604,60,618,77,625,94,629,128,633,160,640,176,652,192,675,209"/>
+<area shape="rect" id="Node000006" href="$dd/de6/classKFParticle__truthAndDetTools.html#a71dec6a04499f9ca3cf223370d11ac39" title=" " alt="" coords="396,75,601,119"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="672,211,649,196,633,180,624,164,616,149,601,134,581,122,583,117,604,130,620,146,629,161,637,177,652,192,675,206"/>
+<area shape="rect" id="Node000009" href="$d8/d07/classcaloTreeGen.html#a8991d78a57bed5f6d3eb559762e24ba4" title="Process event data for caloTreeGen module." alt="" coords="418,144,578,189"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="672,215,578,190,579,185,673,210"/>
+<area shape="rect" id="Node000010" href="$de/dcb/classClusterIso.html#aff723b32a96c2118ecd896ffed9f2752" title=" " alt="" coords="426,213,570,258"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="672,238,571,238,571,233,672,233"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="673,261,586,285,584,279,671,256"/>
+<area shape="poly" id="edge12_Node000005_Node000012" title=" " alt="" coords="718,270,665,307,604,342,576,354,574,349,601,337,662,302,715,265"/>
+<area shape="rect" id="Node000007" href="$d9/dae/classKFParticle__nTuple.html#a19b5fd2a641c969245dc5bd891276240" title="Fills required information for your selection, also requests truth and detector information if needed..." alt="" coords="203,75,346,119"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="380,100,346,100,346,94,380,94"/>
+<area shape="rect" id="Node000008" href="$d5/d72/classKFParticle__sPHENIX.html#aac7b97c325669f73559f04881cffae58" title="Process a single event within the Fun4All framework." alt="" coords="5,75,155,119"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="187,100,155,100,155,94,187,94"/>
+<area shape="poly" id="edge23_Node000020_Node000018" title=" " alt="" coords="634,861,602,857,603,852,635,856"/>
+</map>

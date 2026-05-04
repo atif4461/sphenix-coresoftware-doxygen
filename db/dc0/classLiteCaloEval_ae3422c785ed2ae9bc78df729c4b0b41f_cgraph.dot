@@ -1,0 +1,20 @@
+digraph "LiteCaloEval::FitRelativeShifts"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="LiteCaloEval::FitRelative\lShifts",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Others__________________________________________."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="LiteCaloEval::chk_isChimney",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc0/classLiteCaloEval.html#a7bfd8488660860f634362f29c84f63db",tooltip="Determine whether a given tower index lies within the chimney region of the calorimeter."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="LiteCaloEval::LiteCaloEval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc0/classLiteCaloEval.html#ae777d65b3e4940d6a102f653d8c15a63",tooltip="Constructor for LiteCaloEval initializing subsystem name calorimeter name and output filename."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SubsysReco::SubsysReco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Fun4AllBase::Fun4AllBase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7",tooltip="Constructor for Fun4AllBase validates module name."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="LiteCaloEval::spec_QA",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/dc0/classLiteCaloEval.html#a0bd2e07cf9eefd880a0f76afa85214e0",tooltip="Evaluate calibration factor by comparing exponential fit slopes of spectrum and reference histograms."];
+}

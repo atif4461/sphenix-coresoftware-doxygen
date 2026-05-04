@@ -1,0 +1,12 @@
+digraph "EventCombiner::AddPrdfInputNodeName"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="EventCombiner::AddPrdfInput\lNodeName",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Add a PRDF input node name to the internal set."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="EventCombiner::AddPrdfInput\lNodeFromManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d21/classEventCombiner.html#a9ae13445eb97a4b52cef537e93d66933",tooltip="Add PRDF input node name retrieved from input manager."];
+}

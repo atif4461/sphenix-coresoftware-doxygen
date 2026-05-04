@@ -1,0 +1,12 @@
+digraph "PHG4CylinderGeom_Spacalv2::SetDefault"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4CylinderGeom_Spacalv2\l::SetDefault",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialize default geometry parameters for the SPACAL v2 cylindrical detector."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4CylinderGeom_Spacalv1\l::SetDefault",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a562616d2d56d855d1b4f021e64e2630d",tooltip="Initialize cylinder geometry with default SPACAL parameters Sets configuration to nonProjective Sets ..."];
+}

@@ -1,0 +1,35 @@
+<map id="TrackSeed_FastSim_v2::CopyFrom" name="TrackSeed_FastSim_v2::CopyFrom">
+<area shape="rect" id="Node000001" title="Copy data from source TrackSeed into this object." alt="" coords="5,616,174,660"/>
+<area shape="rect" id="Node000002" href="$d3/d8a/classTrackSeed__v2.html#a836f63043e176392c82f0c5537c91877" title="Copy data from a TrackSeed object into this TrackSeed_v2 instance." alt="" coords="222,289,406,317"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,614,292,329,297,331,108,617"/>
+<area shape="rect" id="Node000005" href="$dc/d80/classTrackSeed.html#aefe817b02d69167fa2fcef5100e73166" title=" " alt="" coords="721,108,883,136"/>
+<area shape="poly" id="edge17_Node000001_Node000005" title=" " alt="" coords="174,618,221,610,323,605,456,603,523,600,584,592,635,580,672,560,694,531,715,486,735,431,751,369,778,245,794,151,799,152,783,246,757,370,740,432,720,488,699,534,675,564,637,585,585,598,523,605,456,609,324,610,222,615,175,623"/>
+<area shape="rect" id="Node000014" href="$dc/d80/classTrackSeed.html#a7e4f1d651eac74118595632aa274220d" title="Retrieve the map of Geant4 hit identifiers associated with this track seed." alt="" coords="237,624,391,652"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="174,635,221,635,221,640,174,640"/>
+<area shape="rect" id="Node000015" href="$dc/d80/classTrackSeed.html#a0369e63a2845123d4240195bf587a422" title=" " alt="" coords="238,676,390,720"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="175,658,223,671,222,676,173,663"/>
+<area shape="rect" id="Node000016" href="$dc/d80/classTrackSeed.html#adacd5693168b053c6040b734046db9ea" title=" " alt="" coords="237,745,391,790"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="120,659,167,694,223,730,234,736,231,740,220,735,164,699,116,663"/>
+<area shape="rect" id="Node000003" href="$dc/d80/classTrackSeed.html#a513e9904f6837460a7b561d8348c3e13" title="Return a const iterator positioned at the end of the dummy cluster key set." alt="" coords="454,5,673,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="316,288,330,241,356,174,396,104,422,72,452,44,461,38,464,42,456,48,426,75,401,107,361,177,335,242,321,290"/>
+<area shape="rect" id="Node000004" href="$dc/d80/classTrackSeed.html#ab1b19e945add06eeccab3ae8c97c3003" title=" " alt="" coords="483,57,644,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="318,288,336,251,365,200,404,147,427,122,452,101,473,89,476,94,456,105,430,126,408,150,369,203,341,253,323,290"/>
+<area shape="poly" id="edge13_Node000002_Node000005" title=" " alt="" coords="320,288,339,257,368,217,407,176,453,145,516,122,582,110,647,106,706,107,706,113,647,111,582,115,517,127,455,150,410,180,372,220,344,259,325,291"/>
+<area shape="rect" id="Node000006" href="$dc/d80/classTrackSeed.html#ad32517668fd228928ed69c331c92daa5" title="Return a constant iterator to the end of the cluster key set." alt="" coords="460,159,667,186"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="328,287,381,242,415,218,453,197,472,189,474,194,455,202,418,222,384,247,332,291"/>
+<area shape="rect" id="Node000007" href="$dc/d80/classTrackSeed.html#adf27be8a117471b6ff28555bfad440cd" title=" " alt="" coords="475,211,652,238"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="349,286,453,249,483,240,485,245,455,254,351,291"/>
+<area shape="rect" id="Node000008" href="$dc/d80/classTrackSeed.html#a2ea7fd90dcd1643b87f22d183125ebd0" title=" " alt="" coords="492,263,635,290"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="406,291,477,283,477,288,407,296"/>
+<area shape="rect" id="Node000009" href="$dc/d80/classTrackSeed.html#ae78b5ecfe5fb4595493b065a5ab4aa8f" title=" " alt="" coords="478,315,649,342"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="407,310,463,316,463,321,406,315"/>
+<area shape="rect" id="Node000010" href="$dc/d80/classTrackSeed.html#a0589b4175c986aeb2e249ef3e71cb085" title=" " alt="" coords="484,367,643,394"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="352,315,455,351,485,360,483,365,453,356,350,320"/>
+<area shape="rect" id="Node000011" href="$dc/d80/classTrackSeed.html#ab847005283a5d599e88b31a3d642cecc" title=" " alt="" coords="494,419,634,446"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="332,315,384,359,418,383,455,403,480,413,478,418,453,408,416,388,381,363,328,319"/>
+<area shape="rect" id="Node000012" href="$dc/d80/classTrackSeed.html#ad8ba4b0cdc30bb0973a5b26907f6a478" title=" " alt="" coords="494,471,633,498"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="326,316,375,383,412,423,455,456,480,467,478,472,453,460,409,427,371,387,321,319"/>
+<area shape="rect" id="Node000013" href="$dc/d80/classTrackSeed.html#a93646154be1e106168605fe46adc8cee" title=" " alt="" coords="494,523,634,550"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="323,316,340,355,368,407,406,462,430,486,455,508,480,520,478,525,453,512,426,490,402,465,363,410,335,357,318,318"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="632,83,719,102,718,107,631,88"/>
+</map>

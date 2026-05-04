@@ -1,0 +1,36 @@
+<map id="TrackSeedHelper::findRoot" name="TrackSeedHelper::findRoot">
+<area shape="rect" id="Node000001" title="Compute the helix root coordinates from a TrackSeed." alt="" coords="504,187,696,215"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="641,174,627,168,600,166,575,168,561,173,558,178,564,185,560,188,553,178,558,169,574,163,600,161,628,163,643,169"/>
+<area shape="rect" id="Node000002" href="$d9/d67/namespaceTrackSeedHelper.html#ad2f8e54ea39516770b4f8f145557af71" title="Compute the azimuthal angle of a track seed." alt="" coords="268,67,454,95"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="568,180,517,143,455,109,425,98,427,93,457,104,520,139,571,175"/>
+<area shape="rect" id="Node000005" href="$d9/d67/namespaceTrackSeedHelper.html#a626b07c2e3e583bb7424291be4c28097" title="Compute the azimuthal angle phi for a fast simulation track seed." alt="" coords="282,119,441,163"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="527,185,441,164,442,158,528,180"/>
+<area shape="rect" id="Node000006" href="$d9/d67/namespaceTrackSeedHelper.html#a8e1f50fd2045ba275c7e0c7fc4cd0868" title="Retrieve the x coordinate of the seed&#39;s root position." alt="" coords="274,239,448,267"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="519,221,429,241,428,236,518,216"/>
+<area shape="rect" id="Node000009" href="$d9/d67/namespaceTrackSeedHelper.html#ad14f8cec2a6f5afc26eb0dfde3479ef0" title="Retrieve the three dimensional position of a track seed." alt="" coords="267,447,456,475"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="578,228,377,449,373,445,574,225"/>
+<area shape="rect" id="Node000016" href="$d9/d67/namespaceTrackSeedHelper.html#ae9079e98ad0bd4b2b4cbcee54237805b" title="Return the y coordinate of the trajectory associated with a TrackSeed." alt="" coords="274,187,448,215"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="489,204,449,204,449,198,489,198"/>
+<area shape="rect" id="Node000003" href="$d8/d56/classPHSiliconCosmicSeeding.html#ab2e58f82964d08c350a0620be4cfe12e" title="Process a single event and produce silicon cosmic track seeds." alt="" coords="21,5,203,50"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="278,66,203,50,204,45,279,61"/>
+<area shape="rect" id="Node000004" href="$d9/d69/classPHSimpleKFProp.html#a0e11d66809451e62d6001f3aa4cf392e" title="Process event for Kalman filter propagation." alt="" coords="18,75,206,119"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="253,91,207,94,206,88,252,85"/>
+<area shape="rect" id="Node000007" href="$d5/dbe/classPrelimDistortionCorrection.html#ad707e0f0a8b3a3f05b528126eb2c10f1" title="Process a single event applying preliminary distortion corrections to TPC track seeds." alt="" coords="15,161,209,206"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="294,237,194,209,196,204,295,232"/>
+<area shape="rect" id="Node000008" href="$d6/d80/classPrelimDistortionCorrectionAuAu.html#aa272136335740089cdc88cef18c47370" title="Process event applying preliminary distortion correction for AuAu collisions." alt="" coords="15,231,209,275"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="258,256,210,256,210,250,258,250"/>
+<area shape="rect" id="Node000010" href="$db/d77/classPHGhostRejection.html#af845dfdc7b6743b74e786cf6b012096c" title="Identify and reject ghost tracks from the seed collection." alt="" coords="27,300,197,345"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="331,439,280,399,217,359,191,348,193,343,220,355,283,394,335,435"/>
+<area shape="rect" id="Node000011" href="$d5/de1/classHelicalFitter.html#a98485e999dddb90f86479a58eb7b53a3" title="Process a single event and perform helical or straight line fits for silicon and/or TPC track seeds." alt="" coords="33,369,191,414"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="294,445,191,416,192,411,295,440"/>
+<area shape="rect" id="Node000012" href="$de/d25/classPHGenFitTrkFitter.html#afcdaabc6fd73922bb522d7fa7ef3a775" title="Process Event, called for each event." alt="" coords="41,439,183,483"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="251,464,184,464,184,458,251,458"/>
+<area shape="rect" id="Node000013" href="$d4/d9e/classTpcSiliconQA.html#a2b48c5a176a25f0f42a37f290b62e748" title="Process a single event by comparing silicon and TPC track seeds and filling QA histograms." alt="" coords="30,508,194,553"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="295,482,195,510,194,505,294,477"/>
+<area shape="rect" id="Node000014" href="$dd/d92/classTrackSeedTrackMapConverter.html#ad4684e56d489fc441709416cc8047607" title="Convert track seeds into SvtxTrack objects and populate the output track map." alt="" coords="5,577,219,622"/>
+<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="335,487,283,528,220,567,193,579,191,574,217,563,280,523,331,483"/>
+<area shape="rect" id="Node000015" href="$dc/d3a/classDumpTrackSeedContainer.html#af5342b08d7010e1576c91fec1be27274" title="Process a PHNode containing a TrackSeedContainer and dump its contents." alt="" coords="17,647,207,691"/>
+<area shape="poly" id="edge15_Node000009_Node000015" title=" " alt="" coords="347,490,297,563,261,602,220,637,199,649,196,644,217,632,257,598,292,559,342,487"/>
+<area shape="poly" id="edge17_Node000016_Node000007" title=" " alt="" coords="258,197,209,193,210,188,259,191"/>
+<area shape="poly" id="edge18_Node000016_Node000008" title=" " alt="" coords="277,221,210,235,209,230,276,216"/>
+</map>

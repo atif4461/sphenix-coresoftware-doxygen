@@ -1,0 +1,117 @@
+<map id="KFParticle_nTuple::fillBranch" name="KFParticle_nTuple::fillBranch">
+<area shape="rect" id="Node000001" title="Fills required information for your selection, also requests truth and detector information if needed..." alt="" coords="5,1553,149,1598"/>
+<area shape="rect" id="Node000002" href="$dd/de6/classKFParticle__truthAndDetTools.html#a07b8f6bb506198e2bdf4d97015328d46" title="Fill arrays with primary vertex information for a given mother particle daughter list and intermediat..." alt="" coords="207,5,412,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,1553,82,1261,99,785,115,540,135,321,147,229,161,153,177,96,194,61,196,59,200,63,199,64,182,98,166,155,153,230,140,322,120,540,105,786,87,1261,81,1553"/>
+<area shape="rect" id="Node000003" href="$d9/dae/classKFParticle__nTuple.html#a4fbab55632c04eff4da93dd67b28684d" title="Compute the invariant mass of a secondary vertex without applying particle identification." alt="" coords="224,74,394,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="76,1553,84,1277,103,829,119,598,139,392,164,234,178,180,194,146,209,131,213,135,199,149,183,182,169,235,144,393,124,598,109,829,89,1277,81,1553"/>
+<area shape="rect" id="Node000004" href="$dd/de6/classKFParticle__truthAndDetTools.html#a64063e04f43796ecfe9796ae48c7f23e" title="Reset all internal truth detector and primary vertex vectors and state counters." alt="" coords="207,160,412,205"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="76,1553,85,1290,105,867,121,648,141,454,165,305,179,254,194,222,204,212,207,216,199,225,184,256,170,306,146,455,126,649,110,867,90,1290,82,1553"/>
+<area shape="rect" id="Node000005" href="$dd/de6/classKFParticle__truthAndDetTools.html#a71dec6a04499f9ca3cf223370d11ac39" title=" " alt="" coords="207,452,412,497"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="80,1553,298,511,303,513,86,1554"/>
+<area shape="rect" id="Node000018" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="737,1531,881,1559"/>
+<area shape="poly" id="edge57_Node000001_Node000018" title=" " alt="" coords="84,1598,96,1658,118,1740,151,1832,173,1876,199,1918,252,1991,307,2058,366,2116,426,2161,457,2177,489,2189,521,2197,553,2198,586,2194,619,2184,653,2166,688,2142,703,2125,717,2101,742,2038,762,1960,777,1873,796,1700,804,1574,809,1575,801,1700,782,1873,767,1961,747,2040,722,2104,707,2128,691,2146,656,2171,621,2188,587,2199,553,2204,520,2202,487,2195,455,2182,423,2165,362,2120,303,2061,248,1994,194,1921,169,1879,146,1834,113,1742,91,1659,79,1599"/>
+<area shape="rect" id="Node000019" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="929,808,1110,836"/>
+<area shape="poly" id="edge53_Node000001_Node000019" title=" " alt="" coords="76,1553,81,1348,98,1021,113,845,134,681,161,541,176,484,194,439,218,397,245,366,273,342,302,323,361,281,391,253,420,216,429,198,434,182,437,150,444,121,453,107,468,93,526,63,553,55,579,53,606,55,633,63,691,93,737,127,778,166,815,210,849,257,878,306,904,357,946,462,977,564,998,658,1018,792,1013,793,993,659,972,566,941,464,899,359,874,309,844,259,811,213,774,170,733,131,688,98,631,68,605,61,579,58,554,60,528,68,472,98,457,110,449,123,443,151,439,183,434,200,424,218,395,257,364,286,305,327,276,347,249,370,223,400,199,441,181,486,166,542,139,682,119,846,104,1021,87,1349,81,1553"/>
+<area shape="rect" id="Node000028" href="$dd/de6/classKFParticle__truthAndDetTools.html#a66e81e82ad832605e23fb296b1aef868" title="Retrieve a SvtxTrack pointer from a SvtxTrackMap given a track identifier." alt="" coords="477,1433,682,1478"/>
+<area shape="poly" id="edge64_Node000001_Node000028" title=" " alt="" coords="94,1551,136,1507,165,1486,196,1469,262,1449,331,1439,399,1436,461,1438,461,1443,399,1441,332,1444,263,1455,198,1474,167,1490,140,1511,98,1555"/>
+<area shape="rect" id="Node000030" href="$d9/dae/classKFParticle__nTuple.html#a533d11046309bf5669d819fa58137904" title="Determine whether the analysis conditions are satisfied." alt="" coords="238,1484,381,1529"/>
+<area shape="poly" id="edge19_Node000001_Node000030" title=" " alt="" coords="148,1552,222,1530,223,1535,150,1557"/>
+<area shape="rect" id="Node000031" href="$dd/de6/classKFParticle__truthAndDetTools.html#a0dfa098affc59d7f9cb09aa49ba3aae0" title="Fill detector related branches for a daughter particle." alt="" coords="207,1032,412,1077"/>
+<area shape="poly" id="edge20_Node000001_Node000031" title=" " alt="" coords="86,1552,290,1090,294,1092,91,1554"/>
+<area shape="rect" id="Node000044" href="$de/d8d/classKFParticle__triggerInfo.html#a112c8385002ab44d8c9dba2a7ed31694" title="Fill trigger branches from node tree." alt="" coords="229,1623,390,1667"/>
+<area shape="poly" id="edge38_Node000001_Node000044" title=" " alt="" coords="150,1594,218,1615,216,1620,148,1600"/>
+<area shape="rect" id="Node000045" href="$dd/de6/classKFParticle__truthAndDetTools.html#a8fd937b408a964f4403e263697d59eb3" title="Fill truth information for a daughter particle into the output branches." alt="" coords="207,1708,412,1753"/>
+<area shape="poly" id="edge39_Node000001_Node000045" title=" " alt="" coords="102,1597,145,1637,198,1677,237,1699,234,1703,195,1682,141,1641,98,1600"/>
+<area shape="rect" id="Node000060" href="$d2/db8/classSvtxTrack.html#afe77f66a19ade74b9bc94e87dabd4b85" title=" " alt="" coords="222,1776,396,1804"/>
+<area shape="poly" id="edge54_Node000001_Node000060" title=" " alt="" coords="88,1597,103,1634,127,1679,158,1725,198,1763,209,1770,207,1774,195,1767,154,1728,122,1682,99,1637,83,1599"/>
+<area shape="rect" id="Node000061" href="$d8/db2/classEventHeader.html#adbb5375bee864bbccaa651691214dfa7" title="get Event Number" alt="" coords="197,1828,422,1856"/>
+<area shape="poly" id="edge55_Node000001_Node000061" title=" " alt="" coords="85,1598,98,1644,119,1703,152,1763,174,1790,198,1814,206,1819,202,1823,195,1818,170,1794,148,1766,114,1705,92,1646,80,1599"/>
+<area shape="rect" id="Node000062" href="$d8/db2/classEventHeader.html#a2849e76c0436cbaada94065b7c5f29ac" title="get Run Number" alt="" coords="200,1880,418,1908"/>
+<area shape="poly" id="edge56_Node000001_Node000062" title=" " alt="" coords="83,1598,92,1653,112,1726,127,1764,146,1801,170,1836,198,1866,204,1870,201,1875,195,1870,166,1839,142,1804,122,1766,107,1727,87,1654,78,1599"/>
+<area shape="rect" id="Node000063" href="$dd/de6/classKFParticle__truthAndDetTools.html#ad020ae1958b487d9ec890bf683d78d79" title="Retrieve HepMC truth information for a daughter particle and fill output branches." alt="" coords="207,1553,412,1598"/>
+<area shape="poly" id="edge58_Node000001_Node000063" title=" " alt="" coords="149,1573,191,1573,191,1578,149,1578"/>
+<area shape="rect" id="Node000071" href="$dd/de6/classKFParticle__truthAndDetTools.html#a91729e937bf7ac6c014d5c1e918532e1" title="Retrieve beam crossing identifier associated with a KFParticle vertex." alt="" coords="207,2204,412,2249"/>
+<area shape="poly" id="edge62_Node000001_Node000071" title=" " alt="" coords="82,1598,93,1719,114,1894,130,1985,149,2068,172,2137,185,2163,199,2183,209,2193,205,2197,195,2187,180,2166,167,2139,144,2069,125,1986,109,1895,87,1720,77,1599"/>
+<area shape="rect" id="Node000075" href="$de/d8d/classKFParticle__triggerInfo.html#a4d312c06378746ba553a75adbb6c449a" title="Reset all trigger bit branches to undefined state This comment was generated by openai/gpt&#45;oss&#45;120b a..." alt="" coords="226,2273,392,2318"/>
+<area shape="poly" id="edge65_Node000001_Node000075" title=" " alt="" coords="82,1598,89,1733,109,1931,124,2034,144,2129,169,2207,183,2237,199,2259,214,2272,211,2276,195,2263,178,2239,164,2209,139,2130,119,2035,103,1932,84,1733,77,1599"/>
+<area shape="rect" id="Node000006" href="$dd/de6/classKFParticle__truthAndDetTools.html#a45fa9a50a9d6c13cd1638d3a44131b00" title="Extract 5x5 tower grid around EMCal cluster center and store phi eta energy for given daughter." alt="" coords="477,108,682,153"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="320,450,420,260,431,232,438,208,448,186,468,163,473,159,476,163,472,167,453,189,443,210,436,233,424,262,325,453"/>
+<area shape="rect" id="Node000012" href="$d6/dc7/group__getters.html#ga156d383a06a55e4caab80006d2e38685" title="reduced chi2 for EM shower" alt="" coords="500,176,659,204"/>
+<area shape="poly" id="edge6_Node000005_Node000012" title=" " alt="" coords="316,451,335,401,366,337,411,271,438,241,468,215,484,205,487,210,472,219,442,245,415,274,371,340,340,403,320,453"/>
+<area shape="rect" id="Node000013" href="$d6/dc7/group__getters.html#gaa50ec0ceb78de346ece65d248e23da77" title="cluster ID" alt="" coords="508,228,651,256"/>
+<area shape="poly" id="edge7_Node000005_Node000013" title=" " alt="" coords="319,450,341,410,374,361,417,310,469,267,492,255,495,260,471,271,421,313,379,364,346,413,324,453"/>
+<area shape="rect" id="Node000014" href="$d2/dac/classSvtxTrackState.html#ae5189cca7d9e6af33a607f5434e34e99" title=" " alt="" coords="498,675,661,703"/>
+<area shape="poly" id="edge8_Node000005_Node000014" title=" " alt="" coords="325,495,348,532,382,577,423,622,471,660,485,667,483,672,469,665,419,626,377,580,344,535,321,498"/>
+<area shape="rect" id="Node000015" href="$d2/dac/classSvtxTrackState.html#aca3b8c2c77cdc437154d0ff043cf31fc" title=" " alt="" coords="498,571,661,599"/>
+<area shape="poly" id="edge9_Node000005_Node000015" title=" " alt="" coords="353,495,408,523,471,551,509,564,507,569,469,555,406,528,351,499"/>
+<area shape="rect" id="Node000016" href="$d6/dc7/group__getters.html#ga1a13b9618e21d2e7cc47b760a10d73ad" title=" " alt="" coords="510,280,649,308"/>
+<area shape="poly" id="edge10_Node000005_Node000016" title=" " alt="" coords="325,450,384,383,424,348,469,317,495,306,497,311,471,322,427,352,387,387,329,453"/>
+<area shape="rect" id="Node000017" href="$d2/dac/classSvtxTrackState.html#ac7d55dc54940f4c08b749993a271b14d" title=" " alt="" coords="499,623,660,651"/>
+<area shape="poly" id="edge11_Node000005_Node000017" title=" " alt="" coords="333,495,391,552,430,582,471,608,488,615,485,620,469,613,427,587,388,556,329,499"/>
+<area shape="poly" id="edge12_Node000005_Node000018" title=" " alt="" coords="413,494,691,558,704,580,716,615,737,718,756,853,772,1006,796,1311,809,1516,803,1516,791,1311,767,1007,750,854,732,718,710,616,699,582,688,562,412,499"/>
+<area shape="rect" id="Node000024" href="$d0/d0e/classRawClusterUtility.html#a3261266f538776e8f1c741937cf278fd" title="Get energy vector of cluster based on cluster energy." alt="" coords="508,332,651,377"/>
+<area shape="poly" id="edge15_Node000005_Node000024" title=" " alt="" coords="347,449,404,418,469,387,493,377,495,382,471,391,406,423,350,454"/>
+<area shape="rect" id="Node000027" href="$d6/dc7/group__getters.html#ga7d485f76b87f22c8c56cbcf6ce209acb" title="Tower operations." alt="" coords="490,400,669,428"/>
+<area shape="poly" id="edge16_Node000005_Node000027" title=" " alt="" coords="412,449,499,429,500,435,413,454"/>
+<area shape="poly" id="edge17_Node000005_Node000028" title=" " alt="" coords="319,496,366,709,397,862,425,1019,430,1110,433,1228,436,1287,443,1341,455,1387,472,1419,474,1421,470,1425,468,1423,450,1388,438,1342,431,1287,427,1228,425,1110,419,1020,391,863,361,710,313,498"/>
+<area shape="rect" id="Node000029" href="$dd/de6/classKFParticle__truthAndDetTools.html#a69d0c3a56e569c809e7d1f2c62639802" title="Normalize angular difference to range minus pi to pi." alt="" coords="477,452,682,497"/>
+<area shape="poly" id="edge18_Node000005_Node000029" title=" " alt="" coords="413,472,462,472,462,477,413,477"/>
+<area shape="poly" id="edge13_Node000018_Node000019" title=" " alt="" coords="812,1530,1007,851,1012,852,817,1531"/>
+<area shape="poly" id="edge14_Node000019_Node000019" title=" " alt="" coords="983,809,977,800,982,790,996,784,1019,782,1044,784,1058,791,1055,796,1043,789,1019,787,998,789,986,794,983,799,988,807"/>
+<area shape="poly" id="edge25_Node000031_Node000014" title=" " alt="" coords="312,1031,326,968,355,882,376,836,401,791,432,750,468,714,483,704,486,708,472,718,436,753,406,794,380,838,360,884,331,969,317,1032"/>
+<area shape="poly" id="edge26_Node000031_Node000015" title=" " alt="" coords="309,1031,317,951,327,897,341,837,362,776,389,715,424,659,468,610,483,599,486,604,472,614,428,662,394,717,367,777,346,839,332,898,323,952,314,1032"/>
+<area shape="poly" id="edge27_Node000031_Node000017" title=" " alt="" coords="310,1031,322,960,348,860,368,806,395,753,428,704,468,662,483,651,487,656,472,666,432,707,400,756,373,808,353,861,327,961,315,1032"/>
+<area shape="poly" id="edge29_Node000031_Node000018" title=" " alt="" coords="315,1031,334,982,365,922,386,891,410,861,437,835,469,815,529,786,557,778,584,773,610,775,637,781,664,795,691,815,711,837,728,867,756,947,777,1045,792,1154,801,1264,807,1367,810,1516,805,1516,802,1367,796,1264,786,1155,772,1046,751,948,723,870,706,840,688,819,661,799,635,786,610,780,584,779,558,783,531,791,471,819,441,840,414,865,390,894,370,924,339,985,320,1033"/>
+<area shape="poly" id="edge36_Node000031_Node000028" title=" " alt="" coords="317,1077,330,1143,358,1236,378,1285,404,1334,435,1379,472,1419,476,1422,472,1426,468,1423,431,1383,399,1337,374,1287,353,1237,325,1145,311,1078"/>
+<area shape="rect" id="Node000032" href="$dc/d80/classTrackSeed.html#a513e9904f6837460a7b561d8348c3e13" title="Return a const iterator positioned at the end of the dummy cluster key set." alt="" coords="470,828,689,856"/>
+<area shape="poly" id="edge21_Node000031_Node000032" title=" " alt="" coords="321,1030,345,994,378,949,420,905,469,867,481,860,484,865,471,871,423,909,382,953,349,997,326,1033"/>
+<area shape="rect" id="Node000033" href="$dc/d80/classTrackSeed.html#ad32517668fd228928ed69c331c92daa5" title="Return a constant iterator to the end of the cluster key set." alt="" coords="476,880,683,908"/>
+<area shape="poly" id="edge22_Node000031_Node000033" title=" " alt="" coords="329,1030,388,973,427,943,469,917,482,911,485,916,471,922,430,947,391,977,333,1033"/>
+<area shape="rect" id="Node000034" href="$d2/dac/classSvtxTrackState.html#a988120512de3a4d4c6514d610894a2d6" title=" " alt="" coords="506,932,653,977"/>
+<area shape="poly" id="edge23_Node000031_Node000034" title=" " alt="" coords="363,1029,469,987,491,979,493,984,471,991,365,1034"/>
+<area shape="rect" id="Node000035" href="$d2/dac/classSvtxTrackState.html#a2d34464a9ba3be726c19ca9daa8073a5" title=" " alt="" coords="506,1001,653,1046"/>
+<area shape="poly" id="edge24_Node000031_Node000035" title=" " alt="" coords="412,1040,490,1031,491,1036,413,1045"/>
+<area shape="rect" id="Node000036" href="$d8/df1/namespaceMvtxDefs.html#abfd7b6c5fe579370c360924854579283" title="Get the chip id from hitsetkey." alt="" coords="502,1070,657,1098"/>
+<area shape="poly" id="edge28_Node000031_Node000036" title=" " alt="" coords="413,1063,487,1071,487,1076,412,1068"/>
+<area shape="rect" id="Node000037" href="$d6/d9e/namespaceInttDefs.html#a28461d6132ff9373b4529e5c0d20c962" title="Get the sensor id from hitsetkey." alt="" coords="490,1122,669,1150"/>
+<area shape="poly" id="edge30_Node000031_Node000037" title=" " alt="" coords="374,1075,471,1106,502,1115,500,1120,469,1112,373,1080"/>
+<area shape="rect" id="Node000038" href="$d6/d9e/namespaceInttDefs.html#aeb0f2c2a834c11791925bdffc211526d" title="Get the ladder id from hitsetkey." alt="" coords="496,1174,663,1202"/>
+<area shape="poly" id="edge31_Node000031_Node000038" title=" " alt="" coords="340,1075,398,1118,471,1159,491,1166,489,1171,469,1163,395,1122,337,1079"/>
+<area shape="rect" id="Node000039" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="510,1226,650,1254"/>
+<area shape="poly" id="edge32_Node000031_Node000039" title=" " alt="" coords="329,1075,387,1143,427,1180,471,1211,496,1222,494,1226,469,1215,423,1184,383,1147,325,1079"/>
+<area shape="rect" id="Node000040" href="$d7/db0/namespaceTpcDefs.html#aaee8d42aaa9f7331459a8589f9550086" title="Get the sector id from hitsetkey." alt="" coords="502,1278,658,1306"/>
+<area shape="poly" id="edge33_Node000031_Node000040" title=" " alt="" coords="324,1076,345,1117,378,1168,420,1219,445,1243,471,1263,488,1272,486,1276,469,1267,441,1247,417,1223,374,1171,341,1119,319,1078"/>
+<area shape="rect" id="Node000041" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="514,1330,645,1358"/>
+<area shape="poly" id="edge34_Node000031_Node000041" title=" " alt="" coords="320,1076,339,1126,370,1191,414,1258,441,1289,471,1315,500,1329,498,1334,469,1319,438,1293,410,1262,366,1194,334,1128,315,1078"/>
+<area shape="rect" id="Node000042" href="$d8/df1/namespaceMvtxDefs.html#a0d6fee920baed2f17bed6f7990bb88c3" title="Get the stave id from hitsetkey." alt="" coords="498,1382,661,1410"/>
+<area shape="poly" id="edge35_Node000031_Node000042" title=" " alt="" coords="318,1076,334,1135,363,1214,384,1256,408,1297,438,1335,472,1367,486,1376,483,1380,468,1371,434,1338,404,1300,379,1259,358,1217,329,1137,313,1078"/>
+<area shape="rect" id="Node000043" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="510,727,650,755"/>
+<area shape="poly" id="edge37_Node000031_Node000043" title=" " alt="" coords="315,1031,333,977,364,907,409,834,437,800,468,771,494,756,496,761,472,775,441,804,413,837,369,910,338,979,320,1032"/>
+<area shape="poly" id="edge49_Node000045_Node000018" title=" " alt="" coords="359,1705,469,1658,531,1642,580,1635,628,1626,688,1608,733,1587,772,1565,775,1570,735,1592,690,1613,630,1632,581,1640,532,1647,471,1664,362,1710"/>
+<area shape="poly" id="edge50_Node000045_Node000028" title=" " alt="" coords="382,1705,403,1693,420,1678,433,1661,440,1644,446,1612,450,1578,456,1559,468,1539,495,1509,525,1485,529,1489,498,1513,472,1543,461,1561,455,1579,451,1613,445,1646,437,1663,424,1681,406,1697,385,1710"/>
+<area shape="rect" id="Node000046" href="$d1/d39/classGlobalVertex.html#ab5f76e80e4572f7a1b39110ff45b2da0" title="Retrieve constant iterator to end of vertex collection." alt="" coords="480,1672,680,1700"/>
+<area shape="poly" id="edge40_Node000045_Node000046" title=" " alt="" coords="412,1711,475,1701,476,1706,413,1716"/>
+<area shape="rect" id="Node000047" href="$d1/d39/classGlobalVertex.html#a58a2540acdbc8a34b16a08a03e447805" title="Return iterator to end of dummy vertex container." alt="" coords="511,1724,648,1769"/>
+<area shape="poly" id="edge41_Node000045_Node000047" title=" " alt="" coords="413,1734,496,1739,495,1744,412,1739"/>
+<area shape="rect" id="Node000048" href="$de/dc9/classPHG4Particle.html#a79a815798f148cb5818497caae6dcb41" title=" " alt="" coords="489,1792,670,1820"/>
+<area shape="poly" id="edge42_Node000045_Node000048" title=" " alt="" coords="386,1751,423,1762,471,1778,498,1786,497,1791,469,1784,421,1768,384,1756"/>
+<area shape="rect" id="Node000049" href="$d1/d39/classGlobalVertex.html#a59fe1a00491bfa1a861b9001cda579ab" title=" " alt="" coords="505,1844,654,1872"/>
+<area shape="poly" id="edge43_Node000045_Node000049" title=" " alt="" coords="403,1751,424,1763,440,1780,448,1798,456,1814,472,1830,492,1840,489,1845,468,1834,452,1817,443,1800,436,1783,420,1767,400,1755"/>
+<area shape="rect" id="Node000050" href="$d6/d81/classPHG4VtxPoint.html#a271de766c9b21dbc56c3e339f8e42fc5" title=" " alt="" coords="502,1896,658,1924"/>
+<area shape="poly" id="edge44_Node000045_Node000050" title=" " alt="" coords="407,1751,424,1763,437,1778,444,1794,448,1824,453,1854,460,1868,472,1882,489,1893,486,1897,468,1886,455,1871,448,1856,443,1825,439,1795,432,1781,420,1767,404,1755"/>
+<area shape="rect" id="Node000051" href="$d1/d39/classGlobalVertex.html#a5a8bcc3e3d9132c3302471d545077243" title=" " alt="" coords="505,1948,654,1976"/>
+<area shape="poly" id="edge45_Node000045_Node000051" title=" " alt="" coords="409,1751,424,1763,440,1785,447,1807,448,1851,449,1893,456,1914,472,1934,492,1948,489,1952,468,1938,452,1916,444,1894,443,1851,442,1808,435,1788,420,1767,406,1755"/>
+<area shape="rect" id="Node000052" href="$d6/d81/classPHG4VtxPoint.html#a20e37ddb56c6ef297b77a99cb2377bf6" title=" " alt="" coords="502,2000,658,2028"/>
+<area shape="poly" id="edge46_Node000045_Node000052" title=" " alt="" coords="410,1751,424,1763,443,1792,451,1821,451,1849,448,1877,444,1905,445,1932,453,1959,472,1986,489,1998,486,2003,468,1990,448,1961,440,1933,439,1905,443,1877,446,1849,446,1821,438,1794,420,1767,406,1755"/>
+<area shape="rect" id="Node000053" href="$d1/d39/classGlobalVertex.html#a57f73fa21221f16fbaead42c95b2833b" title=" " alt="" coords="506,2052,654,2080"/>
+<area shape="poly" id="edge47_Node000045_Node000053" title=" " alt="" coords="410,1751,424,1763,447,1799,455,1834,453,1869,448,1904,442,1938,441,1971,449,2005,472,2038,493,2053,490,2057,468,2042,445,2007,436,1972,437,1937,442,1903,448,1869,449,1835,442,1801,420,1767,407,1755"/>
+<area shape="rect" id="Node000054" href="$d6/d81/classPHG4VtxPoint.html#a9b558f1924a5947a3aa3a407def653eb" title=" " alt="" coords="502,2104,657,2132"/>
+<area shape="poly" id="edge48_Node000045_Node000054" title=" " alt="" coords="411,1751,424,1763,439,1784,450,1806,459,1848,456,1889,447,1930,439,1970,437,2010,446,2050,456,2070,472,2090,489,2103,486,2107,468,2094,452,2073,441,2052,432,2011,434,1970,442,1929,450,1888,453,1848,445,1807,435,1787,420,1767,407,1755"/>
+<area shape="rect" id="Node000055" href="$dd/de6/classKFParticle__truthAndDetTools.html#ad75d71be845ff83a6bb6839b5e151e3c" title="Retrieve the associated truth PHG4Particle for a reconstructed SvtxTrack." alt="" coords="477,1553,682,1598"/>
+<area shape="poly" id="edge51_Node000045_Node000055" title=" " alt="" coords="374,1705,420,1678,435,1662,443,1647,452,1631,468,1615,487,1603,490,1608,472,1619,457,1634,448,1649,439,1665,424,1682,376,1710"/>
+<area shape="poly" id="edge52_Node000055_Node000018" title=" " alt="" coords="682,1559,722,1554,722,1559,683,1565"/>
+<area shape="poly" id="edge59_Node000063_Node000018" title=" " alt="" coords="399,1550,470,1538,531,1534,580,1534,689,1538,722,1539,722,1544,689,1544,579,1539,532,1539,470,1544,400,1555"/>
+<area shape="poly" id="edge60_Node000063_Node000028" title=" " alt="" coords="396,1550,421,1539,435,1528,444,1518,454,1506,469,1495,492,1482,494,1487,471,1499,457,1510,448,1521,438,1532,423,1543,399,1555"/>
+<area shape="poly" id="edge61_Node000063_Node000055" title=" " alt="" coords="413,1573,462,1573,462,1578,413,1578"/>
+<area shape="poly" id="edge63_Node000071_Node000018" title=" " alt="" coords="413,2244,481,2248,555,2244,591,2236,626,2224,658,2208,687,2186,704,2167,718,2141,743,2071,763,1986,778,1892,797,1706,804,1574,809,1574,802,1707,784,1892,768,1987,748,2073,723,2143,708,2170,691,2190,661,2212,628,2229,593,2241,556,2249,481,2254,412,2249"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="CaloTruthEval::get_shower_hits_from_primary" name="CaloTruthEval::get_shower_hits_from_primary">
+<area shape="rect" id="Node000001" title="what truth hits are the result of this primary particle and its shower" alt="" coords="5,169,208,214"/>
+<area shape="rect" id="Node000002" href="$d7/d3c/classCaloTruthEval.html#ade7d2475910f8ffa3af476accc4c0643" title="what truth hits are contained within this shower entry in this calo volume?" alt="" coords="282,49,416,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,166,254,110,280,98,283,103,257,115,150,171"/>
+<area shape="rect" id="Node000005" href="$d7/d3c/classCaloTruthEval.html#a0800a3435e313f45f7d54a05c7263baf" title="has the eval initialized correctly for full sim DST nodes?" alt="" coords="515,109,663,154"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="195,166,255,154,383,139,500,132,500,137,384,144,256,159,196,171"/>
+<area shape="rect" id="Node000006" href="$d7/d3c/classCaloTruthEval.html#a8cf23ffd62bf8e3fe09775bf807b64bc" title="what was the primary particle associated with the shower object?" alt="" coords="280,169,419,214"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="208,188,264,188,264,194,208,194"/>
+<area shape="rect" id="Node000007" href="$d7/d3c/classCaloTruthEval.html#a4d2ab62ada677f474c71eaf2222bb3e8" title="what was the primary shower associated with the shower object?" alt="" coords="280,238,419,283"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="188,212,265,234,264,239,187,217"/>
+<area shape="rect" id="Node000008" href="$d7/d3c/classCaloTruthEval.html#af490b912237dbd18f10b41c2396f3e61" title="is this a primary shower?" alt="" coords="256,307,443,334"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="135,212,190,253,257,293,271,299,268,303,254,298,187,257,132,216"/>
+<area shape="rect" id="Node000003" href="$db/d88/classPHG4Shower.html#a2c4c2e0b6d5b56c6d81303eee6f2ce85" title="Return iterator to end of dummy G4 hit ID map." alt="" coords="491,5,687,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,54,506,34,507,40,417,59"/>
+<area shape="rect" id="Node000004" href="$db/d88/classPHG4Shower.html#a695043e5a668d3c04fd4ac6e26848cac" title="Retrieve an iterator to the G4 hit identifier associated with a given volume." alt="" coords="491,57,687,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="417,68,475,68,475,74,417,74"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="417,85,501,106,499,112,416,90"/>
+</map>

@@ -1,0 +1,14 @@
+digraph "PHG4CellContainer::AddCell"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4CellContainer::\lAddCell",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Add a new PHG4Cell to the container."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4Cell::get_cellid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/dfe/classPHG4Cell.html#a94a52d4c3d9402fa224e8d2c1d783cd0",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4CellDefs::get_detid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/dba/namespacePHG4CellDefs.html#a195c6e84995def1ed68ecd3ca1159734",tooltip="Retrieve detector id from cell key."];
+}

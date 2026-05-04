@@ -1,0 +1,66 @@
+digraph "SetupDefaultSphenixTpc"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SetupDefaultSphenixTpc",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="AnnularFieldSim::borrow\l_epartial_from",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#ab1fef85da048f753fa6b223fb7c309d7",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="AnnularFieldSim::Annular\lFieldSim",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a504a099a8ae5f94df5956ab9d3c6aca4",tooltip="Constructor that forwards to the detailed constructor with full region of interest."];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge4_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="AnnularFieldSim::borrow\l_rossegger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#ae050a053eaa70073d2cb8e0fd8095a71",tooltip="Borrow a Rossegger table and apply a longitudinal shift."];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="AnnularFieldSim::load3dBfield",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a0bd91ffdcaadc1d570aa28f43c42c0ea",tooltip="Load a three‑dimensional magnetic field from a ROOT file."];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="AnnularFieldSim::loadField",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a342f3f7e29c6a7f8fbce25fcf17e24c7",tooltip="Load magnetic or electric field map from a ROOT TTree into the internal MultiArray."];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="AnnularFieldSim::FilterPhiPos",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a89886f51584b79fee6e61ca60e353545",tooltip="Map an azimuthal angle to the positive range [0, 2π)."];
+  Node6 -> Node8 [id="edge8_Node000006_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="AnnularFieldSim::GetCell\lCenter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a9c93ebfb51787f51897612bf70cdc9fa",tooltip="returns the geometric midpoint of a calorimeter cell specified by integer indices"];
+  Node6 -> Node9 [id="edge9_Node000006_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="AnnularFieldSim::GetLocal\lFieldComponents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#acb8e731f57212fbbeb300da7f6cf2031",tooltip="Compute the components of a magnetic field in a local cylindrical coordinate system."];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="AnnularFieldSim::load\l_phislice_lookup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#ac8d5d0f1f776dfed175c9f76f3d0b191",tooltip="Load phi slice lookup tables from a ROOT file into the AnnularFieldSim instance."];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="AnnularFieldSim::load\l_rossegger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a91bd934caa7c86d36e56f3a0116b368d",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="AnnularFieldSim::loadEfield",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a3f3bf08a1e0acb87ce83bdd442c6330f",tooltip="Load electric field map from a ROOT file into the simulation."];
+  Node12 -> Node6 [id="edge13_Node000012_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node13 [id="edge14_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="AnnularFieldSim::populate\l_lookup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a2f49f50c2bc4351587ab6cf8e660111e",tooltip="Populate field lookup tables according to the selected lookup case."];
+  Node13 -> Node14 [id="edge15_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="AnnularFieldSim::populate\l_full3d_lookup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a0860caf13830e3b6ffb63477e5d5d90d",tooltip="Populate the full 3‑D lookup table of unit electric field contributions."];
+  Node14 -> Node15 [id="edge16_Node000014_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="AnnularFieldSim::calc\l_unit_field",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#aba83c13891c05b283eebd23b347a8c2b",tooltip="Compute the electric field vector at a given position due to a point charge."];
+  Node15 -> Node7 [id="edge17_Node000015_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node14 -> Node8 [id="edge18_Node000014_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node13 -> Node16 [id="edge19_Node000013_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="AnnularFieldSim::populate\l_highres_lookup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a2bc090942421a5a9f185be13f2689d5a",tooltip="Populate high resolution lookup table for field contributions."];
+  Node16 -> Node15 [id="edge20_Node000016_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node16 -> Node17 [id="edge21_Node000016_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="AnnularFieldSim::FilterPhi\lIndex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a6dd7179752785a749194d619b7c0dd7b",tooltip="Adjust phi index to lie within specified range using periodic wrap."];
+  Node16 -> Node8 [id="edge22_Node000016_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node13 -> Node18 [id="edge23_Node000013_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="AnnularFieldSim::populate\l_lowres_lookup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a8fcaff1d1d774fba15565f6990077ea0",tooltip="Populate low resolution lookup table for annular field simulation."];
+  Node18 -> Node15 [id="edge24_Node000018_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node18 -> Node19 [id="edge25_Node000018_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="AnnularFieldSim::GetGroup\lCellCenter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#aa3b4e8df7cf7fd8b70640312db83198e",tooltip="Compute geometric center of a group of cells in annular field geometry."];
+  Node13 -> Node20 [id="edge26_Node000013_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="AnnularFieldSim::populate\l_phislice_lookup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a266e4d2f962db9ca8c4ff25d6a34a574",tooltip="Populate phi slice lookup table for the annular field simulation The routine iterates over all field ..."];
+  Node20 -> Node15 [id="edge27_Node000020_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node20 -> Node8 [id="edge28_Node000020_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node21 [id="edge29_Node000001_Node000021",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="AnnularFieldSim::save\l_phislice_lookup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a9590591e26ad3d6ae8dba0aa0a1be65a",tooltip="Save the phi‑slice lookup table to a ROOT file."];
+  Node1 -> Node22 [id="edge30_Node000001_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="AnnularFieldSim::set_twin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#ae7eee225f3c41e6ccb0bfcee40cb0099",tooltip=" "];
+  Node22 -> Node3 [id="edge31_Node000022_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node23 [id="edge32_Node000001_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="AnnularFieldSim::setFlat\lFields",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#ab9f595e36e6c7af8568afdace7fea051",tooltip="Set flat electric and magnetic fields for the annular field simulation."];
+  Node1 -> Node24 [id="edge33_Node000001_Node000024",color="steelblue1",style="solid",tooltip=" "];
+  Node24 [id="Node000024",label="AnnularFieldSim::UpdateEveryN",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d64/classAnnularFieldSim.html#a81f469e55ef787ea4d173ac26de871c8",tooltip=" "];
+}

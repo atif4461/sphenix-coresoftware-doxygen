@@ -1,0 +1,12 @@
+digraph "TrkrClusterIsMatcher::set_tol_phi_MVTX"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrkrClusterIsMatcher\l::set_tol_phi_MVTX",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set the azimuthal tolerance for MVTX clusters."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrkrClusterIsMatcher\l::init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d24/classTrkrClusterIsMatcher.html#ab1b019e181539bc44cb34346ae569598",tooltip="Initialize matcher by retrieving geometry and cluster containers from node tree."];
+}

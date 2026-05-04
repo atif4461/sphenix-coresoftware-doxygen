@@ -1,0 +1,56 @@
+<map id="OfflinePacketv1::getIdentifier" name="OfflinePacketv1::getIdentifier">
+<area shape="rect" id="Node000001" title=" " alt="" coords="754,550,964,578"/>
+<area shape="rect" id="Node000002" href="$d5/d3b/classClockDiffCheck.html#aa7d7204965502c96958349ccfd4dc463" title="Check consistency of FEM event numbers across modules in a CaloPacket." alt="" coords="232,5,428,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="856,534,854,442,847,381,835,315,817,247,790,182,753,122,730,95,705,71,674,50,641,34,606,23,570,16,496,10,429,14,429,8,496,5,570,10,607,18,643,30,677,46,708,67,734,91,757,119,794,179,822,246,840,314,852,380,859,442,861,534"/>
+<area shape="rect" id="Node000003" href="$d5/d3b/classClockDiffCheck.html#a4fd09fbe00a229d4f83cbd0393982cd6" title="Process a single event and perform clock difference checks on packets." alt="" coords="5,125,184,170"/>
+<area shape="poly" id="edge23_Node000001_Node000003" title=" " alt="" coords="856,535,852,448,845,392,833,331,814,270,787,211,751,158,729,135,705,115,665,97,610,88,546,85,476,88,338,101,232,116,172,127,171,122,231,110,338,96,476,82,546,80,611,83,666,92,708,111,733,132,755,155,792,208,819,268,838,330,850,391,857,448,861,534"/>
+<area shape="rect" id="Node000004" href="$df/d97/classSingleTriggeredInput.html#a075fc439d10cb9221c4b7a03907220ed" title="Check consistency of FEM event numbers and clocks in a CaloPacket." alt="" coords="498,125,684,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="852,535,840,464,814,369,795,319,771,270,741,224,705,184,683,169,686,165,708,180,745,221,775,267,800,317,820,368,845,462,857,534"/>
+<area shape="rect" id="Node000006" href="$d5/d3b/classClockDiffCheck.html#a68737292e4eed5cc585eaeda9bad5ffe" title="Fill per packet clock difference histogram and update internal packet state." alt="" coords="503,195,679,239"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="849,535,833,476,805,400,786,360,763,321,736,285,705,254,678,237,681,233,708,250,740,282,768,318,791,358,810,398,838,475,854,534"/>
+<area shape="rect" id="Node000008" href="$d6/d88/classSingleGl1PoolInput.html#a976497e9e28916bce64f8ae39575dec5" title="Fill internal data pools with events from input files." alt="" coords="519,264,663,309"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="845,536,826,490,796,432,755,373,731,347,705,323,685,311,663,302,665,297,687,306,708,319,735,343,759,370,800,429,830,487,850,534"/>
+<area shape="rect" id="Node000009" href="$d4/d21/classSingleGl1PoolInputv2.html#adf0c7b45f936a4ad1398e7bd82e02cbc" title="Fill the GL1 hit pool with events from the input files." alt="" coords="511,333,671,378"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="839,538,785,465,747,426,705,393,670,376,673,371,708,388,751,422,789,462,843,535"/>
+<area shape="rect" id="Node000010" href="$df/d76/classCaloPacketContainerv1.html#af351a02ebfda5ad5efa886047778391a" title="Retrieve CaloPacket pointer matching given identifier." alt="" coords="506,403,677,447"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="827,542,772,502,705,462,676,450,678,445,708,457,775,497,830,538"/>
+<area shape="rect" id="Node000011" href="$d5/da5/classLL1PacketContainerv1.html#a86fd84b48d19fb47f3a2230f9810652d" title="Retrieve packet with matching identifier from container." alt="" coords="509,472,673,517"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="788,548,673,518,674,513,789,543"/>
+<area shape="rect" id="Node000012" href="$df/d76/classCaloPacketContainerv1.html#a3030b5a993ec2bef0f4d98c453e67e0e" title="Identify contents of CaloPacketContainerv1 and write to stream." alt="" coords="506,541,677,586"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="739,566,677,566,677,561,739,561"/>
+<area shape="rect" id="Node000013" href="$d5/de2/classGl1Packetv3.html#a0c5b0de72b754661a921b60effaa0491" title="Identify prints packet information to the provided output stream." alt="" coords="512,610,670,638"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="781,584,707,601,658,612,657,607,706,596,780,579"/>
+<area shape="rect" id="Node000014" href="$d5/da5/classLL1PacketContainerv1.html#af1e856afd18ff762022d9bda66ee5cdf" title="Print container identification and packet summary to the provided stream." alt="" coords="509,661,673,706"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="825,588,771,620,707,651,674,664,673,659,705,647,768,615,822,584"/>
+<area shape="rect" id="Node000015" href="$dd/dbb/classOfflinePacketv1.html#af6d98bb1fcd410a12b65c96ec627b086" title="Print a summary of the OfflinePacketv1 contents to the provided output stream." alt="" coords="502,730,681,758"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="841,592,787,657,750,692,708,721,682,732,680,727,705,716,746,688,783,654,837,589"/>
+<area shape="rect" id="Node000022" href="$d7/d4d/classSEpdCheck.html#a793552ace3085eedc0520f268fef8149" title="Process a single event and inspect SEPD packets in the node tree." alt="" coords="516,781,667,826"/>
+<area shape="poly" id="edge24_Node000001_Node000022" title=" " alt="" coords="847,593,825,632,794,681,755,729,708,771,669,791,666,786,705,767,751,726,790,677,821,630,842,590"/>
+<area shape="rect" id="Node000023" href="$d9/d34/classZdcCheck.html#a4737392e424cf5cb539a1742c8c6621d" title="Process event and output ZDC packet information." alt="" coords="498,850,685,878"/>
+<area shape="poly" id="edge25_Node000001_Node000023" title=" " alt="" coords="853,593,836,647,807,714,765,783,738,814,708,841,686,853,684,848,705,836,734,810,760,779,802,711,831,645,848,592"/>
+<area shape="rect" id="Node000024" href="$df/d19/classDumpCaloPacket.html#a4809924f3874444f4a37e7b750cbac9d" title="Process a node containing a CaloPacket and dump its contents to the output stream." alt="" coords="476,902,706,930"/>
+<area shape="poly" id="edge26_Node000001_Node000024" title=" " alt="" coords="855,594,841,656,814,737,794,779,770,820,742,858,708,891,688,903,685,899,705,887,738,855,766,817,789,777,809,735,836,655,850,592"/>
+<area shape="rect" id="Node000025" href="$dd/dc2/classDumpCaloPacketContainer.html#abc25708cb2283b0b183f1d3f88c1d6ce" title="Process a node containing CaloPacketContainer and dump its contents to the output stream." alt="" coords="494,953,688,998"/>
+<area shape="poly" id="edge27_Node000001_Node000025" title=" " alt="" coords="857,594,845,664,819,758,800,808,775,857,745,903,708,943,690,956,687,952,705,939,740,900,770,854,795,806,814,757,840,663,852,593"/>
+<area shape="rect" id="Node000026" href="$d5/da4/classSingleGl1TriggeredInput.html#a1032b1f04ccd609f2c1e0dc4a9588ff9" title="Read next GL1 event from internal deque and fill GL1 packet node." alt="" coords="503,1023,679,1067"/>
+<area shape="poly" id="edge28_Node000001_Node000026" title=" " alt="" coords="859,593,851,676,842,729,828,788,809,848,783,908,750,963,708,1012,681,1031,678,1026,705,1008,745,960,778,905,804,846,823,786,837,728,846,675,854,593"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,59,233,71,134,127,131,122,230,67,257,54"/>
+<area shape="rect" id="Node000005" href="$df/d97/classSingleTriggeredInput.html#a617b09bc49f3d673b0e004601b54f02c" title="Reads next event from packet deques and assembles calo packets." alt="" coords="253,125,407,170"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="483,150,407,150,407,145,483,145"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="487,214,364,203,231,185,177,173,178,168,232,180,365,198,488,209"/>
+<area shape="rect" id="Node000007" href="$d5/d3b/classClockDiffCheck.html#aac3f595adabac2745720193004ada94f" title="Fill calorimeter clock difference histograms from a container of packets." alt="" coords="242,245,418,290"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="488,240,419,253,418,248,487,234"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="257,241,230,229,131,173,134,168,233,224,259,236"/>
+<area shape="rect" id="Node000016" href="$d2/dde/classCaloPacketv1.html#adc77320edc0106607d26b1d82f266745" title="Identify prints CaloPacketv1 information to the provided stream." alt="" coords="247,600,412,628"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="486,727,474,720,457,701,449,681,442,661,426,643,405,631,408,626,430,639,447,659,454,679,461,698,478,716,489,723"/>
+<area shape="rect" id="Node000017" href="$dd/dff/classGl1Packetv1.html#abb3de6b3a40a1b7202b7f1a6f6479a3f" title="Print identification information of Gl1Packetv1 to the given output stream." alt="" coords="251,652,409,680"/>
+<area shape="poly" id="edge18_Node000015_Node000017" title=" " alt="" coords="497,728,475,721,451,708,427,695,390,683,392,678,429,691,453,704,477,716,498,723"/>
+<area shape="rect" id="Node000018" href="$dc/d2e/classGl1Packetv2.html#a9a7066be1c88aa809216a4d0855895fd" title="Identify Gl1Packetv2 object and output its properties." alt="" coords="251,704,409,732"/>
+<area shape="poly" id="edge19_Node000015_Node000018" title=" " alt="" coords="486,736,409,729,410,723,486,731"/>
+<area shape="rect" id="Node000019" href="$d1/d7e/classLL1Packetv1.html#a2ed21e2412a0bcc2178a7dfe7a145260" title="Identify LL1Packetv1 and output its properties to a stream." alt="" coords="251,756,409,784"/>
+<area shape="poly" id="edge20_Node000015_Node000019" title=" " alt="" coords="487,757,410,765,409,760,486,752"/>
+<area shape="rect" id="Node000020" href="$d0/dab/classGl1Check.html#ab6f1e8728b4f409a62541e2b53228d9d" title="Process the current event for the Gl1Check module." alt="" coords="237,808,422,836"/>
+<area shape="poly" id="edge21_Node000015_Node000020" title=" " alt="" coords="497,765,477,771,453,784,429,798,393,810,391,805,427,793,451,780,475,767,496,760"/>
+<area shape="rect" id="Node000021" href="$d8/da0/classMbdCheck.html#a87b9d4690c316a2b9a46abc3380e06e3" title="Process event for MbdCheck module." alt="" coords="234,860,426,888"/>
+<area shape="poly" id="edge22_Node000015_Node000021" title=" " alt="" coords="489,764,478,771,461,789,454,809,447,830,430,850,408,862,405,858,426,846,442,827,449,807,457,787,474,767,486,760"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="PHG4Detector::OverlapCheck" name="PHG4Detector::OverlapCheck">
+<area shape="rect" id="Node000001" title=" " alt="" coords="776,358,989,386"/>
+<area shape="rect" id="Node000002" href="$d1/d05/classPHG4FullProjSpacalDetector.html#afd4c65353754d4baff1ed614a2aca247" title="Construct azimuthal sector logical volume and its walls towers for the full projection Spacal detecto..." alt="" coords="504,5,708,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="873,344,856,285,828,209,809,170,785,131,758,95,727,64,707,52,710,47,730,60,762,92,790,128,813,167,833,207,862,283,878,342"/>
+<area shape="rect" id="Node000003" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a5d52892d52c8020e2e81e981b47a1220" title="Construct azimuthal segmentation of the tilted SPACAL detector sector." alt="" coords="484,75,728,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="869,345,849,298,818,241,778,183,753,157,727,134,708,122,710,118,730,130,757,153,782,180,823,238,853,296,873,342"/>
+<area shape="rect" id="Node000004" href="$d0/da4/classPHG4SpacalDetector.html#acde5479ab63b50fea1713c8a92b5a3b2" title="Construct the azimuthal segment logical volume for the Spacal detector." alt="" coords="512,144,700,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="861,347,806,279,768,242,727,210,691,192,693,187,730,205,772,238,810,275,865,344"/>
+<area shape="rect" id="Node000005" href="$d0/da4/classPHG4SpacalDetector.html#a332cf236022185ea0873a2c26cf5b12f" title="Construct the Spacal detector geometry within the provided world logical volume." alt="" coords="269,175,425,219"/>
+<area shape="poly" id="edge12_Node000001_Node000005" title=" " alt="" coords="856,348,800,299,765,274,727,254,671,238,592,225,425,206,426,201,593,220,673,233,729,249,768,270,803,295,859,344"/>
+<area shape="rect" id="Node000008" href="$de/d1f/classPHG4HcalDetector.html#abd45714fd88b0f9d2abc92fba6c95e13" title="construct" alt="" coords="490,263,722,291"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="840,353,787,328,727,305,688,294,689,289,729,300,789,323,842,348"/>
+<area shape="rect" id="Node000009" href="$db/d76/classPHG4IHCalDetector.html#a19b454a01a7750863b5f88e5259f0032" title="construct" alt="" coords="528,315,684,359"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="760,359,684,349,685,344,761,354"/>
+<area shape="rect" id="Node000010" href="$d5/d80/classPHG4InnerHcalDetector.html#adcc55f5d190de67371fb9bf28015c68a" title="construct" alt="" coords="518,384,694,429"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="761,390,695,398,694,393,761,384"/>
+<area shape="rect" id="Node000011" href="$d3/d07/classPHG4OHCalDetector.html#a61b5b2b66294e6016c7e416fd37181aa" title="construct" alt="" coords="525,453,687,498"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="841,395,729,443,689,457,687,452,727,439,838,390"/>
+<area shape="rect" id="Node000012" href="$df/d74/classPHG4OuterHcalDetector.html#ae159c3d2a294c687f9c0f4af6dbce281" title="construct" alt="" coords="258,595,436,639"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="862,399,807,457,770,488,730,513,695,528,664,537,609,545,553,549,485,564,398,597,396,592,483,558,553,544,609,540,663,532,693,523,727,508,767,483,803,453,858,396"/>
+<area shape="rect" id="Node000013" href="$de/d81/classPHG4TpcDetector.html#add249db10a97cac64b40c13c5ecbb7a6" title="construct" alt="" coords="493,572,719,600"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="868,401,845,436,814,479,775,521,730,557,691,574,689,569,727,552,771,517,810,475,841,433,863,398"/>
+<area shape="rect" id="Node000014" href="$dc/df2/classPHG4ZDCDetector.html#ae78930fd5b13383ea22dbaab031e90c0" title="construct" alt="" coords="490,624,722,652"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="874,401,855,448,824,506,783,565,758,591,730,614,707,626,704,622,727,609,754,587,779,561,820,503,850,445,869,399"/>
+<area shape="rect" id="Node000015" href="$df/d74/classPHG4OuterHcalDetector.html#a7791a8bc9629b00efcd33f59f134e27a" title="Construct the outer HCal geometry, scintillator assembly, steel plates and associated magnetic field." alt="" coords="517,676,695,721"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="877,401,860,457,830,529,788,602,761,636,730,666,697,685,694,680,727,662,757,633,783,599,826,526,855,455,872,400"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="497,182,426,190,425,185,496,177"/>
+<area shape="rect" id="Node000006" href="$d1/d05/classPHG4FullProjSpacalDetector.html#a5fff07b9f6daa78ccc2d56ac277bab0e" title="Construct the full projection Spacal detector geometry within the provided world logical volume." alt="" coords="5,140,210,185"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="253,186,210,180,211,175,253,181"/>
+<area shape="rect" id="Node000007" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698" title="Construct the full projected tilted SPACAL detector geometry within the given world volume." alt="" coords="15,209,200,254"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="253,213,201,221,200,216,253,208"/>
+<area shape="poly" id="edge16_Node000015_Node000012" title=" " alt="" coords="507,674,483,666,412,643,414,637,485,661,509,669"/>
+</map>

@@ -1,0 +1,14 @@
+digraph "PHG4EtaPhiParameterization::ComputeDimensions"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4EtaPhiParameterization\l::ComputeDimensions",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute ring dimensions for given copy number."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4EtaPhiParameterization\l::GetIEta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d75/classPHG4EtaPhiParameterization.html#ad9953034168d2445822353353d42c5a6",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4EtaPhiParameterization\l::GetIPhi",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d75/classPHG4EtaPhiParameterization.html#a9132b41dc360b4170903616d9341fb41",tooltip=" "];
+}

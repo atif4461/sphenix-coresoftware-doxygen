@@ -1,0 +1,27 @@
+<map id="TPCPedestalCalibration::CDBInsert" name="TPCPedestalCalibration::CDBInsert">
+<area shape="rect" id="Node000001" title="Insert TPC pedestal calibration payload into the conditions database." alt="" coords="5,180,179,224"/>
+<area shape="rect" id="Node000002" href="$df/d37/classCDBUtils.html#a765d46d4055a20af85026e05ebafa637" title="Create a new payload type domain in the CDB." alt="" coords="227,109,436,137"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,176,226,147,254,139,255,144,228,152,149,181"/>
+<area shape="rect" id="Node000003" href="$d1/da8/classPHFlag.html#a2527c60236838b31be8c04c17e529976" title="Retrieve string flag value by name." alt="" coords="247,161,416,189"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,190,231,184,231,189,179,195"/>
+<area shape="rect" id="Node000011" href="$df/d37/classCDBUtils.html#ae969b6a978b2c8df9d718496d5682372" title="Insert a payload into the conditions database." alt="" coords="244,213,419,241"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="179,208,229,214,228,219,179,214"/>
+<area shape="rect" id="Node000013" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="253,265,410,293"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="150,222,227,250,256,258,254,263,226,255,148,227"/>
+<area shape="rect" id="Node000004" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="523,109,628,137"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="399,158,507,135,508,140,401,163"/>
+<area shape="rect" id="Node000010" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="488,161,663,189"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="417,172,473,172,473,178,417,178"/>
+<area shape="rect" id="Node000005" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="715,5,902,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="597,107,650,75,714,43,735,36,737,41,716,48,652,80,600,111"/>
+<area shape="rect" id="Node000006" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="722,57,895,85"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="628,109,728,86,729,92,629,114"/>
+<area shape="rect" id="Node000007" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="730,109,887,137"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="629,120,714,120,714,126,629,126"/>
+<area shape="rect" id="Node000008" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="719,161,898,189"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="629,132,729,155,728,160,628,137"/>
+<area shape="rect" id="Node000009" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="718,213,899,241"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="630,131,669,148,684,161,694,174,702,186,717,198,729,205,726,209,714,203,698,190,689,177,680,164,666,152,628,136"/>
+<area shape="rect" id="Node000012" href="$df/d37/classCDBUtils.html#a257c87b756cf0a8133e9171c8080312a" title="Checks whether a global tag has been configured in the underlying CDB client." alt="" coords="484,213,667,241"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="420,224,469,224,469,230,420,230"/>
+</map>

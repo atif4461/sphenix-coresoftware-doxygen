@@ -1,0 +1,39 @@
+<map id="PHFieldConfig::identify" name="PHFieldConfig::identify">
+<area shape="rect" id="Node000001" title="Identify the field configuration and print its validity status." alt="" coords="927,199,1095,226"/>
+<area shape="rect" id="Node000002" href="$df/d4d/classPHFieldUtility.html#a2a6d0bd545c3ec0d6695fd455fded86b" title="Build or build field map with a configuration object." alt="" coords="669,233,879,261"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="912,230,873,235,873,230,911,224"/>
+<area shape="rect" id="Node000017" href="$df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468" title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one." alt="" coords="688,126,860,171"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="942,197,859,174,860,169,943,192"/>
+<area shape="rect" id="Node000003" href="$df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48" title="Get transient PHField from DST nodes. If not found, make a new one based on default_config." alt="" coords="448,196,620,240"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="654,235,620,231,621,226,654,230"/>
+<area shape="rect" id="Node000013" href="$d2/d38/minimumTestPHGenFit_8cc.html#a2c3f6775325c30275d11c6abee2db6a0" title="Entry point for the example track fitting application." alt="" coords="507,264,561,292"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="654,265,562,277,562,272,654,260"/>
+<area shape="rect" id="Node000014" href="$dc/da0/classPHG4OHCalFieldSetup.html#a30ea506ac3755ed85ff39ca739110b50" title="Construct OHCal magnetic field setup for iron absorber." alt="" coords="447,472,621,516"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="750,274,559,473,556,469,746,271"/>
+<area shape="rect" id="Node000004" href="$d0/d78/classPHG4Reco.html#a66fc50f0871fbaf83b21edfa8ae98259" title="Initialize magnetic field configuration and attach to node tree." alt="" coords="223,316,372,344"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="456,250,449,255,434,267,426,280,416,293,400,305,373,318,371,313,398,301,412,289,421,277,430,264,445,250,453,246"/>
+<area shape="rect" id="Node000006" href="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6" title="Initialize geometry, alignment and magnetic field for a new run." alt="" coords="197,368,399,396"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="452,252,449,254,438,267,432,280,426,305,420,331,413,344,401,357,381,370,378,365,397,353,409,341,415,329,421,304,427,278,434,264,445,251,448,248"/>
+<area shape="rect" id="Node000007" href="$d9/d91/classPHG4TrackFastSim.html#a7ed1ea5f4718d84d769f1563b5147f71" title="Initialization Run, called for initialization of a run." alt="" coords="200,420,396,448"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="451,252,449,254,435,274,429,293,427,331,424,370,416,390,401,409,383,422,380,417,397,405,412,387,419,369,422,331,424,291,431,271,445,251,447,248"/>
+<area shape="rect" id="Node000008" href="$de/d25/classPHGenFitTrkFitter.html#a31b287e4d0925394b938f8eccccf7083" title="Initialization Run, called for initialization of a run." alt="" coords="227,196,369,240"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="434,220,370,220,370,215,434,215"/>
+<area shape="rect" id="Node000009" href="$d5/daa/classPHRaveVertexing.html#a650b76ab2fb4616857eb52bb3a838971" title="Initialization Run, called for initialization of a run." alt="" coords="204,264,392,292"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="434,246,400,255,357,266,356,261,398,250,433,241"/>
+<area shape="rect" id="Node000010" href="$d9/d69/classPHSimpleKFProp.html#acf8e513a28fcf747624780d1c2f214b7" title="Initialize run by retrieving required nodes, configuring magnetic field, and setting up the ALICE Kal..." alt="" coords="206,5,390,33"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="512,183,466,113,434,77,398,47,376,36,379,31,400,42,438,73,471,110,517,180"/>
+<area shape="rect" id="Node000011" href="$d5/dbe/classPrelimDistortionCorrection.html#a0c7778097947c2bf4439ebaa7584abdc" title="Initialize run specific resources for distortion correction." alt="" coords="201,57,395,102"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="495,187,450,150,398,116,373,105,375,100,400,112,453,146,499,183"/>
+<area shape="rect" id="Node000012" href="$d6/d80/classPrelimDistortionCorrectionAuAu.html#aaeaab6450f474daad89ffa2972723791" title="Initialize run specific resources and configure track fitter." alt="" coords="201,126,395,171"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="440,193,376,174,377,169,442,188"/>
+<area shape="rect" id="Node000005" href="$d0/d78/classPHG4Reco.html#afb33612dcc374f0614d800dc9480305a" title="Initialize the PHG4Reco module for a new run." alt="" coords="5,316,149,344"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="207,332,149,332,149,327,207,327"/>
+<area shape="rect" id="Node000015" href="$dc/da0/classPHG4OHCalFieldSetup.html#adaa86f27af845b1f98d1fc0dc717c9c7" title=" " alt="" coords="215,472,381,516"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="431,496,382,496,382,491,431,491"/>
+<area shape="rect" id="Node000016" href="$dc/da0/classPHG4OHCalFieldSetup.html#acdf10bd34e01a113f44aae902fc40ab0" title=" " alt="" coords="211,541,385,586"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="442,524,377,543,376,538,440,518"/>
+<area shape="poly" id="edge17_Node000017_Node000003" title=" " alt="" coords="681,178,615,197,613,192,679,173"/>
+<area shape="poly" id="edge18_Node000017_Node000010" title=" " alt="" coords="697,123,621,98,488,63,370,36,371,31,489,58,622,93,699,118"/>
+<area shape="poly" id="edge19_Node000017_Node000011" title=" " alt="" coords="673,137,395,96,396,91,674,131"/>
+<area shape="poly" id="edge20_Node000017_Node000012" title=" " alt="" coords="673,151,395,151,395,146,673,146"/>
+</map>

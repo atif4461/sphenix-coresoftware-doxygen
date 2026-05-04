@@ -1,0 +1,14 @@
+digraph "InttQa::GetColor"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="InttQa::GetColor",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="A list of nice colors."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="InttQa::HistConfig",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/db0/namespaceInttQa.html#a2830993a5bea4083f5fc6e7ed455bccd",tooltip="Some configuration is done for a better-looking histogram."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="InttQa::HistsConfig",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/db0/namespaceInttQa.html#a5d498c33d79abdc1f7f33c7a73cc0c1e",tooltip="i don't remember what's this"];
+}

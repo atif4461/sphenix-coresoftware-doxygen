@@ -1,0 +1,47 @@
+<map id="InputFileHandler::GetOpeningScript" name="InputFileHandler::GetOpeningScript">
+<area shape="rect" id="Node000001" title=" " alt="" coords="830,629,1044,674"/>
+<area shape="rect" id="Node000002" href="$d2/d8a/classInputFileHandler.html#acf665524602bc5f8cc2398bfd26121ae" title="Open the next file in the internal file list." alt="" coords="558,638,782,666"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="815,654,783,654,783,649,815,649"/>
+<area shape="rect" id="Node000003" href="$df/d97/classSingleTriggeredInput.html#a7f5fbe72af4271a3d227839758de7fe1" title="Fill event vector with synchronized data events from input files." alt="" coords="295,40,450,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="667,622,664,522,658,455,645,381,626,305,597,230,559,160,535,128,508,99,481,81,449,70,451,65,483,76,512,95,539,125,563,157,602,228,631,303,650,380,663,454,670,522,673,622"/>
+<area shape="rect" id="Node000006" href="$d6/d88/classSingleGl1PoolInput.html#a976497e9e28916bce64f8ae39575dec5" title="Fill internal data pools with events from input files." alt="" coords="300,109,444,154"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="666,622,659,533,650,475,636,411,617,345,589,280,554,220,508,168,478,149,444,139,446,134,481,144,512,164,558,217,594,278,622,343,642,409,656,474,664,533,671,622"/>
+<area shape="rect" id="Node000007" href="$d4/d21/classSingleGl1PoolInputv2.html#adf0c7b45f936a4ad1398e7bd82e02cbc" title="Fill the GL1 hit pool with events from the input files." alt="" coords="292,179,452,223"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="664,623,653,545,628,441,607,386,581,331,548,281,508,238,482,221,452,211,454,205,484,216,512,234,553,278,586,329,612,383,633,439,658,544,669,622"/>
+<area shape="rect" id="Node000008" href="$d4/d69/classSingleInttEventInput.html#a88a3d42b27e2c2ecac6706c7c791a9c0" title="Fill internal hit pool with events whose beam clock exceeds the specified minimum." alt="" coords="296,248,449,293"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="662,623,647,558,618,472,598,427,573,383,544,342,508,307,480,290,449,280,450,275,483,285,512,303,548,339,578,380,603,424,623,470,652,556,667,622"/>
+<area shape="rect" id="Node000009" href="$d5/dcb/classSingleInttPoolInput.html#abf890aecd6600bae253136ac19289fea" title="Fill internal INTT pools with events from input files." alt="" coords="300,317,444,362"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="658,624,639,570,609,503,565,434,539,403,508,377,478,360,444,349,446,344,480,355,512,372,542,400,570,431,613,501,644,568,663,622"/>
+<area shape="rect" id="Node000010" href="$d8/d64/classSingleMicromegasPoolInput__v1.html#ab901226bf41cf4fa0a192863d17dd416" title="Fill the data pool with events from input files." alt="" coords="271,387,474,431"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="653,625,631,585,598,536,557,487,509,446,473,429,475,424,511,441,561,483,603,533,635,582,658,623"/>
+<area shape="rect" id="Node000011" href="$d8/d01/classSingleMicromegasPoolInput__v2.html#a79240b93cf2e936657df21a9cfb81c42" title="Fill internal event pool from input files until no more events are available." alt="" coords="271,456,474,501"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="645,628,587,571,549,541,509,515,473,501,475,496,511,511,552,536,590,567,649,624"/>
+<area shape="rect" id="Node000012" href="$da/dc8/classSingleMvtxPoolInput.html#a5336e10aca2dbbb0f9ed449192aea4fe" title="Fill internal MVTX packet pool with events newer than given beam clock." alt="" coords="295,525,450,570"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="625,633,571,609,509,585,450,567,451,562,511,580,573,604,628,629"/>
+<area shape="rect" id="Node000013" href="$d7/dfb/classSingleTpcPoolInput.html#a24d71fc2c82991c2e4ae744d8f34d339" title="Fill the internal TPC hit pool with events whose beam clock (BCO) meets the specified minimum." alt="" coords="300,595,445,639"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="542,639,445,628,446,623,543,634"/>
+<area shape="rect" id="Node000014" href="$d6/d0f/classSingleTpcTimeFrameInput.html#a9d4970091d20fcf4269a7a304fa989e9" title="FillPool processes events and assembles Tpc time frames for the specified targetBCO." alt="" coords="277,664,468,709"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="543,669,469,678,468,673,542,664"/>
+<area shape="rect" id="Node000015" href="$d7/d0b/classFun4AllDstInputManager.html#ade26017b627e0e1f1ec0dec62ac7fd52" title="Read next event synchronization object from the current input file." alt="" coords="271,733,474,778"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="628,675,573,700,511,724,473,735,471,730,509,718,571,695,625,670"/>
+<area shape="rect" id="Node000017" href="$d7/d0b/classFun4AllDstInputManager.html#af2c20145c70376bd115a7d92273c972c" title="Run input manager to read events up to nevents from current or next file." alt="" coords="267,802,478,830"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="649,679,591,737,553,768,511,793,479,805,477,800,509,788,550,763,588,733,646,675"/>
+<area shape="rect" id="Node000018" href="$d6/d6f/classFun4AllHepMCInputManager.html#abc2abd5f69e96e3fb974376f5f258f80" title="Run attempts to retrieve a valid HepMC event from input files." alt="" coords="255,854,490,882"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="656,680,633,718,600,763,559,807,511,843,484,856,482,851,509,839,556,803,596,759,629,715,652,678"/>
+<area shape="rect" id="Node000019" href="$de/d99/classFun4AllHepMCPileupInputManager.html#a0afd07a242a008dab637fe4f6ba997bd" title="Process pileup events for the current run." alt="" coords="235,906,510,934"/>
+<area shape="poly" id="edge18_Node000002_Node000019" title=" " alt="" coords="661,681,641,729,609,787,566,846,540,873,511,895,488,908,485,903,509,891,537,869,562,843,604,785,636,727,656,679"/>
+<area shape="rect" id="Node000020" href="$db/d1f/classFun4AllOscarInputManager.html#abd9c677329f73038579c12aff1f8d42a" title="Run input manager to process events up to nevents." alt="" coords="260,958,485,986"/>
+<area shape="poly" id="edge19_Node000002_Node000020" title=" " alt="" coords="664,682,647,739,617,811,597,849,572,885,544,919,512,947,487,961,484,956,508,943,540,915,568,882,592,846,612,809,642,737,659,680"/>
+<area shape="rect" id="Node000021" href="$da/dd8/classFun4AllPrdfInputManager.html#a5a95556c61f0a9f209a3c178e81e4fac" title="Run input manager to read next event from PRDF files and store it in the data node." alt="" coords="265,1010,480,1038"/>
+<area shape="poly" id="edge20_Node000002_Node000021" title=" " alt="" coords="667,681,653,748,625,834,604,880,579,924,548,964,512,999,481,1016,479,1011,508,995,544,961,574,921,599,877,620,832,648,746,662,680"/>
+<area shape="rect" id="Node000022" href="$d0/ddf/classFun4AllRunNodeInputManager.html#a8a02051cc184f2e28e08e4d0a443130f" title="Execute run initialization for input manager." alt="" coords="249,1062,496,1090"/>
+<area shape="poly" id="edge21_Node000002_Node000022" title=" " alt="" coords="669,681,658,757,632,857,611,911,585,962,552,1010,512,1051,492,1064,489,1059,508,1047,548,1007,581,960,607,908,627,856,653,756,664,681"/>
+<area shape="rect" id="Node000023" href="$d5/d00/classFun4AllSingleDstPileupInputManager.html#a01149fa86dc066e4413d6b02e94df581" title="Process events from input files and optionally add pileup background." alt="" coords="270,1113,474,1158"/>
+<area shape="poly" id="edge22_Node000002_Node000023" title=" " alt="" coords="670,681,661,765,652,819,637,878,617,939,590,999,555,1055,512,1103,477,1124,474,1120,508,1099,551,1051,585,997,612,937,632,877,646,818,656,764,665,681"/>
+<area shape="rect" id="Node000004" href="$d5/da4/classSingleGl1TriggeredInput.html#a121a71e126cb86f80b0a7455c61d3a1d" title="FillPool populates the event vector if there are remaining input files and not all events have been p..." alt="" coords="8,5,184,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="279,53,184,41,185,36,280,48"/>
+<area shape="rect" id="Node000005" href="$df/d97/classSingleTriggeredInput.html#a507f0a733e9688979a5887766aa431f2" title="Fill the event pool for a SingleTriggeredInput instance." alt="" coords="19,75,173,119"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="280,77,174,90,173,85,279,71"/>
+<area shape="rect" id="Node000016" href="$d7/d0b/classFun4AllDstInputManager.html#af9bf89898ad4c726ccdc03901ed44608" title="Synchronize current file with master sync object." alt="" coords="5,733,187,778"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="255,758,187,758,187,753,255,753"/>
+</map>

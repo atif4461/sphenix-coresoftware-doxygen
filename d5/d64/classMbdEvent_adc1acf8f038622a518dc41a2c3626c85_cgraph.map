@@ -1,0 +1,57 @@
+<map id="MbdEvent::SetRawData" name="MbdEvent::SetRawData">
+<area shape="rect" id="Node000001" title="Set raw data for MbdEvent from CaloPacket array and optional containers." alt="" coords="5,256,180,284"/>
+<area shape="rect" id="Node000002" href="$dd/dbb/classOfflinePacketv1.html#aefc19d727cfaf0926c636de9088f3342" title=" " alt="" coords="228,152,463,180"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,253,163,221,227,190,251,182,252,187,229,195,166,226,116,258"/>
+<area shape="rect" id="Node000003" href="$de/d7e/classGl1Packet.html#a22bae4410aa6b08d712f597406495770" title=" " alt="" coords="246,204,444,232"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,253,259,233,260,238,164,258"/>
+<area shape="rect" id="Node000004" href="$d5/d64/classMbdEvent.html#a9715a530486a70b97935578629c88411" title="Process packets for a BBC event and fill the provided raw container." alt="" coords="249,256,442,284"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="180,267,233,267,233,272,180,272"/>
+<area shape="rect" id="Node000013" href="$d5/d64/classMbdEvent.html#a9504d6e698b3e26669b3d9eba9a56c74" title="Process raw MBD data and fill calibrated PMT container." alt="" coords="228,512,463,540"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="110,282,321,499,318,503,106,286"/>
+<area shape="rect" id="Node000026" href="$d5/d64/classMbdEvent.html#a00c0388ee2f24b17cfc165bc7cf8b089" title=" " alt="" coords="268,564,423,592"/>
+<area shape="poly" id="edge29_Node000001_Node000026" title=" " alt="" coords="99,284,110,335,134,407,151,446,172,484,198,519,229,549,255,564,252,568,226,553,194,523,168,487,146,448,129,409,105,336,94,285"/>
+<area shape="rect" id="Node000005" href="$d5/d64/classMbdEvent.html#aed181a994f393d718833209363f76282" title="Reset all MBD event raw and derived data members to default invalid or zero values." alt="" coords="563,57,691,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="441,255,461,241,475,224,482,207,484,170,487,133,494,114,509,96,527,84,547,75,549,80,529,88,513,100,499,117,492,134,490,171,487,208,480,227,465,245,444,259"/>
+<area shape="rect" id="Node000006" href="$d5/d64/classMbdEvent.html#a0b581914b0fbb43c011fdbb4e740adad" title="Fill histograms with ADC samples and perform on‑the‑fly sample‑maximum calibration." alt="" coords="522,109,733,137"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="441,253,461,241,472,230,478,219,484,195,491,170,498,158,509,146,515,142,518,147,513,151,502,161,495,172,490,196,483,221,476,234,465,245,443,258"/>
+<area shape="rect" id="Node000007" href="$d0/d3a/classMbdRawContainer.html#a597ebd26b5b9a857455ffb2396eeeff4" title="get MbdRawHit Object" alt="" coords="526,281,728,309"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="443,276,511,282,510,287,442,281"/>
+<area shape="rect" id="Node000008" href="$db/d4f/classMbdRawHit.html#a0639c1964b6a8022ad6edaca871934dd" title=" " alt="" coords="538,333,717,361"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="391,282,512,318,546,327,545,332,510,323,390,287"/>
+<area shape="rect" id="Node000009" href="$d0/d3a/classMbdRawContainer.html#abb1f7e7e76fa6f5321b068f2c2058dd8" title="Set clock identifiers for a given event placeholder implementation." alt="" coords="543,161,711,206"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="422,253,462,241,486,228,510,215,528,209,530,214,512,220,488,233,464,246,423,258"/>
+<area shape="rect" id="Node000010" href="$db/d4f/classMbdRawHit.html#ad3ebd00fb2d8faee56ea50462ea6d57b" title=" " alt="" coords="542,385,712,413"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="366,282,429,325,469,349,512,370,535,378,533,383,510,375,467,354,426,330,363,286"/>
+<area shape="rect" id="Node000011" href="$d0/d3a/classMbdRawContainer.html#a811b98e36a0f9d71afdd43f5bb81fbc0" title="Set number of PMTs placeholder implementation." alt="" coords="522,229,732,257"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="442,258,507,252,508,257,443,263"/>
+<area shape="rect" id="Node000012" href="$db/d4f/classMbdRawHit.html#a8f7bb3d5de0c55f3e87681f405526ec8" title=" " alt="" coords="548,5,706,33"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="441,255,461,241,479,218,486,194,487,170,484,145,482,120,483,94,491,69,509,44,533,28,536,32,513,48,496,71,488,95,487,119,490,144,492,170,491,195,483,220,465,245,444,260"/>
+<area shape="poly" id="edge17_Node000013_Node000007" title=" " alt="" coords="351,510,373,472,408,420,454,366,480,341,510,320,522,313,524,318,512,324,484,345,457,369,412,423,377,475,356,513"/>
+<area shape="poly" id="edge25_Node000013_Node000008" title=" " alt="" coords="356,510,416,443,460,404,510,372,526,364,528,369,512,376,463,408,420,447,360,513"/>
+<area shape="poly" id="edge26_Node000013_Node000010" title=" " alt="" coords="366,509,429,470,510,429,547,415,549,420,512,434,432,475,369,514"/>
+<area shape="rect" id="Node000014" href="$db/d4f/classMbdRawHit.html#a3d2bad196e76ef5d0a4404f2c81e8c3c" title=" " alt="" coords="550,747,705,774"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="448,538,465,551,482,573,490,597,491,620,490,643,488,666,489,689,497,711,513,732,536,747,533,752,509,736,492,713,484,690,483,666,484,643,486,620,485,598,477,576,461,554,444,542"/>
+<area shape="rect" id="Node000015" href="$d0/d3a/classMbdRawContainer.html#ab888a7608fcdb13412ac96c22429a884" title="get XMIT Clock Counter" alt="" coords="542,798,712,843"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="448,538,465,551,486,580,494,610,495,639,491,669,487,698,486,727,494,755,513,784,531,798,527,802,509,788,489,758,481,727,481,697,485,668,489,639,489,610,481,582,461,554,445,542"/>
+<area shape="rect" id="Node000016" href="$d0/d3a/classMbdRawContainer.html#aa677c67fd6bd4c86f7f869a446a858ef" title="get FEM Clock Counter" alt="" coords="542,868,712,912"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="449,538,465,551,480,570,491,589,500,627,498,665,491,703,484,741,481,778,490,816,499,835,513,853,530,868,527,872,509,857,494,837,485,818,476,779,478,740,486,702,493,665,494,628,486,591,476,573,461,554,446,542"/>
+<area shape="rect" id="Node000017" href="$df/d22/classMbdPmtContainer.html#af8b5a193657969f64333acd6d58adb04" title="get MbdPmtHit Object" alt="" coords="791,435,992,462"/>
+<area shape="poly" id="edge16_Node000013_Node000017" title=" " alt="" coords="384,509,443,489,511,473,648,455,775,447,776,452,648,460,511,478,444,495,385,514"/>
+<area shape="rect" id="Node000018" href="$db/d4f/classMbdRawHit.html#a17599c4233f529df784a2958fcdc438a" title=" " alt="" coords="547,539,707,566"/>
+<area shape="poly" id="edge18_Node000013_Node000018" title=" " alt="" coords="464,534,532,541,531,546,463,540"/>
+<area shape="rect" id="Node000019" href="$db/d4f/classMbdRawHit.html#a9b23696399423d90ae0345817ddf23fb" title=" " alt="" coords="548,591,706,618"/>
+<area shape="poly" id="edge19_Node000013_Node000019" title=" " alt="" coords="423,538,464,550,488,563,512,575,537,584,535,589,510,580,486,568,462,555,422,543"/>
+<area shape="rect" id="Node000020" href="$d5/d64/classMbdEvent.html#afa79ad9a8c91557793debb58bc8c9412" title="Processing after all channels have been calibrated, to remove outliers, etc." alt="" coords="511,487,743,514"/>
+<area shape="poly" id="edge20_Node000013_Node000020" title=" " alt="" coords="463,513,495,510,496,515,464,518"/>
+<area shape="rect" id="Node000024" href="$df/d22/classMbdPmtContainer.html#aac06d67ecf43d56abf9a8421742f1b67" title="Placeholder method for setting number of PMTs in MbdPmtContainer." alt="" coords="524,643,731,670"/>
+<area shape="poly" id="edge27_Node000013_Node000024" title=" " alt="" coords="442,538,465,550,482,570,490,590,497,610,513,628,521,633,518,638,509,632,492,612,485,592,477,573,461,555,439,543"/>
+<area shape="rect" id="Node000025" href="$db/d63/classMbdPmtHit.html#ab827f008f7b6328a66317d38302e8431" title=" " alt="" coords="550,695,705,722"/>
+<area shape="poly" id="edge28_Node000013_Node000025" title=" " alt="" coords="446,538,465,550,479,567,486,583,490,617,493,650,500,665,513,680,536,694,534,699,509,684,495,668,488,651,484,617,481,585,474,569,461,555,443,542"/>
+<area shape="poly" id="edge21_Node000020_Node000017" title=" " alt="" coords="701,483,802,463,803,469,702,489"/>
+<area shape="rect" id="Node000021" href="$db/d63/classMbdPmtHit.html#a8467d790f05eaf4e9f7ba2012afe336f" title="Returns invalid float code for base get_q method This comment was generated by openai/gpt&#45;oss&#45;120b at..." alt="" coords="822,487,961,514"/>
+<area shape="poly" id="edge22_Node000020_Node000021" title=" " alt="" coords="744,498,807,498,807,503,744,503"/>
+<area shape="rect" id="Node000022" href="$db/d63/classMbdPmtHit.html#a98e6c8892277cf1ac05637b1961e6ef5" title=" " alt="" coords="820,539,963,566"/>
+<area shape="poly" id="edge23_Node000020_Node000022" title=" " alt="" coords="702,512,805,533,804,538,701,518"/>
+<area shape="rect" id="Node000023" href="$db/d63/classMbdPmtHit.html#a6967cc99dded0e8616204f78751e4385" title=" " alt="" coords="821,591,962,618"/>
+<area shape="poly" id="edge24_Node000020_Node000023" title=" " alt="" coords="716,512,745,525,760,538,770,551,778,564,793,576,808,583,806,588,790,580,774,567,765,554,756,541,742,529,714,517"/>
+</map>

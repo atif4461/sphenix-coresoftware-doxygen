@@ -1,0 +1,21 @@
+digraph "EicEventHeaderv1::set_demp_weight"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="EicEventHeaderv1::set\l_demp_weight",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="EicEventHeaderv1::set\l_property",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d7f/classEicEventHeaderv1.html#a46deb4d421be1e977584e5150fcd95e5",tooltip="Set a float property in the event header."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="EicEventHeader::check\l_property",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d8f/classEicEventHeader.html#adde26fd82b073d9b247ab1e6ac51ae23",tooltip="Verify that a given property identifier matches the expected property type."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="EicEventHeader::get\l_property_info",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d8f/classEicEventHeader.html#aec3dd65ce2235a594744837158ba5105",tooltip="Retrieve human readable name and type for a given event property identifier."];
+  Node2 -> Node4 [id="edge4_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="EicEventHeader::get\l_property_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d8f/classEicEventHeader.html#add74656163c202765f4e71ba79c19a2b",tooltip="Convert a PROPERTY_TYPE enum value to its textual name."];
+  Node2 -> Node6 [id="edge6_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="EicEventHeaderv1::u\l_property::get_storage",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/df0/unionEicEventHeaderv1_1_1u__property.html#a1e864817c0d37bc568bc831987f5c69e",tooltip=" "];
+}

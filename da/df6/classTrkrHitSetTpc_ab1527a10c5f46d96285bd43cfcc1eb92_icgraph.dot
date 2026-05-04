@@ -1,0 +1,16 @@
+digraph "TrkrHitSetTpc::getTBinIndexStart"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrkrHitSetTpc::getTBinIndex\lStart",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Get starting time bin index."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrkrHitSetTpc::getHitKeyfrom\lLocalBin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a975cb6dfaf8bfc6a318f60bf7db0b39d",tooltip="local -> global conversion"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrkrHitSetTpc::getLocalPhiTBin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#ac1d509efc9b142fec374e0a0029dd3fe",tooltip="global -> local conversion"];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a6afb55ecba4a26f94224e0186fa2a6ed",tooltip="Retrieve ADC data for a TPC hit identified by its hit key."];
+}

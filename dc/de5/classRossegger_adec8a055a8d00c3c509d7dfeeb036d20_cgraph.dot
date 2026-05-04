@@ -1,0 +1,16 @@
+digraph "Rossegger::Er_"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Rossegger::Er_",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute the radial electric field component Er at the observation point (r, phi, z) due to a unit cha..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Rossegger::Rmn1_",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/de5/classRossegger.html#a51b03eacdac495980f0e5168675ea3c5",tooltip="Compute Rossegger Rmn1 value for given orders and radius."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Rossegger::Rmn2_",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/de5/classRossegger.html#a0253d0ac2edea0e6b2f23cb32db4ff76",tooltip="Compute Rossegger Rmn2 value for given orders and radius."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Rossegger::RPrime_",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/de5/classRossegger.html#aad32bc8f6157df55a917f9c120745957",tooltip="Compute the Rossegger RPrime value for given orders and radii."];
+}

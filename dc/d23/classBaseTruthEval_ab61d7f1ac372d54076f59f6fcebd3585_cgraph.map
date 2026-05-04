@@ -1,0 +1,21 @@
+<map id="BaseTruthEval::get_primary_particle" name="BaseTruthEval::get_primary_particle">
+<area shape="rect" id="Node000001" title="which primary particle resulted in this truth hit?" alt="" coords="5,98,148,143"/>
+<area shape="rect" id="Node000002" href="$dc/d23/classBaseTruthEval.html#ac3045216b60b1b54d9fdd81e3a07b938" title="which particle left this truth hit?" alt="" coords="196,38,338,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,95,180,85,182,90,149,101"/>
+<area shape="rect" id="Node000004" href="$dc/d23/classBaseTruthEval.html#a988244333e36bcd3a7c9c68d4c345af5" title="Check if the truth information node pointers are present (reduced) in the current evaluation." alt="" coords="647,124,827,168"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="148,121,632,139,632,145,148,126"/>
+<area shape="rect" id="Node000005" href="$dc/d23/classBaseTruthEval.html#a7def33b4d1e4fe19922faa02ea287a5c" title="what was the primary particle that is associated with this particle?" alt="" coords="196,178,338,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="133,141,199,169,197,174,131,146"/>
+<area shape="rect" id="Node000003" href="$d3/d9e/classPHG4Hit.html#af8f832f9e10c07c53ac05312978d89bb" title=" " alt="" coords="420,5,563,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,45,405,32,406,38,339,50"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="338,63,460,76,598,99,658,116,657,121,597,104,459,81,338,68"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="338,190,632,155,632,161,339,195"/>
+<area shape="rect" id="Node000006" href="$de/dc9/classPHG4Particle.html#a64791a9cca8d548c7292f0843472f5a5" title=" " alt="" coords="386,208,597,236"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="339,205,371,208,370,213,338,210"/>
+<area shape="rect" id="Node000007" href="$dc/d23/classBaseTruthEval.html#a98bebdc989a84ce46fff6fa958476041" title="is this a primary shower?" alt="" coords="396,284,587,312"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="321,221,445,275,443,280,319,226"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="525,281,596,245,648,211,694,176,697,180,651,215,599,249,528,286"/>
+<area shape="poly" id="edge10_Node000007_Node000007" title=" " alt="" coords="453,285,447,275,452,265,467,259,492,257,518,260,532,266,530,271,517,265,492,263,468,265,455,269,452,275,458,282"/>
+<area shape="rect" id="Node000008" href="$db/d88/classPHG4Shower.html#a1da069eb14e8276c54335aa05facc3a4" title=" " alt="" coords="645,276,829,320"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="587,295,630,295,630,300,587,300"/>
+</map>

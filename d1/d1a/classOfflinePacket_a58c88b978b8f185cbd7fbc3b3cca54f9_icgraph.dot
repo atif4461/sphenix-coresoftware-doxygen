@@ -1,0 +1,20 @@
+digraph "OfflinePacket::getHitFormat"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="OfflinePacket::getHitFormat",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="OfflinePacketv1::FillFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbb/classOfflinePacketv1.html#af551ac7b587d6ad7dc1bb45b3a8fda36",tooltip="Fill this OfflinePacketv1 with data from another OfflinePacket."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Gl1Packetv1::FillFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dff/classGl1Packetv1.html#a2adbe4a282c5c57e49cb8e5ba5aa1bc8",tooltip="Fill this Gl1Packetv1 object from source Gl1Packet."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Gl1Packetv2::FillFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d2e/classGl1Packetv2.html#af5b9bb80040addc81dbe3f772853cc3f",tooltip="Populate this Gl1Packetv2 object from a source Gl1Packet."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Gl1Packetv3::FillFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/de2/classGl1Packetv3.html#adfb7746d5a31ec3d57f8f3bf1511181d",tooltip="Copy fields from source Gl1Packet into this Gl1Packetv3."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="OfflinePacketv1::Offline\lPacketv1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dbb/classOfflinePacketv1.html#a12be5b2204dbd0ec59e8f8ddfa26df78",tooltip="Construct OfflinePacketv1 from source OfflinePacket."];
+}

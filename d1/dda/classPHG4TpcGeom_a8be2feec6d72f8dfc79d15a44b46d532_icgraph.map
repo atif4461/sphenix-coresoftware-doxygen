@@ -1,0 +1,13 @@
+<map id="PHG4TpcGeom::get_max_driftlength" name="PHG4TpcGeom::get_max_driftlength">
+<area shape="rect" id="Node000001" title=" " alt="" coords="256,126,440,171"/>
+<area shape="rect" id="Node000002" href="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6" title="Initialize geometry, alignment and magnetic field for a new run." alt="" coords="5,5,208,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,118,262,81,206,47,178,36,180,31,209,42,265,76,313,114"/>
+<area shape="rect" id="Node000003" href="$d7/d3c/classPHG4TpcDirectLaser.html#ab420868a68ab2a3d4e06c44baf9a88ae" title="run initialization" alt="" coords="29,57,184,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,124,183,104,185,99,254,119"/>
+<area shape="rect" id="Node000004" href="$d7/ddb/classPHG4TpcElectronDrift.html#afc67056d307665339988e63c165d7b9a" title="Initialize run specific resources and node tree for TPC electron drift." alt="" coords="26,126,187,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="240,151,188,151,188,146,240,146"/>
+<area shape="rect" id="Node000005" href="$d7/d6c/classPHG4TpcPadPlaneReadout.html#a506dff19273c43043044fd5625efff75" title="Initialize run for TpcPadPlaneReadout." alt="" coords="10,196,203,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="254,178,188,197,186,192,253,173"/>
+<area shape="rect" id="Node000006" href="$de/d25/classTpcClusterizer.html#ac66fda514e9c1985f3f083ef79934137" title="Process a single event performing TPC clustering using the Fun4All node tree." alt="" coords="20,265,193,310"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="311,183,264,220,209,255,183,267,181,262,206,250,261,216,308,179"/>
+</map>

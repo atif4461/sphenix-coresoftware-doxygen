@@ -1,0 +1,35 @@
+<map id="MvtxHitPruner::process_event" name="MvtxHitPruner::process_event">
+<area shape="rect" id="Node000001" title="event processing" alt="" coords="5,229,179,274"/>
+<area shape="rect" id="Node000002" href="$d3/d3e/classTrkrHitv2.html#a1a10e8f91f9392c17115264c6a61c40e" title="copy content from base class" alt="" coords="235,84,389,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,226,276,119,279,123,127,230"/>
+<area shape="rect" id="Node000006" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="240,185,384,213"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="179,228,235,215,236,220,180,233"/>
+<area shape="rect" id="Node000012" href="$d8/df1/namespaceMvtxDefs.html#ae43da17a66c57ba42223bd0a01be56ce" title="Get the chip id from hitsetkey." alt="" coords="228,237,396,265"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="179,248,213,248,213,254,179,254"/>
+<area shape="rect" id="Node000013" href="$d8/df1/namespaceMvtxDefs.html#a565f45f9bf464fdd1ecc31cdd7e349d3" title="Zero the strobe bits in the cluster key." alt="" coords="228,313,396,341"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="159,271,256,305,254,310,158,276"/>
+<area shape="rect" id="Node000016" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="227,365,397,393"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="119,272,168,311,228,350,243,357,241,362,225,355,165,316,116,276"/>
+<area shape="rect" id="Node000003" href="$da/d9b/classTrkrHit.html#a9bfc7139e2151a439355a2e5010a43d6" title="copy content from base class" alt="" coords="476,5,615,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,81,444,43,471,35,473,40,446,48,347,86"/>
+<area shape="rect" id="Node000004" href="$da/d9b/classTrkrHit.html#a623f329acf0ebcc9d53dff5cecd90b6e" title=" " alt="" coords="487,57,604,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="389,86,471,77,472,82,390,92"/>
+<area shape="rect" id="Node000005" href="$d3/d3e/classTrkrHitv2.html#a4c7015e725a94c78c69927103011b55b" title="Set ADC value with saturation at maximum unsigned short." alt="" coords="480,109,612,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="390,104,464,112,464,117,389,109"/>
+<area shape="rect" id="Node000007" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="455,185,636,213"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="384,196,439,196,439,202,384,202"/>
+<area shape="rect" id="Node000011" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="464,237,628,265"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="378,211,466,231,465,236,377,216"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="506,186,499,176,504,167,520,161,546,159,573,161,588,168,586,172,572,166,546,164,521,166,508,171,505,176,510,183"/>
+<area shape="rect" id="Node000008" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="738,133,880,161"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="619,182,722,161,723,167,620,187"/>
+<area shape="rect" id="Node000009" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="743,185,875,213"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="637,196,727,196,727,202,637,202"/>
+<area shape="rect" id="Node000010" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="694,237,924,265"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="620,211,721,231,720,236,619,216"/>
+<area shape="poly" id="edge16_Node000013_Node000013" title=" " alt="" coords="274,314,268,304,273,295,288,289,312,287,338,289,352,296,349,300,336,294,312,292,289,294,276,299,273,304,279,311"/>
+<area shape="rect" id="Node000014" href="$d6/d3f/namespaceTrkrDefs.html#a5cc3b1fa8e62e3fc5fb698fe1991cfae" title="generate cluster key from hitset key and cluster index" alt="" coords="466,301,625,329"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="396,320,450,317,451,323,396,326"/>
+<area shape="rect" id="Node000015" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="445,353,646,398"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="383,339,430,349,429,354,382,344"/>
+</map>

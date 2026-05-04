@@ -1,0 +1,12 @@
+digraph "MbdSig::SetCalib"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="MbdSig::SetCalib",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set calibration object and initialize pileup parameters for the channel."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MbdCalib::get_pileup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d8c/classMbdCalib.html#a327d9fc46e71e44851358daac9e58813",tooltip=" "];
+}

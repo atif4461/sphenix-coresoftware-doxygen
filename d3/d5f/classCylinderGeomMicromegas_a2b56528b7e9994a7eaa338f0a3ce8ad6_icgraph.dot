@@ -1,0 +1,14 @@
+digraph "CylinderGeomMicromegas::get_strip_count"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="CylinderGeomMicromegas\l::get_strip_count",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="get number of strips"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CylinderGeomMicromegas\l::get_phi_range",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d5f/classCylinderGeomMicromegas.html#ac1f69f02f79782a014badba93d295d39",tooltip="get the phi range, in global coordinates, corresponding to a given tile"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CylinderGeomMicromegas\l::get_theta_range",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d5f/classCylinderGeomMicromegas.html#a0deab41e39d6b81607508549b2622930",tooltip="Compute polar angle range for a given micromegas tile."];
+}

@@ -1,0 +1,28 @@
+<map id="MbdPmtContainer::get_pmt" name="MbdPmtContainer::get_pmt">
+<area shape="rect" id="Node000001" title="get MbdPmtHit Object" alt="" coords="791,189,992,217"/>
+<area shape="rect" id="Node000002" href="$d5/d64/classMbdEvent.html#a855378f6cebc129803f811dd56d765c4" title="Compute MBD event quantities from BBC PMT container and fill output structure." alt="" coords="550,5,705,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="871,178,818,112,782,77,742,48,704,33,706,28,745,43,786,73,822,108,875,174"/>
+<area shape="rect" id="Node000003" href="$d5/d64/classMbdEvent.html#afa79ad9a8c91557793debb58bc8c9412" title="Processing after all channels have been calibrated, to remove outliers, etc." alt="" coords="511,57,743,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="860,182,807,143,742,106,693,88,695,83,744,101,810,138,863,177"/>
+<area shape="rect" id="Node000004" href="$d5/d64/classMbdEvent.html#a9504d6e698b3e26669b3d9eba9a56c74" title="Process raw MBD data and fill calibrated PMT container." alt="" coords="228,83,463,110"/>
+<area shape="poly" id="edge13_Node000001_Node000004" title=" " alt="" coords="844,185,796,166,743,150,671,134,598,122,463,107,464,101,599,117,672,129,744,145,797,161,846,180"/>
+<area shape="rect" id="Node000007" href="$df/d22/classMbdPmtContainer.html#ab412a668e2ffc97817e31d02042e12bf" title="Print MBD PMT charge, time, and time‑charge values to standard output." alt="" coords="539,159,715,186"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="775,192,715,185,716,180,776,187"/>
+<area shape="rect" id="Node000008" href="$d9/df3/classTrackResiduals.html#acf3f931165c42ab03b6f41f2116fcbd7" title="Process a single event." alt="" coords="539,210,715,255"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="776,219,716,225,715,220,775,213"/>
+<area shape="rect" id="Node000009" href="$d2/da4/classGlobalQA.html#a12698ce01eec860ac518c33d601c04c4" title="Process MBD data from the node tree." alt="" coords="539,279,715,306"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="849,227,799,249,744,270,705,281,703,276,743,265,797,244,847,222"/>
+<area shape="rect" id="Node000011" href="$d7/d6f/classDumpMbdPmtContainer.html#af4e974f85a0a877b6128f80f24add7f9" title="Process a node containing MbdPmtContainer data." alt="" coords="538,330,716,375"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="866,230,813,276,745,320,717,332,715,327,742,315,809,271,863,226"/>
+<area shape="rect" id="Node000012" href="$d7/d11/classCaloValid.html#ab245377036dcca4c620a0ef89844a075" title="Process event towers, triggers, MBD, and clusters to populate QA histograms." alt="" coords="557,400,697,444"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="878,232,856,268,826,310,788,353,745,389,699,411,697,406,742,385,785,349,822,307,852,265,873,229"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="496,86,464,89,463,83,495,80"/>
+<area shape="rect" id="Node000005" href="$d5/d64/classMbdEvent.html#a7cbcd5224f50c8c3a34f8dba09034e87" title="Set raw data for MbdEvent from event packets." alt="" coords="5,57,180,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="212,86,180,83,180,77,213,81"/>
+<area shape="rect" id="Node000006" href="$d5/d64/classMbdEvent.html#adc1acf8f038622a518dc41a2c3626c85" title="Set raw data for MbdEvent from CaloPacket array and optional containers." alt="" coords="5,109,180,137"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="213,113,180,117,180,111,212,108"/>
+<area shape="rect" id="Node000010" href="$d2/da4/classGlobalQA.html#a3da8ea1e259e19ff4a78f470f96ad891" title="event processing method" alt="" coords="253,279,438,306"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="523,295,438,295,438,290,523,290"/>
+<area shape="rect" id="Node000013" href="$d7/d11/classCaloValid.html#afbcc52787b09f66af720afe42f1080bb" title="event processing method" alt="" coords="275,400,416,444"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="542,424,416,424,416,419,542,419"/>
+</map>

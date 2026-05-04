@@ -1,0 +1,19 @@
+<map id="ActsSurfaceMaps::getTpcSurface" name="ActsSurfaceMaps::getTpcSurface">
+<area shape="rect" id="Node000001" title="Retrieve the TPC surface pointer for a given hitset and sub‑surface key." alt="" coords="748,71,983,98"/>
+<area shape="rect" id="Node000002" href="$dd/d8f/classAlignmentTransformation.html#a23db75a5ef5b77f824a0a26ea028150d" title="Create alignment transformation map using geometry nodes and alignment parameters." alt="" coords="502,14,688,59"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="768,70,688,56,689,50,769,65"/>
+<area shape="rect" id="Node000004" href="$d0/dcd/structActsSurfaceMaps.html#a1b0b524d05c0ebec5a999b1442195de8" title="Retrieve surface object for given cluster key and cluster pointer." alt="" coords="489,100,700,128"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="733,102,701,105,701,100,732,96"/>
+<area shape="rect" id="Node000003" href="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6" title="Initialize geometry, alignment and magnetic field for a new run." alt="" coords="236,5,438,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,32,439,29,439,23,486,27"/>
+<area shape="rect" id="Node000005" href="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c" title="Generate source links for a given track seed and fill measurement container." alt="" coords="234,57,441,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="473,100,441,96,442,90,474,95"/>
+<area shape="rect" id="Node000007" href="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d" title="Generate source links for a track using the cluster mover." alt="" coords="234,126,441,171"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="474,133,442,137,441,132,473,128"/>
+<area shape="rect" id="Node000008" href="$de/d94/namespaceTrackFitUtils.html#a247b53d2fdd50719d31799dede3fbdca" title="Compute the intersection of a 3D line with a detector surface." alt="" coords="259,196,416,240"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="552,137,442,186,410,197,409,192,440,181,549,132"/>
+<area shape="rect" id="Node000006" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="20,57,171,102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="218,82,171,82,171,76,218,76"/>
+<area shape="rect" id="Node000009" href="$d8/d99/classCosmicTrackQA.html#ac0c144ffa14178e3b3268954771f066b" title="Process a single event and fill QA histograms for cosmic tracks." alt="" coords="5,196,186,240"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="243,220,186,220,186,215,243,215"/>
+</map>

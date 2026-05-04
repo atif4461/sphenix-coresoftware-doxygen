@@ -1,0 +1,31 @@
+digraph "PHG4MicromegasDigitizer::process_event"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4MicromegasDigitizer\l::process_event",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="event processing"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="findNode::getClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHNodeIterator::findFirst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa",tooltip="Search recursively for the first node that matches a given type and name."];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHNode::getName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263",tooltip=" "];
+  Node3 -> Node5 [id="edge5_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHNode::getType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5",tooltip=" "];
+  Node3 -> Node6 [id="edge6_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHNodeIterator::PHNodeIterator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240",tooltip="Constructor initializing the iterator with the specified composite node."];
+  Node2 -> Node7 [id="edge7_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHDataNode::getData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TrkrHit::getEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9b/classTrkrHit.html#a303657b941583484a800e80a96eebe0f",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TrkrHitSet::getHits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dc1/classTrkrHitSet.html#a37ac32e4359d1b904585bfde3be88718",tooltip="Get all hits."];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TrkrHitSet::removeHit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dc1/classTrkrHitSet.html#ad266cec11197c03ff38c3f9befb57bfb",tooltip="Remove a hit using its key."];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TrkrHit::setAdc",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9b/classTrkrHit.html#a2b328710e55704e72a391113bccc8e76",tooltip=" "];
+}

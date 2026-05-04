@@ -1,0 +1,14 @@
+digraph "ActsTrackFittingAlgorithm::makeKalmanFitterFunction"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ActsTrackFittingAlgorithm\l::makeKalmanFitterFunction",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct a Kalman filter fitting function for ACTS track reconstruction."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHActsTrkFitter::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d49/classPHActsTrkFitter.html#a8830a4cdac4403369791a102aa1bee14",tooltip="Get and create nodes."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHCosmicsTrkFitter\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d54/classPHCosmicsTrkFitter.html#a407d8e9f50c22c5d6dfa0c5cacf5ea51",tooltip="Get and create nodes."];
+}

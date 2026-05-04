@@ -1,0 +1,16 @@
+digraph "SvtxTrackMap_v2::insertWithKey"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SvtxTrackMap_v2::insertWithKey",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Insert a cloned track into the map using a specified key."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrack::CloneMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#aa08376537657586762ee3d6602917116",tooltip="Virtual copy constructor."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHObject::PHObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff",tooltip="ctor"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SvtxTrack::set_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#ab76cf8a879c7e9d7cea4ff86aade0f9c",tooltip=" "];
+}

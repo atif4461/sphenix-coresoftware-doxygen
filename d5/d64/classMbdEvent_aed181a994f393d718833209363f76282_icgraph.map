@@ -1,0 +1,15 @@
+<map id="MbdEvent::Clear" name="MbdEvent::Clear">
+<area shape="rect" id="Node000001" title="Reset all MBD event raw and derived data members to default invalid or zero values." alt="" coords="469,84,597,112"/>
+<area shape="rect" id="Node000002" href="$d5/d64/classMbdEvent.html#a855378f6cebc129803f811dd56d765c4" title="Compute MBD event quantities from BBC PMT container and fill output structure." alt="" coords="247,5,402,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="490,79,420,48,382,36,384,31,422,43,492,74"/>
+<area shape="rect" id="Node000003" href="$d5/d64/classMbdEvent.html#a6b16b1b2e18e8836d5995be8ddd021b6" title="Initialize run specific resources for MbdEvent." alt="" coords="254,57,394,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="453,90,395,83,395,78,454,85"/>
+<area shape="rect" id="Node000004" href="$d5/d64/classMbdEvent.html#ad453b9ef18cfdee3d4b5b263c6e8cc53" title="Construct MbdEvent object initializing internal members and histograms." alt="" coords="245,109,404,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="454,110,405,116,404,111,453,105"/>
+<area shape="rect" id="Node000005" href="$d5/d64/classMbdEvent.html#a9715a530486a70b97935578629c88411" title="Process packets for a BBC event and fill the provided raw container." alt="" coords="228,161,421,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="491,121,422,151,384,163,382,158,420,146,489,116"/>
+<area shape="rect" id="Node000006" href="$d5/d64/classMbdEvent.html#a7cbcd5224f50c8c3a34f8dba09034e87" title="Set raw data for MbdEvent from event packets." alt="" coords="5,135,180,162"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="212,165,180,161,180,156,212,160"/>
+<area shape="rect" id="Node000007" href="$d5/d64/classMbdEvent.html#adc1acf8f038622a518dc41a2c3626c85" title="Set raw data for MbdEvent from CaloPacket array and optional containers." alt="" coords="5,187,180,214"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="212,190,180,194,180,188,212,185"/>
+</map>

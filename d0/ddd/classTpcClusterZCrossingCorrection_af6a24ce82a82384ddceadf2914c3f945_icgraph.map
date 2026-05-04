@@ -1,0 +1,17 @@
+<map id="TpcClusterZCrossingCorrection::correctZ" name="TpcClusterZCrossingCorrection::correctZ">
+<area shape="rect" id="Node000001" title="apply correction on a given z" alt="" coords="778,96,1001,141"/>
+<area shape="rect" id="Node000002" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a34d789265cb2c5b2ed2c78ae778a12bc" title="Calculate calibrated dEdx for a given track using TPC clusters." alt="" coords="524,5,665,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="800,94,730,72,665,52,666,46,731,66,802,88"/>
+<area shape="rect" id="Node000003" href="$d8/d9e/classTpcGlobalPositionWrapper.html#abc5dad6db160121b821257c3874d7b8e" title="get distortion corrected global position from cluster" alt="" coords="459,125,730,170"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="763,134,731,137,730,131,762,128"/>
+<area shape="rect" id="Node000005" href="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c" title="Generate source links for a given track seed and fill measurement container." alt="" coords="204,56,411,101"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="762,112,411,88,412,83,763,107"/>
+<area shape="rect" id="Node000007" href="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d" title="Generate source links for a track using the cluster mover." alt="" coords="204,195,411,239"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="830,150,782,169,731,185,648,201,563,211,412,220,411,215,563,206,647,196,730,180,780,164,828,145"/>
+<area shape="rect" id="Node000004" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a9fe133a26af25cc77ed9eb8aaea521d4" title="Compute local and global fit residuals for a given track." alt="" coords="237,125,378,170"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="443,150,378,150,378,145,443,145"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="484,124,402,104,403,99,485,119"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="485,177,403,197,402,191,484,172"/>
+<area shape="rect" id="Node000006" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="5,56,156,101"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="188,81,156,81,156,76,188,76"/>
+</map>

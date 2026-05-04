@@ -1,0 +1,20 @@
+<map id="SpinDBInput::IsConnected" name="SpinDBInput::IsConnected">
+<area shape="rect" id="Node000001" title="Check if database connection is established." alt="" coords="783,108,973,136"/>
+<area shape="rect" id="Node000002" href="$de/d9a/classSpinDBInput.html#a42b7a03fc7296091577138a295879b38" title="Verify existence of a database entry for a specific run and QA level." alt="" coords="533,108,735,136"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="767,124,736,124,736,119,767,119"/>
+<area shape="rect" id="Node000004" href="$de/d9a/classSpinDBInput.html#a119cf7dcb3fd73bd6a6be73db6430a2e" title="Delete a row for a given run number and QA level from the spin table." alt="" coords="269,5,474,33"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="830,104,784,86,735,71,600,45,475,30,475,24,601,39,736,66,786,81,832,99"/>
+<area shape="rect" id="Node000005" href="$de/d9a/classSpinDBInput.html#a1089b1523926f5efdd2f6ed2108cd53b" title="Initialize database entries for a given run and QA level." alt="" coords="263,57,481,85"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="789,107,735,99,603,86,481,78,482,73,604,81,736,94,790,102"/>
+<area shape="rect" id="Node000006" href="$de/d9a/classSpinDBInput.html#ad6ea6f38522427eada37cb5be36fa36e" title="Set the default QA entry for the given run in the spin database." alt="" coords="273,159,470,186"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="790,142,736,150,597,163,471,171,471,166,597,158,735,145,789,136"/>
+<area shape="rect" id="Node000007" href="$de/d9a/classSpinDBInput.html#aaaa4495d4ef5adfe9582a71d333a53e8" title="Update database content with spin data." alt="" coords="259,211,485,238"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="827,144,736,172,607,198,486,215,485,210,606,193,735,167,825,139"/>
+<area shape="rect" id="Node000003" href="$de/d9a/classSpinDBInput.html#a1e70069d3abdd5ed5d4605e565b57df9" title="Create a new run entry in the spin database." alt="" coords="5,83,211,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="517,119,211,104,211,99,518,114"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="595,102,543,74,484,48,444,36,446,31,486,43,546,70,598,98"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="544,107,447,88,448,83,545,102"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="545,142,448,161,447,155,544,137"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="598,146,546,174,486,200,446,213,444,208,484,195,543,169,595,141"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="247,86,211,89,211,84,247,80"/>
+</map>

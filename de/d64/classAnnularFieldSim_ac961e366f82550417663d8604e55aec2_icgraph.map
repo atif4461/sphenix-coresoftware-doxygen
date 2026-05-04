@@ -1,0 +1,21 @@
+<map id="AnnularFieldSim::GetStepDistortion" name="AnnularFieldSim::GetStepDistortion">
+<area shape="rect" id="Node000001" title="Compute the distortion vector for a particle step to a specified z destination." alt="" coords="726,140,914,185"/>
+<area shape="rect" id="Node000002" href="$de/d64/classAnnularFieldSim.html#aae2d9b9913d410d22242028c08c6865a" title="Compute total distortion vector for a particle drifting from start to destination z." alt="" coords="486,91,675,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="710,143,675,135,676,130,712,137"/>
+<area shape="rect" id="Node000009" href="$de/d64/classAnnularFieldSim.html#a5868eb5808ec182e9299bee9be6f5b0f" title="Propagate a particle to a target z position using analytic steps in the annular field." alt="" coords="482,175,678,219"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="711,181,679,185,678,180,711,175"/>
+<area shape="rect" id="Node000003" href="$de/d64/classAnnularFieldSim.html#ada3c7f7bc637b2cd79fe9c71853c8d6d" title="Generate distortion maps for the full detector." alt="" coords="238,5,434,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="499,88,401,53,403,48,501,83"/>
+<area shape="rect" id="Node000004" href="$de/d64/classAnnularFieldSim.html#a6a7cdf5118f1caaeff33e7853a456bcf" title="Generate separate distortion maps for each detector side." alt="" coords="238,75,434,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="470,108,434,106,434,101,470,103"/>
+<area shape="rect" id="Node000007" href="$de/d64/classAnnularFieldSim.html#a61f0b23cecab5b9f7e5feac62a3838e4" title="Compute propagated position at given z using straight line plus field distortion." alt="" coords="238,144,434,189"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="471,140,435,147,434,142,470,134"/>
+<area shape="rect" id="Node000005" href="$d6/dc9/generate__distortion__map_8C.html#ac02f06da6e5a86323617475f5061750c" title=" " alt="" coords="5,60,190,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="222,89,190,86,190,80,223,84"/>
+<area shape="rect" id="Node000006" href="$d6/dc9/generate__distortion__map_8C.html#a25d549c421aea5947098e2b4f7590d5e" title=" " alt="" coords="5,112,190,140"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="223,114,190,118,190,112,222,108"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="138,48,124,42,97,39,73,41,59,46,56,51,61,58,57,62,50,52,55,42,71,36,98,34,125,36,140,43"/>
+<area shape="rect" id="Node000008" href="$de/d64/classAnnularFieldSim.html#a9760cf7606953c4fcecb75ba9c5831e7" title="Swim particle to a target z position." alt="" coords="5,176,190,204"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="222,180,190,184,190,178,222,175"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="466,204,356,205,238,204,190,201,190,196,238,198,356,200,466,198"/>
+</map>

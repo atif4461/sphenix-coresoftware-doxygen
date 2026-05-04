@@ -1,0 +1,14 @@
+digraph "PHField2D::PHField2D"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHField2D::PHField2D",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Constructor for PHField2D loads a 2D magnetic field map from a ROOT file."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHField::PHField",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/ddc/classPHField.html#a4e1aead33dc9ee43f02710746dcdb2c9",tooltip="constructor"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHField::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/ddc/classPHField.html#a668bcc5d4263a75ba2ef0ea0b694bdcd",tooltip="verbosity"];
+}

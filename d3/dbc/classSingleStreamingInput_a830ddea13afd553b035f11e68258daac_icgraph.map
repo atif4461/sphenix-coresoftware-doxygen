@@ -1,0 +1,27 @@
+<map id="SingleStreamingInput::MaxBclkDiff" name="SingleStreamingInput::MaxBclkDiff">
+<area shape="rect" id="Node000001" title=" " alt="" coords="506,179,667,223"/>
+<area shape="rect" id="Node000002" href="$d4/d69/classSingleInttEventInput.html#a06d7c7f44b11999c7cda9b21a8a142af" title="Determine whether additional events need to be fetched based on the current bunch clock." alt="" coords="274,5,440,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="559,168,515,115,487,88,457,65,435,53,438,48,459,60,490,84,519,111,563,164"/>
+<area shape="rect" id="Node000004" href="$d5/dcb/classSingleInttPoolInput.html#ab0b6ac02bbb856b6746217dea6e387ad" title="Retrieve additional events for processing based on a reference bunch clock." alt="" coords="274,75,440,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="533,173,457,134,428,122,430,117,459,129,535,168"/>
+<area shape="rect" id="Node000006" href="$d8/d64/classSingleMicromegasPoolInput__v1.html#ae80709b1ad40749bde75ffaa27246e6d" title="Determine whether additional events can be retrieved from the Micromegas pool." alt="" coords="256,144,458,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="490,189,458,184,459,179,491,184"/>
+<area shape="rect" id="Node000008" href="$d8/d01/classSingleMicromegasPoolInput__v2.html#af8000d9ac45849be2b437c8b98ff6dc0" title="Evaluate the Micromegas event pool and decide if additional events should be retrieved." alt="" coords="256,213,458,258"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="491,218,459,223,458,218,490,213"/>
+<area shape="rect" id="Node000010" href="$da/dc8/classSingleMvtxPoolInput.html#a3b628e9a5ccf3667af289af796419a96" title="Determine if additional events should be retrieved from the MVTX pool." alt="" coords="274,283,440,327"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="535,234,459,273,430,285,428,280,457,268,533,229"/>
+<area shape="rect" id="Node000012" href="$d7/dfb/classSingleTpcPoolInput.html#a7a9ca96990baf1be74bba26e8b40ee47" title="Retrieve additional events from the TPC pool based on a reference bunch crossing clock." alt="" coords="274,352,440,397"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="563,238,519,291,490,318,459,342,438,354,435,349,457,337,487,314,515,287,559,234"/>
+<area shape="rect" id="Node000003" href="$d4/d69/classSingleInttEventInput.html#a88a3d42b27e2c2ecac6706c7c791a9c0" title="Fill internal hit pool with events whose beam clock exceeds the specified minimum." alt="" coords="30,5,183,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,30,184,30,184,25,258,25"/>
+<area shape="rect" id="Node000005" href="$d5/dcb/classSingleInttPoolInput.html#abf890aecd6600bae253136ac19289fea" title="Fill internal INTT pools with events from input files." alt="" coords="34,75,179,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="258,100,179,100,179,94,258,94"/>
+<area shape="rect" id="Node000007" href="$d8/d64/classSingleMicromegasPoolInput__v1.html#ab901226bf41cf4fa0a192863d17dd416" title="Fill the data pool with events from input files." alt="" coords="5,144,208,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="240,169,208,169,208,164,240,164"/>
+<area shape="rect" id="Node000009" href="$d8/d01/classSingleMicromegasPoolInput__v2.html#a79240b93cf2e936657df21a9cfb81c42" title="Fill internal event pool from input files until no more events are available." alt="" coords="5,213,208,258"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="240,238,208,238,208,233,240,233"/>
+<area shape="rect" id="Node000011" href="$da/dc8/classSingleMvtxPoolInput.html#a5336e10aca2dbbb0f9ed449192aea4fe" title="Fill internal MVTX packet pool with events newer than given beam clock." alt="" coords="29,283,184,327"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="258,308,185,308,185,302,258,302"/>
+<area shape="rect" id="Node000013" href="$d7/dfb/classSingleTpcPoolInput.html#a24d71fc2c82991c2e4ae744d8f34d339" title="Fill the internal TPC hit pool with events whose beam clock (BCO) meets the specified minimum." alt="" coords="34,352,179,397"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="258,377,180,377,180,372,258,372"/>
+</map>

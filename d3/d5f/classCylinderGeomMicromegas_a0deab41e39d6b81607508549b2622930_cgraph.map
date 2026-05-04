@@ -1,0 +1,46 @@
+<map id="CylinderGeomMicromegas::get_theta_range" name="CylinderGeomMicromegas::get_theta_range">
+<area shape="rect" id="Node000001" title="Compute polar angle range for a given micromegas tile." alt="" coords="5,133,200,178"/>
+<area shape="rect" id="Node000002" href="$d3/d5f/classCylinderGeomMicromegas.html#a9b0a9ea1ddedbec66bdd1e8edd39bb99" title="get local coordinates for a given tile and strip" alt="" coords="490,157,684,202"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,157,475,171,474,176,200,163"/>
+<area shape="rect" id="Node000009" href="$d3/d5f/classCylinderGeomMicromegas.html#a2b56528b7e9994a7eaa338f0a3ce8ad6" title="get number of strips" alt="" coords="490,18,684,63"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="179,130,247,111,474,60,476,65,248,116,181,135"/>
+<area shape="rect" id="Node000010" href="$d3/d5f/classCylinderGeomMicromegas.html#a3f9a6edcc9e1b77b08b61a3aa9ea2965" title="get strip length for a given tile" alt="" coords="490,88,684,132"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="200,143,474,118,475,123,200,149"/>
+<area shape="rect" id="Node000011" href="$d3/d5f/classCylinderGeomMicromegas.html#a217a87056bf483514957b5a1537b6dae" title="get world coordinates for a given tile and strip" alt="" coords="248,193,442,238"/>
+<area shape="poly" id="edge20_Node000001_Node000011" title=" " alt="" coords="196,176,238,186,237,191,195,181"/>
+<area shape="rect" id="Node000012" href="$d3/d5f/classCylinderGeomMicromegas.html#aa6c3407b7b113888a03f0c85ba20b089" title="convert local to world position coordinates in (planar) tile reference frame" alt="" coords="490,226,684,287"/>
+<area shape="poly" id="edge30_Node000001_Node000012" title=" " alt="" coords="130,176,182,215,214,233,248,247,305,260,364,267,421,269,475,267,475,272,421,274,363,272,304,266,247,252,212,238,179,219,127,180"/>
+<area shape="rect" id="Node000003" href="$d2/ddf/namespaceMicromegasDefs.html#a743730ec09de7afdc8602f06a302b22a" title="Generate a Trkr hit set key for Micromegas detectors." alt="" coords="736,109,964,137"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="684,156,766,138,767,143,685,161"/>
+<area shape="rect" id="Node000005" href="$d3/d5f/classCylinderGeomMicromegas.html#a64d175a4561692f8a3d308e7f627b453" title=" " alt="" coords="753,161,947,206"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="685,178,737,179,737,184,685,183"/>
+<area shape="rect" id="Node000006" href="$d3/d5f/classCylinderGeomMicromegas.html#a7ef5b8bdf1421f42e03887a5088f13c8" title="segmentation type" alt="" coords="753,230,947,275"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="670,200,753,223,752,228,669,205"/>
+<area shape="rect" id="Node000007" href="$d0/dcd/structActsSurfaceMaps.html#a4d90e968eccac7ee8637a4185257752d" title="Retrieve the Micromegas surface associated with a specific hit set key." alt="" coords="732,5,968,33"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="666,154,683,143,693,131,699,119,705,94,711,68,719,56,731,44,738,39,741,43,734,48,723,59,716,70,710,95,704,121,697,134,686,146,669,159"/>
+<area shape="rect" id="Node000008" href="$d3/d64/classActsGeometry.html#a18e2dffc9581d010c652b8acc4172303" title="const accessor" alt="" coords="771,57,929,85"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="661,154,683,142,697,131,706,119,716,107,731,96,755,85,758,90,734,100,719,111,710,122,701,134,686,147,663,159"/>
+<area shape="rect" id="Node000004" href="$d6/d3f/namespaceTrkrDefs.html#a418e306477093b8d17d587be70b908a3" title="generate the common upper 16 bits for hitsetkey" alt="" coords="1016,109,1187,137"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="964,120,1000,120,1000,126,964,126"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="655,61,685,73,733,94,762,102,760,108,731,99,683,78,653,66"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="667,61,686,73,703,92,711,111,718,129,734,146,741,151,738,156,731,151,714,132,706,113,698,95,683,77,664,66"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="671,61,686,73,700,92,707,111,710,147,714,182,721,199,734,216,742,222,738,226,730,220,716,202,709,183,705,147,702,112,696,94,682,77,668,65"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="684,30,716,27,717,33,685,35"/>
+<area shape="poly" id="edge13_Node000009_Node000008" title=" " alt="" coords="685,49,756,58,756,63,684,54"/>
+<area shape="poly" id="edge15_Node000010_Node000003" title=" " alt="" coords="685,112,721,114,720,119,685,117"/>
+<area shape="poly" id="edge16_Node000010_Node000005" title=" " alt="" coords="670,130,753,154,752,159,669,135"/>
+<area shape="poly" id="edge17_Node000010_Node000006" title=" " alt="" coords="667,130,686,142,703,161,711,180,718,199,734,216,741,221,738,225,731,220,714,201,706,183,698,164,683,147,664,135"/>
+<area shape="poly" id="edge18_Node000010_Node000007" title=" " alt="" coords="656,84,683,73,707,58,731,43,755,35,756,40,733,48,709,62,686,78,658,89"/>
+<area shape="poly" id="edge19_Node000010_Node000008" title=" " alt="" coords="684,93,755,82,756,88,685,98"/>
+<area shape="poly" id="edge21_Node000011_Node000002" title=" " alt="" coords="442,198,474,193,475,199,443,203"/>
+<area shape="poly" id="edge22_Node000011_Node000012" title=" " alt="" coords="443,229,475,235,474,240,442,234"/>
+<area shape="poly" id="edge23_Node000012_Node000003" title=" " alt="" coords="666,223,683,212,697,195,705,179,714,162,731,146,739,141,742,146,734,151,718,165,710,181,702,198,686,216,669,227"/>
+<area shape="poly" id="edge25_Node000012_Node000005" title=" " alt="" coords="684,227,752,208,754,213,685,232"/>
+<area shape="poly" id="edge26_Node000012_Node000006" title=" " alt="" coords="685,252,737,252,737,257,685,258"/>
+<area shape="poly" id="edge28_Node000012_Node000007" title=" " alt="" coords="670,223,682,212,696,191,703,170,704,128,706,86,714,65,730,44,735,40,739,44,734,48,718,67,711,87,709,128,708,171,701,193,686,216,674,227"/>
+<area shape="poly" id="edge29_Node000012_Node000008" title=" " alt="" coords="669,223,682,212,694,198,700,183,704,154,710,125,717,110,731,96,756,81,758,85,734,100,722,113,715,126,710,155,705,185,698,200,686,216,673,227"/>
+<area shape="rect" id="Node000013" href="$d3/d64/classActsGeometry.html#a88886beb0a25318754ba86589fc7dcd3" title="const accessor" alt="" coords="758,368,942,396"/>
+<area shape="poly" id="edge24_Node000012_Node000013" title=" " alt="" coords="626,285,675,322,733,354,750,360,748,365,731,359,672,326,623,290"/>
+<area shape="rect" id="Node000014" href="$d4/d32/structActsTrackingGeometry.html#a58215655509da2678f907a51c87066c4" title=" " alt="" coords="766,300,934,344"/>
+<area shape="poly" id="edge27_Node000012_Node000014" title=" " alt="" coords="685,278,751,295,750,300,684,283"/>
+</map>

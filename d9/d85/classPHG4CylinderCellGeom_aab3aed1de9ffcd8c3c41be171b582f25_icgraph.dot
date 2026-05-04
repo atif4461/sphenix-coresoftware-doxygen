@@ -1,0 +1,34 @@
+digraph "PHG4CylinderCellGeom::identify"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4CylinderCellGeom\l::identify",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Identify the cylinder cell geometry and write its parameters to the provided output stream."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4SpacalDetector\l::AddTowerGeometryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da4/classPHG4SpacalDetector.html#a6adf2ae56b8cfea0ee63c01ec7d5dd2f",tooltip="Add tower geometry node to the detector hierarchy."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4FullProjTiltedSpacal\lDetector::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698",tooltip="Construct the full projected tilted SPACAL detector geometry within the given world volume."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="RawTowerBuilder::CreateNodes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d10/classRawTowerBuilder.html#a01f91227474fd72e2e630a577973b67b",tooltip="Create geometry and tower nodes in the node tree."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="RawTowerBuilder::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d10/classRawTowerBuilder.html#a0de2c995e7f7cc3bd357d65af5d5d987",tooltip="Initialize run by locating geometry node and creating output nodes."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4CylinderCellGeom\l_Spacalv1::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d09/classPHG4CylinderCellGeom__Spacalv1.html#a85fde8a9323bfcbd24ca058706790e57",tooltip="Print geometry identification and mapping information for the Spacal cylinder."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4CylinderCellGeom\l_Spacalv1::get_etabounds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d09/classPHG4CylinderCellGeom__Spacalv1.html#a930c6117f1350e7e0a1bc78b805b8d9a",tooltip="Retrieve the eta bounds for a specified bin index."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4CylinderCellGeom\l_Spacalv1::get_etacenter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d09/classPHG4CylinderCellGeom__Spacalv1.html#a529120534b24140b24b24bd9a544e3a0",tooltip="Compute eta center of specified eta bin."];
+  Node6 -> Node9 [id="edge8_Node000006_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4CylinderCellGeom\l_Spacalv1::get_zbounds",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d09/classPHG4CylinderCellGeom__Spacalv1.html#a51147f67c2352f1588f1613151d96dca",tooltip="Retrieve lower and upper z bounds for a given bin."];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4CylinderCellGeom\l_Spacalv1::get_zcenter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d09/classPHG4CylinderCellGeom__Spacalv1.html#af1b4f697f4b56e2c9cd6c53a060d4f23",tooltip="Compute z coordinate of cell centre for specified bin."];
+  Node6 -> Node11 [id="edge10_Node000006_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PHG4FullProjSpacalCellReco\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#aea3e5a8a10917a094b537adc5201d6f9",tooltip="module initialization"];
+  Node6 -> Node12 [id="edge11_Node000006_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PHG4FullProjSpacalCellReco\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#aa31a2feab594c495ddf4133d72a9badb",tooltip="event processing"];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHG4CylinderCellReco\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dd0/classPHG4CylinderCellReco.html#a9912c086c658ee3070b8d69386713721",tooltip="module initialization"];
+}

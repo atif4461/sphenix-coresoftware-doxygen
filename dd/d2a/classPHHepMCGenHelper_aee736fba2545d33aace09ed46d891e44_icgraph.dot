@@ -1,0 +1,16 @@
+digraph "PHHepMCGenHelper::use_beam_bunch_sim"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHHepMCGenHelper::use\l_beam_bunch_sim",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="simulate bunch interaction instead of applying vertex distributions"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHHepMCGenHelper::CopySettings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d2a/classPHHepMCGenHelper.html#a5bf0ae0e0ff2c79947216d6f50e28c23",tooltip="Copy vertex and beam configuration from this helper to another."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHHepMCGenHelper::CopyHelper\lSettings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d2a/classPHHepMCGenHelper.html#a78f6ef6e01396748039e64a68c8aaa88",tooltip="copy setting from helper_src"];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHHepMCGenHelper::CopySettings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d2a/classPHHepMCGenHelper.html#a7bddd89f0e069f7593fe76b58458da91",tooltip="copy setting to helper_dest"];
+}

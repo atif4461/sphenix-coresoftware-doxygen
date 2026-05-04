@@ -1,0 +1,38 @@
+<map id="TrackFittingQA::Init" name="TrackFittingQA::Init">
+<area shape="rect" id="Node000001" title="Initialize the TrackFittingQA module and book QA histograms." alt="" coords="5,171,150,198"/>
+<area shape="rect" id="Node000002" href="$d8/db5/namespaceQAHistManagerDef.html#a95764557eee8578107f3f8cac5a640da" title="Get a pointer to the default hist manager for QA modules." alt="" coords="198,298,406,343"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,197,252,288,249,292,101,201"/>
+<area shape="rect" id="Node000012" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="1457,107,1606,134"/>
+<area shape="poly" id="edge20_Node000001_Node000012" title=" " alt="" coords="100,168,171,127,277,76,339,53,405,33,472,20,540,15,1052,15,1151,10,1229,3,1267,4,1306,9,1349,21,1398,41,1414,53,1423,66,1432,79,1446,92,1457,98,1455,102,1443,96,1428,83,1419,69,1410,56,1395,45,1347,26,1305,14,1267,9,1230,8,1151,15,1052,20,540,20,473,25,406,38,341,58,279,81,173,131,103,172"/>
+<area shape="rect" id="Node000003" href="$da/d29/classFun4AllServer.html#af5885837658eb26f98dbc697b58747a7" title="Retrieve a Fun4AllHistoManager by its name from the server registry." alt="" coords="676,409,908,437"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="360,341,455,371,560,393,661,407,661,413,559,398,453,376,359,346"/>
+<area shape="rect" id="Node000005" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Get singleton instance of Fun4AllServer." alt="" coords="454,281,628,309"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="406,307,438,303,439,309,407,312"/>
+<area shape="rect" id="Node000014" href="$da/d29/classFun4AllServer.html#a377f113767f24ce6413e678752ed7f53" title="Register a histogram manager with the server." alt="" coords="1193,346,1396,391"/>
+<area shape="poly" id="edge19_Node000002_Node000014" title=" " alt="" coords="406,323,1178,360,1178,366,406,328"/>
+<area shape="rect" id="Node000004" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="1446,384,1617,412"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="908,417,1396,400,1431,399,1431,405,1396,406,908,422"/>
+<area shape="rect" id="Node000006" href="$da/d29/classFun4AllServer.html#a90e27f05f0b2e8b6fe462387b14bfb92" title="Construct a Fun4AllServer instance with the specified name." alt="" coords="687,281,897,309"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="629,301,672,301,672,307,629,306"/>
+<area shape="poly" id="edge18_Node000006_Node000005" title=" " alt="" coords="687,289,644,289,644,284,687,284"/>
+<area shape="rect" id="Node000007" href="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7" title="Constructor for Fun4AllBase validates module name." alt="" coords="956,281,1145,309"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="897,292,940,292,940,298,897,298"/>
+<area shape="rect" id="Node000008" href="$da/d29/classFun4AllServer.html#aa1939c3e2c3113cce0a6415103b4f5a5" title="Initialize the Fun4All server and core infrastructure." alt="" coords="972,225,1129,253"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="859,278,968,254,969,259,860,283"/>
+<area shape="rect" id="Node000009" href="$da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89" title="Initialize default node tree under given top node." alt="" coords="1194,55,1395,82"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1060,223,1113,163,1150,128,1192,98,1217,86,1220,90,1194,103,1153,133,1116,167,1064,227"/>
+<area shape="rect" id="Node000011" href="$d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e" title=" " alt="" coords="1221,157,1368,201"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="1109,222,1206,198,1207,203,1110,227"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="1065,223,1119,181,1154,159,1192,142,1256,125,1321,116,1385,112,1442,112,1442,117,1385,117,1322,121,1257,130,1194,147,1156,164,1122,185,1069,227"/>
+<area shape="rect" id="Node000013" href="$da/d29/classFun4AllServer.html#a1d7daeb59511a7dc61a2566f4116a6ec" title="Register a histogram with the server histogram manager." alt="" coords="1193,225,1396,253"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="1129,236,1178,236,1178,242,1129,242"/>
+<area shape="poly" id="edge13_Node000008_Node000014" title=" " alt="" coords="1115,251,1147,268,1163,284,1171,301,1180,316,1195,332,1201,336,1198,340,1191,336,1175,319,1167,303,1158,287,1143,272,1112,256"/>
+<area shape="rect" id="Node000015" href="$d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb" title="Record memory usage statistics for the current event to the configured output file." alt="" coords="1221,277,1368,321"/>
+<area shape="poly" id="edge16_Node000008_Node000015" title=" " alt="" coords="1110,251,1207,275,1206,280,1109,256"/>
+<area shape="rect" id="Node000010" href="$da/d29/classFun4AllServer.html#a8fb8dce491234faae7834d4fba2c5598" title=" " alt="" coords="1444,55,1619,82"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1396,66,1429,66,1429,71,1396,71"/>
+<area shape="poly" id="edge15_Node000014_Node000004" title=" " alt="" coords="1397,378,1431,383,1430,388,1396,384"/>
+<area shape="poly" id="edge14_Node000014_Node000012" title=" " alt="" coords="1376,343,1394,332,1443,258,1512,146,1516,149,1448,261,1398,336,1379,348"/>
+<area shape="rect" id="Node000016" href="$d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281" title="Retrieve memory usage statistics from proc self smaps and accumulate PSS values for heap mmap and oth..." alt="" coords="1458,277,1605,321"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="1369,296,1442,296,1442,302,1369,302"/>
+</map>

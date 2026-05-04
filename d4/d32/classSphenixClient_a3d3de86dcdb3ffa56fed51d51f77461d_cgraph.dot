@@ -1,0 +1,12 @@
+digraph "SphenixClient::lockGlobalTag"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SphenixClient::lockGlobalTag",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Lock a global tag if it exists."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SphenixClient::existGlobalTag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d32/classSphenixClient.html#ab4e192f2598e117c1672c8998f96eade",tooltip="Check if a global tag is present in the cache or remote service."];
+}

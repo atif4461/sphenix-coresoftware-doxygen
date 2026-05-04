@@ -1,0 +1,12 @@
+digraph "TpcSpaceChargeMatrixContainer::add"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TpcSpaceChargeMatrixContainer::add",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="add content from other container, returns true on success"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcSpaceChargeMatrixContainer\l::TpcSpaceChargeMatrixContainer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#ae18508b33354cca3f85ed60f19e16b84",tooltip="constructor"];
+}

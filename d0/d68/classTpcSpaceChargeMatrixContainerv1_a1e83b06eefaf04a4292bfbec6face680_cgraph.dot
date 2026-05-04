@@ -1,0 +1,27 @@
+digraph "TpcSpaceChargeMatrixContainerv1::add"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TpcSpaceChargeMatrixContainerv1::add",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="add content from other container"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcSpaceChargeMatrixContainerv1\l::add_to_entries",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d68/classTpcSpaceChargeMatrixContainerv1.html#af71fbcbc6ab4f45e88d898f7a2e70b1d",tooltip="increment cell entries"];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TpcSpaceChargeMatrixContainerv1\l::add_to_lhs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d68/classTpcSpaceChargeMatrixContainerv1.html#a27d931e3b0f232257266a3d82b390e31",tooltip="increment left hand side matrix"];
+  Node1 -> Node4 [id="edge4_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TpcSpaceChargeMatrixContainerv1\l::add_to_rhs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d68/classTpcSpaceChargeMatrixContainerv1.html#ac45254c1e34d4606580889dbc9af333f",tooltip="increment right hand side column"];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TpcSpaceChargeMatrixContainer\l::get_entries",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a35578a067de099014c363283ad0abff3",tooltip="get entries for a given cell"];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TpcSpaceChargeMatrixContainer\l::get_grid_dimensions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a2ac4e0e32a8cbf3e3a194b6404d0ac10",tooltip="get grid dimensions"];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TpcSpaceChargeMatrixContainer\l::get_lhs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a2c7fbab71ac696c8239df8ceb22c86be",tooltip="get left hand side"];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TpcSpaceChargeMatrixContainer\l::get_rhs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#a8432eb46326d9c3ea2a983a655f1a93b",tooltip="get right hand side"];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TpcSpaceChargeMatrixContainer\l::TpcSpaceChargeMatrixContainer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d2a/classTpcSpaceChargeMatrixContainer.html#ae18508b33354cca3f85ed60f19e16b84",tooltip="constructor"];
+}

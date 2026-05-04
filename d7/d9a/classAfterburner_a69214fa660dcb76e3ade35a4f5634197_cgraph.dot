@@ -1,0 +1,14 @@
+digraph "Afterburner::operator="
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Afterburner::operator=",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Afterburner::Afterburner",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d9a/classAfterburner.html#a8f6ccb2b7848b5f0a2b4deecb7ed7a80",tooltip="Construct an Afterburner instance with a chosen algorithm and random engine."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Afterburner::setAlgo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d9a/classAfterburner.html#a6b3234905b3df4be7d86f59dc16ffe7a",tooltip="Set the afterburner algorithm type."];
+}

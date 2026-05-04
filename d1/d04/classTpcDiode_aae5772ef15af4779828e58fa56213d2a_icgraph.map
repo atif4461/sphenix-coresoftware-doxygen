@@ -1,0 +1,13 @@
+<map id="TpcDiode::get_maxadc" name="TpcDiode::get_maxadc">
+<area shape="rect" id="Node000001" title=" " alt="" coords="446,114,616,142"/>
+<area shape="rect" id="Node000002" href="$dc/d38/classTpcDiodeContainerv1.html#a04c175a64f05cb7c7215c752804726ed" title="Determine which laser diode fired based on ADC threshold." alt="" coords="226,75,387,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="430,117,387,111,388,105,431,111"/>
+<area shape="rect" id="Node000006" href="$d7/da0/classTpcDiodev1.html#ad58dfbb59718ac76c8083706c5e8da3b" title="Construct a TpcDiodev1 object from a source TpcDiode instance." alt="" coords="215,143,398,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="431,143,399,148,398,142,430,138"/>
+<area shape="rect" id="Node000003" href="$dc/d38/classTpcDiodeContainerv1.html#a4fa8600df367ba6e15e7b2dbe171cd20" title="Retrieve list of diode pointers belonging to EGG region based on laser identifier." alt="" coords="5,5,167,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,72,159,53,160,48,220,67"/>
+<area shape="rect" id="Node000004" href="$dc/d38/classTpcDiodeContainerv1.html#a22e460913b66fd1b50a684f5d222533c" title="Retrieve PO1 diode pointers based on laser configuration." alt="" coords="5,75,167,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="210,100,167,100,167,94,210,94"/>
+<area shape="rect" id="Node000005" href="$dc/d38/classTpcDiodeContainerv1.html#a1a9549827cfffa583b2f4b4c8a5397d9" title="Retrieve pointers to PO2 diodes based on current laser configuration." alt="" coords="5,144,167,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="220,127,160,146,159,141,218,122"/>
+</map>

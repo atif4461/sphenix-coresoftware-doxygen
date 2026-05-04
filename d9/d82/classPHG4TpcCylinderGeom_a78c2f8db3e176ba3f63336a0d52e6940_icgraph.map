@@ -1,0 +1,28 @@
+<map id="PHG4TpcCylinderGeom::check_binning_method_phi" name="PHG4TpcCylinderGeom::check_binning_method_phi">
+<area shape="rect" id="Node000001" title="Verify that the phi binning method matches one of the supported schemes." alt="" coords="440,317,646,362"/>
+<area shape="rect" id="Node000002" href="$d9/d82/classPHG4TpcCylinderGeom.html#af7645c2e4ca6fbd168aa72807201f0f1" title="Compute the azimuthal angle phi for a specified phi bin and detector side." alt="" coords="219,5,392,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="528,304,509,251,480,187,441,122,417,91,390,64,374,53,377,48,394,60,421,88,445,119,485,185,514,249,533,302"/>
+<area shape="rect" id="Node000003" href="$d9/d82/classPHG4TpcCylinderGeom.html#a9b21d4a5e50f02bbc5e8288ccacb909d" title="Compute phi bin index with wrap around handling." alt="" coords="219,75,392,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="522,305,500,266,470,220,433,174,390,134,372,122,375,118,394,130,437,170,474,217,504,263,526,302"/>
+<area shape="rect" id="Node000004" href="$d9/d82/classPHG4TpcCylinderGeom.html#ae9899c2f3cd93e37c6d74f99726fef90" title="Return the number of phi bins for the TPC cylinder geometry." alt="" coords="219,144,392,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="510,308,457,255,391,203,369,192,372,187,393,199,461,251,514,304"/>
+<area shape="rect" id="Node000006" href="$d9/d82/classPHG4TpcCylinderGeom.html#a9a3418e6c646ddb6fc9a4795e422faf0" title="Return azimuthal center of a TPC pad bin for a given side." alt="" coords="219,213,392,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="479,313,391,273,363,261,365,256,393,268,481,308"/>
+<area shape="rect" id="Node000008" href="$d9/d82/classPHG4TpcCylinderGeom.html#a07c8999b8810e63caf38d3ec87791346" title="Returns phi coordinate of bin centre for given phi bin index." alt="" coords="219,283,392,327"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="424,325,392,320,393,315,425,320"/>
+<area shape="rect" id="Node000009" href="$d9/d82/classPHG4TpcCylinderGeom.html#a8bada5460f7825e60bb60b9f3131c39d" title="Retrieve the minimum azimuthal angle of the TPC cylinder geometry." alt="" coords="219,352,392,397"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="425,360,393,364,392,359,424,354"/>
+<area shape="rect" id="Node000010" href="$d9/d82/classPHG4TpcCylinderGeom.html#a65e19f051182b057c03cfad43d26a8d4" title="Retrieve the azimuthal step size for the TPC cylinder geometry." alt="" coords="219,421,392,466"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="481,371,393,411,365,423,363,418,391,407,479,367"/>
+<area shape="rect" id="Node000011" href="$d9/d82/classPHG4TpcCylinderGeom.html#a4d0a3124db15a343c21fa9512f5ad476" title="Set number of phi bins for TPC cylinder geometry." alt="" coords="219,491,392,535"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="514,375,461,428,393,481,372,492,369,488,391,476,457,424,510,372"/>
+<area shape="rect" id="Node000012" href="$d9/d82/classPHG4TpcCylinderGeom.html#a04987f7bb9de5fd494458bfa118f1174" title="Set the minimum azimuthal angle for the TPC cylinder geometry." alt="" coords="219,560,392,605"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="526,377,504,416,474,462,437,509,394,550,375,562,372,557,390,546,433,505,470,459,500,414,522,374"/>
+<area shape="rect" id="Node000013" href="$d9/d82/classPHG4TpcCylinderGeom.html#a9edef14ed12778364fb0b1c8e176313e" title="Set the azimuthal step size for the TPC cylinder geometry." alt="" coords="219,629,392,674"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="533,378,514,431,485,495,445,561,421,591,394,619,377,631,374,627,390,615,417,588,441,558,480,492,509,428,528,376"/>
+<area shape="rect" id="Node000005" href="$df/d22/classreadDigitalCurrents.html#a6a62faef5b06dd4f4ced98dda98a17bd" title="Process a single event within the Fun4All framework." alt="" coords="14,144,162,189"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="203,169,163,169,163,164,203,164"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="218,211,160,192,161,187,219,206"/>
+<area shape="rect" id="Node000007" href="$d0/d39/classG4CellNtuple.html#a312e285a4bce0bc865cd8a5d6d4757c5" title="event processing method" alt="" coords="5,213,171,258"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="203,238,171,238,171,233,203,233"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "SvtxTruthEval::get_outermost_truth_hit"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SvtxTruthEval::get\l_outermost_truth_hit",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve the outermost truth hit for a given PHG4Particle."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTruthEval::all\l_truth_hits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/de4/classSvtxTruthEval.html#aadade59ba8c67eb108524b42ef8bda8a",tooltip="Retrieve all truth PHG4Hit objects from SVTX related hit containers."];
+}

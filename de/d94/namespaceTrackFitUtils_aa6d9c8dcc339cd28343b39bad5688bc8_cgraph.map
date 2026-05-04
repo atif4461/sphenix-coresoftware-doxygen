@@ -1,0 +1,52 @@
+<map id="TrackFitUtils::zero_field_track_params" name="TrackFitUtils::zero_field_track_params">
+<area shape="rect" id="Node000001" title="Compute track parameters assuming zero magnetic field using cluster positions." alt="" coords="5,489,158,534"/>
+<area shape="rect" id="Node000002" href="$de/d94/namespaceTrackFitUtils.html#ae1b34e8bb7560e5840aae6abd2f2eec0" title="Fit clusters in zero magnetic field using linear fits in xy and xz." alt="" coords="209,394,384,439"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,486,229,443,231,448,135,491"/>
+<area shape="rect" id="Node000013" href="$de/d94/namespaceTrackFitUtils.html#a69e3ed6b4f8c733704aebe09e8a557db" title="Compute the xy point on a straight line that is closest to a given global point." alt="" coords="488,613,618,658"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="105,532,149,572,177,592,207,607,274,627,345,638,412,641,472,640,472,645,412,646,344,643,273,632,205,612,174,597,145,577,101,536"/>
+<area shape="rect" id="Node000014" href="$de/d94/namespaceTrackFitUtils.html#a80236215f3f3c91e6f53316689959235" title="Retrieve global positions of clusters belonging to a tracklet." alt="" coords="206,101,387,146"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="93,487,273,158,278,160,97,490"/>
+<area shape="rect" id="Node000021" href="$de/d94/namespaceTrackFitUtils.html#a4b67a5508667e6fb67cf572e80187567" title="Fit the longitudinal coordinate (Z) as a function of distance along the principal component axis (PCA..." alt="" coords="228,553,364,598"/>
+<area shape="poly" id="edge27_Node000001_Node000021" title=" " alt="" coords="159,531,214,548,213,553,157,536"/>
+<area shape="rect" id="Node000003" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="1067,161,1208,189"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="313,392,363,339,397,311,434,289,514,255,598,228,684,208,769,193,927,176,1052,171,1052,177,927,181,770,198,685,213,600,234,516,260,436,294,400,316,367,343,317,396"/>
+<area shape="rect" id="Node000004" href="$de/d94/namespaceTrackFitUtils.html#a66b2fcbfa5e2f3a380ea52158235c920" title="Determine whether a MVTX cluster should be kept based on side selection." alt="" coords="449,372,657,400"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="384,403,433,397,434,403,385,409"/>
+<area shape="rect" id="Node000009" href="$de/d94/namespaceTrackFitUtils.html#a1d02f71fa3f900fba263419b3b5debf8" title="Determine whether a track traverses both east and west halves of the MVTX detector." alt="" coords="458,304,648,348"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="349,391,434,358,456,351,458,356,436,363,351,396"/>
+<area shape="rect" id="Node000010" href="$de/d94/namespaceTrackFitUtils.html#a2c122f01a317be54ebbd9442d0679bd7" title="Perform a linear fit to a set of 3‑D points projected onto the XY plane." alt="" coords="486,424,620,468"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="385,424,471,434,471,439,384,429"/>
+<area shape="rect" id="Node000012" href="$de/d94/namespaceTrackFitUtils.html#a4e233698058b12e95b56f26348b03693" title="Fit a straight line to xz positions." alt="" coords="486,493,620,538"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="343,437,436,478,473,491,471,496,434,483,341,442"/>
+<area shape="rect" id="Node000005" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="748,364,950,408"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="658,383,733,383,733,388,658,388"/>
+<area shape="rect" id="Node000006" href="$de/d94/namespaceTrackFitUtils.html#ad22f1e1bb4647707378d4349bf274f3d" title="Determine if MVTX hitset is on east side." alt="" coords="758,432,940,460"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="623,398,720,418,759,426,758,431,719,423,622,403"/>
+<area shape="rect" id="Node000007" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="1067,401,1208,429"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="940,434,1051,422,1052,427,941,439"/>
+<area shape="rect" id="Node000008" href="$d8/df1/namespaceMvtxDefs.html#a0d6fee920baed2f17bed6f7990bb88c3" title="Get the stave id from hitsetkey." alt="" coords="1056,291,1218,318"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="939,431,977,418,1030,382,1104,326,1108,330,1033,386,980,423,941,436"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="649,343,734,360,733,365,648,348"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="649,320,805,325,893,333,979,349,1041,368,1096,392,1094,396,1040,373,978,354,892,339,804,330,649,325"/>
+<area shape="poly" id="edge11_Node000009_Node000008" title=" " alt="" coords="649,311,719,305,889,299,1040,300,1040,305,889,304,719,310,649,316"/>
+<area shape="rect" id="Node000011" href="$de/d94/namespaceTrackFitUtils.html#ab6471f5f4cdcf5bdcaaaca83504ac04e" title="line_fit" alt="" coords="772,501,926,529"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="621,459,772,495,771,500,620,464"/>
+<area shape="poly" id="edge15_Node000012_Node000011" title=" " alt="" coords="620,512,756,512,756,518,620,518"/>
+<area shape="rect" id="Node000015" href="$d0/d2c/classTrkrClusterContainer.html#a2e07352ae628a96f29c37cd2789c60b6" title="find cluster matching given key" alt="" coords="476,41,630,86"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="387,99,460,82,461,87,388,105"/>
+<area shape="rect" id="Node000016" href="$d3/d64/classActsGeometry.html#a81e1d6479636cdf2b22d2acc993d7ff1" title="Compute global position of a tracker cluster using Acts geometry." alt="" coords="435,109,671,137"/>
+<area shape="poly" id="edge19_Node000014_Node000016" title=" " alt="" coords="388,120,419,120,419,126,388,126"/>
+<area shape="poly" id="edge26_Node000016_Node000003" title=" " alt="" coords="639,135,720,146,897,161,1052,169,1051,175,897,166,719,151,639,140"/>
+<area shape="rect" id="Node000017" href="$d3/d64/classActsGeometry.html#abe7b8fadd95687eab97782238c1272ed" title="Compute global position of a TPC cluster." alt="" coords="719,109,979,137"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="672,120,704,120,704,126,672,126"/>
+<area shape="rect" id="Node000019" href="$d6/dfa/classTrkrCluster.html#aee7d1557cd0cf5b0969ec7075639c277" title=" " alt="" coords="767,5,931,33"/>
+<area shape="poly" id="edge24_Node000016_Node000019" title=" " alt="" coords="646,106,670,96,685,84,693,70,702,57,718,44,751,30,753,34,721,48,706,60,698,73,688,87,673,100,648,111"/>
+<area shape="rect" id="Node000020" href="$d6/dfa/classTrkrCluster.html#a3ceb9dc71d12147d8d24eb9c6cbc861f" title=" " alt="" coords="768,57,930,85"/>
+<area shape="poly" id="edge25_Node000016_Node000020" title=" " alt="" coords="636,106,752,85,753,91,637,111"/>
+<area shape="poly" id="edge23_Node000017_Node000003" title=" " alt="" coords="930,135,1052,157,1051,162,929,140"/>
+<area shape="rect" id="Node000018" href="$d3/d64/classActsGeometry.html#af35c92c361420b21bd649be83205f5ba" title="Retrieve local detector coordinates for a given cluster key and cluster object." alt="" coords="1027,109,1248,137"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="979,120,1011,120,1011,126,979,126"/>
+<area shape="poly" id="edge22_Node000018_Node000018" title=" " alt="" coords="1089,111,1081,100,1087,91,1106,85,1137,83,1172,85,1190,92,1188,97,1170,90,1137,88,1107,90,1090,95,1086,100,1093,107"/>
+<area shape="poly" id="edge29_Node000021_Node000011" title=" " alt="" coords="365,570,506,563,671,547,769,530,770,535,672,552,507,568,365,576"/>
+<area shape="poly" id="edge28_Node000021_Node000013" title=" " alt="" coords="366,588,473,614,472,619,364,594"/>
+</map>

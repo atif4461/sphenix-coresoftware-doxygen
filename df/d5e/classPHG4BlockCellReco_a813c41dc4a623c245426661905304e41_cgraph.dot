@@ -1,0 +1,14 @@
+digraph "PHG4BlockCellReco::set_timing_window"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4BlockCellReco::\lset_timing_window",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set timing window parameters for a detector element."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHParameterContainerInterface\l::set_double_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d11/classPHParameterContainerInterface.html#a2a28e69d116516f52e2848a9a6a6f50a",tooltip="Set a double parameter for a given detector identifier."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHParameters::set_double\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a75005aa44390e1eb574603b0b230152b",tooltip="Set double parameter in internal map."];
+}

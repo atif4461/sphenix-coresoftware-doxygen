@@ -1,0 +1,28 @@
+digraph "SpinDBContentv1::GetScaler"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SpinDBContentv1::GetScaler",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve scaler count for given channel and bunch."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SpinDBContent::GetErrorValue",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d38/classSpinDBContent.html#abbd5efa735d8046f4404214f9778dd9d",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SpinDBContentv1::GetScaler\lMbdNoCut",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d94/classSpinDBContentv1.html#a35ad854c17fa74544f949c90efe3bb1b",tooltip="Retrieve MBD scaler value without cuts for a given bunch."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SpinDBContentv1::CheckBunch\lNumber",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d94/classSpinDBContentv1.html#a7f19e84cb2528e058d8ea44a0b5013d6",tooltip="Check if bunch number is within valid range."];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SpinDBContent::GetNCrossing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d38/classSpinDBContent.html#ab567f0ca945649fdbee2612eb8446613",tooltip=" "];
+  Node3 -> Node2 [id="edge6_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge7_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SpinDBContentv1::GetScaler\lMbdVertexCut",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d94/classSpinDBContentv1.html#ae3df24fac116e2c349fe2d103197d17f",tooltip="Retrieve the MBD vertex cut scaler value for a given bunch."];
+  Node6 -> Node4 [id="edge8_Node000006_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node2 [id="edge9_Node000006_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge10_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="SpinDBContentv1::GetScaler\lZdcNoCut",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d94/classSpinDBContentv1.html#a5d897ceb12a8f66aa435894167052519",tooltip="Retrieve scaler ZDC no cut value for given bunch."];
+  Node7 -> Node4 [id="edge11_Node000007_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node2 [id="edge12_Node000007_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

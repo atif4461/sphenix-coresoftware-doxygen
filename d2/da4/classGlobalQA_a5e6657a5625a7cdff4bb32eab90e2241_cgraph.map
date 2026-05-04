@@ -1,0 +1,43 @@
+<map id="GlobalQA::process_towers" name="GlobalQA::process_towers">
+<area shape="rect" id="Node000001" title="Process tower level data for sEPD and ZDC detectors." alt="" coords="5,279,197,306"/>
+<area shape="rect" id="Node000002" href="$da/d9c/namespaceTowerInfoDefs.html#a7d30679410cca9436b542a3a682ca892" title="Encode an EPD tower index into a compact key." alt="" coords="245,5,445,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,277,119,232,147,169,188,101,214,70,243,44,251,38,254,43,246,48,217,74,192,105,152,171,124,234,109,279"/>
+<area shape="rect" id="Node000003" href="$d3/d65/classTowerInfo.html#aec47b24db774275f49d738950530b5e0" title=" " alt="" coords="262,57,428,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,277,126,242,156,194,195,144,243,101,265,89,267,93,246,105,199,148,160,197,130,244,111,280"/>
+<area shape="rect" id="Node000004" href="$da/d9c/namespaceTowerInfoDefs.html#a953898b2e082f247a5dcb46720a7fafc" title="Extract the arm identifier from a tower key." alt="" coords="1000,181,1143,226"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="109,277,128,247,159,209,197,173,244,145,293,127,344,113,448,97,554,93,658,100,758,114,849,133,993,173,992,178,847,138,757,119,658,105,554,99,449,102,345,118,294,132,246,150,201,177,163,213,133,250,113,280"/>
+<area shape="rect" id="Node000005" href="$da/d9c/namespaceTowerInfoDefs.html#a789cccaab5a87fcc4671f92661d28894" title="Compute phi bin for an EPD tower from its key." alt="" coords="273,160,416,204"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="129,276,244,221,272,208,274,213,246,226,132,281"/>
+<area shape="rect" id="Node000006" href="$da/d9c/namespaceTowerInfoDefs.html#acdcd895ff78d6d66c853553657471a92" title="Return radial bin index for a given EPD tower key." alt="" coords="512,261,655,306"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="169,275,244,265,345,260,445,265,497,269,497,274,445,270,345,265,245,270,170,281"/>
+<area shape="rect" id="Node000008" href="$d3/d65/classTowerInfo.html#a843b4f5f34fa380b0b9936cd6ca18146" title=" " alt="" coords="271,279,419,306"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="197,290,255,290,255,295,197,295"/>
+<area shape="rect" id="Node000009" href="$d9/da7/classTowerInfoContainer.html#a9d02209eb100fea85a2105a1965c3e2b" title=" " alt="" coords="259,330,431,375"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="161,304,244,325,243,330,159,309"/>
+<area shape="rect" id="Node000010" href="$d4/da4/classZdcinfo.html#a562d24ed9c4ac9451c1fff4bbc9dde38" title=" " alt="" coords="255,399,435,426"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="121,305,175,344,246,385,261,391,259,396,244,390,172,349,118,309"/>
+<area shape="rect" id="Node000011" href="$d4/da4/classZdcinfo.html#acac9485d34e3dc6bc2143026e85520d6" title=" " alt="" coords="267,451,422,478"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="114,305,166,368,203,405,246,436,259,442,257,447,243,440,200,409,162,372,110,309"/>
+<area shape="rect" id="Node000012" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="273,503,416,530"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="111,305,129,342,158,392,197,444,221,467,246,488,260,496,258,500,243,492,217,471,193,447,154,395,124,345,106,308"/>
+<area shape="rect" id="Node000018" href="$d9/da7/classTowerInfoContainer.html#a032d99fcf2de16bdabcc1248f3362345" title=" " alt="" coords="271,554,418,599"/>
+<area shape="poly" id="edge23_Node000001_Node000018" title=" " alt="" coords="109,306,125,351,153,414,193,481,218,512,246,540,259,549,256,553,243,544,214,516,189,484,148,416,120,353,104,308"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="417,181,952,195,984,196,984,202,952,200,417,186"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="402,202,446,221,518,252,516,257,444,226,400,207"/>
+<area shape="rect" id="Node000007" href="$da/d9c/namespaceTowerInfoDefs.html#a7610aec2a9ff9b58e5e5ea46f82240d2" title="Compute the EPD sector index from a global tower key." alt="" coords="765,210,909,255"/>
+<area shape="poly" id="edge10_Node000005_Node000007" title=" " alt="" coords="417,186,750,221,749,226,417,192"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="656,287,720,289,794,288,873,280,951,265,989,250,1024,231,1026,236,991,255,952,270,874,286,794,293,719,294,656,292"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="655,266,750,247,751,252,656,271"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="909,221,984,211,985,217,909,226"/>
+<area shape="rect" id="Node000013" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="493,477,674,505"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="417,506,478,500,478,505,417,512"/>
+<area shape="rect" id="Node000017" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="502,529,666,557"/>
+<area shape="poly" id="edge22_Node000012_Node000017" title=" " alt="" coords="417,522,486,530,486,535,417,527"/>
+<area shape="poly" id="edge18_Node000013_Node000013" title=" " alt="" coords="543,478,536,468,542,459,558,453,584,451,612,453,627,460,625,464,610,458,584,456,559,458,545,463,542,468,547,475"/>
+<area shape="rect" id="Node000014" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="766,477,908,505"/>
+<area shape="poly" id="edge19_Node000013_Node000014" title=" " alt="" coords="675,488,751,488,751,494,675,494"/>
+<area shape="rect" id="Node000015" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="771,529,903,557"/>
+<area shape="poly" id="edge20_Node000013_Node000015" title=" " alt="" coords="655,503,756,524,755,529,654,508"/>
+<area shape="rect" id="Node000016" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="722,425,952,453"/>
+<area shape="poly" id="edge21_Node000013_Node000016" title=" " alt="" coords="654,474,750,454,751,459,655,479"/>
+</map>

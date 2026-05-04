@@ -1,0 +1,96 @@
+<map id="PHG4Cell::get_property_info" name="PHG4Cell::get_property_info">
+<area shape="rect" id="Node000001" title="Retrieve human readable name and data type for a given cell property identifier." alt="" coords="971,603,1176,631"/>
+<area shape="rect" id="Node000002" href="$de/d5e/classPHG4Cellv1.html#a29367654f4de8a3c3f0b1936030efa00" title="Add a property of type float to the cell." alt="" coords="223,99,415,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1060,590,1040,539,1010,475,970,407,921,346,865,296,802,255,734,220,665,191,596,168,530,150,415,127,416,122,531,145,598,163,667,186,737,215,804,250,868,292,925,342,975,404,1015,473,1045,537,1065,588"/>
+<area shape="rect" id="Node000007" href="$de/d5e/classPHG4Cellv1.html#a1d3f993ce39d2e2ec48023318b68922a" title="Add integer property to cell accumulating existing value." alt="" coords="223,1080,415,1108"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1054,645,999,708,963,743,924,775,874,807,831,826,787,844,734,870,644,927,578,976,510,1023,416,1071,386,1082,384,1077,414,1067,507,1018,575,972,641,922,731,865,785,839,829,821,871,803,921,771,959,739,995,704,1050,641"/>
+<area shape="rect" id="Node000008" href="$de/d5e/classPHG4Cellv1.html#a4db64f4c3a9f8b2c46c94d2c8d977c05" title="Add an unsigned integer property to the cell." alt="" coords="223,443,415,471"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="974,602,740,558,462,498,414,485,374,474,375,469,416,480,464,493,741,553,975,597"/>
+<area shape="rect" id="Node000009" href="$dc/dfe/classPHG4Cell.html#a662d88c74fbd5dc06d8dd9aac168210b" title="Verify that a given property identifier matches the expected property type." alt="" coords="732,628,923,656"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="955,632,923,635,923,630,955,627"/>
+<area shape="rect" id="Node000010" href="$de/d5e/classPHG4Cellv1.html#aeb3ab146637f92edcf3eb4d20f671da8" title="Retrieve a floating point property value identified by prop_id." alt="" coords="479,308,668,353"/>
+<area shape="poly" id="edge47_Node000001_Node000010" title=" " alt="" coords="1059,590,1040,546,1010,492,971,439,947,415,921,395,861,365,795,345,729,335,668,330,669,325,729,329,796,340,863,360,924,391,951,411,975,435,1015,489,1045,543,1064,588"/>
+<area shape="rect" id="Node000015" href="$de/d5e/classPHG4Cellv1.html#a8aac362a68e030410cb460736735078a" title="Identify prints cell identifier and associated hit and shower energy contributions and stored propert..." alt="" coords="241,391,396,419"/>
+<area shape="poly" id="edge50_Node000001_Node000015" title=" " alt="" coords="1052,592,1029,563,999,529,963,497,921,471,854,444,783,424,711,411,639,402,505,396,397,400,397,395,505,391,639,397,712,405,784,419,856,439,924,467,966,493,1003,525,1033,559,1056,589"/>
+<area shape="rect" id="Node000017" href="$de/d5e/classPHG4Cellv1.html#a6e5869bb9638f6f7363d46a9455c47d6" title="Retrieve the integer value of a specified property." alt="" coords="467,622,680,650"/>
+<area shape="poly" id="edge48_Node000001_Node000017" title=" " alt="" coords="955,616,847,616,732,620,681,624,680,619,732,614,847,611,955,611"/>
+<area shape="rect" id="Node000027" href="$de/d5e/classPHG4Cellv1.html#a3672d82ce431aa52e7f473eaece6cff9" title="Retrieve unsigned int property value by identifier." alt="" coords="463,456,684,484"/>
+<area shape="poly" id="edge49_Node000001_Node000027" title=" " alt="" coords="1046,594,992,549,958,526,922,509,863,491,801,479,741,472,685,470,685,464,741,467,802,474,864,485,924,504,960,522,995,544,1049,590"/>
+<area shape="rect" id="Node000028" href="$de/d5e/classPHG4Cellv1.html#a09c3711f71283062616e03d853d08586" title="Set a float property for a PHG4Cellv1 object." alt="" coords="480,1322,668,1350"/>
+<area shape="poly" id="edge52_Node000001_Node000028" title=" " alt="" coords="1064,647,1045,694,1015,751,975,810,951,837,924,860,898,876,873,884,826,887,780,891,757,900,734,918,692,966,658,1022,631,1081,611,1141,587,1250,579,1322,573,1321,582,1249,606,1140,626,1079,653,1019,688,963,731,914,755,896,779,886,825,882,872,879,896,871,921,856,947,833,971,807,1011,748,1040,691,1060,645"/>
+<area shape="rect" id="Node000038" href="$de/d5e/classPHG4Cellv1.html#ad56c65d40f43be8931e401ff79991045" title="Set integer property identified by prop_id to given value after type verification." alt="" coords="480,723,668,751"/>
+<area shape="poly" id="edge53_Node000001_Node000038" title=" " alt="" coords="1021,639,923,670,788,702,664,725,663,720,787,697,922,665,1019,634"/>
+<area shape="rect" id="Node000039" href="$de/d5e/classPHG4Cellv1.html#a3b8da675a49588447fb165d688ff5b4c" title="Set unsigned integer property value for given property identifier." alt="" coords="480,775,668,803"/>
+<area shape="poly" id="edge54_Node000001_Node000039" title=" " alt="" coords="1044,643,990,682,924,718,859,741,792,759,669,782,668,776,791,754,857,736,922,713,988,677,1041,639"/>
+<area shape="rect" id="Node000040" href="$d3/d0b/classDumpPHG4CellContainer.html#a0de9f51ab04b2987204f3ecfcffe52d0" title="Process a PHNode containing a PHG4CellContainer and dump its contents." alt="" coords="735,928,920,973"/>
+<area shape="poly" id="edge51_Node000001_Node000040" title=" " alt="" coords="1067,647,1049,701,1020,771,979,845,953,880,924,911,898,930,895,925,921,907,949,876,974,842,1015,769,1044,699,1062,645"/>
+<area shape="rect" id="Node000003" href="$de/d5e/classPHG4Cellv1.html#aadd19443bfbd16ef6529ae994c0ddf2f" title=" " alt="" coords="5,74,175,102"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="207,103,175,100,175,94,207,98"/>
+<area shape="rect" id="Node000004" href="$de/d5e/classPHG4Cellv1.html#a6aea378383417ac4e9ec4797fcae44c7" title=" " alt="" coords="7,126,173,154"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="208,129,174,133,173,127,207,123"/>
+<area shape="rect" id="Node000005" href="$de/d5e/classPHG4Cellv1.html#a321d41c7d078a3e3acedbedb1a45ed0e" title=" " alt="" coords="7,177,173,222"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="241,134,224,141,200,153,176,167,150,179,148,174,173,163,197,149,222,136,239,129"/>
+<area shape="rect" id="Node000006" href="$de/d5e/classPHG4Cellv1.html#a97e0ae13a9e783858c72d884544dce4e" title=" " alt="" coords="9,5,171,50"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="264,96,151,53,153,48,266,91"/>
+<area shape="poly" id="edge9_Node000009_Node000002" title=" " alt="" coords="818,614,803,551,777,468,737,379,712,336,682,297,649,264,612,235,572,209,530,187,448,152,379,130,380,125,450,147,532,182,574,205,615,231,653,260,686,294,716,333,742,376,782,466,809,550,823,613"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="717,659,559,685,497,700,465,714,448,735,436,757,429,778,427,800,430,844,440,888,450,933,454,979,452,1002,445,1025,434,1048,417,1071,404,1082,400,1078,413,1067,429,1045,440,1023,447,1001,449,979,445,934,435,889,425,845,421,800,424,777,431,754,443,732,461,710,495,695,558,680,716,654"/>
+<area shape="poly" id="edge11_Node000009_Node000008" title=" " alt="" coords="749,627,578,584,503,562,462,546,445,530,437,514,429,499,413,485,392,474,395,469,417,480,433,496,441,512,450,527,464,541,505,557,579,578,751,622"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="806,617,753,539,682,447,597,355,601,351,686,443,757,536,811,614"/>
+<area shape="poly" id="edge20_Node000009_Node000017" title=" " alt="" coords="717,642,681,641,681,636,717,637"/>
+<area shape="poly" id="edge32_Node000009_Node000027" title=" " alt="" coords="791,622,595,487,598,483,794,617"/>
+<area shape="poly" id="edge35_Node000009_Node000028" title=" " alt="" coords="816,672,735,873,641,1142,582,1322,577,1321,635,1140,730,871,811,670"/>
+<area shape="poly" id="edge45_Node000009_Node000038" title=" " alt="" coords="784,666,685,707,630,725,629,720,683,703,782,661"/>
+<area shape="poly" id="edge46_Node000009_Node000039" title=" " alt="" coords="805,670,754,718,721,743,686,765,655,777,653,772,683,760,718,739,750,714,802,666"/>
+<area shape="poly" id="edge13_Node000010_Node000002" title=" " alt="" coords="529,300,494,268,461,231,446,205,439,182,431,161,413,140,396,130,398,125,417,136,436,158,444,180,451,203,465,227,498,264,533,296"/>
+<area shape="rect" id="Node000011" href="$de/d5e/classPHG4Cellv1.html#ad2d1f54f0a68ad2114f66c9de2303aa8" title=" " alt="" coords="236,219,402,247"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="512,303,414,262,376,250,378,245,416,257,514,299"/>
+<area shape="rect" id="Node000012" href="$de/d5e/classPHG4Cellv1.html#ae5df6a81e9b9e00de925124f6740439f" title=" " alt="" coords="238,271,400,299"/>
+<area shape="poly" id="edge15_Node000010_Node000012" title=" " alt="" coords="463,313,400,302,401,297,464,308"/>
+<area shape="rect" id="Node000013" href="$de/d5e/classPHG4Cellv1.html#a3d5b4f190bbbbc7601d78f91922c8bd2" title=" " alt="" coords="237,323,400,367"/>
+<area shape="poly" id="edge16_Node000010_Node000013" title=" " alt="" coords="463,339,401,343,401,338,463,334"/>
+<area shape="rect" id="Node000014" href="$de/d5e/classPHG4Cellv1.html#ae88efbcdf945b99b67a26c6643a646f0" title=" " alt="" coords="240,151,398,195"/>
+<area shape="poly" id="edge17_Node000010_Node000014" title=" " alt="" coords="535,300,480,254,414,210,390,198,392,194,416,205,483,250,539,296"/>
+<area shape="poly" id="edge18_Node000010_Node000015" title=" " alt="" coords="488,360,416,382,377,393,375,388,414,377,486,355"/>
+<area shape="rect" id="Node000016" href="$de/d5e/classPHG4Cellv1.html#ab2804f0118ad8bf04e35e5dfcbab857c" title="Print identification of this PHG4Cellv1 object to standard output This comment was generated by opena..." alt="" coords="22,391,158,419"/>
+<area shape="poly" id="edge19_Node000015_Node000016" title=" " alt="" coords="226,408,159,408,159,402,226,402"/>
+<area shape="poly" id="edge21_Node000017_Node000007" title=" " alt="" coords="475,660,465,669,447,695,435,720,428,744,426,769,430,819,442,868,454,918,458,968,456,994,449,1019,436,1045,417,1071,404,1082,400,1078,413,1067,431,1042,444,1017,451,993,453,968,449,919,437,869,425,820,420,769,423,744,430,718,442,692,461,666,471,656"/>
+<area shape="poly" id="edge31_Node000017_Node000015" title=" " alt="" coords="550,611,461,497,440,462,430,448,414,434,390,422,393,417,416,429,434,444,444,459,465,494,554,608"/>
+<area shape="rect" id="Node000018" href="$de/d5e/classPHG4Cellv1.html#a83b8f8c8b73458150ce96259d7f24946" title=" " alt="" coords="238,615,400,659"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="451,639,400,639,400,634,451,634"/>
+<area shape="rect" id="Node000019" href="$de/d5e/classPHG4Cellv1.html#aa09c5282e9eb6b2e43358ad2d2656597" title=" " alt="" coords="239,684,398,729"/>
+<area shape="poly" id="edge23_Node000017_Node000019" title=" " alt="" coords="507,657,400,687,398,682,505,652"/>
+<area shape="rect" id="Node000020" href="$de/d5e/classPHG4Cellv1.html#a18f45c359279ce78e5fc9a4a0a366364" title=" " alt="" coords="231,753,406,798"/>
+<area shape="poly" id="edge24_Node000017_Node000020" title=" " alt="" coords="484,658,465,670,449,687,441,705,433,724,417,743,398,755,395,751,413,739,429,721,436,703,444,684,461,666,482,654"/>
+<area shape="rect" id="Node000021" href="$de/d5e/classPHG4Cellv1.html#a29d85b74f807126a3d3ab217246baa2c" title=" " alt="" coords="231,823,406,867"/>
+<area shape="poly" id="edge25_Node000017_Node000021" title=" " alt="" coords="479,659,465,670,451,686,444,703,441,739,438,775,431,794,417,812,402,824,398,820,413,808,426,791,433,774,436,738,439,702,447,684,461,666,476,655"/>
+<area shape="rect" id="Node000022" href="$de/d5e/classPHG4Cellv1.html#ab62ea19468b9e96b8a1407b2f7d0c64e" title=" " alt="" coords="227,892,410,937"/>
+<area shape="poly" id="edge26_Node000017_Node000022" title=" " alt="" coords="477,659,465,669,447,695,439,721,438,746,441,773,443,799,443,826,435,854,417,881,403,893,400,889,413,878,430,852,437,825,438,799,435,773,433,747,434,720,442,693,461,666,473,655"/>
+<area shape="rect" id="Node000023" href="$de/d5e/classPHG4Cellv1.html#a7707bdcd5cdd535579101c7c8499c90a" title=" " alt="" coords="232,960,406,988"/>
+<area shape="poly" id="edge27_Node000017_Node000023" title=" " alt="" coords="475,660,465,669,443,704,435,739,436,773,442,808,448,844,449,879,441,915,417,951,403,962,400,958,413,947,436,913,444,879,443,844,437,809,431,774,429,738,438,702,461,666,472,656"/>
+<area shape="rect" id="Node000024" href="$de/d5e/classPHG4Cellv1.html#a924960e809422635bd6b21a41fdcc43d" title=" " alt="" coords="236,1012,402,1057"/>
+<area shape="poly" id="edge28_Node000017_Node000024" title=" " alt="" coords="475,660,465,669,450,690,439,710,430,751,432,791,440,832,448,873,451,915,443,958,432,979,417,1001,404,1014,400,1010,413,998,428,977,438,956,446,915,443,874,435,833,427,792,425,751,434,709,445,687,461,666,472,656"/>
+<area shape="rect" id="Node000025" href="$de/d5e/classPHG4Cellv1.html#a0be59124d8fff0f180d85e37ad8bd5b5" title=" " alt="" coords="234,495,404,539"/>
+<area shape="poly" id="edge29_Node000017_Node000025" title=" " alt="" coords="493,619,462,603,446,591,437,578,428,566,413,554,392,542,395,538,417,549,432,562,441,575,450,587,464,599,496,614"/>
+<area shape="rect" id="Node000026" href="$de/d5e/classPHG4Cellv1.html#a6e3515ea17fd9e215db88f26cbacf053" title=" " alt="" coords="238,563,400,591"/>
+<area shape="poly" id="edge30_Node000017_Node000026" title=" " alt="" coords="495,621,381,594,383,589,497,615"/>
+<area shape="poly" id="edge33_Node000027_Node000008" title=" " alt="" coords="447,466,415,465,416,459,447,461"/>
+<area shape="poly" id="edge34_Node000027_Node000015" title=" " alt="" coords="501,455,375,422,377,417,502,449"/>
+<area shape="rect" id="Node000029" href="$de/d5e/classPHG4Cellv1.html#a5a0f17441488abfa4e629ba91ce9b53b" title=" " alt="" coords="239,1373,399,1418"/>
+<area shape="poly" id="edge36_Node000028_Node000029" title=" " alt="" coords="498,1356,400,1379,399,1374,497,1351"/>
+<area shape="rect" id="Node000030" href="$de/d5e/classPHG4Cellv1.html#a37d3ba8bad71f679fd6b06810f93ba78" title=" " alt="" coords="240,1443,398,1487"/>
+<area shape="poly" id="edge37_Node000028_Node000030" title=" " alt="" coords="540,1361,483,1396,416,1433,389,1445,387,1440,414,1428,481,1392,538,1356"/>
+<area shape="rect" id="Node000031" href="$de/d5e/classPHG4Cellv1.html#a0654c0ec69b50b9b7ae8b43f04dd119e" title=" " alt="" coords="232,1512,406,1557"/>
+<area shape="poly" id="edge38_Node000028_Node000031" title=" " alt="" coords="555,1364,498,1432,459,1469,416,1502,395,1514,392,1509,414,1497,456,1465,494,1428,551,1361"/>
+<area shape="rect" id="Node000032" href="$de/d5e/classPHG4Cellv1.html#abc2f0afd9eca0155f8d09a35fa733347" title=" " alt="" coords="232,1581,406,1626"/>
+<area shape="poly" id="edge39_Node000028_Node000032" title=" " alt="" coords="563,1365,541,1410,509,1465,467,1522,417,1571,398,1583,395,1579,413,1567,463,1518,505,1462,536,1407,558,1363"/>
+<area shape="rect" id="Node000033" href="$de/d5e/classPHG4Cellv1.html#a37df77e74bf22156b314ef8c8cde68ad" title=" " alt="" coords="228,1651,410,1695"/>
+<area shape="poly" id="edge40_Node000028_Node000033" title=" " alt="" coords="568,1365,549,1423,519,1496,475,1573,448,1609,417,1640,400,1652,396,1648,413,1636,444,1605,471,1570,514,1494,544,1421,562,1364"/>
+<area shape="rect" id="Node000034" href="$de/d5e/classPHG4Cellv1.html#a9b8fd564ba8409c7a930514b742a15b1" title=" " alt="" coords="232,1132,406,1160"/>
+<area shape="poly" id="edge41_Node000028_Node000034" title=" " alt="" coords="552,1311,495,1242,457,1205,414,1174,390,1163,392,1158,416,1169,460,1201,499,1238,556,1307"/>
+<area shape="rect" id="Node000035" href="$de/d5e/classPHG4Cellv1.html#a794d2841cb2e62e6721c533bee3b58eb" title=" " alt="" coords="237,1184,401,1229"/>
+<area shape="poly" id="edge42_Node000028_Node000035" title=" " alt="" coords="538,1315,481,1280,414,1243,387,1232,389,1227,416,1239,483,1275,540,1311"/>
+<area shape="rect" id="Node000036" href="$de/d5e/classPHG4Cellv1.html#a18a8f40a3ace692a2b5a20508c5f8845" title=" " alt="" coords="234,1253,404,1298"/>
+<area shape="poly" id="edge43_Node000028_Node000036" title=" " alt="" coords="496,1320,403,1298,405,1293,498,1315"/>
+<area shape="rect" id="Node000037" href="$de/d5e/classPHG4Cellv1.html#abbab10648fe2f35b88ad93bbb57ebf61" title=" " alt="" coords="239,1322,399,1350"/>
+<area shape="poly" id="edge44_Node000028_Node000037" title=" " alt="" coords="464,1338,399,1338,399,1333,464,1333"/>
+</map>

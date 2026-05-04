@@ -1,0 +1,132 @@
+<map id="Fun4CalServer::SyncCalibTimeStampsToOnCal" name="Fun4CalServer::SyncCalibTimeStampsToOnCal">
+<area shape="rect" id="Node000001" title="Synchronize calibration timestamps for all tables associated with a calibrator." alt="" coords="5,457,193,502"/>
+<area shape="rect" id="Node000002" href="$d2/d8f/classCalReco.html#a4e68de67d23a631ed209c50fb371af44" title=" " alt="" coords="241,435,432,463"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,465,225,461,226,466,193,470"/>
+<area shape="rect" id="Node000003" href="$d6/d51/classFun4CalServer.html#a8931e94fe5b08a44e66d3b817409e384" title="Synchronize calibration timestamps from local calibration database to oncal status table." alt="" coords="243,487,430,531"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,489,228,493,227,498,193,494"/>
+<area shape="rect" id="Node000004" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="1300,43,1448,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="413,484,430,472,457,448,478,423,508,372,527,320,541,268,555,218,577,169,612,123,637,101,667,81,706,61,748,44,834,19,923,6,1011,3,1096,6,1175,14,1302,37,1302,42,1175,19,1096,11,1011,8,923,12,835,25,749,49,709,66,670,86,640,106,616,127,582,171,561,219,546,270,532,322,513,374,482,426,460,452,434,476,416,488"/>
+<area shape="rect" id="Node000005" href="$da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a" title="run n events (0 means up to end of file)" alt="" coords="480,946,620,973"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="351,531,538,931,533,933,346,533"/>
+<area shape="rect" id="Node000006" href="$da/d29/classFun4AllServer.html#afcfc5583204cac58b4e66a2406187a18" title="Reset event counter and initialize run timestamp then invoke BeginRun on all registered subsystems." alt="" coords="698,502,880,529"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="557,944,771,542,775,545,561,947"/>
+<area shape="rect" id="Node000008" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="1556,552,1727,580"/>
+<area shape="poly" id="edge79_Node000005_Node000008" title=" " alt="" coords="549,945,557,824,576,633,591,532,611,439,635,362,650,333,666,310,695,285,732,262,777,242,829,225,945,197,1073,180,1202,175,1323,182,1378,190,1426,201,1468,215,1502,233,1538,264,1567,301,1590,343,1608,386,1631,471,1641,536,1635,537,1626,472,1603,388,1585,345,1562,304,1534,268,1499,238,1466,220,1425,206,1377,195,1323,187,1202,180,1074,186,946,202,830,230,779,247,735,267,698,289,670,313,655,335,640,364,616,441,596,533,581,634,562,825,555,946"/>
+<area shape="rect" id="Node000028" href="$da/d29/classFun4AllServer.html#a53b1b6b338aa36891f2690a188920980" title="EndRun callback invoked for each subsystem before a new run starts." alt="" coords="705,323,873,351"/>
+<area shape="poly" id="edge25_Node000005_Node000028" title=" " alt="" coords="550,945,559,873,580,758,614,623,638,555,666,489,687,452,712,417,761,360,765,364,717,420,692,455,671,491,643,556,619,624,585,759,565,873,556,946"/>
+<area shape="rect" id="Node000029" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="1011,1322,1146,1349"/>
+<area shape="poly" id="edge27_Node000005_Node000029" title=" " alt="" coords="561,973,602,1045,634,1089,670,1130,742,1193,803,1236,870,1270,959,1306,996,1319,994,1324,957,1311,868,1274,800,1240,738,1197,666,1134,629,1092,598,1048,556,975"/>
+<area shape="rect" id="Node000030" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="Retrieve integer flag value by name." alt="" coords="1004,1582,1152,1609"/>
+<area shape="poly" id="edge28_Node000005_Node000030" title=" " alt="" coords="556,973,569,1065,594,1204,628,1343,648,1399,670,1437,703,1470,740,1498,781,1521,824,1541,911,1568,990,1584,989,1589,910,1574,822,1546,779,1526,738,1502,699,1474,666,1440,644,1401,623,1345,588,1205,564,1066,551,974"/>
+<area shape="rect" id="Node000038" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="1000,1374,1156,1401"/>
+<area shape="poly" id="edge36_Node000005_Node000038" title=" " alt="" coords="555,974,560,1032,577,1117,592,1164,611,1209,637,1252,670,1288,705,1315,743,1336,783,1353,825,1366,909,1382,985,1387,985,1393,909,1387,824,1371,782,1358,740,1341,702,1319,667,1292,633,1255,607,1212,587,1166,572,1119,555,1033,549,974"/>
+<area shape="rect" id="Node000039" href="$da/d29/classFun4AllServer.html#a6a65a944dfb40966ace97d35ab1f7942" title="Process a single event through all registered subsystems and manage I/O." alt="" coords="704,937,874,982"/>
+<area shape="poly" id="edge37_Node000005_Node000039" title=" " alt="" coords="620,957,689,957,689,962,620,962"/>
+<area shape="rect" id="Node000050" href="$da/d29/classFun4AllServer.html#ab2479a9a3e45d51118e308597acd5228" title="Reset nodes in all top node trees according to ResetNodeList." alt="" coords="970,1270,1187,1297"/>
+<area shape="poly" id="edge70_Node000005_Node000050" title=" " alt="" coords="590,971,763,1044,852,1089,887,1110,912,1130,929,1156,936,1182,942,1206,960,1231,982,1248,1008,1261,1006,1266,979,1253,956,1235,938,1209,931,1183,925,1159,908,1133,884,1114,849,1093,761,1049,588,976"/>
+<area shape="rect" id="Node000057" href="$da/d29/classFun4AllServer.html#acacc46b5c0596571cf81fef7f7b55658" title="Set the current run number in the framework." alt="" coords="707,1399,871,1427"/>
+<area shape="poly" id="edge71_Node000005_Node000057" title=" " alt="" coords="555,974,564,1034,583,1126,598,1177,617,1229,641,1279,670,1326,706,1362,746,1389,743,1393,702,1366,666,1329,637,1282,612,1231,593,1179,578,1127,558,1035,550,974"/>
+<area shape="rect" id="Node000061" href="$d5/dec/classFun4AllBase.html#ae0ba873153510ae5f84866577e86039b" title="Gets the downscale of printouts for this module." alt="" coords="668,95,910,123"/>
+<area shape="poly" id="edge80_Node000005_Node000061" title=" " alt="" coords="549,945,551,796,565,553,580,424,600,305,629,207,646,168,666,139,677,129,681,133,670,143,651,171,634,208,606,306,585,425,571,553,557,796,554,945"/>
+<area shape="rect" id="Node000007" href="$da/d29/classFun4AllServer.html#a04acbb1e2c50b32a997d2516f97697c1" title="Execute the InitRun phase for a SubsysReco module within its node directory." alt="" coords="1247,451,1500,479"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="880,502,957,494,1231,472,1232,477,958,500,880,508"/>
+<area shape="poly" id="edge24_Node000006_Node000008" title=" " alt="" coords="880,512,1158,516,1329,524,1501,538,1557,547,1556,552,1500,544,1329,529,1158,521,880,517"/>
+<area shape="rect" id="Node000009" href="$da/d29/classFun4AllServer.html#a9d3cdd0e26d8849bfd4652f20587e2df" title="Print information about components managed by Fun4AllServer." alt="" coords="1004,552,1153,580"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="873,527,989,548,988,553,872,533"/>
+<area shape="rect" id="Node000011" href="$da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0" title="Register a SubsysReco subsystem under a specified top node." alt="" coords="958,298,1199,325"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="808,499,956,392,1042,333,1045,337,959,396,811,503"/>
+<area shape="rect" id="Node000016" href="$da/d29/classFun4AllServer.html#a8fb8dce491234faae7834d4fba2c5598" title=" " alt="" coords="1286,399,1461,427"/>
+<area shape="poly" id="edge19_Node000006_Node000016" title=" " alt="" coords="835,499,957,466,1122,438,1271,420,1272,425,1123,444,958,472,836,504"/>
+<area shape="rect" id="Node000024" href="$da/d29/classFun4AllServer.html#a3a4e3f448388cb2e68b085e9038feaf8" title="Unregister and delete subsystems scheduled for removal." alt="" coords="986,655,1171,699"/>
+<area shape="poly" id="edge20_Node000006_Node000024" title=" " alt="" coords="817,528,1024,644,1022,649,814,532"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1443,477,1501,494,1555,518,1603,542,1601,547,1553,522,1499,499,1441,482"/>
+<area shape="rect" id="Node000010" href="$d5/d07/classPHNodeIterator.html#aec2fbc1e56be7e1a0b064ecde48edee5" title="Print the node currently pointed to by the iterator This comment was generated by openai/gpt&#45;oss&#45;120b..." alt="" coords="1294,552,1453,580"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1154,564,1278,564,1278,569,1154,569"/>
+<area shape="poly" id="edge16_Node000011_Node000004" title=" " alt="" coords="1083,296,1104,254,1138,195,1186,133,1214,105,1246,81,1284,65,1286,69,1248,86,1218,109,1190,137,1143,198,1108,256,1088,299"/>
+<area shape="poly" id="edge18_Node000011_Node000008" title=" " alt="" coords="1170,323,1375,358,1460,375,1502,385,1545,419,1581,460,1609,502,1629,537,1625,540,1605,505,1576,463,1541,423,1499,390,1459,380,1374,364,1169,329"/>
+<area shape="rect" id="Node000012" href="$da/d29/classFun4AllServer.html#a90e27f05f0b2e8b6fe462387b14bfb92" title="Construct a Fun4AllServer instance with the specified name." alt="" coords="1269,95,1478,123"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1099,295,1338,130,1341,134,1102,300"/>
+<area shape="rect" id="Node000022" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Get singleton instance of Fun4AllServer." alt="" coords="1554,95,1729,123"/>
+<area shape="poly" id="edge15_Node000011_Node000022" title=" " alt="" coords="1119,295,1585,126,1587,131,1120,300"/>
+<area shape="rect" id="Node000023" href="$d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8" title=" " alt="" coords="1310,298,1438,325"/>
+<area shape="poly" id="edge14_Node000011_Node000023" title=" " alt="" coords="1200,309,1294,309,1294,314,1200,314"/>
+<area shape="poly" id="edge17_Node000011_Node000016" title=" " alt="" coords="1112,324,1174,351,1248,378,1295,392,1293,397,1246,383,1172,356,1110,328"/>
+<area shape="poly" id="edge12_Node000012_Node000022" title=" " alt="" coords="1479,115,1539,115,1539,120,1479,120"/>
+<area shape="poly" id="edge13_Node000022_Node000012" title=" " alt="" coords="1554,103,1494,103,1494,97,1554,98"/>
+<area shape="poly" id="edge23_Node000024_Node000008" title=" " alt="" coords="1171,655,1246,640,1548,581,1549,586,1248,645,1172,660"/>
+<area shape="rect" id="Node000025" href="$da/d29/classFun4AllServer.html#a596005b9bc46ff6f5167378423248271" title="Update the event selector module indices in the output manager." alt="" coords="1272,655,1475,699"/>
+<area shape="poly" id="edge21_Node000024_Node000025" title=" " alt="" coords="1171,674,1257,674,1257,680,1171,680"/>
+<area shape="poly" id="edge22_Node000025_Node000008" title=" " alt="" coords="1450,651,1499,633,1599,585,1602,590,1501,638,1451,656"/>
+<area shape="poly" id="edge26_Node000028_Node000008" title=" " alt="" coords="821,320,940,276,1023,252,1116,232,1214,222,1314,224,1364,231,1412,243,1458,261,1502,284,1534,309,1560,339,1583,373,1601,409,1625,480,1638,537,1633,538,1620,481,1596,411,1578,376,1556,342,1530,313,1499,289,1456,266,1410,248,1362,237,1314,229,1215,227,1117,238,1024,257,942,281,823,325"/>
+<area shape="rect" id="Node000031" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="1321,1451,1426,1479"/>
+<area shape="poly" id="edge29_Node000030_Node000031" title=" " alt="" coords="1152,1581,1198,1567,1335,1485,1338,1490,1200,1571,1154,1586"/>
+<area shape="rect" id="Node000037" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="1286,1555,1461,1583"/>
+<area shape="poly" id="edge35_Node000030_Node000037" title=" " alt="" coords="1153,1586,1270,1576,1271,1581,1153,1592"/>
+<area shape="rect" id="Node000032" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="1548,1555,1735,1583"/>
+<area shape="poly" id="edge30_Node000031_Node000032" title=" " alt="" coords="1405,1477,1470,1507,1549,1540,1573,1548,1571,1553,1547,1545,1468,1512,1403,1482"/>
+<area shape="rect" id="Node000033" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="1555,1347,1728,1375"/>
+<area shape="poly" id="edge31_Node000031_Node000033" title=" " alt="" coords="1403,1448,1468,1418,1547,1385,1571,1377,1573,1382,1549,1390,1470,1422,1405,1453"/>
+<area shape="rect" id="Node000034" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="1563,1399,1720,1427"/>
+<area shape="poly" id="edge32_Node000031_Node000034" title=" " alt="" coords="1426,1452,1551,1428,1552,1433,1427,1457"/>
+<area shape="rect" id="Node000035" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="1552,1451,1731,1479"/>
+<area shape="poly" id="edge33_Node000031_Node000035" title=" " alt="" coords="1427,1462,1537,1462,1537,1468,1427,1468"/>
+<area shape="rect" id="Node000036" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="1551,1503,1732,1531"/>
+<area shape="poly" id="edge34_Node000031_Node000036" title=" " alt="" coords="1427,1473,1552,1497,1551,1502,1426,1478"/>
+<area shape="poly" id="edge69_Node000039_Node000008" title=" " alt="" coords="802,935,826,899,861,855,905,812,956,777,996,759,1034,747,1103,735,1167,735,1229,742,1290,749,1354,750,1423,739,1460,727,1499,709,1538,684,1571,653,1621,591,1625,595,1575,657,1541,688,1502,714,1462,732,1424,744,1354,755,1290,754,1228,748,1167,741,1103,740,1035,752,998,764,959,782,909,816,865,859,831,902,806,938"/>
+<area shape="poly" id="edge53_Node000039_Node000010" title=" " alt="" coords="793,936,809,876,840,795,862,752,888,710,920,672,956,640,996,629,1078,613,1278,579,1279,584,1079,618,997,634,959,645,923,676,893,714,867,755,845,797,814,877,798,937"/>
+<area shape="poly" id="edge67_Node000039_Node000024" title=" " alt="" coords="798,936,820,890,855,831,900,770,927,741,956,716,975,704,977,709,959,720,931,745,904,773,859,834,825,892,803,938"/>
+<area shape="rect" id="Node000040" href="$da/d29/classFun4AllServer.html#a6f3f13c3a8b5c29457e694ba910296aa" title="Count output nodes in a subtree." alt="" coords="968,998,1189,1025"/>
+<area shape="poly" id="edge38_Node000039_Node000040" title=" " alt="" coords="874,972,983,992,982,997,874,977"/>
+<area shape="rect" id="Node000045" href="$d0/d5e/classPHTimer.html#aee124cb440b1f7ca8bc8f2ffa596e2da" title="retrieve elapsed value since last restart (in ms)" alt="" coords="1306,796,1442,824"/>
+<area shape="poly" id="edge44_Node000039_Node000045" title=" " alt="" coords="805,935,831,905,866,869,909,836,957,811,999,797,1043,788,1133,781,1218,783,1290,792,1290,797,1217,789,1133,786,1044,793,1000,802,959,815,912,840,870,873,835,908,809,939"/>
+<area shape="rect" id="Node000046" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="1283,1082,1464,1109"/>
+<area shape="poly" id="edge45_Node000039_Node000046" title=" " alt="" coords="845,980,879,1000,912,1026,927,1048,934,1069,941,1088,959,1104,982,1113,1013,1118,1092,1121,1181,1116,1267,1108,1267,1113,1182,1122,1092,1126,1012,1123,981,1118,956,1109,937,1091,929,1071,922,1050,908,1029,876,1005,842,985"/>
+<area shape="rect" id="Node000017" href="$d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e" title=" " alt="" coords="1005,1049,1152,1094"/>
+<area shape="poly" id="edge49_Node000039_Node000017" title=" " alt="" coords="836,980,894,1008,959,1034,991,1046,989,1051,957,1039,892,1012,834,985"/>
+<area shape="rect" id="Node000048" href="$da/d29/classFun4AllServer.html#a92c6fe0e0c19c48d2b1f9d0f63c12bbe" title="Recursively set all nodes under startNode to transient state." alt="" coords="1276,1157,1471,1202"/>
+<area shape="poly" id="edge50_Node000039_Node000048" title=" " alt="" coords="853,980,884,1000,912,1026,926,1051,932,1076,931,1123,930,1146,932,1167,941,1187,959,1205,980,1216,1010,1222,1086,1223,1175,1215,1260,1201,1261,1206,1175,1220,1087,1229,1009,1227,979,1221,956,1210,937,1190,927,1168,924,1146,925,1123,927,1077,921,1053,908,1029,881,1004,850,985"/>
+<area shape="poly" id="edge54_Node000039_Node000050" title=" " alt="" coords="854,980,885,1000,912,1026,929,1057,935,1087,935,1115,933,1143,930,1170,932,1197,940,1223,960,1250,971,1260,968,1264,956,1253,936,1225,926,1198,925,1170,927,1143,930,1115,930,1087,924,1059,908,1029,882,1004,851,985"/>
+<area shape="rect" id="Node000054" href="$d0/d5e/classPHTimer.html#a433d96c3401380d49ff01acfd16ac69c" title="Restart timer." alt="" coords="1014,1168,1142,1196"/>
+<area shape="poly" id="edge63_Node000039_Node000054" title=" " alt="" coords="850,980,882,1000,912,1026,923,1043,930,1059,934,1091,940,1120,947,1134,959,1148,979,1161,1000,1170,998,1175,976,1166,956,1152,942,1137,935,1122,929,1091,925,1061,919,1045,908,1029,879,1004,847,985"/>
+<area shape="rect" id="Node000020" href="$d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb" title="Record memory usage statistics for the current event to the configured output file." alt="" coords="1005,825,1152,870"/>
+<area shape="poly" id="edge64_Node000039_Node000020" title=" " alt="" coords="834,934,892,907,957,880,989,869,991,874,959,885,894,912,836,939"/>
+<area shape="rect" id="Node000055" href="$d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41" title="stops the counter" alt="" coords="1022,894,1135,921"/>
+<area shape="poly" id="edge65_Node000039_Node000055" title=" " alt="" coords="874,942,1006,918,1007,923,874,947"/>
+<area shape="rect" id="Node000056" href="$da/d29/classFun4AllServer.html#a79eb72f31d3c5b7c0a6db8943de5a13d" title="Update run node for all registered subsystems and accumulate return codes." alt="" coords="966,946,1191,973"/>
+<area shape="poly" id="edge68_Node000039_Node000056" title=" " alt="" coords="874,957,950,957,950,962,874,962"/>
+<area shape="rect" id="Node000041" href="$da/d29/classFun4AllServer.html#a3654ebdcb099bcc5c820df6d4952663c" title="Recursively count leaf nodes under a composite node." alt="" coords="1263,989,1484,1034"/>
+<area shape="poly" id="edge39_Node000040_Node000041" title=" " alt="" coords="1189,1009,1247,1009,1247,1014,1189,1014"/>
+<area shape="poly" id="edge43_Node000041_Node000008" title=" " alt="" coords="1419,987,1460,959,1498,922,1527,881,1552,836,1591,744,1617,659,1632,595,1637,596,1622,660,1596,746,1557,839,1531,884,1502,925,1464,963,1422,991"/>
+<area shape="poly" id="edge40_Node000041_Node000041" title=" " alt="" coords="1323,989,1321,979,1330,970,1347,965,1374,963,1402,965,1420,972,1418,977,1401,970,1374,968,1349,970,1333,975,1326,981,1328,988"/>
+<area shape="rect" id="Node000042" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="1571,1082,1712,1109"/>
+<area shape="poly" id="edge41_Node000041_Node000042" title=" " alt="" coords="1462,1032,1501,1044,1588,1074,1587,1079,1500,1049,1460,1037"/>
+<area shape="rect" id="Node000043" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1575,1166,1708,1193"/>
+<area shape="poly" id="edge42_Node000041_Node000043" title=" " alt="" coords="1482,1032,1502,1044,1520,1062,1528,1081,1536,1100,1550,1119,1574,1139,1599,1155,1596,1160,1571,1143,1546,1123,1531,1102,1523,1083,1515,1065,1499,1048,1479,1037"/>
+<area shape="poly" id="edge47_Node000046_Node000042" title=" " alt="" coords="1465,1093,1555,1093,1555,1098,1465,1098"/>
+<area shape="poly" id="edge48_Node000046_Node000043" title=" " alt="" coords="1459,1108,1501,1118,1598,1156,1596,1161,1500,1124,1458,1113"/>
+<area shape="poly" id="edge46_Node000046_Node000046" title=" " alt="" coords="1328,1083,1321,1073,1327,1063,1345,1057,1374,1055,1405,1058,1422,1064,1420,1069,1404,1063,1374,1060,1346,1062,1330,1067,1326,1073,1333,1080"/>
+<area shape="poly" id="edge51_Node000048_Node000043" title=" " alt="" coords="1472,1177,1560,1177,1560,1182,1472,1182"/>
+<area shape="poly" id="edge52_Node000048_Node000048" title=" " alt="" coords="1323,1157,1321,1147,1330,1138,1347,1133,1374,1131,1402,1133,1420,1140,1418,1145,1401,1138,1374,1136,1349,1138,1333,1143,1326,1149,1328,1156"/>
+<area shape="poly" id="edge61_Node000050_Node000008" title=" " alt="" coords="1116,1267,1159,1243,1180,1226,1197,1206,1214,1172,1221,1140,1221,1109,1218,1079,1215,1048,1216,1017,1225,985,1245,951,1274,921,1305,903,1336,893,1368,887,1400,882,1433,874,1465,859,1499,834,1524,806,1547,775,1585,708,1612,645,1630,594,1635,596,1617,647,1590,711,1552,778,1528,809,1502,838,1468,864,1435,879,1401,887,1369,892,1338,898,1307,908,1278,925,1249,955,1230,987,1221,1018,1220,1048,1223,1078,1227,1109,1226,1141,1219,1174,1201,1209,1184,1230,1162,1247,1119,1272"/>
+<area shape="rect" id="Node000051" href="$d5/d07/classPHNodeIterator.html#a63d6c37796624455366e84ee121bb251" title="Change current node according to a node tree path string." alt="" coords="1302,1226,1446,1253"/>
+<area shape="poly" id="edge55_Node000050_Node000051" title=" " alt="" coords="1176,1267,1286,1250,1287,1255,1176,1272"/>
+<area shape="rect" id="Node000052" href="$d5/d07/classPHNodeIterator.html#afeaefab44bf0ab15a439926205924f19" title="Apply given PHNodeOperation to current node and all descendant nodes recursively." alt="" coords="1284,1302,1463,1329"/>
+<area shape="poly" id="edge58_Node000050_Node000052" title=" " alt="" coords="1188,1293,1269,1302,1269,1307,1187,1298"/>
+<area shape="rect" id="Node000053" href="$db/d8e/classPHNodeOperation.html#a641fdf1094ec15063171e199a4066a0d" title=" " alt="" coords="1270,1354,1477,1381"/>
+<area shape="poly" id="edge62_Node000050_Node000053" title=" " alt="" coords="1163,1295,1200,1308,1224,1323,1248,1339,1271,1347,1269,1352,1246,1343,1222,1328,1198,1313,1161,1301"/>
+<area shape="poly" id="edge56_Node000051_Node000042" title=" " alt="" coords="1446,1231,1473,1224,1499,1212,1515,1199,1523,1185,1532,1169,1547,1152,1598,1115,1601,1120,1550,1156,1536,1172,1528,1188,1519,1202,1502,1217,1475,1229,1447,1237"/>
+<area shape="poly" id="edge57_Node000051_Node000043" title=" " alt="" coords="1445,1223,1500,1212,1569,1195,1570,1200,1501,1217,1447,1228"/>
+<area shape="poly" id="edge60_Node000052_Node000043" title=" " alt="" coords="1414,1299,1499,1263,1556,1231,1605,1200,1608,1205,1558,1236,1502,1267,1416,1304"/>
+<area shape="poly" id="edge59_Node000052_Node000052" title=" " alt="" coords="1328,1303,1321,1293,1327,1283,1345,1277,1374,1275,1405,1278,1422,1284,1420,1289,1404,1283,1374,1280,1346,1282,1330,1287,1326,1293,1333,1300"/>
+<area shape="poly" id="edge66_Node000055_Node000045" title=" " alt="" coords="1135,895,1198,880,1267,855,1327,829,1330,834,1269,860,1200,885,1136,901"/>
+<area shape="poly" id="edge72_Node000057_Node000029" title=" " alt="" coords="834,1396,957,1360,995,1350,996,1356,958,1365,836,1401"/>
+<area shape="poly" id="edge76_Node000057_Node000038" title=" " alt="" coords="871,1403,984,1393,985,1398,872,1408"/>
+<area shape="rect" id="Node000058" href="$d1/da8/classPHFlag.html#a71de108d2dfd732b6dddf097d2bb728e" title="Retrieve a 64bit flag value by name." alt="" coords="992,1426,1164,1453"/>
+<area shape="poly" id="edge73_Node000057_Node000058" title=" " alt="" coords="872,1418,977,1428,977,1433,871,1423"/>
+<area shape="rect" id="Node000059" href="$d1/da8/classPHFlag.html#a3ef5c3f1eff2daaaf18e5129858a9ef8" title="Set integer flag identified by name." alt="" coords="1005,1478,1152,1505"/>
+<area shape="poly" id="edge77_Node000057_Node000059" title=" " alt="" coords="834,1425,958,1462,994,1471,992,1476,957,1468,833,1430"/>
+<area shape="rect" id="Node000060" href="$d1/da8/classPHFlag.html#a733d8e142fd24cf8e7ce1ba497c8ffcd" title="Set a 64‑bit unsigned integer flag in the internal flag map." alt="" coords="993,1530,1164,1557"/>
+<area shape="poly" id="edge78_Node000057_Node000060" title=" " alt="" coords="810,1425,874,1469,915,1494,959,1515,982,1523,980,1528,957,1519,913,1498,871,1474,807,1430"/>
+<area shape="poly" id="edge74_Node000058_Node000031" title=" " alt="" coords="1165,1444,1306,1457,1305,1462,1165,1450"/>
+<area shape="poly" id="edge75_Node000058_Node000037" title=" " alt="" coords="1161,1451,1200,1464,1265,1498,1339,1545,1336,1549,1262,1503,1198,1469,1160,1457"/>
+</map>

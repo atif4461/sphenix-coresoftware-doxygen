@@ -1,0 +1,16 @@
+digraph "MvtxPixelDefs::get_hitsetkey"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MvtxPixelDefs::get\l_hitsetkey",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute the hitset key from a pixel key."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MvtxPixelDefs::get_chip",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d69/namespaceMvtxPixelDefs.html#ae60ab97909d8fa0538d674a6ce4e6893",tooltip="Retrieve chip identifier from a pixel key."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MvtxPixelDefs::get\l_layer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d69/namespaceMvtxPixelDefs.html#a4c602f87af70a3178de334f1de3ce09f",tooltip="Retrieve the detector layer index for a given pixel key."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="MvtxPixelDefs::get\l_stave",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d69/namespaceMvtxPixelDefs.html#a0aac2ad1e79daba6c29505c9bccaf995",tooltip="Retrieve stave identifier from a pixel key."];
+}

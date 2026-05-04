@@ -1,0 +1,14 @@
+digraph "mvtx_pool::get_verbosity"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="mvtx_pool::get_verbosity",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="mvtx_pool::addPacket",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d28/classmvtx__pool.html#a104ae9225876cffa2db270a30f866347",tooltip="Add a new data packet to the MVTX pool and prepare internal structures for decoding."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="mvtx_pool::~mvtx_pool",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d28/classmvtx__pool.html#aae99b14bba74121a9c72139d7c566bb6",tooltip="Destructor releases resources held by mvtx_pool Clears all GBT link data and statistics and empties f..."];
+}

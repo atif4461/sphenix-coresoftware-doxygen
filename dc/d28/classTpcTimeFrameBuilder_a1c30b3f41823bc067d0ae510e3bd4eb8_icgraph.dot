@@ -1,0 +1,12 @@
+digraph "TpcTimeFrameBuilder::process_fee_data"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TpcTimeFrameBuilder\l::process_fee_data",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Process raw FEE data for a given front end electronics identifier."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcTimeFrameBuilder\l::ProcessPacket",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d28/classTpcTimeFrameBuilder.html#a7d2e6e87d82ad40784e4e4078d9b4e50",tooltip="Process a raw data packet and fill time frames."];
+}

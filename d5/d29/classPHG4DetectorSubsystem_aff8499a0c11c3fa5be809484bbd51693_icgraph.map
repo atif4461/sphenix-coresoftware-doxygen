@@ -1,0 +1,43 @@
+<map id="PHG4DetectorSubsystem::set_default_int_param" name="PHG4DetectorSubsystem::set_default_int_param">
+<area shape="rect" id="Node000001" title="Set a default integer parameter for the subsystem." alt="" coords="604,611,789,655"/>
+<area shape="rect" id="Node000002" href="$d5/d29/classPHG4DetectorSubsystem.html#add5cbb7bd43524ba72079425ca230200" title="Initialize default parameters for the detector subsystem and load them into the parameter container." alt="" coords="363,576,548,621"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="588,620,548,614,549,609,589,615"/>
+<area shape="rect" id="Node000021" href="$d5/d22/classPHG4TpcEndCapSubsystem.html#a30c57dccc868c2ea4a9b227a3b6d5ad5" title="Initialize default geometry, material, and electronics parameters for the TPC endcap subsystem." alt="" coords="355,645,556,690"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="589,651,557,656,556,651,588,646"/>
+<area shape="rect" id="Node000003" href="$dd/d2a/classBeamLineMagnetSubsystem.html#a81aac0de19ec7176d33ddb39fb90cc74" title="constructor" alt="" coords="48,5,264,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,561,427,447,397,297,377,223,355,155,331,101,305,64,285,50,263,40,265,35,288,45,309,60,335,98,360,154,382,221,402,296,433,446,451,560"/>
+<area shape="rect" id="Node000004" href="$d4/dd0/classPHG4BbcSubsystem.html#a805d6225fd5529b3fa9433b4781f0b58" title="constructor" alt="" coords="45,75,267,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="451,561,445,473,437,417,424,358,406,296,380,237,347,182,305,134,287,120,266,111,268,106,290,116,308,130,351,178,385,234,411,295,429,356,442,416,450,473,457,561"/>
+<area shape="rect" id="Node000005" href="$d5/de1/classPHG4BeamlineMagnetSubsystem.html#a1a44a5cf97aea38bbaafb847dece2d60" title="constructor" alt="" coords="32,144,280,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="449,561,439,485,415,388,396,337,372,288,342,242,305,203,279,186,282,182,308,199,346,239,377,285,401,335,420,386,444,484,454,560"/>
+<area shape="rect" id="Node000006" href="$df/d14/classPHG4BlockSubsystem.html#a3bf2869242b9ae6c02f4944f33ac0414" title="constructor" alt="" coords="69,213,243,258"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="446,561,431,497,405,419,386,379,364,339,337,304,305,272,276,255,242,244,244,239,278,250,308,268,341,300,368,337,391,376,410,417,436,496,451,560"/>
+<area shape="rect" id="Node000007" href="$d8/d6e/classPHG4ConeSubsystem.html#a261c476e9aa697ece6cf6d3ad9e0e2e6" title="constructor" alt="" coords="71,283,241,327"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="441,562,422,511,394,451,355,392,332,365,305,342,275,325,241,315,242,310,277,320,308,337,335,361,360,388,399,449,427,509,446,560"/>
+<area shape="rect" id="Node000008" href="$db/dc5/classPHG4CylinderSubsystem.html#a81c0259c25d0c8a1083467fe316b2124" title="constructor" alt="" coords="60,352,252,397"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="433,563,412,527,383,485,347,445,305,411,279,398,251,389,253,384,281,393,308,407,351,441,387,482,416,524,438,561"/>
+<area shape="rect" id="Node000009" href="$d2/d10/classPHG4EPDSubsystem.html#abda9cfb49b802aa388fdc02a316314e6" title="Construct a PHG4EPDSubsystem with the given name." alt="" coords="7,420,305,448"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="426,566,374,511,341,484,305,462,278,451,280,446,308,457,344,480,378,507,430,562"/>
+<area shape="rect" id="Node000010" href="$df/db1/classPHG4GDMLSubsystem.html#aa8c9b5996710a4b8f062873a91bc8e40" title="Constructor for GDML subsystem." alt="" coords="68,472,244,517"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="397,571,306,532,244,514,245,509,308,526,399,566"/>
+<area shape="rect" id="Node000011" href="$df/d6e/classPHG4IHCalSubsystem.html#a35cbd424d340141298feff7bcbd52e8b" title="constructor" alt="" coords="70,541,242,586"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="347,588,242,576,243,571,347,583"/>
+<area shape="rect" id="Node000012" href="$d3/d62/classPHG4InnerHcalSubsystem.html#ad0ce1146025c8cadbb642b3e5ec5c01b" title="constructor" alt="" coords="56,611,256,655"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="348,613,256,624,256,619,347,608"/>
+<area shape="rect" id="Node000013" href="$dc/df8/classPHG4MicromegasSubsystem.html#aaca9297d310d1b05cc81d10533abecb5" title="constructor" alt="" coords="47,680,265,725"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="368,629,356,635,332,653,308,670,266,685,264,680,305,665,329,649,353,631,366,625"/>
+<area shape="rect" id="Node000014" href="$d0/df4/classPHG4OHCalSubsystem.html#a557486c8c3de2b3179308fb26beb7c17" title="constructor" alt="" coords="67,749,245,794"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="361,631,357,635,346,647,339,660,334,686,328,713,321,726,308,739,279,757,246,767,245,762,277,752,305,735,316,723,323,711,329,685,334,658,341,644,353,631,357,627"/>
+<area shape="rect" id="Node000015" href="$da/d01/classPHG4OuterHcalSubsystem.html#a9ad0ce24ccd5628dbd30046652b2fe65" title="constructor" alt="" coords="55,819,257,863"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="359,632,357,635,342,656,335,677,334,721,333,765,325,787,309,808,285,825,259,836,257,831,283,820,305,804,321,784,328,764,329,721,330,676,337,654,353,631,355,629"/>
+<area shape="rect" id="Node000016" href="$d6/dca/classPHG4SpacalSubsystem.html#a7c90360da3a93efef9f343c0b6a83140" title="constructor" alt="" coords="66,888,246,933"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="359,633,357,635,337,665,330,695,331,725,335,755,339,786,339,816,330,847,309,878,280,898,248,909,246,904,278,893,305,874,325,845,334,816,334,786,330,756,325,726,325,695,333,663,353,631,355,629"/>
+<area shape="rect" id="Node000017" href="$df/d1b/classPHG4sPHENIXMagnetSubsystem.html#a614c5761907ee6b805052890af3db704" title="constructor" alt="" coords="35,957,277,1002"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="358,633,357,635,343,655,333,674,325,713,328,752,335,790,343,829,344,868,335,907,324,927,309,947,279,968,276,964,305,943,320,924,330,906,339,868,337,830,330,791,323,752,320,713,328,672,338,652,353,631,354,630"/>
+<area shape="rect" id="Node000018" href="$d5/d22/classPHG4TpcEndCapSubsystem.html#a869e6f36f640907c10563ccd70d0279d" title="constructor" alt="" coords="51,1027,261,1071"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="358,633,357,635,340,659,329,683,323,707,321,731,325,778,336,825,346,873,350,920,347,944,340,968,327,992,309,1016,287,1033,262,1045,260,1040,284,1029,305,1012,323,989,335,966,342,943,345,920,341,873,331,826,320,779,315,731,318,706,324,681,335,656,353,631,354,630"/>
+<area shape="rect" id="Node000019" href="$d7/d0d/classPHG4TpcSubsystem.html#ad53d739f799ea50d309fadebdac9bcab" title="constructor" alt="" coords="46,1096,266,1141"/>
+<area shape="poly" id="edge18_Node000002_Node000019" title=" " alt="" coords="358,633,357,635,337,664,325,692,318,721,316,749,322,805,336,860,350,916,356,972,353,1000,344,1028,330,1057,309,1085,290,1102,267,1112,265,1108,287,1097,305,1082,326,1054,339,1026,347,999,350,972,345,917,331,862,317,806,310,749,313,720,320,691,333,661,353,631,354,630"/>
+<area shape="rect" id="Node000020" href="$d1/d66/classPHG4ZDCSubsystem.html#a88fff62c13b0dd234622a3b95ecaafc5" title="Construct ZDC subsystem with given name and layer." alt="" coords="5,1164,307,1192"/>
+<area shape="poly" id="edge19_Node000002_Node000020" title=" " alt="" coords="358,633,357,635,346,654,338,679,331,741,332,815,336,895,340,975,340,1049,331,1111,322,1135,309,1155,295,1166,292,1162,305,1151,317,1133,326,1109,335,1049,335,975,331,896,326,815,325,741,333,678,341,652,352,631,354,630"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="AnnularFieldSim::populate_lookup" name="AnnularFieldSim::populate_lookup">
+<area shape="rect" id="Node000001" title="Populate field lookup tables according to the selected lookup case." alt="" coords="5,109,198,154"/>
+<area shape="rect" id="Node000002" href="$de/d64/classAnnularFieldSim.html#a0860caf13830e3b6ffb63477e5d5d90d" title="Populate the full 3‑D lookup table of unit electric field contributions." alt="" coords="246,5,438,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,107,245,60,260,53,262,58,247,65,148,111"/>
+<area shape="rect" id="Node000006" href="$de/d64/classAnnularFieldSim.html#a2bc090942421a5a9f185be13f2689d5a" title="Populate high resolution lookup table for field contributions." alt="" coords="246,144,438,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="199,143,231,148,230,153,198,148"/>
+<area shape="rect" id="Node000008" href="$de/d64/classAnnularFieldSim.html#a8fcaff1d1d774fba15565f6990077ea0" title="Populate low resolution lookup table for annular field simulation." alt="" coords="246,213,438,258"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="148,152,247,199,262,205,260,210,245,203,146,157"/>
+<area shape="rect" id="Node000010" href="$de/d64/classAnnularFieldSim.html#a266e4d2f962db9ca8c4ff25d6a34a574" title="Populate phi slice lookup table for the annular field simulation The routine iterates over all field ..." alt="" coords="246,75,438,119"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="198,115,230,110,231,116,199,120"/>
+<area shape="rect" id="Node000003" href="$de/d64/classAnnularFieldSim.html#aba83c13891c05b283eebd23b347a8c2b" title="Compute the electric field vector at a given position due to a point charge." alt="" coords="504,75,665,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,48,490,67,489,73,422,53"/>
+<area shape="rect" id="Node000005" href="$de/d64/classAnnularFieldSim.html#a9c93ebfb51787f51897612bf70cdc9fa" title="returns the geometric midpoint of a calorimeter cell specified by integer indices" alt="" coords="493,5,676,50"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="438,25,477,25,477,30,438,30"/>
+<area shape="rect" id="Node000004" href="$de/d64/classAnnularFieldSim.html#a89886f51584b79fee6e61ca60e353545" title="Map an azimuthal angle to the positive range [0, 2π)." alt="" coords="731,83,943,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="666,94,716,94,716,100,666,100"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="422,141,489,121,490,127,424,146"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="418,141,436,130,452,113,460,96,468,78,484,60,491,56,494,60,488,64,472,81,464,98,456,116,440,134,421,146"/>
+<area shape="rect" id="Node000007" href="$de/d64/classAnnularFieldSim.html#a6dd7179752785a749194d619b7c0dd7b" title="Adjust phi index to lie within specified range using periodic wrap." alt="" coords="490,144,679,189"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="438,164,475,164,475,169,438,169"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="418,210,436,199,452,182,460,165,468,147,484,130,491,125,494,129,488,134,472,150,464,167,456,185,440,203,421,215"/>
+<area shape="rect" id="Node000009" href="$de/d64/classAnnularFieldSim.html#aa3b4e8df7cf7fd8b70640312db83198e" title="Compute geometric center of a group of cells in annular field geometry." alt="" coords="486,213,683,258"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="438,233,470,233,470,238,438,238"/>
+<area shape="poly" id="edge13_Node000010_Node000003" title=" " alt="" coords="438,94,489,94,489,100,438,100"/>
+<area shape="poly" id="edge14_Node000010_Node000005" title=" " alt="" coords="422,71,489,52,490,57,424,77"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="PHG4SectorDetector::ConstructMe" name="PHG4SectorDetector::ConstructMe">
+<area shape="rect" id="Node000001" title="construct" alt="" coords="5,144,160,189"/>
+<area shape="rect" id="Node000002" href="$dc/dbd/classPHG4Sector_1_1PHG4SectorConstructor.html#a32148930b4fecf8ca0972b0cc083584e" title="Construct the sector geometry, register logical and physical volumes, and place them into the provide..." alt="" coords="208,144,466,189"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,164,192,164,192,169,160,169"/>
+<area shape="rect" id="Node000003" href="$dc/dbd/classPHG4Sector_1_1PHG4SectorConstructor.html#aa12837d37f2388c2ecd69bca431a7ad6" title="Construct a sector solid for a planar detector geometry." alt="" coords="514,5,772,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="369,141,434,100,513,60,531,53,533,58,515,65,437,105,372,146"/>
+<area shape="rect" id="Node000004" href="$d3/de7/classPHG4Detector.html#a8e548682ab05493f7cdbd391bc4f67be" title="Retrieve a G4Material by name, optionally aborting on failure." alt="" coords="543,75,743,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="438,141,527,120,528,126,439,146"/>
+<area shape="rect" id="Node000005" href="$dc/dbd/classPHG4Sector_1_1PHG4SectorConstructor.html#a428c8556675e473c794695fc529763a2" title="Register a logical volume in the internal map." alt="" coords="514,144,772,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="467,164,498,164,498,169,467,169"/>
+<area shape="rect" id="Node000009" href="$dc/dbd/classPHG4Sector_1_1PHG4SectorConstructor.html#a5b1a0aad74e4c322c48abeb5d3f422c2" title="Register a physical volume in the sector constructor." alt="" coords="514,213,772,258"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="439,187,527,207,526,212,438,192"/>
+<area shape="rect" id="Node000010" href="$dc/dbd/classPHG4Sector_1_1PHG4SectorConstructor.html#aa8cb91bd279ecaca8de182edf8ccdac0" title=" " alt="" coords="514,283,772,327"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="372,187,437,228,515,268,533,275,531,280,513,273,434,232,369,191"/>
+<area shape="rect" id="Node000006" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="820,222,859,250"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="739,187,773,199,807,215,805,219,771,203,738,192"/>
+<area shape="poly" id="edge9_Node000006_Node000006" title=" " alt="" coords="820,222,817,213,820,204,827,197,840,195,852,198,859,204,856,208,850,203,840,200,830,202,824,207,823,213,825,220"/>
+<area shape="rect" id="Node000007" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="907,222,980,250"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="859,233,891,233,891,238,859,238"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="924,222,921,213,924,204,931,197,943,195,956,198,963,204,960,208,954,203,943,200,933,202,928,207,927,213,929,220"/>
+<area shape="rect" id="Node000008" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="1028,222,1094,250"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="981,233,1013,233,1013,238,981,238"/>
+<area shape="poly" id="edge11_Node000009_Node000006" title=" " alt="" coords="773,233,805,233,805,238,773,238"/>
+<area shape="poly" id="edge13_Node000010_Node000006" title=" " alt="" coords="738,280,771,268,805,252,807,257,773,273,739,285"/>
+</map>

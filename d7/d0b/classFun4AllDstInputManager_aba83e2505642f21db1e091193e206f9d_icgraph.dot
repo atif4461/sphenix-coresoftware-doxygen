@@ -1,0 +1,21 @@
+digraph "Fun4AllDstInputManager::fileclose"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Fun4AllDstInputManager\l::fileclose",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Close the currently opened input file and clean up associated resources."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllDstInputManager\l::fileopen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#aadb10857043e34f5fbcf7933bcee9fcc",tooltip="Open a DST file for reading and initialize run and event nodes."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Fun4AllRunNodeInputManager\l::fileopen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/ddf/classFun4AllRunNodeInputManager.html#ab7cae97f20caa68c3db1519d0353aaf0",tooltip="Open a run node input file and load the corresponding run node into the top node."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Fun4AllDstInputManager\l::ReadNextEventSyncObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#ade26017b627e0e1f1ec0dec62ac7fd52",tooltip="Read next event synchronization object from the current input file."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Fun4AllDstInputManager\l::SyncIt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#af9bf89898ad4c726ccdc03901ed44608",tooltip="Synchronize current file with master sync object."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Fun4AllDstInputManager::run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#af2c20145c70376bd115a7d92273c972c",tooltip="Run input manager to read events up to nevents from current or next file."];
+  Node1 -> Node5 [id="edge6_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

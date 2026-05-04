@@ -1,0 +1,10 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="PHG4CylinderGeom_Spacalv3\l::scint_id_coder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d52/classPHG4CylinderGeom__Spacalv3_1_1scint__id__coder.html",tooltip="compact ID of each fiber in 32bit PHG4Hit::set_scint_id(). Buffer the result for repeated use."];
+}

@@ -1,0 +1,14 @@
+digraph "Shifter::ShiftForward"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Shifter::ShiftForward",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Apply forward shift to input position using distortion and correction histograms."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="fillSpaceChargeMaps\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d06/classfillSpaceChargeMaps.html#a48ac84d6031db20f9a6b669be7439d78",tooltip="Process a single event within the Fun4All framework."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Shifter::Shift",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d2f/classShifter.html#a31ec80358bfde9dcd9d82e54c82fe3a9",tooltip="Apply forward then backward shift to a position vector."];
+}

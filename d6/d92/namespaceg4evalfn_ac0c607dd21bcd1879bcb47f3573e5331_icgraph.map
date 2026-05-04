@@ -1,0 +1,15 @@
+<map id="g4evalfn::trklayer_det" name="g4evalfn::trklayer_det">
+<area shape="rect" id="Node000001" title="Return detector identifier for a given tracking layer index." alt="" coords="605,114,771,142"/>
+<area shape="rect" id="Node000002" href="$d6/d92/namespaceg4evalfn.html#ab82ad03c0a586d87c3212fb1886d0fb8" title="Calculate a matching statistic between a truth and a reconstructed cluster." alt="" coords="394,5,555,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="645,109,556,65,530,53,532,48,558,60,647,104"/>
+<area shape="rect" id="Node000005" href="$d7/d24/classTrkrClusterIsMatcher.html#a9c7b195a3eefe0d260afb31a1008f300" title="Determines whether a truth cluster matches a reconstructed cluster using detector specific tolerances..." alt="" coords="397,75,552,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="590,116,552,111,553,106,590,111"/>
+<area shape="rect" id="Node000006" href="$d6/d92/namespaceg4evalfn.html#ad2e08daa1c06a0243b97e2c75f1f5d77" title="Return detector identifier for a given cluster key." alt="" coords="392,143,557,171"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="590,144,558,148,558,143,590,138"/>
+<area shape="rect" id="Node000007" href="$d6/d92/namespaceg4evalfn.html#a90b007a41533bdad6cb6eef4c7bed379" title="Return detector identifier for a given hitset key." alt="" coords="392,195,557,223"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="642,151,558,185,523,197,521,192,556,180,640,146"/>
+<area shape="rect" id="Node000003" href="$d6/ded/classTrackClusEvaluator.html#a1c5384a4d108de735e24be70206d2408" title="Find matches between PHG4 and SVTX clusters using the configured matcher." alt="" coords="199,5,344,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,30,344,30,344,25,379,25"/>
+<area shape="rect" id="Node000004" href="$d6/ded/classTrackClusEvaluator.html#a79a273ff66af2f762ba4452f7b53e0f2" title="Evaluate cluster level correspondence between a Geant4 truth track and a reconstructed SVTX track." alt="" coords="5,5,151,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="183,30,151,30,151,25,183,25"/>
+</map>

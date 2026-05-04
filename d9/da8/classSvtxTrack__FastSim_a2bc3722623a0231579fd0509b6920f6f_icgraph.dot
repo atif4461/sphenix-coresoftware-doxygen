@@ -1,0 +1,20 @@
+digraph "SvtxTrack_FastSim::CopyFrom"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTrack_FastSim::\lCopyFrom",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Copy data from another SvtxTrack into this FastSim track."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrack_FastSim::\lCopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/da8/classSvtxTrack__FastSim.html#a303969738d68c8080240d1d41ad246e2",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxTrack_FastSim_v1\l::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d68/classSvtxTrack__FastSim__v1.html#a38487e81fc82621a7455649811c2015f",tooltip="Copy data from source track."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SvtxTrack_FastSim_v1\l::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d68/classSvtxTrack__FastSim__v1.html#a66db827fc6c3c87e82eedda4e3c57626",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SvtxTrack_FastSim_v1\l::SvtxTrack_FastSim_v1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d68/classSvtxTrack__FastSim__v1.html#a94b25df99dacff4dabf7442282a9a087",tooltip="Construct a fast simulation track from an existing SvtxTrack."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SvtxTrack_FastSim::\lSvtxTrack_FastSim",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/da8/classSvtxTrack__FastSim.html#adb2b83ccc7650e24bb8721167f777a8b",tooltip="Construct a fast simulation track from a source SvtxTrack."];
+}

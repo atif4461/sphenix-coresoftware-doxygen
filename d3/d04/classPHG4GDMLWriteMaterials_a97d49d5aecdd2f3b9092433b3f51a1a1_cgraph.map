@@ -1,0 +1,50 @@
+<map id="PHG4GDMLWriteMaterials::ElementWrite" name="PHG4GDMLWriteMaterials::ElementWrite">
+<area shape="rect" id="Node000001" title="Write GDML element definition for a G4Element." alt="" coords="5,334,197,379"/>
+<area shape="rect" id="Node000002" href="$d3/d04/classPHG4GDMLWriteMaterials.html#afa5d6506fda575a7ebe232b35eac3412" title="Add an isotope to the internal list if not already present and write its definition." alt="" coords="245,334,436,379"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,354,229,354,229,359,197,359"/>
+<area shape="rect" id="Node000004" href="$d3/d04/classPHG4GDMLWriteMaterials.html#a2b0f79e7a135e1e204a49efc3379caaa" title="Write atom element with atomic weight to GDML material node." alt="" coords="746,284,938,328"/>
+<area shape="poly" id="edge28_Node000001_Node000004" title=" " alt="" coords="183,331,244,319,374,306,506,300,730,299,730,305,506,305,375,311,245,324,184,336"/>
+<area shape="rect" id="Node000015" href="$dd/db5/classPHG4GDMLWrite.html#afe96dc9fdc7c1a0a1a96b59dc15dffa2" title="Create a new DOM attribute with the specified name and value." alt="" coords="1009,220,1233,248"/>
+<area shape="poly" id="edge30_Node000001_Node000015" title=" " alt="" coords="146,331,192,310,244,293,343,269,446,251,549,239,651,230,840,223,993,225,993,230,840,228,651,235,550,244,447,257,345,274,245,298,194,315,148,336"/>
+<area shape="rect" id="Node000016" href="$dd/db5/classPHG4GDMLWrite.html#ada0a5579d406ec27f3150711ab83becc" title="Create a new XML element with the specified name." alt="" coords="1010,352,1232,380"/>
+<area shape="poly" id="edge31_Node000001_Node000016" title=" " alt="" coords="148,377,194,397,245,413,444,456,526,471,603,479,679,480,761,475,853,461,960,439,994,429,1027,416,1083,386,1086,391,1029,421,996,434,961,444,854,466,762,480,680,486,602,484,525,476,443,462,244,418,192,402,146,382"/>
+<area shape="rect" id="Node000017" href="$dd/db5/classPHG4GDMLWrite.html#a16834147e17b47595b04d27a49405198" title="Generate a sanitized name string optionally appending pointer address." alt="" coords="723,403,961,430"/>
+<area shape="poly" id="edge29_Node000001_Node000017" title=" " alt="" coords="185,377,245,389,367,402,490,410,708,416,708,421,490,416,366,407,244,394,184,382"/>
+<area shape="rect" id="Node000003" href="$d3/d04/classPHG4GDMLWriteMaterials.html#aa0d10ca2e27a001a06119f52a98da621" title="Write isotope definition to GDML material section." alt="" coords="484,334,675,379"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,354,468,354,468,359,437,359"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="675,335,731,325,732,330,676,341"/>
+<area shape="poly" id="edge26_Node000003_Node000015" title=" " alt="" coords="609,331,660,298,722,269,791,251,861,239,993,229,994,234,862,244,792,256,724,274,662,302,612,336"/>
+<area shape="poly" id="edge27_Node000003_Node000016" title=" " alt="" coords="675,355,995,361,995,366,675,361"/>
+<area shape="poly" id="edge25_Node000003_Node000017" title=" " alt="" coords="676,376,764,396,763,401,675,381"/>
+<area shape="rect" id="Node000005" href="$df/de1/g_8f.html#ae6f69233cd20fb9f18eccb21a11b604f" title=" " alt="" coords="1102,296,1140,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="938,305,1086,307,1086,312,938,310"/>
+<area shape="poly" id="edge23_Node000004_Node000015" title=" " alt="" coords="925,280,1008,258,1043,249,1044,254,1009,263,926,285"/>
+<area shape="poly" id="edge24_Node000004_Node000016" title=" " alt="" coords="939,324,1038,345,1037,351,937,329"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="1100,305,1084,294,1083,281,1096,272,1121,269,1142,271,1155,277,1160,286,1156,296,1151,293,1155,286,1152,281,1141,277,1121,275,1097,277,1087,284,1089,291,1103,301"/>
+<area shape="rect" id="Node000006" href="$db/d20/parton_8f.html#a3b6487bad48aa8ef534f4d1b31eff181" title=" " alt="" coords="1285,29,1348,57"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="1140,304,1186,289,1210,276,1231,257,1247,234,1255,211,1257,167,1259,120,1265,95,1279,68,1280,67,1284,70,1283,71,1270,97,1264,121,1263,167,1260,212,1251,236,1235,261,1213,280,1188,294,1141,309"/>
+<area shape="rect" id="Node000008" href="$df/dbd/subcrs1_8f.html#a5f4351235416e511fd6351ff89b3ee37" title=" " alt="" coords="1281,105,1352,133"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="1140,303,1185,288,1210,275,1231,257,1249,230,1256,203,1262,175,1279,144,1281,142,1285,145,1283,147,1267,177,1261,205,1254,232,1235,261,1213,279,1187,293,1142,308"/>
+<area shape="rect" id="Node000009" href="$d9/d3c/subcrs2_8f.html#ada3c616960f865414127ef13ea958c28" title=" " alt="" coords="1281,181,1352,209"/>
+<area shape="poly" id="edge11_Node000005_Node000009" title=" " alt="" coords="1139,301,1182,282,1232,257,1256,239,1279,220,1283,217,1287,221,1283,224,1259,244,1234,261,1185,287,1142,305"/>
+<area shape="rect" id="Node000010" href="$da/d28/subcrs3_8f.html#a6b94147307b9e5dea966e527415fcadf" title=" " alt="" coords="1281,257,1352,285"/>
+<area shape="poly" id="edge13_Node000005_Node000010" title=" " alt="" coords="1140,304,1265,278,1266,284,1141,309"/>
+<area shape="rect" id="Node000011" href="$db/d57/subcrs4_8f.html#a393f34904dbb727a451f8be81d9f4f09" title=" " alt="" coords="1281,333,1352,361"/>
+<area shape="poly" id="edge15_Node000005_Node000011" title=" " alt="" coords="1141,311,1266,335,1265,340,1140,316"/>
+<area shape="rect" id="Node000012" href="$dc/d30/subcrs5_8f.html#a18ab73861279badb06bf6934de1b936b" title=" " alt="" coords="1281,409,1352,437"/>
+<area shape="poly" id="edge17_Node000005_Node000012" title=" " alt="" coords="1141,309,1185,318,1234,338,1270,366,1298,396,1294,399,1266,370,1232,343,1183,324,1140,315"/>
+<area shape="rect" id="Node000013" href="$d8/db8/subcrs6_8f.html#a9e929a91bacb5311740c272621f652b9" title=" " alt="" coords="1281,485,1352,513"/>
+<area shape="poly" id="edge19_Node000005_Node000013" title=" " alt="" coords="1141,308,1186,315,1212,324,1235,338,1256,364,1265,389,1271,416,1283,447,1298,471,1294,474,1279,450,1266,418,1260,391,1251,367,1231,343,1210,329,1185,320,1140,313"/>
+<area shape="rect" id="Node000014" href="$d5/d6a/subcrs7_8f.html#a07a0bfc6abbcfef45515d7041b3d66f3" title=" " alt="" coords="1281,561,1352,589"/>
+<area shape="poly" id="edge21_Node000005_Node000014" title=" " alt="" coords="1141,307,1187,313,1213,323,1235,339,1253,361,1263,383,1268,405,1269,426,1270,471,1274,496,1283,523,1297,547,1293,550,1279,526,1269,498,1264,472,1264,426,1262,405,1258,385,1248,364,1231,342,1210,328,1186,319,1140,312"/>
+<area shape="rect" id="Node000007" href="$dc/dc6/gmre_8f.html#a49cfd1ee4f5604e6a082575e0cf129d5" title=" " alt="" coords="1400,29,1456,57"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1349,40,1385,40,1385,46,1349,46"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="1408,30,1404,20,1407,11,1415,5,1428,3,1442,5,1449,12,1446,16,1439,10,1428,8,1417,10,1411,14,1410,20,1413,28"/>
+<area shape="poly" id="edge10_Node000008_Node000008" title=" " alt="" coords="1296,106,1293,96,1296,87,1304,81,1317,79,1330,81,1338,88,1334,92,1328,86,1317,84,1306,86,1300,90,1298,96,1301,104"/>
+<area shape="poly" id="edge12_Node000009_Node000009" title=" " alt="" coords="1296,182,1293,172,1296,163,1304,157,1317,155,1330,157,1338,164,1334,168,1328,162,1317,160,1306,162,1300,166,1298,172,1301,180"/>
+<area shape="poly" id="edge14_Node000010_Node000010" title=" " alt="" coords="1296,258,1293,248,1296,239,1304,233,1317,231,1330,233,1338,240,1334,244,1328,238,1317,236,1306,238,1300,242,1298,248,1301,256"/>
+<area shape="poly" id="edge16_Node000011_Node000011" title=" " alt="" coords="1296,334,1293,324,1296,315,1304,309,1317,307,1330,309,1338,316,1334,320,1328,314,1317,312,1306,314,1300,318,1298,324,1301,332"/>
+<area shape="poly" id="edge18_Node000012_Node000012" title=" " alt="" coords="1296,410,1293,400,1296,391,1304,385,1317,383,1330,385,1338,392,1334,396,1328,390,1317,388,1306,390,1300,394,1298,400,1301,408"/>
+<area shape="poly" id="edge20_Node000013_Node000013" title=" " alt="" coords="1296,486,1293,476,1296,467,1304,461,1317,459,1330,461,1338,468,1334,472,1328,466,1317,464,1306,466,1300,470,1298,476,1301,484"/>
+<area shape="poly" id="edge22_Node000014_Node000014" title=" " alt="" coords="1296,562,1293,552,1296,543,1304,537,1317,535,1330,537,1338,544,1334,548,1328,542,1317,540,1306,542,1300,546,1298,552,1301,560"/>
+</map>

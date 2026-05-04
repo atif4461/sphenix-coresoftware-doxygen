@@ -1,0 +1,45 @@
+<map id="FROG::location" name="FROG::location">
+<area shape="rect" id="Node000001" title="Resolve a logical file name to a physical path using the GSEARCHPATH environment variable and configu..." alt="" coords="5,213,124,241"/>
+<area shape="rect" id="Node000002" href="$dd/dfd/classFROG.html#a6291e84bdd6ab218b667edefad29370a" title="Search dcache file catalog for a logical file name." alt="" coords="193,213,352,241"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,224,178,224,178,230,124,230"/>
+<area shape="rect" id="Node000007" href="$dd/dfd/classFROG.html#a523d4f9698f8371dd26b1640609050f9" title=" " alt="" coords="464,265,592,293"/>
+<area shape="poly" id="edge25_Node000001_Node000007" title=" " alt="" coords="75,240,89,267,110,299,138,330,173,354,226,373,270,376,316,368,372,354,405,344,437,330,492,299,495,304,440,335,407,349,374,359,317,373,270,381,224,378,170,359,135,334,106,302,84,269,70,243"/>
+<area shape="rect" id="Node000008" href="$dd/dfd/classFROG.html#a6c6e3a264ae94c5387cfb8b49488443a" title="Search the HPSS raw data catalog for a physical file path matching the given logical name." alt="" coords="172,5,373,33"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="67,212,80,178,100,132,130,84,149,63,170,44,178,38,181,43,173,48,153,66,135,88,105,135,85,180,73,214"/>
+<area shape="rect" id="Node000009" href="$dd/dfd/classFROG.html#a75bc3602f0294b68f45ae714ae9f13f5" title="Verify that a file identified by logical_name exists and store its path." alt="" coords="202,419,343,446"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="73,241,86,273,107,316,136,360,173,398,191,410,189,414,170,403,132,364,102,318,81,275,68,243"/>
+<area shape="rect" id="Node000010" href="$dd/dfd/classFROG.html#a48986627563e19b6aeffab4ab90c418e" title="Search Lustre file catalog for a logical file name and retrieve its physical file name." alt="" coords="197,57,348,85"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="71,212,108,155,137,123,170,96,181,89,184,94,173,100,140,127,113,158,76,215"/>
+<area shape="rect" id="Node000011" href="$dd/dfd/classFROG.html#a2dbbc54fcf18f41247ed89cc49ce71a4" title="Search Lustre file catalog for a logical name and convert the path to an S3 URL." alt="" coords="198,265,346,293"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="124,239,200,258,198,264,122,244"/>
+<area shape="rect" id="Node000012" href="$dd/dfd/classFROG.html#a0ed2fbc68b5d5d0259c3ac29e532fcef" title="Search the file catalog for the physical file path associated with a logical file name." alt="" coords="208,317,336,345"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="83,239,122,271,173,302,194,311,192,316,170,307,119,275,80,244"/>
+<area shape="rect" id="Node000013" href="$dd/dfd/classFROG.html#a65fe87af08dc9e4dc2e375463fe02271" title="Search raw data catalog for physical file name corresponding to logical file name." alt="" coords="188,109,357,137"/>
+<area shape="poly" id="edge22_Node000001_Node000013" title=" " alt="" coords="80,211,119,179,170,147,188,140,190,145,173,152,122,183,83,215"/>
+<area shape="rect" id="Node000014" href="$dd/dfd/classFROG.html#abd23964ffd551d946d405f0924cf788f" title="Search file catalog for logical name and construct XRootD PFN." alt="" coords="193,161,352,189"/>
+<area shape="poly" id="edge26_Node000001_Node000014" title=" " alt="" coords="122,210,198,191,200,196,124,215"/>
+<area shape="rect" id="Node000003" href="$d3/dcc/classODBCInterface.html#a3a43fd118c764505d0123e08dcbd4622" title="Retrieve or create an ODBC statement for the specified database." alt="" coords="421,188,635,216"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="352,217,405,211,406,217,352,222"/>
+<area shape="rect" id="Node000006" href="$d3/dcc/classODBCInterface.html#a4bde01e4611f30ac274a8f52486bf88e" title="Get singleton instance of ODBCInterface." alt="" coords="438,136,618,164"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="334,210,372,198,420,174,445,166,447,171,422,179,374,203,336,215"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="345,239,450,261,449,266,344,244"/>
+<area shape="rect" id="Node000004" href="$d3/dcc/classODBCInterface.html#ac6cfdc87164087cf657fd9ca29d18f43" title="Retrieve or create a database connection for the specified database name." alt="" coords="683,188,922,216"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="636,199,668,199,668,204,636,204"/>
+<area shape="rect" id="Node000005" href="$d3/dcc/classODBCInterface.html#ae070c35032024be7e324924fa9e0cf86" title=" " alt="" coords="970,188,1156,216"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="922,199,954,199,954,204,922,204"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="356,31,375,44,388,60,396,77,400,110,403,143,410,158,423,173,428,177,425,182,419,177,405,161,398,144,394,111,391,78,384,63,371,48,353,36"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="341,31,374,43,444,83,500,124,497,128,441,87,372,48,339,36"/>
+<area shape="poly" id="edge12_Node000010_Node000003" title=" " alt="" coords="349,82,375,96,392,115,399,136,407,155,423,173,431,178,428,183,419,177,402,158,394,138,387,118,371,100,346,87"/>
+<area shape="poly" id="edge13_Node000010_Node000006" title=" " alt="" coords="331,83,374,95,473,128,472,133,372,100,329,88"/>
+<area shape="poly" id="edge15_Node000011_Node000003" title=" " alt="" coords="329,262,372,250,470,219,472,224,374,255,330,267"/>
+<area shape="poly" id="edge16_Node000011_Node000006" title=" " alt="" coords="346,264,371,250,387,233,394,213,402,194,419,174,429,168,432,173,423,179,407,196,399,215,392,235,375,255,348,269"/>
+<area shape="poly" id="edge17_Node000011_Node000007" title=" " alt="" coords="347,276,449,276,449,282,347,282"/>
+<area shape="poly" id="edge19_Node000012_Node000003" title=" " alt="" coords="336,317,372,302,386,291,395,279,405,266,419,252,474,220,477,225,423,256,409,269,400,282,390,294,374,307,338,322"/>
+<area shape="poly" id="edge20_Node000012_Node000006" title=" " alt="" coords="336,321,355,314,371,303,384,288,391,272,394,240,398,207,406,191,419,175,425,170,428,174,423,178,410,193,403,209,400,241,396,274,388,290,375,306,357,318,338,326"/>
+<area shape="poly" id="edge21_Node000012_Node000007" title=" " alt="" coords="336,316,448,293,450,298,337,321"/>
+<area shape="poly" id="edge23_Node000013_Node000003" title=" " alt="" coords="337,135,374,147,398,160,422,173,446,181,444,186,420,178,396,165,372,152,335,140"/>
+<area shape="poly" id="edge24_Node000013_Node000006" title=" " alt="" coords="358,129,423,136,422,142,357,135"/>
+<area shape="poly" id="edge27_Node000014_Node000003" title=" " alt="" coords="353,181,406,186,405,192,352,186"/>
+<area shape="poly" id="edge28_Node000014_Node000006" title=" " alt="" coords="352,165,422,158,423,163,353,170"/>
+<area shape="poly" id="edge29_Node000014_Node000007" title=" " alt="" coords="337,187,374,199,399,211,422,225,485,256,483,261,420,230,396,216,372,204,335,192"/>
+</map>

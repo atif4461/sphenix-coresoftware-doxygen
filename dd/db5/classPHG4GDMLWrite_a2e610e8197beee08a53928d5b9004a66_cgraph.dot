@@ -1,0 +1,41 @@
+digraph "PHG4GDMLWrite::Write"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4GDMLWrite::Write",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Write GDML file for a logical volume and its hierarchy."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4GDMLWrite::DefineWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#a8cc6d3ef282aa5c21cc9066e3fd45567",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4GDMLWrite::Extension\lWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#a4940da7fd3385b169dcca73885d29060",tooltip="Empty implementation to be overridden by user for specific extensions."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4GDMLWrite::FileExists",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#ad3609127e87ce53b71a8a42edc52d7e3",tooltip="Check if a file exists on the filesystem."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4GDMLWrite::Materials\lWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#a53261ba42feb5edb57ac7d491689c96a",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4GDMLWrite::NewAttribute",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#afe96dc9fdc7c1a0a1a96b59dc15dffa2",tooltip="Create a new DOM attribute with the specified name and value."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4GDMLWrite::SetupWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#a8f3e8db841418dfa32a3da46aa223906",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4GDMLWrite::SolidsWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#a5db5a6e0966558d6fa8f6a0ce857d939",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4GDMLWrite::Structure\lWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#a16a077aea77c05bd1b9294f1a1bab1a7",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4GDMLWrite::SurfacesWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#ae601b41044ca209fb2a40ba7c7b344ba",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PHG4GDMLWrite::TraverseVolumeTree",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#abbdd4c16796c389084d591e3c81d2c2d",tooltip=" "];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PHG4GDMLWrite::UserinfoWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#ad88e00edb1ab511595a627d730fd3634",tooltip="Write userinfo element to GDML document."];
+  Node12 -> Node13 [id="edge12_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHG4GDMLWrite::AddAuxInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#a53eca251f60adbf07bc9e966ff9262a0",tooltip="Add auxiliary information from a list to a DOM element recursively."];
+  Node13 -> Node13 [id="edge13_Node000013_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 -> Node6 [id="edge14_Node000013_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node13 -> Node14 [id="edge15_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="PHG4GDMLWrite::NewElement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#ada0a5579d406ec27f3150711ab83becc",tooltip="Create a new XML element with the specified name."];
+  Node12 -> Node14 [id="edge16_Node000012_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node15 [id="edge17_Node000001_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="PHG4GDMLWrite::VolumeMap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/db5/classPHG4GDMLWrite.html#a2e03286e47cae3a6bb779696e865a801",tooltip="Access the singleton instance of the volume map used by PHG4GDMLWrite."];
+}

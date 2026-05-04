@@ -1,0 +1,14 @@
+digraph "MicromegasBcoMatchingInformation_v1::find_reference_from_data"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="MicromegasBcoMatchingInformation\l_v1::find_reference_from_data",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="find reference from data"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MicromegasBcoMatchingInformation\l_v1::get_adjusted_multiplier",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classMicromegasBcoMatchingInformation__v1.html#a0f2586f1d7701ba7dea177858c46245a",tooltip="get adjusted multiplier"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MicromegasBcoMatchingInformation\l_v1::verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classMicromegasBcoMatchingInformation__v1.html#ae2f59a4b42b1b242032237606a8b2176",tooltip="verbosity"];
+}

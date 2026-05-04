@@ -1,0 +1,14 @@
+digraph "mvtx_pool::lValue"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="mvtx_pool::lValue",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve a 64‑bit integer value from the MVTX pool based on a query string."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="mvtx_pool::get_L1_IR_BCO",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d28/classmvtx__pool.html#a19ae0bb06c00f3bd062d6c4e59292b6e",tooltip="Retrieve L1 trigger orbit number for given link and index."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="mvtx_pool::get_TRG\l_IR_BCO",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d28/classmvtx__pool.html#a0ef732edb02e57b03962c30a9f159e35",tooltip="Retrieve orbit number from trigger data for specified link and index."];
+}

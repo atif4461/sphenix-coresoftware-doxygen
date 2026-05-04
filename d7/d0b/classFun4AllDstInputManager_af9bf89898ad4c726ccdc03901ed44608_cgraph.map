@@ -1,0 +1,40 @@
+<map id="Fun4AllDstInputManager::SyncIt" name="Fun4AllDstInputManager::SyncIt">
+<area shape="rect" id="Node000001" title="Synchronize current file with master sync object." alt="" coords="5,241,187,286"/>
+<area shape="rect" id="Node000002" href="$de/dbb/classSyncObject.html#aa650d97c0d3ace8ae7945f54224228ef" title="set Event Number" alt="" coords="245,28,436,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,239,125,203,153,158,189,112,233,72,254,60,257,65,236,76,193,115,157,161,129,206,110,242"/>
+<area shape="rect" id="Node000003" href="$d7/d0b/classFun4AllDstInputManager.html#aba83e2505642f21db1e091193e206f9d" title="Close the currently opened input file and clean up associated resources." alt="" coords="516,61,698,106"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="110,239,159,179,194,148,233,123,300,98,370,83,438,76,501,74,501,80,439,81,371,88,301,103,236,127,197,152,163,183,114,242"/>
+<area shape="rect" id="Node000005" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="803,142,952,170"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="136,238,182,216,234,197,308,179,384,166,536,150,675,146,788,148,788,153,675,151,536,155,385,171,309,184,235,202,184,221,139,243"/>
+<area shape="rect" id="Node000007" href="$de/dbb/classSyncObject.html#ae23b38b2e0358682b84024815af967f0" title="Identify the object by writing a description to the provided output stream." alt="" coords="265,360,416,388"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="134,284,181,313,236,340,271,353,269,358,234,345,179,317,131,289"/>
+<area shape="rect" id="Node000008" href="$d7/d0b/classFun4AllDstInputManager.html#a5c4da9899acdb1d96ac2405a7b3bae66" title="Decrease the current event number in the input manager by i." alt="" coords="516,181,698,226"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="178,238,234,226,373,210,501,203,501,208,374,216,235,232,179,243"/>
+<area shape="rect" id="Node000009" href="$d7/d0b/classFun4AllDstInputManager.html#ade26017b627e0e1f1ec0dec62ac7fd52" title="Read next event synchronization object from the current input file." alt="" coords="239,241,442,286"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="187,261,224,261,224,266,187,266"/>
+<area shape="rect" id="Node000015" href="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="528,352,687,397"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="186,284,235,296,513,354,511,359,234,301,185,289"/>
+<area shape="rect" id="Node000016" href="$de/dbb/classSyncObject.html#af1188def459d0ff933d71e37c7afc0c5" title="set Run Number" alt="" coords="251,412,430,440"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="116,284,165,341,199,372,236,397,250,404,248,409,233,402,196,376,162,345,112,288"/>
+<area shape="rect" id="Node000017" href="$de/dbb/classSyncObject.html#a9e8ffb7e35744a8f46cc59b4cf8fa1ca" title="set Segment Number" alt="" coords="235,464,447,492"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="110,285,129,321,156,366,193,411,236,450,246,455,243,460,233,454,189,415,152,369,124,324,105,287"/>
+<area shape="rect" id="Node000004" href="$d2/d8a/classInputFileHandler.html#a3a63b19dc4f185aa2d15317dd471b1ef" title=" " alt="" coords="787,74,968,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="698,82,771,83,771,89,698,88"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="695,104,809,135,808,140,693,109"/>
+<area shape="rect" id="Node000006" href="$d2/d8a/classInputFileHandler.html#a68492ecd8f15563a2215d088d48987bb" title="Update internal file list handling repeat logic." alt="" coords="786,5,969,50"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="698,62,770,47,771,52,699,67"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="698,185,788,169,789,174,699,190"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="374,239,558,113,561,117,377,243"/>
+<area shape="poly" id="edge12_Node000009_Node000005" title=" " alt="" coords="443,268,506,268,576,264,649,254,718,236,743,222,766,204,827,174,829,179,769,209,746,226,720,241,650,259,577,270,506,274,443,273"/>
+<area shape="rect" id="Node000010" href="$d2/d8a/classInputFileHandler.html#acf665524602bc5f8cc2398bfd26121ae" title="Open the next file in the internal file list." alt="" coords="495,300,719,328"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="443,280,516,294,515,300,442,286"/>
+<area shape="poly" id="edge18_Node000009_Node000015" title=" " alt="" coords="409,284,448,303,472,320,496,337,514,345,512,350,494,342,469,325,446,307,407,289"/>
+<area shape="rect" id="Node000011" href="$d2/d8a/classInputFileHandler.html#a1cee3f2baa09932712f151fc0ba67db7" title="Open input file for reading." alt="" coords="783,287,972,315"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="720,306,768,304,768,309,720,311"/>
+<area shape="rect" id="Node000012" href="$d2/d8a/classInputFileHandler.html#a0ef1f262db98136850cc1ad3be18a14d" title=" " alt="" coords="771,339,984,383"/>
+<area shape="poly" id="edge15_Node000010_Node000012" title=" " alt="" coords="692,326,756,337,755,343,691,331"/>
+<area shape="rect" id="Node000013" href="$d2/d8a/classInputFileHandler.html#a60db005eca23d42b7e02e6c47af90095" title=" " alt="" coords="767,407,988,435"/>
+<area shape="poly" id="edge16_Node000010_Node000013" title=" " alt="" coords="697,326,721,337,737,351,746,366,754,380,769,393,778,398,775,403,766,398,750,384,741,369,733,355,718,342,695,331"/>
+<area shape="rect" id="Node000014" href="$d2/d8a/classInputFileHandler.html#a811c67eb19cef0fba2d7c38b446d7955" title="Execute optional script before opening the input file." alt="" coords="775,219,980,263"/>
+<area shape="poly" id="edge17_Node000010_Node000014" title=" " alt="" coords="661,297,777,265,779,270,662,302"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="CaloCalibEmc_Pi0::process_event" name="CaloCalibEmc_Pi0::process_event">
+<area shape="rect" id="Node000001" title="Process a single event in the CaloCalibEmc Pi0 analysis." alt="" coords="5,444,202,488"/>
+<area shape="rect" id="Node000002" href="$d5/dc4/classGlobalVertexMap.html#a62df09ef6203b585289b91d2d44e9c1d" title="Return a constant iterator to the beginning of the global vertex map." alt="" coords="253,5,430,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,443,110,367,132,259,150,201,175,143,207,90,248,43,251,40,255,44,252,46,211,93,180,146,155,203,137,261,115,368,108,443"/>
+<area shape="rect" id="Node000003" href="$da/d58/namespaceRawTowerDefs.html#aaae6ca2e49c6d90186b5c221afe39bca" title=" " alt="" coords="255,57,428,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="105,443,118,378,143,290,162,243,185,196,214,151,248,112,251,109,255,113,252,116,218,155,190,198,167,245,148,292,123,380,111,444"/>
+<area shape="rect" id="Node000004" href="$da/d58/namespaceRawTowerDefs.html#a3d5658966751d2e96b1be553d2701b2b" title=" " alt="" coords="255,126,428,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="108,442,124,390,152,320,193,246,219,212,248,181,252,177,256,182,251,185,223,215,197,249,157,322,129,391,113,444"/>
+<area shape="rect" id="Node000005" href="$d5/dc4/classGlobalVertexMap.html#ac206d95c5780106933392f0c95760ea2" title=" " alt="" coords="250,195,433,222"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="110,442,129,398,158,341,197,283,221,256,248,233,256,228,259,232,251,237,225,260,202,286,162,344,134,400,115,444"/>
+<area shape="rect" id="Node000006" href="$d9/dd8/classRawTower.html#abe1baf0e3e39fd6088afe3032e392b37" title=" " alt="" coords="259,247,424,274"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="115,442,136,407,166,365,204,322,248,285,258,279,261,284,251,289,208,326,170,368,141,410,119,444"/>
+<area shape="rect" id="Node000007" href="$d9/dd8/classRawTower.html#ade1c1ea0891ce4318a5acf627e7b0baa" title="Get bin phi index." alt="" coords="260,299,423,326"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="123,441,176,389,211,361,248,337,263,330,265,335,251,341,214,365,180,393,127,445"/>
+<area shape="rect" id="Node000008" href="$d6/dc7/group__getters.html#ga156d383a06a55e4caab80006d2e38685" title="reduced chi2 for EM shower" alt="" coords="262,351,420,378"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="148,441,249,394,281,382,283,387,251,399,150,445"/>
+<area shape="rect" id="Node000009" href="$d6/dc7/group__getters.html#ga1c4fdc09dc7ec65faaf01839ab71b311" title=" " alt="" coords="489,535,656,562"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="181,440,238,429,302,422,369,424,434,438,469,454,501,476,551,521,547,525,498,480,466,459,432,443,368,429,302,428,239,434,182,445"/>
+<area shape="rect" id="Node000010" href="$d6/dc7/group__getters.html#gaa50ec0ceb78de346ece65d248e23da77" title="cluster ID" alt="" coords="270,452,413,480"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="202,463,254,463,254,468,202,468"/>
+<area shape="rect" id="Node000011" href="$d6/dc7/group__getters.html#ga797d78febeac5c357ce4990878168507" title=" " alt="" coords="254,504,429,532"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="203,485,261,498,259,503,202,490"/>
+<area shape="rect" id="Node000012" href="$d1/d39/classGlobalVertex.html#a59fe1a00491bfa1a861b9001cda579ab" title=" " alt="" coords="267,556,416,584"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="144,486,194,514,251,541,271,548,269,553,249,546,191,519,141,491"/>
+<area shape="rect" id="Node000013" href="$d1/d39/classGlobalVertex.html#a5a8bcc3e3d9132c3302471d545077243" title=" " alt="" coords="267,608,416,636"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="126,486,179,540,214,568,251,593,265,600,263,604,248,597,210,573,176,544,122,490"/>
+<area shape="rect" id="Node000014" href="$d1/d39/classGlobalVertex.html#a57f73fa21221f16fbaead42c95b2833b" title=" " alt="" coords="267,660,416,688"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="119,487,140,522,170,565,207,608,251,645,261,651,258,655,248,649,204,612,166,568,135,525,114,490"/>
+<area shape="rect" id="Node000015" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="270,849,413,877"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="109,488,119,556,143,650,161,700,185,750,215,796,251,836,258,841,254,845,248,840,211,799,181,753,157,703,138,652,114,557,104,489"/>
+<area shape="rect" id="Node000021" href="$d6/d12/classRawClusterContainer.html#a0ddd02d561a69f282b404ca186e58b04" title="return all clusters" alt="" coords="262,781,420,826"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="112,488,127,544,154,618,195,697,221,734,252,767,255,770,252,774,248,770,217,737,191,700,149,620,122,545,107,489"/>
+<area shape="rect" id="Node000022" href="$d0/d0e/classRawClusterUtility.html#a27157c0f1f777419cf427e72593c1e21" title="Get energy vector of cluster based on E_core." alt="" coords="270,712,412,756"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="116,488,134,532,164,588,203,646,226,673,251,697,258,702,255,707,248,701,222,677,198,649,159,590,130,534,111,490"/>
+<area shape="rect" id="Node000024" href="$d3/dc7/classRawTowerContainer.html#a94a3368d6cd85ea4c3f204cd1065da26" title="Retrieve a tower from the container using its unique key." alt="" coords="262,901,420,946"/>
+<area shape="poly" id="edge25_Node000001_Node000024" title=" " alt="" coords="109,488,117,563,140,669,158,727,182,785,213,839,252,887,254,889,250,893,248,890,209,842,177,787,153,729,134,671,112,564,103,489"/>
+<area shape="rect" id="Node000016" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="482,824,663,852"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="413,853,466,847,467,852,413,858"/>
+<area shape="rect" id="Node000020" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="490,876,655,904"/>
+<area shape="poly" id="edge20_Node000015_Node000020" title=" " alt="" coords="413,869,475,876,475,881,413,874"/>
+<area shape="poly" id="edge16_Node000016_Node000016" title=" " alt="" coords="533,825,527,815,532,805,547,799,573,797,600,800,614,806,612,811,598,805,573,803,549,805,535,809,532,815,538,822"/>
+<area shape="rect" id="Node000017" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="756,772,898,800"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="644,821,741,801,742,806,645,826"/>
+<area shape="rect" id="Node000018" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="761,824,893,852"/>
+<area shape="poly" id="edge18_Node000016_Node000018" title=" " alt="" coords="664,835,745,835,745,840,664,840"/>
+<area shape="rect" id="Node000019" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="712,876,942,904"/>
+<area shape="poly" id="edge19_Node000016_Node000019" title=" " alt="" coords="645,850,741,870,740,875,644,855"/>
+<area shape="poly" id="edge23_Node000022_Node000009" title=" " alt="" coords="411,709,432,697,468,668,501,635,551,574,555,577,505,639,471,672,434,701,414,713"/>
+<area shape="rect" id="Node000023" href="$d6/dc7/group__getters.html#gaea5779ca25795d3b83a1c9853a1221d9" title=" " alt="" coords="481,720,664,748"/>
+<area shape="poly" id="edge24_Node000022_Node000023" title=" " alt="" coords="413,731,466,731,466,736,413,736"/>
+</map>

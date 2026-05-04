@@ -1,0 +1,21 @@
+<map id="MvtxPixelMask::is_masked" name="MvtxPixelMask::is_masked">
+<area shape="rect" id="Node000001" title="Determine whether a given Mvtx raw hit is masked as a hot pixel." alt="" coords="5,204,203,232"/>
+<area shape="rect" id="Node000002" href="$dd/d69/namespaceMvtxPixelDefs.html#a2c0d570187b1285930834e0f20ede559" title="Generate a 64bit pixel key from hitset and hit identifiers." alt="" coords="273,5,420,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,203,166,135,205,95,249,60,258,55,261,59,252,65,208,99,170,139,117,206"/>
+<area shape="rect" id="Node000003" href="$d8/df1/namespaceMvtxDefs.html#aab01141e07c6e3c7151b44a79b8090be" title="Generate a hitkey from a pixels column and row index." alt="" coords="267,74,426,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="119,202,175,158,211,133,249,112,267,104,269,109,252,117,214,138,178,162,123,206"/>
+<area shape="rect" id="Node000004" href="$d8/df1/namespaceMvtxDefs.html#a024ad0bf5de2d32614825f36645eb49e" title="Generate a hitsetkey for the mvtx." alt="" coords="257,126,437,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="142,201,250,164,276,156,278,161,251,169,144,206"/>
+<area shape="rect" id="Node000006" href="$d1/d0e/classMvtxRawHit.html#a6ff743830bfc2c6ebd77ace1e7e6c5b7" title=" " alt="" coords="255,178,438,206"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="203,205,240,201,240,206,203,210"/>
+<area shape="rect" id="Node000007" href="$d1/d0e/classMvtxRawHit.html#a215e7ee53d0789110c564a6afcfd6a34" title=" " alt="" coords="269,230,425,258"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="203,226,254,231,253,237,203,231"/>
+<area shape="rect" id="Node000008" href="$d1/d0e/classMvtxRawHit.html#a611bafd389bb613935054922e78297f4" title=" " alt="" coords="252,282,442,310"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="145,230,251,266,279,275,277,280,250,272,144,235"/>
+<area shape="rect" id="Node000009" href="$d1/d0e/classMvtxRawHit.html#a99b752557bbee859087fb0e4d2be9c6a" title=" " alt="" coords="266,334,428,362"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="123,231,178,274,214,298,252,319,269,326,267,331,250,323,211,302,175,278,120,235"/>
+<area shape="rect" id="Node000010" href="$d1/d0e/classMvtxRawHit.html#ad5c4e478783007409bc7e9c0fc74bc50" title=" " alt="" coords="251,386,443,414"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="117,231,169,298,208,337,252,371,264,377,262,382,249,375,204,341,165,302,113,234"/>
+<area shape="rect" id="Node000005" href="$d6/d3f/namespaceTrkrDefs.html#a418e306477093b8d17d587be70b908a3" title="generate the common upper 16 bits for hitsetkey" alt="" coords="491,126,662,154"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="437,137,475,137,475,142,437,142"/>
+</map>

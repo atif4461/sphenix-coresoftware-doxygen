@@ -1,0 +1,12 @@
+digraph "ActsTransformations::rotateActsCovToSvtxTrack"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="ActsTransformations\l::rotateActsCovToSvtxTrack",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Transform Acts bound covariance to sPHENIX track covariance matrix."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ActsTransformations\l::printMatrix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/db5/classActsTransformations.html#a8368c3bbb65716fbad5bb72ddab2c7dd",tooltip="Print a bound square matrix with a preceding message when verbosity exceeds threshold."];
+}

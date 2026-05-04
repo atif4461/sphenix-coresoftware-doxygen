@@ -1,0 +1,37 @@
+digraph "PHG4CylinderGeom_Spacalv2::get_polar_taper_ratio"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4CylinderGeom_Spacalv2\l::get_polar_taper_ratio",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Get polar taper ratio."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4CylinderGeom_Spacalv2\l::get_block_depth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a9009529a99b082149733bd1c961499b5",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4CylinderGeom_Spacalv2\l::get_half_polar_taper_angle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#aabbd95d1444219fa7111f1752c332079",tooltip="Compute the half polar taper angle of the cylinder geometry."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4CylinderGeom_Spacalv2\l::Print",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a91340b29587e1c381d7ae57bf8cf206e",tooltip="Print detailed geometry parameters of the Spacal v2 detector."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4CylinderGeom_Spacalv3\l::Print",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d61/classPHG4CylinderGeom__Spacalv3.html#ab15ad149ea75e222394cf00342045569",tooltip="Print geometry information for Spacal version 3."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4CylinderGeom_Spacalv3\l::get_tower_radial_position",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d61/classPHG4CylinderGeom__Spacalv3.html#ab14c3352a8d3f833e8fc7bc48cb4bdf4",tooltip="get approximate radial position of tower"];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4SpacalDetector\l::AddCellGeometryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da4/classPHG4SpacalDetector.html#af2c4c4c1f8ca4bba2552dd18f6ff54b5",tooltip="Add cell geometry node for SPACAL detector."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4FullProjTiltedSpacal\lDetector::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698",tooltip="Construct the full projected tilted SPACAL detector geometry within the given world volume."];
+  Node6 -> Node9 [id="edge8_Node000006_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4FullProjSpacalCellReco\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#aea3e5a8a10917a094b537adc5201d6f9",tooltip="module initialization"];
+  Node5 -> Node10 [id="edge9_Node000005_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4CylinderGeom_Spacalv3\l::get_tower_z_phi_ID",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d61/classPHG4CylinderGeom__Spacalv3.html#aa703c35320bf717fb66b80bf64f9f103",tooltip="Compute the z bin and global phi bin for a specified tower in a given sector."];
+  Node10 -> Node7 [id="edge10_Node000010_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node9 [id="edge11_Node000010_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node11 [id="edge12_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PHG4FullProjSpacalCellReco\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d20/classPHG4FullProjSpacalCellReco.html#aa31a2feab594c495ddf4133d72a9badb",tooltip="event processing"];
+  Node1 -> Node3 [id="edge13_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge14_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PHG4CylinderGeom_Spacalv2\l::get_reg_fiber_grid_distance_taper",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#ac5273ac5034b7d214ae879916d22880d",tooltip="regulated fiber distance in the tapering direction"];
+  Node12 -> Node4 [id="edge15_Node000012_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge16_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

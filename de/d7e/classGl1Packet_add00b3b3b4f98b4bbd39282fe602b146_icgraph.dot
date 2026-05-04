@@ -1,0 +1,16 @@
+digraph "Gl1Packet::setScaledVector"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Gl1Packet::setScaledVector",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SingleGl1PoolInput\l::FillPool",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d88/classSingleGl1PoolInput.html#a976497e9e28916bce64f8ae39575dec5",tooltip="Fill internal data pools with events from input files."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SingleGl1PoolInputv2\l::FillPool",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d21/classSingleGl1PoolInputv2.html#adf0c7b45f936a4ad1398e7bd82e02cbc",tooltip="Fill the GL1 hit pool with events from the input files."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="SingleGl1TriggeredInput\l::ReadEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/da4/classSingleGl1TriggeredInput.html#a1032b1f04ccd609f2c1e0dc4a9588ff9",tooltip="Read next GL1 event from internal deque and fill GL1 packet node."];
+}

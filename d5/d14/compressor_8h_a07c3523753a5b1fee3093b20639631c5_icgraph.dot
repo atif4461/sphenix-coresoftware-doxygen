@@ -1,0 +1,20 @@
+digraph "addDiff"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="addDiff",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Insert a minimum value into a distance‑to‑set map."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="approx",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d14/compressor_8h.html#a02501c784aba8983915077f44f7112b1",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="DSTCompressor::compress\l_gaussian_dist",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d29/classDSTCompressor.html#a02eb1cba3707a3bb17c477de71eef07d",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="DSTCompressor::DSTCompressor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d29/classDSTCompressor.html#aa6fecfffeec76ef97bcf9ea68fdd8cb8",tooltip="DSTCompressor builds quantization tables for phi and z using Gaussian parameters."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="doCompression",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/db1/compress__clu__res__float32_8cc.html#aeda36d87d4e5f5cd5ad85a462d664b66",tooltip="Compresses track residual data from a ROOT file and records compression metrics."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="compress_clu_res_float32",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/db1/compress__clu__res__float32_8cc.html#aa4b1c4f0d29862c9b27f462cd83f3dc0",tooltip="Compress cluster resolution data stored as float32 in the specified file."];
+}

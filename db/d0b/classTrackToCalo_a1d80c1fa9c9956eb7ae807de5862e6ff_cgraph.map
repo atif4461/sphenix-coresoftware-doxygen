@@ -1,0 +1,22 @@
+<map id="TrackToCalo::process_event" name="TrackToCalo::process_event">
+<area shape="rect" id="Node000001" title="Process a single event projecting tracks to the EMCal and filling the analysis tree." alt="" coords="5,153,162,198"/>
+<area shape="rect" id="Node000002" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="247,83,390,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,150,209,121,237,112,238,117,211,126,136,155"/>
+<area shape="rect" id="Node000008" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="249,135,389,162"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="162,164,233,156,234,161,163,169"/>
+<area shape="rect" id="Node000009" href="$db/d0b/classTrackToCalo.html#aea65b5262628ad734bab8776635ab008" title="Normalize an angular difference to the interval [&#45;pi, pi]." alt="" coords="239,187,398,214"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="163,181,224,188,224,193,162,186"/>
+<area shape="rect" id="Node000010" href="$db/d0b/classTrackToCalo.html#a30a7aeb8f6d07d978f91008745031471" title="Clear all internal vectors used for storing track and EMCal geometry information." alt="" coords="210,239,428,266"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="137,196,211,223,239,232,237,237,209,228,136,201"/>
+<area shape="rect" id="Node000003" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="476,57,657,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,87,460,79,460,85,391,92"/>
+<area shape="rect" id="Node000007" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="484,109,649,137"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="391,102,469,110,469,115,391,107"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="525,58,518,48,523,39,540,33,567,31,596,33,611,40,609,44,594,38,567,36,541,38,526,43,523,48,529,55"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="749,5,891,33"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="637,54,733,34,734,39,638,59"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="754,57,886,85"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="658,68,738,68,738,74,658,74"/>
+<area shape="rect" id="Node000006" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="705,109,935,137"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="638,83,734,103,733,108,637,88"/>
+</map>

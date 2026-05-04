@@ -1,0 +1,54 @@
+<map id="SvtxClusterEval::max_truth_cluster_by_energy" name="SvtxClusterEval::max_truth_cluster_by_energy">
+<area shape="rect" id="Node000001" title="Retrieve the truth cluster that best matches a reconstructed cluster based on the highest‑energy cont..." alt="" coords="5,397,191,442"/>
+<area shape="rect" id="Node000002" href="$d4/de4/classSvtxTruthEval.html#a6051f9387f039a6604738f6a451c704b" title="Retrieve truth clusters associated with a given Geant4 particle." alt="" coords="483,219,617,263"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,395,175,357,237,321,296,298,356,279,467,252,468,257,358,284,298,303,240,326,178,362,128,399"/>
+<area shape="rect" id="Node000013" href="$de/dc9/classPHG4Particle.html#a23b7432f9b345b67a00e5c005fa5ba52" title=" " alt="" coords="672,328,866,356"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="162,394,238,374,349,358,461,348,657,339,657,345,461,353,349,363,239,380,164,399"/>
+<area shape="rect" id="Node000014" href="$d1/d1e/classSvtxClusterEval.html#a3e3879bf6110b7442b437ba803c5abc8" title=" " alt="" coords="692,519,846,563"/>
+<area shape="poly" id="edge20_Node000001_Node000014" title=" " alt="" coords="132,440,181,471,240,499,296,516,354,529,473,544,584,548,677,546,677,551,584,553,472,549,354,534,295,521,238,503,178,476,129,445"/>
+<area shape="rect" id="Node000015" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="480,499,620,527"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="168,440,239,460,357,483,465,500,465,505,356,488,238,465,167,445"/>
+<area shape="rect" id="Node000016" href="$d1/d1e/classSvtxClusterEval.html#a71467fc0bd5e8af7a8d4ea2a0d124bc1" title="Find truth particle with maximum energy contribution to the specified cluster." alt="" coords="239,389,428,450"/>
+<area shape="poly" id="edge22_Node000001_Node000016" title=" " alt="" coords="191,417,223,417,223,422,191,422"/>
+<area shape="rect" id="Node000003" href="$d4/de4/classSvtxTruthEval.html#aadade59ba8c67eb108524b42ef8bda8a" title="Retrieve all truth PHG4Hit objects from SVTX related hit containers." alt="" coords="702,5,836,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="559,217,576,183,600,141,632,98,671,60,686,50,689,55,674,64,636,101,605,144,580,186,563,220"/>
+<area shape="rect" id="Node000004" href="$d6/d9e/namespaceInttDefs.html#a5ba0dd67ed80d91514f9136028cc9338" title="Generate a cluster key from indeces." alt="" coords="690,74,848,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="567,216,611,167,639,140,671,117,695,105,697,110,674,122,643,145,614,171,571,220"/>
+<area shape="rect" id="Node000005" href="$d6/d3f/namespaceTrkrDefs.html#a5cc3b1fa8e62e3fc5fb698fe1991cfae" title="generate cluster key from hitset key and cluster index" alt="" coords="948,124,1107,152"/>
+<area shape="poly" id="edge15_Node000002_Node000005" title=" " alt="" coords="577,216,619,186,671,161,738,144,807,134,873,130,932,130,932,135,873,136,807,140,739,149,673,166,622,191,580,220"/>
+<area shape="rect" id="Node000008" href="$d8/df1/namespaceMvtxDefs.html#acef315b1153c420f248be5073c2600c1" title="Generate a cluster key from indeces." alt="" coords="685,175,853,203"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="617,223,692,204,693,210,618,228"/>
+<area shape="rect" id="Node000010" href="$d7/db0/namespaceTpcDefs.html#a0202375ade5010ae596a2e0b7c7f5fd0" title="Generate a cluster key from indeces." alt="" coords="690,227,848,255"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="618,238,674,238,674,244,618,244"/>
+<area shape="rect" id="Node000012" href="$d2/ddf/namespaceMicromegasDefs.html#a743730ec09de7afdc8602f06a302b22a" title="Generate a Trkr hit set key for Micromegas detectors." alt="" coords="914,280,1141,308"/>
+<area shape="poly" id="edge16_Node000002_Node000012" title=" " alt="" coords="618,254,673,264,788,277,899,286,898,291,788,282,672,269,617,259"/>
+<area shape="poly" id="edge18_Node000002_Node000013" title=" " alt="" coords="588,262,673,308,705,320,703,325,671,313,586,266"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="844,100,939,118,938,124,843,105"/>
+<area shape="rect" id="Node000006" href="$d6/d9e/namespaceInttDefs.html#a12be8558fb8bdb4b0374c28a63e703d3" title="Generate a hitsetkey for the intt." alt="" coords="943,72,1112,100"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="848,85,927,84,927,90,848,90"/>
+<area shape="rect" id="Node000007" href="$d6/d3f/namespaceTrkrDefs.html#a418e306477093b8d17d587be70b908a3" title="generate the common upper 16 bits for hitsetkey" alt="" coords="1189,203,1360,231"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1110,98,1142,111,1173,128,1203,149,1250,190,1247,194,1200,153,1171,133,1140,115,1108,103"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="843,172,938,153,939,158,844,177"/>
+<area shape="rect" id="Node000009" href="$d8/df1/namespaceMvtxDefs.html#a024ad0bf5de2d32614825f36645eb49e" title="Generate a hitsetkey for the mvtx." alt="" coords="937,176,1118,204"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="854,187,922,187,922,192,854,192"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="1118,197,1174,203,1173,209,1118,203"/>
+<area shape="poly" id="edge12_Node000010_Node000005" title=" " alt="" coords="838,224,864,212,879,200,887,188,897,175,912,163,932,153,934,158,915,167,901,179,892,191,882,204,867,217,840,229"/>
+<area shape="rect" id="Node000011" href="$d7/db0/namespaceTpcDefs.html#a30fc79495c9e8d14327d1026cd7325c7" title="Generate a hitsetkey for the tpc." alt="" coords="942,228,1112,256"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="849,239,927,239,927,244,849,244"/>
+<area shape="poly" id="edge14_Node000011_Node000007" title=" " alt="" coords="1113,231,1173,225,1174,230,1113,236"/>
+<area shape="poly" id="edge17_Node000012_Node000007" title=" " alt="" coords="1095,277,1140,265,1225,235,1227,240,1142,270,1097,282"/>
+<area shape="poly" id="edge23_Node000016_Node000002" title=" " alt="" coords="370,386,508,271,512,275,374,391"/>
+<area shape="poly" id="edge30_Node000016_Node000014" title=" " alt="" coords="429,436,524,457,625,485,673,504,691,510,689,515,671,509,623,490,523,463,428,441"/>
+<area shape="poly" id="edge31_Node000016_Node000015" title=" " alt="" coords="408,449,503,490,501,495,406,453"/>
+<area shape="rect" id="Node000017" href="$d1/d1e/classSvtxClusterEval.html#ae2d6f811db24d80dac0f4b247de56bcd" title="Retrieve set of truth particles associated with a given cluster key." alt="" coords="476,380,624,425"/>
+<area shape="poly" id="edge24_Node000016_Node000017" title=" " alt="" coords="428,409,460,407,461,412,429,415"/>
+<area shape="poly" id="edge29_Node000017_Node000014" title=" " alt="" coords="600,423,626,442,641,459,650,475,659,489,674,504,680,509,677,513,671,508,655,493,645,477,637,462,623,446,597,427"/>
+<area shape="rect" id="Node000018" href="$d1/d1e/classSvtxClusterEval.html#a19f61841db8edf09e606635a790b1d2c" title="Retrieve all truth PHG4Hit objects associated with a given cluster key." alt="" coords="695,449,843,494"/>
+<area shape="poly" id="edge25_Node000017_Node000018" title=" " alt="" coords="624,423,682,441,681,447,622,428"/>
+<area shape="rect" id="Node000021" href="$d4/de4/classSvtxTruthEval.html#ae575fcf72ce935a72f3c5a157abdd900" title="Retrieve the PHG4Particle associated with a given PHG4Hit." alt="" coords="699,380,839,425"/>
+<area shape="poly" id="edge28_Node000017_Node000021" title=" " alt="" coords="625,400,684,400,684,405,625,405"/>
+<area shape="rect" id="Node000019" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="927,480,1128,525"/>
+<area shape="poly" id="edge26_Node000018_Node000019" title=" " alt="" coords="844,478,911,486,911,491,843,483"/>
+<area shape="rect" id="Node000020" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="957,428,1098,456"/>
+<area shape="poly" id="edge27_Node000018_Node000020" title=" " alt="" coords="843,461,941,449,942,455,844,466"/>
+</map>

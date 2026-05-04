@@ -1,0 +1,103 @@
+<map id="GlobalVertexReco::process_event" name="GlobalVertexReco::process_event">
+<area shape="rect" id="Node000001" title="Process a single event and fill the global vertex map." alt="" coords="5,1132,201,1176"/>
+<area shape="rect" id="Node000002" href="$db/de9/classCaloVertexMap.html#a08d1cbd7832c3518e986cd5936d73940" title="Return a constant iterator to the beginning of the vertex map." alt="" coords="262,5,426,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,1131,103,925,108,769,118,598,135,426,161,267,178,196,198,135,220,83,247,44,250,41,253,45,251,47,225,86,203,136,183,198,166,268,141,427,123,599,113,770,108,925,107,1131"/>
+<area shape="rect" id="Node000003" href="$d5/d7d/classMbdVertexMap.html#a22bc5444cd712c10a8194d86742fa97a" title="Returns a constant iterator to the beginning of the MbdVertexMap." alt="" coords="262,57,426,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="102,1131,104,934,110,786,121,623,139,459,164,307,181,241,200,182,222,133,247,96,250,92,254,96,251,100,226,136,205,184,186,242,169,309,144,460,126,623,115,786,110,934,107,1131"/>
+<area shape="rect" id="Node000004" href="$db/dd7/classSvtxVertexMap.html#aceed03292f3f7f39d8d8d1627dee1e2c" title="Returns a constant iterator to the beginning of the vertex map." alt="" coords="262,109,426,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="102,1131,106,942,112,801,124,647,142,491,167,348,183,285,202,229,223,183,247,148,250,144,254,148,251,152,227,186,207,231,188,286,172,349,147,492,129,647,118,802,111,942,107,1131"/>
+<area shape="rect" id="Node000005" href="$d2/d6d/classSvtxVertex.html#abf44625d9de1b3b19e4bf3a6862064cf" title="Get a constant iterator to the first track associated with this vertex." alt="" coords="252,161,436,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="102,1131,107,951,114,817,126,671,144,523,170,388,185,328,203,275,224,232,247,199,248,197,252,201,251,202,228,235,208,277,190,329,175,389,150,524,132,671,120,817,112,951,107,1131"/>
+<area shape="rect" id="Node000006" href="$d1/d39/classGlobalVertex.html#a14d55470fd1b44a3d58b5c7f8c6cd986" title=" " alt="" coords="270,213,418,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="102,1131,111,963,133,705,152,569,176,444,208,340,226,299,247,268,255,260,259,263,251,272,231,302,213,342,182,445,157,570,139,705,116,963,108,1131"/>
+<area shape="rect" id="Node000007" href="$db/de9/classCaloVertexMap.html#a59bb4109bfd51ff0ed13eaeff949657d" title="Return a constant iterator to the element past the last entry in the calorimeter vertex map." alt="" coords="268,281,420,309"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="102,1131,111,971,134,727,153,600,177,483,208,386,226,349,247,320,253,314,256,318,251,324,231,351,213,388,182,484,158,601,139,728,116,971,108,1131"/>
+<area shape="rect" id="Node000008" href="$d5/dc4/classGlobalVertexMap.html#a9e1d01b7f255ede18d0089c5f0c1eeeb" title="Returns a constant iterator to the end of the dummy global vertex map." alt="" coords="261,333,426,361"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="103,1131,113,980,137,752,156,633,180,524,210,434,227,399,247,372,250,368,254,372,251,376,232,402,215,436,185,525,161,634,142,752,118,980,108,1131"/>
+<area shape="rect" id="Node000009" href="$d5/d7d/classMbdVertexMap.html#a558702f723a2e8d0213d73a28cdee5d3" title="Return constant iterator to one past last element of the dummy MbdVertexMap." alt="" coords="268,385,420,413"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="103,1131,115,989,140,776,159,666,183,565,212,481,229,449,247,424,253,418,257,422,251,428,233,452,217,483,188,566,165,667,145,777,120,989,108,1131"/>
+<area shape="rect" id="Node000010" href="$db/dd7/classSvtxVertexMap.html#aea834a6b7ced012dd6865151f00c3f3f" title="Return a constant iterator pointing past the last element of the vertex map." alt="" coords="268,437,420,465"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="103,1131,116,998,143,801,163,699,186,606,214,529,230,499,247,476,253,470,256,474,251,480,234,502,219,531,191,607,168,700,149,802,122,998,109,1131"/>
+<area shape="rect" id="Node000011" href="$d2/d6d/classSvtxVertex.html#a40e9bd20f0f1ba33450147486086eccf" title="Return constant iterator to end of track collection stored in vertex." alt="" coords="258,489,430,517"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="104,1131,118,1006,147,826,166,732,189,647,216,576,231,549,247,528,250,524,254,528,251,532,235,552,221,578,194,648,171,733,152,827,124,1007,109,1131"/>
+<area shape="rect" id="Node000012" href="$d5/dc4/classGlobalVertexMap.html#a0f4a71e35d4da0d16432c939955c3303" title="Locate a vertex in the GlobalVertexMap by its identifier." alt="" coords="261,541,426,569"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="104,1131,120,1016,150,851,170,766,192,688,218,624,232,599,247,580,251,576,255,580,251,584,236,602,223,626,197,690,175,767,155,852,126,1017,110,1132"/>
+<area shape="rect" id="Node000013" href="$d7/d8b/classSvtxTrackMap.html#ad6db8617398354eb7f13ea10dceb6e7c" title="Find track by identifier key in a constant SvtxTrackMap." alt="" coords="272,593,416,621"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="101,1131,102,1040,108,976,119,906,137,833,163,760,199,692,221,661,247,632,256,624,259,628,251,636,225,664,203,695,168,762,142,834,124,907,113,977,108,1040,106,1131"/>
+<area shape="rect" id="Node000014" href="$d2/d6d/classSvtxVertex.html#a99a2eaae538b217a55d87073fbd31f34" title=" " alt="" coords="264,645,424,673"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="102,1131,106,1047,113,990,125,927,143,862,169,797,203,737,247,684,252,679,255,683,251,688,207,740,174,800,148,864,130,929,119,991,111,1048,107,1131"/>
+<area shape="rect" id="Node000015" href="$db/d6e/classCaloVertex.html#a605b210643f9dcdc0505d7f68ab6d34c" title=" " alt="" coords="274,697,414,725"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="103,1131,110,1055,132,949,150,892,175,835,207,782,247,736,258,727,261,731,250,740,211,785,179,838,155,894,137,951,115,1056,108,1131"/>
+<area shape="rect" id="Node000016" href="$d1/d39/classGlobalVertex.html#a024274b12e04f8e271a5b27c6579aa54" title=" " alt="" coords="267,749,420,777"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="104,1131,114,1064,138,972,157,922,181,873,210,828,247,788,253,783,256,787,250,792,215,831,185,876,162,924,143,973,120,1065,109,1132"/>
+<area shape="rect" id="Node000017" href="$d4/d7d/classMbdVertex.html#a33df225dd86265ab85714b587830c0f0" title=" " alt="" coords="274,801,414,829"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="106,1130,119,1072,145,994,164,952,187,911,214,873,247,840,259,832,262,836,250,844,218,876,191,914,169,954,150,996,124,1074,111,1132"/>
+<area shape="rect" id="Node000018" href="$d2/d6d/classSvtxVertex.html#acd8a77ea87320a880e8057db1661b9af" title=" " alt="" coords="274,853,414,881"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="108,1130,124,1081,152,1016,193,949,218,919,247,892,258,884,261,889,250,896,222,922,197,952,157,1019,129,1083,113,1132"/>
+<area shape="rect" id="Node000019" href="$d6/d81/classPHG4VtxPoint.html#a271de766c9b21dbc56c3e339f8e42fc5" title=" " alt="" coords="266,905,422,933"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="111,1130,131,1090,160,1039,199,988,247,944,256,938,259,942,250,948,203,991,165,1042,135,1092,116,1132"/>
+<area shape="rect" id="Node000020" href="$d6/d81/classPHG4VtxPoint.html#a20e37ddb56c6ef297b77a99cb2377bf6" title=" " alt="" coords="266,957,422,985"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="117,1129,169,1063,206,1027,247,996,259,989,262,994,250,1000,209,1031,173,1067,121,1133"/>
+<area shape="rect" id="Node000021" href="$db/d6e/classCaloVertex.html#a82fb4678b80487e3e127f9e51e19864a" title=" " alt="" coords="276,1009,412,1037"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="129,1129,181,1088,247,1047,265,1040,267,1045,250,1052,184,1092,132,1133"/>
+<area shape="rect" id="Node000022" href="$d4/d7d/classMbdVertex.html#ad2868dfcdde6241f5ed3344f37df29be" title=" " alt="" coords="277,1061,411,1089"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="164,1128,248,1099,274,1091,275,1096,249,1104,166,1133"/>
+<area shape="rect" id="Node000023" href="$d6/d81/classPHG4VtxPoint.html#a9b558f1924a5947a3aa3a407def653eb" title=" " alt="" coords="266,1113,422,1141"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="201,1140,250,1135,251,1140,202,1146"/>
+<area shape="rect" id="Node000024" href="$d2/d6d/classSvtxVertex.html#ae9f6d1b85a2969d01177b20ccb2e6c2a" title=" " alt="" coords="276,1165,412,1193"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="201,1161,261,1168,260,1173,201,1167"/>
+<area shape="rect" id="Node000025" href="$d4/d7d/classMbdVertex.html#af026d2a8356df96f0cfb520f6e9ba6b9" title=" " alt="" coords="264,1217,424,1245"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="168,1174,249,1202,276,1210,275,1215,248,1207,166,1179"/>
+<area shape="rect" id="Node000026" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="272,1269,416,1297"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="132,1174,184,1215,250,1254,267,1261,265,1266,247,1259,181,1219,129,1179"/>
+<area shape="rect" id="Node000032" href="$da/d6c/classPHG4TruthInfoContainer.html#ad3a7147134687db5b6ea5af66ffd1326" title="Retrieve the vertex identifier of the primary vertex based on highest embedding ID." alt="" coords="253,1321,434,1366"/>
+<area shape="poly" id="edge30_Node000001_Node000032" title=" " alt="" coords="122,1175,175,1239,210,1275,250,1306,258,1311,255,1316,247,1311,207,1279,171,1243,118,1178"/>
+<area shape="rect" id="Node000035" href="$da/d6c/classPHG4TruthInfoContainer.html#acf130130dd475251d67c0f04c0e9cc49" title="Retrieve primary vertex pointer by vertex identifier." alt="" coords="255,1390,432,1435"/>
+<area shape="poly" id="edge33_Node000001_Node000035" title=" " alt="" coords="116,1176,135,1218,164,1272,203,1327,250,1376,256,1380,252,1384,247,1380,198,1331,159,1274,130,1220,111,1178"/>
+<area shape="rect" id="Node000036" href="$d1/d39/classGlobalVertex.html#a639c822070e25691ba5228f3667c78f8" title=" " alt="" coords="263,1459,425,1486"/>
+<area shape="poly" id="edge34_Node000001_Node000036" title=" " alt="" coords="111,1176,126,1231,152,1304,171,1343,193,1380,220,1415,250,1445,255,1449,252,1453,247,1449,216,1418,189,1383,166,1345,147,1306,121,1233,106,1177"/>
+<area shape="rect" id="Node000037" href="$d5/dc4/classGlobalVertexMap.html#ac910ada46a473d4b7cb879479d2122ed" title="Identify the object by writing a generic message to the supplied stream." alt="" coords="249,1511,439,1538"/>
+<area shape="poly" id="edge35_Node000001_Node000037" title=" " alt="" coords="110,1176,121,1240,146,1326,164,1372,188,1417,216,1459,250,1496,256,1501,253,1505,247,1500,212,1463,183,1420,160,1374,141,1328,116,1241,104,1177"/>
+<area shape="rect" id="Node000038" href="$d5/dc4/classGlobalVertexMap.html#a4df8ddd2378b21b1835bf3cc3b85161f" title=" " alt="" coords="255,1563,433,1590"/>
+<area shape="poly" id="edge36_Node000001_Node000038" title=" " alt="" coords="108,1176,117,1248,139,1348,158,1402,182,1455,212,1505,251,1548,256,1552,252,1556,247,1552,208,1508,177,1458,153,1404,134,1350,112,1249,103,1177"/>
+<area shape="rect" id="Node000039" href="$dd/d06/classTruthVertexMap.html#a9a835a504f1cf14ac5cb6d3e4c3bd15b" title=" " alt="" coords="260,1615,428,1642"/>
+<area shape="poly" id="edge37_Node000001_Node000039" title=" " alt="" coords="107,1177,113,1257,121,1311,133,1371,151,1433,176,1493,209,1550,251,1600,255,1604,252,1608,247,1604,204,1553,171,1496,146,1434,128,1372,115,1312,108,1257,102,1177"/>
+<area shape="rect" id="Node000040" href="$d1/d39/classGlobalVertex.html#aba2e508a0fe0f65e30c67ae48d9ec448" title=" " alt="" coords="268,1667,420,1694"/>
+<area shape="poly" id="edge38_Node000001_Node000040" title=" " alt="" coords="106,1176,109,1265,115,1325,127,1392,144,1462,170,1531,205,1596,251,1652,256,1657,253,1661,247,1656,200,1598,165,1533,139,1464,121,1393,110,1326,104,1265,101,1177"/>
+<area shape="rect" id="Node000041" href="$d8/d13/classTruthVertex.html#a2146b8a63bc2e21eb7defaca5eb71340" title=" " alt="" coords="273,1719,415,1746"/>
+<area shape="poly" id="edge39_Node000001_Node000041" title=" " alt="" coords="110,1176,126,1287,156,1446,176,1528,198,1602,223,1663,251,1704,261,1712,257,1716,247,1708,219,1666,193,1604,171,1529,151,1447,121,1288,105,1177"/>
+<area shape="rect" id="Node000042" href="$d8/d13/classTruthVertex.html#a6467c280ea79add454b402db4e78dfbe" title=" " alt="" coords="276,1771,412,1798"/>
+<area shape="poly" id="edge40_Node000001_Node000042" title=" " alt="" coords="109,1176,124,1297,153,1472,173,1561,195,1644,222,1711,236,1737,251,1756,264,1766,260,1770,247,1760,231,1740,217,1713,190,1645,167,1563,148,1473,119,1298,104,1177"/>
+<area shape="rect" id="Node000043" href="$d8/d13/classTruthVertex.html#a767bdacfe5bf36b2a01d0612fb45026a" title=" " alt="" coords="264,1823,424,1850"/>
+<area shape="poly" id="edge41_Node000001_Node000043" title=" " alt="" coords="109,1176,122,1306,150,1496,169,1594,192,1685,220,1758,235,1787,251,1808,254,1811,250,1815,247,1812,230,1790,215,1761,187,1686,164,1596,145,1497,117,1306,104,1177"/>
+<area shape="rect" id="Node000044" href="$d8/d13/classTruthVertex.html#ab48c0a8641ebdf9a4e3a44b0c8d9671a" title=" " alt="" coords="275,1875,413,1902"/>
+<area shape="poly" id="edge42_Node000001_Node000044" title=" " alt="" coords="109,1177,121,1315,147,1521,166,1628,189,1726,218,1806,234,1837,251,1860,263,1870,259,1874,247,1864,229,1840,213,1808,184,1727,161,1629,141,1522,115,1316,103,1177"/>
+<area shape="rect" id="Node000045" href="$d8/d13/classTruthVertex.html#a8d91b6cfddb4e988fbe248475cdb47d1" title=" " alt="" coords="262,1927,426,1954"/>
+<area shape="poly" id="edge43_Node000001_Node000045" title=" " alt="" coords="108,1176,119,1324,144,1545,162,1661,186,1767,216,1854,232,1887,251,1912,254,1915,250,1919,247,1916,228,1890,211,1856,181,1768,157,1662,138,1546,113,1324,103,1177"/>
+<area shape="rect" id="Node000046" href="$d8/d13/classTruthVertex.html#a2234a0b9c675e15e5429262dbb94f3a2" title=" " alt="" coords="275,1979,413,2006"/>
+<area shape="poly" id="edge44_Node000001_Node000046" title=" " alt="" coords="108,1176,117,1333,140,1570,159,1694,183,1807,214,1901,231,1937,251,1964,263,1974,259,1978,247,1968,227,1940,209,1903,178,1809,154,1695,135,1571,112,1333,103,1177"/>
+<area shape="rect" id="Node000047" href="$d8/d13/classTruthVertex.html#ab386593422c7fea8a825c05a017290e5" title=" " alt="" coords="262,2031,426,2058"/>
+<area shape="poly" id="edge45_Node000001_Node000047" title=" " alt="" coords="108,1177,115,1342,124,1463,137,1595,156,1727,180,1848,212,1949,230,1987,251,2016,254,2019,250,2023,247,2020,226,1990,207,1951,175,1850,151,1728,132,1595,119,1463,110,1342,102,1177"/>
+<area shape="rect" id="Node000048" href="$d8/d13/classTruthVertex.html#a648597003f32bfc2eafe3b1978ebc436" title=" " alt="" coords="275,2083,412,2110"/>
+<area shape="poly" id="edge46_Node000001_Node000048" title=" " alt="" coords="107,1177,114,1351,122,1479,134,1619,153,1760,177,1889,193,1946,210,1996,229,2037,251,2068,263,2078,259,2082,247,2072,225,2040,205,1998,188,1948,172,1891,147,1761,129,1620,116,1479,108,1351,102,1177"/>
+<area shape="rect" id="Node000049" href="$d8/d13/classTruthVertex.html#a75d659debd17fecbffffbb833fee157e" title=" " alt="" coords="263,2135,425,2162"/>
+<area shape="poly" id="edge47_Node000001_Node000049" title=" " alt="" coords="107,1177,112,1360,119,1495,131,1644,149,1793,174,1930,190,1991,208,2043,228,2087,251,2120,254,2124,250,2127,247,2124,223,2090,203,2045,185,1992,169,1931,144,1794,126,1644,114,1495,107,1360,102,1177"/>
+<area shape="rect" id="Node000050" href="$d0/de0/src_8f.html#ae55836e2d3f15d0405a928cc6fb1b0ed" title=" " alt="" coords="313,2211,374,2238"/>
+<area shape="poly" id="edge48_Node000001_Node000050" title=" " alt="" coords="107,1177,115,1366,123,1507,136,1662,155,1819,180,1965,211,2087,230,2135,251,2172,273,2194,300,2208,297,2213,270,2198,247,2175,225,2137,206,2089,174,1966,150,1820,131,1663,118,1507,109,1366,102,1177"/>
+<area shape="rect" id="Node000051" href="$d5/dc4/classGlobalVertexMap.html#a54a536679204e55dbb9841e242728a8d" title=" " alt="" coords="260,2263,428,2290"/>
+<area shape="poly" id="edge50_Node000001_Node000051" title=" " alt="" coords="107,1176,108,1380,114,1534,124,1703,141,1873,167,2030,184,2100,203,2160,225,2210,251,2248,253,2251,250,2255,247,2251,221,2213,198,2162,179,2101,162,2031,136,1874,119,1703,108,1534,103,1380,101,1177"/>
+<area shape="rect" id="Node000052" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="259,2315,429,2342"/>
+<area shape="poly" id="edge51_Node000001_Node000052" title=" " alt="" coords="107,1177,107,1389,111,1550,121,1727,138,1906,164,2071,181,2144,201,2208,224,2260,251,2300,253,2303,250,2307,247,2303,220,2263,196,2210,176,2145,159,2072,133,1907,116,1728,106,1550,102,1389,101,1177"/>
+<area shape="rect" id="Node000027" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="487,1217,668,1245"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="409,1266,497,1246,498,1252,410,1271"/>
+<area shape="rect" id="Node000031" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="496,1269,660,1297"/>
+<area shape="poly" id="edge29_Node000026_Node000031" title=" " alt="" coords="416,1280,480,1280,480,1286,416,1286"/>
+<area shape="poly" id="edge27_Node000027_Node000027" title=" " alt="" coords="542,1218,536,1208,540,1199,555,1193,578,1191,602,1193,616,1200,613,1204,601,1198,578,1196,556,1198,544,1203,541,1208,546,1215"/>
+<area shape="rect" id="Node000028" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="716,1217,858,1245"/>
+<area shape="poly" id="edge28_Node000027_Node000028" title=" " alt="" coords="668,1228,701,1228,701,1234,668,1234"/>
+<area shape="rect" id="Node000033" href="$da/d6c/classPHG4TruthInfoContainer.html#a53587ae22361008bcee4c51cc1d8d242" title=" " alt="" coords="489,1321,666,1366"/>
+<area shape="poly" id="edge31_Node000032_Node000033" title=" " alt="" coords="435,1340,473,1340,473,1346,435,1346"/>
+<area shape="rect" id="Node000034" href="$da/d6c/classPHG4TruthInfoContainer.html#a88f175ebf34c4c7b1de705bf272f821b" title="Determine whether a given vertex id corresponds to an embedded vertex." alt="" coords="489,1390,666,1435"/>
+<area shape="poly" id="edge32_Node000032_Node000034" title=" " alt="" coords="422,1364,486,1383,485,1388,421,1369"/>
+<area shape="poly" id="edge49_Node000050_Node000050" title=" " alt="" coords="311,2216,299,2206,300,2194,316,2187,344,2184,381,2190,389,2197,389,2205,384,2204,384,2199,379,2194,344,2189,317,2192,304,2197,304,2204,314,2212"/>
+</map>

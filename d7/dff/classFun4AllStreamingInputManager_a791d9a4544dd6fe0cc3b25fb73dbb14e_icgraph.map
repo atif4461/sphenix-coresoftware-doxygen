@@ -1,0 +1,27 @@
+<map id="Fun4AllStreamingInputManager::Print" name="Fun4AllStreamingInputManager::Print">
+<area shape="rect" id="Node000001" title="Print information about streaming inputs based on the requested category." alt="" coords="857,144,1084,189"/>
+<area shape="rect" id="Node000002" href="$d7/dff/classFun4AllStreamingInputManager.html#a7463cbfbeaf508e1d70b2e7e567fce56" title="Fill GL1 input pools and populate GL1 packet." alt="" coords="309,5,535,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="930,136,874,97,842,79,808,65,740,46,668,34,599,28,536,26,536,21,599,23,669,29,741,41,810,60,844,74,877,93,933,132"/>
+<area shape="rect" id="Node000004" href="$d7/dff/classFun4AllStreamingInputManager.html#a4ddf24afac84389a8d6a3d4d502823eb" title="Fill the INTT input pool from all registered INTT input sources." alt="" coords="583,75,809,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="864,142,787,123,788,117,865,137"/>
+<area shape="rect" id="Node000006" href="$d7/dff/classFun4AllStreamingInputManager.html#afc7e02f47cf006311a20c7ea63e6c75f" title="Fill Micromegas input pool and verify run number consistency." alt="" coords="583,144,809,189"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="841,169,810,169,810,164,841,164"/>
+<area shape="rect" id="Node000008" href="$d7/dff/classFun4AllStreamingInputManager.html#ace60fbe3a398ccc612c6f860ad7b0adf" title="Fill Mvtx input pool and verify run number consistency." alt="" coords="583,213,809,258"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="865,196,788,215,787,210,864,191"/>
+<area shape="rect" id="Node000010" href="$d7/dff/classFun4AllStreamingInputManager.html#a80894c5ec6fad296335115c770f74ac9" title="Fill Tpc input pool and check run number consistency." alt="" coords="583,283,809,327"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="929,200,874,238,810,273,781,285,779,280,808,268,871,233,926,196"/>
+<area shape="rect" id="Node000003" href="$d7/dff/classFun4AllStreamingInputManager.html#a08e3ccaec492d26c1896abbcb7e911e1" title="Run processing for streaming input manager." alt="" coords="5,152,261,180"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,58,310,65,223,111,156,154,153,150,220,107,308,60,323,53"/>
+<area shape="rect" id="Node000005" href="$d7/dff/classFun4AllStreamingInputManager.html#a202dd64639923066e23340bb9818c67c" title="Fill INTt data from input streams into the InttRawHitContainer." alt="" coords="309,75,535,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="567,100,536,100,536,94,567,94"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="312,126,195,154,193,149,311,121"/>
+<area shape="rect" id="Node000007" href="$d7/dff/classFun4AllStreamingInputManager.html#a8607ddd7e31fdefa574161e63c630d16" title="Fill Micromegas raw hit container with streaming data." alt="" coords="309,144,535,189"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="567,169,536,169,536,164,567,164"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="293,169,261,169,261,164,293,164"/>
+<area shape="rect" id="Node000009" href="$d7/dff/classFun4AllStreamingInputManager.html#a19fee5879805c753b11db0b80dc5dc4b" title="FillMvtx processes MVTX raw data and fills event header and hit containers." alt="" coords="309,213,535,258"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="567,238,536,238,536,233,567,233"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="311,212,193,183,195,178,312,207"/>
+<area shape="rect" id="Node000011" href="$d7/dff/classFun4AllStreamingInputManager.html#abab3ab0c085855507153ecd0455bbc73" title="Fill TPC raw hit container from streaming input." alt="" coords="309,283,535,327"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="567,308,536,308,536,302,567,302"/>
+<area shape="poly" id="edge14_Node000011_Node000003" title=" " alt="" coords="323,279,308,273,220,226,153,183,156,178,223,221,310,268,325,274"/>
+</map>

@@ -1,0 +1,65 @@
+<map id="TpcRawHitv2::TpcRawHitv2" name="TpcRawHitv2::TpcRawHitv2">
+<area shape="rect" id="Node000001" title="Construct a TpcRawHitv2 object from a TpcRawHit source." alt="" coords="5,785,207,813"/>
+<area shape="rect" id="Node000002" href="$d4/d14/classTpcRawHit.html#a85cf1312c66c360e5d98620c8aa02c91" title=" " alt="" coords="299,5,450,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,785,115,645,140,421,159,303,184,194,215,105,233,70,253,44,267,33,283,25,286,29,270,37,257,48,237,73,220,107,189,196,165,304,145,422,121,645,111,785"/>
+<area shape="rect" id="Node000003" href="$d4/d14/classTpcRawHit.html#a9e3e87aa2e6bed6a85eb159fa46e5f8e" title=" " alt="" coords="299,57,450,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,785,117,654,143,446,163,336,187,235,217,152,234,120,253,96,267,85,283,77,286,82,270,89,257,100,239,123,222,154,192,237,168,337,148,447,122,655,111,785"/>
+<area shape="rect" id="Node000004" href="$d4/d14/classTpcRawHit.html#a4b9a5842cb62cf0f57108c7c15b8fff7" title=" " alt="" coords="285,109,464,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="106,785,119,662,146,470,166,369,190,276,219,200,235,170,253,148,270,135,273,140,257,152,240,173,224,202,195,278,171,370,152,471,124,663,111,785"/>
+<area shape="rect" id="Node000005" href="$d4/d14/classTpcRawHit.html#aa50903ffa6ec7c309820bfae9527bc64" title=" " alt="" coords="278,161,471,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="106,785,120,671,149,495,170,402,194,317,221,247,236,220,253,200,263,192,266,196,257,204,241,223,226,249,199,319,175,403,155,496,126,672,111,785"/>
+<area shape="rect" id="Node000006" href="$d4/d14/classTpcRawHit.html#ac282d2fdbd5cbc0f34811a28720ee8ac" title="FEE waveform CRC check. If true, FEE data transmission from FEE to offline is broken." alt="" coords="262,213,486,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="107,784,122,679,153,519,173,435,197,358,223,295,238,270,253,252,258,247,261,251,257,256,242,273,228,297,202,359,178,436,158,520,128,680,112,785"/>
+<area shape="rect" id="Node000007" href="$d4/d14/classTpcRawHit.html#a5f99c0323d2993850c31fcf71d83d6c1" title=" " alt="" coords="300,265,448,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="104,785,106,701,112,640,123,571,140,499,167,428,204,362,227,331,253,304,284,285,286,290,256,308,231,335,208,364,172,430,146,501,128,573,117,641,111,702,109,785"/>
+<area shape="rect" id="Node000008" href="$d4/d14/classTpcRawHit.html#ad9fe6602a670abfaba19cbb2e8df696e" title=" " alt="" coords="283,317,466,345"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="105,785,109,709,117,654,129,593,147,529,173,466,208,407,253,356,267,346,270,350,256,360,212,410,178,468,152,531,134,594,122,655,115,710,110,785"/>
+<area shape="rect" id="Node000009" href="$d4/d14/classTpcRawHit.html#a3bbd7984023820981e266173308cc848" title=" " alt="" coords="283,369,466,397"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="105,785,113,716,135,614,154,558,179,503,212,452,253,408,268,397,271,402,256,412,216,455,184,506,159,560,140,616,118,717,111,785"/>
+<area shape="rect" id="Node000010" href="$d4/d14/classTpcRawHit.html#ac119ac3e63c2b65ef1d8657700e09c46" title=" " alt="" coords="292,421,457,449"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="106,784,117,724,142,636,161,588,185,541,216,497,253,460,276,446,279,450,256,464,220,501,190,544,166,590,147,638,122,726,112,785"/>
+<area shape="rect" id="Node000011" href="$d4/d14/classTpcRawHit.html#a3d5b6e187ab7c86024d0d8a7f6ad2b3b" title="SAMPA data payload parity check. If true, data from SAMPA is broken, e.g. from SEU." alt="" coords="276,473,472,501"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="108,785,121,733,148,658,168,618,191,579,220,543,253,512,261,506,264,510,256,516,224,546,196,582,172,621,153,661,126,734,113,786"/>
+<area shape="rect" id="Node000012" href="$d4/d14/classTpcRawHit.html#a6047825ed045dc6cd7ce1a834e538a6b" title=" " alt="" coords="263,525,486,553"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="109,784,126,740,155,680,198,617,224,588,253,564,263,558,265,562,256,568,227,592,202,620,160,683,131,743,114,786"/>
+<area shape="rect" id="Node000013" href="$d4/d14/classTpcRawHit.html#a506bb744074652afc42effa00c7f7a67" title=" " alt="" coords="263,577,486,605"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="112,784,132,749,163,703,204,656,253,616,266,609,268,614,256,620,207,659,167,707,136,752,117,786"/>
+<area shape="rect" id="Node000014" href="$d4/d14/classTpcRawHit.html#a13b34f2c6b976a3bf04bab77af6d56f5" title=" " alt="" coords="283,629,466,657"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="117,783,172,727,210,694,253,667,271,660,273,665,256,672,214,699,175,730,121,787"/>
+<area shape="rect" id="Node000015" href="$d4/d14/classTpcRawHit.html#acdebacfa4d62059ef872b1b700072b66" title=" " alt="" coords="296,681,452,709"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="129,783,184,751,254,719,281,711,282,716,256,724,187,756,131,787"/>
+<area shape="rect" id="Node000016" href="$d4/d14/classTpcRawHit.html#ac21e6e3c89e15e8c9aa92046b3542dec" title=" " alt="" coords="281,733,468,761"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="181,782,283,762,284,767,182,787"/>
+<area shape="rect" id="Node000017" href="$da/dbf/classTpcRawHitv2.html#a646f9dc4310ea175450a5e997fccbad2" title=" " alt="" coords="292,785,457,813"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="207,796,276,796,276,802,207,802"/>
+<area shape="rect" id="Node000018" href="$da/dbf/classTpcRawHitv2.html#abcbace2c87a978ff9dec1edbd9182677" title=" " alt="" coords="292,837,457,865"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="182,811,284,831,283,836,181,816"/>
+<area shape="rect" id="Node000019" href="$da/dbf/classTpcRawHitv2.html#a3cfcceafa2e7d4ad609599095a8c7f0b" title=" " alt="" coords="278,889,471,917"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="131,811,187,843,256,874,281,882,280,887,254,879,184,847,129,816"/>
+<area shape="rect" id="Node000020" href="$da/dbf/classTpcRawHitv2.html#a743b0d9f7767fef99870798dabcce2be" title=" " alt="" coords="270,941,478,969"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="121,812,175,868,214,900,256,926,273,934,271,938,253,931,210,904,172,872,117,815"/>
+<area shape="rect" id="Node000021" href="$da/dbf/classTpcRawHitv2.html#a45dad05815149caf8902a0b4d80dc0bd" title=" " alt="" coords="255,993,494,1021"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="117,812,136,846,167,892,207,939,256,978,268,985,266,989,253,983,204,943,163,895,132,849,112,814"/>
+<area shape="rect" id="Node000022" href="$da/dbf/classTpcRawHitv2.html#ac425fc9ea0cabc84ea140b727d35c62f" title=" " alt="" coords="293,1045,456,1073"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="114,812,131,856,160,915,202,978,227,1006,256,1030,279,1043,277,1047,253,1035,224,1010,198,981,155,918,126,858,109,814"/>
+<area shape="rect" id="Node000023" href="$da/dbf/classTpcRawHitv2.html#a05ede1e1d3206987198a82e780d60fac" title=" " alt="" coords="275,1097,474,1125"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="113,812,126,864,153,938,172,977,196,1016,224,1052,256,1082,264,1087,261,1092,253,1087,220,1056,191,1019,168,980,148,940,121,866,108,814"/>
+<area shape="rect" id="Node000024" href="$da/dbf/classTpcRawHitv2.html#a12dd5b16c8389c84bd6afbc09e3acdac" title=" " alt="" coords="276,1149,473,1177"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="112,813,122,873,147,960,166,1008,190,1055,220,1098,256,1134,263,1140,260,1144,253,1139,216,1101,185,1057,161,1010,142,962,117,874,106,814"/>
+<area shape="rect" id="Node000025" href="$da/dbf/classTpcRawHitv2.html#a0f317bdae28e2f62c3f6030ad02dab53" title=" " alt="" coords="284,1201,464,1229"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="111,813,118,881,140,983,159,1038,184,1093,216,1143,256,1186,271,1197,268,1201,253,1191,212,1146,179,1095,154,1040,135,984,113,882,105,814"/>
+<area shape="rect" id="Node000026" href="$da/dbf/classTpcRawHitv2.html#ac9b2ed11888dc0c60c95d2c1e7932cd7" title=" " alt="" coords="269,1253,480,1281"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="110,813,115,889,122,943,134,1004,152,1067,178,1130,212,1188,257,1239,262,1243,258,1247,253,1242,208,1192,173,1133,147,1069,129,1005,117,944,109,889,105,813"/>
+<area shape="rect" id="Node000027" href="$da/dbf/classTpcRawHitv2.html#ac93dc8b986121bd42082029ef03d127a" title=" " alt="" coords="256,1305,493,1333"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="109,813,111,897,117,958,128,1026,146,1097,172,1168,208,1234,231,1264,257,1291,261,1295,258,1299,253,1294,227,1267,204,1237,167,1170,140,1099,123,1027,112,958,106,897,104,814"/>
+<area shape="rect" id="Node000028" href="$da/dbf/classTpcRawHitv2.html#a299304b06008e0f5fd892e6de6812965" title=" " alt="" coords="256,1357,493,1385"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="112,813,128,918,158,1079,178,1162,202,1239,228,1301,242,1325,257,1343,261,1347,258,1351,253,1346,238,1328,223,1304,197,1241,173,1164,153,1080,122,919,107,814"/>
+<area shape="rect" id="Node000029" href="$da/dbf/classTpcRawHitv2.html#a21d3c40cb33a0cd507e80fb5bc51e41d" title=" " alt="" coords="276,1409,473,1437"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="111,813,126,926,155,1103,175,1195,199,1280,226,1349,241,1375,257,1395,264,1401,261,1405,253,1398,236,1378,221,1351,194,1281,170,1196,149,1104,120,927,106,814"/>
+<area shape="rect" id="Node000030" href="$da/dbf/classTpcRawHitv2.html#a5a93b96f437fc5dad3ff4718b98f903f" title=" " alt="" coords="289,1461,460,1489"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="111,813,124,935,152,1127,171,1228,195,1321,224,1396,240,1425,257,1447,276,1460,273,1465,253,1450,235,1428,219,1399,190,1322,166,1229,146,1128,119,936,106,814"/>
+<area shape="rect" id="Node000031" href="$da/dbf/classTpcRawHitv2.html#a03ae97bdc13bce37a1d5c009b1582ddf" title=" " alt="" coords="273,1513,476,1541"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="111,813,122,944,148,1152,168,1261,192,1362,222,1444,239,1475,257,1499,262,1504,259,1508,253,1502,234,1478,217,1446,187,1363,163,1262,143,1152,117,944,106,813"/>
+<area shape="rect" id="Node000032" href="$d4/d14/classTpcRawHit.html#a215ad8f9ba0bd7b2b52fa6d8ae4337e9" title=" " alt="" coords="290,1565,459,1593"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="111,813,121,953,145,1177,165,1294,189,1403,220,1492,237,1525,257,1551,277,1565,273,1569,253,1554,233,1528,215,1494,184,1404,159,1295,140,1177,115,954,105,814"/>
+</map>

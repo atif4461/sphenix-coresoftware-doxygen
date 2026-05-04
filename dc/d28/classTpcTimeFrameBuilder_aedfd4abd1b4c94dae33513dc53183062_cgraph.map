@@ -1,0 +1,45 @@
+<map id="TpcTimeFrameBuilder::process_fee_data_waveform" name="TpcTimeFrameBuilder::process_fee_data_waveform">
+<area shape="rect" id="Node000001" title="Decode and process a data packet from a Front End Electronics module." alt="" coords="5,476,222,521"/>
+<area shape="rect" id="Node000002" href="$dc/d28/classTpcTimeFrameBuilder.html#a578d9cf657912e32058541075b308119" title="Compute CRC16 and data parity for a given fee data block." alt="" coords="307,5,472,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,475,123,399,148,290,168,230,194,171,227,116,268,67,291,50,295,54,271,71,231,119,198,174,173,232,153,291,129,399,119,476"/>
+<area shape="rect" id="Node000004" href="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#a497b3a23a03a675bca0b4ac1d66e1f6b" title="find gtm bco matching a given fee" alt="" coords="295,398,484,460"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,473,279,454,280,459,206,478"/>
+<area shape="rect" id="Node000007" href="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#ab868ad8fd9bfd2997cf38b0f884111c4" title="true if matching information is verified" alt="" coords="810,193,1000,254"/>
+<area shape="poly" id="edge14_Node000001_Node000007" title=" " alt="" coords="116,475,130,414,158,332,178,289,203,246,233,207,268,174,331,128,389,96,446,74,502,63,561,62,622,71,689,87,763,111,793,124,820,141,867,180,864,184,817,145,790,128,761,115,688,92,621,76,560,68,503,69,447,79,391,100,333,133,271,178,237,211,207,249,183,291,163,334,135,416,121,476"/>
+<area shape="rect" id="Node000009" href="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#acbc5f81b34585587411ded9d5972e737" title="find reference from data" alt="" coords="293,244,486,305"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="126,474,182,397,222,353,268,315,278,309,281,313,271,319,226,357,186,400,131,477"/>
+<area shape="rect" id="Node000011" href="$d1/d1d/classTpcRawHitv3.html#a1849231866a183e4b2de2869307931c2" title="Move adc waveform data into internal storage." alt="" coords="298,329,480,374"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="139,473,196,428,268,384,282,378,284,383,271,389,199,433,142,478"/>
+<area shape="rect" id="Node000012" href="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#ad49197b096153d4c950bd63bc0cac3a2" title="print gtm bco information" alt="" coords="557,125,762,186"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="119,474,136,423,166,356,210,287,237,256,268,230,299,210,333,194,403,171,475,157,541,151,542,157,475,163,405,176,335,199,302,215,271,234,241,260,214,290,171,359,141,425,124,476"/>
+<area shape="rect" id="Node000013" href="$d1/d1d/classTpcRawHitv3.html#ae6f8b1c4f928c6c088f0178114418270" title=" " alt="" coords="307,484,472,512"/>
+<area shape="poly" id="edge18_Node000001_Node000013" title=" " alt="" coords="222,496,291,496,291,501,222,501"/>
+<area shape="rect" id="Node000014" href="$d1/d1d/classTpcRawHitv3.html#a7751072c756a7757c60589707274a953" title=" " alt="" coords="293,536,486,564"/>
+<area shape="poly" id="edge19_Node000001_Node000014" title=" " alt="" coords="223,516,297,530,296,536,222,521"/>
+<area shape="rect" id="Node000015" href="$d1/d1d/classTpcRawHitv3.html#a03b31a022ef723fa2e203eb4adc38073" title=" " alt="" coords="270,588,509,616"/>
+<area shape="poly" id="edge20_Node000001_Node000015" title=" " alt="" coords="155,519,209,547,271,573,298,582,296,587,269,578,207,552,153,523"/>
+<area shape="rect" id="Node000016" href="$d1/d1d/classTpcRawHitv3.html#a4a0ce148f59bc702ef7660292aa2bea7" title=" " alt="" coords="308,640,471,668"/>
+<area shape="poly" id="edge21_Node000001_Node000016" title=" " alt="" coords="137,519,194,573,231,601,271,625,294,635,292,640,268,630,228,606,190,577,133,523"/>
+<area shape="rect" id="Node000017" href="$d1/d1d/classTpcRawHitv3.html#a4bbaf390b41e665ae311fd6471d1b6b7" title=" " alt="" coords="291,692,488,720"/>
+<area shape="poly" id="edge22_Node000001_Node000017" title=" " alt="" coords="130,519,152,555,184,598,224,641,271,677,284,684,281,689,268,682,221,645,180,601,148,558,125,522"/>
+<area shape="rect" id="Node000018" href="$d1/d1d/classTpcRawHitv3.html#a4fcabeec696cc72cba9833902162e272" title=" " alt="" coords="284,744,495,772"/>
+<area shape="poly" id="edge23_Node000001_Node000018" title=" " alt="" coords="126,520,145,565,176,622,218,681,243,707,271,729,280,735,278,740,268,734,240,711,214,684,172,625,140,568,121,522"/>
+<area shape="rect" id="Node000019" href="$d1/d1d/classTpcRawHitv3.html#a0ad5d687c5a338e34f9e4d04ac3c9f98" title=" " alt="" coords="304,796,475,824"/>
+<area shape="poly" id="edge24_Node000001_Node000019" title=" " alt="" coords="123,520,139,575,169,646,188,683,212,720,240,753,271,782,291,793,288,798,268,786,236,757,208,723,184,686,164,648,134,576,118,522"/>
+<area shape="rect" id="Node000003" href="$dc/d28/classTpcTimeFrameBuilder.html#aea7e6d61a345bea6507c80302ef8a114" title="Reverse bit order of a 16 bit unsigned integer." alt="" coords="578,5,742,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,25,562,25,562,30,472,30"/>
+<area shape="rect" id="Node000005" href="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#a8e3af4d4b0689ef1a85200b5f7bd2ff3" title=" " alt="" coords="810,414,1000,476"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="486,455,511,471,527,492,534,512,541,531,558,547,611,569,634,573,657,574,704,565,761,546,789,535,815,520,860,485,864,489,818,524,791,540,763,552,706,570,657,579,634,579,610,574,556,551,537,534,529,514,522,494,507,475,483,459"/>
+<area shape="rect" id="Node000006" href="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#a8cc1aff84f561622190f00366c14dd88" title="get predicted fee_bco from gtm_bco" alt="" coords="565,432,754,493"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="485,438,550,446,549,451,484,443"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="483,458,510,471,534,488,544,496,558,503,616,520,664,531,686,531,709,527,734,518,761,503,782,482,791,460,797,433,808,401,877,267,882,270,813,403,802,434,796,461,787,485,764,507,736,523,711,532,687,536,663,536,614,526,556,507,541,501,531,493,508,475,480,463"/>
+<area shape="rect" id="Node000008" href="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#af0f628dd2c5961175d98cd8b7594a680" title="verbosity" alt="" coords="565,346,754,408"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="484,408,549,395,550,401,485,413"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="744,429,761,418,798,383,830,343,879,267,883,270,834,346,802,386,764,422,747,433"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="486,256,557,246,794,227,795,232,557,252,486,261"/>
+<area shape="poly" id="edge13_Node000009_Node000008" title=" " alt="" coords="480,303,510,315,569,338,567,343,508,319,478,308"/>
+<area shape="rect" id="Node000010" href="$d4/d1a/classTpcTimeFrameBuilder_1_1BcoMatchingInformation.html#adbaff22fa9ecc9ac9ad13c818ea9954c" title=" " alt="" coords="565,261,754,322"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="486,278,549,282,549,287,486,283"/>
+<area shape="poly" id="edge11_Node000010_Node000005" title=" " alt="" coords="742,321,764,332,814,366,859,402,856,406,811,370,761,337,740,325"/>
+<area shape="poly" id="edge17_Node000012_Node000007" title=" " alt="" coords="764,182,796,191,795,196,762,187"/>
+</map>

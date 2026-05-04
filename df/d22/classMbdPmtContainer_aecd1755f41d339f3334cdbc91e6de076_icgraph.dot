@@ -1,0 +1,24 @@
+digraph "MbdPmtContainer::get_npmt"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MbdPmtContainer::get_npmt",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="get Number of Mbd Pmt's"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MbdPmtContainer::Print",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d22/classMbdPmtContainer.html#ab412a668e2ffc97817e31d02042e12bf",tooltip="Print MBD PMT charge, time, and time‑charge values to standard output."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackResiduals::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/df3/classTrackResiduals.html#acf3f931165c42ab03b6f41f2116fcbd7",tooltip="Process a single event."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="GlobalQA::process_mbd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/da4/classGlobalQA.html#a12698ce01eec860ac518c33d601c04c4",tooltip="Process MBD data from the node tree."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="GlobalQA::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/da4/classGlobalQA.html#a3da8ea1e259e19ff4a78f470f96ad891",tooltip="event processing method"];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="DumpMbdPmtContainer\l::process_Node",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6f/classDumpMbdPmtContainer.html#af4e974f85a0a877b6128f80f24add7f9",tooltip="Process a node containing MbdPmtContainer data."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="CaloValid::process\l_towers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d11/classCaloValid.html#ab245377036dcca4c620a0ef89844a075",tooltip="Process event towers, triggers, MBD, and clusters to populate QA histograms."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="CaloValid::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d11/classCaloValid.html#afbcc52787b09f66af720afe42f1080bb",tooltip="event processing method"];
+}

@@ -1,0 +1,12 @@
+digraph "MvtxEventInfov2::get_number_L1s"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MvtxEventInfov2::get\l_number_L1s",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Returns the number of unique L1 identifiers present in the strobe BCO L1 BCO collection."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MvtxEventInfov2::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/da6/classMvtxEventInfov2.html#a8f5816462d8590488610e1ceedc90c73",tooltip="Print detailed MvtxEventInfov2 information to the given output stream."];
+}

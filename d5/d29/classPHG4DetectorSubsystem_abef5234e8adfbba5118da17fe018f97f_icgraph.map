@@ -1,0 +1,35 @@
+<map id="PHG4DetectorSubsystem::get_int_param" name="PHG4DetectorSubsystem::get_int_param">
+<area shape="rect" id="Node000001" title="Retrieve integer parameter from subsystem." alt="" coords="288,525,473,570"/>
+<area shape="rect" id="Node000002" href="$dd/d2a/classBeamLineMagnetSubsystem.html#acd07ea5e8eb515d7a63e240b47ae0909" title="init runwise stuff" alt="" coords="19,5,226,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="377,510,372,420,365,362,354,300,336,237,312,174,279,116,238,64,223,53,227,48,242,60,284,113,317,172,341,235,359,299,371,362,378,419,382,510"/>
+<area shape="rect" id="Node000003" href="$d4/dd0/classPHG4BbcSubsystem.html#ad9499fde0f409ad419de78ff0b9b5961" title="Initialize BBC subsystem for a new run." alt="" coords="19,75,226,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="375,510,366,432,345,330,327,277,304,225,274,176,238,134,223,122,226,118,242,130,279,173,309,222,332,275,350,329,372,431,380,510"/>
+<area shape="rect" id="Node000004" href="$df/d14/classPHG4BlockSubsystem.html#a484f9a625742f91e92f8bd82571afbee" title="InitRunSubsystem." alt="" coords="40,144,205,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="372,510,359,444,335,361,318,318,296,276,269,237,238,203,204,183,207,178,241,199,274,234,300,273,323,316,340,359,365,443,377,509"/>
+<area shape="rect" id="Node000005" href="$d8/d6e/classPHG4ConeSubsystem.html#ae1e54cdc2185dc1a123791f5de667148" title="init runwise stuff" alt="" coords="37,213,208,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="368,511,352,458,325,393,288,328,265,298,238,272,206,254,209,249,241,268,269,295,292,325,330,391,357,456,373,509"/>
+<area shape="rect" id="Node000006" href="$db/dc5/classPHG4CylinderSubsystem.html#a36e9fe9b69b4314846e245a1c6119cf3" title="init runwise stuff" alt="" coords="31,283,214,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="362,512,342,472,315,426,280,381,238,342,213,328,216,323,241,338,284,377,319,423,347,470,366,510"/>
+<area shape="rect" id="Node000007" href="$d2/d10/classPHG4EPDSubsystem.html#a6e985d6791b6b248dab1eda1516084d4" title="Initialize run specific components of the EPD subsystem." alt="" coords="18,352,227,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="351,515,302,462,271,434,238,411,215,400,217,395,241,407,275,430,306,458,355,512"/>
+<area shape="rect" id="Node000008" href="$df/d6e/classPHG4IHCalSubsystem.html#aa168eeb99ffc0624dbef2afb92bd7592" title="Initialize run subsystem for IHCal detector." alt="" coords="40,421,205,466"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="323,520,239,481,204,468,206,463,241,476,325,515"/>
+<area shape="rect" id="Node000009" href="$d3/d62/classPHG4InnerHcalSubsystem.html#aff7b59edd38b7ee393b7992ef41c5ca1" title="Initialize the inner HCal subsystem for a new run." alt="" coords="27,491,218,535"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="272,536,218,529,219,523,273,531"/>
+<area shape="rect" id="Node000010" href="$dc/df8/classPHG4MicromegasSubsystem.html#a9cf5b66379db8e3bf8261079aaa20b23" title="Initialize run specific components for the Micromegas subsystem." alt="" coords="18,560,227,605"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="272,565,228,571,227,566,272,560"/>
+<area shape="rect" id="Node000011" href="$d0/df4/classPHG4OHCalSubsystem.html#a39ad4f74252db3f41d86408417c781b1" title="Initialize the OHCal subsystem for a new run." alt="" coords="37,629,208,674"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="325,580,241,619,208,631,206,626,239,615,323,575"/>
+<area shape="rect" id="Node000012" href="$da/d01/classPHG4OuterHcalSubsystem.html#a1f3de004c8899012a83b82a3072058a5" title="Initialize run specific components of the outer HCal subsystem." alt="" coords="25,699,220,743"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="355,584,306,638,275,665,241,689,217,700,215,696,238,684,271,661,302,634,351,580"/>
+<area shape="rect" id="Node000013" href="$d6/dca/classPHG4SpacalSubsystem.html#accf179cd9d61965925e99781b26d2966" title="init" alt="" coords="36,768,209,813"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="366,585,347,625,319,672,284,718,241,758,210,775,207,770,238,754,280,715,315,669,342,623,362,583"/>
+<area shape="rect" id="Node000014" href="$df/d1b/classPHG4sPHENIXMagnetSubsystem.html#ad7b19e23b5226e45160e3d64fa10e851" title="Initialize run subsystem for sPHENIX magnet." alt="" coords="5,837,240,882"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="373,586,357,640,330,705,292,770,269,801,241,827,224,839,221,835,238,823,265,797,288,767,325,702,352,638,368,584"/>
+<area shape="rect" id="Node000015" href="$d5/d22/classPHG4TpcEndCapSubsystem.html#aac61e3ae75996d7b943a8cee515e8c06" title="Initialize run subsystem for the TpcEndCap detector." alt="" coords="22,907,223,951"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="377,586,365,653,340,736,323,779,300,822,274,861,241,896,225,908,222,904,238,892,269,858,296,819,318,777,335,734,359,651,372,585"/>
+<area shape="rect" id="Node000016" href="$d7/d0d/classPHG4TpcSubsystem.html#a94b5332ef69dc3d42772c72be89b0d37" title="Initialize run subsystem for TPC detector." alt="" coords="19,976,226,1021"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="380,586,372,664,350,766,332,820,309,873,279,922,242,966,226,978,223,973,238,962,274,919,304,870,327,818,345,765,366,664,375,585"/>
+<area shape="rect" id="Node000017" href="$d1/d66/classPHG4ZDCSubsystem.html#a802eade7a5259395abc87a558924f5d4" title="Initialize the ZDC subsystem for a new run." alt="" coords="17,1045,228,1090"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="382,585,378,676,371,734,359,796,341,860,317,924,284,983,242,1035,227,1047,223,1043,238,1031,279,980,312,921,336,859,354,795,365,733,372,675,377,585"/>
+</map>

@@ -1,0 +1,14 @@
+digraph "Jet::set_id"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="Jet::set_id",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="FastJetAlgo::get_jets",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d87/classFastJetAlgo.html#af2c2fcfc4485aa73b3a6914080afb544",tooltip="Convert input particle list to clustered jets using FastJet and optional SoftDrop grooming."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="JetMapv1::insert",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d22/classJetMapv1.html#a3039c1addca5bb5c37e12ea8aee680df",tooltip="insert Jet to the map. Once inserted, the JetMap owns the Jet memory"];
+}

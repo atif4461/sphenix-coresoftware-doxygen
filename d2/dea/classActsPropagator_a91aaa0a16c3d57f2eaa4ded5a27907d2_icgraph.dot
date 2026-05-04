@@ -1,0 +1,14 @@
+digraph "ActsPropagator::makeTrackParams"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="ActsPropagator::makeTrack\lParams",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Create Acts bound track parameters from a SvtxTrack and its associated vertex."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHActsTrackPropagator\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d47/classPHActsTrackPropagator.html#abd2fae16527525f0b6de0750cd87106f",tooltip="Process a single event by propagating all tracks stored in the internal track map."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHActsVertexPropagator\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d47/classPHActsVertexPropagator.html#a1da603897c916f8bc513a6b26c91a358",tooltip="Propagates each svtx track to a perigee surface using Acts propagator and updates track parameters."];
+}

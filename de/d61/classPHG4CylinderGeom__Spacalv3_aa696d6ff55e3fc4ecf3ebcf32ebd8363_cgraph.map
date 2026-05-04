@@ -1,0 +1,58 @@
+<map id="PHG4CylinderGeom_Spacalv3::ImportParameters" name="PHG4CylinderGeom_Spacalv3::ImportParameters">
+<area shape="rect" id="Node000001" title="load parameters from PHParameters, which interface to Database/XML/ROOT files" alt="" coords="5,730,222,774"/>
+<area shape="rect" id="Node000002" href="$dd/dae/classPHParameters.html#af4da13e6f8a4b1b70cc5a5c08ad77bfa" title="Check if a double precision parameter with the given name exists." alt="" coords="1378,84,1531,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,729,123,644,148,518,168,448,194,378,227,309,267,246,350,141,389,99,429,65,473,38,523,18,581,7,650,3,927,3,1047,10,1167,28,1276,53,1366,77,1365,82,1275,58,1166,34,1047,15,927,8,650,8,582,12,524,23,475,42,432,69,392,103,354,144,272,250,231,312,199,380,173,450,153,520,129,645,119,730"/>
+<area shape="rect" id="Node000003" href="$dd/dae/classPHParameters.html#aa884981ecd84d28ee8c06ca2b3f99968" title="Check existence of integer parameter by name." alt="" coords="1378,236,1531,281"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="119,728,137,668,169,582,214,480,272,373,306,321,344,272,386,226,431,186,480,152,533,126,590,110,650,104,927,104,993,107,1061,117,1127,131,1191,149,1305,189,1394,227,1392,232,1304,194,1189,154,1125,136,1060,122,993,113,927,109,650,109,591,115,535,131,483,157,435,190,390,230,348,275,311,324,277,376,218,483,174,584,142,670,124,730"/>
+<area shape="rect" id="Node000004" href="$dd/dae/classPHParameters.html#ae91dc71a17af86e1efa27da80c17a694" title="Check if a string parameter with the given name exists in the parameter map." alt="" coords="849,670,1002,714"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,741,833,696,834,701,223,747"/>
+<area shape="rect" id="Node000005" href="$dd/dae/classPHParameters.html#a333017103f8178e3cf9d8111dd62b2ad" title="Retrieve double parameter value by name from internal map." alt="" coords="1358,628,1551,673"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="222,748,486,743,760,741,880,737,1033,724,1195,701,1342,673,1343,678,1196,706,1034,729,880,742,760,746,486,748,222,753"/>
+<area shape="rect" id="Node000006" href="$dd/dae/classPHParameters.html#a525f19b78bf06130a1575d49e37042d2" title="Retrieve integer parameter by name from internal map." alt="" coords="1371,714,1537,758"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="131,773,154,807,186,847,226,888,271,923,369,977,410,994,451,1006,493,1014,538,1019,650,1021,927,1021,985,1024,1035,1029,1122,1041,1162,1041,1203,1036,1247,1021,1297,995,1326,973,1351,947,1392,887,1422,825,1440,772,1445,774,1427,827,1397,890,1355,951,1329,977,1299,1000,1249,1026,1205,1041,1163,1047,1121,1046,1035,1035,984,1029,927,1027,650,1027,538,1024,492,1019,450,1011,409,999,366,982,268,928,222,892,182,851,149,810,126,776"/>
+<area shape="rect" id="Node000007" href="$dd/dae/classPHParameters.html#a50f72f7605497767dea235a06df25246" title="Retrieve a string parameter by its name from the internal parameter map." alt="" coords="832,840,1019,885"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="156,772,209,798,270,819,342,834,417,846,565,860,703,866,817,865,817,870,703,871,565,866,416,851,341,839,269,824,207,803,154,777"/>
+<area shape="rect" id="Node000008" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a89ed2f1212137d0f6ce1ba45021ee19a" title="load parameters from PHParameters, which interface to Database/XML/ROOT files" alt="" coords="270,559,486,604"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="148,727,328,610,331,614,151,732"/>
+<area shape="rect" id="Node000019" href="$df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#aad623c4f9a3a48d5d553cbf01ffe4bb1" title="read via PHParameters" alt="" coords="534,898,769,942"/>
+<area shape="poly" id="edge34_Node000001_Node000019" title=" " alt="" coords="137,773,194,825,231,851,271,872,332,893,395,907,459,915,518,919,518,924,458,920,395,912,330,898,269,877,228,856,190,829,134,777"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="388,557,410,516,443,464,484,409,532,359,668,250,727,211,785,179,845,153,913,130,1081,85,1154,74,1229,73,1300,77,1363,86,1362,91,1299,83,1229,78,1155,80,1082,91,914,135,847,158,787,184,729,216,671,255,536,363,488,413,447,467,415,519,393,560"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="403,557,470,501,569,426,688,349,751,314,816,284,885,258,945,239,1000,227,1052,221,1161,222,1298,232,1362,240,1362,245,1298,237,1160,227,1052,226,1001,232,947,244,887,263,818,289,754,319,690,354,572,431,474,505,406,561"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="487,586,1342,641,1342,646,486,591"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="431,602,505,632,601,667,708,699,818,724,963,741,1110,747,1245,746,1355,741,1355,746,1245,752,1110,753,963,747,817,729,707,705,599,672,504,637,429,607"/>
+<area shape="rect" id="Node000009" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a66ebb29f774acee7f4efddd41172d50f" title="load parameters from PHParameters, which interface to Database/XML/ROOT files" alt="" coords="544,508,760,553"/>
+<area shape="poly" id="edge12_Node000008_Node000009" title=" " alt="" coords="486,559,528,551,529,556,487,564"/>
+<area shape="poly" id="edge13_Node000009_Node000002" title=" " alt="" coords="659,507,681,460,714,400,759,338,786,309,816,285,882,243,953,208,1028,179,1102,157,1244,126,1362,110,1362,115,1245,131,1104,162,1029,184,955,213,885,247,819,289,790,313,763,341,719,403,685,462,664,509"/>
+<area shape="poly" id="edge14_Node000009_Node000003" title=" " alt="" coords="664,506,687,469,722,424,765,378,816,340,884,308,956,283,1031,265,1105,254,1178,247,1246,245,1362,247,1362,253,1246,250,1178,253,1106,259,1032,271,958,288,886,312,819,345,769,382,726,427,692,472,668,509"/>
+<area shape="poly" id="edge15_Node000009_Node000004" title=" " alt="" coords="693,551,874,659,871,664,690,556"/>
+<area shape="poly" id="edge16_Node000009_Node000005" title=" " alt="" coords="760,525,873,527,1009,534,1155,550,1299,579,1351,597,1400,618,1398,623,1350,601,1297,584,1154,556,1008,539,873,532,760,531"/>
+<area shape="poly" id="edge17_Node000009_Node000006" title=" " alt="" coords="743,551,1357,709,1355,714,742,556"/>
+<area shape="poly" id="edge18_Node000009_Node000007" title=" " alt="" coords="674,552,898,826,894,830,670,555"/>
+<area shape="rect" id="Node000010" href="$d1/df3/classPHG4CylinderGeomv2.html#a64e90d56efec49282a751841e7085f88" title="load parameters from PHParameters, which interface to Database/XML/ROOT files" alt="" coords="842,355,1009,400"/>
+<area shape="poly" id="edge19_Node000009_Node000010" title=" " alt="" coords="681,506,742,463,816,418,845,404,848,409,819,422,745,467,684,510"/>
+<area shape="rect" id="Node000013" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#aa35112d12e9d89a26cfee3f413bd7eb0" title="load a default map that populate all the sectors" alt="" coords="817,432,1034,477"/>
+<area shape="poly" id="edge28_Node000009_Node000013" title=" " alt="" coords="734,505,827,479,828,484,735,510"/>
+<area shape="poly" id="edge20_Node000010_Node000003" title=" " alt="" coords="1005,352,1081,332,1229,299,1362,273,1363,278,1230,305,1082,337,1007,357"/>
+<area shape="poly" id="edge21_Node000010_Node000006" title=" " alt="" coords="999,398,1035,418,1051,432,1060,445,1069,458,1083,471,1114,491,1142,504,1195,520,1246,539,1272,555,1300,580,1318,607,1324,633,1331,658,1348,684,1374,704,1371,708,1344,687,1326,660,1319,634,1313,609,1296,583,1269,559,1244,543,1193,525,1140,509,1111,496,1080,475,1065,461,1056,448,1047,435,1032,422,996,403"/>
+<area shape="rect" id="Node000011" href="$d3/d63/classPHG4CylinderGeomv1.html#aa3f37692cc0548ffdd34ed8b473e65e3" title="load parameters from PHParameters, which interface to Database/XML/ROOT files" alt="" coords="1107,347,1273,392"/>
+<area shape="poly" id="edge22_Node000010_Node000011" title=" " alt="" coords="1009,372,1091,370,1091,375,1009,377"/>
+<area shape="poly" id="edge23_Node000011_Node000002" title=" " alt="" coords="1212,345,1417,139,1421,142,1216,348"/>
+<area shape="poly" id="edge24_Node000011_Node000003" title=" " alt="" coords="1251,344,1297,326,1389,285,1391,290,1299,330,1253,349"/>
+<area shape="poly" id="edge25_Node000011_Node000005" title=" " alt="" coords="1275,385,1300,402,1314,419,1323,436,1329,469,1333,504,1338,522,1348,541,1380,582,1415,616,1411,620,1376,585,1344,544,1333,524,1328,505,1324,470,1318,438,1310,422,1296,406,1272,389"/>
+<area shape="poly" id="edge26_Node000011_Node000006" title=" " alt="" coords="1275,383,1300,402,1323,438,1332,474,1332,509,1327,543,1322,577,1321,612,1328,647,1348,684,1369,703,1365,707,1344,687,1323,649,1315,612,1316,577,1322,542,1327,508,1327,475,1318,441,1296,406,1272,388"/>
+<area shape="rect" id="Node000012" href="$dc/d30/classPHG4CylinderGeom.html#a85102f21470b3416b07d8ebdfcf59565" title="load parameters from PHParameters, which interface to Database/XML/ROOT files" alt="" coords="1354,347,1555,392"/>
+<area shape="poly" id="edge27_Node000011_Node000012" title=" " alt="" coords="1274,367,1338,367,1338,372,1274,372"/>
+<area shape="rect" id="Node000014" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a8cb9124c619c8f4093ba9d783a08e400" title="Compute number of azimuthal sectors for the cylinder geometry." alt="" coords="1082,416,1298,461"/>
+<area shape="poly" id="edge29_Node000013_Node000014" title=" " alt="" coords="1034,445,1066,443,1066,449,1034,451"/>
+<area shape="rect" id="Node000015" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a8d3f13d9ef72123b475ec9530cd58d7f" title=" " alt="" coords="1346,416,1562,461"/>
+<area shape="poly" id="edge30_Node000014_Node000015" title=" " alt="" coords="1298,436,1330,436,1330,441,1298,441"/>
+<area shape="rect" id="Node000016" href="$d2/da2/classPHG4CylinderGeom__Spacalv1.html#a3cc66af0cc5c32424607f8783f0a397e" title=" " alt="" coords="1346,486,1562,530"/>
+<area shape="poly" id="edge31_Node000014_Node000016" title=" " alt="" coords="1279,459,1352,479,1351,484,1277,464"/>
+<area shape="rect" id="Node000017" href="$d3/d63/classPHG4CylinderGeomv1.html#abfd6ffac2910c5613f2b29afd06f5235" title=" " alt="" coords="1610,451,1777,496"/>
+<area shape="poly" id="edge32_Node000016_Node000017" title=" " alt="" coords="1562,490,1594,485,1595,490,1563,495"/>
+<area shape="rect" id="Node000018" href="$d3/d63/classPHG4CylinderGeomv1.html#aa74a5d1faad8a99c1c1e457e16191a2f" title="Retrieve the material thickness for this detector element." alt="" coords="1610,520,1777,565"/>
+<area shape="poly" id="edge33_Node000016_Node000018" title=" " alt="" coords="1563,521,1595,526,1594,531,1562,526"/>
+<area shape="poly" id="edge35_Node000019_Node000005" title=" " alt="" coords="770,925,831,925,898,921,967,911,1033,895,1085,875,1127,854,1193,808,1257,756,1296,728,1345,699,1387,678,1389,682,1347,704,1299,733,1260,760,1196,812,1129,859,1087,880,1034,900,968,916,899,926,832,930,770,931"/>
+<area shape="poly" id="edge36_Node000019_Node000006" title=" " alt="" coords="724,940,839,969,910,981,986,988,1065,990,1145,984,1223,967,1297,939,1322,924,1345,905,1384,861,1414,813,1435,772,1440,774,1419,816,1388,864,1348,909,1325,928,1299,944,1225,973,1146,989,1065,996,985,994,909,986,838,974,722,945"/>
+<area shape="poly" id="edge37_Node000019_Node000007" title=" " alt="" coords="761,894,817,883,818,888,762,900"/>
+</map>

@@ -1,0 +1,90 @@
+<map id="QAG4SimulationUpsilon::process_event" name="QAG4SimulationUpsilon::process_event">
+<area shape="rect" id="Node000001" title="Process event for QAG4SimulationUpsilon analysis module." alt="" coords="5,759,183,803"/>
+<area shape="rect" id="Node000002" href="$df/dad/classSvtxTrackEval.html#ab2ddb740e23faee0f77302194255261f" title="Retrieve the reconstructed SvtxTrack that best matches the given truth particle." alt="" coords="261,75,409,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,758,107,630,132,442,150,345,172,255,198,181,213,152,229,130,245,116,249,120,233,133,217,155,203,183,177,257,156,346,137,443,112,631,100,759"/>
+<area shape="rect" id="Node000008" href="$d4/de4/classSvtxTruthEval.html#acba57da6300f3a718d9547ec1c96bb73" title="Retrieve embed flag for a given particle." alt="" coords="265,144,404,189"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="95,758,110,644,138,479,156,394,178,316,202,251,229,206,250,188,253,192,233,209,207,253,183,318,162,395,143,480,116,645,101,759"/>
+<area shape="rect" id="Node000009" href="$da/d7d/classQAG4SimulationUpsilon.html#a1668d1d3c5674a884380fd226bb0da24" title="Return the histogram name prefix for this QA module." alt="" coords="994,195,1171,239"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="95,758,106,696,129,613,146,569,169,525,196,484,229,448,271,414,316,383,412,331,514,291,618,261,721,240,817,226,978,214,978,220,818,231,722,245,620,266,516,296,414,336,318,388,274,418,232,452,200,487,173,528,151,571,134,615,111,698,100,759"/>
+<area shape="rect" id="Node000011" href="$de/dc9/classPHG4Particle.html#a3a6b6e7232fca4450fef058e884710ba" title=" " alt="" coords="254,715,416,743"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="182,759,252,744,253,749,184,764"/>
+<area shape="rect" id="Node000012" href="$de/dc9/classPHG4Particle.html#a551c7bed3f04438cf0fa5647999a4864" title=" " alt="" coords="256,767,414,795"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="183,778,241,778,241,784,183,784"/>
+<area shape="rect" id="Node000013" href="$d2/db8/classSvtxTrack.html#aedabd3166162f03aed6e1707527a2831" title=" " alt="" coords="267,819,403,847"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="184,798,253,813,252,818,182,803"/>
+<area shape="rect" id="Node000014" href="$de/dc9/classPHG4Particle.html#ad6e122a3aa0d72af0390435253a052a7" title=" " alt="" coords="256,871,414,899"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="130,801,178,829,232,856,254,864,252,869,230,861,175,834,128,806"/>
+<area shape="rect" id="Node000015" href="$d2/db8/classSvtxTrack.html#a63ea7f25d2e8bac2d3d905d8950a3a9c" title=" " alt="" coords="267,923,403,951"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="115,802,164,856,196,884,232,908,253,918,251,922,229,913,193,888,160,860,111,806"/>
+<area shape="rect" id="Node000016" href="$de/dc9/classPHG4Particle.html#ae527e6d26fc23746f001b9d32d17f065" title=" " alt="" coords="257,975,413,1003"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="108,803,127,838,155,881,190,924,232,960,244,967,241,972,229,965,186,928,150,884,123,841,104,805"/>
+<area shape="rect" id="Node000017" href="$d2/db8/classSvtxTrack.html#a925c22addac47679511e99345ae6c6db" title=" " alt="" coords="267,1027,402,1055"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="105,803,121,848,147,905,184,963,207,989,232,1012,254,1024,251,1029,229,1017,203,993,180,966,142,907,116,850,99,805"/>
+<area shape="rect" id="Node000018" href="$d3/d96/classFun4AllHistoManager.html#abcf7967604453e72b87fed9470f5a20c" title="Retrieve a histogram object from the manager by its name." alt="" coords="255,463,415,507"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="107,757,157,677,229,582,293,516,297,520,233,585,162,680,111,759"/>
+<area shape="rect" id="Node000022" href="$d8/db5/namespaceQAHistManagerDef.html#a95764557eee8578107f3f8cac5a640da" title="Get a pointer to the default hist manager for QA modules." alt="" coords="231,596,439,641"/>
+<area shape="poly" id="edge24_Node000001_Node000022" title=" " alt="" coords="114,756,164,708,229,657,251,645,254,650,232,662,167,712,118,760"/>
+<area shape="rect" id="Node000024" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="1499,664,1670,692"/>
+<area shape="poly" id="edge49_Node000001_Node000024" title=" " alt="" coords="123,756,171,726,200,712,230,701,1198,701,1483,684,1484,689,1198,706,231,706,202,716,174,730,126,761"/>
+<area shape="rect" id="Node000036" href="$de/dc9/classPHG4Particle.html#a4627a601f593310250ef0583d1229ec4" title="Identify the particle by writing a message to the provided output stream." alt="" coords="254,1079,416,1107"/>
+<area shape="poly" id="edge43_Node000001_Node000036" title=" " alt="" coords="102,803,115,857,139,928,157,965,178,1002,203,1035,232,1064,241,1071,238,1075,229,1068,199,1039,173,1005,152,968,135,930,110,859,97,805"/>
+<area shape="rect" id="Node000037" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="316,1155,354,1183"/>
+<area shape="poly" id="edge44_Node000001_Node000037" title=" " alt="" coords="101,803,114,864,138,947,155,991,177,1036,202,1078,233,1116,266,1141,302,1157,300,1162,263,1146,229,1120,198,1081,172,1039,150,993,133,948,108,865,96,804"/>
+<area shape="rect" id="Node000003" href="$df/dad/classSvtxTrackEval.html#a4397d3a27e4b53b5475e15ec92d43cbb" title="Retrieve all reconstructed SvtxTrack objects associated with a given truth particle." alt="" coords="506,75,642,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="409,94,490,94,490,100,409,100"/>
+<area shape="rect" id="Node000004" href="$de/dc9/classPHG4Particle.html#a23b7432f9b345b67a00e5c005fa5ba52" title=" " alt="" coords="717,134,911,162"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="410,114,487,129,597,140,702,144,701,150,597,145,487,134,409,119"/>
+<area shape="rect" id="Node000006" href="$df/dad/classSvtxTrackEval.html#a1dd0fdc1d1776c7b0b0643a9ab7cf25f" title="Retrieve number of clusters contributed by a given particle to a track." alt="" coords="488,5,660,50"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="408,73,479,52,481,57,410,78"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="643,109,731,128,730,133,642,114"/>
+<area shape="rect" id="Node000005" href="$df/dad/classSvtxTrackEval.html#a4d27c097f0e8d952df3788b896cd6b91" title=" " alt="" coords="1012,39,1153,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="642,90,996,64,997,70,643,95"/>
+<area shape="rect" id="Node000007" href="$df/dad/classSvtxTrackEval.html#add4977defc053407dcaccf555ab467de" title="Calculate number of clusters contributed by a track to a given truth particle and cache results." alt="" coords="735,8,893,53"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="661,26,720,27,720,32,661,31"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="894,37,997,49,996,54,893,42"/>
+<area shape="rect" id="Node000010" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="1510,279,1659,307"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="1172,216,1304,225,1377,234,1450,246,1533,271,1532,276,1449,252,1377,239,1303,231,1171,222"/>
+<area shape="rect" id="Node000019" href="$d3/d96/classFun4AllHistoManager.html#a78e6d7a95c28595e45b84db4c1542237" title="Print histograms or configuration information based on selector string." alt="" coords="494,400,654,445"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="415,461,479,445,480,450,416,467"/>
+<area shape="poly" id="edge23_Node000019_Node000010" title=" " alt="" coords="609,397,655,372,709,350,816,324,926,304,1037,291,1146,283,1344,279,1495,284,1495,289,1344,284,1146,288,1038,296,927,309,817,329,710,356,657,377,612,402"/>
+<area shape="rect" id="Node000020" href="$d3/d96/classFun4AllHistoManager.html#a669065999a56d932a535e24d97a19742" title=" " alt="" coords="716,365,912,410"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="654,408,701,401,701,407,655,413"/>
+<area shape="rect" id="Node000021" href="$d3/d96/classFun4AllHistoManager.html#a1a5d74de0dcfbeb867ceb17543803fc2" title=" " alt="" coords="734,435,894,479"/>
+<area shape="poly" id="edge22_Node000019_Node000021" title=" " alt="" coords="655,431,718,441,718,446,654,437"/>
+<area shape="rect" id="Node000023" href="$da/d29/classFun4AllServer.html#af5885837658eb26f98dbc697b58747a7" title="Retrieve a Fun4AllHistoManager by its name from the server registry." alt="" coords="967,664,1198,692"/>
+<area shape="poly" id="edge25_Node000022_Node000023" title=" " alt="" coords="440,629,487,634,734,655,951,669,951,674,734,660,487,640,439,635"/>
+<area shape="rect" id="Node000025" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Get singleton instance of Fun4AllServer." alt="" coords="487,540,661,568"/>
+<area shape="poly" id="edge27_Node000022_Node000025" title=" " alt="" coords="420,593,504,570,506,575,422,598"/>
+<area shape="rect" id="Node000033" href="$da/d29/classFun4AllServer.html#a377f113767f24ce6413e678752ed7f53" title="Register a histogram manager with the server." alt="" coords="1246,596,1449,641"/>
+<area shape="poly" id="edge42_Node000022_Node000033" title=" " alt="" coords="440,616,1230,616,1230,621,440,621"/>
+<area shape="poly" id="edge26_Node000023_Node000024" title=" " alt="" coords="1198,676,1484,676,1484,681,1198,681"/>
+<area shape="rect" id="Node000026" href="$da/d29/classFun4AllServer.html#a90e27f05f0b2e8b6fe462387b14bfb92" title="Construct a Fun4AllServer instance with the specified name." alt="" coords="709,540,919,568"/>
+<area shape="poly" id="edge28_Node000025_Node000026" title=" " alt="" coords="662,560,694,561,694,566,662,566"/>
+<area shape="poly" id="edge41_Node000026_Node000025" title=" " alt="" coords="709,548,677,548,677,543,709,543"/>
+<area shape="rect" id="Node000027" href="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7" title="Constructor for Fun4AllBase validates module name." alt="" coords="988,540,1177,568"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="919,552,972,552,972,557,919,557"/>
+<area shape="rect" id="Node000028" href="$da/d29/classFun4AllServer.html#aa1939c3e2c3113cce0a6415103b4f5a5" title="Initialize the Fun4All server and core infrastructure." alt="" coords="1004,475,1161,503"/>
+<area shape="poly" id="edge30_Node000026_Node000028" title=" " alt="" coords="874,537,1007,504,1008,510,875,542"/>
+<area shape="poly" id="edge34_Node000028_Node000010" title=" " alt="" coords="1092,473,1152,408,1196,371,1245,341,1307,318,1373,303,1437,294,1495,290,1495,295,1438,299,1374,308,1309,323,1247,346,1199,376,1156,412,1096,477"/>
+<area shape="rect" id="Node000029" href="$da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89" title="Initialize default node tree under given top node." alt="" coords="1247,355,1448,383"/>
+<area shape="poly" id="edge31_Node000028_Node000029" title=" " alt="" coords="1102,473,1164,433,1245,392,1263,385,1265,390,1247,397,1167,438,1105,477"/>
+<area shape="rect" id="Node000031" href="$d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e" title=" " alt="" coords="1274,407,1421,451"/>
+<area shape="poly" id="edge33_Node000028_Node000031" title=" " alt="" coords="1146,472,1258,446,1259,452,1148,477"/>
+<area shape="rect" id="Node000032" href="$da/d29/classFun4AllServer.html#a1d7daeb59511a7dc61a2566f4116a6ec" title="Register a histogram with the server histogram manager." alt="" coords="1246,475,1449,503"/>
+<area shape="poly" id="edge35_Node000028_Node000032" title=" " alt="" coords="1161,486,1230,486,1230,492,1161,492"/>
+<area shape="poly" id="edge36_Node000028_Node000033" title=" " alt="" coords="1144,501,1172,512,1200,527,1215,541,1224,555,1233,568,1248,582,1255,586,1252,591,1244,586,1229,572,1220,558,1211,544,1196,531,1170,517,1142,506"/>
+<area shape="rect" id="Node000034" href="$d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb" title="Record memory usage statistics for the current event to the configured output file." alt="" coords="1274,527,1421,571"/>
+<area shape="poly" id="edge39_Node000028_Node000034" title=" " alt="" coords="1148,501,1259,526,1258,532,1146,506"/>
+<area shape="rect" id="Node000030" href="$da/d29/classFun4AllServer.html#a8fb8dce491234faae7834d4fba2c5598" title=" " alt="" coords="1497,355,1672,383"/>
+<area shape="poly" id="edge32_Node000029_Node000030" title=" " alt="" coords="1449,366,1482,366,1482,372,1449,372"/>
+<area shape="poly" id="edge37_Node000033_Node000010" title=" " alt="" coords="1434,593,1447,582,1467,552,1476,524,1477,495,1474,466,1471,437,1471,407,1478,375,1495,342,1511,325,1529,312,1533,317,1514,329,1500,345,1483,377,1476,407,1476,437,1479,466,1482,495,1481,525,1472,555,1451,585,1438,597"/>
+<area shape="poly" id="edge38_Node000033_Node000024" title=" " alt="" coords="1439,639,1513,658,1511,663,1438,644"/>
+<area shape="rect" id="Node000035" href="$d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281" title="Retrieve memory usage statistics from proc self smaps and accumulate PSS values for heap mmap and oth..." alt="" coords="1511,527,1658,571"/>
+<area shape="poly" id="edge40_Node000034_Node000035" title=" " alt="" coords="1422,546,1495,546,1495,552,1422,552"/>
+<area shape="poly" id="edge48_Node000037_Node000037" title=" " alt="" coords="314,1166,292,1155,288,1142,303,1132,335,1129,363,1131,379,1138,382,1149,370,1160,367,1156,376,1148,375,1142,362,1136,335,1134,305,1137,293,1143,296,1151,316,1161"/>
+<area shape="rect" id="Node000038" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="538,1155,611,1183"/>
+<area shape="poly" id="edge45_Node000037_Node000038" title=" " alt="" coords="354,1166,522,1166,522,1172,354,1172"/>
+<area shape="poly" id="edge46_Node000038_Node000038" title=" " alt="" coords="535,1158,527,1147,531,1137,547,1131,574,1129,605,1132,620,1140,617,1145,604,1137,574,1134,549,1136,535,1141,532,1147,539,1154"/>
+<area shape="rect" id="Node000039" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="781,1155,847,1183"/>
+<area shape="poly" id="edge47_Node000038_Node000039" title=" " alt="" coords="611,1166,765,1166,765,1172,611,1172"/>
+</map>

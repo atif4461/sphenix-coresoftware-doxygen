@@ -1,0 +1,104 @@
+<map id="CaloValid::process_towers" name="CaloValid::process_towers">
+<area shape="rect" id="Node000001" title="Process event towers, triggers, MBD, and clusters to populate QA histograms." alt="" coords="5,809,146,854"/>
+<area shape="rect" id="Node000002" href="$d5/dc4/classGlobalVertexMap.html#a62df09ef6203b585289b91d2d44e9c1d" title="Return a constant iterator to the beginning of the global vertex map." alt="" coords="218,5,395,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,808,78,656,93,426,108,307,128,197,156,106,173,71,192,44,202,35,206,39,196,48,177,74,161,108,133,198,113,308,99,427,83,656,80,808"/>
+<area shape="rect" id="Node000003" href="$d5/dc4/classGlobalVertexMap.html#ac206d95c5780106933392f0c95760ea2" title=" " alt="" coords="215,57,398,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="74,808,79,665,96,450,111,339,131,236,158,152,174,119,192,95,200,88,203,92,196,98,178,122,163,154,136,238,116,340,101,451,85,665,80,808"/>
+<area shape="rect" id="Node000004" href="$d9/da7/classTowerInfoContainer.html#a76998c4033bb310ca5f8a74553ce1449" title=" " alt="" coords="233,109,380,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="75,808,83,677,102,484,117,384,137,292,161,217,176,187,192,164,217,145,220,149,196,168,180,190,166,219,142,294,123,385,107,485,88,678,80,808"/>
+<area shape="rect" id="Node000005" href="$d6/dc7/group__getters.html#ga156d383a06a55e4caab80006d2e38685" title="reduced chi2 for EM shower" alt="" coords="227,177,386,205"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="75,808,84,686,104,508,119,416,139,332,162,263,176,236,192,216,212,201,215,206,196,220,181,239,167,265,144,334,124,417,109,509,89,686,81,808"/>
+<area shape="rect" id="Node000006" href="$d3/d65/classTowerInfo.html#ad748cb091fa76a90dbf6ee8b4c3d00e0" title=" " alt="" coords="233,229,380,257"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="76,808,86,695,107,533,123,449,142,373,164,311,178,286,192,268,217,251,220,255,195,272,182,289,169,313,147,375,128,450,112,533,91,695,81,809"/>
+<area shape="rect" id="Node000007" href="$d3/d65/classTowerInfo.html#aec47b24db774275f49d738950530b5e0" title=" " alt="" coords="224,281,389,309"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="76,808,88,705,110,558,126,483,145,414,167,358,192,320,208,308,211,312,196,324,171,361,150,416,131,484,116,559,93,705,82,809"/>
+<area shape="rect" id="Node000008" href="$d8/db2/classEventHeader.html#adbb5375bee864bbccaa651691214dfa7" title="get Event Number" alt="" coords="194,333,419,361"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="77,808,90,714,114,583,130,516,148,456,169,406,192,372,196,368,200,372,196,376,173,408,153,457,135,518,119,584,95,715,82,809"/>
+<area shape="rect" id="Node000009" href="$d3/d65/classTowerInfo.html#a2dcbfb7d61dcebc7569a6f96fc0bca58" title=" " alt="" coords="214,385,399,413"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="73,808,76,734,90,631,104,575,125,520,154,469,192,424,199,418,202,422,196,428,159,472,130,522,109,577,95,632,81,735,79,808"/>
+<area shape="rect" id="Node000010" href="$d3/d65/classTowerInfo.html#a838373bbe010f26fd68b2cf4be987298" title=" " alt="" coords="224,437,389,465"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="75,808,80,743,96,653,111,605,132,558,158,514,192,476,208,464,211,469,195,480,162,517,136,560,116,607,102,655,85,744,80,809"/>
+<area shape="rect" id="Node000011" href="$d3/d65/classTowerInfo.html#a17bf3332692e0299cc6d3bac7abb0625" title=" " alt="" coords="209,489,404,517"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="76,808,84,751,103,675,118,635,138,596,162,559,192,528,198,523,201,527,195,532,166,563,142,598,123,637,109,677,90,752,81,809"/>
+<area shape="rect" id="Node000012" href="$d3/d65/classTowerInfo.html#a843b4f5f34fa380b0b9936cd6ca18146" title=" " alt="" coords="232,541,380,569"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="78,808,89,760,110,697,144,633,166,604,192,578,216,564,219,569,195,583,170,607,148,636,115,699,94,761,83,809"/>
+<area shape="rect" id="Node000013" href="$d6/dc7/group__getters.html#ga99e3002ba62bc4467782dd60e6fc37ff" title="Retrieve the leading tower indices." alt="" coords="227,593,386,638"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="83,808,99,772,122,729,153,685,192,648,211,636,214,641,195,652,157,689,127,732,103,775,88,810"/>
+<area shape="rect" id="Node000014" href="$df/d22/classMbdPmtContainer.html#aecd1755f41d339f3334cdbc91e6de076" title="get Number of Mbd Pmt&#39;s" alt="" coords="202,661,410,689"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="89,807,130,753,159,724,192,700,206,693,208,697,195,704,163,728,134,756,93,810"/>
+<area shape="rect" id="Node000015" href="$d3/d65/classTowerInfo.html#a5b975695af1e03f6ae1ffedb3cdd1881" title=" " alt="" coords="218,713,394,741"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="103,806,144,778,193,751,213,744,215,749,195,756,147,782,106,811"/>
+<area shape="rect" id="Node000016" href="$df/d22/classMbdPmtContainer.html#af8b5a193657969f64333acd6d58adb04" title="get MbdPmtHit Object" alt="" coords="206,765,406,793"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="145,813,226,794,228,800,147,818"/>
+<area shape="rect" id="Node000017" href="$db/d63/classMbdPmtHit.html#a8467d790f05eaf4e9f7ba2012afe336f" title="Returns invalid float code for base get_q method This comment was generated by openai/gpt&#45;oss&#45;120b at..." alt="" coords="237,817,376,845"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="146,828,221,828,221,834,146,834"/>
+<area shape="rect" id="Node000018" href="$d3/d65/classTowerInfo.html#a0c315afd20cfeae849a1cc4b0bc20a07" title=" " alt="" coords="226,869,386,897"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="147,844,228,863,226,868,145,850"/>
+<area shape="rect" id="Node000019" href="$d3/d65/classTowerInfo.html#ac893a2a99b4593bdfe95e3620f7a35cd" title=" " alt="" coords="231,921,382,949"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="106,852,147,880,195,906,217,915,216,920,193,911,144,885,103,856"/>
+<area shape="rect" id="Node000020" href="$d9/da7/classTowerInfoContainer.html#a9d02209eb100fea85a2105a1965c3e2b" title=" " alt="" coords="220,973,392,1018"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="94,852,135,906,164,934,195,958,207,965,204,970,192,963,160,938,131,909,89,855"/>
+<area shape="rect" id="Node000021" href="$d1/d39/classGlobalVertex.html#a57f73fa21221f16fbaead42c95b2833b" title=" " alt="" coords="232,1041,380,1069"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="86,853,100,891,123,939,154,987,174,1009,195,1028,219,1040,216,1045,192,1032,170,1013,150,991,118,942,95,893,81,855"/>
+<area shape="rect" id="Node000022" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="235,1093,378,1121"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="83,853,95,901,116,962,149,1025,170,1054,195,1078,221,1093,219,1098,192,1083,166,1057,144,1028,111,964,89,902,78,854"/>
+<area shape="rect" id="Node000028" href="$d6/d12/classRawClusterContainer.html#a0ddd02d561a69f282b404ca186e58b04" title="return all clusters" alt="" coords="227,1145,386,1190"/>
+<area shape="poly" id="edge26_Node000001_Node000028" title=" " alt="" coords="82,854,91,910,110,984,125,1024,144,1063,167,1099,195,1131,215,1144,212,1149,192,1134,163,1102,139,1065,120,1026,105,986,85,911,76,855"/>
+<area shape="rect" id="Node000029" href="$d0/d0e/classRawClusterUtility.html#a27157c0f1f777419cf427e72593c1e21" title="Get energy vector of cluster based on E_core." alt="" coords="235,1214,378,1259"/>
+<area shape="poly" id="edge27_Node000001_Node000029" title=" " alt="" coords="80,854,85,921,101,1014,116,1064,136,1113,162,1159,195,1200,222,1218,219,1222,192,1204,158,1162,131,1116,111,1066,96,1015,79,922,74,854"/>
+<area shape="rect" id="Node000032" href="$d8/db5/namespaceQAHistManagerDef.html#a95764557eee8578107f3f8cac5a640da" title="Get a pointer to the default hist manager for QA modules." alt="" coords="202,1334,410,1379"/>
+<area shape="poly" id="edge30_Node000001_Node000032" title=" " alt="" coords="82,854,96,952,120,1090,135,1160,153,1225,174,1277,196,1313,206,1323,203,1327,192,1317,169,1280,148,1226,130,1162,114,1091,90,953,77,854"/>
+<area shape="rect" id="Node000042" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="746,1348,895,1376"/>
+<area shape="poly" id="edge51_Node000001_Node000042" title=" " alt="" coords="82,853,95,945,118,1072,133,1136,152,1193,172,1239,195,1269,214,1281,237,1289,294,1300,363,1304,438,1302,586,1296,649,1297,699,1303,743,1319,783,1338,781,1343,741,1324,698,1308,649,1302,586,1301,438,1308,363,1309,293,1305,235,1295,211,1285,192,1273,168,1242,147,1195,128,1137,113,1073,89,946,77,854"/>
+<area shape="rect" id="Node000047" href="$de/d7e/classGl1Packet.html#a22bae4410aa6b08d712f597406495770" title=" " alt="" coords="484,1628,682,1656"/>
+<area shape="poly" id="edge35_Node000001_Node000047" title=" " alt="" coords="80,854,86,991,103,1195,118,1300,138,1396,164,1475,179,1505,196,1528,221,1549,246,1561,272,1565,298,1564,355,1562,386,1566,420,1578,435,1587,445,1597,454,1606,468,1614,484,1620,482,1625,466,1619,451,1610,441,1600,432,1591,418,1583,385,1572,354,1568,298,1570,271,1570,245,1566,218,1554,192,1532,174,1508,159,1477,133,1398,113,1301,98,1195,81,991,75,854"/>
+<area shape="rect" id="Node000048" href="$d9/da7/classTowerInfoContainer.html#a766b759f123cc7ee5846d870c5b0e8ad" title="Retrieve the eta bin index for a given tower key." alt="" coords="233,1404,380,1448"/>
+<area shape="poly" id="edge36_Node000001_Node000048" title=" " alt="" coords="81,854,92,966,114,1127,129,1210,148,1285,170,1347,196,1389,220,1407,217,1411,192,1393,165,1350,143,1287,124,1211,109,1128,87,967,76,854"/>
+<area shape="rect" id="Node000050" href="$d9/da7/classTowerInfoContainer.html#a242ec574510bc063eac421275bd3dfb6" title="Retrieve phi bin index for a given tower key." alt="" coords="233,1473,380,1518"/>
+<area shape="poly" id="edge38_Node000001_Node000050" title=" " alt="" coords="81,854,89,978,110,1160,125,1254,144,1340,168,1411,181,1438,196,1459,220,1477,217,1481,192,1462,177,1441,163,1413,139,1341,120,1255,104,1161,84,979,75,854"/>
+<area shape="rect" id="Node000052" href="$d8/db2/classEventHeader.html#a2ae713729c28e8e024d595f98dc41771" title="isValid returns non zero if object contains valid data" alt="" coords="228,1592,384,1620"/>
+<area shape="poly" id="edge40_Node000001_Node000052" title=" " alt="" coords="80,854,85,998,102,1214,117,1327,137,1430,163,1515,179,1547,196,1572,216,1588,213,1592,192,1576,174,1550,158,1517,132,1431,112,1328,97,1215,80,999,75,854"/>
+<area shape="rect" id="Node000053" href="$de/d7e/classGl1Packet.html#ae83f8d5286e22a784ea8387b26a140b1" title="Retrieve a 64 bit integer value based on a keyword." alt="" coords="240,1784,373,1812"/>
+<area shape="poly" id="edge41_Node000001_Node000053" title=" " alt="" coords="79,854,82,975,96,1169,110,1282,131,1400,159,1517,196,1630,215,1671,238,1709,284,1770,280,1774,234,1712,210,1673,191,1632,154,1519,125,1401,105,1283,90,1170,76,975,74,854"/>
+<area shape="rect" id="Node000062" href="$d9/da7/classTowerInfoContainer.html#a032d99fcf2de16bdabcc1248f3362345" title=" " alt="" coords="233,1836,380,1880"/>
+<area shape="poly" id="edge52_Node000001_Node000062" title=" " alt="" coords="81,854,93,1054,117,1362,134,1520,152,1659,173,1764,184,1800,196,1821,221,1840,217,1845,192,1825,179,1802,168,1766,147,1659,128,1520,112,1363,88,1055,75,854"/>
+<area shape="rect" id="Node000023" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="492,1100,673,1128"/>
+<area shape="poly" id="edge22_Node000022_Node000023" title=" " alt="" coords="379,1106,476,1109,476,1114,378,1112"/>
+<area shape="rect" id="Node000027" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="500,1024,665,1052"/>
+<area shape="poly" id="edge25_Node000022_Node000027" title=" " alt="" coords="371,1090,418,1078,466,1062,499,1053,500,1058,468,1067,420,1083,373,1095"/>
+<area shape="poly" id="edge23_Node000023_Node000023" title=" " alt="" coords="542,1101,535,1091,541,1081,557,1075,583,1073,611,1076,626,1082,623,1087,609,1081,583,1079,558,1081,544,1085,541,1091,546,1098"/>
+<area shape="rect" id="Node000024" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="750,1100,891,1128"/>
+<area shape="poly" id="edge24_Node000023_Node000024" title=" " alt="" coords="674,1111,735,1111,735,1116,674,1116"/>
+<area shape="rect" id="Node000030" href="$d6/dc7/group__getters.html#ga1c4fdc09dc7ec65faaf01839ab71b311" title=" " alt="" coords="499,1216,666,1244"/>
+<area shape="poly" id="edge28_Node000029_Node000030" title=" " alt="" coords="378,1232,483,1230,483,1235,378,1237"/>
+<area shape="rect" id="Node000031" href="$d6/dc7/group__getters.html#gaea5779ca25795d3b83a1c9853a1221d9" title=" " alt="" coords="491,1164,674,1192"/>
+<area shape="poly" id="edge29_Node000029_Node000031" title=" " alt="" coords="378,1219,498,1193,500,1198,379,1224"/>
+<area shape="rect" id="Node000033" href="$da/d29/classFun4AllServer.html#af5885837658eb26f98dbc697b58747a7" title="Retrieve a Fun4AllHistoManager by its name from the server registry." alt="" coords="467,1317,698,1345"/>
+<area shape="poly" id="edge31_Node000032_Node000033" title=" " alt="" coords="411,1344,451,1341,452,1346,411,1350"/>
+<area shape="rect" id="Node000035" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Get singleton instance of Fun4AllServer." alt="" coords="496,1369,670,1397"/>
+<area shape="poly" id="edge32_Node000032_Node000035" title=" " alt="" coords="411,1364,480,1371,480,1376,411,1369"/>
+<area shape="rect" id="Node000044" href="$da/d29/classFun4AllServer.html#a377f113767f24ce6413e678752ed7f53" title="Register a histogram manager with the server." alt="" coords="481,1421,684,1466"/>
+<area shape="poly" id="edge33_Node000032_Node000044" title=" " alt="" coords="383,1377,420,1389,468,1406,490,1413,488,1418,466,1411,418,1394,382,1382"/>
+<area shape="poly" id="edge34_Node000044_Node000042" title=" " alt="" coords="662,1418,697,1406,769,1379,771,1384,699,1411,663,1423"/>
+<area shape="rect" id="Node000049" href="$da/d9c/namespaceTowerInfoDefs.html#acb37f4f1b13f1761640f02c036b4506d" title="Extract eta bin from tower key." alt="" coords="478,1490,688,1535"/>
+<area shape="poly" id="edge37_Node000048_Node000049" title=" " alt="" coords="381,1445,420,1458,468,1475,490,1482,488,1488,466,1480,418,1463,379,1450"/>
+<area shape="rect" id="Node000051" href="$da/d9c/namespaceTowerInfoDefs.html#af1de44c462a3a6bba5c1790021e6809c" title="Extract phi bin index from combined tower key." alt="" coords="478,1560,688,1604"/>
+<area shape="poly" id="edge39_Node000050_Node000051" title=" " alt="" coords="378,1516,468,1545,491,1552,490,1557,466,1550,376,1521"/>
+<area shape="poly" id="edge48_Node000053_Node000047" title=" " alt="" coords="319,1782,378,1725,420,1693,466,1666,484,1659,486,1663,468,1671,423,1698,382,1729,322,1786"/>
+<area shape="rect" id="Node000054" href="$dd/dbb/classOfflinePacketv1.html#ae312211fd346355001c0f2742c28c89c" title=" " alt="" coords="493,1836,672,1864"/>
+<area shape="poly" id="edge42_Node000053_Node000054" title=" " alt="" coords="374,1808,491,1830,490,1835,373,1813"/>
+<area shape="rect" id="Node000055" href="$de/d7e/classGl1Packet.html#a830979a67625b383e838639c3436d8ac" title=" " alt="" coords="480,1888,686,1916"/>
+<area shape="poly" id="edge43_Node000053_Node000055" title=" " alt="" coords="374,1803,420,1821,436,1834,445,1848,454,1861,468,1873,481,1880,479,1884,466,1877,450,1864,441,1851,432,1837,418,1825,372,1808"/>
+<area shape="rect" id="Node000056" href="$de/d7e/classGl1Packet.html#a243bb165ba85e33fadeda5e7e2898f65" title=" " alt="" coords="490,1940,675,1968"/>
+<area shape="poly" id="edge44_Node000053_Node000056" title=" " alt="" coords="374,1800,399,1808,421,1821,433,1834,440,1848,446,1875,451,1901,457,1913,469,1925,478,1932,475,1936,465,1929,453,1916,446,1903,440,1876,435,1849,429,1837,417,1825,396,1813,373,1805"/>
+<area shape="rect" id="Node000057" href="$de/d7e/classGl1Packet.html#afdb794b76884913ed9a45694d8af05a4" title=" " alt="" coords="486,1992,679,2036"/>
+<area shape="poly" id="edge45_Node000053_Node000057" title=" " alt="" coords="374,1799,399,1807,421,1821,437,1841,444,1861,446,1900,448,1940,455,1959,469,1977,475,1982,471,1986,465,1981,450,1961,443,1941,441,1901,439,1862,432,1843,417,1825,396,1812,372,1804"/>
+<area shape="rect" id="Node000058" href="$de/d7e/classGl1Packet.html#ac16626373714eaaca25a71cdad3e7cbc" title=" " alt="" coords="474,2060,691,2088"/>
+<area shape="poly" id="edge46_Node000053_Node000058" title=" " alt="" coords="374,1798,399,1806,421,1821,441,1850,449,1879,449,1908,446,1936,442,1965,442,1992,450,2020,469,2047,471,2049,467,2052,465,2050,445,2022,437,1993,436,1964,440,1936,444,1907,444,1879,436,1852,417,1825,397,1811,372,1803"/>
+<area shape="rect" id="Node000059" href="$de/d7e/classGl1Packet.html#aba5c7350bb22913563414c1e6cc74531" title=" " alt="" coords="492,1680,674,1708"/>
+<area shape="poly" id="edge47_Node000053_Node000059" title=" " alt="" coords="332,1781,392,1750,466,1718,493,1709,495,1715,468,1723,394,1755,334,1786"/>
+<area shape="rect" id="Node000060" href="$de/d7e/classGl1Packet.html#a68a22a0e1b79be922586d9a873910133" title=" " alt="" coords="487,1732,678,1760"/>
+<area shape="poly" id="edge49_Node000053_Node000060" title=" " alt="" coords="373,1783,490,1760,491,1766,374,1788"/>
+<area shape="rect" id="Node000061" href="$de/d7e/classGl1Packet.html#a8ef858dc3934420fcb8e8ee0bb3e47c7" title=" " alt="" coords="483,1784,682,1812"/>
+<area shape="poly" id="edge50_Node000053_Node000061" title=" " alt="" coords="374,1795,468,1795,468,1800,374,1800"/>
+</map>

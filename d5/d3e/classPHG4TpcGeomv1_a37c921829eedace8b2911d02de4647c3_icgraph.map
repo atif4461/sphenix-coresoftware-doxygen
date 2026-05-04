@@ -1,0 +1,23 @@
+<map id="PHG4TpcGeomv1::check_binning_method_phi" name="PHG4TpcGeomv1::check_binning_method_phi">
+<area shape="rect" id="Node000001" title="Verify that the binning method is one of the supported types." alt="" coords="245,300,426,344"/>
+<area shape="rect" id="Node000002" href="$d5/d3e/classPHG4TpcGeomv1.html#aedef85d90166521514f9b22546b3cb42" title="Compute azimuthal angle phi for a given phi bin and side." alt="" coords="5,5,197,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="323,285,308,232,282,167,245,102,222,72,195,47,178,36,181,31,198,42,226,69,250,99,287,165,313,230,329,284"/>
+<area shape="rect" id="Node000003" href="$d5/d3e/classPHG4TpcGeomv1.html#aac6237c653cd8c85e587394f3a430531" title="Compute phi bin index with wraparound handling." alt="" coords="19,57,183,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="316,286,297,247,270,201,236,156,195,116,177,104,180,100,198,112,240,152,274,198,301,244,321,284"/>
+<area shape="rect" id="Node000004" href="$d5/d3e/classPHG4TpcGeomv1.html#af5a9f43bab9e07750ad76cf477b5b29f" title="Retrieve the number of phi bins in the TPC geometry." alt="" coords="19,126,183,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="305,289,257,236,227,209,195,185,174,174,176,169,198,181,231,205,261,232,309,285"/>
+<area shape="rect" id="Node000005" href="$d5/d3e/classPHG4TpcGeomv1.html#a82c9e181abf56e0c7fda5194da95224a" title="Compute phi centre for a given phi bin and detector side." alt="" coords="19,196,183,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="277,294,196,255,167,243,169,238,198,250,280,290"/>
+<area shape="rect" id="Node000006" href="$d5/d3e/classPHG4TpcGeomv1.html#a9f646cb0d952bb667786faccc8e23711" title="Return phi coordinate of bin centre for given phi bin index." alt="" coords="19,265,183,310"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="229,309,183,302,184,297,230,304"/>
+<area shape="rect" id="Node000007" href="$d5/d3e/classPHG4TpcGeomv1.html#a007f7739e22c3441a54e7cdd5f6450b0" title="Retrieve minimum azimuthal angle of TPC geometry." alt="" coords="19,334,183,379"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="230,340,184,347,183,342,229,335"/>
+<area shape="rect" id="Node000008" href="$d5/d3e/classPHG4TpcGeomv1.html#ab3f5feda73adabc22d44e8ef214cb01d" title="Retrieve phi step size for TPC geometry." alt="" coords="19,404,183,448"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="280,354,198,394,169,405,167,400,196,389,277,349"/>
+<area shape="rect" id="Node000009" href="$d5/d3e/classPHG4TpcGeomv1.html#a702e52f274f6f7e418aaf698086fd972" title="Set number of phi bins for TPC geometry." alt="" coords="19,473,183,518"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="309,358,261,411,231,439,198,463,176,475,174,470,195,458,227,435,257,408,305,355"/>
+<area shape="rect" id="Node000010" href="$d5/d3e/classPHG4TpcGeomv1.html#afd3f30866c48778508cc438bfa1fe304" title="Set minimum azimuthal angle phi for TPC geometry." alt="" coords="19,542,183,587"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="321,360,301,399,274,445,240,492,198,532,180,544,177,539,195,528,236,488,270,442,297,397,316,357"/>
+<area shape="rect" id="Node000011" href="$d5/d3e/classPHG4TpcGeomv1.html#ad90bb8673d2945875a37ddbd90ccce13" title="Set the azimuthal step size for the TPC geometry." alt="" coords="19,612,183,656"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="328,360,311,413,285,478,248,544,225,574,198,601,182,613,179,609,195,597,221,571,243,541,280,476,306,412,322,359"/>
+</map>

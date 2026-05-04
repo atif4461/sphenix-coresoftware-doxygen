@@ -1,0 +1,90 @@
+<map id="SpinDBContent::GetNCrossing" name="SpinDBContent::GetNCrossing">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1077,1680,1293,1708"/>
+<area shape="rect" id="Node000002" href="$d3/d94/classSpinDBContentv1.html#a7f19e84cb2528e058d8ea44a0b5013d6" title="Check if bunch number is within valid range." alt="" coords="804,750,1027,795"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1173,1666,921,796,926,795,1178,1664"/>
+<area shape="rect" id="Node000029" href="$d4/d48/classSpinDBOutput.html#a38e91e73c84e43560e2aec314e274492" title="Copy all spin database content from source to destination object." alt="" coords="804,1601,1027,1629"/>
+<area shape="poly" id="edge32_Node000001_Node000029" title=" " alt="" coords="1129,1677,1028,1644,981,1632,982,1627,1029,1639,1130,1672"/>
+<area shape="rect" id="Node000036" href="$d3/d94/classSpinDBContentv1.html#a7f7a3d87f1ff55fd8a79024913e75cea" title="Identify prints spin database content to the provided output stream." alt="" coords="819,1653,1012,1681"/>
+<area shape="poly" id="edge42_Node000001_Node000036" title=" " alt="" coords="1061,1684,1012,1679,1013,1674,1061,1679"/>
+<area shape="rect" id="Node000037" href="$de/d9a/classSpinDBInput.html#a1089b1523926f5efdd2f6ed2108cd53b" title="Initialize database entries for a given run and QA level." alt="" coords="806,1705,1025,1733"/>
+<area shape="poly" id="edge43_Node000001_Node000037" title=" " alt="" coords="1061,1708,1025,1712,1025,1706,1061,1703"/>
+<area shape="rect" id="Node000039" href="$d3/d94/classSpinDBContentv1.html#a0948ae34a124c8cc527199bd3f14b48b" title="Initialize all SpinDBContentv1 data members to sentinel error values." alt="" coords="807,1757,1024,1785"/>
+<area shape="poly" id="edge45_Node000001_Node000039" title=" " alt="" coords="1129,1716,1029,1747,982,1759,981,1754,1028,1742,1127,1711"/>
+<area shape="rect" id="Node000041" href="$de/d9a/classSpinDBInput.html#aaaa4495d4ef5adfe9582a71d333a53e8" title="Update database content with spin data." alt="" coords="802,1809,1029,1837"/>
+<area shape="poly" id="edge47_Node000001_Node000041" title=" " alt="" coords="1156,1720,1100,1760,1030,1799,994,1811,992,1806,1028,1794,1097,1756,1153,1715"/>
+<area shape="rect" id="Node000003" href="$d3/d94/classSpinDBContentv1.html#aa6153d5958b294aa06afb7b9396ffdfb" title="Retrieve bad bunch flag for specified bunch index." alt="" coords="488,5,748,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="909,735,893,584,864,377,842,272,817,177,787,99,770,70,752,48,736,36,739,31,756,44,775,67,792,97,822,175,848,271,869,376,899,584,914,734"/>
+<area shape="rect" id="Node000004" href="$d3/d94/classSpinDBContentv1.html#a3f10d8752ab249820c87a072f6ae56a0" title="Retrieve blue spin polarization and its uncertainty for a given bunch." alt="" coords="482,57,754,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="908,735,891,594,860,402,839,306,814,218,785,147,769,120,752,100,736,88,739,83,756,96,774,117,790,145,819,216,844,304,865,401,896,593,913,734"/>
+<area shape="rect" id="Node000005" href="$d3/d94/classSpinDBContentv1.html#a9a9879e96b8822ac0b2204d3d7b94d8b" title="Retrieve blue spin polarization for a given bunch." alt="" coords="482,109,754,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="907,735,889,604,856,428,835,339,811,260,783,195,768,170,753,152,735,139,739,135,756,148,772,167,788,192,816,258,840,338,862,427,894,603,912,734"/>
+<area shape="rect" id="Node000006" href="$d3/d94/classSpinDBContentv1.html#a58c38b5fd610564d743e0e856aa25d68" title="Retrieve blue spin polarization and its error for a given bunch." alt="" coords="482,161,754,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="906,735,886,614,853,454,831,373,807,301,781,243,752,204,735,192,738,187,756,200,786,240,812,299,836,372,858,452,891,613,911,734"/>
+<area shape="rect" id="Node000007" href="$d3/d94/classSpinDBContentv1.html#ac1bc2d147a3757a18d52d5a51e9e5ae2" title="Retrieve blue polarization for a given bunch." alt="" coords="482,213,754,241"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="912,735,907,637,899,575,886,507,866,438,838,370,801,308,753,254,737,244,740,239,756,251,805,305,843,368,871,436,891,506,905,574,913,637,918,735"/>
+<area shape="rect" id="Node000008" href="$d3/d94/classSpinDBContentv1.html#a55a285b5873456b95bbba55761303303" title="Retrieve the yellow beam polarization for a specified bunch." alt="" coords="496,265,740,310"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="910,735,900,650,889,596,874,539,854,480,828,423,794,370,753,324,736,312,740,308,756,320,798,367,832,420,859,478,880,537,895,595,905,649,915,734"/>
+<area shape="rect" id="Node000009" href="$d3/d94/classSpinDBContentv1.html#a68feda38c28910f28e28021fddd0d5ab" title="Retrieve the yellow beam polarization for a given bunch." alt="" coords="496,334,740,379"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="907,735,893,662,865,570,845,521,820,474,789,431,753,393,736,382,739,377,756,389,793,428,824,471,850,519,870,568,898,661,912,734"/>
+<area shape="rect" id="Node000010" href="$d3/d94/classSpinDBContentv1.html#a42bb93e1036995cf8ca6397f5ff21ca1" title="Retrieve the yellow beam polarization for a specific bunch." alt="" coords="496,404,740,448"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="903,736,885,675,855,601,835,563,811,526,784,492,753,463,735,451,737,446,756,458,788,488,816,523,840,560,860,599,890,673,908,734"/>
+<area shape="rect" id="Node000011" href="$d3/d94/classSpinDBContentv1.html#a5bd1abdbd4481980b2b05b1f8aa7fbab" title="Retrieve yellow beam polarization for a given bunch." alt="" coords="496,473,740,518"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="898,737,876,689,844,634,803,578,779,554,753,532,733,520,735,516,756,528,783,550,807,575,849,631,881,687,902,734"/>
+<area shape="rect" id="Node000012" href="$d3/d94/classSpinDBContentv1.html#a35ad854c17fa74544f949c90efe3bb1b" title="Retrieve MBD scaler value without cuts for a given bunch." alt="" coords="515,542,721,587"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="889,739,833,669,795,632,753,601,721,586,723,582,756,597,798,628,837,665,894,736"/>
+<area shape="rect" id="Node000014" href="$d3/d94/classSpinDBContentv1.html#ae3df24fac116e2c349fe2d103197d17f" title="Retrieve the MBD vertex cut scaler value for a given bunch." alt="" coords="515,612,721,656"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="872,743,817,706,753,671,721,659,723,654,755,666,820,701,875,739"/>
+<area shape="rect" id="Node000015" href="$d3/d94/classSpinDBContentv1.html#a5d897ceb12a8f66aa435894167052519" title="Retrieve scaler ZDC no cut value for given bunch." alt="" coords="515,681,721,726"/>
+<area shape="poly" id="edge15_Node000002_Node000015" title=" " alt="" coords="801,749,716,729,718,723,802,743"/>
+<area shape="rect" id="Node000016" href="$d3/d94/classSpinDBContentv1.html#a247290903a30683cfb40d0f5412f0732" title="Retrieve the blue spin pattern for a specified bunch." alt="" coords="521,750,715,795"/>
+<area shape="poly" id="edge17_Node000002_Node000016" title=" " alt="" coords="788,775,716,775,716,770,788,770"/>
+<area shape="rect" id="Node000017" href="$d3/d94/classSpinDBContentv1.html#a5aa144bee7d722a04b790c7827b07f32" title="Retrieve the spin pattern for the Yellow beam for a given bunch index." alt="" coords="521,820,715,864"/>
+<area shape="poly" id="edge18_Node000002_Node000017" title=" " alt="" coords="802,802,717,822,715,817,801,796"/>
+<area shape="rect" id="Node000018" href="$d3/d94/classSpinDBContentv1.html#ab2f4a3d5b97e0f035147a58d172bf0f2" title="Set flag indicating bad bunch status." alt="" coords="490,888,747,916"/>
+<area shape="poly" id="edge19_Node000002_Node000018" title=" " alt="" coords="876,807,821,845,755,879,721,890,720,885,753,874,818,840,873,802"/>
+<area shape="rect" id="Node000019" href="$d3/d94/classSpinDBContentv1.html#a74487f02bb011880870c47c8daf18c22" title="Set polarization for the blue beam for a specified bunch." alt="" coords="483,940,753,968"/>
+<area shape="poly" id="edge20_Node000002_Node000019" title=" " alt="" coords="891,809,834,871,797,903,756,930,725,942,723,937,753,925,793,899,830,868,887,805"/>
+<area shape="rect" id="Node000020" href="$d3/d94/classSpinDBContentv1.html#a1a4727972f05a3dbed8a2bf6bdd06214" title="Set the blue beam polarization for a given bunch." alt="" coords="483,992,753,1020"/>
+<area shape="poly" id="edge21_Node000002_Node000020" title=" " alt="" coords="899,810,876,851,844,898,803,943,756,981,730,994,728,989,753,977,800,940,839,894,871,848,894,807"/>
+<area shape="rect" id="Node000021" href="$d3/d94/classSpinDBContentv1.html#aaff961676e53dde53a906ef866012281" title="Set polarization for the yellow beam for a given bunch." alt="" coords="498,1044,739,1088"/>
+<area shape="poly" id="edge22_Node000002_Node000021" title=" " alt="" coords="904,810,883,861,852,921,809,982,784,1009,756,1033,736,1045,734,1041,753,1029,780,1006,805,979,847,919,878,859,899,808"/>
+<area shape="rect" id="Node000022" href="$d3/d94/classSpinDBContentv1.html#ad1787e4ece68521f2c4de79e03e0455f" title="Set the yellow polarization for a given bunch." alt="" coords="498,1113,739,1158"/>
+<area shape="poly" id="edge23_Node000002_Node000022" title=" " alt="" coords="909,811,892,875,862,953,842,994,818,1034,789,1071,756,1103,738,1114,735,1110,753,1098,785,1067,813,1031,837,992,857,951,887,873,904,810"/>
+<area shape="rect" id="Node000023" href="$d3/d94/classSpinDBContentv1.html#af5bd4bf49a3f52ced8f574e0a3cdb43f" title="Set scaler MBD no cut for a given bunch." alt="" coords="516,1182,720,1227"/>
+<area shape="poly" id="edge24_Node000002_Node000023" title=" " alt="" coords="913,811,900,887,872,984,852,1035,826,1085,794,1132,756,1172,722,1192,720,1187,753,1168,790,1128,822,1083,847,1033,867,983,894,886,908,810"/>
+<area shape="rect" id="Node000025" href="$d3/d94/classSpinDBContentv1.html#a31f87507bde504a1cd8e0b263b9b2b4a" title="Set the MBD vertex cut scaler for a specific bunch." alt="" coords="516,1252,720,1296"/>
+<area shape="poly" id="edge26_Node000002_Node000025" title=" " alt="" coords="915,811,906,899,896,955,882,1015,861,1076,834,1136,800,1192,756,1241,722,1262,720,1257,753,1237,795,1189,830,1134,856,1074,877,1013,891,954,901,898,910,810"/>
+<area shape="rect" id="Node000026" href="$d3/d94/classSpinDBContentv1.html#a00d9ada2e8af27fd06d0c7a9b428dce4" title="Set ZDC scaler value without cut for a given bunch." alt="" coords="516,1321,720,1366"/>
+<area shape="poly" id="edge28_Node000002_Node000026" title=" " alt="" coords="917,811,912,910,904,975,891,1045,871,1117,842,1187,805,1253,756,1310,740,1323,722,1332,720,1327,737,1318,752,1307,800,1250,838,1185,866,1115,886,1044,899,974,907,910,912,810"/>
+<area shape="rect" id="Node000027" href="$d3/d94/classSpinDBContentv1.html#a9bf02f0fcef4bcefec43cce3539741c6" title="Set spin pattern for blue beam for a given bunch." alt="" coords="522,1390,714,1435"/>
+<area shape="poly" id="edge30_Node000002_Node000027" title=" " alt="" coords="912,811,892,938,859,1109,838,1195,813,1272,786,1336,772,1361,756,1380,737,1394,716,1404,714,1399,735,1390,752,1376,767,1358,782,1334,808,1271,833,1193,854,1108,887,937,907,810"/>
+<area shape="rect" id="Node000028" href="$d3/d94/classSpinDBContentv1.html#a7b3b0f08cbc5c563fc51d7361403243a" title="Set spin pattern for yellow beam for a given bunch." alt="" coords="522,1460,714,1504"/>
+<area shape="poly" id="edge31_Node000002_Node000028" title=" " alt="" coords="913,811,896,951,864,1143,843,1239,818,1327,789,1400,773,1428,756,1449,737,1464,716,1474,714,1469,735,1459,752,1445,769,1425,784,1397,813,1326,837,1238,859,1142,890,951,908,810"/>
+<area shape="rect" id="Node000013" href="$d3/d94/classSpinDBContentv1.html#a033875ff7abc4baaeafded3fd602a5e3" title="Retrieve scaler count for given channel and bunch." alt="" coords="219,620,425,648"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="505,594,385,622,384,617,504,588"/>
+<area shape="poly" id="edge14_Node000014_Node000013" title=" " alt="" coords="499,636,426,636,426,631,499,631"/>
+<area shape="poly" id="edge16_Node000015_Node000013" title=" " alt="" coords="504,679,384,651,385,646,505,674"/>
+<area shape="rect" id="Node000024" href="$d3/d94/classSpinDBContentv1.html#a1c9913a96c053633c01355dcf4ec97fa" title="Set scaler value for a specified channel and bunch." alt="" coords="220,1260,424,1288"/>
+<area shape="poly" id="edge25_Node000023_Node000024" title=" " alt="" coords="505,1234,385,1262,384,1257,504,1228"/>
+<area shape="poly" id="edge27_Node000025_Node000024" title=" " alt="" coords="500,1276,425,1276,425,1271,500,1271"/>
+<area shape="poly" id="edge29_Node000026_Node000024" title=" " alt="" coords="504,1319,384,1291,385,1286,505,1314"/>
+<area shape="rect" id="Node000030" href="$d4/d48/classSpinDBOutput.html#a994151062121887ff908529380926b84" title="Retrieve database content for given run number." alt="" coords="512,1603,725,1630"/>
+<area shape="poly" id="edge33_Node000029_Node000030" title=" " alt="" coords="788,1618,725,1619,725,1613,788,1613"/>
+<area shape="rect" id="Node000031" href="$d4/d48/classSpinDBOutput.html#a55870c9a850d6fab24dad5a9c81cb553" title="Retrieve spin database content for a given run and QA level." alt="" coords="215,1528,428,1556"/>
+<area shape="poly" id="edge39_Node000029_Node000031" title=" " alt="" coords="860,1598,809,1583,754,1570,669,1558,583,1550,429,1544,429,1539,584,1545,670,1552,755,1565,810,1577,862,1593"/>
+<area shape="rect" id="Node000035" href="$d4/d48/classSpinDBOutput.html#a13593c5cdc22c3885eb803a47f009fc0" title="Retrieve DB content for specified run number." alt="" coords="215,1684,428,1728"/>
+<area shape="poly" id="edge40_Node000029_Node000035" title=" " alt="" coords="815,1635,755,1644,430,1693,429,1688,754,1639,814,1629"/>
+<area shape="poly" id="edge34_Node000030_Node000030" title=" " alt="" coords="670,1590,652,1584,618,1581,587,1583,570,1588,565,1593,572,1600,568,1604,560,1594,566,1584,586,1578,618,1576,653,1579,672,1585"/>
+<area shape="poly" id="edge35_Node000030_Node000031" title=" " alt="" coords="548,1601,433,1571,384,1559,385,1554,435,1566,549,1596"/>
+<area shape="rect" id="Node000032" href="$d4/d48/classSpinDBOutput.html#ae03a6f375ea3bf6ff375a9f1c1c711bc" title="Retrieve and store spin database content for runs in specified range." alt="" coords="210,1580,434,1608"/>
+<area shape="poly" id="edge36_Node000030_Node000032" title=" " alt="" coords="496,1610,434,1605,434,1600,497,1605"/>
+<area shape="rect" id="Node000034" href="$d4/d48/classSpinDBOutput.html#aceee25ae2658b16c25bcaff061261ba8" title="Retrieve spin database entries for a specified run range and QA level and store them in the internal ..." alt="" coords="210,1632,434,1660"/>
+<area shape="poly" id="edge38_Node000030_Node000034" title=" " alt="" coords="497,1631,435,1637,434,1632,496,1626"/>
+<area shape="rect" id="Node000033" href="$da/dfe/classSpinDBNode.html#a2d5c7a8e13fbdfeef93db436e481ac0b" title="Initialize run specific nodes and spin database content." alt="" coords="5,1636,162,1664"/>
+<area shape="poly" id="edge37_Node000032_Node000033" title=" " alt="" coords="246,1614,146,1638,145,1633,244,1609"/>
+<area shape="poly" id="edge41_Node000035_Node000033" title=" " alt="" coords="209,1682,145,1667,146,1662,210,1677"/>
+<area shape="rect" id="Node000038" href="$de/d9a/classSpinDBInput.html#a1e70069d3abdd5ed5d4605e565b57df9" title="Create a new run entry in the spin database." alt="" coords="516,1705,721,1733"/>
+<area shape="poly" id="edge44_Node000037_Node000038" title=" " alt="" coords="791,1722,721,1722,721,1716,791,1716"/>
+<area shape="rect" id="Node000040" href="$d3/d94/classSpinDBContentv1.html#a575508f356c9be5b7d003f98819667c1" title=" " alt="" coords="490,1757,747,1785"/>
+<area shape="poly" id="edge46_Node000039_Node000040" title=" " alt="" coords="792,1774,747,1774,747,1768,792,1768"/>
+</map>

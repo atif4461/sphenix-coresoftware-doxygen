@@ -1,0 +1,86 @@
+<map id="SvtxTrack_FastSim::CopyFrom" name="SvtxTrack_FastSim::CopyFrom">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,2257,156,2302"/>
+<area shape="rect" id="Node000002" href="$d9/da8/classSvtxTrack__FastSim.html#a2bc3722623a0231579fd0509b6920f6f" title="Copy data from another SvtxTrack into this FastSim track." alt="" coords="204,2192,354,2236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,2254,193,2239,195,2244,151,2259"/>
+<area shape="rect" id="Node000009" href="$d2/db8/classSvtxTrack.html#a9f0b418632dda2acf5b715244f8d67ab" title=" " alt="" coords="896,1211,1051,1238"/>
+<area shape="poly" id="edge43_Node000001_Node000009" title=" " alt="" coords="157,2296,226,2311,311,2324,406,2332,505,2332,604,2320,652,2308,697,2292,740,2271,779,2245,815,2214,845,2176,864,2142,881,2099,910,1988,931,1855,947,1711,964,1437,969,1254,974,1254,969,1437,952,1712,936,1855,915,1989,886,2100,869,2145,850,2179,819,2218,782,2250,742,2276,699,2297,653,2313,605,2325,505,2337,405,2338,310,2329,225,2316,156,2302"/>
+<area shape="rect" id="Node000003" href="$db/de4/classSvtxTrack__v1.html#aa861ce33f34cd449c2509118b480d638" title="Copy the contents of a source SvtxTrack into this SvtxTrack_v1 instance." alt="" coords="402,1039,583,1066"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,2191,483,1081,489,1082,287,2192"/>
+<area shape="poly" id="edge42_Node000002_Node000009" title=" " alt="" coords="353,2188,402,2177,446,2172,503,2170,635,2170,701,2167,761,2160,811,2147,831,2138,846,2127,868,2098,887,2060,904,2013,919,1958,941,1834,956,1697,965,1560,969,1433,970,1254,975,1254,975,1433,970,1560,962,1698,947,1835,924,1960,909,2014,892,2062,872,2101,850,2130,833,2143,813,2152,762,2166,701,2173,635,2175,503,2176,446,2177,402,2182,354,2194"/>
+<area shape="rect" id="Node000040" href="$d2/db8/classSvtxTrack.html#a4b02002f7bbb11a7a7eda62870f7a51a" title=" " alt="" coords="418,2192,567,2236"/>
+<area shape="poly" id="edge40_Node000002_Node000040" title=" " alt="" coords="355,2211,402,2211,402,2216,355,2216"/>
+<area shape="rect" id="Node000041" href="$d2/db8/classSvtxTrack.html#ad56314eefaf5d86970660063df99db43" title=" " alt="" coords="417,2261,568,2306"/>
+<area shape="poly" id="edge41_Node000002_Node000041" title=" " alt="" coords="351,2234,408,2253,406,2258,349,2239"/>
+<area shape="rect" id="Node000004" href="$d2/db8/classSvtxTrack.html#a00de1b776a053b534c35219a27cd2511" title="Return an iterator to the end of the dummy cluster key set for a const track." alt="" coords="631,5,848,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="491,1038,493,858,498,716,507,558,524,398,548,250,564,185,583,127,605,80,629,44,632,41,636,45,633,48,609,83,588,129,569,186,554,251,529,399,513,559,503,716,498,858,497,1038"/>
+<area shape="rect" id="Node000005" href="$d2/db8/classSvtxTrack.html#a935ff33221802115258fc5f3fa96c448" title="Returns iterator to beginning of cluster collection for a const track." alt="" coords="646,57,833,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="491,1038,494,866,500,732,510,582,527,431,551,291,567,229,585,175,606,130,629,96,632,93,636,97,633,100,610,133,590,177,572,231,557,292,532,432,516,583,505,732,499,867,497,1038"/>
+<area shape="rect" id="Node000006" href="$d2/db8/classSvtxTrack.html#a18e3ed9f7254267fc820f817e328f7aa" title="Return a constant iterator to the beginning of the track state collection." alt="" coords="652,109,827,137"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="491,1038,495,874,502,746,513,605,530,462,554,330,569,272,587,221,607,179,629,147,637,140,641,144,633,150,611,181,592,223,574,273,559,331,535,463,518,606,507,747,501,874,497,1038"/>
+<area shape="rect" id="Node000007" href="$db/de4/classSvtxTrack__v1.html#a0a84379046434f165e24eaf04890126b" title="Delete all track state objects and clear the internal state map." alt="" coords="666,161,813,206"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="492,1038,499,887,519,640,537,509,560,387,591,286,609,246,629,216,650,199,654,203,633,220,614,249,596,287,566,388,542,509,524,641,504,887,497,1039"/>
+<area shape="rect" id="Node000008" href="$d2/db8/classSvtxTrack.html#a5d25f0ad2128172ce8d07e105c8038a3" title="copy content from base class" alt="" coords="660,229,819,257"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="492,1038,500,895,522,665,540,544,563,431,593,337,610,301,629,273,645,261,648,265,633,277,615,304,598,339,568,432,545,544,527,666,505,896,497,1038"/>
+<area shape="poly" id="edge39_Node000003_Node000009" title=" " alt="" coords="492,1038,498,899,505,794,518,679,535,564,559,458,573,412,590,373,609,341,630,317,657,297,685,282,713,273,740,270,767,273,795,281,822,296,850,317,862,336,875,367,897,460,916,583,934,723,959,1003,973,1195,968,1195,954,1004,928,724,911,583,892,461,870,368,858,338,846,321,819,301,793,286,766,278,740,275,714,278,687,287,660,301,633,321,613,344,595,375,578,414,564,460,540,565,523,680,511,795,503,900,497,1038"/>
+<area shape="rect" id="Node000010" href="$d2/db8/classSvtxTrack.html#a10cf671f9cddb154c3aee1e4f913d815" title="Return a constant iterator to the end of the cluster key set." alt="" coords="637,331,842,358"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="492,1038,502,911,526,709,545,603,567,505,595,424,612,393,629,369,633,366,637,370,633,373,616,396,600,426,573,506,550,604,532,710,508,911,498,1039"/>
+<area shape="rect" id="Node000011" href="$d2/db8/classSvtxTrack.html#a9a3d11a3fd07add534962ce57717710c" title="Return iterator to the end of the constant cluster collection." alt="" coords="652,383,827,410"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="492,1038,504,919,529,733,548,636,571,546,597,472,613,443,629,421,637,414,641,418,633,425,617,446,602,474,576,547,553,637,535,734,509,920,498,1039"/>
+<area shape="rect" id="Node000012" href="$d2/db8/classSvtxTrack.html#ab85c1fdc0c931a47ba0fdc63a757f73e" title="Return iterator to end of constant state map for SvtxTrack." alt="" coords="658,435,821,462"/>
+<area shape="poly" id="edge11_Node000003_Node000012" title=" " alt="" coords="493,1038,506,928,532,757,551,668,573,585,599,518,614,492,629,472,642,462,645,466,633,476,618,495,604,520,578,587,556,669,538,758,511,928,498,1039"/>
+<area shape="rect" id="Node000013" href="$d2/db8/classSvtxTrack.html#ab1390f97edf4970d4bf9c9df32ebdb1c" title=" " alt="" coords="670,486,809,531"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="491,1038,491,954,496,891,506,821,522,747,547,673,582,603,604,571,630,541,654,523,657,528,633,545,609,574,587,606,552,675,527,748,511,822,501,892,497,954,496,1038"/>
+<area shape="rect" id="Node000014" href="$d2/db8/classSvtxTrack.html#aaa25d2e5709d23b4f089a43db10e9ca5" title=" " alt="" coords="670,556,809,600"/>
+<area shape="poly" id="edge13_Node000003_Node000014" title=" " alt="" coords="491,1038,496,964,502,910,513,850,531,786,555,723,587,663,630,611,654,593,657,597,633,614,592,666,560,725,536,788,519,851,507,911,501,964,497,1039"/>
+<area shape="rect" id="Node000015" href="$d2/db8/classSvtxTrack.html#ab8c0834ff933f8157be29e1e8c77f11d" title=" " alt="" coords="670,625,809,670"/>
+<area shape="poly" id="edge14_Node000003_Node000015" title=" " alt="" coords="492,1038,500,973,522,878,539,825,563,772,592,723,630,680,654,663,657,668,633,684,597,726,567,775,544,827,527,879,506,974,498,1038"/>
+<area shape="rect" id="Node000016" href="$d2/db8/classSvtxTrack.html#af623f11ade5c3613acf411a55bcaa2b0" title=" " alt="" coords="652,693,827,721"/>
+<area shape="poly" id="edge15_Node000003_Node000016" title=" " alt="" coords="493,1038,503,981,526,898,544,853,567,809,595,767,630,732,637,726,640,731,633,736,599,771,571,811,549,855,531,900,508,982,498,1039"/>
+<area shape="rect" id="Node000017" href="$d2/db8/classSvtxTrack.html#a1fe169096f6e453687681121514334f7" title=" " alt="" coords="652,745,827,773"/>
+<area shape="poly" id="edge16_Node000003_Node000017" title=" " alt="" coords="494,1037,507,988,533,919,551,882,573,845,599,811,630,782,637,777,640,782,633,787,603,815,577,848,555,884,537,921,512,990,499,1039"/>
+<area shape="rect" id="Node000018" href="$d2/db8/classSvtxTrack.html#ae438795d4e123aafb83a96ea23b5bac2" title=" " alt="" coords="670,797,809,842"/>
+<area shape="poly" id="edge17_Node000003_Node000018" title=" " alt="" coords="498,1037,515,1000,543,950,582,897,630,852,654,837,657,842,633,856,586,901,548,953,520,1002,502,1039"/>
+<area shape="rect" id="Node000019" href="$d2/db8/classSvtxTrack.html#a0560f10b46697cfefc00eecc3742cec7" title=" " alt="" coords="670,866,809,911"/>
+<area shape="poly" id="edge18_Node000003_Node000019" title=" " alt="" coords="503,1036,554,981,590,949,630,921,654,909,657,914,633,925,594,953,558,985,507,1040"/>
+<area shape="rect" id="Node000020" href="$d2/db8/classSvtxTrack.html#a8eb37e7a4b0d9ec8a9987457e35252ad" title=" " alt="" coords="662,935,817,962"/>
+<area shape="poly" id="edge19_Node000003_Node000020" title=" " alt="" coords="514,1036,566,1004,630,973,654,965,655,970,632,978,568,1009,517,1040"/>
+<area shape="rect" id="Node000021" href="$d2/db8/classSvtxTrack.html#a1adb7c13f811d4b9eba46932628addc8" title=" " alt="" coords="668,987,811,1014"/>
+<area shape="poly" id="edge20_Node000003_Node000021" title=" " alt="" coords="561,1035,655,1015,656,1021,563,1041"/>
+<area shape="rect" id="Node000022" href="$d2/db8/classSvtxTrack.html#a95fe2f493c85f69c57e09e07d3f32e35" title=" " alt="" coords="660,1039,819,1066"/>
+<area shape="poly" id="edge21_Node000003_Node000022" title=" " alt="" coords="584,1050,644,1050,644,1055,584,1055"/>
+<area shape="rect" id="Node000023" href="$d2/db8/classSvtxTrack.html#a54eabc740dbdc1d8e1d8cc1ef1b419b1" title=" " alt="" coords="660,1090,819,1135"/>
+<area shape="poly" id="edge22_Node000003_Node000023" title=" " alt="" coords="553,1064,646,1087,644,1092,552,1069"/>
+<area shape="rect" id="Node000024" href="$d2/db8/classSvtxTrack.html#a92d54907f87583542e6b5846897e3b55" title=" " alt="" coords="648,1159,831,1186"/>
+<area shape="poly" id="edge23_Node000003_Node000024" title=" " alt="" coords="512,1065,564,1105,597,1126,632,1145,648,1151,646,1156,630,1150,594,1131,561,1109,509,1069"/>
+<area shape="rect" id="Node000025" href="$d2/db8/classSvtxTrack.html#a8e62c2346dab5f24d7e8fed90ba2fe04" title=" " alt="" coords="660,1210,819,1255"/>
+<area shape="poly" id="edge24_Node000003_Node000025" title=" " alt="" coords="506,1065,555,1128,592,1164,633,1196,647,1204,645,1208,630,1200,588,1168,552,1131,502,1068"/>
+<area shape="rect" id="Node000026" href="$d2/db8/classSvtxTrack.html#aea7829b05d154bcee0154cf0a869e9f1" title=" " alt="" coords="653,1279,826,1306"/>
+<area shape="poly" id="edge25_Node000003_Node000026" title=" " alt="" coords="501,1066,517,1106,544,1160,583,1217,607,1243,633,1265,640,1270,638,1274,630,1269,603,1247,579,1220,540,1163,512,1108,496,1068"/>
+<area shape="rect" id="Node000027" href="$d2/db8/classSvtxTrack.html#a176bea6a3ced53f20a82d59fadf6aa97" title=" " alt="" coords="660,1330,819,1375"/>
+<area shape="poly" id="edge26_Node000003_Node000027" title=" " alt="" coords="500,1066,513,1113,539,1181,579,1253,604,1287,633,1316,648,1326,645,1330,630,1320,600,1290,574,1256,534,1183,508,1115,495,1067"/>
+<area shape="rect" id="Node000028" href="$d2/db8/classSvtxTrack.html#a6e02c809c7558d38f75a61116cbe5149" title=" " alt="" coords="668,1400,811,1444"/>
+<area shape="poly" id="edge27_Node000003_Node000028" title=" " alt="" coords="498,1067,508,1125,531,1211,549,1258,571,1304,599,1347,633,1385,655,1400,652,1404,630,1389,595,1351,567,1307,544,1260,526,1212,503,1126,493,1067"/>
+<area shape="rect" id="Node000029" href="$d2/db8/classSvtxTrack.html#a915b273940c053948796e100deaa5f13" title=" " alt="" coords="673,1468,806,1496"/>
+<area shape="poly" id="edge28_Node000003_Node000029" title=" " alt="" coords="497,1067,502,1137,521,1242,538,1299,561,1356,593,1409,633,1454,660,1470,657,1475,630,1459,589,1412,557,1359,533,1301,515,1243,497,1137,492,1067"/>
+<area shape="rect" id="Node000030" href="$d2/db8/classSvtxTrack.html#adeaef5716e6e2782ed89659e605d76c6" title=" " alt="" coords="669,1520,810,1548"/>
+<area shape="poly" id="edge29_Node000003_Node000030" title=" " alt="" coords="496,1067,499,1144,504,1200,515,1262,532,1328,556,1393,589,1453,633,1505,656,1520,653,1525,630,1509,585,1456,551,1395,526,1329,510,1263,499,1201,493,1144,491,1067"/>
+<area shape="rect" id="Node000031" href="$d2/db8/classSvtxTrack.html#adf617ee6f57517b5d96f67645938d04c" title=" " alt="" coords="653,1572,826,1616"/>
+<area shape="poly" id="edge30_Node000003_Node000031" title=" " alt="" coords="496,1067,497,1151,501,1212,511,1282,528,1355,552,1428,587,1497,609,1528,633,1557,642,1565,638,1569,629,1561,604,1532,583,1500,547,1430,522,1356,506,1283,496,1213,491,1151,491,1067"/>
+<area shape="rect" id="Node000032" href="$d2/db8/classSvtxTrack.html#a5cb2ef4d3de0500765e78970b09046a8" title=" " alt="" coords="649,1640,830,1668"/>
+<area shape="poly" id="edge31_Node000003_Node000032" title=" " alt="" coords="498,1066,511,1176,538,1346,556,1434,578,1516,604,1583,618,1608,633,1627,638,1631,634,1634,629,1630,614,1611,599,1585,573,1518,551,1436,532,1347,506,1177,493,1067"/>
+<area shape="rect" id="Node000033" href="$db/de4/classSvtxTrack__v1.html#a9f122f64439c9e0de227be78911a3efd" title=" " alt="" coords="659,1692,820,1736"/>
+<area shape="poly" id="edge32_Node000003_Node000033" title=" " alt="" coords="498,1066,510,1184,536,1368,555,1465,577,1554,603,1628,618,1656,633,1677,647,1689,643,1693,629,1681,613,1659,599,1630,572,1556,550,1466,531,1369,505,1185,493,1067"/>
+<area shape="rect" id="Node000034" href="$db/de4/classSvtxTrack__v1.html#a1e2bdfe6610ae2041ab263f540b824ce" title=" " alt="" coords="659,1761,820,1806"/>
+<area shape="poly" id="edge33_Node000003_Node000034" title=" " alt="" coords="498,1067,508,1196,532,1401,551,1509,573,1609,601,1691,617,1723,633,1747,647,1758,643,1762,629,1750,612,1726,596,1693,568,1610,545,1510,527,1402,503,1197,492,1067"/>
+<area shape="rect" id="Node000035" href="$db/de4/classSvtxTrack__v1.html#a5f2c82f8ad7ec08637dae996a18d2d57" title=" " alt="" coords="659,1830,820,1875"/>
+<area shape="poly" id="edge34_Node000003_Node000035" title=" " alt="" coords="497,1066,506,1207,528,1432,546,1552,569,1663,598,1754,615,1790,633,1816,647,1828,644,1832,629,1820,610,1792,593,1756,564,1664,541,1553,523,1433,501,1207,492,1067"/>
+<area shape="rect" id="Node000036" href="$db/de4/classSvtxTrack__v1.html#a4542c5e968600a85be0e8d11ea7eedde" title=" " alt="" coords="641,1899,838,1926"/>
+<area shape="poly" id="edge35_Node000003_Node000036" title=" " alt="" coords="497,1066,503,1219,510,1336,522,1466,540,1598,563,1719,578,1772,594,1819,613,1857,633,1885,635,1887,631,1891,629,1889,608,1860,589,1821,573,1774,558,1720,534,1599,517,1467,505,1337,497,1219,492,1067"/>
+<area shape="rect" id="Node000037" href="$db/de4/classSvtxTrack__v1.html#afb763bf2480e3c25e628532ff025fe11" title=" " alt="" coords="641,1951,838,1978"/>
+<area shape="poly" id="edge36_Node000003_Node000037" title=" " alt="" coords="497,1067,501,1227,508,1352,520,1490,537,1630,561,1759,576,1815,593,1865,612,1906,633,1936,637,1940,633,1943,629,1940,607,1908,588,1867,570,1817,555,1760,531,1630,514,1491,503,1352,496,1227,491,1067"/>
+<area shape="rect" id="Node000038" href="$db/de4/classSvtxTrack__v1.html#acf7dece40d5c242757b7a64fc0418020" title=" " alt="" coords="659,2002,820,2047"/>
+<area shape="poly" id="edge37_Node000003_Node000038" title=" " alt="" coords="497,1067,501,1235,508,1366,519,1512,536,1660,560,1798,575,1858,592,1911,612,1955,633,1988,647,2000,644,2004,629,1992,607,1958,587,1913,570,1860,555,1799,531,1661,514,1513,502,1367,496,1235,491,1067"/>
+<area shape="rect" id="Node000039" href="$db/de4/classSvtxTrack__v1.html#ac19c8b3ac0de578652d61b253f2c8674" title=" " alt="" coords="659,2072,820,2116"/>
+<area shape="poly" id="edge38_Node000003_Node000039" title=" " alt="" coords="497,1067,499,1246,505,1387,515,1544,532,1704,556,1852,572,1917,590,1974,610,2022,633,2057,647,2070,644,2074,629,2061,605,2024,585,1976,566,1918,551,1853,526,1704,510,1545,499,1387,494,1246,491,1067"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="820,253,836,261,850,273,871,306,891,349,907,400,921,458,944,591,959,734,968,878,973,1010,975,1195,970,1195,968,1010,963,878,953,735,938,591,916,460,902,402,886,351,867,309,846,277,833,266,818,257"/>
+</map>

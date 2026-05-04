@@ -1,0 +1,32 @@
+<map id="PHG4TruthSubsystem::process_after_geant" name="PHG4TruthSubsystem::process_after_geant">
+<area shape="rect" id="Node000001" title="event processing" alt="" coords="5,195,167,239"/>
+<area shape="rect" id="Node000002" href="$da/d6c/classPHG4TruthInfoContainer.html#a6cfecb74a51048a8d28b0126f4342856" title="Delete particle from container and erase its map entry." alt="" coords="215,5,392,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,193,144,128,176,92,213,60,220,56,223,60,216,64,180,96,148,132,103,196"/>
+<area shape="rect" id="Node000003" href="$da/d6c/classPHG4TruthInfoContainer.html#ace6af61d8108953daf2a5aef52a6e7bb" title="Delete vertex pointed by iterator and remove it from the vertex map." alt="" coords="215,75,392,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,192,161,161,213,129,225,124,227,129,216,134,164,165,119,196"/>
+<area shape="rect" id="Node000004" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="232,143,375,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,192,235,173,237,178,168,197"/>
+<area shape="rect" id="Node000010" href="$da/d6c/classPHG4TruthInfoContainer.html#a1ee31482bc1d9463f16bf4de90273c41" title="Get a range of iterators covering the entire container." alt="" coords="215,195,392,239"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="167,214,199,214,199,220,167,220"/>
+<area shape="rect" id="Node000011" href="$da/d6c/classPHG4TruthInfoContainer.html#a020b1b1a912d07ee31b626b51d635495" title="Get a range of iterators covering the entire vertex container." alt="" coords="215,264,392,309"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="159,237,217,256,215,261,157,242"/>
+<area shape="rect" id="Node000012" href="$da/d6c/classPHG4TruthInfoContainer.html#a422cbc96a42020587ff934b08017a73e" title="Determine embedding flag for a given track identifier." alt="" coords="215,333,392,378"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="112,238,159,278,216,319,225,324,222,328,213,323,155,282,109,242"/>
+<area shape="rect" id="Node000015" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="218,402,388,430"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="100,239,118,272,144,313,177,353,216,388,223,392,220,397,213,392,173,357,140,316,114,275,96,241"/>
+<area shape="rect" id="Node000005" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="455,118,636,146"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="375,147,439,140,440,145,376,152"/>
+<area shape="rect" id="Node000009" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="464,170,628,198"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="376,162,448,170,447,176,375,168"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="504,119,498,109,503,99,519,93,546,91,574,94,589,100,587,105,573,99,546,96,520,98,506,103,503,109,509,116"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="743,66,885,94"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="620,115,727,94,728,99,622,120"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="748,118,880,146"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="637,129,732,129,732,134,637,134"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="699,170,929,198"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="622,144,724,164,723,169,620,149"/>
+<area shape="rect" id="Node000013" href="$de/dc9/classPHG4Particle.html#a64791a9cca8d548c7292f0843472f5a5" title=" " alt="" coords="440,312,651,340"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="392,342,424,338,425,344,393,348"/>
+<area shape="rect" id="Node000014" href="$da/d6c/classPHG4TruthInfoContainer.html#a175e3e0bbb61b850bf184368d920152f" title="Retrieve particle pointer from container by track identifier." alt="" coords="457,364,634,409"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="393,364,442,371,441,376,392,370"/>
+</map>

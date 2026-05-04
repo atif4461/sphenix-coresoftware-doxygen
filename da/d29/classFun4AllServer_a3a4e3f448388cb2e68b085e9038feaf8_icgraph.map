@@ -1,0 +1,40 @@
+<map id="Fun4AllServer::unregisterSubsystemsNow" name="Fun4AllServer::unregisterSubsystemsNow">
+<area shape="rect" id="Node000001" title="Unregister and delete subsystems scheduled for removal." alt="" coords="935,309,1120,354"/>
+<area shape="rect" id="Node000002" href="$da/d29/classFun4AllServer.html#afcfc5583204cac58b4e66a2406187a18" title="Reset event counter and initialize run timestamp then invoke BeginRun on all registered subsystems." alt="" coords="703,265,885,293"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="919,310,859,296,860,291,920,305"/>
+<area shape="rect" id="Node000015" href="$d6/d51/classFun4CalServer.html#af1a64b5a7bf6e437dcf1891fd9068173" title="Initialize run processing for given run number." alt="" coords="701,317,887,345"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="919,334,887,334,887,328,919,328"/>
+<area shape="rect" id="Node000016" href="$da/d29/classFun4AllServer.html#a6a65a944dfb40966ace97d35ab1f7942" title="Process a single event through all registered subsystems and manage I/O." alt="" coords="709,369,879,414"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="924,360,880,372,878,367,923,355"/>
+<area shape="rect" id="Node000003" href="$da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a" title="run n events (0 means up to end of file)" alt="" coords="496,292,637,320"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="689,294,638,300,637,295,688,289"/>
+<area shape="rect" id="Node000004" href="$df/d51/Fun4All__ExportGeom_8C.html#a40e05d2152b4c050774c7412ded92018" title="get geometry from DST file and output TGeoManager ROOT files or other formats of geometry files" alt="" coords="258,5,415,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="556,277,541,227,516,164,480,101,457,72,430,47,413,36,415,31,434,42,461,68,484,98,521,162,546,225,561,276"/>
+<area shape="rect" id="Node000005" href="$dc/db9/Fun4All__FillChargesMap__300evts__MDC2_8C.html#a8b10b6773ed57b9e67800f1059683bd9" title=" " alt="" coords="248,57,424,102"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="551,279,532,243,505,199,471,154,430,116,412,104,414,100,434,112,475,151,509,196,536,240,555,277"/>
+<area shape="rect" id="Node000006" href="$dc/d25/Fun4All__FillDCMap_8C.html#a58f83cb6a0866bc0e00d6b647f133d6e" title=" " alt="" coords="265,125,408,153"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="545,281,497,224,466,194,431,168,404,156,407,151,433,164,469,190,501,220,549,278"/>
+<area shape="rect" id="Node000007" href="$d8/df2/Fun4All__G4__Pi0__Tbt_8C.html#ad8532aac8897c66182c7c634dc60a310" title=" " alt="" coords="262,201,411,229"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="524,287,431,244,394,232,395,227,433,239,526,282"/>
+<area shape="rect" id="Node000008" href="$d9/d0f/Fun4All__ImportGeom_8C.html#a4305730a4ab39282cb439b6a10642623" title="Read in a Geometry file, and output DST and ROOT TGeo files." alt="" coords="257,253,416,281"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="481,294,415,283,416,278,482,289"/>
+<area shape="rect" id="Node000009" href="$d4/df0/Fun4All__xingshift_8C.html#a163a9074d7e3e2a5ca0883c76afb37a4" title=" " alt="" coords="270,329,402,357"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="482,322,403,335,402,330,481,317"/>
+<area shape="rect" id="Node000010" href="$d6/deb/PHGeom__DSTInspection_8C.html#aff312f57f177e30d7d8ee73964bceecc" title=" " alt="" coords="247,405,426,433"/>
+<area shape="poly" id="edge11_Node000003_Node000010" title=" " alt="" coords="524,329,368,407,365,402,522,324"/>
+<area shape="rect" id="Node000011" href="$d2/dc1/run__dump_8C.html#a6b68179498d474aeeb27db36fa8c13ae" title=" " alt="" coords="293,481,380,509"/>
+<area shape="poly" id="edge13_Node000003_Node000011" title=" " alt="" coords="520,330,482,358,466,381,459,402,451,423,434,446,406,468,377,483,375,478,404,463,430,443,446,421,454,400,462,378,478,355,517,325"/>
+<area shape="rect" id="Node000012" href="$d6/d51/classFun4CalServer.html#a8931e94fe5b08a44e66d3b817409e384" title="Synchronize calibration timestamps from local calibration database to oncal status table." alt="" coords="243,533,430,578"/>
+<area shape="poly" id="edge15_Node000003_Node000012" title=" " alt="" coords="517,329,498,342,482,358,469,380,463,400,461,440,457,481,449,501,434,522,420,534,416,530,430,519,445,499,452,479,455,440,458,399,464,377,478,355,494,338,514,325"/>
+<area shape="rect" id="Node000014" href="$d6/d51/classFun4CalServer.html#a1dc17c0248d71b3d484ae8c13619f40e" title="Synchronize oncal timestamps with run database." alt="" coords="241,602,432,647"/>
+<area shape="poly" id="edge17_Node000003_Node000014" title=" " alt="" coords="515,330,497,342,482,358,466,389,459,418,459,447,462,475,464,503,463,532,454,561,434,592,420,604,417,600,430,588,449,559,457,531,459,504,456,476,453,447,454,418,461,387,478,355,493,338,512,325"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="376,188,362,182,336,180,312,182,299,187,296,192,301,199,297,202,291,192,296,183,311,177,336,175,363,177,378,184"/>
+<area shape="poly" id="edge10_Node000009_Node000009" title=" " alt="" coords="376,316,362,310,336,308,312,310,299,315,296,320,301,327,297,330,291,320,296,311,311,305,336,303,363,305,378,312"/>
+<area shape="poly" id="edge12_Node000010_Node000010" title=" " alt="" coords="376,392,362,386,336,384,312,386,299,391,296,396,301,403,297,406,291,396,296,387,311,381,336,379,363,381,378,388"/>
+<area shape="poly" id="edge14_Node000011_Node000011" title=" " alt="" coords="376,468,362,462,336,460,312,462,299,467,296,472,301,479,297,482,291,472,296,463,311,457,336,455,363,457,378,464"/>
+<area shape="rect" id="Node000013" href="$d6/d51/classFun4CalServer.html#a394242942729c0c0a9e3ab822020421d" title="Synchronize calibration timestamps for all tables associated with a calibrator." alt="" coords="5,533,193,578"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="227,558,193,558,193,552,227,552"/>
+<area shape="poly" id="edge21_Node000016_Node000003" title=" " alt="" coords="717,365,700,359,605,323,607,318,702,354,719,360"/>
+<area shape="rect" id="Node000017" href="$d6/d51/classFun4CalServer.html#a59a203050ca19a3a6a17f8f0ad8bce59" title="Process an event and verify completion of all CalReco subsystems." alt="" coords="480,369,653,414"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="694,394,654,394,654,388,694,388"/>
+</map>

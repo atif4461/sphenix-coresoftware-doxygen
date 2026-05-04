@@ -1,0 +1,17 @@
+<map id="MbdSig::SetY" name="MbdSig::SetY">
+<area shape="rect" id="Node000001" title="Load raw waveform samples, apply pedestal subtraction and optional pile‑up correction." alt="" coords="5,65,112,93"/>
+<area shape="rect" id="Node000002" href="$db/df6/classMbdSig.html#ad8ed1d59081fdcb7a5162f5928b1b6ba" title="Compute event pedestal from raw pulse samples between specified indices." alt="" coords="162,5,336,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,62,159,42,181,35,182,40,160,47,101,67"/>
+<area shape="rect" id="Node000004" href="$db/df6/classMbdSig.html#ab9b96b1a9847b9b767d560834a4d9782" title="Calculate pedestal for current event using presample region." alt="" coords="162,57,336,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="112,76,146,76,146,82,112,82"/>
+<area shape="rect" id="Node000006" href="$db/df6/classMbdSig.html#a61008793ae9ab4c862e849dd4f617d93" title="Remove pileup contributions from the waveform of the current channel." alt="" coords="160,125,338,153"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="101,91,160,111,182,118,181,123,159,116,99,96"/>
+<area shape="rect" id="Node000003" href="$db/df6/classMbdSig.html#a4abfa1dba52a11eef2e75f0f988c19af" title="Set pedestal mean and RMS for channel." alt="" coords="394,12,525,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,19,379,21,379,26,337,25"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="336,54,387,41,388,47,337,60"/>
+<area shape="rect" id="Node000005" href="$db/df6/classMbdSig.html#a4e22f04fc13d000a449bb1efc6c8463c" title="Draw Subtracted Waveform." alt="" coords="386,69,533,97"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="337,78,371,79,371,84,337,83"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="303,122,389,99,391,104,304,127"/>
+<area shape="rect" id="Node000007" href="$db/df6/classMbdSig.html#ad3cd4335c1d7264cf2fd40629072a43b" title="Compute tail contribution of Mbd signal model." alt="" coords="390,125,529,153"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="338,136,374,136,374,142,338,142"/>
+</map>

@@ -1,0 +1,96 @@
+<map id="InputFileHandler::UpdateFileList" name="InputFileHandler::UpdateFileList">
+<area shape="rect" id="Node000001" title="Update internal file list handling repeat logic." alt="" coords="852,984,1036,1029"/>
+<area shape="rect" id="Node000002" href="$d7/d0b/classFun4AllDstInputManager.html#aba83e2505642f21db1e091193e206f9d" title="Close the currently opened input file and clean up associated resources." alt="" coords="603,175,784,219"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="936,969,922,865,896,717,857,548,831,463,802,381,781,335,756,291,710,221,714,218,760,288,785,332,807,379,837,461,862,547,902,716,927,864,941,968"/>
+<area shape="rect" id="Node000008" href="$dd/d8c/classFun4AllDstPileupInputManager.html#aabb8de85f15bd6d7f89700dd246ded0c" title="Close the currently opened input file." alt="" coords="583,392,804,437"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="935,969,922,885,897,773,857,648,832,587,802,529,763,478,722,439,726,435,767,475,807,526,837,585,862,647,902,771,927,884,941,968"/>
+<area shape="rect" id="Node000010" href="$d6/d6f/classFun4AllHepMCInputManager.html#acb8899e9a7c218645674aa541d77d7a5" title="Close the input file for this manager." alt="" coords="590,540,797,585"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="921,972,705,586,710,584,925,970"/>
+<area shape="rect" id="Node000018" href="$db/d1f/classFun4AllOscarInputManager.html#a80967d899cb72c49b7852f992312efcd" title="Close the currently opened input file." alt="" coords="596,785,792,830"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="901,977,722,833,725,828,905,972"/>
+<area shape="rect" id="Node000022" href="$da/dd8/classFun4AllPrdfInputManager.html#a8c1467bf7549636d2b29c67aff61404e" title="Close the currently opened input file." alt="" coords="601,984,786,1029"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="837,1009,787,1009,787,1004,837,1004"/>
+<area shape="rect" id="Node000027" href="$d5/d00/classFun4AllSingleDstPileupInputManager.html#afd6f32cf157b9452fc413c54ef782519" title="Close the currently opened input file and reset internal managers." alt="" coords="592,1143,796,1187"/>
+<area shape="poly" id="edge27_Node000001_Node000027" title=" " alt="" coords="896,1040,732,1144,729,1140,893,1035"/>
+<area shape="rect" id="Node000030" href="$d3/dbc/classSingleStreamingInput.html#aa5bc32a277c473c828955316b5f6d958" title="Close the current input file and clean up iterator." alt="" coords="613,1524,774,1569"/>
+<area shape="poly" id="edge30_Node000001_Node000030" title=" " alt="" coords="928,1044,708,1525,703,1523,923,1042"/>
+<area shape="rect" id="Node000040" href="$db/d23/classSingleStreamingInputv2.html#abcdbed4a624ab1a1aefb1aaf14a56914" title="Close the currently opened input file." alt="" coords="605,1905,782,1950"/>
+<area shape="poly" id="edge40_Node000001_Node000040" title=" " alt="" coords="937,1044,885,1272,807,1582,750,1769,705,1906,700,1904,745,1767,802,1580,880,1271,932,1043"/>
+<area shape="rect" id="Node000043" href="$df/d97/classSingleTriggeredInput.html#a52b122ed76fd7c058fa0f46a6d49eae9" title="Close the currently opened input file." alt="" coords="616,2044,771,2089"/>
+<area shape="poly" id="edge43_Node000001_Node000043" title=" " alt="" coords="943,1044,930,1230,904,1500,885,1641,863,1772,837,1883,822,1927,807,1964,791,1988,771,2011,731,2046,727,2042,768,2007,787,1985,802,1961,817,1926,832,1881,858,1771,880,1640,898,1499,925,1230,938,1044"/>
+<area shape="rect" id="Node000003" href="$d7/d0b/classFun4AllDstInputManager.html#aadb10857043e34f5fbcf7933bcee9fcc" title="Open a DST file for reading and initialize run and event nodes." alt="" coords="307,5,488,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="660,165,604,113,570,87,534,65,488,47,489,42,536,60,573,82,608,109,664,161"/>
+<area shape="rect" id="Node000004" href="$d0/ddf/classFun4AllRunNodeInputManager.html#ab7cae97f20caa68c3db1519d0353aaf0" title="Open a run node input file and load the corresponding run node into the top node." alt="" coords="288,75,506,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="628,171,534,134,495,122,497,117,536,129,630,166"/>
+<area shape="rect" id="Node000005" href="$d7/d0b/classFun4AllDstInputManager.html#ade26017b627e0e1f1ec0dec62ac7fd52" title="Read next event synchronization object from the current input file." alt="" coords="296,144,499,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="587,189,499,180,500,174,588,183"/>
+<area shape="rect" id="Node000006" href="$d7/d0b/classFun4AllDstInputManager.html#af9bf89898ad4c726ccdc03901ed44608" title="Synchronize current file with master sync object." alt="" coords="18,175,199,219"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="587,203,535,204,260,204,200,202,200,197,260,198,535,198,587,197"/>
+<area shape="rect" id="Node000007" href="$d7/d0b/classFun4AllDstInputManager.html#af2c20145c70376bd115a7d92273c972c" title="Run input manager to read events up to nevents from current or next file." alt="" coords="292,263,502,291"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="607,227,536,248,465,265,463,260,534,242,606,222"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="280,181,200,190,200,185,280,176"/>
+<area shape="rect" id="Node000009" href="$dd/d8c/classFun4AllDstPileupInputManager.html#a7ccc46ca589cef79be92719892b0ee3d" title="Open a DST file for reading and optionally read the run tree." alt="" coords="287,315,508,359"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="593,390,534,374,489,363,490,357,536,369,595,385"/>
+<area shape="rect" id="Node000011" href="$d6/d6f/classFun4AllHepMCInputManager.html#a668554061600fec90eb3968ec191849a" title="Open a HepMC input file and initialize the appropriate input streams." alt="" coords="294,384,500,429"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="657,531,601,486,568,463,534,443,500,430,502,425,536,439,571,458,604,481,660,527"/>
+<area shape="rect" id="Node000012" href="$d6/d6f/classFun4AllHepMCInputManager.html#a34bc40d13269111a69755aacd689c202" title="Push back events onto internal stack or skip events based on input i." alt="" coords="294,453,500,498"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="611,537,534,513,492,501,493,496,536,508,613,532"/>
+<area shape="rect" id="Node000015" href="$d6/d6f/classFun4AllHepMCInputManager.html#abc2abd5f69e96e3fb974376f5f258f80" title="Run attempts to retrieve a valid HepMC event from input files." alt="" coords="280,522,515,550"/>
+<area shape="poly" id="edge15_Node000010_Node000015" title=" " alt="" coords="575,554,515,549,515,544,575,549"/>
+<area shape="rect" id="Node000016" href="$de/d99/classFun4AllHepMCPileupInputManager.html#a0afd07a242a008dab637fe4f6ba997bd" title="Process pileup events for the current run." alt="" coords="260,574,535,602"/>
+<area shape="poly" id="edge16_Node000010_Node000016" title=" " alt="" coords="575,575,535,579,535,573,575,570"/>
+<area shape="rect" id="Node000017" href="$d6/d6f/classFun4AllHepMCInputManager.html#ab79296f19c0dcd1b3a07fcb4d6becd04" title="Destructor releases all allocated resources and removes any temporary HepMC file. This comment was ge..." alt="" coords="285,625,510,670"/>
+<area shape="poly" id="edge17_Node000010_Node000017" title=" " alt="" coords="611,592,536,616,493,627,491,622,534,610,609,587"/>
+<area shape="rect" id="Node000013" href="$d6/d6f/classFun4AllHepMCInputManager.html#a6817b824d8c21fa23096974f9d927053" title=" " alt="" coords="5,419,212,463"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="278,464,212,456,212,451,279,459"/>
+<area shape="rect" id="Node000014" href="$d6/d6f/classFun4AllHepMCInputManager.html#a7be80fad602395cb9d9db1ca7acf0bdb" title=" " alt="" coords="5,488,212,533"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="279,493,212,501,212,495,278,487"/>
+<area shape="rect" id="Node000019" href="$db/d1f/classFun4AllOscarInputManager.html#a90d077019c91b2ab37435fa3c67d5a1b" title="Open an input file for the Oscar manager." alt="" coords="299,695,496,739"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="617,782,534,754,493,742,494,737,536,749,619,777"/>
+<area shape="rect" id="Node000020" href="$db/d1f/classFun4AllOscarInputManager.html#abd9c677329f73038579c12aff1f8d42a" title="Run input manager to process events up to nevents." alt="" coords="285,763,510,791"/>
+<area shape="poly" id="edge20_Node000018_Node000020" title=" " alt="" coords="580,799,510,791,511,786,580,793"/>
+<area shape="rect" id="Node000021" href="$db/d1f/classFun4AllOscarInputManager.html#aad9461f84d0644cb143af7b2875a828b" title="Destructor releases resources for Oscar input manager." alt="" coords="290,815,505,859"/>
+<area shape="poly" id="edge21_Node000018_Node000021" title=" " alt="" coords="580,822,506,829,505,824,580,816"/>
+<area shape="rect" id="Node000023" href="$da/dd8/classFun4AllPrdfInputManager.html#a5e907f18028590b60903b3a610c4ff26" title="Open a new PRDF file for reading." alt="" coords="305,884,490,929"/>
+<area shape="poly" id="edge23_Node000022_Node000023" title=" " alt="" coords="628,980,534,944,490,930,491,925,536,938,630,975"/>
+<area shape="rect" id="Node000024" href="$da/dd8/classFun4AllPrdfInputManager.html#a3e4f237efbdf5d5e40a8408e5142f767" title="PushBackEvents handles event stack manipulation for input manager." alt="" coords="305,953,490,998"/>
+<area shape="poly" id="edge24_Node000022_Node000024" title=" " alt="" coords="585,998,490,988,490,983,586,993"/>
+<area shape="rect" id="Node000025" href="$da/dd8/classFun4AllPrdfInputManager.html#a5a95556c61f0a9f209a3c178e81e4fac" title="Run input manager to read next event from PRDF files and store it in the data node." alt="" coords="290,1022,504,1050"/>
+<area shape="poly" id="edge25_Node000022_Node000025" title=" " alt="" coords="586,1020,505,1028,505,1022,585,1014"/>
+<area shape="rect" id="Node000026" href="$da/dd8/classFun4AllPrdfInputManager.html#acfaf96e09b3f4765e289f96e8e0a4dbb" title="Destructor closes open file if necessary and deletes synchronization object This comment was generate..." alt="" coords="295,1073,500,1118"/>
+<area shape="poly" id="edge26_Node000022_Node000026" title=" " alt="" coords="617,1037,536,1064,494,1075,492,1070,534,1058,615,1032"/>
+<area shape="rect" id="Node000028" href="$d5/d00/classFun4AllSingleDstPileupInputManager.html#a26e2b9acef41b96b88196f0116336a22" title="Open a DST file and initialize internal managers for event and background processing." alt="" coords="295,1143,500,1187"/>
+<area shape="poly" id="edge28_Node000027_Node000028" title=" " alt="" coords="576,1168,500,1168,500,1162,576,1162"/>
+<area shape="rect" id="Node000029" href="$d5/d00/classFun4AllSingleDstPileupInputManager.html#a01149fa86dc066e4413d6b02e94df581" title="Process events from input files and optionally add pileup background." alt="" coords="295,1212,500,1257"/>
+<area shape="poly" id="edge29_Node000027_Node000029" title=" " alt="" coords="581,1194,496,1214,495,1209,580,1189"/>
+<area shape="rect" id="Node000031" href="$d3/dbc/classSingleStreamingInput.html#ab3e4f96429f4487c406a8e18bacf2ab6" title="Open a new input file for streaming." alt="" coords="317,1281,478,1326"/>
+<area shape="poly" id="edge31_Node000030_Node000031" title=" " alt="" coords="673,1511,650,1471,618,1425,579,1379,534,1341,507,1327,478,1317,479,1312,509,1322,536,1336,583,1375,623,1421,654,1468,677,1509"/>
+<area shape="rect" id="Node000032" href="$d6/d88/classSingleGl1PoolInput.html#a976497e9e28916bce64f8ae39575dec5" title="Fill internal data pools with events from input files." alt="" coords="325,1351,470,1395"/>
+<area shape="poly" id="edge32_Node000030_Node000032" title=" " alt="" coords="661,1514,605,1460,571,1433,534,1410,502,1397,469,1387,471,1382,504,1392,536,1405,574,1429,608,1456,664,1510"/>
+<area shape="rect" id="Node000033" href="$d4/d69/classSingleInttEventInput.html#a88a3d42b27e2c2ecac6706c7c791a9c0" title="Fill internal hit pool with events whose beam clock exceeds the specified minimum." alt="" coords="321,1420,474,1465"/>
+<area shape="poly" id="edge33_Node000030_Node000033" title=" " alt="" coords="631,1520,534,1480,474,1462,475,1457,536,1474,633,1515"/>
+<area shape="rect" id="Node000034" href="$d5/dcb/classSingleInttPoolInput.html#abf890aecd6600bae253136ac19289fea" title="Fill internal INTT pools with events from input files." alt="" coords="325,1489,470,1534"/>
+<area shape="poly" id="edge34_Node000030_Node000034" title=" " alt="" coords="597,1538,470,1523,470,1517,598,1532"/>
+<area shape="rect" id="Node000035" href="$d8/d64/classSingleMicromegasPoolInput__v1.html#ab901226bf41cf4fa0a192863d17dd416" title="Fill the data pool with events from input files." alt="" coords="296,1559,498,1603"/>
+<area shape="poly" id="edge35_Node000030_Node000035" title=" " alt="" coords="598,1560,499,1572,499,1567,597,1555"/>
+<area shape="rect" id="Node000036" href="$d8/d01/classSingleMicromegasPoolInput__v2.html#a79240b93cf2e936657df21a9cfb81c42" title="Fill internal event pool from input files until no more events are available." alt="" coords="296,1628,498,1673"/>
+<area shape="poly" id="edge36_Node000030_Node000036" title=" " alt="" coords="633,1578,536,1618,498,1630,496,1625,534,1613,631,1573"/>
+<area shape="rect" id="Node000037" href="$da/dc8/classSingleMvtxPoolInput.html#a5336e10aca2dbbb0f9ed449192aea4fe" title="Fill internal MVTX packet pool with events newer than given beam clock." alt="" coords="320,1697,475,1742"/>
+<area shape="poly" id="edge37_Node000030_Node000037" title=" " alt="" coords="664,1582,608,1637,574,1664,536,1687,507,1700,476,1709,475,1704,505,1695,534,1683,571,1660,605,1633,661,1579"/>
+<area shape="rect" id="Node000038" href="$d7/dfb/classSingleTpcPoolInput.html#a24d71fc2c82991c2e4ae744d8f34d339" title="Fill the internal TPC hit pool with events whose beam clock (BCO) meets the specified minimum." alt="" coords="325,1767,470,1811"/>
+<area shape="poly" id="edge38_Node000030_Node000038" title=" " alt="" coords="677,1584,654,1624,623,1671,583,1718,536,1757,505,1773,471,1783,470,1778,503,1768,534,1752,579,1714,618,1668,650,1622,673,1581"/>
+<area shape="rect" id="Node000039" href="$d6/d0f/classSingleTpcTimeFrameInput.html#a9d4970091d20fcf4269a7a304fa989e9" title="FillPool processes events and assembles Tpc time frames for the specified targetBCO." alt="" coords="302,1836,493,1881"/>
+<area shape="poly" id="edge39_Node000030_Node000039" title=" " alt="" coords="684,1585,665,1639,634,1704,592,1770,566,1800,537,1826,516,1838,494,1847,492,1842,514,1834,533,1822,562,1796,588,1767,629,1702,660,1637,679,1583"/>
+<area shape="rect" id="Node000041" href="$db/d23/classSingleStreamingInputv2.html#ab7e1aad12059a3bc33b67ead6b96952c" title="Open a streaming input file and initialize the event iterator." alt="" coords="309,1905,486,1950"/>
+<area shape="poly" id="edge41_Node000040_Node000041" title=" " alt="" coords="589,1930,486,1930,486,1925,589,1925"/>
+<area shape="rect" id="Node000042" href="$d4/d21/classSingleGl1PoolInputv2.html#adf0c7b45f936a4ad1398e7bd82e02cbc" title="Fill the GL1 hit pool with events from the input files." alt="" coords="317,1975,478,2019"/>
+<area shape="poly" id="edge42_Node000040_Node000042" title=" " alt="" coords="590,1954,479,1981,477,1976,589,1949"/>
+<area shape="rect" id="Node000044" href="$df/d97/classSingleTriggeredInput.html#aa10e43c0dcaa20042b602501402e8016" title="Open the specified file and initialise the event iterator." alt="" coords="320,2044,474,2089"/>
+<area shape="poly" id="edge44_Node000043_Node000044" title=" " alt="" coords="601,2069,475,2069,475,2064,601,2064"/>
+<area shape="rect" id="Node000045" href="$df/d97/classSingleTriggeredInput.html#a7f5fbe72af4271a3d227839758de7fe1" title="Fill event vector with synchronized data events from input files." alt="" coords="320,2113,474,2158"/>
+<area shape="poly" id="edge45_Node000043_Node000045" title=" " alt="" coords="602,2090,475,2120,474,2115,601,2085"/>
+<area shape="rect" id="Node000046" href="$d5/da4/classSingleGl1TriggeredInput.html#a121a71e126cb86f80b0a7455c61d3a1d" title="FillPool populates the event vector if there are remaining input files and not all events have been p..." alt="" coords="20,2079,197,2123"/>
+<area shape="poly" id="edge46_Node000045_Node000046" title=" " alt="" coords="304,2127,197,2114,197,2109,305,2122"/>
+<area shape="rect" id="Node000047" href="$df/d97/classSingleTriggeredInput.html#a507f0a733e9688979a5887766aa431f2" title="Fill the event pool for a SingleTriggeredInput instance." alt="" coords="31,2148,186,2193"/>
+<area shape="poly" id="edge47_Node000045_Node000047" title=" " alt="" coords="305,2149,186,2164,186,2158,304,2144"/>
+</map>

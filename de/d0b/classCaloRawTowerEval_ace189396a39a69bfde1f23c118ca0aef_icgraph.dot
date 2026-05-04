@@ -1,0 +1,14 @@
+digraph "CaloRawTowerEval::max_truth_primary_shower_by_energy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="CaloRawTowerEval::max\l_truth_primary_shower\l_by_energy",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="which primary shower contributed the most energy to this tower?"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CaloRawTowerEval::max\l_truth_primary_particle\l_by_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d0b/classCaloRawTowerEval.html#a28c7d49b96e05bc33d3ee6bef2a5f6a8",tooltip="which particle contributed the most energy to this tower?"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CaloRawTowerEval::max\l_truth_primary_particle\l_by_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d0b/classCaloRawTowerEval.html#abe5b60715f48b8c9d0ad0a8fb555ccca",tooltip="Return the primary truth particle with maximum energy contribution to the given tower."];
+}

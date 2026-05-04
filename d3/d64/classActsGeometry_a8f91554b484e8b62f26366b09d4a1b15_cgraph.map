@@ -1,0 +1,9 @@
+<map id="ActsGeometry::getGlobalPositionTpc" name="ActsGeometry::getGlobalPositionTpc">
+<area shape="rect" id="Node000001" title="Compute the global position of a TPC hit from its local parameters." alt="" coords="5,57,265,85"/>
+<area shape="rect" id="Node000002" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="317,5,448,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,54,301,34,302,39,205,59"/>
+<area shape="rect" id="Node000003" href="$d7/db0/namespaceTpcDefs.html#a3ec8638cf9427c7955840853dbd96383" title="Get the time bin from hitkey." alt="" coords="317,57,449,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="265,68,301,68,301,74,265,74"/>
+<area shape="rect" id="Node000004" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="313,109,453,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,83,299,103,298,108,204,88"/>
+</map>

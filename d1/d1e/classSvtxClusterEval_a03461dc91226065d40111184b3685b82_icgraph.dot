@@ -1,0 +1,14 @@
+digraph "SvtxClusterEval::get_energy_contribution"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxClusterEval::get\l_energy_contribution",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute energy contribution of a given particle to a cluster."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxClusterEval::best\l_cluster_from",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#a9091398a04a3d0bafff1f96be89c84b2",tooltip="Determine the cluster key with the highest energy contribution for a given truth hit."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxClusterEval::max\l_truth_particle_by_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#acfd3a615b33f784c3b8df13b58e9958a",tooltip="Find the truth particle that contributes the largest energy to a given cluster."];
+}

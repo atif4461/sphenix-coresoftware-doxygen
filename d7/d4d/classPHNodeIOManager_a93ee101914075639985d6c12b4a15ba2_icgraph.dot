@@ -1,0 +1,24 @@
+digraph "PHNodeIOManager::selectObjectToRead"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHNodeIOManager::selectObject\lToRead",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set read selection flag for a given object name."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHNodeIOManager::setFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d4d/classPHNodeIOManager.html#a6c468278af9d5e7bb5a2605eefbeed44",tooltip="Set the output file name title and access mode for the node I O manager."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHNodeIOManager::PHNodeIOManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d4d/classPHNodeIOManager.html#aca7d6ee67ecc0b9675c0ce67011d655d",tooltip="Constructor for PHNodeIOManager."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHNodeIOManager::PHNodeIOManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d4d/classPHNodeIOManager.html#a97ea7a7609bed69ee8a9ac47296172a7",tooltip="Construct a PHNodeIOManager with a given file name and access type."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHNodeIOManager::PHNodeIOManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d4d/classPHNodeIOManager.html#a42d49a768772f41fd056e81bde4b5404",tooltip="Construct a PHNodeIOManager and initialize its file handling."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="Fun4AllDstInputManager\l::setSyncBranches",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#a0780e8587327c946e2f22078679abfcc",tooltip="Enable synchronization of all defined sync variables for the input manager."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Fun4AllDstInputManager\l::setBranches",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#a9fd8f9c68c617ade2ce969bf70581c0a",tooltip="Set branch selection for input manager based on configured branch list."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Fun4AllDstInputManager\l::fileopen",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d0b/classFun4AllDstInputManager.html#aadb10857043e34f5fbcf7933bcee9fcc",tooltip="Open a DST file for reading and initialize run and event nodes."];
+}

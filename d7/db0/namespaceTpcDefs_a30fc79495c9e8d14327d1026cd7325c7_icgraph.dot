@@ -1,0 +1,39 @@
+digraph "TpcDefs::genHitSetKey"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TpcDefs::genHitSetKey",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Generate a hitsetkey for the tpc."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="AlignmentTransformation\l::createMap",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d8f/classAlignmentTransformation.html#a23db75a5ef5b77f824a0a26ea028150d",tooltip="Create alignment transformation map using geometry nodes and alignment parameters."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="MakeActsGeometry::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6",tooltip="Initialize geometry, alignment and magnetic field for a new run."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TpcDefs::genClusKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/db0/namespaceTpcDefs.html#a0202375ade5010ae596a2e0b7c7f5fd0",tooltip="Generate a cluster key from indeces."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SvtxTruthEval::all\l_truth_clusters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/de4/classSvtxTruthEval.html#a6051f9387f039a6604738f6a451c704b",tooltip="Retrieve truth clusters associated with a given Geant4 particle."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SvtxClusterEval::max\l_truth_cluster_by_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#a4ed068393b7f131534926b87b7b59e10",tooltip="Retrieve the truth cluster that best matches a reconstructed cluster based on the highest‑energy cont..."];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="SvtxClusterEval::max\l_truth_particle_by_cluster\l_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d1e/classSvtxClusterEval.html#a71467fc0bd5e8af7a8d4ea2a0d124bc1",tooltip="Find truth particle with maximum energy contribution to the specified cluster."];
+  Node7 -> Node6 [id="edge7_Node000007_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node8 [id="edge8_Node000004_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TrkrNtuplizer::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d93/classTrkrNtuplizer.html#a68f20fa7139d782992d0e66d73a4b960",tooltip="Initialize run specific geometry and calibration data."];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4TpcPadPlaneReadout\l::MapToPadPlane",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d6c/classPHG4TpcPadPlaneReadout.html#a856e45f59af40fc40c55484f8ca58d2e",tooltip="Map a single GEM electron to TPC pad plane and fill hit containers."];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="Tpc3DClusterizer::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d1d/classTpc3DClusterizer.html#a93d017d1dd124d9b80802fdc11d9bfd6",tooltip="Process a single event within the Fun4All framework."];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="tpc_hits::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d7c/classtpc__hits.html#abe1285a76afb7a95935cd3f1f7a6739b",tooltip="Process a single event and fill TPC hit information."];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TpcClusterizer::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d25/classTpcClusterizer.html#ac66fda514e9c1985f3f083ef79934137",tooltip="Process a single event performing TPC clustering using the Fun4All node tree."];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="TpcCombinedRawDataUnpacker\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d1a/classTpcCombinedRawDataUnpacker.html#a8e6a15ecbd82563278cdb842c8426a92",tooltip="Process a single event from the node tree."];
+  Node1 -> Node14 [id="edge14_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="TpcCombinedRawDataUnpacker\lDebug::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dc4/classTpcCombinedRawDataUnpackerDebug.html#a5f20b1491f0026ece1a2997e917e4c1b",tooltip="Process event for TpcCombinedRawDataUnpackerDebug."];
+  Node1 -> Node15 [id="edge15_Node000001_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="TpcSimpleClusterizer\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d6c/classTpcSimpleClusterizer.html#a8df0e97e451c7d395491f49b58e57b7a",tooltip="Process a single event for TPC clustering."];
+}

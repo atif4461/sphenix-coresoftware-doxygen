@@ -1,0 +1,9 @@
+<map id="TpcRawHit::get_parityerror" name="TpcRawHit::get_parityerror">
+<area shape="rect" id="Node000001" title="SAMPA data payload parity check. If true, data from SAMPA is broken, e.g. from SEU." alt="" coords="255,74,451,102"/>
+<area shape="rect" id="Node000002" href="$dc/dea/classDumpTpcRawHitContainer.html#a684919fa312fae21233f3f4facad652e" title="Process a PHNode containing a TpcRawHitContainer and dump its contents to the output stream." alt="" coords="9,5,203,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="278,72,200,53,201,48,279,67"/>
+<area shape="rect" id="Node000003" href="$da/dbf/classTpcRawHitv2.html#ab4598ba69ba307bf3f28637d89a97c4b" title="Construct a TpcRawHitv2 object from a TpcRawHit source." alt="" coords="5,74,207,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,90,207,90,207,85,239,85"/>
+<area shape="rect" id="Node000004" href="$d1/d1d/classTpcRawHitv3.html#a0c84d8566214a8fbca16047d6ffdb697" title="Construct a TpcRawHitv3 object from a legacy TpcRawHit instance." alt="" coords="5,126,207,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,108,176,128,175,123,268,103"/>
+</map>

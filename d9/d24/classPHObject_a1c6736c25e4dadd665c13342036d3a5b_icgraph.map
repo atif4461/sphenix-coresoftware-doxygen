@@ -1,0 +1,38 @@
+<map id="PHObject::CloneMe" name="PHObject::CloneMe">
+<area shape="rect" id="Node000001" title="Virtual copy constructor." alt="" coords="952,170,1098,198"/>
+<area shape="rect" id="Node000002" href="$d5/de9/classCaloTowerCalib.html#a2e58af04c7350188ff959d1879a052e0" title="Create node tree for calorimeter tower calibration." alt="" coords="670,28,904,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="996,161,953,126,902,91,831,59,834,54,905,87,956,122,999,157"/>
+<area shape="rect" id="Node000004" href="$df/d4d/classPHFieldUtility.html#a822dcd7d1978f7a23a5f6f26b13f2468" title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one." alt="" coords="701,101,873,146"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="952,168,873,148,874,143,953,163"/>
+<area shape="rect" id="Node000015" href="$de/d9e/classPHNodeIntegrate.html#a003dbe1d6de01e92cca828b6c98b4fda" title="Integrate PHObject data from the given node into runwise sum nodes." alt="" coords="691,170,883,198"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="936,186,884,186,884,181,936,181"/>
+<area shape="rect" id="Node000016" href="$db/d5c/classPHG4TruthTrackingAction.html#af910d1c962f76878f85116c87aba3531" title="tracking action" alt="" coords="695,221,879,266"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="953,204,879,223,878,218,952,199"/>
+<area shape="rect" id="Node000017" href="$d9/d24/classPHTruthClustering.html#a32f3b05811ac36d8f08ae3c565edcfca" title="Fill truth cluster node with clusters derived from G4 truth particles." alt="" coords="714,291,860,335"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="1000,210,958,246,905,281,861,298,859,294,902,276,954,242,997,206"/>
+<area shape="rect" id="Node000003" href="$d5/de9/classCaloTowerCalib.html#a49e98b47645bad967f4f4415e6221e71" title="Initialize run specific calibration for selected detector." alt="" coords="447,8,622,36"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="655,35,623,32,623,27,655,29"/>
+<area shape="rect" id="Node000005" href="$df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48" title="Get transient PHField from DST nodes. If not found, make a new one based on default_config." alt="" coords="449,187,620,231"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="693,154,671,161,595,189,593,184,669,156,691,149"/>
+<area shape="rect" id="Node000012" href="$d9/d69/classPHSimpleKFProp.html#acf8e513a28fcf747624780d1c2f214b7" title="Initialize run by retrieving required nodes, configuring magnetic field, and setting up the ALICE Kal..." alt="" coords="206,419,390,447"/>
+<area shape="poly" id="edge14_Node000004_Node000012" title=" " alt="" coords="689,149,672,160,655,180,647,200,640,222,624,245,570,302,523,342,470,374,400,409,368,421,366,416,398,404,468,369,520,337,567,298,620,242,635,219,642,198,650,177,669,156,686,145"/>
+<area shape="rect" id="Node000013" href="$d5/dbe/classPrelimDistortionCorrection.html#a0c7778097947c2bf4439ebaa7584abdc" title="Initialize run specific resources for distortion correction." alt="" coords="201,5,395,50"/>
+<area shape="poly" id="edge15_Node000004_Node000013" title=" " alt="" coords="686,107,395,49,396,44,687,101"/>
+<area shape="rect" id="Node000014" href="$d6/d80/classPrelimDistortionCorrectionAuAu.html#aaeaab6450f474daad89ffa2972723791" title="Initialize run specific resources and configure track fitter." alt="" coords="201,75,395,119"/>
+<area shape="poly" id="edge16_Node000004_Node000014" title=" " alt="" coords="686,121,395,105,396,100,686,116"/>
+<area shape="rect" id="Node000006" href="$d0/d78/classPHG4Reco.html#a66fc50f0871fbaf83b21edfa8ae98259" title="Initialize magnetic field configuration and attach to node tree." alt="" coords="223,367,372,395"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="512,246,465,303,434,332,400,357,374,369,371,364,398,352,431,328,461,299,508,243"/>
+<area shape="rect" id="Node000008" href="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6" title="Initialize geometry, alignment and magnetic field for a new run." alt="" coords="197,143,399,171"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="433,190,364,174,365,169,434,184"/>
+<area shape="rect" id="Node000009" href="$d9/d91/classPHG4TrackFastSim.html#a7ed1ea5f4718d84d769f1563b5147f71" title="Initialization Run, called for initialization of a run." alt="" coords="200,195,396,223"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="434,212,396,212,396,206,434,206"/>
+<area shape="rect" id="Node000010" href="$de/d25/classPHGenFitTrkFitter.html#a31b287e4d0925394b938f8eccccf7083" title="Initialization Run, called for initialization of a run." alt="" coords="227,247,369,291"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="435,237,370,254,369,248,434,232"/>
+<area shape="rect" id="Node000011" href="$d5/daa/classPHRaveVertexing.html#a650b76ab2fb4616857eb52bb3a838971" title="Initialization Run, called for initialization of a run." alt="" coords="204,315,392,343"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="497,243,452,276,400,306,370,317,369,312,398,301,449,272,494,239"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="510,246,449,333,429,374,419,391,401,408,378,421,375,416,397,404,415,388,424,371,445,330,506,243"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="507,176,460,119,430,90,398,65,376,53,379,48,400,60,434,86,464,115,511,172"/>
+<area shape="poly" id="edge13_Node000005_Node000014" title=" " alt="" coords="484,181,398,134,369,122,371,117,400,129,486,176"/>
+<area shape="rect" id="Node000007" href="$d0/d78/classPHG4Reco.html#afb33612dcc374f0614d800dc9480305a" title="Initialize the PHG4Reco module for a new run." alt="" coords="5,367,149,395"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="207,384,149,384,149,378,207,378"/>
+</map>

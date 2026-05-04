@@ -1,0 +1,14 @@
+<map id="Fun4AllDstInputManager::fileclose" name="Fun4AllDstInputManager::fileclose">
+<area shape="rect" id="Node000001" title="Close the currently opened input file and clean up associated resources." alt="" coords="501,144,682,189"/>
+<area shape="rect" id="Node000002" href="$d7/d0b/classFun4AllDstInputManager.html#aadb10857043e34f5fbcf7933bcee9fcc" title="Open a DST file for reading and initialize run and event nodes." alt="" coords="253,5,434,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="553,136,506,99,452,65,425,53,428,48,454,60,509,95,556,132"/>
+<area shape="rect" id="Node000003" href="$d0/ddf/classFun4AllRunNodeInputManager.html#ab7cae97f20caa68c3db1519d0353aaf0" title="Open a run node input file and load the corresponding run node into the top node." alt="" coords="235,75,453,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="494,142,426,122,427,117,495,137"/>
+<area shape="rect" id="Node000004" href="$d7/d0b/classFun4AllDstInputManager.html#ade26017b627e0e1f1ec0dec62ac7fd52" title="Read next event synchronization object from the current input file." alt="" coords="242,144,446,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="485,169,446,169,446,164,485,164"/>
+<area shape="rect" id="Node000005" href="$d7/d0b/classFun4AllDstInputManager.html#af9bf89898ad4c726ccdc03901ed44608" title="Synchronize current file with master sync object." alt="" coords="5,175,187,219"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="499,195,453,204,384,210,313,211,187,207,187,202,313,206,384,204,453,198,498,190"/>
+<area shape="rect" id="Node000006" href="$d7/d0b/classFun4AllDstInputManager.html#af2c20145c70376bd115a7d92273c972c" title="Run input manager to read events up to nevents from current or next file." alt="" coords="239,263,449,291"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="544,199,501,224,454,247,403,265,402,260,452,243,499,220,542,195"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="227,183,187,188,187,183,226,178"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="ActsGeometry::maps" name="ActsGeometry::maps">
+<area shape="rect" id="Node000001" title="const accessor" alt="" coords="745,448,903,475"/>
+<area shape="rect" id="Node000002" href="$d3/d5f/classCylinderGeomMicromegas.html#ab637828da21ea4840dcd22a2fc4c02a3" title="get strip for a give world location and tile" alt="" coords="496,92,691,154"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="814,433,801,380,778,312,743,240,721,206,695,175,672,156,675,152,699,172,725,203,747,237,782,310,806,379,820,432"/>
+<area shape="rect" id="Node000004" href="$d3/d5f/classCylinderGeomMicromegas.html#a9b0a9ea1ddedbec66bdd1e8edd39bb99" title="get local coordinates for a given tile and strip" alt="" coords="496,234,691,278"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="807,435,764,364,732,326,696,293,676,281,679,277,699,289,736,322,768,361,812,433"/>
+<area shape="rect" id="Node000008" href="$d3/d5f/classCylinderGeomMicromegas.html#a66f7ea3d4a6f63a9ec6066243b5f9d6b" title="convert world to local position coordinates in (planar) tile reference frame" alt="" coords="496,5,691,67"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="818,433,810,363,790,270,774,220,754,171,728,124,695,82,681,69,685,65,699,78,732,121,759,168,779,218,796,269,815,362,824,432"/>
+<area shape="rect" id="Node000009" href="$d3/d5f/classCylinderGeomMicromegas.html#a056e396d3114e0b71b2a2c7bc340732e" title="convert world to local direction coordinates in (planar) tile reference frame" alt="" coords="492,439,696,484"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="730,464,696,464,696,459,730,459"/>
+<area shape="rect" id="Node000010" href="$d3/d5f/classCylinderGeomMicromegas.html#a2b56528b7e9994a7eaa338f0a3ce8ad6" title="get number of strips" alt="" coords="248,91,442,136"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="813,433,799,387,775,330,741,272,720,246,696,224,669,205,645,194,600,184,550,181,489,168,405,139,407,134,491,163,551,175,600,179,647,189,672,201,699,219,724,243,745,269,780,328,804,385,818,432"/>
+<area shape="rect" id="Node000011" href="$d3/d5f/classCylinderGeomMicromegas.html#a3f9a6edcc9e1b77b08b61a3aa9ea2965" title="get strip length for a given tile" alt="" coords="248,382,442,426"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="764,445,697,429,564,414,442,408,443,402,565,409,698,424,765,440"/>
+<area shape="rect" id="Node000012" href="$d3/d5f/classCylinderGeomMicromegas.html#aa6c3407b7b113888a03f0c85ba20b089" title="convert local to world position coordinates in (planar) tile reference frame" alt="" coords="496,303,691,364"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="787,441,696,385,661,367,664,362,699,381,790,436"/>
+<area shape="rect" id="Node000013" href="$d3/d5f/classCylinderGeomMicromegas.html#abb9a21f9855bd24a629d2206e15bd9c2" title="convert local to world position coordinates in (planar) tile reference frame" alt="" coords="496,508,691,570"/>
+<area shape="poly" id="edge22_Node000001_Node000013" title=" " alt="" coords="767,483,688,510,687,505,765,478"/>
+<area shape="rect" id="Node000014" href="$d3/d5f/classCylinderGeomMicromegas.html#af6c0568cb52d9d170fd46e0790d09dca" title="convert local to world direction coordinates in (planar) tile reference frame" alt="" coords="492,594,696,638"/>
+<area shape="poly" id="edge23_Node000001_Node000014" title=" " alt="" coords="804,489,759,537,730,562,699,584,675,596,673,591,696,579,726,558,755,533,800,486"/>
+<area shape="rect" id="Node000015" href="$dc/db9/classMakeSourceLinks.html#aa88d09734691b4a184c274f967e92f6c" title="Generate source links for a given track seed and fill measurement container." alt="" coords="490,663,697,708"/>
+<area shape="poly" id="edge24_Node000001_Node000015" title=" " alt="" coords="814,491,796,527,771,571,738,615,699,653,680,665,677,660,696,649,734,611,766,568,791,525,809,488"/>
+<area shape="rect" id="Node000017" href="$dc/db9/classMakeSourceLinks.html#a8c9fd06b241332c7db8cb0eecbd34d4d" title="Generate source links for a track using the cluster mover." alt="" coords="490,732,697,777"/>
+<area shape="poly" id="edge26_Node000001_Node000017" title=" " alt="" coords="819,491,805,541,781,602,747,666,725,696,699,722,682,734,679,730,696,718,720,693,742,664,777,600,800,539,814,490"/>
+<area shape="rect" id="Node000018" href="$de/d4d/classPHG4MvtxHitReco.html#a909a81a9eb5c91d222f0ed65462e4ed7" title="event processing" alt="" coords="494,802,693,846"/>
+<area shape="poly" id="edge27_Node000001_Node000018" title=" " alt="" coords="822,492,812,553,791,634,775,676,754,718,729,757,699,791,683,804,680,799,696,788,725,754,750,715,770,674,786,632,807,552,817,491"/>
+<area shape="rect" id="Node000019" href="$de/d94/namespaceTrackFitUtils.html#a247b53d2fdd50719d31799dede3fbdca" title="Compute the intersection of a 3D line with a detector surface." alt="" coords="515,871,672,916"/>
+<area shape="poly" id="edge28_Node000001_Node000019" title=" " alt="" coords="825,491,818,564,800,663,784,716,762,768,734,817,699,861,674,878,671,874,696,857,730,814,758,766,779,714,795,662,813,564,819,491"/>
+<area shape="rect" id="Node000003" href="$d3/d5f/classCylinderGeomMicromegas.html#a446d39aa55edfe9045f9137b243d616f" title="get strip for a give world location and tile" alt="" coords="248,5,442,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="488,89,435,70,436,65,490,84"/>
+<area shape="rect" id="Node000005" href="$d3/d5f/classCylinderGeomMicromegas.html#ac1f69f02f79782a014badba93d295d39" title="get the phi range, in global coordinates, corresponding to a given tile" alt="" coords="5,202,200,246"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="524,231,483,218,442,208,380,202,316,201,200,210,200,205,316,196,380,196,442,203,485,212,525,226"/>
+<area shape="rect" id="Node000006" href="$d3/d5f/classCylinderGeomMicromegas.html#a0deab41e39d6b81607508549b2622930" title="Compute polar angle range for a given micromegas tile." alt="" coords="5,312,200,357"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="481,270,368,284,248,303,193,314,192,309,247,298,368,279,481,265"/>
+<area shape="rect" id="Node000007" href="$d3/d5f/classCylinderGeomMicromegas.html#a217a87056bf483514957b5a1537b6dae" title="get world coordinates for a given tile and strip" alt="" coords="248,312,442,357"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="507,286,419,314,417,309,505,281"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="279,308,152,249,155,245,281,303"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="232,338,200,338,200,332,232,332"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="481,39,442,39,442,34,481,34"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="277,145,249,157,151,204,149,199,247,152,274,140"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="314,149,262,203,201,261,136,314,133,310,198,257,259,199,310,145"/>
+<area shape="poly" id="edge16_Node000011_Node000005" title=" " alt="" coords="252,376,246,372,229,354,220,338,212,321,198,302,167,273,136,249,139,245,170,269,202,298,216,318,225,335,233,351,249,367,255,371"/>
+<area shape="poly" id="edge17_Node000011_Node000006" title=" " alt="" coords="249,380,183,360,184,355,251,375"/>
+<area shape="poly" id="edge19_Node000012_Node000005" title=" " alt="" coords="481,311,199,248,201,243,482,306"/>
+<area shape="poly" id="edge20_Node000012_Node000006" title=" " alt="" coords="551,377,501,413,473,429,443,441,389,456,345,461,301,456,247,441,210,425,176,404,124,360,127,356,180,400,213,421,249,436,302,451,345,456,388,451,441,436,471,424,499,409,547,373"/>
+<area shape="poly" id="edge21_Node000012_Node000007" title=" " alt="" coords="481,337,442,337,442,332,481,331"/>
+<area shape="rect" id="Node000016" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="270,663,420,708"/>
+<area shape="poly" id="edge25_Node000015_Node000016" title=" " alt="" coords="474,688,421,688,421,683,474,683"/>
+<area shape="rect" id="Node000020" href="$d8/d99/classCosmicTrackQA.html#ac0c144ffa14178e3b3268954771f066b" title="Process a single event and fill QA histograms for cosmic tracks." alt="" coords="255,871,435,916"/>
+<area shape="poly" id="edge29_Node000019_Node000020" title=" " alt="" coords="499,896,436,896,436,891,499,891"/>
+</map>

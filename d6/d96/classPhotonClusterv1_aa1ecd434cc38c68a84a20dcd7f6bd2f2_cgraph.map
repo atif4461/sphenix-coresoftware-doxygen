@@ -1,0 +1,48 @@
+<map id="PhotonClusterv1::identify" name="PhotonClusterv1::identify">
+<area shape="rect" id="Node000001" title="Identify prints photon cluster information to the provided stream." alt="" coords="5,233,191,261"/>
+<area shape="rect" id="Node000002" href="$d0/d73/classRawClusterv1.html#a236bb5ed9a94fdb11471d00c0a307467" title="Identify and print summary information of the RawClusterv1 object." alt="" coords="247,263,416,290"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,256,232,261,231,267,191,261"/>
+<area shape="rect" id="Node000017" href="$d6/d96/classPhotonClusterv1.html#a5f45c54dd6acede3845996237d5d553a" title="Print photon properties and shower shape information to the provided output stream." alt="" coords="239,96,424,140"/>
+<area shape="poly" id="edge28_Node000001_Node000017" title=" " alt="" coords="124,231,275,146,278,150,126,235"/>
+<area shape="rect" id="Node000003" href="$d6/dc7/group__getters.html#gaaa8e1f55208766b658e2bf0d2d5cb15f" title="total energy" alt="" coords="493,5,685,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,261,380,213,422,151,434,122,441,97,450,73,470,49,487,38,490,42,474,53,454,76,446,99,439,124,426,154,384,216,347,264"/>
+<area shape="rect" id="Node000004" href="$d6/dc7/group__getters.html#ga5e7942a6113bb88ea8abc27115624eff" title="cluster ID" alt="" coords="510,211,669,238"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="403,259,501,239,502,245,404,265"/>
+<area shape="rect" id="Node000005" href="$d6/dc7/group__getters.html#ga886dc46d9b9e230889296adfd24528eb" title="access to intrinsic cylindrical coordinate system" alt="" coords="782,263,949,290"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="341,260,414,163,470,93,534,67,562,61,589,59,644,68,707,93,733,107,757,125,798,167,830,210,853,248,848,251,826,213,794,170,753,129,730,111,705,98,642,73,589,64,563,66,535,72,474,97,418,166,345,264"/>
+<area shape="rect" id="Node000006" href="$d9/d6e/group__property__map.html#gaac24b548047ddec099d9aae816f5c13e" title="Retrieve a float property from the cluster." alt="" coords="488,417,690,462"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="347,289,400,340,435,370,473,396,498,408,496,413,471,400,432,374,396,344,344,293"/>
+<area shape="rect" id="Node000008" href="$d9/d6e/group__property__map.html#gae2fd02bc2683c96df67f54e7831755df" title="type management" alt="" coords="1025,531,1243,558"/>
+<area shape="poly" id="edge10_Node000002_Node000008" title=" " alt="" coords="337,290,346,347,369,426,387,468,409,509,438,545,474,574,511,595,551,612,592,624,634,632,721,637,807,632,890,619,966,600,1083,562,1085,567,968,605,891,624,808,637,721,643,633,637,590,629,549,617,509,600,470,579,434,549,405,512,382,471,364,428,341,348,332,291"/>
+<area shape="rect" id="Node000010" href="$d9/d6e/group__property__map.html#ga16ab72e7e45f6544a009add78fc390f8" title="Retrieve integer property value identified by prop_id." alt="" coords="476,485,702,513"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="341,290,358,327,386,377,425,428,448,452,474,472,481,476,478,481,470,476,444,456,421,432,382,380,353,329,336,292"/>
+<area shape="rect" id="Node000011" href="$d9/d6e/group__property__map.html#ga514cc2c06e39e23648d77ab38024635b" title="Retrieve an unsigned int property value from the property map." alt="" coords="472,537,706,565"/>
+<area shape="poly" id="edge15_Node000002_Node000011" title=" " alt="" coords="339,290,353,335,379,399,419,466,444,496,474,522,482,528,479,532,470,527,441,500,415,469,375,401,348,337,334,291"/>
+<area shape="rect" id="Node000012" href="$d6/dc7/group__getters.html#gaa611f99e73bf1eda9dab78af3551d703" title=" " alt="" coords="789,315,942,342"/>
+<area shape="poly" id="edge19_Node000002_Node000012" title=" " alt="" coords="353,289,405,323,438,339,473,351,515,360,558,364,644,364,725,356,793,344,794,349,726,361,644,370,557,370,514,365,471,356,436,344,402,327,350,293"/>
+<area shape="rect" id="Node000013" href="$d6/dc7/group__getters.html#gadd6e5da3058726a15f3aa15400c4239b" title="access Cartesian coordinate system" alt="" coords="512,263,667,290"/>
+<area shape="poly" id="edge20_Node000002_Node000013" title=" " alt="" coords="416,274,496,274,496,279,416,279"/>
+<area shape="rect" id="Node000014" href="$d6/dc7/group__getters.html#ga77ef35c435d8dc4fd277a9918eae354a" title=" " alt="" coords="512,315,667,342"/>
+<area shape="poly" id="edge23_Node000002_Node000014" title=" " alt="" coords="404,288,502,308,501,314,403,294"/>
+<area shape="rect" id="Node000015" href="$d6/dc7/group__getters.html#ga36b3466bb3061de440afd383c9459649" title=" " alt="" coords="512,107,666,134"/>
+<area shape="poly" id="edge26_Node000002_Node000015" title=" " alt="" coords="342,260,393,204,430,172,471,145,497,134,499,139,473,150,433,176,397,208,346,264"/>
+<area shape="rect" id="Node000016" href="$d6/dc7/group__getters.html#ga3a8530e70ea80c11bb6e31e05185b8b9" title="Tower operations." alt="" coords="492,159,687,186"/>
+<area shape="poly" id="edge27_Node000002_Node000016" title=" " alt="" coords="353,260,405,228,471,197,496,188,498,193,473,202,408,233,355,264"/>
+<area shape="rect" id="Node000007" href="$d9/d6e/group__property__map.html#ga32e4d878c2140a38512509751b0f8ed3" title="Verify that a given property identifier matches the expected property type." alt="" coords="764,531,967,558"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="673,460,707,471,823,521,820,526,705,476,671,465"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="674,414,741,401,818,395,899,398,939,404,978,415,1019,435,1056,462,1113,517,1109,521,1053,466,1016,440,976,420,938,410,899,403,818,400,742,407,675,419"/>
+<area shape="rect" id="Node000009" href="$d9/d6e/group__property__map.html#gac723f2dd8743a88f2bab68da83223bf7" title="Return string representation of property type enum." alt="" coords="754,429,977,457"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="691,438,739,439,738,444,691,443"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="968,542,1009,542,1009,547,968,547"/>
+<area shape="poly" id="edge12_Node000010_Node000007" title=" " alt="" coords="678,511,762,525,761,530,677,516"/>
+<area shape="poly" id="edge13_Node000010_Node000008" title=" " alt="" coords="703,499,834,505,977,517,1040,525,1039,530,976,522,834,510,703,504"/>
+<area shape="poly" id="edge14_Node000010_Node000009" title=" " alt="" coords="661,482,778,458,779,463,662,487"/>
+<area shape="poly" id="edge16_Node000011_Node000007" title=" " alt="" coords="707,546,748,545,748,550,707,551"/>
+<area shape="poly" id="edge17_Node000011_Node000008" title=" " alt="" coords="703,563,755,567,866,572,976,567,1044,559,1044,564,977,572,866,578,754,572,703,568"/>
+<area shape="poly" id="edge18_Node000011_Node000009" title=" " alt="" coords="665,534,705,522,770,493,826,463,829,468,773,498,707,527,666,539"/>
+<area shape="poly" id="edge21_Node000013_Node000005" title=" " alt="" coords="667,274,766,274,766,279,667,279"/>
+<area shape="poly" id="edge22_Node000013_Node000012" title=" " alt="" coords="667,288,774,309,773,314,666,294"/>
+<area shape="poly" id="edge24_Node000014_Node000005" title=" " alt="" coords="666,311,772,291,773,296,667,317"/>
+<area shape="poly" id="edge25_Node000014_Node000012" title=" " alt="" coords="667,326,774,326,774,331,667,331"/>
+<area shape="poly" id="edge29_Node000017_Node000003" title=" " alt="" coords="374,93,471,49,512,35,514,40,473,54,376,98"/>
+</map>

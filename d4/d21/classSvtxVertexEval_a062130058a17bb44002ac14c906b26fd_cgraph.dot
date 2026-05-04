@@ -1,0 +1,28 @@
+digraph "SvtxVertexEval::max_truth_point_by_ntracks"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="SvtxVertexEval::max\l_truth_point_by_ntracks",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Return truth vertex point with largest track contribution for given vertex."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxVertexEval::all\l_truth_points",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d21/classSvtxVertexEval.html#ad10fc3cb490affd013ea76e497fd1f8e",tooltip="Retrieve all truth vertex points associated with a given reconstructed vertex."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxVertexEval::all\l_truth_particles",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d21/classSvtxVertexEval.html#a7690912fe9015dd3e1b25c9fea55aa0c",tooltip="Retrieve the set of truth PHG4Particle objects associated with a given vertex."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Vertex::begin_tracks",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/da0/classVertex.html#afaa94cc8c2c5021979c28daa23d69b6d",tooltip="Returns a constant iterator to the first track associated with this vertex."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Vertex::end_tracks",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/da0/classVertex.html#af1fac9be405d2a84abd5523cc1450736",tooltip="Return a constant iterator pointing to the element past the last track associated with this vertex."];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SvtxVertexEval::get\l_truth_eval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d21/classSvtxVertexEval.html#a49f6df9f1e3e31e156107d77942df796",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="SvtxTruthEval::get\l_vertex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/de4/classSvtxTruthEval.html#afd61a22f7958141564f39aae028580dc",tooltip="Retrieve the truth vertex associated with a given particle."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="SvtxVertexEval::get\l_ntracks_contribution",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d21/classSvtxVertexEval.html#aaa464ef6dc3bec213b1968ae93707fb2",tooltip="Compute number of tracks from a reconstructed vertex that originate from a given truth vertex."];
+  Node8 -> Node4 [id="edge8_Node000008_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node5 [id="edge9_Node000008_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node6 [id="edge10_Node000008_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node7 [id="edge11_Node000008_Node000007",color="steelblue1",style="solid",tooltip=" "];
+}

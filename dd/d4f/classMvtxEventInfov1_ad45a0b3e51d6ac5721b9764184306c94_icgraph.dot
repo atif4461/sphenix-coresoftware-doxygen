@@ -1,0 +1,12 @@
+digraph "MvtxEventInfov1::get_strobe_BCOs"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="MvtxEventInfov1::get\l_strobe_BCOs",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve set of strobe BCO identifiers from internal mapping."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MvtxEventInfov1::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d4f/classMvtxEventInfov1.html#a4b5c4b5b65f35430909949571cb8342a",tooltip="Print a human‑readable summary of the MvtxEventInfov1 contents to the supplied stream."];
+}

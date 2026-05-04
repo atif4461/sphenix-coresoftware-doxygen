@@ -1,0 +1,56 @@
+<map id="CosmicSpray::process_event" name="CosmicSpray::process_event">
+<area shape="rect" id="Node000001" title="Generate a cosmic muon event and insert it into the PHG4InEvent node." alt="" coords="5,569,169,614"/>
+<area shape="rect" id="Node000002" href="$db/d62/classPHG4InEvent.html#a1ce8225b21358e01f87adfd4b5d46d4b" title="Add a particle to a vertex in the event." alt="" coords="224,239,411,266"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,568,98,509,120,431,137,389,158,348,184,310,215,277,221,272,224,276,218,281,188,314,162,351,142,391,125,433,104,511,93,569"/>
+<area shape="rect" id="Node000003" href="$db/d62/classPHG4InEvent.html#a3aceec54176f99daca9282e7df169148" title="Add a vertex to the event." alt="" coords="237,291,398,318"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="90,568,104,518,127,454,164,387,187,356,215,329,222,324,225,328,218,333,191,359,168,390,132,456,109,520,95,569"/>
+<area shape="rect" id="Node000011" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="246,343,389,370"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="93,567,110,527,135,477,170,425,191,402,215,381,230,372,233,377,218,385,195,405,174,428,140,479,114,529,98,569"/>
+<area shape="rect" id="Node000017" href="$d0/df9/classCosmicSpray.html#af4710dbc8f7285bf3cd19ae48d9fd693" title="Determine whether a point (x, y, z) lies within the detector volume including a safety gap." alt="" coords="227,395,408,422"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="99,567,144,500,177,464,215,433,226,427,229,431,218,437,181,468,148,503,103,570"/>
+<area shape="rect" id="Node000018" href="$de/dc9/classPHG4Particle.html#af06d110ff6c950a3f1e372fcd8ed5a7e" title=" " alt="" coords="243,447,392,474"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="109,566,155,525,184,503,215,485,232,477,234,482,218,490,187,508,159,529,112,570"/>
+<area shape="rect" id="Node000019" href="$de/dc9/classPHG4Particle.html#a7c12dd9a108557b0090e243f7f94cd52" title=" " alt="" coords="229,499,406,526"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="140,566,216,537,242,529,243,534,218,542,142,571"/>
+<area shape="rect" id="Node000020" href="$de/dc9/classPHG4Particle.html#ae5cd12d8d9a8c7bbf53abf9ee11ee4bc" title=" " alt="" coords="217,551,418,578"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="169,579,201,575,201,581,170,584"/>
+<area shape="rect" id="Node000021" href="$de/dc9/classPHG4Particle.html#a86033bab0db8c268852ef7f5dc1b3526" title=" " alt="" coords="237,603,398,630"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="170,598,222,603,221,609,169,603"/>
+<area shape="rect" id="Node000022" href="$de/dc9/classPHG4Particle.html#af700885c965fc60e76918dfdd338c1a4" title=" " alt="" coords="239,655,396,682"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="143,611,218,639,244,648,243,653,216,644,141,616"/>
+<area shape="rect" id="Node000023" href="$de/dc9/classPHG4Particle.html#aa5ed831e682e7b8509008d945415608b" title=" " alt="" coords="239,707,396,734"/>
+<area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="113,612,159,653,218,691,234,699,232,704,215,696,156,657,109,616"/>
+<area shape="rect" id="Node000024" href="$de/dc9/classPHG4Particle.html#a73df9a86d94e7222b804f69791deb323" title=" " alt="" coords="240,759,395,786"/>
+<area shape="poly" id="edge24_Node000001_Node000024" title=" " alt="" coords="103,612,148,678,181,714,218,744,229,750,226,754,215,748,177,717,144,681,99,615"/>
+<area shape="rect" id="Node000025" href="$de/dc9/classPHG4Particle.html#aafb62ebbdbcf345f7bb3f6b70ddd979c" title=" " alt="" coords="221,811,414,838"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="98,613,115,653,140,702,174,753,195,776,218,796,227,801,224,806,215,800,191,780,170,756,135,705,110,655,93,615"/>
+<area shape="rect" id="Node000026" href="$de/dc9/classPHG4Particle.html#a06657cc303b4afb682088f5c812d22bc" title=" " alt="" coords="227,863,408,890"/>
+<area shape="poly" id="edge26_Node000001_Node000026" title=" " alt="" coords="96,613,109,663,133,726,169,792,192,822,218,848,225,853,222,857,215,852,188,825,164,795,128,728,104,664,90,615"/>
+<area shape="rect" id="Node000027" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="232,915,402,942"/>
+<area shape="poly" id="edge27_Node000001_Node000027" title=" " alt="" coords="94,613,104,671,125,749,142,790,162,830,188,867,218,900,224,905,221,909,215,904,184,871,158,833,137,792,120,751,99,673,88,614"/>
+<area shape="rect" id="Node000004" href="$db/d62/classPHG4InEvent.html#ab893e0a611fdd0867f68c2a6d694e7d2" title="Add a vertex to the event if it is not a duplicate of an existing vertex." alt="" coords="466,161,686,189"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,288,417,275,487,237,544,196,547,201,490,241,419,280,385,293"/>
+<area shape="rect" id="Node000005" href="$d6/d81/classPHG4VtxPoint.html#ae1e486888452aa0144358a4ceb50c922" title=" " alt="" coords="772,5,926,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="588,159,647,103,688,71,733,43,757,34,759,39,736,48,691,75,650,107,592,163"/>
+<area shape="rect" id="Node000006" href="$d6/d81/classPHG4VtxPoint.html#a271de766c9b21dbc56c3e339f8e42fc5" title=" " alt="" coords="771,57,927,85"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="601,158,660,127,733,95,760,87,762,92,735,100,663,132,604,163"/>
+<area shape="rect" id="Node000007" href="$d6/d81/classPHG4VtxPoint.html#a20e37ddb56c6ef297b77a99cb2377bf6" title=" " alt="" coords="771,109,927,137"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="652,158,757,138,758,143,653,163"/>
+<area shape="rect" id="Node000008" href="$d6/d81/classPHG4VtxPoint.html#a9b558f1924a5947a3aa3a407def653eb" title=" " alt="" coords="771,161,927,189"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="687,172,756,172,756,178,687,178"/>
+<area shape="rect" id="Node000009" href="$db/d62/classPHG4InEvent.html#a489d260a445904851ada927cb809116b" title=" " alt="" coords="764,213,934,241"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="653,187,758,207,757,212,652,192"/>
+<area shape="rect" id="Node000010" href="$db/d62/classPHG4InEvent.html#acf2cd0b0f9c809e5df6dda0de6b2a76e" title="Retrieve constant iterators to the beginning and end of the vertex list." alt="" coords="754,265,944,293"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="604,187,663,219,735,250,762,258,760,264,733,255,660,223,601,192"/>
+<area shape="rect" id="Node000012" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="486,343,667,370"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="389,354,470,354,470,359,389,359"/>
+<area shape="rect" id="Node000016" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="494,395,658,422"/>
+<area shape="poly" id="edge16_Node000011_Node000016" title=" " alt="" coords="390,368,489,388,488,394,389,373"/>
+<area shape="poly" id="edge12_Node000012_Node000012" title=" " alt="" coords="532,344,525,334,531,324,548,318,576,316,606,318,623,325,621,330,605,324,576,321,549,323,534,328,530,333,537,340"/>
+<area shape="rect" id="Node000013" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="778,317,920,345"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="667,345,763,336,763,342,668,351"/>
+<area shape="rect" id="Node000014" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="783,369,915,397"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="668,363,768,373,767,378,667,368"/>
+<area shape="rect" id="Node000015" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="734,421,964,449"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="648,368,687,381,712,394,735,406,761,414,759,419,733,411,709,398,685,386,647,373"/>
+</map>

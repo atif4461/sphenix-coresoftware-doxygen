@@ -1,0 +1,20 @@
+digraph "SvtxTrackInfo_v1::set_track_id"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTrackInfo_v1::set\l_track_id",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrackInfo_v1::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d06/classSvtxTrackInfo__v1.html#aafbdb6a69e7412240d8461bab745a463",tooltip="Copy track information from another SvtxTrackInfo object."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackInfoContainer\l_v1::add_trackinfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d2c/classTrackInfoContainer__v1.html#a23bedbde879c89c0c549213a8d634848",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrackInfoContainer\l_v1::add_trackinfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d2c/classTrackInfoContainer__v1.html#afcbfcf5216d9ca7cea2373f93787b700",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="SvtxTrackInfo_v1::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d06/classSvtxTrackInfo__v1.html#afe9d5aa29fd183cf453da7e9b2f3cbc6",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="SvtxTrackInfo_v1::operator=",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d06/classSvtxTrackInfo__v1.html#ad6c7792e20e0041fee60f8dd7ad1a554",tooltip="Assign contents from source to this SvtxTrackInfo_v1 instance."];
+}

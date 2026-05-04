@@ -1,0 +1,16 @@
+<map id="SvtxPHG4ParticleMap::get" name="SvtxPHG4ParticleMap::get">
+<area shape="rect" id="Node000001" title="Returns an empty weighted truth track map." alt="" coords="901,48,1092,76"/>
+<area shape="rect" id="Node000002" href="$d8/d08/classSvtxPHG4ParticleMap__v1.html#a1a8efd29368da5cb73c67bdb57f61753" title="Retrieve the weighted truth track map for a given particle key." alt="" coords="669,5,831,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="885,49,831,42,832,36,885,44"/>
+<area shape="rect" id="Node000003" href="$dd/de6/classKFParticle__truthAndDetTools.html#ad75d71be845ff83a6bb6839b5e151e3c" title="Retrieve the associated truth PHG4Particle for a reconstructed SvtxTrack." alt="" coords="647,75,853,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="886,81,854,85,853,80,885,75"/>
+<area shape="rect" id="Node000004" href="$dd/de6/classKFParticle__truthAndDetTools.html#a8fd937b408a964f4403e263697d59eb3" title="Fill truth information for a daughter particle into the output branches." alt="" coords="394,40,599,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="631,83,600,79,600,74,632,78"/>
+<area shape="rect" id="Node000007" href="$dd/de6/classKFParticle__truthAndDetTools.html#ad020ae1958b487d9ec890bf683d78d79" title="Retrieve HepMC truth information for a daughter particle and fill output branches." alt="" coords="394,109,599,154"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="632,116,600,120,600,115,631,111"/>
+<area shape="rect" id="Node000005" href="$d9/dae/classKFParticle__nTuple.html#a19b5fd2a641c969245dc5bd891276240" title="Fills required information for your selection, also requests truth and detector information if needed..." alt="" coords="203,75,346,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="379,83,347,88,346,83,378,78"/>
+<area shape="rect" id="Node000006" href="$d5/d72/classKFParticle__sPHENIX.html#aac7b97c325669f73559f04881cffae58" title="Process a single event within the Fun4All framework." alt="" coords="5,75,155,119"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="187,100,155,100,155,94,187,94"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="378,116,346,111,347,106,379,111"/>
+</map>

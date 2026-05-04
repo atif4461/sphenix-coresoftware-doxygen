@@ -1,0 +1,50 @@
+digraph "GlobalQA::process_towers"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="GlobalQA::process_towers",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Process tower level data for sEPD and ZDC detectors."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TowerInfoDefs::encode_epd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9c/namespaceTowerInfoDefs.html#a7d30679410cca9436b542a3a682ca892",tooltip="Encode an EPD tower index into a compact key."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TowerInfo::get_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d65/classTowerInfo.html#aec47b24db774275f49d738950530b5e0",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TowerInfoDefs::get\l_epd_arm",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9c/namespaceTowerInfoDefs.html#a953898b2e082f247a5dcb46720a7fafc",tooltip="Extract the arm identifier from a tower key."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TowerInfoDefs::get\l_epd_phibin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9c/namespaceTowerInfoDefs.html#a789cccaab5a87fcc4671f92661d28894",tooltip="Compute phi bin for an EPD tower from its key."];
+  Node5 -> Node4 [id="edge5_Node000005_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TowerInfoDefs::get\l_epd_rbin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9c/namespaceTowerInfoDefs.html#acdcd895ff78d6d66c853553657471a92",tooltip="Return radial bin index for a given EPD tower key."];
+  Node6 -> Node4 [id="edge7_Node000006_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node7 [id="edge8_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TowerInfoDefs::get\l_epd_sector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9c/namespaceTowerInfoDefs.html#a7610aec2a9ff9b58e5e5ea46f82240d2",tooltip="Compute the EPD sector index from a global tower key."];
+  Node7 -> Node4 [id="edge9_Node000007_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node7 [id="edge10_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge11_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge12_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TowerInfo::get_isZS",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d65/classTowerInfo.html#a843b4f5f34fa380b0b9936cd6ca18146",tooltip=" "];
+  Node1 -> Node9 [id="edge13_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TowerInfoContainer\l::get_tower_at_channel",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/da7/classTowerInfoContainer.html#a9d02209eb100fea85a2105a1965c3e2b",tooltip=" "];
+  Node1 -> Node10 [id="edge14_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="Zdcinfo::get_zdc_energy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/da4/classZdcinfo.html#a562d24ed9c4ac9451c1fff4bbc9dde38",tooltip=" "];
+  Node1 -> Node11 [id="edge15_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="Zdcinfo::get_zvertex",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/da4/classZdcinfo.html#acac9485d34e3dc6bc2143026e85520d6",tooltip=" "];
+  Node1 -> Node12 [id="edge16_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="findNode::getClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f",tooltip=" "];
+  Node12 -> Node13 [id="edge17_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHNodeIterator::findFirst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa",tooltip="Search recursively for the first node that matches a given type and name."];
+  Node13 -> Node13 [id="edge18_Node000013_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 -> Node14 [id="edge19_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="PHNode::getName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263",tooltip=" "];
+  Node13 -> Node15 [id="edge20_Node000013_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="PHNode::getType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5",tooltip=" "];
+  Node13 -> Node16 [id="edge21_Node000013_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="PHNodeIterator::PHNodeIterator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240",tooltip="Constructor initializing the iterator with the specified composite node."];
+  Node12 -> Node17 [id="edge22_Node000012_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="PHDataNode::getData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3",tooltip=" "];
+  Node1 -> Node18 [id="edge23_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="TowerInfoContainer\l::size",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/da7/classTowerInfoContainer.html#a032d99fcf2de16bdabcc1248f3362345",tooltip=" "];
+}

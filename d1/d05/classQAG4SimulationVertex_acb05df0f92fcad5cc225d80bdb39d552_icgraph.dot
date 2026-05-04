@@ -1,0 +1,14 @@
+digraph "QAG4SimulationVertex::get_histo_prefix"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="QAG4SimulationVertex\l::get_histo_prefix",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Construct the histogram name prefix for this simulation vertex module."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="QAG4SimulationVertex\l::Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classQAG4SimulationVertex.html#a7b2cc3832340daff53d28d60b32acaeb",tooltip="Initialize histograms for vertex QA."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="QAG4SimulationVertex\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classQAG4SimulationVertex.html#a5d6b9df173a4094d3744572a9e2410d0",tooltip="Process a single event within the Fun4All framework."];
+}

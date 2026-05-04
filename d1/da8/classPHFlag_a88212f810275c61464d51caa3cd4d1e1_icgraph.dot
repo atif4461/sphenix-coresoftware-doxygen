@@ -1,0 +1,16 @@
+digraph "PHFlag::set_FloatFlag"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHFlag::set_FloatFlag",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set a float flag identified by name."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHFlag::get_FloatFlag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da8/classPHFlag.html#a373ca5e92e5607affea53ce0988050ba",tooltip="Retrieve a floating point flag value by name, creating it with a default if missing."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4Reco::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d78/classPHG4Reco.html#afb33612dcc374f0614d800dc9480305a",tooltip="Initialize the PHG4Reco module for a new run."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHFlag::ReadFromFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da8/classPHFlag.html#a67e9c7f263da7802750fba8eef02fa81",tooltip="Read flag values from a text file."];
+}

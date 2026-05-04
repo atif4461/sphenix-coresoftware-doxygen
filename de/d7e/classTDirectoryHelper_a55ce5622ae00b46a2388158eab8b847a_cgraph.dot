@@ -1,0 +1,14 @@
+digraph "TDirectoryHelper::getHisto"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TDirectoryHelper::getHisto",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve a TH1 histogram from a ROOT directory given its name and path."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TDirectoryHelper::pathIs\lInDir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d7e/classTDirectoryHelper.html#a7953bd73711cd1f9b098a61997a70b49",tooltip="Check if a given path exists under a ROOT directory without emitting error messages."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TDirectoryHelper::splitPath",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d7e/classTDirectoryHelper.html#a05fda94e95bcb216abc68086c009cfb5",tooltip="Split a hierarchical path string into its individual components."];
+}

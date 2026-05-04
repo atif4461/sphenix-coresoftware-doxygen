@@ -1,0 +1,46 @@
+<map id="PHCASiliconSeeding::Setup" name="PHCASiliconSeeding::Setup">
+<area shape="rect" id="Node000001" title="Initialize module for a new run and configure geometry and seeding parameters." alt="" coords="5,341,158,386"/>
+<area shape="rect" id="Node000002" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="Retrieve integer flag value by name." alt="" coords="245,173,394,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,339,137,277,168,244,204,216,229,203,232,208,207,220,172,248,142,281,98,342"/>
+<area shape="rect" id="Node000010" href="$d2/dff/namespaceMvtxRawDefs.html#ab20477c9ba80c404afeb78c25c881e46" title="Retrieve the MVTX strobe length for a given run number." alt="" coords="206,229,433,257"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="104,338,148,301,204,266,219,260,221,265,207,271,151,305,107,343"/>
+<area shape="rect" id="Node000011" href="$df/d0f/classPHCASiliconSeeding.html#ae79e6f2f911a5bc5769ef2d79a379832" title="Initialize geometry and required data nodes for silicon seeding." alt="" coords="243,281,396,326"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="157,341,228,323,229,329,159,347"/>
+<area shape="rect" id="Node000019" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="241,349,398,377"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="158,360,226,360,226,366,158,366"/>
+<area shape="rect" id="Node000020" href="$d4/d5a/classPHTrackSeeding.html#a304d1f5ef2e71213a00d720411fdad26" title=" " alt="" coords="243,401,396,446"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="159,380,228,397,227,403,157,385"/>
+<area shape="rect" id="Node000021" href="$d4/d5a/classPHTrackSeeding.html#a03820e74fc2dbcf18cc2d875b9f050c3" title="Setup the PHTrackSeeding module." alt="" coords="234,469,404,497"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="107,384,151,421,207,455,221,462,219,466,204,460,148,425,104,388"/>
+<area shape="rect" id="Node000022" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="234,521,404,549"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="98,384,141,446,172,479,207,506,221,514,219,518,204,511,168,483,137,449,93,387"/>
+<area shape="rect" id="Node000003" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="516,113,621,141"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,170,500,141,502,146,380,175"/>
+<area shape="rect" id="Node000009" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="481,173,656,201"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="394,184,465,184,465,190,394,190"/>
+<area shape="rect" id="Node000004" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="704,5,891,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="589,110,639,77,703,43,723,36,725,41,705,48,642,82,591,115"/>
+<area shape="rect" id="Node000005" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="711,57,884,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="621,112,722,87,724,92,623,117"/>
+<area shape="rect" id="Node000006" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="719,109,876,137"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="622,124,703,122,703,127,622,129"/>
+<area shape="rect" id="Node000007" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="708,161,887,189"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="622,136,714,155,713,160,621,141"/>
+<area shape="rect" id="Node000008" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="707,213,888,241"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="614,139,658,160,682,180,706,198,721,205,719,210,703,203,678,184,655,164,612,144"/>
+<area shape="rect" id="Node000012" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="497,289,640,317"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="396,300,482,300,482,306,396,306"/>
+<area shape="rect" id="Node000018" href="$d5/d4b/classCDBInterface.html#ac1458cd6adb1e2944371c40a90dc9dfe" title="Get singleton instance of CDBInterface." alt="" coords="484,341,654,369"/>
+<area shape="poly" id="edge18_Node000011_Node000018" title=" " alt="" coords="397,316,484,335,483,340,395,322"/>
+<area shape="rect" id="Node000013" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="707,289,888,317"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="641,300,691,300,691,306,641,306"/>
+<area shape="rect" id="Node000017" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="715,341,880,369"/>
+<area shape="poly" id="edge17_Node000012_Node000017" title=" " alt="" coords="634,315,719,335,718,340,632,320"/>
+<area shape="poly" id="edge13_Node000013_Node000013" title=" " alt="" coords="758,290,752,280,757,271,772,265,798,263,824,265,839,272,837,276,823,270,797,268,774,270,761,275,757,280,763,287"/>
+<area shape="rect" id="Node000014" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="983,237,1124,265"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="869,286,967,266,968,271,870,291"/>
+<area shape="rect" id="Node000015" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="987,289,1120,317"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="889,300,971,300,971,306,889,306"/>
+<area shape="rect" id="Node000016" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="939,341,1168,369"/>
+<area shape="poly" id="edge16_Node000013_Node000016" title=" " alt="" coords="870,315,967,335,966,340,869,320"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="PHG4Hit::get_edep" name="PHG4Hit::get_edep">
+<area shape="rect" id="Node000001" title=" " alt="" coords="749,212,894,240"/>
+<area shape="rect" id="Node000002" href="$d3/d9e/classPHG4Hit.html#a9849ab6aeb1834f2d57461f2a5cd093d" title="Copy all hit data from another PHG4Hit object." alt="" coords="524,31,674,58"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="804,200,763,136,734,102,700,73,673,60,676,56,703,69,738,98,767,132,809,197"/>
+<area shape="rect" id="Node000006" href="$d3/d9e/classPHG4Hit.html#a4677e30b3f0d6dec33ea16750e287d56" title="Prints detailed hit information to the supplied output stream." alt="" coords="532,83,665,110"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="796,202,754,162,728,141,700,124,665,111,666,106,703,119,731,137,757,158,800,198"/>
+<area shape="rect" id="Node000007" href="$d6/dd1/classCaloWaveformSim.html#a5f6f1e88d3db0c9cdad473392d571a22" title="Process a single event and fill calorimeter waveforms." alt="" coords="498,134,699,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="759,209,672,182,674,177,761,204"/>
+<area shape="rect" id="Node000008" href="$d2/d1c/classG4HitTTree.html#a0720bdd5ac69b976e0f7afd403d93393" title="event processing method" alt="" coords="523,204,674,248"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="733,228,675,228,675,223,733,223"/>
+<area shape="rect" id="Node000009" href="$df/d93/classMbdDigitization.html#ac057a48a827f031ed90a4b605ed544ed" title="Process Event, called for each event." alt="" coords="508,273,690,318"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="761,247,674,275,672,270,759,242"/>
+<area shape="rect" id="Node000010" href="$d1/df8/classRawTowerBuilderByHitIndex.html#ab85246d41287b6eef693a467d41858b7" title="Process a single event building raw towers from G4 hits." alt="" coords="496,342,701,387"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="799,253,756,293,703,332,678,344,676,339,700,328,753,289,795,249"/>
+<area shape="rect" id="Node000011" href="$d4/d30/classPHG4HitContainer.html#a1cf8afd339b72457bd9d00c53587ed97" title="Remove hits with zero energy deposition from the container." alt="" coords="498,412,699,456"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="810,255,770,328,739,367,703,401,683,413,681,409,700,397,735,363,765,325,806,252"/>
+<area shape="rect" id="Node000003" href="$d5/d60/classPHG4HitEval.html#aa047ef4c978433f49e1b6f39050cc075" title="Copy data from a source PHObject into this PHG4HitEval instance." alt="" coords="259,5,438,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="508,38,438,31,438,26,509,33"/>
+<area shape="rect" id="Node000005" href="$d9/d35/classPHG4Hitv1.html#a2bd73935561899a900c6ad37d43245e8" title="Construct a PHG4Hitv1 from a PHG4Hit pointer." alt="" coords="263,57,434,85"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="508,57,435,65,434,59,508,51"/>
+<area shape="rect" id="Node000004" href="$d5/d60/classPHG4HitEval.html#a01e507ac99396484a9e138e92bf2cead" title="Construct PHG4HitEval from a PHG4Hit pointer." alt="" coords="5,5,201,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,22,201,22,201,16,244,16"/>
+<area shape="rect" id="Node000012" href="$db/d55/classPHG4EventActionClearZeroEdep.html#a2b307745507bc03d8009b45897cba97f" title="Clears zero energy deposition hits from all PHG4HitContainer nodes listed in nodename_set." alt="" coords="249,412,448,456"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="483,436,448,436,448,431,483,431"/>
+</map>

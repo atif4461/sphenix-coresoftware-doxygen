@@ -1,0 +1,27 @@
+<map id="TrkrHitSet::getHits" name="TrkrHitSet::getHits">
+<area shape="rect" id="Node000001" title="Get all hits." alt="" coords="284,376,424,404"/>
+<area shape="rect" id="Node000002" href="$dd/dc0/classTpcClusterBuilder.html#a0ccc39c3be0dddc61924ba6856176c40" title="Build clusters from TPC hits for a given truth track." alt="" coords="48,5,193,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="348,361,340,300,321,220,306,177,287,136,263,98,234,64,214,50,192,41,194,36,217,46,237,60,267,95,292,134,311,175,326,218,345,299,353,361"/>
+<area shape="rect" id="Node000003" href="$de/de5/classTrkrHitSetTpcv1.html#a0c995bb125b71410f69160b36336083e" title="Deprecated function getHits returns hit collection." alt="" coords="31,74,210,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="346,362,336,308,316,241,301,206,283,173,261,142,234,115,209,101,212,96,237,111,265,138,287,170,306,204,321,239,341,307,352,361"/>
+<area shape="rect" id="Node000004" href="$d7/db1/classLaserEventIdentifier.html#a51a0d5c6fc22c5a38a11e4d39ba25b40" title="Process a single event and identify laser signatures." alt="" coords="45,125,196,170"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="342,363,327,323,304,274,274,226,234,184,216,173,195,164,197,159,218,168,237,180,278,223,309,272,332,321,347,361"/>
+<area shape="rect" id="Node000005" href="$d0/dc0/classPHG4MicromegasDigitizer.html#a4aa5f53d284e5ffbd447698cd933da52" title="event processing" alt="" coords="24,195,217,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="334,365,293,308,266,279,234,254,213,242,215,238,237,249,269,275,297,305,339,362"/>
+<area shape="rect" id="Node000006" href="$d7/ddb/classPHG4TpcElectronDrift.html#aeea2d1046042fabf274bc85a6221955f" title="Process event for TPC electron drift simulation." alt="" coords="40,264,201,309"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="318,370,279,346,235,323,201,310,203,306,237,319,281,341,321,366"/>
+<area shape="rect" id="Node000007" href="$d9/d15/classPHG4TpcPadBaselineShift.html#a3bb5562810279bd00fe4e241d8f94d52" title="Process a single event and apply baseline shift to TPC pad ADC values." alt="" coords="26,333,215,378"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="268,380,215,372,216,367,269,375"/>
+<area shape="rect" id="Node000008" href="$d4/d1d/classTpc3DClusterizer.html#a93d017d1dd124d9b80802fdc11d9bfd6" title="Process a single event within the Fun4All framework." alt="" coords="25,403,216,447"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="269,406,217,413,216,408,268,400"/>
+<area shape="rect" id="Node000009" href="$da/d87/classTpcClusterQA.html#a889cbf89016d5d74919d594afd112b2c" title="Process a single event within the Fun4All framework." alt="" coords="37,472,204,517"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="321,415,281,439,237,462,206,474,204,469,235,457,279,435,318,411"/>
+<area shape="rect" id="Node000010" href="$d2/d1a/classTpcCombinedRawDataUnpacker.html#a8e6a15ecbd82563278cdb842c8426a92" title="Process a single event from the node tree." alt="" coords="5,541,236,586"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="339,419,297,476,269,506,237,531,215,543,213,538,234,527,266,502,293,472,334,416"/>
+<area shape="rect" id="Node000011" href="$dd/dc4/classTpcCombinedRawDataUnpackerDebug.html#a5f20b1491f0026ece1a2997e917e4c1b" title="Process event for TpcCombinedRawDataUnpackerDebug." alt="" coords="5,611,236,655"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="347,420,332,460,309,509,278,558,237,600,219,612,216,608,234,596,274,555,304,506,327,458,342,418"/>
+<area shape="rect" id="Node000012" href="$d3/d9e/classTpcRawWriter.html#a2532df233f446e0b67f790d31f45d1ad" title="Process a single event for the TpcRawWriter module." alt="" coords="35,680,206,725"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="351,420,340,473,319,540,286,609,264,641,237,670,207,688,205,684,234,666,260,638,281,607,314,538,335,472,346,419"/>
+<area shape="rect" id="Node000013" href="$da/d35/classDumpTrkrHitSetContainer.html#a509b2816e46e11ea2f8fa1d02300a95b" title="Process a PHNode containing a TrkrHitSetContainer and dump its contents to the output stream." alt="" coords="27,749,214,794"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="354,420,347,485,329,571,314,616,294,661,269,702,237,739,216,754,213,750,234,735,265,699,289,658,309,614,324,569,342,484,349,419"/>
+</map>

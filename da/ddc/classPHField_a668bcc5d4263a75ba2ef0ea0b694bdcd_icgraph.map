@@ -1,0 +1,34 @@
+<map id="PHField::Verbosity" name="PHField::Verbosity">
+<area shape="rect" id="Node000001" title="verbosity" alt="" coords="468,391,607,418"/>
+<area shape="rect" id="Node000002" href="$db/d49/classPHField2D.html#a3967dac3c2afbec93125b8caba3ed382" title="Compute magnetic field components in cylindrical coordinates at a given point using bilinear interpol..." alt="" coords="244,5,416,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="532,375,525,310,507,224,492,178,473,133,448,91,418,53,392,36,395,31,422,49,453,87,478,130,497,176,512,222,530,309,538,375"/>
+<area shape="rect" id="Node000003" href="$db/d49/classPHField2D.html#a397e9686219f6bec316aec10e7642124" title="Compute the magnetic field vector at a Cartesian point using the internal cylindrical field map." alt="" coords="5,31,192,58"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="532,375,524,316,506,239,491,200,472,162,448,127,418,97,381,80,324,66,192,52,193,46,325,61,382,75,422,93,452,124,477,159,496,198,511,238,530,315,537,375"/>
+<area shape="rect" id="Node000004" href="$d5/dc1/classPHField3DCylindrical.html#a8a891d1a7469b2536f8342e9b67b4f3f" title="Interpolates the magnetic field at a given cylindrical coordinate." alt="" coords="251,108,408,152"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="526,377,512,333,490,279,459,223,418,173,393,155,396,150,422,169,463,220,495,277,517,331,531,375"/>
+<area shape="rect" id="Node000005" href="$d5/dc1/classPHField3DCylindrical.html#a0afdb27ceb8413f69c21bed5de97b07e" title="Compute the magnetic field vector at a given Cartesian point using a cylindrical field map." alt="" coords="20,150,177,195"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="525,377,510,339,488,295,458,252,418,217,391,202,361,190,297,174,234,168,178,168,178,162,235,162,298,169,362,185,393,197,422,213,462,249,493,292,515,337,530,375"/>
+<area shape="rect" id="Node000006" href="$db/d49/classPHField2D.html#ac4a3f9b0fc3d50c6c7504fbcc70470f0" title="Compute the magnetic field vector in cylindrical coordinates at a given point without using cached va..." alt="" coords="244,228,416,272"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="513,380,471,337,418,293,386,275,389,270,422,289,475,333,516,377"/>
+<area shape="rect" id="Node000007" href="$db/d49/classPHField2D.html#a4e84c49e15838c21267ecf85dc1072ea" title="access field value" alt="" coords="5,245,192,290"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="503,384,464,360,419,338,362,318,302,302,192,281,193,276,303,297,363,313,421,333,467,355,506,379"/>
+<area shape="rect" id="Node000008" href="$d0/dc2/classPHField3DCartesian.html#ab5ba46e03731be04966457f0cdc79d0c" title="Retrieve magnetic field vector at a given point using trilinear interpolation of a Cartesian field ma..." alt="" coords="255,348,405,392"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="452,393,405,385,406,380,453,388"/>
+<area shape="rect" id="Node000009" href="$db/d51/classPHFieldInterpolated.html#acb0ce78ac26a435bfc152dee9ece8266" title="Retrieve magnetic field vector at a given point using interpolation." alt="" coords="255,417,404,462"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="453,421,406,429,405,424,452,416"/>
+<area shape="rect" id="Node000010" href="$d0/dc2/classPHField3DCartesian.html#a856fa1852f6c5cd20c4d713f340cee18" title="Compute magnetic field at a point without using cache." alt="" coords="240,486,420,531"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="504,429,421,476,395,488,393,483,419,471,501,425"/>
+<area shape="rect" id="Node000011" href="$db/d51/classPHFieldInterpolated.html#a925e5008a408bf2b4628ac7a72775a5f" title="Loads the fieldmap from a ROOT file, expects specific contents." alt="" coords="255,556,404,600"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="522,433,481,489,453,519,422,545,402,557,399,553,418,541,449,515,476,486,518,430"/>
+<area shape="rect" id="Node000012" href="$db/d49/classPHField2D.html#a40312a4b2b0702dfc9303e0945da5989" title="Constructor for PHField2D loads a 2D magnetic field map from a ROOT file." alt="" coords="248,624,412,652"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="531,434,516,475,493,523,462,572,422,615,403,626,400,621,418,610,458,569,489,521,511,472,526,432"/>
+<area shape="rect" id="Node000013" href="$d5/dc1/classPHField3DCylindrical.html#af8869983144df87df61a1d259ec459a3" title="Construct magnetic field object from cylindrical field map file." alt="" coords="247,676,412,720"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="533,434,521,483,499,545,467,609,446,638,422,665,406,677,403,673,418,661,442,635,462,606,494,543,516,482,528,433"/>
+<area shape="rect" id="Node000014" href="$db/d51/classPHFieldInterpolated.html#a01d8d694d680ca0796673676722fa7a9" title="Print detailed information about the interpolated field to the given output stream." alt="" coords="255,745,404,790"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="537,434,528,496,508,575,493,618,474,660,451,699,422,734,406,747,403,743,418,731,446,696,470,657,489,616,503,574,523,495,531,433"/>
+<area shape="rect" id="Node000015" href="$d0/dc2/classPHField3DCartesian.html#a76a248691a8c9882bd8e12c8623c1526" title="destructor" alt="" coords="245,814,414,859"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="539,434,534,507,517,605,502,658,482,710,456,759,422,804,408,816,404,812,418,800,451,757,477,708,497,656,512,604,528,506,533,434"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="229,33,192,37,192,32,229,28"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="237,150,178,161,177,155,236,144"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="229,260,192,263,192,258,229,255"/>
+</map>

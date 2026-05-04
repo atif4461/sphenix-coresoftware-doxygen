@@ -1,0 +1,64 @@
+<map id="CDBTTree::GetIntValue" name="CDBTTree::GetIntValue">
+<area shape="rect" id="Node000001" title="Retrieve integer calibration value for a given channel and field name." alt="" coords="801,550,970,578"/>
+<area shape="rect" id="Node000002" href="$d4/d49/classCentralityReco.html#a1602cc347563bb71ebdd93bb7262a4ca" title="Load centrality vertex scaling factors from a ROOT calibration file." alt="" coords="540,5,730,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="878,535,862,431,835,289,817,218,797,153,775,100,751,64,729,48,732,44,755,60,780,97,802,151,822,216,840,288,867,430,883,534"/>
+<area shape="rect" id="Node000004" href="$d7/ded/classMinimumBiasClassifier.html#a87e47a52fcfe5657dd442a94c63f2401" title="Download centrality vertex scales from a calibration database file." alt="" coords="532,74,738,136"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="881,534,874,458,855,356,838,300,816,246,787,195,751,150,737,137,740,133,755,146,792,192,821,244,843,299,860,354,879,458,886,534"/>
+<area shape="rect" id="Node000006" href="$db/d8c/classMbdCalib.html#a8fe9511485912a47fa210f08979df753" title="Load sample maximum calibration values from a database file." alt="" coords="558,160,713,205"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="879,535,869,470,848,384,831,340,810,296,784,255,752,219,733,206,712,196,714,192,736,201,755,215,788,252,815,293,836,337,853,383,875,468,884,534"/>
+<area shape="rect" id="Node000008" href="$db/d8c/classMbdCalib.html#a0103ee403d288aa47aa0537debe5bda4" title="Load MBD shape and shape error calibrations from a database file." alt="" coords="558,229,713,274"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="876,536,862,483,838,416,802,347,779,316,752,288,733,276,712,267,715,262,736,271,755,284,783,312,807,344,843,414,868,481,881,534"/>
+<area shape="rect" id="Node000009" href="$db/d8c/classMbdCalib.html#a2cc2212db7a228b1f374a37d91b5592c" title="Download and interpolate slewing correction constants for MBD channels." alt="" coords="558,299,713,343"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="872,537,854,497,828,448,794,399,752,358,712,338,714,333,755,354,798,396,833,445,859,494,877,535"/>
+<area shape="rect" id="Node000010" href="$db/d8c/classMbdCalib.html#a9bb0210b36e211958c0ec24d424cbedb" title="Load MBD status calibration from a ROOT or text file." alt="" coords="558,368,713,413"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="864,539,817,482,786,453,752,427,712,409,714,404,755,423,790,449,821,479,868,535"/>
+<area shape="rect" id="Node000011" href="$db/d8c/classMbdCalib.html#ae5685e23c9c509bec88a918271787024" title="Load time correction calibration for MBD from a database file." alt="" coords="558,437,713,482"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="846,544,802,520,752,497,712,483,714,478,754,492,804,515,849,539"/>
+<area shape="rect" id="Node000012" href="$db/d8c/classMbdCalib.html#aea76a61ef996da7bff4ff568eda260b8" title="Download and interpolate time RMS calibration for MBD channels." alt="" coords="558,507,713,551"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="786,553,713,542,714,537,786,547"/>
+<area shape="rect" id="Node000013" href="$dc/d28/classTpcTimeFrameBuilder.html#a1ad816de46c8ebb4bb059ea938d5a330" title="Fill the internal map of masked front‑end electronics (FEE) using the TPC decoder bad FEE calibration..." alt="" coords="553,576,717,621"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="787,580,718,590,717,584,786,575"/>
+<area shape="rect" id="Node000014" href="$dd/deb/classPHG4InttHitReco.html#af9bc0032d47b173b9a79346bdc06078f" title="module initialization" alt="" coords="543,644,727,672"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="850,588,805,613,754,636,718,646,716,641,752,630,803,608,847,584"/>
+<area shape="rect" id="Node000015" href="$d4/d56/classMvtxPixelMask.html#a4ee4c44f2ba1037b5d987c81c9273f3e" title="Load hot pixel map from CDB for MVTX detector." alt="" coords="557,696,713,741"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="865,591,817,639,787,664,755,686,715,703,713,698,752,681,784,660,814,635,861,588"/>
+<area shape="rect" id="Node000016" href="$d1/dc0/classInttBCOMap.html#a00094785acfa4bf1bf7c833a563560fe" title="Load BCO offset map from a CDBTTree object." alt="" coords="518,764,752,792"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="875,593,857,630,831,674,797,718,755,755,733,766,731,762,752,751,793,715,827,671,853,627,871,590"/>
+<area shape="rect" id="Node000019" href="$dd/d02/classInttDacMap.html#a2afd3d14482c78e67bbf64f96d3ca6ef" title="Load DAC mapping from a CDB TTree into the internal map." alt="" coords="520,816,751,844"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="880,593,864,640,839,698,803,756,781,783,755,806,733,818,731,814,752,802,777,779,799,753,834,695,859,638,874,591"/>
+<area shape="rect" id="Node000022" href="$da/d60/classMicromegasHotChannelMapData.html#aff548d081303bf022fab0f5e26af267c" title="read calibration from file" alt="" coords="517,868,753,913"/>
+<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="882,593,869,649,845,720,829,758,808,794,784,828,755,858,738,870,735,865,752,854,780,825,804,791,824,755,840,718,864,648,877,592"/>
+<area shape="rect" id="Node000023" href="$d3/d3c/classInttBadChannelMap.html#ad7132ac5d99aa6eb6163d183a58742eb" title="Load bad channel map from CDBTTree." alt="" coords="554,937,717,982"/>
+<area shape="poly" id="edge27_Node000001_Node000023" title=" " alt="" coords="885,593,876,661,855,751,838,798,816,845,789,889,755,927,738,940,718,949,716,944,735,935,752,923,785,885,812,842,833,796,850,749,871,660,880,593"/>
+<area shape="rect" id="Node000027" href="$d6/d85/classInttSurveyMap.html#a385c53134645c4e29e04d0245f78ddfa" title="Load absolute transform map from CDB TTree." alt="" coords="534,1007,737,1051"/>
+<area shape="poly" id="edge31_Node000001_Node000027" title=" " alt="" coords="887,593,882,673,864,781,847,839,824,896,794,949,755,996,739,1009,736,1005,751,992,790,946,819,893,842,837,859,779,877,672,882,593"/>
+<area shape="rect" id="Node000003" href="$d4/d49/classCentralityReco.html#a6793f20c0e2236118a5d7d07f11ba4d1" title="full initialization" alt="" coords="275,14,446,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="525,30,447,30,447,25,525,25"/>
+<area shape="rect" id="Node000005" href="$d7/ded/classMinimumBiasClassifier.html#aadd6a9d717f4723f7fd81c2091595cda" title="Initialize run specific parameters and download centrality scales." alt="" coords="275,83,446,127"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="517,108,447,108,447,102,517,102"/>
+<area shape="rect" id="Node000007" href="$db/d8c/classMbdCalib.html#a2453405432a18d4fe4e6db9b7fed26a9" title="Download all MBD calibration constants from CDB or local directory." alt="" coords="271,342,450,370"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="544,207,518,219,474,249,434,283,376,343,372,339,430,279,471,245,516,215,542,203"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="544,280,518,289,450,317,392,344,390,339,448,312,516,284,542,275"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="542,335,451,347,450,342,542,330"/>
+<area shape="poly" id="edge12_Node000010_Node000007" title=" " alt="" coords="542,381,450,370,451,364,542,376"/>
+<area shape="poly" id="edge14_Node000011_Node000007" title=" " alt="" coords="542,437,516,427,448,399,390,373,392,368,450,395,518,423,544,432"/>
+<area shape="poly" id="edge16_Node000012_Node000007" title=" " alt="" coords="542,509,516,497,471,467,430,432,372,372,376,368,434,428,474,462,518,492,544,504"/>
+<area shape="rect" id="Node000017" href="$d1/dc0/classInttBCOMap.html#a99aaa72db2d032b8d061a6f67ae2f5ac" title="Load InttBCOMap data from a specified file." alt="" coords="264,764,458,792"/>
+<area shape="poly" id="edge21_Node000016_Node000017" title=" " alt="" coords="502,781,458,781,458,776,502,776"/>
+<area shape="rect" id="Node000018" href="$d1/dc0/classInttBCOMap.html#a84b9ff2d2a4200c8340adb260e2f53a7" title="Load calibration data from CDB using given calibration name." alt="" coords="5,764,205,792"/>
+<area shape="poly" id="edge22_Node000017_Node000018" title=" " alt="" coords="248,781,205,781,205,776,248,776"/>
+<area shape="rect" id="Node000020" href="$dd/d02/classInttDacMap.html#a41f8b5a4f8a028aa3d8c24d462fb3c2d" title="Load calibration data from a file into the InttDacMap." alt="" coords="265,816,456,844"/>
+<area shape="poly" id="edge24_Node000019_Node000020" title=" " alt="" coords="504,833,457,833,457,828,504,828"/>
+<area shape="rect" id="Node000021" href="$dd/d02/classInttDacMap.html#ab9f0c98d41f8a0029f39ea02b3ffbc69" title="Load calibration data from CDB using provided calibration name." alt="" coords="7,816,203,844"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="249,833,204,833,204,828,249,828"/>
+<area shape="rect" id="Node000024" href="$d3/d3c/classInttBadChannelMap.html#a7ccf4e6d095058a49d8d75307190b17a" title="Load calibration data for InttBadChannelMap from a ROOT file or CDB entry." alt="" coords="267,946,455,974"/>
+<area shape="poly" id="edge28_Node000023_Node000024" title=" " alt="" coords="538,962,456,962,456,957,538,957"/>
+<area shape="rect" id="Node000025" href="$d3/d3c/classInttBadChannelMap.html#aeff4b2a884ecf60d3ed18e56b45e1269" title="Depreciated; use int Load(const&amp; std::string)" alt="" coords="26,903,184,947"/>
+<area shape="poly" id="edge29_Node000024_Node000025" title=" " alt="" coords="251,948,184,938,184,933,252,942"/>
+<area shape="rect" id="Node000026" href="$d3/d3c/classInttBadChannelMap.html#ad586e5d40e89670fccf59767eb90c6d1" title="Depreciated; use int Load(const&amp; std::string)" alt="" coords="26,972,184,1017"/>
+<area shape="poly" id="edge30_Node000024_Node000026" title=" " alt="" coords="252,977,184,986,184,981,251,972"/>
+<area shape="rect" id="Node000028" href="$d6/d85/classInttSurveyMap.html#ad2a417c766e54fe8aa49df30f0f21cc4" title="Load calibration data for InttSurveyMap from CDB using given name." alt="" coords="253,1006,469,1034"/>
+<area shape="poly" id="edge32_Node000027_Node000028" title=" " alt="" coords="518,1028,470,1026,470,1021,518,1022"/>
+<area shape="rect" id="Node000029" href="$d6/d85/classInttSurveyMap.html#a068bcaf51bfb2e47843908152d733bf4" title="Load an InttSurveyMap from a calibration file." alt="" coords="255,1058,466,1086"/>
+<area shape="poly" id="edge33_Node000027_Node000029" title=" " alt="" coords="519,1050,455,1060,454,1055,518,1044"/>
+</map>

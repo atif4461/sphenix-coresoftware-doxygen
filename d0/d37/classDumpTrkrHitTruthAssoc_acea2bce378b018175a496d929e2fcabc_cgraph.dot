@@ -1,0 +1,14 @@
+digraph "DumpTrkrHitTruthAssoc::process_Node"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="DumpTrkrHitTruthAssoc\l::process_Node",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Process a node to retrieve TrkrClusterContainer and output its identification."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHDataNode::getData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrkrClusterContainer\l::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d2c/classTrkrClusterContainer.html#aac989ac1a08d747a932ca102a73c0c84",tooltip="identify object"];
+}

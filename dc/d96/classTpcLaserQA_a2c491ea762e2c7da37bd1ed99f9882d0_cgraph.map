@@ -1,0 +1,34 @@
+<map id="TpcLaserQA::process_event" name="TpcLaserQA::process_event">
+<area shape="rect" id="Node000001" title="Process a single event for TPC laser QA." alt="" coords="5,325,162,370"/>
+<area shape="rect" id="Node000002" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="243,83,386,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,323,103,280,127,225,161,168,183,142,208,120,227,109,230,113,211,124,187,146,166,171,132,227,108,282,93,325"/>
+<area shape="rect" id="Node000008" href="$d0/d6e/classLaserClusterContainer.html#a8eaf41e53e37d3c0720be73b342a8f5f" title="return all clusters" alt="" coords="232,134,397,179"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="95,323,139,257,171,221,208,189,216,184,219,188,211,193,175,224,143,260,99,326"/>
+<area shape="rect" id="Node000009" href="$d2/d62/classLaserCluster.html#aa80a4b99e3a536780e3a5fcb4eddc5d6" title=" " alt="" coords="227,203,402,230"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="104,322,150,281,178,259,208,241,225,233,227,238,211,246,181,264,153,285,108,326"/>
+<area shape="rect" id="Node000010" href="$d2/d62/classLaserCluster.html#ab6c6a476ae0fa0e8d31430a0e666c77d" title=" " alt="" coords="233,255,396,282"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="134,322,209,293,236,284,238,289,211,298,136,327"/>
+<area shape="rect" id="Node000011" href="$d2/d62/classLaserCluster.html#a3717e58b7a1209beeab86bace0dd40fa" title=" " alt="" coords="221,307,408,334"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="162,335,205,330,206,336,162,341"/>
+<area shape="rect" id="Node000012" href="$d2/d62/classLaserCluster.html#a37fa7881ddeaeb8fd39960b866eb4c1d" title=" " alt="" coords="235,359,394,386"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="162,353,220,359,219,365,162,358"/>
+<area shape="rect" id="Node000013" href="$d2/d62/classLaserCluster.html#ab6806f93a668c58577cc1f58a6ce0a3b" title=" " alt="" coords="235,411,394,438"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="137,367,211,395,238,404,236,409,209,400,136,372"/>
+<area shape="rect" id="Node000014" href="$d2/d62/classLaserCluster.html#a0756e783230bd7344f6278c097ccb443" title=" " alt="" coords="232,463,397,490"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="108,368,153,409,181,430,211,447,227,455,225,460,208,452,178,434,150,413,104,372"/>
+<area shape="rect" id="Node000015" href="$d7/db0/namespaceTpcDefs.html#aafa0c31bf0892588a224d8f0726bff11" title="Get the side from hitsetkey." alt="" coords="249,515,380,542"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="99,368,143,434,174,470,211,500,235,511,233,516,208,504,171,474,139,438,95,371"/>
+<area shape="rect" id="Node000016" href="$dc/d05/classLaserEventInfo.html#adb2eacb8be50220a834f875dfe68eba2" title=" " alt="" coords="210,567,419,594"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="94,369,110,409,134,458,168,509,188,532,211,552,220,557,217,562,208,556,185,536,164,512,130,461,105,411,90,371"/>
+<area shape="rect" id="Node000003" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="467,57,648,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,86,451,80,452,85,387,92"/>
+<area shape="rect" id="Node000007" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="476,109,640,137"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="387,102,460,110,460,115,386,107"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="516,58,509,48,515,39,531,33,558,31,586,33,602,40,599,44,585,38,558,36,532,38,518,43,515,48,521,55"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="740,5,882,33"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="628,54,724,34,725,39,629,59"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="745,57,877,85"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="649,68,729,68,729,74,649,74"/>
+<area shape="rect" id="Node000006" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="696,109,926,137"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="629,83,725,103,724,108,628,88"/>
+</map>

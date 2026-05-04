@@ -1,0 +1,12 @@
+digraph "TrackFitUtils::surface_3Dline_intersection"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="TrackFitUtils::surface\l_3Dline_intersection",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute the intersection of a 3D line with a detector surface."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CosmicTrackQA::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d99/classCosmicTrackQA.html#ac0c144ffa14178e3b3268954771f066b",tooltip="Process a single event and fill QA histograms for cosmic tracks."];
+}

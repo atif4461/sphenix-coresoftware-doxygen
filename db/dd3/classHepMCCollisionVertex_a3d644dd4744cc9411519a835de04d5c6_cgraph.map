@@ -1,0 +1,70 @@
+<map id="HepMCCollisionVertex::process_event" name="HepMCCollisionVertex::process_event">
+<area shape="rect" id="Node000001" title="Process event to add HepMC collision vertex to the event map." alt="" coords="5,257,172,302"/>
+<area shape="rect" id="Node000002" href="$d5/dc4/classGlobalVertexMap.html#a62df09ef6203b585289b91d2d44e9c1d" title="Return a constant iterator to the beginning of the global vertex map." alt="" coords="223,5,400,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,256,109,211,134,154,170,95,193,67,218,44,225,39,228,43,221,48,196,71,175,98,139,156,114,213,99,257"/>
+<area shape="rect" id="Node000003" href="$d5/dc4/classGlobalVertexMap.html#ac206d95c5780106933392f0c95760ea2" title=" " alt="" coords="220,57,403,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="98,255,116,220,142,177,177,133,218,96,227,90,230,94,221,100,180,137,147,180,120,223,102,258"/>
+<area shape="rect" id="Node000004" href="$d1/d39/classGlobalVertex.html#a59fe1a00491bfa1a861b9001cda579ab" title=" " alt="" coords="237,109,386,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="105,255,152,201,183,172,218,148,231,141,233,146,221,152,187,176,156,205,109,258"/>
+<area shape="rect" id="Node000005" href="$d1/d39/classGlobalVertex.html#a5a8bcc3e3d9132c3302471d545077243" title=" " alt="" coords="237,161,386,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="121,254,166,226,219,199,238,192,240,197,221,204,169,231,124,259"/>
+<area shape="rect" id="Node000006" href="$d1/d39/classGlobalVertex.html#a57f73fa21221f16fbaead42c95b2833b" title=" " alt="" coords="237,213,386,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="171,257,234,242,235,248,172,262"/>
+<area shape="rect" id="Node000007" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="240,265,383,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="172,276,224,276,224,282,172,282"/>
+<area shape="rect" id="Node000013" href="$d5/d41/classPHHepMCGenEventMap.html#aea12fee022053b6699da5effa8c5363e" title="insert a event with specific embedding ID" alt="" coords="223,317,400,362"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="173,299,212,310,210,315,171,304"/>
+<area shape="rect" id="Node000015" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Get singleton instance of Fun4AllServer." alt="" coords="224,385,398,413"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="117,300,164,337,221,371,234,377,232,382,218,376,161,341,114,304"/>
+<area shape="rect" id="Node000020" href="$da/d29/classFun4AllServer.html#a8fb8dce491234faae7834d4fba2c5598" title=" " alt="" coords="1237,488,1411,516"/>
+<area shape="poly" id="edge36_Node000001_Node000020" title=" " alt="" coords="98,301,113,345,138,399,174,455,196,479,221,500,265,526,304,543,341,552,377,556,456,554,554,550,824,550,930,547,1037,538,1221,516,1222,521,1037,544,931,552,824,555,554,555,456,559,377,562,340,558,302,548,262,531,218,504,192,483,170,458,133,402,108,347,93,303"/>
+<area shape="rect" id="Node000025" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="1239,368,1409,396"/>
+<area shape="poly" id="edge37_Node000001_Node000025" title=" " alt="" coords="106,300,152,362,184,395,221,422,307,467,344,481,379,490,456,498,554,499,824,499,928,503,1010,507,1049,506,1090,501,1135,491,1188,474,1219,460,1248,442,1296,404,1299,409,1251,447,1221,465,1190,479,1137,496,1091,506,1049,511,1010,512,928,508,824,504,554,504,456,503,379,495,342,486,305,472,218,427,181,399,148,365,101,303"/>
+<area shape="rect" id="Node000028" href="$d7/d7b/classPHHepMCGenEvent.html#aa06fdba410c23e1c64bf4fc649a5f191" title="collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns" alt="" coords="223,597,400,642"/>
+<area shape="poly" id="edge30_Node000001_Node000028" title=" " alt="" coords="97,301,111,354,136,425,172,501,195,537,222,569,242,586,238,590,218,573,191,540,167,503,131,427,106,356,92,303"/>
+<area shape="rect" id="Node000008" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="465,265,646,293"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="383,276,449,276,449,282,383,282"/>
+<area shape="rect" id="Node000012" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="474,189,638,217"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="366,262,402,250,450,227,475,219,477,224,452,232,404,255,367,267"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="514,266,507,256,513,247,529,241,556,239,584,241,600,248,598,252,583,246,556,244,530,246,516,251,513,256,518,263"/>
+<area shape="rect" id="Node000009" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="752,273,894,301"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="647,279,737,282,737,287,647,285"/>
+<area shape="rect" id="Node000010" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="757,169,889,197"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="583,262,640,235,707,207,741,197,742,202,709,212,642,240,585,267"/>
+<area shape="rect" id="Node000011" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="708,221,938,249"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="644,262,719,249,720,255,644,267"/>
+<area shape="rect" id="Node000014" href="$d5/d41/classPHHepMCGenEventMap.html#abcfc1ad1ef0098a5de655849cea459da" title="Print summary of HepMC generated event map to provided stream." alt="" coords="467,317,644,362"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="401,336,451,336,451,342,401,342"/>
+<area shape="rect" id="Node000016" href="$da/d29/classFun4AllServer.html#a90e27f05f0b2e8b6fe462387b14bfb92" title="Construct a Fun4AllServer instance with the specified name." alt="" coords="451,385,660,413"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="399,405,435,405,435,411,399,410"/>
+<area shape="poly" id="edge29_Node000016_Node000015" title=" " alt="" coords="450,393,414,393,414,388,450,388"/>
+<area shape="rect" id="Node000017" href="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7" title="Constructor for Fun4AllBase validates module name." alt="" coords="728,325,918,353"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="620,382,743,354,744,359,621,387"/>
+<area shape="rect" id="Node000018" href="$da/d29/classFun4AllServer.html#aa1939c3e2c3113cce0a6415103b4f5a5" title="Initialize the Fun4All server and core infrastructure." alt="" coords="744,377,902,405"/>
+<area shape="poly" id="edge18_Node000016_Node000018" title=" " alt="" coords="661,393,729,391,729,397,661,399"/>
+<area shape="rect" id="Node000019" href="$da/d29/classFun4AllServer.html#a2ebfcdcf706670c98c189bfa93c3ff89" title="Initialize default node tree under given top node." alt="" coords="987,437,1188,465"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="888,403,1009,431,1007,436,886,408"/>
+<area shape="rect" id="Node000021" href="$d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e" title=" " alt="" coords="1014,369,1161,414"/>
+<area shape="poly" id="edge21_Node000018_Node000021" title=" " alt="" coords="902,388,998,388,998,394,902,394"/>
+<area shape="rect" id="Node000022" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="1250,279,1398,306"/>
+<area shape="poly" id="edge22_Node000018_Node000022" title=" " alt="" coords="901,379,936,362,952,344,958,324,966,303,984,285,1018,270,1055,260,1092,255,1130,253,1201,260,1262,272,1261,277,1201,265,1129,259,1092,260,1056,265,1020,275,987,289,970,306,963,325,956,347,939,367,903,384"/>
+<area shape="rect" id="Node000023" href="$da/d29/classFun4AllServer.html#a1d7daeb59511a7dc61a2566f4116a6ec" title="Register a histogram with the server histogram manager." alt="" coords="986,197,1189,225"/>
+<area shape="poly" id="edge23_Node000018_Node000023" title=" " alt="" coords="901,381,920,373,936,362,948,349,955,334,960,304,964,273,971,257,984,241,999,230,1002,235,988,245,976,260,969,274,965,305,960,336,953,352,939,367,922,378,903,386"/>
+<area shape="rect" id="Node000024" href="$da/d29/classFun4AllServer.html#a377f113767f24ce6413e678752ed7f53" title="Register a histogram manager with the server." alt="" coords="986,300,1189,344"/>
+<area shape="poly" id="edge24_Node000018_Node000024" title=" " alt="" coords="887,374,937,362,993,346,995,352,938,367,889,379"/>
+<area shape="rect" id="Node000026" href="$d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb" title="Record memory usage statistics for the current event to the configured output file." alt="" coords="1014,129,1161,174"/>
+<area shape="poly" id="edge27_Node000018_Node000026" title=" " alt="" coords="901,382,920,374,936,363,952,342,960,320,961,299,960,276,960,231,968,207,984,184,999,172,1002,176,988,188,972,210,965,231,965,276,967,299,965,321,957,344,940,366,922,379,903,387"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="1156,463,1242,482,1241,487,1155,468"/>
+<area shape="poly" id="edge25_Node000024_Node000022" title=" " alt="" coords="1189,307,1234,301,1235,306,1190,312"/>
+<area shape="poly" id="edge26_Node000024_Node000025" title=" " alt="" coords="1179,342,1252,361,1251,366,1178,347"/>
+<area shape="rect" id="Node000027" href="$d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281" title="Retrieve memory usage statistics from proc self smaps and accumulate PSS values for heap mmap and oth..." alt="" coords="1250,129,1398,174"/>
+<area shape="poly" id="edge28_Node000026_Node000027" title=" " alt="" coords="1161,148,1235,148,1235,154,1161,154"/>
+<area shape="rect" id="Node000029" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="536,613,575,641"/>
+<area shape="poly" id="edge31_Node000028_Node000029" title=" " alt="" coords="401,619,521,623,521,629,401,625"/>
+<area shape="poly" id="edge35_Node000029_Node000029" title=" " alt="" coords="535,624,513,613,508,607,508,599,523,590,556,587,585,589,601,597,603,608,591,619,587,614,598,606,597,600,583,594,556,592,525,595,513,602,513,605,516,609,537,620"/>
+<area shape="rect" id="Node000030" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="786,613,860,641"/>
+<area shape="poly" id="edge32_Node000029_Node000030" title=" " alt="" coords="575,624,771,624,771,630,575,630"/>
+<area shape="poly" id="edge33_Node000030_Node000030" title=" " alt="" coords="784,618,772,607,775,596,792,589,823,587,864,592,874,599,874,606,869,607,869,601,862,597,823,592,793,594,779,600,777,606,788,614"/>
+<area shape="rect" id="Node000031" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="1054,613,1120,641"/>
+<area shape="poly" id="edge34_Node000030_Node000031" title=" " alt="" coords="860,624,1039,624,1039,630,860,630"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="DumpPHG4TruthInfoContainer::process_Node" name="DumpPHG4TruthInfoContainer::process_Node">
+<area shape="rect" id="Node000001" title="Process a PHNode containing a PHG4TruthInfoContainer and dump its contents." alt="" coords="5,473,222,518"/>
+<area shape="rect" id="Node000002" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="276,5,440,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,472,121,392,130,337,143,276,163,213,190,151,224,93,268,43,271,40,275,44,272,46,229,97,194,154,168,215,149,278,135,338,126,392,118,473"/>
+<area shape="rect" id="Node000003" href="$da/d6c/classPHG4TruthInfoContainer.html#a199eceae9b8feabb9d0166096ebfc150" title=" " alt="" coords="270,57,447,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,472,128,403,155,307,175,255,200,204,231,155,268,112,271,109,275,113,272,116,235,158,205,207,180,258,160,309,133,404,120,473"/>
+<area shape="rect" id="Node000004" href="$da/d6c/classPHG4TruthInfoContainer.html#af1cc1556bdf0bba8743b5aa311356413" title=" " alt="" coords="270,126,447,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="118,472,134,414,164,337,208,254,236,216,268,181,272,178,275,182,272,185,240,219,212,257,168,339,139,416,123,473"/>
+<area shape="rect" id="Node000005" href="$da/d6c/classPHG4TruthInfoContainer.html#a12df5ae924f9b6b1c06e4718b4d54b1d" title="Get the number of vertices stored." alt="" coords="270,196,447,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="121,471,142,426,173,367,215,305,240,276,268,250,273,246,277,251,271,255,244,280,220,308,178,370,146,428,126,474"/>
+<area shape="rect" id="Node000006" href="$da/d6c/classPHG4TruthInfoContainer.html#a1ee31482bc1d9463f16bf4de90273c41" title="Get a range of iterators covering the entire container." alt="" coords="270,265,447,310"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="128,471,184,398,224,356,268,320,276,315,278,319,271,324,227,360,188,401,132,474"/>
+<area shape="rect" id="Node000007" href="$da/d6c/classPHG4TruthInfoContainer.html#ac6b9ed0a4bd663427a44f8b0518db0c3" title="Get a range of iterators covering the entire container." alt="" coords="270,334,447,379"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="143,470,200,430,268,389,280,383,282,388,271,394,203,435,146,475"/>
+<area shape="rect" id="Node000008" href="$da/d6c/classPHG4TruthInfoContainer.html#a020b1b1a912d07ee31b626b51d635495" title="Get a range of iterators covering the entire vertex container." alt="" coords="270,404,447,448"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="194,470,262,450,263,455,196,475"/>
+<area shape="rect" id="Node000009" href="$da/d6c/classPHG4TruthInfoContainer.html#a440dc9c68ddc6f2e41e940a4934aab4e" title="Return the maximum shower index stored in the container." alt="" coords="270,473,447,518"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="222,492,254,492,254,498,222,498"/>
+<area shape="rect" id="Node000010" href="$da/d6c/classPHG4TruthInfoContainer.html#a8456d49f2b0f0a0e3aa0bbe091c7da7b" title="Return the maximum track index stored in the particle map." alt="" coords="270,542,447,587"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="196,516,263,535,262,540,194,521"/>
+<area shape="rect" id="Node000011" href="$da/d6c/classPHG4TruthInfoContainer.html#a1ff8e3ccc44f74e6d5734cac72f18a56" title="Return the highest vertex index stored in the container." alt="" coords="270,612,447,656"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="146,516,203,556,271,597,282,602,280,607,268,602,200,560,143,520"/>
+<area shape="rect" id="Node000012" href="$da/d6c/classPHG4TruthInfoContainer.html#acd5f54707bfed6943da98bfdfe5a9be6" title="Retrieve the minimum shower index stored in the container." alt="" coords="270,681,447,726"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="132,516,188,589,227,630,271,666,278,671,276,675,268,671,224,634,184,593,128,520"/>
+<area shape="rect" id="Node000013" href="$da/d6c/classPHG4TruthInfoContainer.html#ae7951abf33f918c2abbe1aa4e26000f3" title="Return the smallest track index present in the particle map." alt="" coords="270,750,447,795"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="126,517,146,562,178,621,220,682,244,710,271,736,277,740,273,744,268,740,240,714,215,685,173,623,142,565,121,519"/>
+<area shape="rect" id="Node000014" href="$da/d6c/classPHG4TruthInfoContainer.html#a9315ff1168ea6becaf72264682818c14" title="Retrieve the smallest vertex index stored in the truth container." alt="" coords="270,820,447,864"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="123,517,139,574,168,651,212,733,240,771,272,805,275,808,272,812,268,809,236,775,208,736,164,653,134,576,118,519"/>
+<area shape="rect" id="Node000015" href="$da/d6c/classPHG4TruthInfoContainer.html#a8334188a994caf890a7b6c632d163a45" title="shower size" alt="" coords="270,889,447,934"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="120,517,133,586,160,681,180,733,205,784,235,832,272,875,275,877,271,881,268,878,231,835,200,786,175,735,155,683,128,587,115,518"/>
+<area shape="rect" id="Node000016" href="$da/d6c/classPHG4TruthInfoContainer.html#abfe91bf44191891fdd4c0993b2258ea5" title="track &#45;&gt; particle map size" alt="" coords="270,958,447,1003"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="119,517,128,597,152,710,171,772,197,834,230,892,272,944,274,946,270,950,268,948,226,895,193,836,166,774,147,712,123,598,113,518"/>
+</map>

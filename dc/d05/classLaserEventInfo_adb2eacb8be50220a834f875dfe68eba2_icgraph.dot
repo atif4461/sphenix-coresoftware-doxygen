@@ -1,0 +1,16 @@
+digraph "LaserEventInfo::isLaserEvent"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="LaserEventInfo::isLaserEvent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TpcCentralMembraneMatching\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/df6/classTpcCentralMembraneMatching.html#a418c7b666918cf5af33ef36655fc028e",tooltip="event processing"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TpcClusterizer::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d25/classTpcClusterizer.html#ac66fda514e9c1985f3f083ef79934137",tooltip="Process a single event performing TPC clustering using the Fun4All node tree."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TpcLaserQA::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d96/classTpcLaserQA.html#a2c491ea762e2c7da37bd1ed99f9882d0",tooltip="Process a single event for TPC laser QA."];
+}

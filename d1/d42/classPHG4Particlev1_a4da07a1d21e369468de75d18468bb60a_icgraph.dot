@@ -1,0 +1,14 @@
+digraph "PHG4Particlev1::set_name"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4Particlev1::set_name",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4DSTReader::add\l_particle",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dc9/classPHG4DSTReader.html#a800782dd1b7ce1294a4760d71f609708",tooltip="add a particle and associated vertex if _save_vertex"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4DSTReader::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853",tooltip="event processing method"];
+}

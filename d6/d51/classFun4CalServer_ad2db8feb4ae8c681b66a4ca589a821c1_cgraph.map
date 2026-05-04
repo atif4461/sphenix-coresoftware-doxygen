@@ -1,0 +1,24 @@
+<map id="Fun4CalServer::AdjustRichTimeStampForMultipleRuns" name="Fun4CalServer::AdjustRichTimeStampForMultipleRuns">
+<area shape="rect" id="Node000001" title="Adjust timestamps for Rich calibration covering multiple runs." alt="" coords="5,184,207,228"/>
+<area shape="rect" id="Node000002" href="$d6/d51/classFun4CalServer.html#a28ff7750ca43f4b764eee051a972eee5" title="Ensure the specified calibration table exists and contains all required columns, creating the table o..." alt="" coords="276,184,438,228"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,203,261,203,261,208,207,208"/>
+<area shape="rect" id="Node000004" href="$d6/d51/classFun4CalServer.html#a9425b2e0d6c05a50ba52750e48dd7508" title="Retrieve begin and end run timestamps in ticks." alt="" coords="255,101,459,146"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="175,180,271,148,273,153,177,186"/>
+<area shape="rect" id="Node000010" href="$d6/d51/classFun4CalServer.html#a3342334b1e6cb76ed6864f52ed3e8ced" title="Update a database table column for a given run number." alt="" coords="263,252,450,280"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="203,226,282,245,281,250,202,231"/>
+<area shape="rect" id="Node000003" href="$d6/d51/classFun4CalServer.html#aec902f8be02eeba1aa908acf063cc2e2" title="Attempt to establish ODBC connection to configured database with retry logic." alt="" coords="507,213,700,241"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="438,210,492,215,491,220,438,215"/>
+<area shape="rect" id="Node000005" href="$dc/d4a/classRunToTime.html#a0cca8ec56299eeb632f0ab32aa3b2333" title=" " alt="" coords="508,57,700,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="459,99,520,86,521,91,460,104"/>
+<area shape="rect" id="Node000006" href="$dc/d4a/classRunToTime.html#a1bee93a23fa478ffdf84109d7165c81e" title=" " alt="" coords="514,109,693,137"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="460,120,499,120,499,126,460,126"/>
+<area shape="rect" id="Node000007" href="$da/dc2/classPHTimeStamp.html#ad0ccc5b017225753abc423ff89fc0bed" title="Retrieve number of tics from stored binary time." alt="" coords="519,161,688,189"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="460,142,521,155,520,160,459,147"/>
+<area shape="rect" id="Node000008" href="$dc/d4a/classRunToTime.html#a48de36b60ad6e4093a3e8dd7e403e4b7" title="Returns the singleton instance of RunToTime." alt="" coords="526,5,682,33"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="396,98,447,70,506,43,528,36,530,41,508,48,450,75,398,103"/>
+<area shape="rect" id="Node000009" href="$dc/d4a/classRunToTime.html#a87518edc20f481793b4794638e36b15a" title=" " alt="" coords="748,5,922,33"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="682,16,732,16,732,22,682,22"/>
+<area shape="poly" id="edge10_Node000010_Node000003" title=" " alt="" coords="449,249,496,241,496,247,450,254"/>
+<area shape="rect" id="Node000011" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="518,265,689,293"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="451,268,503,271,503,276,451,274"/>
+</map>

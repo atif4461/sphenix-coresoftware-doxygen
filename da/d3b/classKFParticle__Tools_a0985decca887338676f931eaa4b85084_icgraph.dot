@@ -1,0 +1,26 @@
+digraph "KFParticle_Tools::calculateEllipsoidVolume"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="KFParticle_Tools::calculate\lEllipsoidVolume",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="KFParticle_Tools::buildMother",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d3b/classKFParticle__Tools.html#a8d61d2e7d543e07be44f1600df52728d",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="KFParticle_Tools::getCombination",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d3b/classKFParticle__Tools.html#a88501a6ab1ec57007e26be66705a49d1",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="KFParticle_eventReconstruction\l::buildChain",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/classKFParticle__eventReconstruction.html#a8eaf1011b0ed75eb915c26609e0a3182",tooltip="Used to reconstruct more complicated decays with up to four intermediate states."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="KFParticle_eventReconstruction\l::createDecay",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/classKFParticle__eventReconstruction.html#aaca26e12e1909c29e096a874797ead36",tooltip="Construct decay candidates using primary vertices and daughter particles."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="KFParticle_sPHENIX\l::process_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d72/classKFParticle__sPHENIX.html#aac7b97c325669f73559f04881cffae58",tooltip="Process a single event within the Fun4All framework."];
+  Node3 -> Node7 [id="edge6_Node000003_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="KFParticle_eventReconstruction\l::getCandidateDecay",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/classKFParticle__eventReconstruction.html#abda5c8b6d5b0cf1ae1fecbe6436913dc",tooltip="Basic building block for event reconstruction and selection."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="KFParticle_eventReconstruction\l::buildBasicChain",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4a/classKFParticle__eventReconstruction.html#aa34b02ebb9c1be33856e36b305f10811",tooltip="Used to reconstruct simple decays with no intermediate states."];
+  Node8 -> Node5 [id="edge8_Node000008_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node4 [id="edge9_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

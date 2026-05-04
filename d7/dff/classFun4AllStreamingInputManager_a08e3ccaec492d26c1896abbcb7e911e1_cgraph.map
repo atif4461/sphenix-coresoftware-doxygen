@@ -1,0 +1,94 @@
+<map id="Fun4AllStreamingInputManager::run" name="Fun4AllStreamingInputManager::run">
+<area shape="rect" id="Node000001" title="Run processing for streaming input manager." alt="" coords="5,803,261,831"/>
+<area shape="rect" id="Node000002" href="$d7/dff/classFun4AllStreamingInputManager.html#a7463cbfbeaf508e1d70b2e7e567fce56" title="Fill GL1 input pools and populate GL1 packet." alt="" coords="309,236,535,281"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,801,400,293,404,296,144,804"/>
+<area shape="rect" id="Node000019" href="$d7/dff/classFun4AllStreamingInputManager.html#a202dd64639923066e23340bb9818c67c" title="Fill INTt data from input streams into the InttRawHitContainer." alt="" coords="309,725,535,770"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="193,800,311,771,312,777,195,805"/>
+<area shape="rect" id="Node000022" href="$d7/dff/classFun4AllStreamingInputManager.html#a8607ddd7e31fdefa574161e63c630d16" title="Fill Micromegas raw hit container with streaming data." alt="" coords="309,795,535,839"/>
+<area shape="poly" id="edge27_Node000001_Node000022" title=" " alt="" coords="261,814,293,814,293,820,261,820"/>
+<area shape="rect" id="Node000024" href="$d7/dff/classFun4AllStreamingInputManager.html#a19fee5879805c753b11db0b80dc5dc4b" title="FillMvtx processes MVTX raw data and fills event header and hit containers." alt="" coords="309,939,535,983"/>
+<area shape="poly" id="edge34_Node000001_Node000024" title=" " alt="" coords="164,829,362,929,360,934,162,834"/>
+<area shape="rect" id="Node000032" href="$d7/dff/classFun4AllStreamingInputManager.html#abab3ab0c085855507153ecd0455bbc73" title="Fill TPC raw hit container from streaming input." alt="" coords="309,1267,535,1311"/>
+<area shape="poly" id="edge47_Node000001_Node000032" title=" " alt="" coords="145,830,401,1252,396,1255,141,833"/>
+<area shape="rect" id="Node000003" href="$dd/ded/classFun4AllSyncManager.html#ac26a18d021bf67c2575fa2116cd2b371" title=" " alt="" coords="622,176,779,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="528,233,606,216,607,221,529,238"/>
+<area shape="rect" id="Node000004" href="$de/d7e/classGl1Packet.html#a3ca6108c5cd9537ec229b05d723b5008" title=" " alt="" coords="628,74,773,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="441,234,500,176,539,144,582,117,612,104,615,109,584,122,542,149,504,180,445,238"/>
+<area shape="rect" id="Node000006" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="629,895,772,923"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="431,280,486,467,531,595,585,724,635,812,682,881,678,884,630,814,581,726,526,597,481,468,426,282"/>
+<area shape="rect" id="Node000012" href="$dd/dbb/classOfflinePacketv1.html#aefc19d727cfaf0926c636de9088f3342" title=" " alt="" coords="583,244,818,272"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="535,256,568,256,568,261,535,261"/>
+<area shape="rect" id="Node000013" href="$d4/da9/classFun4AllInputManager.html#abfff12e144bed4ba51059b48eea91f48" title=" " alt="" coords="621,5,780,50"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="433,234,456,197,490,150,532,101,582,60,605,47,608,52,584,65,536,105,494,153,461,200,438,237"/>
+<area shape="rect" id="Node000014" href="$d7/dff/classFun4AllStreamingInputManager.html#a791d9a4544dd6fe0cc3b25fb73dbb14e" title="Print information about streaming inputs based on the requested category." alt="" coords="866,520,1093,565"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="536,274,716,307,786,321,820,332,837,354,845,376,847,398,846,420,846,464,853,485,868,506,871,509,867,512,864,509,848,487,841,464,841,420,842,398,840,377,833,356,817,337,785,327,715,312,535,280"/>
+<area shape="rect" id="Node000017" href="$d4/da9/classFun4AllInputManager.html#af9bf7d76be5d2c0b10843ae734da9bbb" title=" " alt="" coords="900,451,1059,495"/>
+<area shape="poly" id="edge17_Node000002_Node000017" title=" " alt="" coords="450,233,508,194,544,175,582,161,649,142,705,130,731,130,759,134,788,144,820,161,854,188,884,220,909,257,929,295,958,371,974,434,969,436,953,373,924,297,904,259,880,223,851,192,817,166,786,149,757,139,731,135,705,136,650,147,584,166,546,180,511,198,453,238"/>
+<area shape="rect" id="Node000018" href="$d4/da9/classFun4AllInputManager.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="900,684,1059,729"/>
+<area shape="poly" id="edge18_Node000002_Node000018" title=" " alt="" coords="426,281,434,360,443,413,457,470,477,529,504,585,540,636,585,679,606,690,636,698,713,708,801,711,884,709,884,714,801,716,713,713,635,703,604,695,581,683,536,640,499,588,472,531,452,472,438,414,428,361,421,281"/>
+<area shape="rect" id="Node000005" href="$de/d7e/classGl1Packet.html#a78b06fb506eb2960b80d463cf22bb2bc" title=" " alt="" coords="901,74,1058,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="774,85,885,85,885,90,774,90"/>
+<area shape="rect" id="Node000007" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="889,932,1070,960"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="773,916,873,929,873,935,772,921"/>
+<area shape="rect" id="Node000011" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="897,856,1062,884"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="772,896,881,881,882,886,773,902"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="933,934,925,924,931,914,950,908,980,906,1012,908,1029,915,1027,920,1011,914,979,911,951,913,934,918,930,923,937,930"/>
+<area shape="rect" id="Node000008" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="1185,880,1326,908"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1056,929,1169,908,1170,913,1057,934"/>
+<area shape="rect" id="Node000009" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1189,932,1322,960"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="1071,944,1174,944,1174,949,1071,949"/>
+<area shape="rect" id="Node000010" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="1141,984,1370,1012"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="1057,958,1163,978,1162,984,1056,963"/>
+<area shape="rect" id="Node000015" href="$d4/da9/classFun4AllInputManager.html#af9f465f3fb429f87eead0729e7998847" title="Print information about registered SubsysReco objects." alt="" coords="1176,520,1335,565"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="1093,540,1160,540,1160,545,1093,545"/>
+<area shape="rect" id="Node000016" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="1418,528,1566,556"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="1335,540,1403,540,1403,545,1335,545"/>
+<area shape="poly" id="edge25_Node000019_Node000006" title=" " alt="" coords="509,768,536,780,577,804,615,831,676,883,672,887,611,835,574,808,534,785,507,773"/>
+<area shape="poly" id="edge26_Node000019_Node000018" title=" " alt="" coords="535,740,818,722,884,716,885,721,819,728,535,746"/>
+<area shape="rect" id="Node000020" href="$d8/d40/classInttRawHitContainer.html#a7853baf7759b2f9f6a3a2a72f16011fe" title=" " alt="" coords="624,416,777,461"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="427,724,446,672,478,604,522,532,550,500,581,471,608,455,611,460,585,475,554,503,527,536,482,606,451,674,432,726"/>
+<area shape="rect" id="Node000021" href="$d7/dff/classFun4AllStreamingInputManager.html#a4ddf24afac84389a8d6a3d4d502823eb" title="Fill the INTT input pool from all registered INTT input sources." alt="" coords="588,347,814,391"/>
+<area shape="poly" id="edge21_Node000019_Node000021" title=" " alt="" coords="424,724,439,661,468,574,489,527,514,481,545,439,581,402,586,398,589,402,585,406,549,442,519,484,494,530,473,576,444,662,430,726"/>
+<area shape="poly" id="edge22_Node000021_Node000014" title=" " alt="" coords="803,390,820,402,832,415,839,428,845,455,851,481,857,493,868,506,873,509,869,513,864,510,853,496,846,483,840,456,834,430,828,418,817,406,800,394"/>
+<area shape="poly" id="edge23_Node000021_Node000017" title=" " alt="" coords="784,389,819,401,917,441,915,446,817,406,782,394"/>
+<area shape="poly" id="edge24_Node000021_Node000018" title=" " alt="" coords="805,390,820,402,837,423,847,444,852,485,853,528,858,551,869,576,904,628,944,671,940,675,900,631,864,578,853,552,848,529,847,486,842,446,833,426,816,406,802,394"/>
+<area shape="poly" id="edge32_Node000022_Node000006" title=" " alt="" coords="493,837,643,887,641,892,491,843"/>
+<area shape="poly" id="edge33_Node000022_Node000018" title=" " alt="" coords="535,796,818,744,884,728,885,733,819,749,536,802"/>
+<area shape="rect" id="Node000023" href="$d7/dff/classFun4AllStreamingInputManager.html#afc7e02f47cf006311a20c7ea63e6c75f" title="Fill Micromegas input pool and verify run number consistency." alt="" coords="588,485,814,530"/>
+<area shape="poly" id="edge28_Node000022_Node000023" title=" " alt="" coords="519,792,533,781,553,751,560,722,560,692,556,663,552,632,552,602,560,571,581,541,583,538,587,542,585,544,565,574,557,603,557,632,561,662,566,692,566,722,557,753,537,784,523,796"/>
+<area shape="poly" id="edge29_Node000023_Node000014" title=" " alt="" coords="815,519,851,524,851,529,814,524"/>
+<area shape="poly" id="edge30_Node000023_Node000017" title=" " alt="" coords="814,491,884,482,884,487,815,496"/>
+<area shape="poly" id="edge31_Node000023_Node000018" title=" " alt="" coords="796,528,820,540,861,570,898,604,955,670,951,673,894,608,857,574,817,545,793,533"/>
+<area shape="poly" id="edge45_Node000024_Node000006" title=" " alt="" coords="535,937,613,923,614,928,536,942"/>
+<area shape="poly" id="edge46_Node000024_Node000018" title=" " alt="" coords="467,936,582,881,648,855,700,838,752,821,817,793,927,735,929,739,819,798,754,826,702,843,650,860,584,886,469,940"/>
+<area shape="rect" id="Node000025" href="$d5/dd4/classMvtxRawEvtHeader.html#a763be37f571a6f7c5fca20fbf4c6ca27" title=" " alt="" coords="598,1068,804,1113"/>
+<area shape="poly" id="edge35_Node000024_Node000025" title=" " alt="" coords="458,982,515,1018,584,1053,601,1060,599,1065,582,1058,513,1022,455,986"/>
+<area shape="rect" id="Node000026" href="$d1/d5b/classMvtxRawHitContainer.html#a30e604de2312e40be1bc591a07b0159e" title=" " alt="" coords="618,1137,783,1182"/>
+<area shape="poly" id="edge36_Node000024_Node000026" title=" " alt="" coords="441,982,499,1052,539,1090,584,1123,605,1133,603,1138,582,1127,536,1094,495,1055,437,985"/>
+<area shape="rect" id="Node000027" href="$d5/dd4/classMvtxRawEvtHeader.html#a243b22e63a29530ce79a5fa76606de93" title=" " alt="" coords="592,947,809,975"/>
+<area shape="poly" id="edge37_Node000024_Node000027" title=" " alt="" coords="535,958,576,958,576,964,535,964"/>
+<area shape="rect" id="Node000028" href="$d2/dff/namespaceMvtxRawDefs.html#a2fa3d71babe42f6dad04f21f4623c865" title="Decode fee identifier into link identifier components." alt="" coords="617,999,784,1043"/>
+<area shape="poly" id="edge38_Node000024_Node000028" title=" " alt="" coords="529,981,602,997,601,1002,528,987"/>
+<area shape="rect" id="Node000029" href="$d7/dff/classFun4AllStreamingInputManager.html#ace60fbe3a398ccc612c6f860ad7b0adf" title="Fill Mvtx input pool and verify run number consistency." alt="" coords="588,555,814,599"/>
+<area shape="poly" id="edge39_Node000024_Node000029" title=" " alt="" coords="454,936,496,899,516,876,533,850,546,816,551,785,548,726,547,698,549,669,560,640,581,610,583,607,587,611,585,613,564,642,554,670,552,698,554,726,557,785,552,818,537,853,520,879,499,903,457,940"/>
+<area shape="rect" id="Node000030" href="$d2/dff/namespaceMvtxRawDefs.html#ab162f4564bf76467645c6fb1427e4a50" title="Retrieve the Felix endpoint mapping for a given layer and stave." alt="" coords="618,1207,783,1251"/>
+<area shape="poly" id="edge43_Node000024_Node000030" title=" " alt="" coords="435,983,456,1027,488,1084,531,1142,557,1169,585,1192,606,1205,603,1209,581,1197,553,1173,527,1146,484,1087,451,1030,430,985"/>
+<area shape="poly" id="edge40_Node000029_Node000014" title=" " alt="" coords="814,560,851,556,851,561,815,566"/>
+<area shape="poly" id="edge41_Node000029_Node000017" title=" " alt="" coords="789,552,817,540,841,523,865,505,884,497,886,502,868,510,844,527,820,545,791,557"/>
+<area shape="poly" id="edge42_Node000029_Node000018" title=" " alt="" coords="788,597,819,609,880,640,934,673,931,678,878,645,817,614,786,602"/>
+<area shape="rect" id="Node000031" href="$d2/dff/namespaceMvtxRawDefs.html#a03ee7052b5e0c2ec9b170d91f459d067" title="Compute global stave index from layer and stave identifiers." alt="" coords="872,1215,1087,1243"/>
+<area shape="poly" id="edge44_Node000030_Node000031" title=" " alt="" coords="783,1226,856,1226,856,1232,783,1232"/>
+<area shape="poly" id="edge54_Node000032_Node000006" title=" " alt="" coords="428,1265,454,1190,492,1090,537,995,559,958,581,934,613,916,616,921,585,938,564,962,541,998,497,1093,459,1192,433,1267"/>
+<area shape="poly" id="edge56_Node000032_Node000018" title=" " alt="" coords="535,1294,617,1297,700,1294,771,1283,798,1274,817,1262,827,1248,836,1230,847,1183,851,1126,852,1063,850,938,854,885,864,844,879,814,899,785,940,738,944,742,903,788,884,816,869,846,859,886,856,938,857,1063,856,1126,852,1184,841,1232,832,1251,820,1266,800,1278,773,1288,701,1299,617,1302,535,1300"/>
+<area shape="rect" id="Node000033" href="$df/dc7/classTpcRawHitContainer.html#a765b09d63694f443e3274c25aefeaac4" title=" " alt="" coords="624,1327,778,1371"/>
+<area shape="poly" id="edge48_Node000032_Node000033" title=" " alt="" coords="529,1309,609,1327,608,1332,528,1315"/>
+<area shape="rect" id="Node000034" href="$d7/dff/classFun4AllStreamingInputManager.html#a80894c5ec6fad296335115c770f74ac9" title="Fill Tpc input pool and check run number consistency." alt="" coords="588,624,814,669"/>
+<area shape="poly" id="edge49_Node000032_Node000034" title=" " alt="" coords="429,1265,489,1105,581,883,633,772,678,681,683,683,637,774,585,885,494,1107,434,1267"/>
+<area shape="rect" id="Node000035" href="$df/dc7/classTpcRawHitContainer.html#a2ea84db09c222047ac43a39f15da429e" title=" " alt="" coords="624,1396,778,1441"/>
+<area shape="poly" id="edge53_Node000032_Node000035" title=" " alt="" coords="458,1310,515,1346,584,1381,610,1391,608,1396,582,1386,513,1350,455,1314"/>
+<area shape="rect" id="Node000036" href="$d9/d24/classPHObject.html#a079739b3b51fdbda7356e60ec50f055e" title="Clear Event." alt="" coords="638,1464,764,1492"/>
+<area shape="poly" id="edge55_Node000032_Node000036" title=" " alt="" coords="440,1310,498,1381,539,1419,584,1451,623,1466,621,1471,582,1455,535,1423,494,1384,436,1313"/>
+<area shape="poly" id="edge50_Node000034_Node000014" title=" " alt="" coords="782,621,817,609,915,569,917,574,819,614,784,626"/>
+<area shape="poly" id="edge51_Node000034_Node000017" title=" " alt="" coords="800,621,817,610,828,597,834,585,840,559,846,532,853,519,865,506,884,492,887,497,868,510,857,522,851,534,845,560,839,587,832,601,820,614,803,626"/>
+<area shape="poly" id="edge52_Node000034_Node000018" title=" " alt="" coords="808,667,885,683,884,689,807,672"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="TrackSeedHelper::get_xyz" name="TrackSeedHelper::get_xyz">
+<area shape="rect" id="Node000001" title="Retrieve the three dimensional position of a track seed." alt="" coords="267,187,456,215"/>
+<area shape="rect" id="Node000002" href="$db/d77/classPHGhostRejection.html#af845dfdc7b6743b74e786cf6b012096c" title="Identify and reject ghost tracks from the seed collection." alt="" coords="27,5,197,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="338,177,286,120,253,90,217,65,194,53,197,48,220,60,257,86,290,116,342,173"/>
+<area shape="rect" id="Node000003" href="$d5/de1/classHelicalFitter.html#a98485e999dddb90f86479a58eb7b53a3" title="Process a single event and perform helical or straight line fits for silicon and/or TPC track seeds." alt="" coords="33,75,191,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="319,182,218,134,187,122,188,117,220,129,321,177"/>
+<area shape="rect" id="Node000004" href="$de/d25/classPHGenFitTrkFitter.html#afcdaabc6fd73922bb522d7fa7ef3a775" title="Process Event, called for each event." alt="" coords="41,144,183,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="251,188,183,179,184,174,251,183"/>
+<area shape="rect" id="Node000005" href="$d4/d9e/classTpcSiliconQA.html#a2b48c5a176a25f0f42a37f290b62e748" title="Process a single event by comparing silicon and TPC track seeds and filling QA histograms." alt="" coords="30,213,194,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="251,219,195,227,194,222,251,214"/>
+<area shape="rect" id="Node000006" href="$dd/d92/classTrackSeedTrackMapConverter.html#ad4684e56d489fc441709416cc8047607" title="Convert track seeds into SvtxTrack objects and populate the output track map." alt="" coords="5,283,219,327"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="321,225,220,273,188,285,187,280,218,268,319,220"/>
+<area shape="rect" id="Node000007" href="$dc/d3a/classDumpTrackSeedContainer.html#af5342b08d7010e1576c91fec1be27274" title="Process a PHNode containing a TrackSeedContainer and dump its contents." alt="" coords="17,352,207,397"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="342,229,290,286,257,316,220,342,197,354,194,349,217,337,253,312,286,282,338,225"/>
+</map>

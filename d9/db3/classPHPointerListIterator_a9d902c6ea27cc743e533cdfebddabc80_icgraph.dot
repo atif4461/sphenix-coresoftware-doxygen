@@ -1,0 +1,14 @@
+digraph "PHPointerListIterator::pos"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHPointerListIterator::pos",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHCompositeNode::forgetMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dca/classPHCompositeNode.html#af8d7aa380f39781fd4144f7fc5208835",tooltip="Remove a child node from this composite unless the composite is marked for deletion."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHCompositeNode::prune",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dca/classPHCompositeNode.html#ae6e0314aae9e889782294aaeaa20dccf",tooltip="Recursively remove non persistent child nodes from this composite node."];
+}

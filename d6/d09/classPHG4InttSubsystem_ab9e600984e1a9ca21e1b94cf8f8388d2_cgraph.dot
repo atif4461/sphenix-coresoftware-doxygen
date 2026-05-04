@@ -1,0 +1,38 @@
+digraph "PHG4InttSubsystem::PHG4InttSubsystem"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4InttSubsystem::\lPHG4InttSubsystem",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="constructor"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4DetectorGroupSubsystem\l::AddDetId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a68b228254410e456701c89e673871b9c",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4DetectorGroupSubsystem\l::InitializeParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a98770d45ac9f2b315edd6eaae1236c50",tooltip="Initialize default parameters for detector group subsystem."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Fun4AllBase::Name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893",tooltip="Returns the name of this module."];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4DetectorGroupSubsystem\l::set_default_int_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#ab9097e7e005eb194daa206f2be1855c6",tooltip="Set a default integer parameter for a detector id."];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHParameters::set_double\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a75005aa44390e1eb574603b0b230152b",tooltip="Set double parameter in internal map."];
+  Node3 -> Node7 [id="edge6_Node000003_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHParameters::set_int\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a62881b44dd0564425633070316af66ec",tooltip="Set integer parameter in internal map."];
+  Node3 -> Node8 [id="edge7_Node000003_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHParameters::set_string\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a2ebd6e499647b20dd41ca164e71ca061",tooltip="Set string parameter in internal map."];
+  Node3 -> Node9 [id="edge8_Node000003_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4DetectorGroupSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a7aa94c0ddb8f6d69b4dc5a87aa16fd35",tooltip=" "];
+  Node1 -> Node4 [id="edge9_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4DetectorGroupSubsystem\l::PHG4DetectorGroupSubsystem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a8cdc204e3b2dee944c1dc1d4c198bcee",tooltip="Construct PHG4DetectorGroupSubsystem with given name and layer."];
+  Node10 -> Node4 [id="edge11_Node000010_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node11 [id="edge12_Node000010_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PHG4Subsystem::PHG4Subsystem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/df7/classPHG4Subsystem.html#a1c8a98a963d9ea436a70912c13180673",tooltip="constructor"];
+  Node11 -> Node12 [id="edge13_Node000011_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="SubsysReco::SubsysReco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477",tooltip=" "];
+  Node12 -> Node13 [id="edge14_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="Fun4AllBase::Fun4AllBase",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7",tooltip="Constructor for Fun4AllBase validates module name."];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="PHG4DetectorGroupSubsystem\l::SuperDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a6e3ca72b9e3ed37d83d3e4089a7322c7",tooltip=" "];
+}

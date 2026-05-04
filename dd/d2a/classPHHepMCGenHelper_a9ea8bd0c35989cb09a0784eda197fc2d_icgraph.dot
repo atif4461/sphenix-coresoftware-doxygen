@@ -1,0 +1,22 @@
+digraph "PHHepMCGenHelper::get_PHHepMCGenEvent_template"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHHepMCGenHelper::get\l_PHHepMCGenEvent_template",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="choice of reference version of the PHHepMCGenEvent"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHHepMCGenHelper::insert\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/d2a/classPHHepMCGenHelper.html#ab0c755f6e53c0bf57ccd314a0017d227",tooltip="send HepMC::GenEvent to DST tree. This function takes ownership of evt"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Fun4AllOscarInputManager\l::ConvertFromOscar",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d1f/classFun4AllOscarInputManager.html#a1537e89c4e652f70747fbbef18ceadc4",tooltip="Convert the next Oscar event from the input file into a HepMC::GenEvent."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Fun4AllOscarInputManager::run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d1f/classFun4AllOscarInputManager.html#abd9c677329f73038579c12aff1f8d42a",tooltip="Run input manager to process events up to nevents."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHPythia8::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d3a/classPHPythia8.html#a534c21ef917fe92922c6757a75ca84e1",tooltip="Process a single event within the Fun4All framework."];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="ReadEICFiles::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d49/classReadEICFiles.html#a7dd6da2318a9ea07bb3569bc2d5549c6",tooltip="Process a single event from the EIC input file and fill HepMC structures."];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="Fun4AllHepMCInputManager::run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d6f/classFun4AllHepMCInputManager.html#abc2abd5f69e96e3fb974376f5f258f80",tooltip="Run attempts to retrieve a valid HepMC event from input files."];
+}

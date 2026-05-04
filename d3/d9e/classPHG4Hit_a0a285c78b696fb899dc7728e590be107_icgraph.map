@@ -1,0 +1,21 @@
+<map id="PHG4Hit::get_layer" name="PHG4Hit::get_layer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="452,235,597,262"/>
+<area shape="rect" id="Node000002" href="$d9/d62/classSvtxHitEval.html#a550d25b9eb23e91b02afacc58edac5ac" title="Retrieve all tracker hit keys associated with a given Geant4 hit." alt="" coords="214,5,404,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="512,221,497,181,474,134,442,87,402,47,384,36,387,31,406,42,446,83,478,131,502,179,517,219"/>
+<area shape="rect" id="Node000003" href="$d1/d1e/classSvtxClusterEval.html#ae03ae27b5a477c3c426d6a5033c359b2" title="Retrieve the most representative truth PHG4Hit for a given cluster based on hit multiplicity." alt="" coords="235,57,383,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="504,224,461,169,433,141,403,116,382,104,384,100,405,112,437,137,465,166,508,220"/>
+<area shape="rect" id="Node000004" href="$d4/d30/classPHG4HitContainer.html#a8d14a2d99f5acb20d89828cb23c41ac0" title="Find or add a hit in the container identified by key." alt="" coords="216,126,402,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="486,229,403,186,375,174,377,169,405,181,488,224"/>
+<area shape="rect" id="Node000005" href="$d1/d1e/classSvtxClusterEval.html#abd7851ec294047271ce26d8824d2af81" title="Retrieve the global track identifier and detector layer for a given cluster based on associated truth..." alt="" coords="216,196,402,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="437,239,402,234,402,228,437,233"/>
+<area shape="rect" id="Node000007" href="$d3/d9e/classPHG4Hit.html#a4677e30b3f0d6dec33ea16750e287d56" title="Prints detailed hit information to the supplied output stream." alt="" coords="242,264,376,292"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="437,263,377,271,376,266,436,258"/>
+<area shape="rect" id="Node000008" href="$d3/d9e/classPHG4Hit.html#a0bc331aaf588180e354ba1cdbcae8aba" title="Stream insertion operator for PHG4Hit." alt="" coords="228,316,390,344"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="483,272,405,306,367,318,365,313,403,301,481,267"/>
+<area shape="rect" id="Node000009" href="$df/d93/classMbdDigitization.html#ac057a48a827f031ed90a4b605ed544ed" title="Process Event, called for each event." alt="" coords="218,368,400,412"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="503,275,460,317,405,357,382,369,380,365,403,353,456,313,499,272"/>
+<area shape="rect" id="Node000010" href="$d8/dc7/classMomentumEvaluator.html#a57a5a38c5590636286793eadcacddbad" title="Process a single event within the Fun4All framework." alt="" coords="226,437,392,482"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="514,277,473,351,442,391,406,427,387,438,384,434,402,422,438,388,468,348,509,275"/>
+<area shape="rect" id="Node000006" href="$d1/d1e/classSvtxClusterEval.html#aea125d30358376360f89706a917607c0" title="Retrieve cluster key with highest hit count for specified global track id and layer." alt="" coords="5,196,166,240"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="201,220,166,220,166,215,201,215"/>
+</map>

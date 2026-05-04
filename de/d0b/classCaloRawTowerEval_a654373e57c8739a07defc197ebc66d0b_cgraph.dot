@@ -1,0 +1,22 @@
+digraph "CaloRawTowerEval::all_towerinfos_from"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="CaloRawTowerEval::all\l_towerinfos_from",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve set of TowerInfo pointers associated with all towers that contain the given primary shower."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CaloRawTowerEval::all\l_truth_primary_showers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d0b/classCaloRawTowerEval.html#a5a2cdd97ddb786afa4de18ee12bc5bf2",tooltip="what primary showers contributed energy to this tower?"];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="RawTower::get_g4showers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dd8/classRawTower.html#ab13148d0de5d525fe7a490fffc04e50c",tooltip="Retrieve a constant range of Geant4 showers for this tower."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="CaloRawTowerEval::has\l_reduced_node_pointers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d0b/classCaloRawTowerEval.html#a90bd4095586faf2ef722a6baf8c79691",tooltip="has the eval initialized correctly for reduced sim DST nodes?"];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="CaloRawTowerEval::get\l_truth_eval",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d0b/classCaloRawTowerEval.html#a86c06b3d2cbb008904d9f0811f9ad9c9",tooltip="get a copy of the lower level truth eval and its memory cache"];
+  Node4 -> Node4 [id="edge5_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4Shower::get_id",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d88/classPHG4Shower.html#a67f9ec8ddb81a68b90ac138da013038c",tooltip=" "];
+  Node1 -> Node4 [id="edge7_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+}

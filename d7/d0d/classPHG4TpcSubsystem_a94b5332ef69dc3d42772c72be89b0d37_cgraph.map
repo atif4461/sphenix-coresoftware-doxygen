@@ -1,0 +1,36 @@
+<map id="PHG4TpcSubsystem::InitRunSubsystem" name="PHG4TpcSubsystem::InitRunSubsystem">
+<area shape="rect" id="Node000001" title="Initialize run subsystem for TPC detector." alt="" coords="5,237,212,282"/>
+<area shape="rect" id="Node000002" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="260,35,469,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,235,141,199,172,154,211,109,258,72,267,67,269,71,261,76,215,113,176,158,145,202,124,238"/>
+<area shape="rect" id="Node000006" href="$d5/d29/classPHG4DetectorSubsystem.html#a9767472c3a504c25eda9daa47432e04e" title=" " alt="" coords="272,86,457,131"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="135,234,190,192,258,148,284,135,286,140,261,152,193,196,138,239"/>
+<area shape="rect" id="Node000007" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="517,160,698,188"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="150,234,201,210,259,191,321,180,384,172,501,168,501,173,384,178,322,185,260,196,203,215,152,239"/>
+<area shape="rect" id="Node000010" href="$d5/d29/classPHG4DetectorSubsystem.html#abef5234e8adfbba5118da17fe018f97f" title="Retrieve integer parameter from subsystem." alt="" coords="272,206,457,251"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="212,244,256,239,257,244,212,249"/>
+<area shape="rect" id="Node000011" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="293,275,436,302"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="212,268,278,276,277,281,212,274"/>
+<area shape="rect" id="Node000013" href="$d5/d29/classPHG4DetectorSubsystem.html#ab759ff942f3492d59e538278340e4526" title=" " alt="" coords="272,326,457,371"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="173,280,261,311,281,318,279,323,259,316,171,285"/>
+<area shape="rect" id="Node000014" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="290,395,438,422"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="133,280,188,331,223,358,261,381,276,388,274,392,258,386,220,363,184,335,129,284"/>
+<area shape="rect" id="Node000015" href="$d5/d29/classPHG4DetectorSubsystem.html#ab73b8a36358fdc44d729a4cce40da44f" title=" " alt="" coords="272,446,457,491"/>
+<area shape="poly" id="edge19_Node000001_Node000015" title=" " alt="" coords="126,280,179,354,218,396,261,432,269,436,266,441,258,436,214,400,175,358,121,283"/>
+<area shape="rect" id="Node000003" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="790,92,932,120"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,60,517,71,775,97,774,102,517,76,445,66"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="794,29,928,57"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="437,31,517,21,608,16,699,21,779,29,778,34,698,26,608,21,517,26,438,37"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="536,35,679,62"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="469,46,521,46,521,51,469,51"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="818,30,811,20,816,11,833,5,861,3,891,5,907,12,905,16,889,10,861,8,834,10,820,15,816,20,822,27"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="679,44,779,42,779,48,680,50"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="661,157,791,122,793,127,663,162"/>
+<area shape="poly" id="edge9_Node000007_Node000007" title=" " alt="" coords="566,161,559,151,565,141,581,135,608,133,636,136,652,142,649,147,635,141,608,139,582,141,568,145,565,151,571,158"/>
+<area shape="rect" id="Node000008" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="795,152,927,180"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="699,168,779,166,779,171,699,174"/>
+<area shape="rect" id="Node000009" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="746,204,976,232"/>
+<area shape="poly" id="edge12_Node000007_Node000009" title=" " alt="" coords="692,186,763,198,762,203,691,191"/>
+<area shape="poly" id="edge15_Node000011_Node000007" title=" " alt="" coords="435,272,468,261,527,229,575,195,578,199,529,234,470,266,437,277"/>
+<area shape="rect" id="Node000012" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="526,275,690,302"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="437,286,510,286,510,291,437,291"/>
+</map>

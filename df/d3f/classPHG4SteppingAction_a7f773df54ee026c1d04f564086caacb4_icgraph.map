@@ -1,0 +1,20 @@
+<map id="PHG4SteppingAction::ValidCorrection" name="PHG4SteppingAction::ValidCorrection">
+<area shape="rect" id="Node000001" title="Determine if all light balance correction parameters are finite." alt="" coords="477,149,632,194"/>
+<area shape="rect" id="Node000002" href="$df/d3f/classPHG4SteppingAction.html#a368f400792bc8010c9275b10529b009c" title="Compute light correction factor for a given radius." alt="" coords="274,179,429,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="462,188,430,192,429,187,461,182"/>
+<area shape="rect" id="Node000005" href="$db/d97/classPHG4HcalSteppingAction.html#a8e7f7455c1bd0131036f960d54fdc973" title="stepping action" alt="" coords="23,5,208,50"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="470,146,225,65,189,53,190,48,226,60,472,141"/>
+<area shape="rect" id="Node000003" href="$df/d3f/classPHG4SteppingAction.html#a7c1317cf8ccd19c4434e8d7c5d32698f" title="Compute the light correction factor for a given transverse position." alt="" coords="38,75,193,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,173,225,134,193,122,195,117,227,129,302,168"/>
+<area shape="rect" id="Node000004" href="$d7/dc2/classPHG4EPDSteppingAction.html#ae1644f36e67123501e351509b3d12843" title="Process a Geant4 step for the EPD detector and create or update a hit." alt="" coords="25,144,206,189"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="258,190,206,182,207,177,259,185"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="321,168,270,108,224,64,202,53,205,48,227,60,274,105,325,165"/>
+<area shape="rect" id="Node000006" href="$d6/d5a/classPHG4IHCalSteppingAction.html#a80b1bb7c5e4fd749c047c1f99fe62e47" title="stepping action" alt="" coords="20,213,211,258"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="258,217,212,224,211,219,258,212"/>
+<area shape="rect" id="Node000007" href="$df/dec/classPHG4InnerHcalSteppingAction.html#a8e48a0e2268f23222bf8acddd9e7a34e" title="stepping action" alt="" coords="7,283,224,327"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="302,234,227,273,196,285,194,280,225,268,300,229"/>
+<area shape="rect" id="Node000008" href="$de/d05/classPHG4OHCalSteppingAction.html#a144944ad79035e5fdf4ac2e0443a7180" title="stepping action" alt="" coords="17,352,214,397"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="329,238,286,291,258,318,227,342,205,354,202,349,224,337,254,314,282,288,325,234"/>
+<area shape="rect" id="Node000009" href="$d3/d77/classPHG4OuterHcalSteppingAction.html#a212d3081cbabd0b44034b5467a86a5e2" title="stepping action" alt="" coords="5,421,226,466"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="340,238,323,278,299,325,267,371,227,411,209,423,206,418,224,407,263,368,294,322,318,276,335,236"/>
+</map>

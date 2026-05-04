@@ -1,0 +1,24 @@
+digraph "PHFlag::set_StringFlag"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHFlag::set_StringFlag",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set a string flag in the internal map."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4PhenixDetector\l::Construct",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d13/classPHG4PhenixDetector.html#a54bc771c5d554309435684a3532da656",tooltip="this is called by geant to actually construct all detectors"];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHFlag::get_StringFlag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da8/classPHFlag.html#abd4b4bae4e318fbf1280070271c87b2b",tooltip="Retrieve a string flag value by name, inserting a default if it does not exist."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4Reco::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d78/classPHG4Reco.html#afb33612dcc374f0614d800dc9480305a",tooltip="Initialize the PHG4Reco module for a new run."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/ded/CaloCDB-FilterDatasets_8cc.html#a814244b02f6701fd8ead246678bb3dae",tooltip="Entry point for the dataset filtering utility."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d7e/xml__test_8cc.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip="Entry point for the test program that reads a FASTJET configuration from an XML file and prints algor..."];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d32/Hijing_8cxx.html#a3c04138a5bfe5d72780bb7e82a18e627",tooltip="entry point for sHijing application"];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHFlag::ReadFromFile",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/da8/classPHFlag.html#a67e9c7f263da7802750fba8eef02fa81",tooltip="Read flag values from a text file."];
+}

@@ -1,0 +1,23 @@
+<map id="SvtxClusterEval::best_cluster_from" name="SvtxClusterEval::best_cluster_from">
+<area shape="rect" id="Node000001" title="Determine the cluster key with the highest energy contribution for a given truth hit." alt="" coords="5,111,166,155"/>
+<area shape="rect" id="Node000002" href="$d1/d1e/classSvtxClusterEval.html#a084923c9a81dba1d830b390970ac3c8d" title="Retrieve all reconstructed cluster keys associated with a given truth particle." alt="" coords="214,80,362,125"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,118,198,113,199,119,167,123"/>
+<area shape="rect" id="Node000010" href="$d1/d1e/classSvtxClusterEval.html#a03461dc91226065d40111184b3685b82" title="Compute energy contribution of a given particle to a cluster." alt="" coords="641,144,800,189"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="166,135,626,159,626,164,166,140"/>
+<area shape="rect" id="Node000003" href="$d1/d1e/classSvtxClusterEval.html#a376a1d2e98fc7e63fcb2801ae387bb38" title="Fill reconstruction cluster cache from G4 hit truth associations." alt="" coords="410,77,593,122"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,99,394,98,394,104,362,104"/>
+<area shape="rect" id="Node000004" href="$d1/d1e/classSvtxClusterEval.html#ae2d6f811db24d80dac0f4b247de56bcd" title="Retrieve set of truth particles associated with a given cluster key." alt="" coords="646,75,795,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="593,96,631,95,631,101,593,101"/>
+<area shape="rect" id="Node000005" href="$d1/d1e/classSvtxClusterEval.html#a19f61841db8edf09e606635a790b1d2c" title="Retrieve all truth PHG4Hit objects associated with a given cluster key." alt="" coords="850,75,998,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="795,94,834,94,834,100,795,100"/>
+<area shape="rect" id="Node000008" href="$d4/de4/classSvtxTruthEval.html#ae575fcf72ce935a72f3c5a157abdd900" title="Retrieve the PHG4Particle associated with a given PHG4Hit." alt="" coords="855,5,994,50"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="787,72,841,53,843,58,789,77"/>
+<area shape="rect" id="Node000009" href="$d1/d1e/classSvtxClusterEval.html#a3e3879bf6110b7442b437ba803c5abc8" title=" " alt="" coords="848,144,1001,189"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="789,117,843,136,841,141,787,122"/>
+<area shape="rect" id="Node000006" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="1049,45,1250,90"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="998,85,1033,80,1034,85,999,90"/>
+<area shape="rect" id="Node000007" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="1080,114,1220,142"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="999,104,1065,113,1064,119,998,110"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="787,141,841,122,843,127,789,146"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="800,164,832,164,832,169,800,169"/>
+</map>

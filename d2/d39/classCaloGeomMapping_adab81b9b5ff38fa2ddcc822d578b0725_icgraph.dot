@@ -1,0 +1,14 @@
+digraph "CaloGeomMapping::BuildDetailedGeometry"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="CaloGeomMapping::BuildDetailed\lGeometry",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Build detailed geometry for electromagnetic calorimeter."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="CaloGeomMapping::CreateGeomNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d39/classCaloGeomMapping.html#a799637d7b2bdd4ccb69486c20d9d1908",tooltip="Create geometry node for specified detector within the node tree."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CaloGeomMapping::Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d39/classCaloGeomMapping.html#a062a4db99a2e6645d206d4c2b97058d4",tooltip="Initialize CaloGeomMapping module and create geometry node."];
+}

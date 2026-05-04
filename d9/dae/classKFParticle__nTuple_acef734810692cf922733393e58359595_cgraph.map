@@ -1,0 +1,26 @@
+<map id="KFParticle_nTuple::initializeBranches" name="KFParticle_nTuple::initializeBranches">
+<area shape="rect" id="Node000001" title="Initialises required branches based off the user selection (number of tracks, PV constraints etc ) an..." alt="" coords="5,178,149,223"/>
+<area shape="rect" id="Node000002" href="$de/d8d/classKFParticle__triggerInfo.html#a8d54a37e6bae602beb37429222b2938c" title="Build trigger branches in output tree." alt="" coords="217,74,382,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,175,195,129,210,122,212,127,198,134,114,180"/>
+<area shape="rect" id="Node000009" href="$dd/de6/classKFParticle__truthAndDetTools.html#a55b1583c4dad523f97f0df0d326225ab" title="Initialize ROOT tree branches for calorimeter observables of a daughter particle." alt="" coords="197,144,402,188"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="149,187,181,182,182,187,149,192"/>
+<area shape="rect" id="Node000010" href="$dd/de6/classKFParticle__truthAndDetTools.html#a241c9d9285de9fd1bebc0451f5d3f055" title="Create branches in a ROOT TTree for detector‑specific information of a daughter particle." alt="" coords="197,213,402,258"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="149,209,182,214,181,219,149,214"/>
+<area shape="rect" id="Node000012" href="$dd/de6/classKFParticle__truthAndDetTools.html#adc3fb0b696e396989387460c96d7685b" title="Initialize truth branches for a daughter particle in the output tree." alt="" coords="197,282,402,327"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="114,221,198,267,212,274,210,279,195,272,112,226"/>
+<area shape="rect" id="Node000003" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="491,83,634,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="382,94,475,94,475,99,382,99"/>
+<area shape="rect" id="Node000004" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="723,57,905,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="635,87,708,79,708,84,635,92"/>
+<area shape="rect" id="Node000008" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="732,109,896,137"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="635,101,717,110,716,115,635,107"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="771,58,764,48,770,39,787,33,814,31,843,33,859,40,857,44,842,38,814,36,788,38,773,43,770,48,776,55"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="997,5,1138,33"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="885,54,981,34,982,39,886,59"/>
+<area shape="rect" id="Node000006" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1001,57,1134,85"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="905,68,986,68,986,74,905,74"/>
+<area shape="rect" id="Node000007" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="953,109,1182,137"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="886,83,982,103,981,108,885,88"/>
+<area shape="rect" id="Node000011" href="$dd/de6/classKFParticle__truthAndDetTools.html#adbefae3ba1472042ede2709d2892439b" title="Create TTree branches for subdetector specific tracking information of a daughter particle." alt="" coords="450,213,675,258"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="403,232,434,232,434,238,403,238"/>
+</map>

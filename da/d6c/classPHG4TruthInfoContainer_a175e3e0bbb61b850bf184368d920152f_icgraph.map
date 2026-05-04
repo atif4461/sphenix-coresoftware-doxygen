@@ -1,0 +1,28 @@
+<map id="PHG4TruthInfoContainer::GetParticle" name="PHG4TruthInfoContainer::GetParticle">
+<area shape="rect" id="Node000001" title="Retrieve particle pointer from container by track identifier." alt="" coords="497,279,674,323"/>
+<area shape="rect" id="Node000002" href="$db/db2/classTruthNeutralMesonBuilder.html#ac65a8d9ab7c8424f37216c29e20e24b6" title="Determine if a shower originates from a photon conversion." alt="" coords="259,75,449,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="551,269,503,220,447,168,387,122,390,118,451,164,507,216,555,265"/>
+<area shape="rect" id="Node000004" href="$d7/d6c/classTrkrTruthTrackContainerv1.html#a7e6e0b42aa1dbac113fe3e0633ccd2ae" title="Retrieve or create a truth track for a given identifier." alt="" coords="259,179,449,223"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="525,274,448,238,419,226,421,221,450,233,527,269"/>
+<area shape="rect" id="Node000005" href="$da/d6c/classPHG4TruthInfoContainer.html#a422cbc96a42020587ff934b08017a73e" title="Determine embedding flag for a given track identifier." alt="" coords="265,248,442,293"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="481,290,443,285,443,279,482,285"/>
+<area shape="rect" id="Node000009" href="$dc/d38/classPHG4ConsistencyCheck.html#a0f2a0035c9e3302807a1bb99c41781d9" title="event processing" alt="" coords="20,421,196,466"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="482,313,355,331,299,344,260,358,245,370,236,383,228,397,212,411,190,423,188,418,209,407,223,394,232,380,241,366,257,353,297,339,354,326,482,308"/>
+<area shape="rect" id="Node000012" href="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853" title="event processing method" alt="" coords="260,368,448,413"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="513,332,415,370,413,365,511,327"/>
+<area shape="rect" id="Node000013" href="$db/db2/classTruthNeutralMesonBuilder.html#a071068d700018b0c1e1ad7b344fe16b8" title="Determine whether a meson originating from a G4 shower should be rejected." alt="" coords="259,437,449,482"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="557,336,509,383,450,427,427,439,425,434,448,423,506,379,553,333"/>
+<area shape="rect" id="Node000003" href="$db/db2/classTruthNeutralMesonBuilder.html#a511b2cac6ff236e805f2c5386f07a462" title="Process event and fill truth neutral meson container." alt="" coords="13,5,203,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,72,189,53,190,48,258,67"/>
+<area shape="rect" id="Node000006" href="$da/dbf/classTruthJetInput.html#a4c3ed9ba972f59ab008fa8574ec26a20" title="Retrieve input truth jets from the node tree." alt="" coords="42,75,174,119"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="261,241,257,238,245,224,238,211,232,184,226,158,220,146,209,134,192,122,174,113,176,108,195,117,212,130,224,143,231,157,237,183,243,209,250,221,261,234,264,237"/>
+<area shape="rect" id="Node000007" href="$d5/d85/classPHG4TruthSubsystem.html#af3bbab39b6b31fad762bd270b64e8985" title="event processing" alt="" coords="27,144,189,189"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="269,244,257,238,233,220,209,203,183,192,186,187,212,199,236,216,260,233,271,239"/>
+<area shape="rect" id="Node000008" href="$d6/d02/classDetermineTowerBackground.html#a2f2c2c1d59dbf0df2debbedb977dfb57" title="Process a single event to determine tower background and flow parameters." alt="" coords="5,213,211,258"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="249,258,211,253,211,248,250,253"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="274,303,261,313,244,338,238,362,231,386,213,411,195,423,192,419,209,407,226,384,233,360,239,335,257,310,270,299"/>
+<area shape="rect" id="Node000010" href="$d7/ddb/classPHG4TpcElectronDrift.html#aeea2d1046042fabf274bc85a6221955f" title="Process event for TPC electron drift simulation." alt="" coords="27,283,189,327"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="250,288,190,296,189,291,250,282"/>
+<area shape="rect" id="Node000011" href="$d9/d24/classPHTruthClustering.html#a32f3b05811ac36d8f08ae3c565edcfca" title="Fill truth cluster node with clusters derived from G4 truth particles." alt="" coords="35,352,181,397"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="285,302,260,314,212,342,182,354,180,349,209,337,257,309,283,297"/>
+</map>

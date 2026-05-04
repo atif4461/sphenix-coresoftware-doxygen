@@ -1,0 +1,67 @@
+<map id="TowerInfoContainer::size" name="TowerInfoContainer::size">
+<area shape="rect" id="Node000001" title=" " alt="" coords="487,835,634,879"/>
+<area shape="rect" id="Node000002" href="$de/d9e/classCaloVtxReco.html#af8ad041be31c1654bc4ec2f8eb9e7bc6" title="Compute the calorimeter‑based vertex z position from calibrated tower information." alt="" coords="247,5,430,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="556,819,550,658,531,432,516,316,496,211,469,124,454,90,437,64,424,52,428,49,441,61,459,87,474,122,501,210,521,316,537,431,555,657,561,819"/>
+<area shape="rect" id="Node000004" href="$d7/d11/classCaloValid.html#a7ac1d8384c782eea2e613fab51700386" title="end of run method" alt="" coords="281,74,396,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="556,819,549,666,531,454,515,347,495,249,469,169,454,138,437,115,418,101,395,93,397,88,421,96,441,111,458,135,474,167,500,248,521,346,536,454,554,666,561,819"/>
+<area shape="rect" id="Node000005" href="$df/d01/classTowerJetInput.html#ae27d1124857e5b518c8277b23b4b8cc3" title="Retrieve input towers and construct pseudo jets from top node." alt="" coords="269,125,408,170"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="555,819,545,680,524,490,509,394,489,306,465,233,452,206,437,184,423,172,407,163,409,158,426,168,441,181,456,203,470,231,494,304,514,393,529,489,550,679,560,819"/>
+<area shape="rect" id="Node000006" href="$dd/d91/classCaloStatusMapper.html#a11667fedb65842b86985f54896b64791" title="Grab inputs and fills histograms." alt="" coords="239,195,438,239"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="554,820,542,693,520,524,504,439,485,361,463,297,437,253,424,242,427,238,441,250,468,295,490,359,509,438,525,523,548,693,559,819"/>
+<area shape="rect" id="Node000007" href="$d3/d02/classCaloStatusSkimmer.html#a567a7ea9fb15f777afe943e9cb5abeb2" title="Process event and apply calorimeter status skimming based on not instrumented tower counts." alt="" coords="259,264,418,309"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="553,819,539,706,515,557,500,483,481,416,460,361,437,323,416,307,419,302,441,319,465,358,486,414,505,482,521,556,544,705,558,819"/>
+<area shape="rect" id="Node000008" href="$d5/de9/classCaloTowerCalib.html#a5e007723dd9acf61b72b77fcc371b13d" title="Calibrate raw tower energies and optionally times for a given event." alt="" coords="249,333,428,378"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="552,820,536,720,511,592,477,471,458,424,437,392,423,381,427,377,441,389,463,422,482,469,516,591,541,719,557,819"/>
+<area shape="rect" id="Node000009" href="$d8/d07/classcaloTreeGen.html#a8991d78a57bed5f6d3eb559762e24ba4" title="Process event data for caloTreeGen module." alt="" coords="259,403,418,447"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="556,819,550,745,532,649,517,599,496,549,470,503,437,462,417,446,420,442,441,458,474,500,501,547,522,597,537,648,555,744,561,819"/>
+<area shape="rect" id="Node000010" href="$d9/d8f/classCaloTriggerSim.html#a11ddf4c1a6c8b80e55a6820ad9781d52" title="Process a single event and compute calorimeter tower energy maps." alt="" coords="250,472,427,517"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="553,820,543,757,523,680,508,640,488,600,465,564,437,531,422,519,425,515,441,527,469,560,493,598,512,638,528,678,548,756,559,819"/>
+<area shape="rect" id="Node000011" href="$de/dcb/classClusterIso.html#aff723b32a96c2118ecd896ffed9f2752" title=" " alt="" coords="266,541,410,586"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="549,820,535,771,513,712,481,652,460,625,437,600,409,583,412,578,441,596,464,621,485,649,518,709,540,769,554,819"/>
+<area shape="rect" id="Node000012" href="$d7/d6e/classemcNoisyTowerFinder.html#a2fdf3996b36c6fa0282b97a65be9ba7b" title="Process a single event to identify noisy towers in the CEMC." alt="" coords="256,611,420,655"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="543,822,526,786,502,745,473,705,437,670,419,658,422,654,441,666,477,701,507,742,530,783,547,819"/>
+<area shape="rect" id="Node000013" href="$df/d3c/classEpdReco.html#ae05f71f18268353c46f2d217fd21ec3e" title="Process a single event for sEPD reconstruction." alt="" coords="249,679,428,707"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="536,823,494,770,468,743,438,721,415,710,418,705,440,716,471,739,498,766,540,820"/>
+<area shape="rect" id="Node000014" href="$d9/d2f/classG4RawTowerTTree.html#a9375745f72f11646c953f270d2a87360" title="event processing method" alt="" coords="239,731,438,775"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="510,829,438,790,409,778,411,773,440,785,512,824"/>
+<area shape="rect" id="Node000015" href="$db/d3d/classG4ScintillatorTowerTTree.html#a9e1c6d69581c0ef486d7d99eadea9843" title="event processing method" alt="" coords="247,800,430,845"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="471,846,430,839,431,834,472,841"/>
+<area shape="rect" id="Node000016" href="$dc/d81/classG4TowerNtuple.html#a057879b332a3155cdca74d178f5e8f16" title="event processing method" alt="" coords="249,869,428,914"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="472,873,428,880,427,875,471,868"/>
+<area shape="rect" id="Node000017" href="$db/dc0/classLiteCaloEval.html#a1e34f2dbdb485ea4e0bbca833e63c887" title="Process event for LiteCaloEval." alt="" coords="258,939,418,983"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="512,890,440,929,411,941,409,936,438,924,510,885"/>
+<area shape="rect" id="Node000018" href="$d8/d5d/classRawClusterBuilderTemplate.html#a0146334be461b53ed1d9a183794c8277" title="Process a single event building raw clusters from tower or towerinfo data." alt="" coords="238,1008,439,1053"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="539,894,497,947,470,974,440,998,419,1010,417,1005,438,993,467,970,493,944,534,891"/>
+<area shape="rect" id="Node000019" href="$d4/dac/classRawClusterBuilderTopo.html#a5e709121db9ca94b434f585619fbefbc" title="Process event building topo clusters from calibrated tower info." alt="" coords="253,1077,424,1122"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="549,895,533,935,510,981,479,1027,441,1067,423,1079,420,1074,437,1063,475,1024,505,978,528,933,545,893"/>
+<area shape="rect" id="Node000020" href="$dc/d23/classRetowerCEMC.html#a6959064ee85c9697ac2506ea6e89ce91" title="Process a single event and retower CEMC data." alt="" coords="253,1147,424,1191"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="556,895,543,949,521,1013,487,1079,466,1109,441,1136,425,1148,421,1144,437,1132,462,1106,483,1076,516,1011,537,947,550,894"/>
+<area shape="rect" id="Node000021" href="$d7/d13/classSubtractTowers.html#a4c116cec7e202346e813b6587dae234e" title="Process event subtracting background from tower energies." alt="" coords="249,1216,428,1261"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="559,895,550,961,530,1044,515,1087,495,1130,471,1170,441,1206,425,1218,422,1213,437,1202,466,1167,491,1128,510,1085,525,1042,545,960,554,895"/>
+<area shape="rect" id="Node000022" href="$df/d58/classZdcReco.html#a1205b10eba451d3bdb7b4613f0bb9912" title="Process a single event using the Fun4All node tree." alt="" coords="249,1284,428,1312"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="563,895,559,974,542,1076,527,1130,505,1183,477,1232,441,1275,426,1286,422,1282,437,1271,473,1229,501,1180,522,1128,537,1075,553,974,557,895"/>
+<area shape="rect" id="Node000023" href="$d3/df2/classDumpTowerInfoContainer.html#aee587d0c8b8970ff8fe3126dcd31b4e8" title="Process a node containing a TowerInfoContainer and dump its contents to the output stream." alt="" coords="245,1336,432,1381"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="557,895,541,995,516,1123,482,1245,463,1292,441,1325,427,1337,423,1333,437,1322,458,1290,477,1243,511,1122,536,994,552,894"/>
+<area shape="rect" id="Node000024" href="$db/db3/classCaloFittingQA.html#a3e3555a008f381fc2d26b6fc9530dcd0" title="Process tower data for a given event." alt="" coords="254,1405,422,1450"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="558,895,544,1009,521,1158,505,1232,486,1300,465,1356,441,1395,425,1408,421,1404,437,1391,460,1353,481,1298,500,1231,515,1157,539,1008,553,895"/>
+<area shape="rect" id="Node000026" href="$d7/d11/classCaloValid.html#ab245377036dcca4c620a0ef89844a075" title="Process event towers, triggers, MBD, and clusters to populate QA histograms." alt="" coords="268,1475,408,1519"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="559,895,548,1021,525,1191,509,1276,490,1355,468,1419,441,1464,427,1477,410,1486,408,1481,424,1472,437,1461,463,1417,485,1353,504,1275,520,1190,542,1021,554,894"/>
+<area shape="rect" id="Node000028" href="$d2/da4/classGlobalQA.html#a5e6657a5625a7cdff4bb32eab90e2241" title="Process tower level data for sEPD and ZDC detectors." alt="" coords="243,1543,434,1571"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="560,895,552,1036,532,1227,516,1323,496,1411,471,1484,457,1512,441,1534,427,1545,424,1541,437,1530,452,1509,466,1482,491,1410,511,1322,526,1226,546,1035,555,895"/>
+<area shape="rect" id="Node000030" href="$dd/dab/classHCalCosmics.html#ad35cc6521d5f26d988254487fb0054d2" title="Process tower information for HCal cosmics analysis." alt="" coords="256,1595,421,1639"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="561,895,552,1044,533,1249,517,1354,497,1450,472,1529,457,1560,441,1584,423,1599,420,1595,437,1581,453,1557,467,1527,492,1448,512,1353,527,1248,547,1043,555,894"/>
+<area shape="rect" id="Node000032" href="$de/ddc/classpi0EtaByEta.html#a8212cbbb3653023694a930073e37bcf5" title="Process towers and perform pi0 eta analysis." alt="" coords="259,1664,418,1709"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="561,895,555,1057,537,1283,521,1398,501,1504,474,1592,459,1627,441,1653,419,1671,416,1667,437,1650,454,1624,469,1590,496,1503,516,1398,531,1282,550,1056,556,895"/>
+<area shape="rect" id="Node000003" href="$de/d9e/classCaloVtxReco.html#a69174452a4e092e54e10990ae2bf731d" title="Process a single event and compute calorimeter based vertex." alt="" coords="16,5,179,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="231,30,179,30,179,25,231,25"/>
+<area shape="rect" id="Node000025" href="$db/db3/classCaloFittingQA.html#a743eea6c712388b12d7b6bcec8c08e3d" title="event processing method" alt="" coords="13,1405,182,1450"/>
+<area shape="poly" id="edge24_Node000024_Node000025" title=" " alt="" coords="239,1430,182,1430,182,1425,239,1425"/>
+<area shape="rect" id="Node000027" href="$d7/d11/classCaloValid.html#afbcc52787b09f66af720afe42f1080bb" title="event processing method" alt="" coords="27,1475,168,1519"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="253,1500,168,1500,168,1494,253,1494"/>
+<area shape="rect" id="Node000029" href="$d2/da4/classGlobalQA.html#a3da8ea1e259e19ff4a78f470f96ad891" title="event processing method" alt="" coords="5,1543,190,1571"/>
+<area shape="poly" id="edge28_Node000028_Node000029" title=" " alt="" coords="227,1560,190,1560,190,1554,227,1554"/>
+<area shape="rect" id="Node000031" href="$dd/dab/classHCalCosmics.html#a856cc818121f905b9a15a893acf00727" title="Process a single event by handling towers and updating counters." alt="" coords="15,1595,180,1639"/>
+<area shape="poly" id="edge30_Node000030_Node000031" title=" " alt="" coords="240,1620,181,1620,181,1614,240,1614"/>
+<area shape="rect" id="Node000033" href="$de/ddc/classpi0EtaByEta.html#aeae033163266f9635d2f0205d97ed807" title="event processing method" alt="" coords="18,1664,177,1709"/>
+<area shape="poly" id="edge32_Node000032_Node000033" title=" " alt="" coords="244,1689,177,1689,177,1684,244,1684"/>
+</map>

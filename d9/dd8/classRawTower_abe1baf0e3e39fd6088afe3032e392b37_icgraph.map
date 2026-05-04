@@ -1,0 +1,23 @@
+<map id="RawTower::get_bineta" name="RawTower::get_bineta">
+<area shape="rect" id="Node000001" title=" " alt="" coords="268,308,432,336"/>
+<area shape="rect" id="Node000002" href="$d9/dd8/classRawTower.html#a1d9e30e1c834a21d7cd5cde850863530" title=" " alt="" coords="24,5,201,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="341,293,328,240,305,173,269,104,245,73,218,47,200,36,203,31,221,42,249,70,273,101,310,171,333,238,346,292"/>
+<area shape="rect" id="Node000003" href="$df/df5/classCaloCalibEmc__Pi0.html#ac1bc861ad87dd3ae5e8d47eed335506c" title="Process a single event in the CaloCalibEmc Pi0 analysis." alt="" coords="14,57,211,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="336,295,319,255,294,207,260,158,218,116,200,104,203,100,221,112,264,155,298,204,324,253,341,293"/>
+<area shape="rect" id="Node000004" href="$db/dc0/classLiteCaloEval.html#a1e34f2dbdb485ea4e0bbca833e63c887" title="Process event for LiteCaloEval." alt="" coords="32,126,193,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,297,282,240,252,211,218,185,192,172,195,167,221,181,255,207,286,237,332,293"/>
+<area shape="rect" id="Node000005" href="$d4/d1b/classRawClusterDeadHotMask.html#ace3afa9b2a1ebe6da25a7a04881ace26" title="Process event and mask clusters containing dead towers." alt="" coords="19,196,206,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="311,302,219,255,188,243,190,238,221,250,313,298"/>
+<area shape="rect" id="Node000006" href="$df/d75/classRawClusterPositionCorrection.html#a5769946f9c4ef0e0ed307a1a18f40ab9" title="Process a single event and apply position dependent energy recalibration to raw clusters." alt="" coords="5,265,220,310"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="252,310,220,306,221,300,252,305"/>
+<area shape="rect" id="Node000007" href="$d3/df2/classRawTowerCalibration.html#a9aec9091957b5331ad1f56abab3f8f62" title="Process event applying tower calibration according to selected algorithm." alt="" coords="33,334,192,379"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="252,339,192,348,192,342,252,333"/>
+<area shape="rect" id="Node000008" href="$df/d0d/classRawTowerCombiner.html#a306ccff4853c204cff8bd74aab62488d" title="Process event merging raw towers into coarser granularity." alt="" coords="8,404,217,448"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="313,346,221,394,190,406,188,401,219,389,311,341"/>
+<area shape="rect" id="Node000009" href="$d7/d13/classSubtractTowers.html#a4c116cec7e202346e813b6587dae234e" title="Process event subtracting background from tower energies." alt="" coords="23,473,202,518"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="332,350,286,407,255,437,221,463,199,475,196,470,218,458,252,433,282,403,328,347"/>
+<area shape="rect" id="Node000010" href="$da/dda/classSubtractTowersCS.html#a763b209f4ab201a2f537dc444ac01bca" title="Process a single event and apply constituent subtraction to EMCal, inner HCal and outer HCal tower co..." alt="" coords="15,542,210,587"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="341,351,324,391,298,440,264,489,221,532,203,544,200,539,218,528,260,486,294,437,319,389,336,349"/>
+<area shape="rect" id="Node000011" href="$d1/d2e/classDumpRawTowerContainer.html#afd70dd7329b3f257e18369e8258e9245" title="Dump the contents of a RawTowerContainer associated with a PHNode." alt="" coords="18,612,207,656"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="346,352,332,405,308,472,272,541,249,573,221,601,205,613,201,609,218,597,244,570,267,538,303,470,327,403,340,351"/>
+</map>

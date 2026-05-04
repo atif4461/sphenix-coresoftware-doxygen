@@ -1,0 +1,36 @@
+<map id="PHActsTrackPropagator::process_event" name="PHActsTrackPropagator::process_event">
+<area shape="rect" id="Node000001" title="Process a single event by propagating all tracks stored in the internal track map." alt="" coords="5,336,178,380"/>
+<area shape="rect" id="Node000002" href="$d2/dea/classActsPropagator.html#a91aaa0a16c3d57f2eaa4ded5a27907d2" title="Create Acts bound track parameters from a SvtxTrack and its associated vertex." alt="" coords="226,336,424,380"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,355,210,355,210,360,178,360"/>
+<area shape="rect" id="Node000003" href="$db/dd7/classSvtxVertexMap.html#a02a5cce3f1c6dd8c110eca6b2a4cd20e" title=" " alt="" coords="496,5,646,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="327,334,341,276,368,197,386,156,410,115,437,77,470,44,481,36,484,40,474,48,441,80,414,118,391,158,373,199,346,277,333,336"/>
+<area shape="rect" id="Node000004" href="$d2/db8/classSvtxTrack.html#a710f62db574b863e919498bf9e864590" title=" " alt="" coords="489,57,653,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="330,334,347,285,375,220,416,153,441,122,470,96,479,90,482,94,474,100,445,126,420,156,380,223,351,287,335,336"/>
+<area shape="rect" id="Node000005" href="$d2/db8/classSvtxTrack.html#a58a58a4f27be25ea96d89408d98e34e7" title=" " alt="" coords="507,109,635,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="333,334,353,294,383,243,422,192,470,148,491,136,494,141,474,152,426,195,387,246,358,296,338,336"/>
+<area shape="rect" id="Node000006" href="$d2/db8/classSvtxTrack.html#aedabd3166162f03aed6e1707527a2831" title=" " alt="" coords="503,161,639,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="339,333,392,267,429,231,471,200,487,191,489,196,473,204,432,235,396,270,343,337"/>
+<area shape="rect" id="Node000007" href="$d2/db8/classSvtxTrack.html#a63ea7f25d2e8bac2d3d905d8950a3a9c" title=" " alt="" coords="503,213,639,241"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="350,333,404,292,471,251,489,244,491,249,473,256,407,296,353,337"/>
+<area shape="rect" id="Node000008" href="$d2/db8/classSvtxTrack.html#a925c22addac47679511e99345ae6c6db" title=" " alt="" coords="504,265,639,293"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="386,332,471,303,499,295,500,300,473,308,388,337"/>
+<area shape="rect" id="Node000009" href="$d2/db8/classSvtxTrack.html#a5cb2ef4d3de0500765e78970b09046a8" title=" " alt="" coords="480,317,662,345"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="424,344,465,340,465,345,425,350"/>
+<area shape="rect" id="Node000010" href="$d2/db8/classSvtxTrack.html#ad74beb3fd135c9bc3f2909050cdbd61a" title=" " alt="" coords="507,369,635,397"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="425,365,492,372,491,378,424,371"/>
+<area shape="rect" id="Node000011" href="$d2/d6d/classSvtxVertex.html#aec547ca966576ec27ef210271969b821" title=" " alt="" coords="503,421,639,449"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="390,378,473,406,500,414,499,419,471,411,388,383"/>
+<area shape="rect" id="Node000012" href="$d2/db8/classSvtxTrack.html#a53bdd005c2ca29614459193e8bad8ca2" title=" " alt="" coords="507,473,635,501"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="354,378,407,419,473,458,493,466,491,471,471,463,404,423,351,383"/>
+<area shape="rect" id="Node000013" href="$d2/d6d/classSvtxVertex.html#a94e6879a2e0f0b1b89030832db224f2a" title=" " alt="" coords="503,525,639,553"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="343,379,396,444,432,480,473,510,489,518,487,523,471,515,429,484,392,448,339,382"/>
+<area shape="rect" id="Node000014" href="$d2/db8/classSvtxTrack.html#a9b2fd6bca9e333ea2f055898ec6135d1" title=" " alt="" coords="508,577,635,605"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="338,379,358,419,387,469,426,519,474,562,494,573,491,578,470,567,422,523,383,472,353,422,333,382"/>
+<area shape="rect" id="Node000015" href="$d2/d6d/classSvtxVertex.html#ae9f6d1b85a2969d01177b20ccb2e6c2a" title=" " alt="" coords="504,629,639,657"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="335,380,352,429,380,492,420,558,445,588,474,614,491,625,488,629,470,619,441,592,416,562,375,495,347,431,330,381"/>
+<area shape="rect" id="Node000016" href="$df/db5/classActsTransformations.html#a905afc34dc988e83fd06137415c1eee1" title="Rotate the covariance matrix of an SvtxTrack into an ACTS bound square matrix." alt="" coords="472,705,670,750"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="334,380,351,436,380,511,420,592,445,631,474,667,508,695,505,699,470,670,441,634,416,595,375,513,346,437,329,381"/>
+<area shape="poly" id="edge17_Node000016_Node000016" title=" " alt="" coords="528,705,527,695,534,686,549,680,571,678,596,681,610,687,608,692,594,686,571,683,550,685,537,690,532,696,533,704"/>
+<area shape="rect" id="Node000017" href="$d2/db8/classSvtxTrack.html#afa7caf0a675db96b8b05375535b8e160" title="Return the end iterator of the dummy state map for a given path length." alt="" coords="718,713,875,741"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="671,724,703,724,703,730,671,730"/>
+</map>

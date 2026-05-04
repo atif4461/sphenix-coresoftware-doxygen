@@ -1,0 +1,30 @@
+digraph "TrackSeed_FastSim_v1::identify"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TrackSeed_FastSim_v1\l::identify",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Identify the TrackSeed_FastSim_v1 object and write its data to a stream."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackSeed_v1::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#a027316319483def135b37d1339608af7",tooltip="Print summary information of the TrackSeed_v1 object to the provided stream."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrackSeed_v1::begin\l_cluster_keys",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#a771e86d95c9870defd11294d4d1e9a11",tooltip="Return a const iterator positioned at the end of the dummy cluster key set."];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrackSeed_v1::end_cluster_keys",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#ac0b50d8a7c6c4f9156dfa9ba097b6260",tooltip="Return a constant iterator to the end of the cluster key set."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrackSeed_v1::get_charge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#ad8020d1619fb382459c2a59f9aef7163",tooltip="Return the sign of the particle charge based on curvature."];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="TrackSeed_v1::get_pt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#aa5720ec811a8e787824287b70e91ee35",tooltip="Returns transverse momentum using scaling factor for 1.4T field."];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TrackSeed_v1::get_pz",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#ab579630c365104255665030a163f361e",tooltip="Compute longitudinal momentum component from total momentum and polar angle."];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TrackSeed_v1::get_p",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#a4d5c7a0b5cf94f09716d7ec3e2105585",tooltip="Compute the total momentum magnitude from transverse momentum and pseudorapidity."];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TrackSeed_v1::get_eta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#ae2496c9ebb709c03b5d4e6e3cdc36030",tooltip="Compute pseudorapidity from the polar angle."];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TrackSeed_v1::get_theta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d52/classTrackSeed__v1.html#aeaa2c49d0a459a08b202d4b6182124b6",tooltip="Compute theta from slope using arctangent."];
+  Node8 -> Node6 [id="edge10_Node000008_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node10 [id="edge11_Node000007_Node000010",color="steelblue1",style="solid",tooltip=" "];
+}

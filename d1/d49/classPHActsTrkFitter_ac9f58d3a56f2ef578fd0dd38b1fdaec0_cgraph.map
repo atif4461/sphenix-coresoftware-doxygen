@@ -1,0 +1,13 @@
+<map id="PHActsTrkFitter::process_event" name="PHActsTrkFitter::process_event">
+<area shape="rect" id="Node000001" title="Process each event by calling the fitter." alt="" coords="5,76,184,120"/>
+<area shape="rect" id="Node000002" href="$d0/d5e/classPHTimer.html#a0f31fcd15a42d47d9b719b9c9b851039" title="get cumulated time" alt="" coords="232,5,466,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,73,231,43,262,35,264,40,232,48,151,78"/>
+<area shape="rect" id="Node000003" href="$d0/d5e/classPHTimer.html#a433d96c3401380d49ff01acfd16ac69c" title="Restart timer." alt="" coords="285,57,413,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,86,269,77,270,82,184,91"/>
+<area shape="rect" id="Node000004" href="$d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41" title="stops the counter" alt="" coords="292,109,406,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,104,277,113,276,119,184,109"/>
+<area shape="rect" id="Node000006" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="264,161,434,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="153,118,232,146,264,154,262,160,231,151,151,123"/>
+<area shape="rect" id="Node000005" href="$d0/d5e/classPHTimer.html#aee124cb440b1f7ca8bc8f2ffa596e2da" title="retrieve elapsed value since last restart (in ms)" alt="" coords="514,109,650,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="406,120,498,120,498,126,406,126"/>
+</map>

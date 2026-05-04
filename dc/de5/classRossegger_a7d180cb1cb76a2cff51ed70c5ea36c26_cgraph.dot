@@ -1,0 +1,14 @@
+digraph "Rossegger::CheckZeroes"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Rossegger::CheckZeroes",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Verify that the tabulated zeroes satisfy their defining equations within a given tolerance."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Rossegger::Rmn_for\l_zeroes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/de5/classRossegger.html#a44c640ddfc451c5fd0b5becc411508a1",tooltip="Compute the Rossegger Rmn term for a given harmonic order and argument."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Rossegger::Rnk_for\l_zeroes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/de5/classRossegger.html#adb59829e7f05d2a1a2fd3e75909d4653",tooltip="Compute Rossegger rank for zero based index n and parameter mu."];
+}

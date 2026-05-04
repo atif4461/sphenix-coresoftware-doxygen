@@ -1,0 +1,23 @@
+<map id="ClusterErrorPara::get_si_cluster_error" name="ClusterErrorPara::get_si_cluster_error">
+<area shape="rect" id="Node000001" title="Compute the silicon cluster error for a given tracker cluster." alt="" coords="5,144,161,188"/>
+<area shape="rect" id="Node000002" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="223,5,363,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,141,145,92,175,66,207,44,220,37,222,42,210,48,178,70,149,96,104,145"/>
+<area shape="rect" id="Node000003" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="223,57,363,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="119,141,161,117,208,94,223,88,225,93,210,99,163,122,122,145"/>
+<area shape="rect" id="Node000004" href="$d4/dc0/classClusterErrorPara.html#a1f246e941460eed60498820ada3c56b4" title="Compute the phi error for an INTT cluster based on layer and cluster size." alt="" coords="215,109,371,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="160,150,199,144,200,149,161,156"/>
+<area shape="rect" id="Node000006" href="$d4/dc0/classClusterErrorPara.html#a6cb84ea174ddaf533369915681d5314b" title="Compute the z error for an INTT cluster using its size and a pitch error constant." alt="" coords="215,317,371,362"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="102,187,147,244,177,275,210,302,217,307,214,311,207,307,173,279,143,247,97,190"/>
+<area shape="rect" id="Node000008" href="$d4/dc0/classClusterErrorPara.html#a2f85df2881a35be6b101afd6fbcdf769" title="Compute the azimuthal (phi) error for a MVTX cluster." alt="" coords="209,178,377,223"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="161,176,194,181,193,187,160,181"/>
+<area shape="rect" id="Node000009" href="$d4/dc0/classClusterErrorPara.html#a96b46a49f65833a8cde707e3b4c181c2" title="Compute the MVTX z position error for a given cluster." alt="" coords="209,248,377,292"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="124,186,210,233,222,238,219,243,207,238,121,191"/>
+<area shape="rect" id="Node000005" href="$d6/dfa/classTrkrCluster.html#aba758d32cd06d6c5d5c99ed22c3625e7" title=" " alt="" coords="425,187,592,214"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="365,152,450,179,448,184,364,157"/>
+<area shape="rect" id="Node000007" href="$d6/dfa/classTrkrCluster.html#afbf2003cf6e846a0c945f6c27fcb8e50" title=" " alt="" coords="430,256,587,284"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="364,314,448,286,450,291,365,319"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="377,198,409,198,409,203,377,203"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="365,221,450,248,448,253,364,226"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="364,244,448,217,450,222,365,249"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="377,267,415,267,415,272,377,272"/>
+</map>

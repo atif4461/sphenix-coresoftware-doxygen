@@ -1,0 +1,19 @@
+digraph "TrkrHitSetv1::removeHit"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TrkrHitSetv1::removeHit",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Remove a hit identified by its key from the hit set."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrkrHitSetv1::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/de1/classTrkrHitSetv1.html#a3c3d217d91e7a3faf033ad2cd8a1c7c9",tooltip="Print summary of TrkrHitSetv1 to the provided output stream."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="TrkrHitSetv1::getHitSetKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/de1/classTrkrHitSetv1.html#a82ee5703cbe44802342470e4de521b85",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="TrkrDefs::getLayer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100",tooltip="Get the layer number from either key type."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrkrDefs::getTrkrId",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70",tooltip="Get the tracker ID from either key type."];
+  Node2 -> Node2 [id="edge5_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "SvtxTrack_FastSim_v2::CopyFrom"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SvtxTrack_FastSim_v2\l::CopyFrom",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Copy data from source SvtxTrack into this object."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SvtxTrack_FastSim_v2\l::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d30/classSvtxTrack__FastSim__v2.html#adddf56bfe44b73411572e38336f3f033",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="SvtxTrack_FastSim_v2\l::SvtxTrack_FastSim_v2",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d30/classSvtxTrack__FastSim__v2.html#aba417f768f045e6d0e1139feb8af596d",tooltip="Construct a fast simulation track from a source track."];
+}

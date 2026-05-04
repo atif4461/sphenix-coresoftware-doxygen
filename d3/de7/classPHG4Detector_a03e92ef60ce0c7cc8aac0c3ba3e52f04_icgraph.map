@@ -1,0 +1,25 @@
+<map id="PHG4Detector::topNode" name="PHG4Detector::topNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="538,187,714,215"/>
+<area shape="rect" id="Node000002" href="$d0/da4/classPHG4SpacalDetector.html#af2c4c4c1f8ca4bba2552dd18f6ff54b5" title="Add cell geometry node for SPACAL detector." alt="" coords="285,5,463,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="604,177,556,120,524,90,489,65,462,51,464,47,491,60,527,86,560,116,608,173"/>
+<area shape="rect" id="Node000004" href="$d5/d80/classPHG4InnerHcalDetector.html#a9308f1728ca9cca9a544fa813d9c15de" title="Add geometry node for inner Hcal detector." alt="" coords="286,213,462,258"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="523,218,462,226,462,221,522,213"/>
+<area shape="rect" id="Node000006" href="$df/d74/classPHG4OuterHcalDetector.html#a52b9577fb8bb467e25e4cd0538db5466" title="Add geometry node for outer hcal detector." alt="" coords="285,333,463,378"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="604,229,555,277,525,302,491,323,464,336,462,331,489,319,521,297,552,273,601,225"/>
+<area shape="rect" id="Node000008" href="$d0/da4/classPHG4SpacalDetector.html#a6adf2ae56b8cfea0ee63c01ec7d5dd2f" title="Add tower geometry node to the detector hierarchy." alt="" coords="278,75,470,119"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="586,182,489,134,456,122,458,117,491,129,588,177"/>
+<area shape="rect" id="Node000009" href="$de/d1f/classPHG4HcalDetector.html#abd45714fd88b0f9d2abc92fba6c95e13" title="construct" alt="" coords="258,282,490,310"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="589,226,543,250,491,273,454,284,452,279,489,268,541,245,587,221"/>
+<area shape="rect" id="Node000010" href="$d0/da4/classPHG4SpacalDetector.html#a332cf236022185ea0873a2c26cf5b12f" title="Construct the Spacal detector geometry within the provided world logical volume." alt="" coords="296,144,452,189"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="522,189,452,180,453,174,523,184"/>
+<area shape="rect" id="Node000003" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698" title="Construct the full projected tilted SPACAL detector geometry within the given world volume." alt="" coords="15,75,200,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="271,57,197,77,195,71,270,52"/>
+<area shape="rect" id="Node000005" href="$d5/d80/classPHG4InnerHcalDetector.html#adcc55f5d190de67371fb9bf28015c68a" title="construct" alt="" coords="20,213,195,258"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="271,238,196,238,196,233,271,233"/>
+<area shape="rect" id="Node000007" href="$df/d74/classPHG4OuterHcalDetector.html#ae159c3d2a294c687f9c0f4af6dbce281" title="construct" alt="" coords="18,333,197,378"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="269,358,197,358,197,353,269,353"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="263,100,201,100,201,94,263,94"/>
+<area shape="poly" id="edge12_Node000010_Node000003" title=" " alt="" coords="280,145,195,122,197,117,281,140"/>
+<area shape="rect" id="Node000011" href="$d1/d05/classPHG4FullProjSpacalDetector.html#a5fff07b9f6daa78ccc2d56ac277bab0e" title="Construct the full projection Spacal detector geometry within the provided world logical volume." alt="" coords="5,144,210,189"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="280,169,210,169,210,164,280,164"/>
+</map>

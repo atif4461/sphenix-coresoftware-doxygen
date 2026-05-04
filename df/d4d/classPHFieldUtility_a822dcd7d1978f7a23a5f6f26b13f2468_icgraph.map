@@ -1,0 +1,26 @@
+<map id="PHFieldUtility::GetFieldConfigNode" name="PHFieldUtility::GetFieldConfigNode">
+<area shape="rect" id="Node000001" title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one." alt="" coords="666,308,838,352"/>
+<area shape="rect" id="Node000002" href="$df/d4d/classPHFieldUtility.html#a3afdd4e878d02b30b6f2c396e52b8e48" title="Get transient PHField from DST nodes. If not found, make a new one based on default_config." alt="" coords="447,221,618,266"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="678,304,590,269,592,264,680,299"/>
+<area shape="rect" id="Node000009" href="$d9/d69/classPHSimpleKFProp.html#acf8e513a28fcf747624780d1c2f214b7" title="Initialize run by retrieving required nodes, configuring magnetic field, and setting up the ALICE Kal..." alt="" coords="206,281,390,309"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="650,325,390,305,391,300,651,319"/>
+<area shape="rect" id="Node000010" href="$d5/dbe/classPrelimDistortionCorrection.html#a0c7778097947c2bf4439ebaa7584abdc" title="Initialize run specific resources for distortion correction." alt="" coords="201,333,395,378"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="651,338,396,352,395,347,650,333"/>
+<area shape="rect" id="Node000011" href="$d6/d80/classPrelimDistortionCorrectionAuAu.html#aaeaab6450f474daad89ffa2972723791" title="Initialize run specific resources and configure track fitter." alt="" coords="201,402,395,447"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="651,353,396,407,395,402,650,348"/>
+<area shape="rect" id="Node000003" href="$d0/d78/classPHG4Reco.html#a66fc50f0871fbaf83b21edfa8ae98259" title="Initialize magnetic field configuration and attach to node tree." alt="" coords="223,229,372,257"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,246,373,246,373,240,432,240"/>
+<area shape="rect" id="Node000005" href="$da/db1/classMakeActsGeometry.html#a5938929f364b98db92fa809a54a635c6" title="Initialize geometry, alignment and magnetic field for a new run." alt="" coords="197,5,399,33"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="514,208,495,169,470,126,437,84,397,48,375,36,378,31,401,44,441,80,474,123,500,167,519,205"/>
+<area shape="rect" id="Node000006" href="$d9/d91/classPHG4TrackFastSim.html#a7ed1ea5f4718d84d769f1563b5147f71" title="Initialization Run, called for initialization of a run." alt="" coords="200,57,396,85"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="507,210,461,152,431,123,398,99,375,88,377,83,400,94,434,119,465,148,511,206"/>
+<area shape="rect" id="Node000007" href="$de/d25/classPHGenFitTrkFitter.html#a31b287e4d0925394b938f8eccccf7083" title="Initialization Run, called for initialization of a run." alt="" coords="227,109,369,154"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="482,214,398,168,368,156,370,151,400,163,485,210"/>
+<area shape="rect" id="Node000008" href="$d5/daa/classPHRaveVertexing.html#a650b76ab2fb4616857eb52bb3a838971" title="Initialization Run, called for initialization of a run." alt="" coords="204,177,392,205"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="432,224,363,208,364,203,433,218"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="433,268,364,283,363,278,432,263"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="485,277,400,323,372,335,370,330,398,318,482,272"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="510,280,463,337,433,366,400,392,379,404,376,399,398,388,430,362,459,333,506,276"/>
+<area shape="rect" id="Node000004" href="$d0/d78/classPHG4Reco.html#afb33612dcc374f0614d800dc9480305a" title="Initialize the PHG4Reco module for a new run." alt="" coords="5,229,149,257"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,246,149,246,149,240,207,240"/>
+</map>

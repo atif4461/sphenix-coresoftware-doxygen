@@ -1,0 +1,92 @@
+<map id="PHG4Detector::Verbosity" name="PHG4Detector::Verbosity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1146,1079,1328,1107"/>
+<area shape="rect" id="Node000002" href="$d0/da4/classPHG4SpacalDetector.html#af2c4c4c1f8ca4bba2552dd18f6ff54b5" title="Add cell geometry node for SPACAL detector." alt="" coords="311,28,489,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1233,1063,1230,876,1224,742,1213,596,1196,451,1172,318,1156,260,1139,209,1118,167,1096,136,1065,107,1031,83,995,62,957,46,875,23,791,11,706,8,626,13,552,21,490,32,489,27,552,16,625,7,706,3,791,6,876,17,959,41,997,58,1034,78,1068,103,1100,133,1123,165,1143,207,1161,258,1177,317,1201,450,1218,596,1229,742,1235,876,1238,1063"/>
+<area shape="rect" id="Node000004" href="$d5/d80/classPHG4InnerHcalDetector.html#a9308f1728ca9cca9a544fa813d9c15de" title="Add geometry node for inner Hcal detector." alt="" coords="591,632,766,677"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1234,1064,1230,983,1224,931,1213,874,1195,817,1171,763,1138,713,1096,672,1059,650,1018,634,975,624,930,619,843,622,766,634,765,629,843,617,931,614,975,619,1019,629,1061,645,1099,668,1142,710,1176,760,1200,816,1218,873,1229,930,1235,983,1239,1064"/>
+<area shape="rect" id="Node000006" href="$df/d74/classPHG4OuterHcalDetector.html#a52b9577fb8bb467e25e4cd0538db5466" title="Add geometry node for outer hcal detector." alt="" coords="590,771,768,815"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1230,1064,1219,1004,1196,928,1178,889,1156,852,1129,819,1096,793,1072,782,1039,776,953,771,858,776,769,784,768,779,857,770,953,766,1039,770,1074,777,1099,788,1133,815,1160,849,1183,886,1201,926,1224,1002,1235,1063"/>
+<area shape="rect" id="Node000008" href="$d0/da4/classPHG4SpacalDetector.html#a6adf2ae56b8cfea0ee63c01ec7d5dd2f" title="Add tower geometry node to the detector hierarchy." alt="" coords="304,97,496,142"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1232,1064,1226,891,1219,768,1207,635,1189,503,1166,382,1151,328,1135,282,1116,244,1096,215,1066,186,1033,161,997,140,960,123,880,99,797,86,713,82,633,84,560,92,496,102,496,96,559,86,633,79,713,76,797,80,881,93,962,118,1000,136,1036,157,1069,182,1100,211,1121,241,1140,280,1156,327,1171,380,1195,502,1212,635,1224,768,1232,891,1238,1064"/>
+<area shape="rect" id="Node000009" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a5d52892d52c8020e2e81e981b47a1220" title="Construct azimuthal segmentation of the tilted SPACAL detector sector." alt="" coords="5,541,250,586"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="1229,1064,1212,964,1183,831,1165,765,1144,705,1121,658,1096,627,1062,618,987,609,756,593,250,570,250,565,756,587,987,604,1063,613,1099,623,1125,655,1149,703,1170,763,1188,830,1217,963,1234,1063"/>
+<area shape="rect" id="Node000010" href="$d0/da4/classPHG4SpacalDetector.html#acde5479ab63b50fea1713c8a92b5a3b2" title="Construct the azimuthal segment logical volume for the Spacal detector." alt="" coords="584,203,773,247"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="1231,1064,1218,922,1193,717,1175,612,1152,516,1126,436,1111,405,1096,381,1063,348,1025,320,984,296,941,277,853,250,773,235,774,230,854,245,943,272,987,291,1028,315,1067,344,1100,378,1116,403,1131,434,1158,515,1180,611,1198,717,1224,921,1236,1063"/>
+<area shape="rect" id="Node000011" href="$d0/da4/classPHG4SpacalDetector.html#a332cf236022185ea0873a2c26cf5b12f" title="Construct the Spacal detector geometry within the provided world logical volume." alt="" coords="322,167,478,211"/>
+<area shape="poly" id="edge32_Node000001_Node000011" title=" " alt="" coords="1232,1064,1222,906,1199,676,1181,558,1158,449,1130,359,1113,324,1096,297,1065,266,1032,239,995,217,957,199,873,173,786,159,699,155,616,158,541,165,479,175,478,170,541,160,616,152,699,149,786,153,874,167,958,194,998,212,1035,235,1069,262,1100,294,1118,321,1135,357,1163,447,1186,557,1204,676,1227,906,1237,1063"/>
+<area shape="rect" id="Node000013" href="$d0/da4/classPHG4SpacalDetector.html#aeb7c6f4586ddc3f81cc132e058aa2f32" title="Construct a fiber logical volume with cladding and core." alt="" coords="898,392,1055,437"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="1229,1064,1215,978,1189,855,1150,715,1125,644,1095,577,1073,537,1046,499,997,439,1001,435,1051,495,1077,534,1100,574,1130,642,1155,713,1195,854,1220,977,1234,1063"/>
+<area shape="rect" id="Node000021" href="$df/d95/classBeamLineMagnetDetector.html#ad6a0d85cf44b01961e6049aaaeeb0cdf" title="construct" alt="" coords="881,872,1072,917"/>
+<area shape="poly" id="edge26_Node000001_Node000021" title=" " alt="" coords="1218,1067,1169,999,1135,962,1096,931,1071,918,1074,913,1099,927,1139,958,1173,995,1222,1064"/>
+<area shape="rect" id="Node000022" href="$de/ddc/classPHG4BeamlineMagnetDetector.html#ae3f304d834f752edc1a274b2412e56bd" title="construct" alt="" coords="864,941,1089,986"/>
+<area shape="poly" id="edge27_Node000001_Node000022" title=" " alt="" coords="1205,1071,1156,1035,1096,1001,1068,989,1070,984,1099,996,1159,1031,1208,1067"/>
+<area shape="rect" id="Node000023" href="$df/dfc/classPHG4EICMvtxDetector.html#a402c325321367210febecd0c48cc14c9" title="construct" alt="" coords="893,1011,1060,1055"/>
+<area shape="poly" id="edge28_Node000001_Node000023" title=" " alt="" coords="1158,1078,1060,1055,1061,1050,1160,1073"/>
+<area shape="rect" id="Node000024" href="$df/d0d/classPHG4GDMLDetector.html#a3f1ec1899e4f50d54a7d836d1116d87c" title="construct" alt="" coords="855,1079,1098,1107"/>
+<area shape="poly" id="edge29_Node000001_Node000024" title=" " alt="" coords="1130,1096,1098,1096,1098,1090,1130,1090"/>
+<area shape="rect" id="Node000025" href="$dc/de8/classPHG4InttDetector.html#a28f158eacdcba41ebc42456e725bbe94" title="construct" alt="" coords="864,1131,1089,1159"/>
+<area shape="poly" id="edge30_Node000001_Node000025" title=" " alt="" coords="1149,1113,1050,1133,1049,1128,1148,1108"/>
+<area shape="rect" id="Node000026" href="$d4/dc1/classPHG4MvtxDetector.html#a8b1e48980398bde6fd22e58e3c26dd63" title="construct" alt="" coords="858,1183,1095,1211"/>
+<area shape="poly" id="edge31_Node000001_Node000026" title=" " alt="" coords="1203,1118,1155,1146,1099,1173,1059,1185,1057,1180,1097,1168,1152,1142,1201,1113"/>
+<area shape="rect" id="Node000027" href="$dc/dae/classPHG4sPHENIXMagnetDetector.html#a87205130fe3f255debfd46d2a87307da" title="construct" alt="" coords="867,1235,1086,1279"/>
+<area shape="poly" id="edge33_Node000001_Node000027" title=" " alt="" coords="1216,1121,1166,1173,1134,1201,1099,1225,1074,1236,1072,1232,1096,1220,1131,1197,1163,1170,1213,1117"/>
+<area shape="rect" id="Node000028" href="$dc/df2/classPHG4ZDCDetector.html#ae78930fd5b13383ea22dbaab031e90c0" title="construct" alt="" coords="861,1303,1092,1331"/>
+<area shape="poly" id="edge34_Node000001_Node000028" title=" " alt="" coords="1227,1122,1208,1161,1180,1208,1144,1255,1099,1294,1078,1305,1075,1300,1096,1289,1140,1251,1176,1205,1203,1159,1222,1120"/>
+<area shape="rect" id="Node000029" href="$df/dfc/classPHG4EICMvtxDetector.html#ab86aa5c7ca9587438c17dd0d363ac4c0" title="Determine if a physical volume belongs to the MVTX detector and retrieve its layer and stave indices." alt="" coords="893,1355,1060,1399"/>
+<area shape="poly" id="edge35_Node000001_Node000029" title=" " alt="" coords="1230,1123,1213,1171,1187,1231,1149,1292,1126,1320,1099,1344,1062,1365,1059,1360,1096,1340,1122,1316,1145,1289,1182,1228,1209,1169,1225,1121"/>
+<area shape="rect" id="Node000030" href="$d4/dc1/classPHG4MvtxDetector.html#a2ed056c4bb71fc5c627faa32d14435d0" title="Determine if a given physical volume belongs to the MVTX detector and retrieve its layer and stave in..." alt="" coords="871,1423,1082,1451"/>
+<area shape="poly" id="edge36_Node000001_Node000030" title=" " alt="" coords="1234,1123,1222,1184,1198,1263,1181,1305,1159,1345,1132,1382,1099,1414,1082,1425,1079,1420,1096,1410,1128,1378,1154,1342,1176,1302,1193,1261,1217,1183,1229,1122"/>
+<area shape="rect" id="Node000031" href="$df/dfc/classPHG4EICMvtxDetector.html#a8c4dc0d9890997d30a71951f78aa70fd" title="Determine whether a given physical volume corresponds to a sensor." alt="" coords="893,1475,1060,1519"/>
+<area shape="poly" id="edge37_Node000001_Node000031" title=" " alt="" coords="1236,1122,1226,1192,1204,1284,1186,1332,1163,1380,1135,1425,1099,1464,1082,1477,1062,1487,1059,1482,1079,1473,1096,1460,1130,1422,1159,1378,1181,1330,1199,1282,1221,1191,1231,1122"/>
+<area shape="rect" id="Node000032" href="$d4/dc1/classPHG4MvtxDetector.html#accbb3e5cfd655f6017c1a4d677f146f1" title="Determine if a Geant4 physical volume is a sensor, active support, or neither." alt="" coords="872,1543,1081,1571"/>
+<area shape="poly" id="edge38_Node000001_Node000032" title=" " alt="" coords="1238,1123,1234,1204,1227,1258,1215,1316,1197,1375,1173,1433,1141,1487,1099,1534,1083,1545,1080,1541,1096,1530,1137,1484,1168,1431,1192,1373,1210,1314,1221,1257,1228,1204,1233,1122"/>
+<area shape="rect" id="Node000033" href="$df/dfc/classPHG4EICMvtxDetector.html#a4d4d89f5de02240ff3de6b17a2e4aa9e" title="constructor" alt="" coords="889,1595,1064,1639"/>
+<area shape="poly" id="edge39_Node000001_Node000033" title=" " alt="" coords="1239,1123,1236,1212,1230,1271,1219,1335,1202,1402,1177,1468,1143,1530,1100,1584,1084,1597,1065,1606,1063,1601,1081,1592,1096,1580,1139,1527,1172,1466,1197,1401,1214,1334,1225,1270,1231,1211,1234,1122"/>
+<area shape="rect" id="Node000034" href="$d4/dc1/classPHG4MvtxDetector.html#abeee9d5a83fff287a1b26dd31f3fbe24" title="constructor" alt="" coords="865,1664,1088,1709"/>
+<area shape="poly" id="edge40_Node000001_Node000034" title=" " alt="" coords="1235,1122,1219,1238,1191,1397,1173,1478,1151,1551,1127,1612,1100,1653,1085,1666,1081,1662,1096,1650,1122,1609,1146,1550,1167,1476,1186,1396,1214,1237,1230,1122"/>
+<area shape="rect" id="Node000035" href="$dd/d5a/classPHG4TpcEndCapDetector.html#ae35b61a39204b32237ec20c73773f8ac" title="constructor" alt="" coords="880,1733,1073,1778"/>
+<area shape="poly" id="edge41_Node000001_Node000035" title=" " alt="" coords="1236,1122,1222,1251,1196,1430,1177,1522,1155,1606,1130,1675,1115,1702,1100,1723,1075,1741,1072,1736,1096,1719,1111,1699,1125,1673,1150,1605,1172,1521,1190,1429,1217,1250,1230,1122"/>
+<area shape="rect" id="Node000036" href="$df/d95/classBeamLineMagnetDetector.html#a779743977fe9f5749678a32f6d21068d" title="Optional PostConstruction call after all geometry is constructed." alt="" coords="881,1803,1072,1847"/>
+<area shape="poly" id="edge42_Node000001_Node000036" title=" " alt="" coords="1236,1123,1225,1264,1200,1464,1182,1567,1159,1661,1132,1739,1117,1769,1100,1792,1074,1811,1071,1807,1096,1788,1112,1766,1127,1737,1154,1660,1176,1566,1195,1463,1219,1263,1231,1122"/>
+<area shape="rect" id="Node000037" href="$d5/d80/classPHG4InnerHcalDetector.html#ab7ffaa8ee716a4f2fdd7ae91a2402f78" title="Compute tilt angle from number of crossings when tilt angle not predefined." alt="" coords="889,683,1064,727"/>
+<area shape="poly" id="edge43_Node000001_Node000037" title=" " alt="" coords="1229,1064,1218,1000,1194,915,1177,870,1155,826,1128,785,1096,748,1063,727,1066,723,1099,744,1132,781,1159,823,1182,868,1199,913,1223,998,1235,1063"/>
+<area shape="rect" id="Node000039" href="$df/d74/classPHG4OuterHcalDetector.html#aa1dbe5bca75d071ae514218e623b9fea" title="Compute and set the scintillator tilt angle from the number of crossings." alt="" coords="887,803,1066,847"/>
+<area shape="poly" id="edge46_Node000001_Node000039" title=" " alt="" coords="1224,1066,1207,1021,1180,966,1143,909,1121,884,1096,862,1065,844,1067,840,1099,857,1125,880,1147,906,1185,963,1212,1019,1229,1064"/>
+<area shape="rect" id="Node000041" href="$dd/d5a/classPHG4TpcEndCapDetector.html#a2c064c8f25109fc1bc26c1a28e8db989" title="destructor" alt="" coords="874,1872,1079,1917"/>
+<area shape="poly" id="edge49_Node000001_Node000041" title=" " alt="" coords="1237,1122,1227,1275,1204,1497,1186,1611,1163,1716,1135,1802,1118,1836,1100,1861,1081,1877,1077,1873,1096,1858,1113,1833,1130,1800,1158,1714,1181,1610,1199,1496,1222,1275,1232,1122"/>
+<area shape="rect" id="Node000003" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698" title="Construct the full projected tilted SPACAL detector geometry within the given world volume." alt="" coords="35,97,220,142"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="296,79,219,99,218,94,295,74"/>
+<area shape="rect" id="Node000005" href="$d5/d80/classPHG4InnerHcalDetector.html#adcc55f5d190de67371fb9bf28015c68a" title="construct" alt="" coords="312,667,488,711"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="576,670,488,681,488,675,576,664"/>
+<area shape="rect" id="Node000007" href="$df/d74/classPHG4OuterHcalDetector.html#ae159c3d2a294c687f9c0f4af6dbce281" title="construct" alt="" coords="311,805,489,850"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="574,809,490,819,489,814,574,803"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="289,122,221,122,221,117,289,117"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="568,213,478,202,479,196,569,208"/>
+<area shape="poly" id="edge13_Node000011_Node000003" title=" " alt="" coords="306,168,217,145,219,140,307,163"/>
+<area shape="rect" id="Node000012" href="$d1/d05/classPHG4FullProjSpacalDetector.html#a5fff07b9f6daa78ccc2d56ac277bab0e" title="Construct the full projection Spacal detector geometry within the provided world logical volume." alt="" coords="25,167,230,211"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="306,192,230,192,230,186,306,186"/>
+<area shape="poly" id="edge15_Node000013_Node000010" title=" " alt="" coords="936,384,853,310,831,283,821,273,806,262,772,247,775,242,809,257,825,269,835,280,857,306,939,380"/>
+<area shape="rect" id="Node000014" href="$d1/d05/classPHG4FullProjSpacalDetector.html#a4d677490d51a2571ecd21ea86999f047" title="a block along z axis built with G4Trd that is slightly tapered in x dimension" alt="" coords="576,272,781,317"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="921,386,867,358,806,331,772,320,774,315,808,327,869,353,924,382"/>
+<area shape="rect" id="Node000017" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a336079ef7a9454e05a0663b43e46f1f4" title="a block along z axis built with G4Trd that is slightly tapered in x dimension" alt="" coords="582,512,775,557"/>
+<area shape="poly" id="edge19_Node000013_Node000017" title=" " alt="" coords="924,447,869,475,808,502,774,514,772,509,806,497,867,471,921,442"/>
+<area shape="rect" id="Node000019" href="$d1/d05/classPHG4FullProjSpacalDetector.html#a8538de3102407fb6d53ed0b7b75a3b14" title="Fully projective spacal with 2D tapered modules. To speed up construction, same&#45;length fiber is used ..." alt="" coords="550,341,807,402"/>
+<area shape="poly" id="edge22_Node000013_Node000019" title=" " alt="" coords="883,404,807,393,808,387,883,398"/>
+<area shape="rect" id="Node000020" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#ae874143d799ba53ee1902573913a2437" title="Fully projective spacal with 2D tapered modules. To speed up construction, same&#45;length fiber is used ..." alt="" coords="578,426,779,488"/>
+<area shape="poly" id="edge24_Node000013_Node000020" title=" " alt="" coords="884,430,779,445,779,440,883,425"/>
+<area shape="rect" id="Node000015" href="$d1/d05/classPHG4FullProjSpacalDetector.html#a41ebdae7499c21d2735235a485d0d2db" title="a block along z axis built with G4Trd that is slightly tapered in x dimension" alt="" coords="298,311,502,355"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="562,313,503,321,502,316,561,308"/>
+<area shape="rect" id="Node000016" href="$d1/d05/classPHG4FullProjSpacalDetector.html#afd4c65353754d4baff1ed614a2aca247" title="Construct azimuthal sector logical volume and its walls towers for the full projection Spacal detecto..." alt="" coords="25,311,230,355"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="282,336,230,336,230,330,282,330"/>
+<area shape="rect" id="Node000018" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#aed852e1cd37df4b6683b1b188551cad0" title="a block along z axis built with G4Trd that is slightly tapered in x dimension" alt="" coords="304,512,496,557"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="566,537,496,537,496,532,566,532"/>
+<area shape="poly" id="edge21_Node000018_Node000009" title=" " alt="" coords="288,549,250,553,250,548,288,544"/>
+<area shape="poly" id="edge23_Node000019_Node000015" title=" " alt="" coords="534,354,502,350,503,345,535,349"/>
+<area shape="poly" id="edge25_Node000020_Node000018" title=" " alt="" coords="564,491,484,514,483,509,563,486"/>
+<area shape="rect" id="Node000038" href="$d5/d80/classPHG4InnerHcalDetector.html#a14e2665be2dfc601ba02c95823748144" title="Construct the inner hcal geometry within the provided envelope logical volume." alt="" coords="591,701,766,746"/>
+<area shape="poly" id="edge44_Node000037_Node000038" title=" " alt="" coords="873,714,767,721,767,716,873,709"/>
+<area shape="poly" id="edge45_Node000038_Node000005" title=" " alt="" coords="576,714,488,703,488,697,576,708"/>
+<area shape="rect" id="Node000040" href="$df/d74/classPHG4OuterHcalDetector.html#a7791a8bc9629b00efcd33f59f134e27a" title="Construct the outer HCal geometry, scintillator assembly, steel plates and associated magnetic field." alt="" coords="590,840,768,885"/>
+<area shape="poly" id="edge47_Node000039_Node000040" title=" " alt="" coords="873,841,769,854,768,849,872,835"/>
+<area shape="poly" id="edge48_Node000040_Node000007" title=" " alt="" coords="574,852,489,841,490,836,574,847"/>
+</map>

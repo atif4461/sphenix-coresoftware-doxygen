@@ -1,0 +1,67 @@
+<map id="PHG4TpcGeomv1::methodname" name="PHG4TpcGeomv1::methodname">
+<area shape="rect" id="Node000001" title="Return description string for given binning type identifier." alt="" coords="486,928,716,956"/>
+<area shape="rect" id="Node000002" href="$d5/d3e/classPHG4TpcGeomv1.html#a70a9f9fa4b62dafd028553e45af62a8c" title="Verify that the current binning method matches the requested method." alt="" coords="257,324,438,369"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="586,916,356,370,361,368,591,914"/>
+<area shape="rect" id="Node000013" href="$d5/d3e/classPHG4TpcGeomv1.html#ab03b35f8cd2a663f58fe4bc487c7a6ba" title="Verify that the current binning method matches one of the allowed eta based schemes." alt="" coords="257,920,438,965"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="470,945,438,945,438,940,470,940"/>
+<area shape="rect" id="Node000023" href="$d5/d3e/classPHG4TpcGeomv1.html#a37c921829eedace8b2911d02de4647c3" title="Verify that the binning method is one of the supported types." alt="" coords="257,1525,438,1570"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="591,972,361,1526,356,1524,586,970"/>
+<area shape="rect" id="Node000003" href="$d5/d3e/classPHG4TpcGeomv1.html#a832ba025be193be3948b0db434667578" title="Compute the floating‑point time‑bin index for a given z coordinate." alt="" coords="25,5,189,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,310,319,255,294,189,256,122,233,92,207,64,188,52,191,47,210,60,237,88,261,119,298,187,324,254,340,308"/>
+<area shape="rect" id="Node000004" href="$d5/d3e/classPHG4TpcGeomv1.html#a51d5aab89bbe159a2fffe895e20d9ca0" title="Return the longitudinal bin index for a given z coordinate." alt="" coords="8,74,206,102"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="332,310,314,265,288,212,252,159,231,136,207,115,188,104,191,100,210,111,234,132,256,156,292,209,319,262,337,308"/>
+<area shape="rect" id="Node000005" href="$d5/d3e/classPHG4TpcGeomv1.html#a2c9cbff74677fcae612cc51c3320b354" title="Get number of z bins in the TPC geometry." alt="" coords="25,125,189,170"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="322,312,274,247,243,214,207,185,187,173,189,168,210,180,246,210,278,244,327,309"/>
+<area shape="rect" id="Node000006" href="$d5/d3e/classPHG4TpcGeomv1.html#a3363837b5fba3ed80f93cb4194557ec3" title="Return lower and upper z boundaries for a given z bin." alt="" coords="25,195,189,239"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="304,316,259,284,207,254,181,242,183,237,210,249,262,280,307,312"/>
+<area shape="rect" id="Node000007" href="$d5/d3e/classPHG4TpcGeomv1.html#ab68fb668eb387321777323576f4987c2" title="Return z coordinate of centre of specified bin." alt="" coords="25,264,189,309"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="241,323,189,309,190,304,242,317"/>
+<area shape="rect" id="Node000008" href="$d5/d3e/classPHG4TpcGeomv1.html#aea28a64d58f004843421a7db15c36fce" title="Return the minimum z coordinate of the TPC geometry." alt="" coords="5,332,209,360"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="241,349,209,349,209,344,241,344"/>
+<area shape="rect" id="Node000009" href="$d5/d3e/classPHG4TpcGeomv1.html#a3ce0dafa4deb97c00c58354c335b4338" title="Retrieve the longitudinal step size used in the TPC geometry." alt="" coords="25,384,189,429"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="242,375,190,388,189,383,241,370"/>
+<area shape="rect" id="Node000010" href="$d5/d3e/classPHG4TpcGeomv1.html#a58ddbd91a8d41273d244a253e9388c46" title="Set number of z bins for TPC geometry." alt="" coords="25,453,189,498"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="307,381,262,413,210,443,183,455,181,450,207,439,259,408,304,376"/>
+<area shape="rect" id="Node000011" href="$d5/d3e/classPHG4TpcGeomv1.html#a08d226bb8513e961a832757480adaa7e" title="Set the minimum z coordinate of the TPC geometry." alt="" coords="6,522,208,550"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="328,383,280,450,247,484,210,513,187,524,185,519,207,508,244,480,276,446,324,380"/>
+<area shape="rect" id="Node000012" href="$d5/d3e/classPHG4TpcGeomv1.html#af59406715f2d437ad4e03b42d95ef5db" title="Set the longitudinal step size for the TPC geometry." alt="" coords="25,573,189,618"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="334,384,315,426,287,473,253,521,210,563,191,576,188,571,207,559,249,518,283,471,310,423,329,382"/>
+<area shape="rect" id="Node000014" href="$d5/d3e/classPHG4TpcGeomv1.html#afcb7bf33af488d834e41114cda680a7c" title="Compute eta bin index for a given pseudorapidity." alt="" coords="25,643,189,687"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="332,906,314,860,287,805,252,749,207,702,188,689,191,685,210,698,256,746,292,802,319,858,337,904"/>
+<area shape="rect" id="Node000015" href="$d5/d3e/classPHG4TpcGeomv1.html#a5596faf0521a0893543e4158d61e7ed1" title="Return number of eta bins in the TPC geometry." alt="" coords="25,712,189,757"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="324,908,276,839,244,802,207,771,187,759,190,755,210,767,247,799,280,835,328,905"/>
+<area shape="rect" id="Node000016" href="$d5/d3e/classPHG4TpcGeomv1.html#ac074855bd2db2fb75beedcbe7e1b8912" title="Retrieve the lower and upper z boundaries for a specified TPC bin." alt="" coords="25,781,189,826"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="308,912,261,875,207,841,182,829,184,824,210,836,265,871,311,907"/>
+<area shape="rect" id="Node000017" href="$d5/d3e/classPHG4TpcGeomv1.html#af7a7e2ecd6579dbc54bc8bbbd68d8483" title="Return the eta coordinate at the center of the specified eta bin." alt="" coords="25,851,189,895"/>
+<area shape="poly" id="edge16_Node000013_Node000017" title=" " alt="" coords="253,918,186,899,188,893,254,913"/>
+<area shape="rect" id="Node000018" href="$d5/d3e/classPHG4TpcGeomv1.html#aa7d9bd6876ea684a209bad312e688fac" title="Return the minimum pseudorapidity edge of the TPC geometry." alt="" coords="25,920,189,965"/>
+<area shape="poly" id="edge17_Node000013_Node000018" title=" " alt="" coords="241,945,190,945,190,940,241,940"/>
+<area shape="rect" id="Node000019" href="$d5/d3e/classPHG4TpcGeomv1.html#a493789275ff325f9c30e51304356470e" title="Returns the eta step size used for binning in the TPC geometry." alt="" coords="25,989,189,1034"/>
+<area shape="poly" id="edge18_Node000013_Node000019" title=" " alt="" coords="254,972,188,991,186,986,253,967"/>
+<area shape="rect" id="Node000020" href="$d5/d3e/classPHG4TpcGeomv1.html#a97abf80e193a0103a6f0435fbc676555" title="Set number of eta bins for the TPC geometry." alt="" coords="25,1059,189,1103"/>
+<area shape="poly" id="edge19_Node000013_Node000020" title=" " alt="" coords="311,977,265,1014,210,1049,184,1061,182,1056,207,1044,261,1010,308,973"/>
+<area shape="rect" id="Node000021" href="$d5/d3e/classPHG4TpcGeomv1.html#a53fb103cb856f27448e7e0194d3b26f8" title="Set the minimum pseudorapidity (eta) boundary for the TPC geometry." alt="" coords="25,1128,189,1173"/>
+<area shape="poly" id="edge20_Node000013_Node000021" title=" " alt="" coords="328,980,280,1049,247,1086,210,1118,190,1130,187,1125,207,1113,244,1082,276,1046,324,977"/>
+<area shape="rect" id="Node000022" href="$d5/d3e/classPHG4TpcGeomv1.html#a7a27bdee8115d4b32a0414bb741802eb" title="Set the eta step size for the TPC geometry." alt="" coords="25,1197,189,1242"/>
+<area shape="poly" id="edge21_Node000013_Node000022" title=" " alt="" coords="337,980,319,1027,292,1082,256,1138,210,1187,190,1200,188,1196,207,1183,252,1135,287,1080,314,1025,332,978"/>
+<area shape="rect" id="Node000024" href="$d5/d3e/classPHG4TpcGeomv1.html#aedef85d90166521514f9b22546b3cb42" title="Compute azimuthal angle phi for a given phi bin and side." alt="" coords="11,1266,203,1294"/>
+<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="333,1511,315,1464,289,1409,253,1353,231,1329,207,1307,189,1296,191,1292,210,1303,235,1325,257,1350,294,1406,320,1462,338,1509"/>
+<area shape="rect" id="Node000025" href="$d5/d3e/classPHG4TpcGeomv1.html#aac6237c653cd8c85e587394f3a430531" title="Compute phi bin index with wraparound handling." alt="" coords="25,1317,189,1362"/>
+<area shape="poly" id="edge24_Node000023_Node000025" title=" " alt="" coords="324,1513,276,1444,244,1408,207,1377,187,1365,190,1360,210,1372,247,1404,280,1441,328,1510"/>
+<area shape="rect" id="Node000026" href="$d5/d3e/classPHG4TpcGeomv1.html#af5a9f43bab9e07750ad76cf477b5b29f" title="Retrieve the number of phi bins in the TPC geometry." alt="" coords="25,1387,189,1431"/>
+<area shape="poly" id="edge25_Node000023_Node000026" title=" " alt="" coords="308,1517,261,1480,207,1446,182,1434,184,1429,210,1441,265,1476,311,1513"/>
+<area shape="rect" id="Node000027" href="$d5/d3e/classPHG4TpcGeomv1.html#a82c9e181abf56e0c7fda5194da95224a" title="Compute phi centre for a given phi bin and detector side." alt="" coords="25,1456,189,1501"/>
+<area shape="poly" id="edge26_Node000023_Node000027" title=" " alt="" coords="253,1523,186,1504,188,1499,254,1518"/>
+<area shape="rect" id="Node000028" href="$d5/d3e/classPHG4TpcGeomv1.html#a9f646cb0d952bb667786faccc8e23711" title="Return phi coordinate of bin centre for given phi bin index." alt="" coords="25,1525,189,1570"/>
+<area shape="poly" id="edge27_Node000023_Node000028" title=" " alt="" coords="241,1550,190,1550,190,1545,241,1545"/>
+<area shape="rect" id="Node000029" href="$d5/d3e/classPHG4TpcGeomv1.html#a007f7739e22c3441a54e7cdd5f6450b0" title="Retrieve minimum azimuthal angle of TPC geometry." alt="" coords="25,1595,189,1639"/>
+<area shape="poly" id="edge28_Node000023_Node000029" title=" " alt="" coords="254,1577,188,1597,186,1591,253,1572"/>
+<area shape="rect" id="Node000030" href="$d5/d3e/classPHG4TpcGeomv1.html#ab3f5feda73adabc22d44e8ef214cb01d" title="Retrieve phi step size for TPC geometry." alt="" coords="25,1664,189,1709"/>
+<area shape="poly" id="edge29_Node000023_Node000030" title=" " alt="" coords="311,1583,265,1619,210,1654,184,1666,182,1661,207,1649,261,1615,308,1578"/>
+<area shape="rect" id="Node000031" href="$d5/d3e/classPHG4TpcGeomv1.html#a702e52f274f6f7e418aaf698086fd972" title="Set number of phi bins for TPC geometry." alt="" coords="25,1733,189,1778"/>
+<area shape="poly" id="edge30_Node000023_Node000031" title=" " alt="" coords="328,1585,280,1655,247,1691,210,1723,190,1735,187,1731,207,1719,244,1688,276,1651,324,1582"/>
+<area shape="rect" id="Node000032" href="$d5/d3e/classPHG4TpcGeomv1.html#afd3f30866c48778508cc438bfa1fe304" title="Set minimum azimuthal angle phi for TPC geometry." alt="" coords="25,1803,189,1847"/>
+<area shape="poly" id="edge31_Node000023_Node000032" title=" " alt="" coords="337,1586,319,1632,292,1688,256,1744,210,1792,190,1805,188,1801,207,1788,252,1741,287,1685,314,1630,332,1584"/>
+<area shape="rect" id="Node000033" href="$d5/d3e/classPHG4TpcGeomv1.html#ad90bb8673d2945875a37ddbd90ccce13" title="Set the azimuthal step size for the TPC geometry." alt="" coords="25,1872,189,1917"/>
+<area shape="poly" id="edge32_Node000023_Node000033" title=" " alt="" coords="342,1586,328,1646,302,1720,264,1795,239,1831,210,1862,191,1876,187,1871,207,1858,235,1827,260,1793,297,1718,323,1644,337,1585"/>
+</map>

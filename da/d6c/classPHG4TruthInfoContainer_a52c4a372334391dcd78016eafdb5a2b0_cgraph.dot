@@ -1,0 +1,12 @@
+digraph "PHG4TruthInfoContainer::delete_vtx"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4TruthInfoContainer\l::delete_vtx",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Delete vertex with given identifier from the container."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4TruthInfoContainer\l::delete_vtx",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d6c/classPHG4TruthInfoContainer.html#ace6af61d8108953daf2a5aef52a6e7bb",tooltip="Delete vertex pointed by iterator and remove it from the vertex map."];
+}

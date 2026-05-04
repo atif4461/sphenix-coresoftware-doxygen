@@ -1,0 +1,33 @@
+<map id="PHG4FullProjSpacalDetector::Construct_Tower" name="PHG4FullProjSpacalDetector::Construct_Tower">
+<area shape="rect" id="Node000001" title="a block along z axis built with G4Trd that is slightly tapered in x dimension" alt="" coords="5,180,210,225"/>
+<area shape="rect" id="Node000002" href="$d4/d9b/classPHG4SpacalDisplayAction.html#a3851780045227ce76daf7e308a477c54" title=" " alt="" coords="854,5,1045,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,177,195,148,257,122,333,100,412,82,570,55,717,38,838,29,839,34,718,43,571,60,413,87,335,106,259,128,198,153,145,182"/>
+<area shape="rect" id="Node000003" href="$d1/d05/classPHG4FullProjSpacalDetector.html#a4d677490d51a2571ecd21ea86999f047" title="a block along z axis built with G4Trd that is slightly tapered in x dimension" alt="" coords="284,240,488,285"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,222,270,235,268,240,210,227"/>
+<area shape="rect" id="Node000006" href="$d3/de7/classPHG4Detector.html#a8e548682ab05493f7cdbd391bc4f67be" title="Retrieve a G4Material by name, optionally aborting on failure." alt="" coords="849,75,1050,119"/>
+<area shape="poly" id="edge18_Node000001_Node000006" title=" " alt="" coords="181,177,257,158,413,134,569,117,834,99,834,104,570,122,413,140,258,164,182,182"/>
+<area shape="rect" id="Node000007" href="$d0/da4/classPHG4SpacalDetector.html#a65854677d4248ad5cc43c8a7a80cbdc4" title=" " alt="" coords="871,144,1028,189"/>
+<area shape="poly" id="edge19_Node000001_Node000007" title=" " alt="" coords="210,190,375,176,563,165,717,162,856,162,856,167,718,167,563,170,376,181,210,195"/>
+<area shape="rect" id="Node000008" href="$d3/de7/classPHG4Detector.html#a5cb53c12d6e4f5f5252ddd00a8fbebd0" title=" " alt="" coords="858,391,1041,419"/>
+<area shape="poly" id="edge20_Node000001_Node000008" title=" " alt="" coords="120,224,139,266,169,318,209,370,233,394,259,413,330,455,395,483,455,500,514,507,575,506,640,498,795,468,856,449,909,424,911,429,858,454,796,473,641,503,575,511,514,512,454,505,393,488,328,460,256,418,229,398,205,374,165,321,135,268,115,226"/>
+<area shape="rect" id="Node000011" href="$d1/d05/classPHG4FullProjSpacalDetector.html#a8538de3102407fb6d53ed0b7b75a3b14" title="Fully projective spacal with 2D tapered modules. To speed up construction, same&#45;length fiber is used ..." alt="" coords="258,342,515,404"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="146,223,259,295,320,332,317,336,256,299,143,227"/>
+<area shape="rect" id="Node000004" href="$df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#a8e457be1201de8794f0746ace1455362" title="fiber layout (2D index of 0...NFiberX/NFiberY) &#45;&gt; fiber_id" alt="" coords="563,351,795,395"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="445,283,564,329,600,343,598,348,562,334,443,288"/>
+<area shape="rect" id="Node000005" href="$d0/da4/classPHG4SpacalDetector.html#aeb7c6f4586ddc3f81cc132e058aa2f32" title="Construct a fiber logical volume with cladding and core." alt="" coords="601,180,757,225"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="489,239,585,219,586,224,490,244"/>
+<area shape="poly" id="edge11_Node000003_Node000008" title=" " alt="" coords="489,272,636,297,717,314,796,336,856,358,908,382,906,387,854,363,795,341,715,319,635,302,488,277"/>
+<area shape="rect" id="Node000009" href="$d3/de7/classPHG4Detector.html#a010c3ce04a20df68f63e189fd7af49d3" title=" " alt="" coords="843,264,1056,292"/>
+<area shape="poly" id="edge12_Node000003_Node000009" title=" " alt="" coords="489,263,828,272,828,278,488,268"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="699,178,760,120,799,88,842,60,853,54,855,59,845,65,803,92,763,124,703,182"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="729,177,842,129,861,122,863,127,844,134,731,182"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="758,189,856,176,856,181,758,195"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="712,223,919,380,916,384,709,227"/>
+<area shape="poly" id="edge9_Node000005_Node000009" title=" " alt="" coords="754,223,844,249,875,257,874,263,843,254,753,228"/>
+<area shape="rect" id="Node000010" href="$d3/de7/classPHG4Detector.html#a4e715f0e6414db625cf82232fdb859e1" title=" " alt="" coords="858,212,1041,240"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="758,207,843,214,842,220,758,212"/>
+<area shape="poly" id="edge14_Node000011_Node000004" title=" " alt="" coords="515,370,547,370,547,376,515,376"/>
+<area shape="poly" id="edge15_Node000011_Node000005" title=" " alt="" coords="440,339,625,231,627,235,442,344"/>
+<area shape="poly" id="edge16_Node000011_Node000008" title=" " alt="" coords="443,402,500,429,564,449,628,460,679,463,730,458,795,449,848,437,897,422,899,427,849,443,796,454,730,464,679,468,627,466,562,454,498,434,441,407"/>
+<area shape="poly" id="edge17_Node000011_Node000009" title=" " alt="" coords="487,402,557,417,635,425,716,423,756,416,794,405,821,389,855,362,922,301,925,305,859,366,824,394,796,410,757,422,717,428,635,431,556,422,486,407"/>
+</map>

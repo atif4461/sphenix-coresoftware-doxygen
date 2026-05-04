@@ -1,0 +1,65 @@
+<map id="TrackSeed::get_Y0" name="TrackSeed::get_Y0">
+<area shape="rect" id="Node000001" title=" " alt="" coords="762,499,902,527"/>
+<area shape="rect" id="Node000002" href="$d4/d52/classTrackSeed__v1.html#a5d958ebfe3d2412618b3830ca99edef4" title="Copy data from a source TrackSeed into this TrackSeed_v1 instance." alt="" coords="526,126,710,154"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="813,487,625,155,630,153,818,485"/>
+<area shape="rect" id="Node000008" href="$d3/d8a/classTrackSeed__v2.html#a836f63043e176392c82f0c5537c91877" title="Copy data from a TrackSeed object into this TrackSeed_v2 instance." alt="" coords="526,350,710,378"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="797,492,638,380,642,376,800,488"/>
+<area shape="rect" id="Node000014" href="$d9/d67/namespaceTrackSeedHelper.html#a37fc83a372bcb17ad6c0af444eee3f26" title="Compute the helix root coordinates from a TrackSeed." alt="" coords="522,551,714,579"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="758,534,679,553,678,548,756,529"/>
+<area shape="rect" id="Node000015" href="$d9/d67/namespaceTrackSeedHelper.html#ad2f8e54ea39516770b4f8f145557af71" title="Compute the azimuthal angle of a track seed." alt="" coords="277,454,464,482"/>
+<area shape="poly" id="edge32_Node000001_Node000015" title=" " alt="" coords="747,507,464,479,464,474,747,502"/>
+<area shape="rect" id="Node000018" href="$d9/d67/namespaceTrackSeedHelper.html#a626b07c2e3e583bb7424291be4c28097" title="Compute the azimuthal angle phi for a fast simulation track seed." alt="" coords="291,727,450,771"/>
+<area shape="poly" id="edge33_Node000001_Node000018" title=" " alt="" coords="800,538,716,593,598,660,475,717,445,729,443,724,473,712,596,655,713,588,797,534"/>
+<area shape="rect" id="Node000027" href="$dd/d92/classTrackSeedTrackMapConverter.html#ad4684e56d489fc441709416cc8047607" title="Convert track seeds into SvtxTrack objects and populate the output track map." alt="" coords="5,944,219,989"/>
+<area shape="poly" id="edge34_Node000001_Node000027" title=" " alt="" coords="821,542,781,619,752,661,716,699,656,747,590,789,522,827,453,860,319,911,208,946,206,941,318,906,451,855,520,822,588,785,653,742,713,695,747,658,777,616,817,540"/>
+<area shape="rect" id="Node000003" href="$d1/d86/classTrackSeed__FastSim__v1.html#a609058821b1081324803628ae0c7b48c" title="Copy data from a source TrackSeed into this TrackSeed_FastSim_v1 instance." alt="" coords="286,5,454,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="579,120,529,92,473,65,443,53,445,48,475,60,532,88,582,115"/>
+<area shape="rect" id="Node000005" href="$d4/d52/classTrackSeed__v1.html#a84301e53ce301c81d1facfd0e9f7a945" title="Assignment operator for TrackSeed_v1 copies data from another instance unless self assignment." alt="" coords="278,74,462,102"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="533,125,439,105,441,100,534,119"/>
+<area shape="rect" id="Node000006" href="$d4/d52/classTrackSeed__v1.html#a5819c802d692f6ed8d238a99ad233aa3" title="Copy constructors." alt="" coords="267,126,474,154"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="511,142,475,142,475,137,511,137"/>
+<area shape="rect" id="Node000007" href="$d4/d52/classTrackSeed__v1.html#a9a5f745b54d549e9bbaa0b61dd25faa5" title="Copy constructor for TrackSeed_v1." alt="" coords="267,178,474,206"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="534,160,441,180,439,175,533,155"/>
+<area shape="rect" id="Node000004" href="$d1/d86/classTrackSeed__FastSim__v1.html#a7b293327c5bfa473e4609f878d5c9f56" title="Construct a TrackSeed_FastSim_v1 from a source TrackSeed." alt="" coords="24,5,200,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="271,30,201,30,201,25,271,25"/>
+<area shape="rect" id="Node000009" href="$d4/d01/classTrackSeed__FastSim__v2.html#af5e05ec67049626311a18a42bffc0425" title="Copy data from source TrackSeed into this object." alt="" coords="286,229,454,274"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="579,344,529,316,473,289,443,277,445,272,475,284,532,312,582,339"/>
+<area shape="rect" id="Node000011" href="$d3/d8a/classTrackSeed__v2.html#a9a547d6e2c4970a00212f4f219a4eba3" title="Assignment operator for TrackSeed_v2 copies data from another instance." alt="" coords="278,298,462,326"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="533,349,439,329,441,324,534,343"/>
+<area shape="rect" id="Node000012" href="$d3/d8a/classTrackSeed__v2.html#aa439b71dabc9394cc0e635e5a0bd0ab2" title="Copy constructors." alt="" coords="267,350,474,378"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="511,366,475,366,475,361,511,361"/>
+<area shape="rect" id="Node000013" href="$d3/d8a/classTrackSeed__v2.html#a4fa476277596f8ec73e04da45411734d" title="Copy constructor for TrackSeed_v2." alt="" coords="267,402,474,430"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="534,384,441,404,439,399,533,379"/>
+<area shape="rect" id="Node000010" href="$d4/d01/classTrackSeed__FastSim__v2.html#aceae892e792c513c8b03ff50477953e7" title="Construct a TrackSeed_FastSim_v2 from an existing TrackSeed." alt="" coords="24,229,200,274"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="271,254,201,254,201,249,271,249"/>
+<area shape="poly" id="edge14_Node000014_Node000014" title=" " alt="" coords="655,538,642,532,618,530,596,532,584,537,581,542,586,549,581,552,575,542,580,533,595,527,618,525,643,527,657,533"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="577,546,528,521,473,497,434,485,436,479,475,492,531,516,580,541"/>
+<area shape="poly" id="edge18_Node000014_Node000018" title=" " alt="" coords="595,592,524,665,502,693,476,717,452,729,449,724,472,712,498,689,520,662,591,588"/>
+<area shape="rect" id="Node000019" href="$d9/d67/namespaceTrackSeedHelper.html#a8e1f50fd2045ba275c7e0c7fc4cd0868" title="Retrieve the x coordinate of the seed&#39;s root position." alt="" coords="283,506,458,534"/>
+<area shape="poly" id="edge19_Node000014_Node000019" title=" " alt="" coords="523,550,450,537,450,532,524,545"/>
+<area shape="rect" id="Node000022" href="$d9/d67/namespaceTrackSeedHelper.html#ad14f8cec2a6f5afc26eb0dfde3479ef0" title="Retrieve the three dimensional position of a track seed." alt="" coords="276,675,465,703"/>
+<area shape="poly" id="edge22_Node000014_Node000022" title=" " alt="" coords="576,588,401,677,399,672,574,584"/>
+<area shape="rect" id="Node000029" href="$d9/d67/namespaceTrackSeedHelper.html#ae9079e98ad0bd4b2b4cbcee54237805b" title="Return the y coordinate of the trajectory associated with a TrackSeed." alt="" coords="283,558,458,586"/>
+<area shape="poly" id="edge29_Node000014_Node000029" title=" " alt="" coords="506,571,458,572,458,567,506,565"/>
+<area shape="rect" id="Node000016" href="$d8/d56/classPHSiliconCosmicSeeding.html#ab2e58f82964d08c350a0620be4cfe12e" title="Process a single event and produce silicon cosmic track seeds." alt="" coords="21,320,203,365"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="275,449,265,443,249,427,240,411,232,395,217,379,197,367,200,363,220,375,236,391,245,408,253,424,268,439,278,445"/>
+<area shape="rect" id="Node000017" href="$d9/d69/classPHSimpleKFProp.html#a0e11d66809451e62d6001f3aa4cf392e" title="Process event for Kalman filter propagation." alt="" coords="18,389,206,434"/>
+<area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="288,453,206,435,207,429,289,447"/>
+<area shape="rect" id="Node000020" href="$d5/dbe/classPrelimDistortionCorrection.html#ad707e0f0a8b3a3f05b528126eb2c10f1" title="Process a single event applying preliminary distortion corrections to TPC track seeds." alt="" coords="15,459,209,503"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="267,507,209,498,210,493,268,502"/>
+<area shape="rect" id="Node000021" href="$d6/d80/classPrelimDistortionCorrectionAuAu.html#aa272136335740089cdc88cef18c47370" title="Process event applying preliminary distortion correction for AuAu collisions." alt="" coords="15,528,209,573"/>
+<area shape="poly" id="edge21_Node000019_Node000021" title=" " alt="" coords="268,534,210,541,209,536,267,529"/>
+<area shape="rect" id="Node000023" href="$db/d77/classPHGhostRejection.html#af845dfdc7b6743b74e786cf6b012096c" title="Identify and reject ghost tracks from the seed collection." alt="" coords="27,597,197,642"/>
+<area shape="poly" id="edge23_Node000022_Node000023" title=" " alt="" coords="301,673,197,645,198,640,302,668"/>
+<area shape="rect" id="Node000024" href="$d5/de1/classHelicalFitter.html#a98485e999dddb90f86479a58eb7b53a3" title="Process a single event and perform helical or straight line fits for silicon and/or TPC track seeds." alt="" coords="33,667,191,711"/>
+<area shape="poly" id="edge24_Node000022_Node000024" title=" " alt="" coords="260,692,192,692,192,686,260,686"/>
+<area shape="rect" id="Node000025" href="$de/d25/classPHGenFitTrkFitter.html#afcdaabc6fd73922bb522d7fa7ef3a775" title="Process Event, called for each event." alt="" coords="41,736,183,781"/>
+<area shape="poly" id="edge25_Node000022_Node000025" title=" " alt="" coords="295,710,267,717,185,740,183,735,266,712,294,704"/>
+<area shape="rect" id="Node000026" href="$d4/d9e/classTpcSiliconQA.html#a2b48c5a176a25f0f42a37f290b62e748" title="Process a single event by comparing silicon and TPC track seeds and filling QA histograms." alt="" coords="30,805,194,850"/>
+<area shape="poly" id="edge26_Node000022_Node000026" title=" " alt="" coords="274,713,268,716,252,735,245,754,237,775,220,795,196,810,193,805,217,791,233,772,240,752,247,732,265,712,271,708"/>
+<area shape="poly" id="edge27_Node000022_Node000027" title=" " alt="" coords="271,714,269,716,250,742,242,768,241,795,244,822,247,849,247,877,239,905,221,933,206,946,203,942,217,930,235,903,242,876,242,849,239,822,236,795,237,767,245,740,265,713,267,710"/>
+<area shape="rect" id="Node000028" href="$dc/d3a/classDumpTrackSeedContainer.html#af5342b08d7010e1576c91fec1be27274" title="Process a PHNode containing a TrackSeedContainer and dump its contents." alt="" coords="17,875,207,919"/>
+<area shape="poly" id="edge28_Node000022_Node000028" title=" " alt="" coords="272,714,269,716,254,734,247,751,245,788,242,826,235,845,221,864,205,876,202,872,217,860,230,843,237,825,239,787,242,750,250,731,265,712,268,710"/>
+<area shape="poly" id="edge30_Node000029_Node000020" title=" " alt="" coords="286,555,266,547,241,533,217,518,189,506,191,501,220,513,244,528,268,543,288,550"/>
+<area shape="poly" id="edge31_Node000029_Node000021" title=" " alt="" coords="267,566,209,561,210,556,268,561"/>
+</map>

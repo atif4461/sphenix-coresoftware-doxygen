@@ -1,0 +1,26 @@
+<map id="TrackFitUtils::addClustersOnLine" name="TrackFitUtils::addClustersOnLine">
+<area shape="rect" id="Node000001" title="Add clusters that lie within a distance cut from a fitted line." alt="" coords="5,200,192,244"/>
+<area shape="rect" id="Node000002" href="$d0/d2c/classTrkrClusterContainer.html#a2e07352ae628a96f29c37cd2789c60b6" title="find cluster matching given key" alt="" coords="281,45,435,90"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,197,170,148,203,122,238,99,265,87,267,92,241,104,206,126,173,152,122,201"/>
+<area shape="rect" id="Node000003" href="$d0/d2c/classTrkrClusterContainer.html#a215578d924bc424052cbff4b813522b1" title="return all clusters" alt="" coords="281,114,435,159"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,196,239,169,265,160,267,165,241,174,162,201"/>
+<area shape="rect" id="Node000004" href="$d3/d64/classActsGeometry.html#a81e1d6479636cdf2b22d2acc993d7ff1" title="Compute global position of a tracker cluster using Acts geometry." alt="" coords="240,183,476,210"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,210,224,207,224,212,192,215"/>
+<area shape="rect" id="Node000007" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="872,81,1012,109"/>
+<area shape="poly" id="edge13_Node000001_Node000007" title=" " alt="" coords="192,238,313,255,463,264,543,262,625,255,705,241,782,219,823,200,860,173,917,119,921,123,864,178,826,204,784,224,706,247,625,261,543,268,463,269,313,260,192,243"/>
+<area shape="rect" id="Node000010" href="$d0/d2c/classTrkrClusterContainer.html#a8283a43f056cd2b63a08966b45c75ebd" title="get hitset key list" alt="" coords="281,285,435,330"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="170,242,274,277,273,282,168,247"/>
+<area shape="rect" id="Node000011" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="288,353,428,381"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="122,243,172,292,205,318,241,339,273,352,271,357,239,344,202,322,169,296,118,247"/>
+<area shape="rect" id="Node000005" href="$d3/d64/classActsGeometry.html#abe7b8fadd95687eab97782238c1272ed" title="Compute global position of a TPC cluster." alt="" coords="524,29,783,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="456,180,474,169,485,158,492,147,498,123,504,98,511,85,522,73,541,61,543,66,526,77,515,88,509,100,503,124,497,149,489,161,478,173,459,184"/>
+<area shape="poly" id="edge10_Node000004_Node000007" title=" " alt="" coords="451,180,475,169,489,157,497,143,506,129,523,117,564,100,608,88,697,76,782,74,856,80,856,85,782,80,697,81,609,94,566,105,525,121,510,133,502,146,493,160,477,173,453,184"/>
+<area shape="rect" id="Node000008" href="$d6/dfa/classTrkrCluster.html#aee7d1557cd0cf5b0969ec7075639c277" title=" " alt="" coords="572,131,735,158"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="440,179,557,159,557,164,441,185"/>
+<area shape="rect" id="Node000009" href="$d6/dfa/classTrkrCluster.html#a3ceb9dc71d12147d8d24eb9c6cbc861f" title=" " alt="" coords="572,183,735,210"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="476,194,557,194,557,199,476,199"/>
+<area shape="rect" id="Node000006" href="$d3/d64/classActsGeometry.html#af35c92c361420b21bd649be83205f5ba" title="Retrieve local detector coordinates for a given cluster key and cluster object." alt="" coords="831,29,1053,57"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="784,40,816,40,816,46,784,46"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="735,55,857,77,856,82,734,60"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="894,31,885,20,892,11,911,5,942,3,976,5,994,12,992,17,975,10,942,8,912,10,895,15,891,20,898,27"/>
+</map>

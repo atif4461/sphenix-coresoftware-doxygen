@@ -1,0 +1,14 @@
+digraph "PHPy8GenTrigger::PHPy8GenTrigger"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHPy8GenTrigger::PHPy8Gen\lTrigger",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="constructor"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHPy8JetTrigger::PHPy8Jet\lTrigger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d30/classPHPy8JetTrigger.html#a9179b588510d4a6586afcbf17032e483",tooltip="Constructor initializing jet trigger with default configuration."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHPy8ParticleTrigger\l::PHPy8ParticleTrigger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d8b/classPHPy8ParticleTrigger.html#a5a753b34619e7dd9b064970b8a284638",tooltip="Constructor for PHPy8ParticleTrigger initializing the base class with the provided name."];
+}

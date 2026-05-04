@@ -1,0 +1,12 @@
+digraph "TrackFitUtils::get_helix_tangent"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TrackFitUtils::get\l_helix_tangent",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compute the point of closest approach (PCA) and unit tangent vector of a helix to a global point."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrackFitUtils::get\l_circle_point_pca",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d94/namespaceTrackFitUtils.html#ace12678e4df927da3d37405578917cf2",tooltip="Compute the point of closest approach of a global position to a circle."];
+}

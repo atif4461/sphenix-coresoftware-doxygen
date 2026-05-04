@@ -1,0 +1,102 @@
+<map id="PHG4DSTReader::process_event" name="PHG4DSTReader::process_event">
+<area shape="rect" id="Node000001" title="event processing method" alt="" coords="5,1516,193,1560"/>
+<area shape="rect" id="Node000002" href="$d4/dc9/classPHG4DSTReader.html#a800782dd1b7ce1294a4760d71f609708" title="add a particle and associated vertex if _save_vertex" alt="" coords="257,517,418,562"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,1514,325,576,330,577,108,1516"/>
+<area shape="rect" id="Node000023" href="$db/d3c/classRawTowerv1.html#a6740a34b04eab7893da12225f30c9495" title="energy assigned to the tower. Depending on stage of process and DST node name, it could be energy dep..." alt="" coords="246,979,430,1006"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="101,1514,118,1409,147,1260,166,1183,188,1114,212,1056,239,1017,243,1013,247,1017,243,1021,217,1059,193,1116,171,1185,152,1261,123,1410,106,1515"/>
+<area shape="rect" id="Node000024" href="$d3/d9e/classPHG4Hit.html#aaf28bc9de3034670ec3808393a2026d9" title=" " alt="" coords="264,1031,412,1058"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="97,1515,101,1432,108,1375,119,1312,137,1247,162,1182,195,1122,239,1069,248,1062,251,1066,243,1073,200,1125,166,1185,142,1248,124,1313,113,1375,106,1432,103,1515"/>
+<area shape="rect" id="Node000025" href="$d3/d9e/classPHG4Hit.html#af8f832f9e10c07c53ac05312978d89bb" title=" " alt="" coords="267,1083,409,1110"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="98,1515,105,1440,126,1334,143,1277,168,1220,199,1167,239,1121,251,1112,254,1116,242,1125,203,1171,172,1223,148,1278,131,1335,110,1440,104,1515"/>
+<area shape="rect" id="Node000026" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="266,1135,410,1162"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="100,1515,109,1448,132,1356,150,1307,174,1258,203,1213,239,1173,250,1165,254,1169,242,1177,207,1216,178,1261,155,1309,137,1358,115,1449,105,1516"/>
+<area shape="rect" id="Node000032" href="$d4/d30/classPHG4HitContainer.html#aae172cc4360806cd0bb9b25079290ee8" title="return all hits matching a given detid" alt="" coords="241,1187,435,1214"/>
+<area shape="poly" id="edge32_Node000001_Node000032" title=" " alt="" coords="101,1514,114,1456,139,1377,157,1336,179,1295,206,1257,239,1224,243,1221,246,1225,242,1228,211,1260,184,1298,162,1338,144,1379,119,1457,106,1516"/>
+<area shape="rect" id="Node000033" href="$da/d6c/classPHG4TruthInfoContainer.html#aac1e859361ba0828d29d1ad8dbd61fdf" title="Get the Particle Map storage." alt="" coords="249,1238,426,1283"/>
+<area shape="poly" id="edge33_Node000001_Node000033" title=" " alt="" coords="105,1514,122,1468,150,1409,189,1347,213,1319,239,1293,244,1289,247,1294,242,1297,216,1322,193,1350,155,1412,127,1470,110,1516"/>
+<area shape="rect" id="Node000034" href="$da/d6c/classPHG4TruthInfoContainer.html#a175e3e0bbb61b850bf184368d920152f" title="Retrieve particle pointer from container by track identifier." alt="" coords="249,1308,426,1352"/>
+<area shape="poly" id="edge34_Node000001_Node000034" title=" " alt="" coords="111,1514,161,1440,197,1399,239,1362,246,1358,249,1362,242,1367,201,1402,165,1444,115,1517"/>
+<area shape="rect" id="Node000035" href="$da/d6c/classPHG4TruthInfoContainer.html#a2817b4438bb80cacb28f457975342cf2" title=" " alt="" coords="242,1377,434,1422"/>
+<area shape="poly" id="edge35_Node000001_Node000035" title=" " alt="" coords="125,1513,176,1472,239,1432,251,1426,253,1431,242,1436,179,1477,128,1517"/>
+<area shape="rect" id="Node000036" href="$d3/dc7/classRawTowerContainer.html#a656861c77f424f8dd224744c40db5380" title="return all towers" alt="" coords="259,1446,417,1491"/>
+<area shape="poly" id="edge36_Node000001_Node000036" title=" " alt="" coords="178,1512,243,1493,244,1498,179,1517"/>
+<area shape="rect" id="Node000037" href="$da/d6c/classPHG4TruthInfoContainer.html#a5f3f30ff74c7397069c6f0041849b53c" title="Retrieve vertex pointer by vertex identifier." alt="" coords="249,1516,426,1560"/>
+<area shape="poly" id="edge37_Node000001_Node000037" title=" " alt="" coords="193,1535,234,1535,234,1540,193,1540"/>
+<area shape="rect" id="Node000038" href="$d5/dff/classPHG4VtxPointv1.html#a2e9b92b737812adf936cf2f08731a710" title=" " alt="" coords="250,1584,426,1612"/>
+<area shape="poly" id="edge38_Node000001_Node000038" title=" " alt="" coords="191,1558,266,1577,265,1582,190,1563"/>
+<area shape="rect" id="Node000039" href="$d5/dff/classPHG4VtxPointv1.html#a83de5a87d9284ff8d274df2f906de128" title=" " alt="" coords="254,1636,422,1664"/>
+<area shape="poly" id="edge39_Node000001_Node000039" title=" " alt="" coords="133,1558,183,1590,242,1621,262,1628,260,1633,240,1626,180,1595,130,1563"/>
+<area shape="rect" id="Node000040" href="$d5/dff/classPHG4VtxPointv1.html#af3329dc1bbf0a9ea0568062f1765ae6a" title=" " alt="" coords="252,1688,424,1716"/>
+<area shape="poly" id="edge40_Node000001_Node000040" title=" " alt="" coords="119,1559,170,1616,204,1647,242,1673,255,1680,253,1684,239,1677,201,1651,166,1620,115,1562"/>
+<area shape="rect" id="Node000041" href="$d5/dff/classPHG4VtxPointv1.html#a70287bfca437383c9312fa2df002ca08" title=" " alt="" coords="252,1740,424,1768"/>
+<area shape="poly" id="edge41_Node000001_Node000041" title=" " alt="" coords="113,1559,133,1596,161,1641,198,1686,242,1725,252,1731,249,1735,239,1729,194,1690,157,1644,128,1598,108,1562"/>
+<area shape="rect" id="Node000042" href="$d5/dff/classPHG4VtxPointv1.html#ad0d64a500449201cf17eeb56d0fe079a" title=" " alt="" coords="253,1792,423,1820"/>
+<area shape="poly" id="edge42_Node000001_Node000042" title=" " alt="" coords="110,1560,126,1606,154,1665,192,1726,216,1753,242,1777,250,1783,247,1787,239,1781,212,1757,188,1729,149,1667,121,1608,105,1562"/>
+<area shape="rect" id="Node000043" href="$db/d40/classJetContainer.html#aed6af419e712c068ef0170c038b08078" title=" " alt="" coords="270,1844,406,1872"/>
+<area shape="poly" id="edge43_Node000001_Node000043" title=" " alt="" coords="107,1560,121,1615,146,1688,164,1726,186,1764,212,1799,242,1829,257,1839,254,1843,239,1833,208,1802,182,1767,160,1729,141,1690,116,1616,102,1561"/>
+<area shape="rect" id="Node000044" href="$d4/d30/classPHG4HitContainer.html#a4f5623f38f580d8121fd27c3e169a68a" title=" " alt="" coords="251,1896,424,1924"/>
+<area shape="poly" id="edge44_Node000001_Node000044" title=" " alt="" coords="105,1560,116,1624,140,1711,157,1757,180,1802,208,1845,242,1881,248,1886,245,1890,239,1885,204,1848,176,1805,153,1759,134,1712,111,1625,100,1561"/>
+<area shape="rect" id="Node000045" href="$d3/dc7/classRawTowerContainer.html#ae81f2a207b786eaec2e08aee16596c4c" title=" " alt="" coords="246,1948,430,1976"/>
+<area shape="poly" id="edge45_Node000001_Node000045" title=" " alt="" coords="104,1560,112,1632,133,1733,151,1787,174,1840,205,1890,243,1933,248,1938,244,1942,239,1937,200,1893,170,1843,146,1789,128,1734,106,1633,99,1561"/>
+<area shape="rect" id="Node000046" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="319,2024,357,2052"/>
+<area shape="poly" id="edge46_Node000001_Node000046" title=" " alt="" coords="104,1561,112,1638,134,1750,152,1812,175,1873,205,1932,243,1985,272,2010,305,2026,303,2030,269,2014,239,1989,201,1935,170,1875,147,1813,129,1751,107,1639,99,1561"/>
+<area shape="rect" id="Node000049" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="253,2076,423,2104"/>
+<area shape="poly" id="edge51_Node000001_Node000049" title=" " alt="" coords="106,1560,122,1666,152,1818,171,1895,193,1965,217,2023,243,2061,247,2065,243,2069,239,2065,212,2025,188,1967,166,1896,147,1819,117,1667,101,1561"/>
+<area shape="rect" id="Node000003" href="$de/dc9/classPHG4Particle.html#adcbd28bf66aedc50ece52911db7a0115" title=" " alt="" coords="514,5,663,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,517,338,429,345,368,356,302,374,232,399,164,435,100,481,44,498,32,501,36,485,48,439,103,404,166,379,234,361,303,350,369,344,429,341,517"/>
+<area shape="rect" id="Node000004" href="$de/dc9/classPHG4Particle.html#a989cb35b280a19d82722f012c890cafc" title=" " alt="" coords="500,57,678,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="337,516,342,437,350,383,362,323,380,262,405,201,439,145,481,96,486,91,490,95,485,100,443,148,410,204,385,264,367,325,355,384,348,437,342,517"/>
+<area shape="rect" id="Node000005" href="$de/dc9/classPHG4Particle.html#a3ba86cf63e50dd6c0705dc91004fe51d" title=" " alt="" coords="488,109,690,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="338,516,346,445,369,345,387,292,412,239,443,190,481,148,487,143,490,148,485,152,447,194,416,242,392,294,374,347,352,445,343,517"/>
+<area shape="rect" id="Node000006" href="$de/dc9/classPHG4Particle.html#a3a6b6e7232fca4450fef058e884710ba" title=" " alt="" coords="508,161,669,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="339,516,351,453,376,367,394,322,418,277,447,236,481,200,493,192,496,196,485,204,451,239,422,280,399,324,381,369,356,454,345,517"/>
+<area shape="rect" id="Node000007" href="$de/dc9/classPHG4Particle.html#a64791a9cca8d548c7292f0843472f5a5" title=" " alt="" coords="483,213,694,241"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="341,516,356,461,383,390,401,352,424,315,450,281,481,252,489,247,492,251,485,256,454,285,428,318,406,355,388,392,361,463,346,517"/>
+<area shape="rect" id="Node000008" href="$de/dc9/classPHG4Particle.html#a551c7bed3f04438cf0fa5647999a4864" title=" " alt="" coords="510,265,667,293"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="344,515,362,470,390,413,430,354,454,327,481,304,494,296,497,300,485,308,458,331,434,357,395,415,367,472,349,517"/>
+<area shape="rect" id="Node000009" href="$de/dc9/classPHG4Particle.html#ad6e122a3aa0d72af0390435253a052a7" title=" " alt="" coords="510,317,667,345"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="348,515,369,479,399,436,437,393,481,356,495,348,497,353,485,360,440,396,403,440,374,482,353,518"/>
+<area shape="rect" id="Node000010" href="$de/dc9/classPHG4Particle.html#ae527e6d26fc23746f001b9d32d17f065" title=" " alt="" coords="510,369,667,397"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="356,514,409,461,444,432,482,407,497,400,500,405,484,412,447,436,413,464,360,518"/>
+<area shape="rect" id="Node000011" href="$de/dc9/classPHG4Particle.html#a23b7432f9b345b67a00e5c005fa5ba52" title=" " alt="" coords="492,421,685,449"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="375,514,425,486,482,459,506,451,507,456,484,464,427,491,377,519"/>
+<area shape="rect" id="Node000012" href="$de/dc9/classPHG4Particle.html#a79a815798f148cb5818497caae6dcb41" title=" " alt="" coords="498,473,679,501"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="419,520,503,502,504,507,420,525"/>
+<area shape="rect" id="Node000013" href="$d1/db9/classPHG4Particlev2.html#abc0a25f53a97955ba3916926cf8d9f23" title=" " alt="" coords="506,525,671,553"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="419,536,491,536,491,542,419,542"/>
+<area shape="rect" id="Node000014" href="$d1/d42/classPHG4Particlev1.html#a4da07a1d21e369468de75d18468bb60a" title=" " alt="" coords="492,577,685,605"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="420,553,504,571,503,576,419,559"/>
+<area shape="rect" id="Node000015" href="$d1/db9/classPHG4Particlev2.html#a92d32b7c53f97565c5bf786a953ab1eb" title=" " alt="" coords="514,629,663,674"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="379,560,428,587,484,614,501,621,499,626,482,619,426,592,376,564"/>
+<area shape="rect" id="Node000016" href="$d1/d42/classPHG4Particlev1.html#a816565cd311f15c428bb665cb8df7246" title=" " alt="" coords="500,697,677,725"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="357,560,409,622,444,656,484,684,495,689,492,693,482,688,441,660,405,626,353,564"/>
+<area shape="rect" id="Node000017" href="$d1/db9/classPHG4Particlev2.html#a592e7bab2871806921e1de01ae2bf8fa" title=" " alt="" coords="514,749,663,794"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="352,560,372,598,402,645,439,693,485,734,502,745,499,749,481,739,435,697,397,648,367,601,347,563"/>
+<area shape="rect" id="Node000018" href="$d1/d42/classPHG4Particlev1.html#aeff072337e331c30f0b07e371ca89a44" title=" " alt="" coords="502,817,675,845"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="347,561,363,612,390,678,430,746,456,777,485,804,490,808,487,812,481,808,452,781,426,749,385,680,358,614,342,563"/>
+<area shape="rect" id="Node000019" href="$d1/d42/classPHG4Particlev1.html#a6d62ef20b811a3009c2c7fff7facd281" title=" " alt="" coords="502,869,675,897"/>
+<area shape="poly" id="edge18_Node000002_Node000019" title=" " alt="" coords="345,561,358,621,383,700,402,742,425,784,452,822,485,854,491,859,488,863,481,859,448,825,420,786,397,745,378,702,353,622,340,563"/>
+<area shape="rect" id="Node000020" href="$d1/d42/classPHG4Particlev1.html#a53f6be15ea9585d0c36f81a282c116ef" title=" " alt="" coords="503,921,674,949"/>
+<area shape="poly" id="edge19_Node000002_Node000020" title=" " alt="" coords="344,561,353,629,377,723,395,773,419,822,448,867,485,907,492,912,488,916,481,910,444,870,414,824,390,775,371,724,348,630,338,562"/>
+<area shape="rect" id="Node000021" href="$d1/db9/classPHG4Particlev2.html#a464ff7a17a8aa8a766b08c264adf112b" title=" " alt="" coords="514,973,663,1018"/>
+<area shape="poly" id="edge20_Node000002_Node000021" title=" " alt="" coords="343,562,351,637,372,744,390,801,415,858,446,912,485,959,502,971,499,976,481,962,441,915,410,861,385,803,367,745,345,638,337,562"/>
+<area shape="rect" id="Node000022" href="$d1/db9/classPHG4Particlev2.html#af85e920cc7795a3aa51da2f60ded36da" title=" " alt="" coords="514,1042,663,1087"/>
+<area shape="poly" id="edge21_Node000002_Node000022" title=" " alt="" coords="346,561,364,661,396,802,415,873,437,938,461,992,485,1028,502,1041,499,1045,481,1032,456,994,432,940,410,875,391,803,359,663,340,562"/>
+<area shape="rect" id="Node000027" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="498,1135,679,1162"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="410,1146,482,1146,482,1151,410,1151"/>
+<area shape="rect" id="Node000031" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="506,1187,671,1214"/>
+<area shape="poly" id="edge31_Node000026_Node000031" title=" " alt="" coords="409,1160,504,1180,503,1186,408,1166"/>
+<area shape="poly" id="edge27_Node000027_Node000027" title=" " alt="" coords="546,1136,539,1126,545,1116,561,1110,589,1108,618,1110,634,1117,632,1122,617,1116,589,1113,562,1115,548,1120,544,1125,550,1133"/>
+<area shape="rect" id="Node000028" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="786,1083,928,1110"/>
+<area shape="poly" id="edge28_Node000027_Node000028" title=" " alt="" coords="663,1131,770,1110,771,1116,665,1137"/>
+<area shape="rect" id="Node000029" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="791,1135,923,1162"/>
+<area shape="poly" id="edge29_Node000027_Node000029" title=" " alt="" coords="680,1146,775,1146,775,1151,680,1151"/>
+<area shape="rect" id="Node000030" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="742,1187,972,1214"/>
+<area shape="poly" id="edge30_Node000027_Node000030" title=" " alt="" coords="665,1160,767,1180,766,1186,663,1166"/>
+<area shape="poly" id="edge50_Node000046_Node000046" title=" " alt="" coords="317,2035,295,2024,291,2010,306,2001,338,1997,366,2000,382,2007,384,2018,373,2029,369,2025,379,2016,378,2010,365,2005,338,2003,308,2006,296,2012,299,2020,319,2030"/>
+<area shape="rect" id="Node000047" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="552,2024,625,2052"/>
+<area shape="poly" id="edge47_Node000046_Node000047" title=" " alt="" coords="357,2035,536,2035,536,2040,357,2040"/>
+<area shape="poly" id="edge48_Node000047_Node000047" title=" " alt="" coords="550,2028,539,2017,543,2006,560,2000,589,1997,625,2002,635,2007,638,2013,633,2016,631,2011,623,2007,589,2003,561,2005,547,2010,545,2016,553,2024"/>
+<area shape="rect" id="Node000048" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="824,2024,890,2052"/>
+<area shape="poly" id="edge49_Node000047_Node000048" title=" " alt="" coords="626,2035,808,2035,808,2040,626,2040"/>
+</map>

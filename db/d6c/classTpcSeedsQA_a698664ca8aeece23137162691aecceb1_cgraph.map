@@ -1,0 +1,21 @@
+<map id="TpcSeedsQA::calc_dedx" name="TpcSeedsQA::calc_dedx">
+<area shape="rect" id="Node000001" title="Calculate the truncated mean dE/dx for a given TPC track seed." alt="" coords="5,213,181,241"/>
+<area shape="rect" id="Node000002" href="$dc/d80/classTrackSeed.html#a513e9904f6837460a7b561d8348c3e13" title="Return a const iterator positioned at the end of the dummy cluster key set." alt="" coords="229,5,448,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,212,116,177,144,131,181,84,227,44,238,37,241,42,230,48,185,87,148,134,121,180,103,214"/>
+<area shape="rect" id="Node000003" href="$dc/d80/classTrackSeed.html#ad32517668fd228928ed69c331c92daa5" title="Return a constant iterator to the end of the cluster key set." alt="" coords="235,57,442,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,211,152,155,187,123,227,96,243,88,245,93,230,100,191,127,156,159,107,215"/>
+<area shape="rect" id="Node000004" href="$dc/d80/classTrackSeed.html#ae78b5ecfe5fb4595493b065a5ab4aa8f" title=" " alt="" coords="253,109,424,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,211,164,179,228,147,251,139,253,144,230,152,167,184,116,215"/>
+<area shape="rect" id="Node000005" href="$d1/dda/classPHG4TpcGeom.html#a3fe5405b4a41fc532974d168fe776f16" title=" " alt="" coords="241,161,436,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="161,210,254,190,255,195,162,215"/>
+<area shape="rect" id="Node000006" href="$dc/d80/classTrackSeed.html#a0589b4175c986aeb2e249ef3e71cb085" title=" " alt="" coords="259,213,418,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="181,224,244,224,244,230,181,230"/>
+<area shape="rect" id="Node000007" href="$d1/dda/classPHG4TpcGeom.html#a5c004e3cda1254085d1cf0c43574de40" title=" " alt="" coords="230,265,447,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="162,239,255,259,254,264,161,244"/>
+<area shape="rect" id="Node000008" href="$d6/dfa/classTrkrCluster.html#abef299fdff891d76bbb4724721b3f71f" title=" " alt="" coords="266,317,410,345"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="116,239,167,271,230,302,253,310,251,315,228,307,164,275,113,244"/>
+<area shape="rect" id="Node000009" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="268,369,408,397"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="107,240,156,296,191,327,230,354,254,365,252,370,227,359,187,332,152,300,103,243"/>
+<area shape="rect" id="Node000010" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="268,421,408,449"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="103,240,121,275,148,320,185,367,230,406,255,419,252,423,227,411,181,371,144,323,116,277,98,243"/>
+</map>

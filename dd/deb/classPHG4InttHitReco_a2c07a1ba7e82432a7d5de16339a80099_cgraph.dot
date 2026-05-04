@@ -1,0 +1,56 @@
+digraph "PHG4InttHitReco::process_event"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4InttHitReco::process\l_event",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="event processing"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="TrkrHit::addEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9b/classTrkrHit.html#a9d037c1e35218b560f1da7bb6db967f3",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4Utils::circle_rectangle\l_intersection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d02/classPHG4Utils.html#ae0a28ae191425ed79fa4a2275ad933e6",tooltip="Compute the overlapping area between a circle and an axis aligned rectangle."];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4Utils::sA",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d02/classPHG4Utils.html#a0136fcf54dda371d35ce46b7db582da9",tooltip="Compute analytic overlap area of a circle quadrant with rectangle corner."];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="CylinderGeomIntt::find\l_strip_center_localcoords",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dcb/classCylinderGeomIntt.html#aafdc8b5f8ee4642c4b52697d29fef6c8",tooltip="Compute local coordinates of the centre of a strip in the INTT cylinder geometry."];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="CylinderGeomIntt::find\l_strip_index_values",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dcb/classCylinderGeomIntt.html#a7d3365248653b99ac0d0dc1c945e47ec",tooltip="Determine the strip indices in the y and z directions for a given local sensor coordinate."];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="InttDefs::genHitKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d9e/namespaceInttDefs.html#a23025c6ded634381ab1f3ce870f18019",tooltip="Generate a unique hit identifier from column and row indices."];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="InttDefs::genHitSetKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d9e/namespaceInttDefs.html#a12be8558fb8bdb4b0374c28a63e703d3",tooltip="Generate a hitsetkey for the intt."];
+  Node8 -> Node9 [id="edge9_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TrkrDefs::genHitSetKey",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d3f/namespaceTrkrDefs.html#a418e306477093b8d17d587be70b908a3",tooltip="generate the common upper 16 bits for hitsetkey"];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="CylinderGeomIntt::get\l_strip_y_spacing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dcb/classCylinderGeomIntt.html#a662fa555e2a48dd1f6d08080e77e25f4",tooltip="Returns the spacing between detector strips in the Y direction."];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="CylinderGeomIntt::get\l_strip_z_spacing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/dcb/classCylinderGeomIntt.html#aaef4968ce0261a2fc82fa5fdb0c49f2b",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="findNode::getClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f",tooltip=" "];
+  Node12 -> Node13 [id="edge13_Node000012_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHNodeIterator::findFirst",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa",tooltip="Search recursively for the first node that matches a given type and name."];
+  Node13 -> Node13 [id="edge14_Node000013_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 -> Node14 [id="edge15_Node000013_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="PHNode::getName",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263",tooltip=" "];
+  Node13 -> Node15 [id="edge16_Node000013_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="PHNode::getType",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5",tooltip=" "];
+  Node13 -> Node16 [id="edge17_Node000013_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="PHNodeIterator::PHNodeIterator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240",tooltip="Constructor initializing the iterator with the specified composite node."];
+  Node12 -> Node17 [id="edge18_Node000012_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="PHDataNode::getData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3",tooltip=" "];
+  Node1 -> Node18 [id="edge19_Node000001_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="TrkrHit::getEnergy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/d9b/classTrkrHit.html#a303657b941583484a800e80a96eebe0f",tooltip=" "];
+  Node1 -> Node19 [id="edge20_Node000001_Node000019",color="steelblue1",style="solid",tooltip=" "];
+  Node19 [id="Node000019",label="PHG4HitContainer::getHits",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d30/classPHG4HitContainer.html#aae172cc4360806cd0bb9b25079290ee8",tooltip="return all hits matching a given detid"];
+  Node1 -> Node20 [id="edge21_Node000001_Node000020",color="steelblue1",style="solid",tooltip=" "];
+  Node20 [id="Node000020",label="PHG4CylinderGeomContainer\l::GetLayerGeom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/de7/classPHG4CylinderGeomContainer.html#a08321019aaff5f57cd416b64d0f536bf",tooltip="Retrieve geometry object for specified layer index from container."];
+  Node1 -> Node21 [id="edge22_Node000001_Node000021",color="steelblue1",style="solid",tooltip=" "];
+  Node21 [id="Node000021",label="InttNameSpace::ToRawData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/deb/namespaceInttNameSpace.html#ab75d69ba5d923ed43093d6adef832faf",tooltip="Convert online representation to raw data structure."];
+  Node21 -> Node22 [id="edge23_Node000021_Node000022",color="steelblue1",style="solid",tooltip=" "];
+  Node22 [id="Node000022",label="InttFelix::OnlineToRawData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d07/namespaceInttFelix.html#a0097ee0a27c38a2c185be755d7daa8f5",tooltip="Convert online address to raw data felix mapping."];
+  Node1 -> Node23 [id="edge24_Node000001_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node23 [id="Node000023",label="Fun4AllBase::Verbosity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664",tooltip="Gets the verbosity of this module."];
+}

@@ -1,0 +1,14 @@
+digraph "mvtx::GBTLink::addHit"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="mvtx::GBTLink::addHit",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Adds a hit to the trigger data collection."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="mvtx::GBTLink::decode_lane",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d26/structmvtx_1_1GBTLink.html#ad6225c43f445604b75082c8a95e4cedd",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="mvtx::GBTLink::collectROFCableData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d26/structmvtx_1_1GBTLink.html#ac3f8f594b30c6515949befeeac8a6d31",tooltip=" "];
+}

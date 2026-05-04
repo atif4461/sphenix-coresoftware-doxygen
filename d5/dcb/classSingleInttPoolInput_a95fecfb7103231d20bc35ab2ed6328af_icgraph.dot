@@ -1,0 +1,12 @@
+digraph "SingleInttPoolInput::CleanupUsedPackets"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SingleInttPoolInput\l::CleanupUsedPackets",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Remove entries from internal containers whose beam clock is less than or equal to the specified value..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SingleInttPoolInput\l::ClearCurrentEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dcb/classSingleInttPoolInput.html#af46e89ecd0daeb79070a5e798f2ba6cd",tooltip="Remove the currently loaded event from the input pool."];
+}

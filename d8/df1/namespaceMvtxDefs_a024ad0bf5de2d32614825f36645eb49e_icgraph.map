@@ -1,0 +1,28 @@
+<map id="MvtxDefs::genHitSetKey" name="MvtxDefs::genHitSetKey">
+<area shape="rect" id="Node000001" title="Generate a hitsetkey for the mvtx." alt="" coords="962,234,1142,262"/>
+<area shape="rect" id="Node000002" href="$dd/d69/namespaceMvtxPixelDefs.html#a484f5e85ceeaa1967bf98015e845cb00" title="Generate a pixelkey from a MvtxRawHit." alt="" coords="723,5,871,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1035,221,1015,185,988,143,953,101,912,65,870,44,872,39,915,60,957,97,992,140,1020,183,1040,219"/>
+<area shape="rect" id="Node000003" href="$dd/d69/namespaceMvtxPixelDefs.html#ab966fc14dcc700983da3ca82e03f0d15" title="Generate a MVTX pixel key from detector coordinates." alt="" coords="716,75,878,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1025,224,976,178,945,155,912,134,877,119,879,114,915,129,948,150,979,174,1029,221"/>
+<area shape="rect" id="Node000005" href="$d8/df1/namespaceMvtxDefs.html#acef315b1153c420f248be5073c2600c1" title="Generate a cluster key from indeces." alt="" coords="713,143,881,171"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1010,229,964,206,913,185,875,174,877,169,915,180,966,201,1013,224"/>
+<area shape="rect" id="Node000009" href="$db/d1d/classTrkrHitTruthAssocv1.html#a22c01f12fdf552de53a06d02892aedb0" title="Retrieve G4 hit entries for a given hitsetkey and hit index." alt="" coords="722,195,872,239"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="946,238,872,229,873,223,946,232"/>
+<area shape="rect" id="Node000010" href="$d4/d56/classMvtxPixelMask.html#a712727c7f4535081a7e103b75654296a" title="Determine whether a given Mvtx raw hit is masked as a hot pixel." alt="" coords="698,263,896,291"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="946,262,896,268,896,263,946,257"/>
+<area shape="rect" id="Node000011" href="$d0/d7e/classMvtxClusterPruner.html#a6ca5f7ac7a419647d17da69c7248f472" title="event processing" alt="" coords="722,315,872,359"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="1004,270,915,305,873,318,872,313,913,300,1002,265"/>
+<area shape="rect" id="Node000012" href="$dd/d50/classMvtxCombinedRawDataDecoder.html#a5d1daca77ea10f340fc030e46a139ca8" title="event processing" alt="" coords="680,384,914,429"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="1031,275,981,325,949,351,915,374,890,386,888,381,912,369,946,347,978,321,1027,271"/>
+<area shape="rect" id="Node000013" href="$de/d4d/classPHG4MvtxHitReco.html#a909a81a9eb5c91d222f0ed65462e4ed7" title="event processing" alt="" coords="697,453,897,498"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="1041,277,1021,314,993,359,958,404,915,443,895,455,892,451,912,439,954,401,989,356,1017,312,1036,274"/>
+<area shape="rect" id="Node000004" href="$d4/d56/classMvtxPixelMask.html#a4ee4c44f2ba1037b5d987c81c9273f3e" title="Load hot pixel map from CDB for MVTX detector." alt="" coords="476,71,632,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="700,98,633,97,633,92,700,93"/>
+<area shape="rect" id="Node000006" href="$d4/de4/classSvtxTruthEval.html#a6051f9387f039a6604738f6a451c704b" title="Retrieve truth clusters associated with a given Geant4 particle." alt="" coords="487,140,621,185"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="697,162,622,164,622,158,697,157"/>
+<area shape="rect" id="Node000007" href="$d1/d1e/classSvtxClusterEval.html#a4ed068393b7f131534926b87b7b59e10" title="Retrieve the truth cluster that best matches a reconstructed cluster based on the highest‑energy cont..." alt="" coords="5,140,191,185"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="472,158,428,156,333,153,239,156,191,158,191,153,239,150,333,148,428,150,472,153"/>
+<area shape="rect" id="Node000008" href="$d1/d1e/classSvtxClusterEval.html#a71467fc0bd5e8af7a8d4ea2a0d124bc1" title="Find truth particle with maximum energy contribution to the specified cluster." alt="" coords="239,165,428,226"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="472,177,429,184,428,179,471,172"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="223,183,191,178,191,173,223,177"/>
+</map>

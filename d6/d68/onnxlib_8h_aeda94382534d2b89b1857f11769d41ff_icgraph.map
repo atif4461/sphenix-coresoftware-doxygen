@@ -1,0 +1,9 @@
+<map id="onnxInference" name="onnxInference">
+<area shape="rect" id="Node000001" title="Perform ONNX inference using provided Ort session." alt="" coords="476,48,590,76"/>
+<area shape="rect" id="Node000002" href="$dd/de5/classCaloWaveformProcessing.html#a30c90b55632b7fa266e485bceced8922" title="Process calorimeter waveform vectors using ONNX inference and fallback logic." alt="" coords="241,5,428,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="460,52,428,47,429,41,461,47"/>
+<area shape="rect" id="Node000004" href="$df/dbd/classRawClusterCNNClassifier.html#a1588f2f843b6ec71bdf801abf4334f9a" title="Process event for raw cluster cnn classifier." alt="" coords="242,75,426,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="461,78,428,83,427,78,460,72"/>
+<area shape="rect" id="Node000003" href="$dd/de5/classCaloWaveformProcessing.html#a316ed1b372d7c57fd21811072c706b30" title="Process input waveform vector according to selected processing type and return fit results." alt="" coords="5,5,193,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="225,30,193,30,193,25,225,25"/>
+</map>

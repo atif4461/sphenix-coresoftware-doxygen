@@ -1,0 +1,12 @@
+<map id="CaloRawTowerEval::all_truth_hits" name="CaloRawTowerEval::all_truth_hits">
+<area shape="rect" id="Node000001" title="what truth hits contributed energy to this tower?" alt="" coords="5,49,174,94"/>
+<area shape="rect" id="Node000002" href="$d9/dd8/classRawTower.html#a7ad30feb09ca7850c002a088c32a050b" title="Retrieve a constant range of Geant4 cells associated with this tower." alt="" coords="225,5,394,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,49,232,35,233,40,175,54"/>
+<area shape="rect" id="Node000003" href="$dc/dfe/classPHG4Cell.html#a09dd9028bce6b527a61d09768dad8e35" title="Return an empty constant range of Geant4 hit entries for this cell." alt="" coords="230,57,388,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,68,215,68,215,74,174,74"/>
+<area shape="rect" id="Node000004" href="$de/d0b/classCaloRawTowerEval.html#af10c054c733eb652ab13675f8321255b" title="has the eval initialized correctly for full sim DST nodes?" alt="" coords="222,133,397,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,92,236,124,234,129,149,97"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="267,133,266,123,273,114,288,108,309,106,333,109,347,115,345,120,332,114,309,111,289,113,276,118,271,124,272,132"/>
+<area shape="rect" id="Node000005" href="$de/d0b/classCaloRawTowerEval.html#a86c06b3d2cbb008904d9f0811f9ad9c9" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="445,133,618,178"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="397,152,430,152,430,158,397,158"/>
+</map>

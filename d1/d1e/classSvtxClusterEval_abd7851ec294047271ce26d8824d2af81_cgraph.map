@@ -1,0 +1,37 @@
+<map id="SvtxClusterEval::gtrackid_and_layer_by_nhit" name="SvtxClusterEval::gtrackid_and_layer_by_nhit">
+<area shape="rect" id="Node000001" title="Retrieve the global track identifier and detector layer for a given cluster based on associated truth..." alt="" coords="5,336,191,380"/>
+<area shape="rect" id="Node000002" href="$d3/d9e/classPHG4Hit.html#af81da4f474848cbc036bee14036b4e02" title=" " alt="" coords="264,5,415,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,334,112,276,137,197,155,156,178,115,205,77,237,44,248,36,251,40,240,48,209,80,182,118,160,158,142,199,118,277,105,336"/>
+<area shape="rect" id="Node000004" href="$d3/d9e/classPHG4Hit.html#ad98ac4e4d04a43ab7e9a9dcc3f1d0c65" title=" " alt="" coords="264,57,415,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="102,334,118,285,144,220,184,153,208,122,237,96,248,88,251,93,240,100,212,126,188,156,149,222,123,286,107,336"/>
+<area shape="rect" id="Node000006" href="$d3/d9e/classPHG4Hit.html#ac6ac7a4259274d351d6de9562415b165" title=" " alt="" coords="264,109,414,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="106,334,124,294,152,243,190,192,212,168,237,148,248,141,251,145,240,152,216,172,194,195,157,246,129,296,111,336"/>
+<area shape="rect" id="Node000008" href="$d3/d9e/classPHG4Hit.html#a0a285c78b696fb899dc7728e590be107" title=" " alt="" coords="267,161,412,189"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="111,333,161,267,197,230,237,200,251,192,254,197,240,204,200,234,165,270,116,337"/>
+<area shape="rect" id="Node000009" href="$de/dc9/classPHG4Particle.html#a551c7bed3f04438cf0fa5647999a4864" title=" " alt="" coords="261,213,418,241"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="122,333,173,292,237,251,255,244,257,249,240,256,176,296,125,337"/>
+<area shape="rect" id="Node000010" href="$de/dc9/classPHG4Particle.html#ad6e122a3aa0d72af0390435253a052a7" title=" " alt="" coords="261,265,418,293"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="156,332,238,303,265,295,267,300,239,308,158,337"/>
+<area shape="rect" id="Node000011" href="$de/dc9/classPHG4Particle.html#ae527e6d26fc23746f001b9d32d17f065" title=" " alt="" coords="261,317,418,345"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="191,345,246,339,246,344,192,350"/>
+<area shape="rect" id="Node000012" href="$d3/d9e/classPHG4Hit.html#af8f832f9e10c07c53ac05312978d89bb" title=" " alt="" coords="268,369,410,397"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="192,365,253,371,252,377,191,370"/>
+<area shape="rect" id="Node000013" href="$de/dc9/classPHG4Particle.html#a79a815798f148cb5818497caae6dcb41" title=" " alt="" coords="249,421,430,449"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="160,378,239,406,267,414,266,419,238,411,158,383"/>
+<area shape="rect" id="Node000014" href="$d6/d81/classPHG4VtxPoint.html#a9b558f1924a5947a3aa3a407def653eb" title=" " alt="" coords="262,473,417,501"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="126,379,176,419,240,458,257,465,255,470,237,463,173,424,122,383"/>
+<area shape="rect" id="Node000015" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="239,525,440,570"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="116,379,167,444,201,479,240,510,248,515,245,520,237,515,198,483,163,447,112,382"/>
+<area shape="rect" id="Node000016" href="$d6/d3f/namespaceTrkrDefs.html#ad4a7fd368bbf1d5d97ff4fd3e81a6100" title="Get the layer number from either key type." alt="" coords="269,593,410,621"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="109,380,127,423,154,477,192,533,215,558,240,580,256,589,253,593,237,584,211,562,188,536,150,480,122,425,104,382"/>
+<area shape="rect" id="Node000017" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="269,645,410,673"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="107,380,121,432,147,500,186,570,211,603,240,630,256,641,253,645,237,635,207,606,182,573,142,502,116,434,102,381"/>
+<area shape="rect" id="Node000018" href="$d6/dfa/classTrkrCluster.html#ac550bebe23d5697a137e18d21049bbb0" title=" " alt="" coords="275,697,404,725"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="105,380,116,441,140,523,158,566,180,609,208,648,240,682,262,696,259,700,237,687,204,652,176,612,153,569,135,525,111,442,100,381"/>
+<area shape="rect" id="Node000003" href="$d3/d9e/classPHG4Hit.html#a092e9a75e86cec231a162e0295e4ff0c" title=" " alt="" coords="488,5,608,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="415,16,472,16,472,22,415,22"/>
+<area shape="rect" id="Node000005" href="$d3/d9e/classPHG4Hit.html#a90a24486948c5db671a85fc6f142ba51" title=" " alt="" coords="488,57,608,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="415,68,472,68,472,74,415,74"/>
+<area shape="rect" id="Node000007" href="$d3/d9e/classPHG4Hit.html#a2afe58e2659e06f75f02b2bcdb4305c7" title=" " alt="" coords="488,109,608,137"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="415,120,473,120,473,126,415,126"/>
+</map>

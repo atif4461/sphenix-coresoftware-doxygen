@@ -1,0 +1,19 @@
+<map id="SvtxClusterEval::max_truth_particle_by_energy" name="SvtxClusterEval::max_truth_particle_by_energy">
+<area shape="rect" id="Node000001" title="Find the truth particle that contributes the largest energy to a given cluster." alt="" coords="5,40,196,85"/>
+<area shape="rect" id="Node000002" href="$d1/d1e/classSvtxClusterEval.html#ae2d6f811db24d80dac0f4b247de56bcd" title="Retrieve set of truth particles associated with a given cluster key." alt="" coords="249,75,397,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,75,233,80,233,86,196,80"/>
+<area shape="rect" id="Node000008" href="$d1/d1e/classSvtxClusterEval.html#a03461dc91226065d40111184b3685b82" title="Compute energy contribution of a given particle to a cluster." alt="" coords="244,5,402,50"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="196,45,228,40,229,45,197,50"/>
+<area shape="rect" id="Node000003" href="$d1/d1e/classSvtxClusterEval.html#a19f61841db8edf09e606635a790b1d2c" title="Retrieve all truth PHG4Hit objects associated with a given cluster key." alt="" coords="452,75,601,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="397,94,437,94,437,100,397,100"/>
+<area shape="rect" id="Node000006" href="$d4/de4/classSvtxTruthEval.html#ae575fcf72ce935a72f3c5a157abdd900" title="Retrieve the PHG4Particle associated with a given PHG4Hit." alt="" coords="457,144,596,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="391,117,445,136,444,141,390,122"/>
+<area shape="rect" id="Node000007" href="$d1/d1e/classSvtxClusterEval.html#a3e3879bf6110b7442b437ba803c5abc8" title=" " alt="" coords="450,5,603,50"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="390,72,444,53,445,58,391,77"/>
+<area shape="rect" id="Node000004" href="$d6/d3f/namespaceTrkrDefs.html#aae37fbdb8f0f6f9b7b1e4173f4fcd331" title="Get the upper 32 bits from cluster keys." alt="" coords="651,45,853,90"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="601,85,636,80,636,85,601,90"/>
+<area shape="rect" id="Node000005" href="$d6/d3f/namespaceTrkrDefs.html#a542bf66cb1037404f08212eeefdfde70" title="Get the tracker ID from either key type." alt="" coords="682,114,822,142"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="601,104,667,113,666,119,601,110"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="391,48,445,67,444,72,390,53"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="403,25,434,25,434,30,403,30"/>
+</map>

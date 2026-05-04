@@ -1,0 +1,12 @@
+digraph "PHGhostRejection::checkClusterSharing"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHGhostRejection::checkCluster\lSharing",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Determine if two track seeds share enough clusters to be flagged as ghost tracks."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHGhostRejection::find\l_ghosts",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d77/classPHGhostRejection.html#af845dfdc7b6743b74e786cf6b012096c",tooltip="Identify and reject ghost tracks from the seed collection."];
+}

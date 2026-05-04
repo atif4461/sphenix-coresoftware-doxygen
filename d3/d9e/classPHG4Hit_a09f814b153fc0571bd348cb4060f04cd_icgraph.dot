@@ -1,0 +1,20 @@
+digraph "PHG4Hit::set_local_y"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4Hit::set_local_y",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4SteppingAction\l::StoreLocalCoordinate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d3f/classPHG4SteppingAction.html#aea99a3121d5ff333ed1a6e7cfd7a0645",tooltip="Extract local coordinate of the hit and save to PHG4Hit."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4EICMvtxSteppingAction\l::UserSteppingAction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d8/d10/classPHG4EICMvtxSteppingAction.html#a101f6de977c3cb9899d863721f23da99",tooltip="stepping action"];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4InttSteppingAction\l::UserSteppingAction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d7a/classPHG4InttSteppingAction.html#a49b6f99f5a88cd6f94e171e550091823",tooltip="Process a Geant4 step for the INTT detector and create or update G4 hits."];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4MvtxSteppingAction\l::UserSteppingAction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d77/classPHG4MvtxSteppingAction.html#a009c6fc495da0ae24b9d8dc092d868b9",tooltip="stepping action"];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4SpacalSteppingAction\l::UserSteppingAction",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/dea/classPHG4SpacalSteppingAction.html#ad27b2325877c9d504389c79a338d25fe",tooltip="stepping action"];
+}

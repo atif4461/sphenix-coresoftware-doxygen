@@ -1,0 +1,12 @@
+digraph "MicromegasCombinedDataEvaluation::Waveform::Waveform"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="MicromegasCombinedDataEvaluation\l::Waveform::Waveform",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="construct from sample"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="MicromegasCombinedDataEvaluation\l::Waveform::copy_from",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/dd6/classMicromegasCombinedDataEvaluation_1_1Waveform.html#afa9e2a1d810b2cf2736e6b7cd65a2871",tooltip="copy from sample"];
+}

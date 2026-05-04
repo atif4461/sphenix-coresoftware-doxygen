@@ -1,0 +1,61 @@
+<map id="RawClusterPositionCorrection::process_event" name="RawClusterPositionCorrection::process_event">
+<area shape="rect" id="Node000001" title="Process a single event and apply position dependent energy recalibration to raw clusters." alt="" coords="5,573,220,618"/>
+<area shape="rect" id="Node000002" href="$d2/d4e/classRawCluster.html#addc188c8fc02a9c59618a6cd9a0723d7" title="Virtual copy constructor." alt="" coords="282,5,442,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,572,133,461,166,302,187,220,211,146,237,84,266,43,268,40,272,44,270,46,242,87,216,148,192,222,171,303,138,462,120,573"/>
+<area shape="rect" id="Node000004" href="$da/d58/namespaceRawTowerDefs.html#aaae6ca2e49c6d90186b5c221afe39bca" title=" " alt="" coords="276,57,448,102"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="112,572,119,488,127,430,141,365,160,298,187,231,222,168,266,112,268,109,272,113,270,116,226,171,192,234,165,300,146,367,133,431,124,489,117,573"/>
+<area shape="rect" id="Node000005" href="$da/d58/namespaceRawTowerDefs.html#a3d5658966751d2e96b1be553d2701b2b" title=" " alt="" coords="276,126,448,171"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="113,572,124,498,149,394,169,337,194,281,226,228,266,181,269,178,273,182,270,185,231,231,199,284,174,339,154,396,129,499,118,573"/>
+<area shape="rect" id="Node000006" href="$d9/da7/classTowerInfoContainer.html#a8831c9bbf1cc30fcf22603641ce42277" title=" " alt="" coords="289,196,436,240"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="115,572,130,509,158,423,178,377,202,331,231,289,266,251,274,244,277,248,270,254,235,292,207,334,182,379,163,425,135,511,120,573"/>
+<area shape="rect" id="Node000007" href="$d9/dd8/classRawTower.html#abe1baf0e3e39fd6088afe3032e392b37" title=" " alt="" coords="280,264,444,292"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="117,572,133,517,163,444,183,406,206,368,234,333,266,302,273,297,276,301,269,307,238,337,211,371,187,408,168,446,138,518,122,573"/>
+<area shape="rect" id="Node000008" href="$d9/dd8/classRawTower.html#ade1c1ea0891ce4318a5acf627e7b0baa" title="Get bin phi index." alt="" coords="281,316,444,344"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="120,571,141,527,172,470,214,411,239,384,266,360,285,348,288,353,269,364,243,388,218,414,177,473,145,529,125,573"/>
+<area shape="rect" id="Node000009" href="$d6/dc7/group__getters.html#ga1c4fdc09dc7ec65faaf01839ab71b311" title=" " alt="" coords="513,543,680,570"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="121,572,142,533,173,485,215,439,240,419,267,403,318,383,362,377,406,384,458,403,499,429,534,462,562,497,582,528,578,531,558,500,530,465,496,433,456,408,405,389,362,382,319,388,269,408,243,424,219,443,178,488,147,535,126,574"/>
+<area shape="rect" id="Node000010" href="$d6/dc7/group__getters.html#ga072ca44dc992ff5454ee825d0d99d423" title="total energy" alt="" coords="274,417,450,445"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="131,570,188,513,226,482,266,456,281,449,283,453,269,460,229,486,192,517,135,574"/>
+<area shape="rect" id="Node000011" href="$d9/dd8/classRawTower.html#af3bd99902a9de44e405726232a186982" title="energy assigned to the tower. Depending on stage of process and DST node name, it could be energy dep..." alt="" coords="278,469,446,497"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="148,570,203,538,267,507,287,500,289,505,269,512,205,543,151,575"/>
+<area shape="rect" id="Node000012" href="$d3/d65/classTowerInfo.html#aec47b24db774275f49d738950530b5e0" title=" " alt="" coords="280,521,445,549"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="208,570,286,551,287,556,209,575"/>
+<area shape="rect" id="Node000013" href="$d0/d25/group__cylindrical__calorimeter.html#ga5f7cf84f8a78d838f3a47503e3f5dc13" title=" " alt="" coords="268,573,457,618"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="220,592,252,592,252,598,220,598"/>
+<area shape="rect" id="Node000014" href="$d9/da7/classTowerInfoContainer.html#a9d02209eb100fea85a2105a1965c3e2b" title=" " alt="" coords="276,642,448,687"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="197,616,265,635,264,640,195,621"/>
+<area shape="rect" id="Node000015" href="$d6/dc7/group__getters.html#ga797d78febeac5c357ce4990878168507" title=" " alt="" coords="275,711,450,738"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="143,616,199,657,269,697,283,703,281,708,266,702,196,662,140,620"/>
+<area shape="rect" id="Node000016" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="291,900,434,928"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="122,617,138,672,167,745,187,784,210,822,238,856,269,886,278,893,275,897,266,891,234,860,206,825,182,787,162,748,133,674,117,619"/>
+<area shape="rect" id="Node000022" href="$d6/d12/classRawClusterContainer.html#a0ddd02d561a69f282b404ca186e58b04" title="return all clusters" alt="" coords="283,832,442,876"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="126,617,147,659,178,713,220,768,269,817,275,821,272,825,266,821,216,772,174,716,142,662,121,619"/>
+<area shape="rect" id="Node000023" href="$d0/d0e/classRawClusterUtility.html#a27157c0f1f777419cf427e72593c1e21" title="Get energy vector of cluster based on E_core." alt="" coords="291,762,434,807"/>
+<area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="133,616,189,680,227,716,269,748,278,753,276,758,266,752,224,720,186,684,129,619"/>
+<area shape="rect" id="Node000025" href="$d3/dc7/classRawTowerContainer.html#a94a3368d6cd85ea4c3f204cd1065da26" title="Retrieve a tower from the container using its unique key." alt="" coords="283,952,442,996"/>
+<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="120,617,135,680,162,766,182,812,206,857,235,900,270,937,273,940,270,944,266,941,231,903,202,860,177,814,157,768,130,682,115,619"/>
+<area shape="rect" id="Node000026" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module." alt="" coords="288,1020,436,1048"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="118,618,127,692,151,798,171,854,196,910,229,962,269,1007,276,1012,273,1016,266,1010,225,965,192,912,166,856,146,799,122,693,113,618"/>
+<area shape="rect" id="Node000027" href="$d9/db4/group__setters.html#ga82f3fb9f9da7b06f696044666f4765a2" title=" " alt="" coords="279,1072,446,1100"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="117,618,124,700,132,757,145,819,165,883,191,946,226,1006,270,1057,274,1061,270,1065,266,1061,221,1009,186,949,160,885,140,820,127,758,118,701,112,618"/>
+<area shape="rect" id="Node000028" href="$d9/db4/group__setters.html#gafbd2aac46ce75b3fbc2d865688a9c78e" title="total energy" alt="" coords="275,1124,450,1152"/>
+<area shape="poly" id="edge29_Node000001_Node000028" title=" " alt="" coords="116,618,120,709,127,771,139,841,158,913,185,984,222,1051,244,1081,270,1109,274,1113,270,1117,266,1113,240,1085,217,1054,180,986,153,915,134,842,122,772,115,709,111,618"/>
+<area shape="rect" id="Node000029" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="277,1176,448,1204"/>
+<area shape="poly" id="edge30_Node000001_Node000029" title=" " alt="" coords="120,617,138,731,170,895,191,979,215,1056,241,1119,270,1161,274,1165,270,1169,266,1165,236,1122,210,1058,186,981,165,896,132,732,114,618"/>
+<area shape="rect" id="Node000003" href="$d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff" title="ctor" alt="" coords="522,5,671,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="443,16,507,16,507,22,443,22"/>
+<area shape="rect" id="Node000017" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="506,939,687,966"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="435,923,494,933,493,938,434,928"/>
+<area shape="rect" id="Node000021" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="514,863,679,890"/>
+<area shape="poly" id="edge21_Node000016_Node000021" title=" " alt="" coords="434,900,499,889,500,895,435,905"/>
+<area shape="poly" id="edge17_Node000017_Node000017" title=" " alt="" coords="557,940,550,930,555,920,571,914,597,912,624,915,639,921,637,926,623,920,597,917,572,919,559,924,555,929,561,937"/>
+<area shape="rect" id="Node000018" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="780,887,922,914"/>
+<area shape="poly" id="edge18_Node000017_Node000018" title=" " alt="" coords="668,935,765,915,766,921,669,941"/>
+<area shape="rect" id="Node000019" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="785,939,917,966"/>
+<area shape="poly" id="edge19_Node000017_Node000019" title=" " alt="" coords="688,950,769,950,769,955,688,955"/>
+<area shape="rect" id="Node000020" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="736,991,966,1018"/>
+<area shape="poly" id="edge20_Node000017_Node000020" title=" " alt="" coords="669,964,765,984,764,990,668,970"/>
+<area shape="poly" id="edge24_Node000023_Node000009" title=" " alt="" coords="433,761,455,748,497,709,532,664,560,620,580,583,585,586,564,623,536,667,501,712,459,752,435,766"/>
+<area shape="rect" id="Node000024" href="$d6/dc7/group__getters.html#gaea5779ca25795d3b83a1c9853a1221d9" title=" " alt="" coords="505,771,688,798"/>
+<area shape="poly" id="edge25_Node000023_Node000024" title=" " alt="" coords="434,782,489,782,489,787,434,787"/>
+</map>

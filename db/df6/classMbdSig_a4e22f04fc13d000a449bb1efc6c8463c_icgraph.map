@@ -1,0 +1,18 @@
+<map id="MbdSig::PadUpdate" name="MbdSig::PadUpdate">
+<area shape="rect" id="Node000001" title="Draw Subtracted Waveform." alt="" coords="395,90,542,117"/>
+<area shape="rect" id="Node000002" href="$db/df6/classMbdSig.html#ab9b96b1a9847b9b767d560834a4d9782" title="Calculate pedestal for current event using presample region." alt="" coords="171,81,345,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="379,106,346,106,346,101,379,101"/>
+<area shape="rect" id="Node000003" href="$db/df6/classMbdSig.html#a52acbed17c7bdd32707bf09e18e208c6" title="Set XY data for a channel and fill raw and pedestal subtracted histograms." alt="" coords="5,30,121,57"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="441,81,399,48,373,32,346,21,315,13,283,9,219,11,159,20,109,32,108,27,158,14,218,5,284,4,316,8,348,16,376,28,402,43,444,77"/>
+<area shape="rect" id="Node000005" href="$db/df6/classMbdSig.html#a36b217ef7bddafdc65cc49fdf1b1d507" title="Draws the waveform for the current object." alt="" coords="169,150,347,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="403,125,310,152,309,147,402,120"/>
+<area shape="rect" id="Node000006" href="$db/df6/classMbdSig.html#a27a0cacd620ad29ad3466b6a5ccba121" title="Fit waveform template to channel data and extract amplitude and time." alt="" coords="181,202,334,229"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="441,130,399,161,348,191,317,204,315,199,346,187,396,157,438,125"/>
+<area shape="rect" id="Node000007" href="$db/df6/classMbdSig.html#a61008793ae9ab4c862e849dd4f617d93" title="Remove pileup contributions from the waveform of the current channel." alt="" coords="169,30,347,57"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="402,88,309,61,310,55,403,82"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,79,110,61,111,56,170,74"/>
+<area shape="rect" id="Node000004" href="$db/df6/classMbdSig.html#a6ec56ebc99edc2eb48a7b58550d7a7b2" title="Load raw waveform samples, apply pedestal subtraction and optional pile‑up correction." alt="" coords="10,86,116,113"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="155,104,117,103,117,98,155,99"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="153,46,121,46,121,41,153,41"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="192,65,169,71,114,88,112,83,168,66,191,60"/>
+</map>

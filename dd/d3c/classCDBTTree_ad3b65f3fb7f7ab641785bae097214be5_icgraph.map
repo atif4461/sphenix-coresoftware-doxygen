@@ -1,0 +1,36 @@
+<map id="CDBTTree::GetDoubleValue" name="CDBTTree::GetDoubleValue">
+<area shape="rect" id="Node000001" title="Retrieve double calibration value for a given channel and field name." alt="" coords="834,311,1032,339"/>
+<area shape="rect" id="Node000002" href="$d2/d39/classCaloGeomMapping.html#adab81b9b5ff38fa2ddcc822d578b0725" title="Build detailed geometry for electromagnetic calorimeter." alt="" coords="545,5,786,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="921,297,902,249,874,188,835,125,811,96,785,71,755,53,758,48,788,67,815,93,839,122,879,185,907,247,926,296"/>
+<area shape="rect" id="Node000003" href="$d2/d39/classCaloGeomMapping.html#a799637d7b2bdd4ccb69486c20d9d1908" title="Create geometry node for specified detector within the node tree." alt="" coords="228,44,497,72"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="919,298,900,255,871,205,833,155,810,134,785,115,735,97,663,83,580,73,497,66,497,61,580,68,664,77,737,91,788,111,813,129,837,152,876,202,904,253,924,295"/>
+<area shape="rect" id="Node000005" href="$d4/d49/classCentralityReco.html#afdb6c686fec685f00fc205e83fe3ad78" title="Load centrality scale factor from calibration database file." alt="" coords="570,125,761,170"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="910,301,857,242,823,211,785,185,760,173,763,168,788,180,826,207,861,238,914,297"/>
+<area shape="rect" id="Node000007" href="$d7/ded/classMinimumBiasClassifier.html#acdd75abff4c65e84402c8916b5bdb24f" title="Load the centrality scale from a ROOT calibration file and store it in the module." alt="" coords="566,264,765,309"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="819,311,765,303,766,298,819,306"/>
+<area shape="rect" id="Node000009" href="$d4/d49/classCentralityReco.html#a1602cc347563bb71ebdd93bb7262a4ca" title="Load centrality vertex scaling factors from a ROOT calibration file." alt="" coords="570,195,761,239"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="892,306,842,280,785,254,752,242,754,237,787,249,844,275,895,301"/>
+<area shape="rect" id="Node000010" href="$d7/ded/classMinimumBiasClassifier.html#a87e47a52fcfe5657dd442a94c63f2401" title="Download centrality vertex scales from a calibration database file." alt="" coords="563,333,768,394"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="819,344,769,351,768,346,818,339"/>
+<area shape="rect" id="Node000011" href="$d2/df6/classTpcCentralMembraneMatching.html#a0040575e90b3b1b9ff030d4709647cc8" title="run initialization" alt="" coords="555,419,776,463"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="898,350,847,380,787,409,755,421,754,416,785,404,844,375,896,345"/>
+<area shape="rect" id="Node000012" href="$d0/d20/classTpcLaminationFitting.html#a34cadae835c8e0b5bbba116da0d6d791" title="Initialize run specific resources for TpcLaminationFitting." alt="" coords="586,488,745,533"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="915,353,863,416,827,449,788,478,746,496,744,492,785,473,824,445,859,412,911,350"/>
+<area shape="rect" id="Node000013" href="$d8/dcc/classMicromegasCalibrationData.html#ae232d25678922bec170f3180526aa6be" title="read calibration from file" alt="" coords="564,557,767,602"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="923,354,903,397,874,449,836,502,788,547,768,559,765,554,785,543,832,499,870,446,899,395,918,352"/>
+<area shape="rect" id="Node000014" href="$d6/d85/classInttSurveyMap.html#a385c53134645c4e29e04d0245f78ddfa" title="Load absolute transform map from CDB TTree." alt="" coords="564,627,767,671"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="928,354,912,410,885,480,844,553,818,587,788,616,769,629,766,624,785,612,814,583,840,551,880,478,907,408,923,353"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="530,44,498,47,497,42,529,39"/>
+<area shape="rect" id="Node000004" href="$d2/d39/classCaloGeomMapping.html#a062a4db99a2e6645d206d4c2b97058d4" title="Initialize CaloGeomMapping module and create geometry node." alt="" coords="5,44,180,72"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="212,61,180,61,180,56,212,56"/>
+<area shape="rect" id="Node000006" href="$d4/d49/classCentralityReco.html#a6793f20c0e2236118a5d7d07f11ba4d1" title="full initialization" alt="" coords="277,168,448,196"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="555,163,449,175,448,170,555,158"/>
+<area shape="rect" id="Node000008" href="$d7/ded/classMinimumBiasClassifier.html#aadd6a9d717f4723f7fd81c2091595cda" title="Initialize run specific parameters and download centrality scales." alt="" coords="277,303,448,347"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="551,304,449,317,448,311,551,298"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="555,207,448,195,449,189,555,202"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="547,351,448,339,449,333,548,346"/>
+<area shape="rect" id="Node000015" href="$d6/d85/classInttSurveyMap.html#ad2a417c766e54fe8aa49df30f0f21cc4" title="Load calibration data for InttSurveyMap from CDB using given name." alt="" coords="254,608,470,636"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="548,641,471,635,471,629,548,636"/>
+<area shape="rect" id="Node000016" href="$d6/d85/classInttSurveyMap.html#a068bcaf51bfb2e47843908152d733bf4" title="Load an InttSurveyMap from a calibration file." alt="" coords="257,660,468,688"/>
+<area shape="poly" id="edge18_Node000014_Node000016" title=" " alt="" coords="548,661,469,668,468,663,548,656"/>
+</map>

@@ -1,0 +1,50 @@
+<map id="PHG4HitContainer::getHits" name="PHG4HitContainer::getHits">
+<area shape="rect" id="Node000001" title="return all hits matching a given detid" alt="" coords="539,705,733,733"/>
+<area shape="rect" id="Node000002" href="$d2/d53/classPHG4HcalCellReco.html#af8a314c42be2b158775f3003d468c024" title="Check consistency of energy between G4 hits and reconstructed cells." alt="" coords="255,5,491,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="630,690,616,554,589,363,570,265,547,175,520,102,505,74,489,53,464,36,467,31,493,49,510,71,525,100,552,174,575,264,594,362,621,554,635,689"/>
+<area shape="rect" id="Node000003" href="$d2/d53/classPHG4HcalCellReco.html#ab3ef6fa9a2ef00b3309926f3f70c6941" title="event processing" alt="" coords="5,22,207,67"/>
+<area shape="poly" id="edge18_Node000001_Node000003" title=" " alt="" coords="630,690,616,561,589,382,570,290,547,208,520,141,505,116,489,97,470,85,443,75,371,60,288,52,207,48,207,42,288,46,372,55,444,70,472,80,493,93,510,113,525,138,552,206,575,289,594,381,621,561,635,689"/>
+<area shape="rect" id="Node000004" href="$d6/dd1/classCaloWaveformSim.html#a5f6f1e88d3db0c9cdad473392d571a22" title="Process a single event and fill calorimeter waveforms." alt="" coords="273,108,473,152"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="628,690,611,575,581,418,562,338,540,266,516,206,489,166,472,153,475,149,493,163,520,204,545,264,567,337,587,417,616,575,634,689"/>
+<area shape="rect" id="Node000005" href="$da/d06/classfillSpaceChargeMaps.html#a48ac84d6031db20f9a6b669be7439d78" title="Process a single event within the Fun4All framework." alt="" coords="294,177,452,222"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="633,690,628,602,621,544,609,480,591,414,566,349,532,289,489,236,471,222,451,213,453,208,474,218,493,232,537,286,571,347,596,412,614,479,626,543,633,601,638,690"/>
+<area shape="rect" id="Node000006" href="$d7/d71/classG4EdepNtuple.html#ade3529513047e3f28a13b5a87d2a6a55" title="event processing method" alt="" coords="287,246,459,291"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="631,690,622,613,600,509,582,454,558,400,527,349,489,305,458,285,461,281,493,301,532,346,563,397,587,452,605,508,628,612,636,689"/>
+<area shape="rect" id="Node000007" href="$d4/db8/classG4HitNtuple.html#a1b2042a982628aed5e87643050f6e188" title="event processing method" alt="" coords="293,316,452,360"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="629,690,616,625,591,540,573,495,550,451,522,410,489,375,472,362,452,353,454,348,474,357,493,370,527,407,555,448,578,493,596,538,621,624,634,689"/>
+<area shape="rect" id="Node000008" href="$da/d16/classg4hitshift.html#ae40abc9c067e2034e745e1e539a4893c" title="Shift sector numbers of CEMC scintillator hits by eight with wrap around." alt="" coords="303,385,443,430"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="625,691,609,638,582,571,542,503,518,471,489,444,467,430,443,420,445,415,470,425,493,440,522,468,547,500,587,569,614,636,631,690"/>
+<area shape="rect" id="Node000009" href="$d4/d0e/classg4hitshifthcal.html#abaa5fbf2c879dccb669525c6ae33636d" title="Shift hit identifiers for HCALIN and HCALOUT detectors in the event node tree." alt="" coords="289,454,456,499"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="621,692,601,652,572,604,535,555,489,513,455,496,458,491,493,509,539,551,576,601,605,650,625,690"/>
+<area shape="rect" id="Node000010" href="$d2/d1c/classG4HitTTree.html#a0720bdd5ac69b976e0f7afd403d93393" title="event processing method" alt="" coords="297,524,448,568"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="613,695,560,638,527,608,490,583,448,565,450,560,492,578,530,604,564,634,616,691"/>
+<area shape="rect" id="Node000011" href="$d1/ddd/classG4SnglNtuple.html#ac7e02d1adc01433283ef1895f9dae3dd" title="event processing method" alt="" coords="289,593,457,638"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="594,700,490,652,456,640,458,635,492,647,596,695"/>
+<area shape="rect" id="Node000012" href="$d8/dc7/classMomentumEvaluator.html#a57a5a38c5590636286793eadcacddbad" title="Process a single event within the Fun4All framework." alt="" coords="290,662,456,707"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="523,707,456,698,457,693,524,702"/>
+<area shape="rect" id="Node000013" href="$df/d5e/classPHG4BlockCellReco.html#a604bead822cfe6203b3a3b9ffa48543b" title="event processing" alt="" coords="294,732,452,776"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="524,737,453,746,452,741,523,731"/>
+<area shape="rect" id="Node000014" href="$dc/d38/classPHG4ConsistencyCheck.html#a0f2a0035c9e3302807a1bb99c41781d9" title="event processing" alt="" coords="285,801,461,846"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="596,743,492,791,459,803,457,798,490,786,594,738"/>
+<area shape="rect" id="Node000015" href="$d5/dd0/classPHG4CylinderCellReco.html#a1d282a92e9d6254d37f5fffceb213684" title="event processing" alt="" coords="289,870,457,915"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="616,747,564,804,530,834,492,860,458,876,456,871,490,856,527,830,560,800,613,743"/>
+<area shape="rect" id="Node000016" href="$d4/dc9/classPHG4DSTReader.html#a96e049829877207a6bb23548ae552853" title="event processing method" alt="" coords="279,940,466,984"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="625,748,605,789,576,838,539,887,493,929,468,943,466,939,489,925,535,883,572,835,601,786,621,746"/>
+<area shape="rect" id="Node000017" href="$da/d00/classPHG4EPDModuleReco.html#a1dffc41c24b70a045308d8142cfa1d45" title="event processing" alt="" coords="287,1009,458,1054"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="631,749,614,802,587,869,547,939,522,971,493,999,460,1017,457,1013,489,994,518,967,542,936,582,867,609,800,625,747"/>
+<area shape="rect" id="Node000018" href="$dc/d20/classPHG4FullProjSpacalCellReco.html#aa31a2feab594c495ddf4133d72a9badb" title="event processing" alt="" coords="270,1078,476,1123"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="634,749,621,815,596,900,578,946,555,990,527,1031,493,1068,476,1080,473,1076,489,1064,522,1028,550,987,573,943,591,899,616,813,629,748"/>
+<area shape="rect" id="Node000019" href="$d8/de2/classPHG4HitReadBack.html#a4437104ac7aa9cd8123e849e7300eaf2" title="Process a single event by retrieving and iterating over PHG4 hit data." alt="" coords="273,1148,472,1192"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="636,749,628,826,605,930,587,986,563,1041,532,1092,493,1137,475,1151,471,1146,489,1133,527,1089,558,1038,582,984,600,929,622,825,631,748"/>
+<area shape="rect" id="Node000020" href="$dd/deb/classPHG4InttHitReco.html#a2c07a1ba7e82432a7d5de16339a80099" title="event processing" alt="" coords="279,1217,467,1262"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="638,749,633,837,626,896,614,960,596,1026,571,1091,537,1152,493,1206,469,1224,466,1219,489,1203,532,1149,566,1089,591,1024,609,958,621,895,628,836,633,748"/>
+<area shape="rect" id="Node000021" href="$d1/df8/classRawTowerBuilderByHitIndex.html#ab85246d41287b6eef693a467d41858b7" title="Process a single event building raw towers from G4 hits." alt="" coords="270,1286,476,1331"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="634,749,616,864,587,1021,567,1101,545,1174,520,1234,493,1276,477,1288,474,1284,489,1272,516,1232,540,1173,562,1100,581,1020,611,863,628,748"/>
+<area shape="rect" id="Node000022" href="$df/d79/classG4SnglTree.html#a77da9ff312468fc78f76947e1d9ca44f" title="hit processing method" alt="" coords="285,1355,461,1382"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="635,749,620,877,593,1056,574,1147,551,1231,524,1299,509,1325,493,1345,463,1363,460,1359,489,1341,505,1322,519,1296,546,1229,568,1146,588,1055,615,876,630,748"/>
+<area shape="rect" id="Node000024" href="$de/dbe/classDumpPHG4HitContainer.html#a91e29534f883cee491667dd3a3169ef3" title="Process a PHNode containing a PHG4HitContainer and dump its contents to the output stream." alt="" coords="284,1406,462,1451"/>
+<area shape="poly" id="edge24_Node000001_Node000024" title=" " alt="" coords="635,749,622,885,594,1079,575,1178,552,1269,525,1344,510,1373,493,1396,464,1416,461,1412,489,1392,505,1370,520,1342,547,1268,570,1177,589,1078,616,884,630,748"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,35,207,38,207,32,239,29"/>
+<area shape="rect" id="Node000023" href="$df/d79/classG4SnglTree.html#aa6cfd45b0f52e89d59a80a683d38c0da" title="event processing method" alt="" coords="30,1346,182,1391"/>
+<area shape="poly" id="edge23_Node000022_Node000023" title=" " alt="" coords="269,1371,183,1371,183,1366,269,1366"/>
+</map>

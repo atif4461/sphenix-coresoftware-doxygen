@@ -1,0 +1,14 @@
+digraph "PHG4SpacalDetector::PHG4SpacalDetector"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4SpacalDetector\l::PHG4SpacalDetector",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Constructor for PHG4SpacalDetector."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4FullProjSpacalDetector\l::PHG4FullProjSpacalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d05/classPHG4FullProjSpacalDetector.html#ac40c1a6cd1a9c8bb649624fb6cc1c43a",tooltip="Constructor for full projection Spacal detector."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4FullProjTiltedSpacal\lDetector::PHG4FullProjTilted\lSpacalDetector",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a2721158874f8292a2fb1fe944c9ffe42",tooltip="Constructor for PHG4FullProjTiltedSpacalDetector."];
+}

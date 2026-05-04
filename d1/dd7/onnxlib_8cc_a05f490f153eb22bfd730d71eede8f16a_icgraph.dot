@@ -1,0 +1,14 @@
+digraph "onnxSession"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="onnxSession",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Create and configure an ONNX runtime session."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="RawClusterCNNClassifier\l::Init",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/dbd/classRawClusterCNNClassifier.html#afac7aa26a9a521596542b9ae22705e49",tooltip="Initialize the classifier, load the ONNX model and create required nodes."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="CaloWaveformProcessing\l::initialize_processing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/de5/classCaloWaveformProcessing.html#a27e79bd574b1ab14f945c2782b818604",tooltip="Initialize waveform processing based on selected processing type."];
+}

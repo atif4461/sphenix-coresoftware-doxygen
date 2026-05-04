@@ -1,0 +1,42 @@
+digraph "PHG4Utils::get_theta"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="PHG4Utils::get_theta",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Convert pseudorapidity to polar angle."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="PHG4InnerHcalDetector\l::AddGeometryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d80/classPHG4InnerHcalDetector.html#a9308f1728ca9cca9a544fa813d9c15de",tooltip="Add geometry node for inner Hcal detector."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4InnerHcalDetector\l::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d80/classPHG4InnerHcalDetector.html#adcc55f5d190de67371fb9bf28015c68a",tooltip="construct"];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHG4OuterHcalDetector\l::AddGeometryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html#a52b9577fb8bb467e25e4cd0538db5466",tooltip="Add geometry node for outer hcal detector."];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHG4OuterHcalDetector\l::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html#ae159c3d2a294c687f9c0f4af6dbce281",tooltip="construct"];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHG4SpacalDetector\l::AddTowerGeometryNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/da4/classPHG4SpacalDetector.html#a6adf2ae56b8cfea0ee63c01ec7d5dd2f",tooltip="Add tower geometry node to the detector hierarchy."];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4FullProjTiltedSpacal\lDetector::ConstructMe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698",tooltip="Construct the full projected tilted SPACAL detector geometry within the given world volume."];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="PHG4InnerHcalDetector\l::ConstructHcalSingleScintillators",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d80/classPHG4InnerHcalDetector.html#ae19fae68c39f74a3cf795182af5a7bcf",tooltip="Construct scintillator tiles for the inner HCal subsystem."];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="PHG4InnerHcalDetector\l::ConstructHcalScintillator\lAssembly",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d80/classPHG4InnerHcalDetector.html#af94ed5fd62c5f62c5edca75296c6eddb",tooltip="Construct assembly of scintillator tiles for inner HCal."];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="PHG4InnerHcalDetector\l::ConstructInnerHcal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d80/classPHG4InnerHcalDetector.html#a14e2665be2dfc601ba02c95823748144",tooltip="Construct the inner hcal geometry within the provided envelope logical volume."];
+  Node10 -> Node3 [id="edge10_Node000010_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="PHG4OuterHcalDetector\l::ConstructHcalSingleScintillators",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html#a06cd95ab41b4bb656c10116342608e98",tooltip="Construct the outer HCal scintillator geometry and associated cutouts."];
+  Node11 -> Node12 [id="edge12_Node000011_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="PHG4OuterHcalDetector\l::ConstructHcalScintillator\lAssembly",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html#a9f55e777e35248cd06ac0f94bc59b03a",tooltip="Construct assembly of Hcal scintillator tiles and return assembly volume."];
+  Node12 -> Node13 [id="edge13_Node000012_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="PHG4OuterHcalDetector\l::ConstructOuterHcal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d74/classPHG4OuterHcalDetector.html#a7791a8bc9629b00efcd33f59f134e27a",tooltip="Construct the outer HCal geometry, scintillator assembly, steel plates and associated magnetic field."];
+  Node13 -> Node5 [id="edge14_Node000013_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node14 [id="edge15_Node000001_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="RawTowerBuilder::CreateNodes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d10/classRawTowerBuilder.html#a01f91227474fd72e2e630a577973b67b",tooltip="Create geometry and tower nodes in the node tree."];
+  Node14 -> Node15 [id="edge16_Node000014_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="RawTowerBuilder::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d10/classRawTowerBuilder.html#a0de2c995e7f7cc3bd357d65af5d5d987",tooltip="Initialize run by locating geometry node and creating output nodes."];
+  Node1 -> Node16 [id="edge17_Node000001_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="HcalRawTowerBuilder\l::InitRun",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dec/classHcalRawTowerBuilder.html#a994bccbb0d39fa5e9d29d3b9c2ed42de",tooltip="Initialize run specific configuration for HcalRawTowerBuilder."];
+}

@@ -1,0 +1,18 @@
+<map id="CaloWaveformProcessing::process_waveform" name="CaloWaveformProcessing::process_waveform">
+<area shape="rect" id="Node000001" title="Process input waveform vector according to selected processing type and return fit results." alt="" coords="5,46,193,91"/>
+<area shape="rect" id="Node000002" href="$d7/d58/classCaloWaveformFitting.html#a8edab3569863eaea34bef0f2b5b553ef" title="Fast processing of calorimeter channel waveforms to extract amplitude time pedestal and chi2." alt="" coords="252,12,417,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,52,236,46,236,51,194,57"/>
+<area shape="rect" id="Node000006" href="$dd/de5/classCaloWaveformProcessing.html#a30c90b55632b7fa266e485bceced8922" title="Process calorimeter waveform vectors using ONNX inference and fallback logic." alt="" coords="241,81,428,126"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="194,80,226,84,225,90,193,85"/>
+<area shape="rect" id="Node000003" href="$d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b" title=" " alt="" coords="514,29,552,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="417,35,499,39,499,44,417,40"/>
+<area shape="poly" id="edge6_Node000003_Node000003" title=" " alt="" coords="511,34,504,23,506,13,516,5,533,3,554,7,562,17,558,20,551,11,533,8,518,10,510,15,510,22,516,31"/>
+<area shape="rect" id="Node000004" href="$d8/dcf/d1mach_8f.html#ab0cddb4b34ff324f621dce1601df95c2" title=" " alt="" coords="638,29,712,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="553,40,623,40,623,46,553,46"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="654,30,650,20,653,11,661,5,675,3,689,5,697,12,694,16,687,10,675,8,663,10,657,14,656,20,659,28"/>
+<area shape="rect" id="Node000005" href="$d8/dcf/d1mach_8f.html#ac9fdf75408828ff347095ad728288cf9" title=" " alt="" coords="760,29,826,57"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="712,40,744,40,744,46,712,46"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="410,78,499,51,500,56,411,83"/>
+<area shape="rect" id="Node000007" href="$d1/dd7/onnxlib_8cc.html#aeda94382534d2b89b1857f11769d41ff" title="Perform ONNX inference using provided Ort session." alt="" coords="476,89,590,117"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="429,100,460,100,460,106,429,106"/>
+</map>

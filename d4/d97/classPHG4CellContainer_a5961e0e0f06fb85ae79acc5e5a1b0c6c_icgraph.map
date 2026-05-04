@@ -1,0 +1,27 @@
+<map id="PHG4CellContainer::getCells" name="PHG4CellContainer::getCells">
+<area shape="rect" id="Node000001" title="return all Cells matching a given detid" alt="" coords="543,235,696,279"/>
+<area shape="rect" id="Node000002" href="$df/d5e/classPHG4BlockCellReco.html#a0476fbcc657a5d65320e593a067429cb" title="Verify consistency of energy sums between cells stored hits and showers." alt="" coords="298,5,456,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="602,222,585,184,561,142,531,100,493,65,455,45,457,40,497,60,535,96,566,139,590,182,607,219"/>
+<area shape="rect" id="Node000004" href="$d5/dd0/classPHG4CylinderCellReco.html#a79bc62b14d2fdf91ad9b8976514553e8" title="Verify energy consistency between cell energies and stored hit and shower energies." alt="" coords="293,75,461,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="591,224,548,177,522,154,494,134,460,118,463,114,496,129,525,150,552,173,594,221"/>
+<area shape="rect" id="Node000006" href="$dc/d20/classPHG4FullProjSpacalCellReco.html#ad400215b36a0f870b86785364c622d8f" title="Verify that total deposited energy in cells matches the summed G4 hit energy." alt="" coords="274,144,480,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="558,230,494,203,459,192,461,187,496,199,560,225"/>
+<area shape="rect" id="Node000008" href="$d2/d53/classPHG4HcalCellReco.html#af8a314c42be2b158775f3003d468c024" title="Check consistency of energy between G4 hits and reconstructed cells." alt="" coords="259,212,495,240"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="527,248,491,243,492,238,528,243"/>
+<area shape="rect" id="Node000010" href="$d0/d39/classG4CellNtuple.html#a312e285a4bce0bc865cd8a5d6d4757c5" title="event processing method" alt="" coords="294,264,460,309"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="528,271,460,279,460,274,527,265"/>
+<area shape="rect" id="Node000011" href="$d1/dec/classHcalRawTowerBuilder.html#af9d1f141a1478bbd8c8d04d798c92781" title="Process event for Hcal raw tower building." alt="" coords="296,333,458,378"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="568,289,496,323,459,337,457,332,494,319,565,284"/>
+<area shape="rect" id="Node000012" href="$d7/d10/classRawTowerBuilder.html#ad0a6455417563fffe5bed003d4421d24" title="Process event for raw tower building." alt="" coords="281,403,472,447"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="596,294,554,345,526,370,496,393,473,405,471,400,494,388,523,366,550,341,592,290"/>
+<area shape="rect" id="Node000013" href="$d3/d0b/classDumpPHG4CellContainer.html#a0de9f51ab04b2987204f3ecfcffe52d0" title="Process a PHNode containing a PHG4CellContainer and dump its contents." alt="" coords="285,472,469,517"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="608,295,591,334,567,379,536,424,497,462,471,477,468,472,493,458,531,420,562,376,586,332,603,293"/>
+<area shape="rect" id="Node000003" href="$df/d5e/classPHG4BlockCellReco.html#a604bead822cfe6203b3a3b9ffa48543b" title="event processing" alt="" coords="29,5,187,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,30,188,30,188,25,282,25"/>
+<area shape="rect" id="Node000005" href="$d5/dd0/classPHG4CylinderCellReco.html#a1d282a92e9d6254d37f5fffceb213684" title="event processing" alt="" coords="24,75,192,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="277,100,193,100,193,94,277,94"/>
+<area shape="rect" id="Node000007" href="$dc/d20/classPHG4FullProjSpacalCellReco.html#aa31a2feab594c495ddf4133d72a9badb" title="event processing" alt="" coords="5,144,211,189"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="259,169,211,169,211,164,259,164"/>
+<area shape="rect" id="Node000009" href="$d2/d53/classPHG4HcalCellReco.html#ab3ef6fa9a2ef00b3309926f3f70c6941" title="event processing" alt="" coords="7,213,209,258"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="243,234,209,235,209,230,243,228"/>
+</map>

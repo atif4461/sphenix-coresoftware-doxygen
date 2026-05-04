@@ -1,0 +1,58 @@
+<map id="TowerInfoDefs::encode_hcal" name="TowerInfoDefs::encode_hcal">
+<area shape="rect" id="Node000001" title="Encode a HCAL tower index into a 32‑bit global key." alt="" coords="704,542,908,570"/>
+<area shape="rect" id="Node000002" href="$db/dda/classCaloTriggerEmulator.html#a9b96714a305520f93a2592adff035dbc" title="constructor" alt="" coords="469,75,630,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="800,527,791,449,768,343,749,287,724,231,693,179,655,134,629,117,632,112,658,130,697,176,729,229,754,285,773,342,796,448,806,526"/>
+<area shape="rect" id="Node000003" href="$db/dda/classCaloTriggerEmulator.html#af67fd3ddb1947783ba5f541121bacfcd" title="Download calibrations and lookup tables for EMCal and HCAL subsystems." alt="" coords="460,144,639,189"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="798,527,785,461,759,374,740,328,717,282,688,240,655,203,638,191,641,187,658,199,693,237,721,280,745,325,764,372,790,460,803,526"/>
+<area shape="rect" id="Node000005" href="$d9/da7/classTowerInfoContainer.html#ab81bc5c6721ee6ef4e5500dfefc4f664" title="Encode HCAL tower index into a unique key." alt="" coords="476,213,623,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="795,527,778,473,750,405,709,334,684,301,655,272,622,254,625,249,658,268,688,297,713,331,754,402,783,471,800,526"/>
+<area shape="rect" id="Node000012" href="$d7/d6e/classemcNoisyTowerFinder.html#abac29ad4acf2562f525c815a2f78884e" title="Identify hot cold and dead towers from input histogram and write status to output files." alt="" coords="468,283,632,327"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="791,529,770,488,740,437,701,386,655,342,631,328,633,323,658,338,705,382,745,434,775,485,795,527"/>
+<area shape="rect" id="Node000013" href="$da/d9c/namespaceTowerInfoDefs.html#a66ed1728b7be58c1a05658b765e1319b" title="Retrieve the geometry key for a HCALIN tower given its channel index." alt="" coords="450,352,649,397"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="783,532,729,471,694,439,655,411,632,400,634,395,658,407,697,435,733,468,787,528"/>
+<area shape="rect" id="Node000014" href="$da/d9c/namespaceTowerInfoDefs.html#a9e5f5c0c65570a3bb5927473bf2c1e9b" title="Get geometry key for HCALOUT tower at given channel index." alt="" coords="446,421,654,466"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="766,536,714,508,655,481,625,469,627,464,657,476,716,504,768,532"/>
+<area shape="rect" id="Node000015" href="$dd/dd5/classCaloTemp.html#a8cf759855e0ec9b6fe8f4cea8f2c7cd2" title="Retrieve temperature histogram for specified detector and run." alt="" coords="462,490,637,518"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="719,541,621,521,622,516,720,536"/>
+<area shape="rect" id="Node000017" href="$d6/ddd/namespaceTriggerDefs.html#a6aa438aa097b93c24b8e9622e57590da" title="Compute a unique tower information key from detector and tower indices." alt="" coords="443,542,656,570"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="689,558,657,558,657,553,689,553"/>
+<area shape="rect" id="Node000020" href="$d6/dd1/classCaloWaveformSim.html#af0d556a3c267a974cbdc097211a248a9" title="Initialize the CaloWaveformSim subsystem for a new run." alt="" coords="452,594,648,622"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="720,576,622,596,621,591,719,571"/>
+<area shape="rect" id="Node000021" href="$d4/db4/classDeadHotMapLoader.html#a84b8b8f0f4fbb17e326b7cd4d7415644" title="Initialize run specific dead tower map for detector." alt="" coords="448,646,652,674"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="770,580,717,608,657,635,619,648,617,643,655,631,715,604,767,575"/>
+<area shape="rect" id="Node000022" href="$dc/d23/classRetowerCEMC.html#a6959064ee85c9697ac2506ea6e89ce91" title="Process a single event and retower CEMC data." alt="" coords="464,697,635,742"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="784,583,729,635,695,663,658,687,633,699,631,694,655,683,692,659,726,631,780,579"/>
+<area shape="rect" id="Node000023" href="$db/dda/classCaloTriggerEmulator.html#a5729e2aeaacbc9efab8d16f82d63a0af" title="Process offline calorimeter trigger emulation for the current event." alt="" coords="473,767,626,811"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="793,585,772,623,742,669,703,716,658,757,628,773,626,768,655,752,699,712,737,666,767,620,789,582"/>
+<area shape="rect" id="Node000024" href="$db/dda/classCaloTriggerEmulator.html#acf8cc4dfa3166d9f87eb6dc3d76999c5" title="MakePrimitives." alt="" coords="221,797,380,842"/>
+<area shape="poly" id="edge29_Node000001_Node000024" title=" " alt="" coords="801,585,786,640,759,707,739,741,717,774,689,803,658,826,625,842,589,852,553,859,516,861,444,857,381,845,381,840,445,851,516,855,552,853,588,847,623,837,655,821,686,799,712,770,735,739,754,705,781,638,796,584"/>
+<area shape="rect" id="Node000025" href="$db/dda/classCaloTriggerEmulator.html#a51e6532ec195435650cf12261276d799" title="Process simulated waveforms for EMCal HCalOut and HCalIn." alt="" coords="473,887,626,931"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="801,586,785,644,757,720,715,799,689,837,658,870,628,890,625,885,655,866,685,833,711,797,752,718,780,643,796,584"/>
+<area shape="rect" id="Node000026" href="$de/df0/classTriggerValid.html#a02baa4888cc93f55306c87a8d788a71e" title="Process calorimeter towers and trigger primitives for the current event." alt="" coords="472,956,627,1001"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="805,585,793,658,768,754,749,806,725,856,695,904,658,946,629,965,626,960,655,942,691,900,720,854,744,803,763,752,788,656,799,585"/>
+<area shape="rect" id="Node000004" href="$db/dda/classCaloTriggerEmulator.html#a4dcd466feb7e3c4d52926b2152e23e37" title="full initialization" alt="" coords="224,5,378,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="448,138,441,134,425,116,416,98,409,81,393,64,375,53,378,48,397,60,413,78,421,96,429,113,445,130,451,134"/>
+<area shape="rect" id="Node000006" href="$d8/def/classTowerInfoContainerSimv1.html#a19b8ad8bcbf6b8554264d254bb31d61f" title="Encode tower index into detector specific key." alt="" coords="207,75,395,119"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="460,215,441,203,425,185,416,168,409,151,393,134,375,122,378,118,397,130,413,148,421,165,429,182,445,199,463,210"/>
+<area shape="rect" id="Node000007" href="$d6/d52/classTowerInfoContainerSimv2.html#a54a58c378859a789a4fdca62213345cd" title="Encode a tower index into a unique key based on the detector type." alt="" coords="207,144,395,189"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="461,214,383,192,384,187,462,209"/>
+<area shape="rect" id="Node000008" href="$d6/dd9/classTowerInfoContainerv1.html#a94f0fa20800359538d2034151a257b14" title="Encode tower index into a unique key based on detector type." alt="" coords="219,213,382,258"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="461,238,383,238,383,233,461,233"/>
+<area shape="rect" id="Node000009" href="$df/d0c/classTowerInfoContainerv2.html#a0e04d1b15eaba43e4b89e95c0a73bf4b" title="Encode tower index to detector specific key." alt="" coords="219,283,382,327"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="462,263,384,285,382,280,460,258"/>
+<area shape="rect" id="Node000010" href="$de/de8/classTowerInfoContainerv3.html#a7fb727793c1fe534372422914327ad25" title="Encode tower index into a unique key based on detector type." alt="" coords="219,352,382,397"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="463,261,445,272,429,289,421,306,413,324,397,342,378,354,375,349,393,338,409,321,416,304,425,286,441,268,460,257"/>
+<area shape="rect" id="Node000011" href="$d6/dd5/classTowerInfoContainerv4.html#a7fa028957b60c9d2ee640ae376fdaaf9" title="Encode tower index into a detector specific key." alt="" coords="219,421,382,466"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="463,259,445,272,432,289,425,305,421,340,418,375,411,393,397,411,382,423,379,419,393,407,406,390,413,373,416,339,420,304,427,286,441,268,460,254"/>
+<area shape="rect" id="Node000016" href="$dd/dd5/classCaloTemp.html#a5f187a16bcf50f2c02d6ec5e652ff207" title="Initialize run specific resources and retrieve run header information." alt="" coords="231,490,370,518"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="446,506,371,506,371,501,446,501"/>
+<area shape="rect" id="Node000018" href="$db/dda/classCaloTriggerEmulator.html#aea638afc80ad33ad54d9ec2b50dce753" title="MakeTriggerOutput." alt="" coords="224,649,378,694"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="465,577,444,585,384,617,333,651,330,647,381,612,442,580,463,572"/>
+<area shape="rect" id="Node000019" href="$db/dda/classCaloTriggerEmulator.html#a51370fb1c88349f20aa1e35a77a74bc0" title="event processing method" alt="" coords="5,709,159,754"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="210,699,160,713,159,708,209,694"/>
+<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="458,803,381,813,380,807,457,798"/>
+<area shape="poly" id="edge24_Node000024_Node000019" title=" " alt="" coords="228,794,139,757,141,752,230,789"/>
+<area shape="poly" id="edge26_Node000025_Node000024" title=" " alt="" coords="470,884,364,845,366,840,472,879"/>
+<area shape="rect" id="Node000027" href="$de/df0/classTriggerValid.html#a59cd4310f2c69c507a1153162e7ffe10" title="event processing method" alt="" coords="223,956,378,1001"/>
+<area shape="poly" id="edge28_Node000026_Node000027" title=" " alt="" coords="456,981,379,981,379,976,456,976"/>
+</map>

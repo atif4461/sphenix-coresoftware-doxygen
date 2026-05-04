@@ -1,0 +1,12 @@
+digraph "SpinDBContentv1::SetQALevel"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="SpinDBContentv1::SetQALevel",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="SpinDBInput::CreateRunRow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/classSpinDBInput.html#a1e70069d3abdd5ed5d4605e565b57df9",tooltip="Create a new run entry in the spin database."];
+}

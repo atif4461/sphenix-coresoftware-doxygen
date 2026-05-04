@@ -1,0 +1,40 @@
+<map id="PHG4CylinderGeom_Spacalv2::get_sec_azimuthal_width" name="PHG4CylinderGeom_Spacalv2::get_sec_azimuthal_width">
+<area shape="rect" id="Node000001" title="Compute azimuthal width of a sector after applying tilt corrections." alt="" coords="1847,46,2063,91"/>
+<area shape="rect" id="Node000002" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#ac569237b75471f6758be63f58cf9406e" title=" " alt="" coords="1582,170,1799,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1893,100,1741,172,1739,168,1891,96"/>
+<area shape="rect" id="Node000005" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a91340b29587e1c381d7ae57bf8cf206e" title="Print detailed geometry parameters of the Spacal v2 detector." alt="" coords="1021,106,1237,151"/>
+<area shape="poly" id="edge23_Node000001_Node000005" title=" " alt="" coords="1847,45,1730,24,1588,10,1512,8,1436,11,1359,20,1286,37,1249,50,1215,69,1159,108,1156,104,1212,64,1247,45,1284,32,1359,15,1435,6,1512,3,1589,5,1731,19,1848,40"/>
+<area shape="rect" id="Node000015" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#aa961eb94adecf28445dfdba906d81517" title="Compute the effective block width." alt="" coords="1582,46,1799,91"/>
+<area shape="poly" id="edge20_Node000001_Node000015" title=" " alt="" coords="1831,71,1799,71,1799,66,1831,66"/>
+<area shape="rect" id="Node000003" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#a9009529a99b082149733bd1c961499b5" title=" " alt="" coords="1302,72,1518,116"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1623,166,1533,131,1497,120,1498,114,1535,126,1625,161"/>
+<area shape="rect" id="Node000004" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#aabbd95d1444219fa7111f1752c332079" title="Compute the half polar taper angle of the cylinder geometry." alt="" coords="1021,238,1237,283"/>
+<area shape="poly" id="edge14_Node000002_Node000004" title=" " alt="" coords="1666,229,1642,257,1611,288,1575,315,1535,337,1467,357,1411,361,1355,353,1284,337,1220,314,1165,286,1168,281,1222,309,1286,332,1356,347,1412,356,1467,352,1533,332,1573,311,1608,284,1638,254,1662,225"/>
+<area shape="poly" id="edge19_Node000002_Node000005" title=" " alt="" coords="1567,211,1502,215,1430,216,1357,212,1284,201,1222,180,1168,154,1170,149,1224,175,1286,195,1357,206,1430,211,1502,210,1566,206"/>
+<area shape="rect" id="Node000013" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#ae249c0e2d9b48a86c1506fa7c41df4e6" title="regulated fiber distance in the non&#45;tapering direction" alt="" coords="1302,261,1518,322"/>
+<area shape="poly" id="edge15_Node000002_Node000013" title=" " alt="" coords="1611,223,1500,263,1499,258,1609,218"/>
+<area shape="rect" id="Node000014" href="$db/d5f/classPHG4CylinderGeom__Spacalv2.html#ac5273ac5034b7d214ae879916d22880d" title="regulated fiber distance in the tapering direction" alt="" coords="1285,141,1534,186"/>
+<area shape="poly" id="edge17_Node000002_Node000014" title=" " alt="" coords="1567,183,1535,179,1535,174,1567,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1299,125,1286,131,1224,178,1156,240,1153,236,1221,174,1284,126,1296,120"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1287,112,1238,118,1237,113,1286,107"/>
+<area shape="rect" id="Node000006" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#ab15ad149ea75e222394cf00342045569" title="Print geometry information for Spacal version 3." alt="" coords="756,106,973,151"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1005,131,973,131,973,126,1005,126"/>
+<area shape="rect" id="Node000007" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#ab14c3352a8d3f833e8fc7bc48cb4bdf4" title="get approximate radial position of tower" alt="" coords="492,72,708,116"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="741,115,709,111,709,106,741,110"/>
+<area shape="rect" id="Node000011" href="$de/d61/classPHG4CylinderGeom__Spacalv3.html#aa703c35320bf717fb66b80bf64f9f103" title="Compute the z bin and global phi bin for a specified tower in a given sector." alt="" coords="492,141,708,186"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="741,148,709,152,709,147,741,142"/>
+<area shape="rect" id="Node000008" href="$d0/da4/classPHG4SpacalDetector.html#af2c4c4c1f8ca4bba2552dd18f6ff54b5" title="Add cell geometry node for SPACAL detector." alt="" coords="252,141,430,186"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="500,124,428,143,427,138,499,118"/>
+<area shape="rect" id="Node000010" href="$dc/d20/classPHG4FullProjSpacalCellReco.html#aea3e5a8a10917a094b537adc5201d6f9" title="module initialization" alt="" coords="239,72,444,116"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="477,97,444,97,444,91,477,91"/>
+<area shape="rect" id="Node000009" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a4719c5e160407e1b7f02bced47425698" title="Construct the full projected tilted SPACAL detector geometry within the given world volume." alt="" coords="5,141,191,186"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="237,166,191,166,191,161,237,161"/>
+<area shape="poly" id="edge11_Node000011_Node000008" title=" " alt="" coords="476,166,431,166,431,161,476,161"/>
+<area shape="poly" id="edge12_Node000011_Node000010" title=" " alt="" coords="499,139,427,120,428,114,500,134"/>
+<area shape="rect" id="Node000012" href="$dc/d20/classPHG4FullProjSpacalCellReco.html#aa31a2feab594c495ddf4133d72a9badb" title="event processing" alt="" coords="239,210,444,255"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="500,193,428,212,427,207,499,188"/>
+<area shape="poly" id="edge16_Node000013_Node000005" title=" " alt="" coords="1307,256,1284,244,1212,198,1155,154,1158,149,1216,194,1286,240,1310,252"/>
+<area shape="poly" id="edge18_Node000014_Node000005" title=" " alt="" coords="1269,149,1237,145,1238,139,1270,143"/>
+<area shape="poly" id="edge21_Node000015_Node000003" title=" " alt="" coords="1567,83,1518,87,1518,82,1567,77"/>
+<area shape="poly" id="edge22_Node000015_Node000005" title=" " alt="" coords="1567,54,1502,49,1431,48,1357,51,1286,62,1224,82,1170,108,1168,104,1222,77,1284,57,1357,46,1431,42,1502,44,1567,49"/>
+</map>

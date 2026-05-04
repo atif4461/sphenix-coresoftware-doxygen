@@ -1,0 +1,30 @@
+<map id="CaloRawClusterEval::get_energy_contribution" name="CaloRawClusterEval::get_energy_contribution">
+<area shape="rect" id="Node000001" title="how much energy did this primary truth shower contribute to this cluster" alt="" coords="5,254,193,299"/>
+<area shape="rect" id="Node000002" href="$de/d0b/classCaloRawTowerEval.html#abe64f9fcff4f576efcaef1e607216577" title="how much energy did this primary shower contribute to this tower?" alt="" coords="259,74,432,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,252,166,191,201,158,239,129,248,124,251,128,242,133,204,162,170,195,119,255"/>
+<area shape="rect" id="Node000008" href="$d7/d3c/classCaloTruthEval.html#a4d2ab62ada677f474c71eaf2222bb3e8" title="what was the primary shower associated with the shower object?" alt="" coords="276,144,416,188"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="143,251,240,205,270,192,272,197,242,210,145,256"/>
+<area shape="rect" id="Node000009" href="$da/d7e/classCaloRawClusterEval.html#aee326420812763b03113c0063ffeddae" title="get a copy of the lower level tower eval and its memory cache" alt="" coords="519,344,672,388"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="177,251,238,239,308,231,381,233,417,239,452,249,486,264,517,285,567,330,563,334,513,289,483,269,450,254,416,244,380,238,308,237,239,244,178,256"/>
+<area shape="rect" id="Node000010" href="$d6/dc7/group__getters.html#ga8b86848f1470c8a908efc851e8d9c08c" title="return tower map for c++11 range&#45;based for&#45;loop" alt="" coords="247,263,444,290"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="193,274,232,274,232,279,193,279"/>
+<area shape="rect" id="Node000011" href="$d6/dc7/group__getters.html#ga797d78febeac5c357ce4990878168507" title=" " alt="" coords="258,315,434,342"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="194,294,262,308,261,313,192,299"/>
+<area shape="rect" id="Node000012" href="$da/d7e/classCaloRawClusterEval.html#a0782afee0d26a073f2b262e32d684a2c" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="270,366,422,411"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="139,297,187,325,242,351,257,358,255,363,240,356,185,329,136,302"/>
+<area shape="rect" id="Node000013" href="$da/d7e/classCaloRawClusterEval.html#a8347f7a372a07d892ff8dc3a41d29463" title="has the eval initialized correctly for reduced sim DST nodes?" alt="" coords="241,460,451,504"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="121,298,173,357,242,421,285,449,282,454,239,425,169,360,117,301"/>
+<area shape="rect" id="Node000003" href="$d9/dd8/classRawTower.html#af8508a94f4b64147ad8e919f6d25fb5a" title="Find G4 shower by identifier." alt="" coords="501,5,690,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="413,71,498,43,526,35,527,40,500,48,414,76"/>
+<area shape="rect" id="Node000004" href="$d9/dd8/classRawTower.html#ab13148d0de5d525fe7a490fffc04e50c" title="Retrieve a constant range of Geant4 showers for this tower." alt="" coords="499,57,692,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="433,85,483,80,484,85,433,90"/>
+<area shape="rect" id="Node000005" href="$db/d88/classPHG4Shower.html#a67f9ec8ddb81a68b90ac138da013038c" title=" " alt="" coords="519,109,672,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="433,103,504,111,503,116,433,108"/>
+<area shape="rect" id="Node000006" href="$de/d0b/classCaloRawTowerEval.html#a90bd4095586faf2ef722a6baf8c79691" title="has the eval initialized correctly for reduced sim DST nodes?" alt="" coords="506,185,685,230"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="422,117,452,129,544,175,541,179,450,134,420,122"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="551,185,550,175,558,166,573,160,596,158,621,161,636,167,633,172,619,166,596,163,574,165,561,170,555,176,557,184"/>
+<area shape="rect" id="Node000007" href="$de/d0b/classCaloRawTowerEval.html#a86c06b3d2cbb008904d9f0811f9ad9c9" title="get a copy of the lower level truth eval and its memory cache" alt="" coords="740,185,914,230"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="685,204,725,204,725,210,685,210"/>
+<area shape="poly" id="edge14_Node000013_Node000009" title=" " alt="" coords="395,457,531,393,533,398,397,461"/>
+<area shape="poly" id="edge15_Node000013_Node000013" title=" " alt="" coords="299,459,297,449,305,440,322,435,346,433,372,435,388,442,386,447,371,441,346,438,323,440,308,445,303,451,304,459"/>
+</map>

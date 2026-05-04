@@ -1,0 +1,107 @@
+<map id="CaloGeomMapping::CreateGeomNode" name="CaloGeomMapping::CreateGeomNode">
+<area shape="rect" id="Node000001" title="Create geometry node for specified detector within the node tree." alt="" coords="5,739,275,766"/>
+<area shape="rect" id="Node000002" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="339,87,548,114"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,738,154,651,185,512,208,432,239,350,276,270,321,195,359,153,402,121,405,125,363,157,325,198,280,272,243,352,213,434,190,514,159,652,146,739"/>
+<area shape="rect" id="Node000006" href="$d2/d39/classCaloGeomMapping.html#adab81b9b5ff38fa2ddcc822d578b0725" title="Build detailed geometry for electromagnetic calorimeter." alt="" coords="323,898,564,943"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="168,764,389,888,386,892,166,769"/>
+<area shape="rect" id="Node000014" href="$dd/d3c/classCDBTTree.html#ad3b65f3fb7f7ab641785bae097214be5" title="Retrieve double calibration value for a given channel and field name." alt="" coords="622,1319,820,1346"/>
+<area shape="poly" id="edge58_Node000001_Node000014" title=" " alt="" coords="151,766,205,859,250,929,305,1006,370,1088,444,1168,525,1242,613,1305,622,1310,620,1314,611,1309,522,1246,440,1172,366,1091,301,1010,246,931,201,862,147,768"/>
+<area shape="rect" id="Node000015" href="$dd/d3c/classCDBTTree.html#aa299d0220ccd1f3ae00623c462e4f88e" title="Load calibration data from ROOT file into internal maps." alt="" coords="892,1319,1094,1346"/>
+<area shape="poly" id="edge61_Node000001_Node000015" title=" " alt="" coords="146,767,165,887,202,1075,227,1172,256,1261,289,1334,306,1360,324,1380,343,1392,366,1402,424,1418,493,1426,568,1430,717,1424,830,1407,864,1397,898,1383,956,1352,958,1357,900,1388,866,1402,831,1412,717,1429,568,1435,492,1432,423,1423,364,1407,340,1397,321,1384,302,1364,284,1336,251,1263,222,1174,197,1076,160,888,141,767"/>
+<area shape="rect" id="Node000016" href="$d5/d4b/classCDBInterface.html#a43822e59a3876434355e4cd55eba6b23" title="Retrieve calibration URL from CDB for given domain and filename." alt="" coords="644,357,799,385"/>
+<area shape="poly" id="edge59_Node000001_Node000016" title=" " alt="" coords="149,736,216,651,266,597,321,548,396,493,458,457,525,428,611,395,635,387,637,392,613,400,527,433,461,462,399,498,324,552,269,601,220,655,153,740"/>
+<area shape="rect" id="Node000030" href="$d5/d4b/classCDBInterface.html#ac1458cd6adb1e2944371c40a90dc9dfe" title="Get singleton instance of CDBInterface." alt="" coords="636,1371,806,1398"/>
+<area shape="poly" id="edge60_Node000001_Node000030" title=" " alt="" coords="144,766,152,854,161,918,177,991,199,1067,231,1142,272,1213,297,1245,324,1275,356,1300,392,1322,430,1339,469,1353,548,1371,621,1380,620,1385,547,1377,468,1358,428,1344,389,1327,353,1305,321,1278,293,1249,267,1216,226,1145,194,1069,171,992,156,919,146,854,139,767"/>
+<area shape="rect" id="Node000035" href="$d2/d39/classCaloGeomMapping.html#a3205e55bab4204eeb02aa60b865be5de" title="Build geometry for former calorimeter towers and fill the RawTowerGeom container." alt="" coords="327,562,560,607"/>
+<area shape="poly" id="edge40_Node000001_Node000035" title=" " alt="" coords="166,736,386,613,389,617,168,741"/>
+<area shape="rect" id="Node000039" href="$da/d58/namespaceRawTowerDefs.html#a833750b09c330a79395b15bcf1d93a9e" title=" " alt="" coords="356,1473,530,1518"/>
+<area shape="poly" id="edge49_Node000001_Node000039" title=" " alt="" coords="146,766,165,896,203,1103,228,1212,257,1313,289,1396,307,1428,325,1452,344,1468,340,1472,321,1456,302,1431,285,1398,252,1314,223,1213,198,1104,160,897,140,767"/>
+<area shape="rect" id="Node000040" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="630,201,812,229"/>
+<area shape="poly" id="edge50_Node000001_Node000040" title=" " alt="" coords="139,738,143,650,151,585,166,512,188,436,221,363,264,296,291,266,321,240,358,217,399,200,442,190,486,185,572,186,646,195,645,200,571,191,487,190,443,195,401,206,361,221,324,244,295,270,268,299,225,365,193,438,171,513,157,585,149,650,144,739"/>
+<area shape="rect" id="Node000043" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="372,253,515,281"/>
+<area shape="poly" id="edge55_Node000001_Node000043" title=" " alt="" coords="146,737,214,609,265,518,320,427,372,353,419,292,423,295,377,356,325,430,269,521,218,611,151,740"/>
+<area shape="rect" id="Node000003" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="922,105,1064,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="548,101,907,114,907,119,548,107"/>
+<area shape="rect" id="Node000004" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="926,29,1060,57"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="548,87,911,49,911,54,548,92"/>
+<area shape="rect" id="Node000005" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="650,11,792,38"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="496,83,653,40,654,45,498,89"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="951,30,943,20,949,11,966,5,993,3,1022,5,1038,12,1036,16,1021,10,993,8,967,10,952,15,949,20,955,27"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="793,27,911,35,911,40,793,32"/>
+<area shape="rect" id="Node000007" href="$da/d58/namespaceRawTowerDefs.html#a188fb7233354634d301c172177ab1ab6" title=" " alt="" coords="635,562,807,607"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="448,897,467,841,500,765,522,725,547,686,577,649,610,617,620,610,623,614,614,621,581,653,552,689,526,728,505,768,472,843,453,899"/>
+<area shape="rect" id="Node000008" href="$d8/dc4/classRawTowerGeom.html#ad788240f82a8e4ea29e987e6fe2feb4a" title=" " alt="" coords="612,631,830,658"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="451,897,472,849,506,787,552,723,580,694,610,669,620,663,623,667,614,673,583,698,556,726,510,790,477,851,456,899"/>
+<area shape="rect" id="Node000009" href="$d2/dd8/classRawTowerGeomv5.html#a20f794542421e021b4975987aa7f5bc1" title=" " alt="" coords="636,1130,807,1175"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="469,942,566,1048,588,1081,598,1095,614,1109,633,1121,630,1125,610,1113,594,1098,584,1084,562,1051,465,945"/>
+<area shape="rect" id="Node000010" href="$d8/dc4/classRawTowerGeom.html#a06628d3d5f62f86a841654d06f0f1974" title=" " alt="" coords="612,683,830,710"/>
+<area shape="poly" id="edge11_Node000006_Node000010" title=" " alt="" coords="455,896,479,858,514,810,559,762,611,721,623,714,625,719,613,725,562,766,519,813,484,861,460,899"/>
+<area shape="rect" id="Node000011" href="$d2/dd8/classRawTowerGeomv5.html#a2285ad24ccdce4ef9b9918a41da8d8cb" title=" " alt="" coords="636,1250,807,1295"/>
+<area shape="poly" id="edge12_Node000006_Node000011" title=" " alt="" coords="474,941,522,988,546,1017,566,1049,578,1075,583,1100,585,1144,589,1186,598,1207,614,1229,625,1239,621,1243,610,1233,593,1210,584,1188,579,1145,578,1101,573,1077,562,1051,541,1020,518,991,471,945"/>
+<area shape="rect" id="Node000012" href="$d8/dc4/classRawTowerGeom.html#a772770f6724ce4f5ad46e61b6c2876b7" title=" " alt="" coords="612,735,830,762"/>
+<area shape="poly" id="edge13_Node000006_Node000012" title=" " alt="" coords="462,896,524,834,565,800,611,771,624,766,626,770,613,776,568,804,527,838,466,900"/>
+<area shape="rect" id="Node000013" href="$d2/dd8/classRawTowerGeomv5.html#ab78a76873e7a2255e8d8ffdc06b15bab" title=" " alt="" coords="636,786,807,831"/>
+<area shape="poly" id="edge14_Node000006_Node000013" title=" " alt="" coords="489,895,611,841,629,834,631,839,613,846,491,900"/>
+<area shape="poly" id="edge15_Node000006_Node000014" title=" " alt="" coords="476,942,523,987,547,1017,566,1049,580,1087,585,1122,580,1186,578,1216,581,1245,591,1275,614,1305,616,1307,612,1311,610,1309,587,1277,575,1247,573,1216,575,1186,580,1122,575,1088,562,1051,542,1020,519,991,472,945"/>
+<area shape="poly" id="edge34_Node000006_Node000015" title=" " alt="" coords="473,941,520,988,545,1017,566,1048,576,1069,581,1088,585,1123,591,1154,600,1170,614,1185,640,1205,665,1215,690,1220,714,1221,768,1221,798,1225,831,1235,902,1270,961,1307,958,1312,900,1275,829,1240,797,1230,767,1226,714,1226,689,1225,664,1221,638,1209,610,1189,595,1173,586,1156,580,1123,576,1089,571,1071,562,1051,540,1020,516,992,469,945"/>
+<area shape="poly" id="edge17_Node000006_Node000016" title=" " alt="" coords="453,896,504,779,534,700,561,618,569,585,571,554,570,499,571,474,577,448,589,423,610,396,628,383,631,387,614,400,593,426,582,450,576,475,575,499,577,554,574,585,567,620,539,702,508,781,458,899"/>
+<area shape="rect" id="Node000028" href="$d5/dec/classFun4AllBase.html#ae93a661b64a16935fee4561c9cfcc664" title="Gets the verbosity of this module." alt="" coords="908,521,1078,549"/>
+<area shape="poly" id="edge39_Node000006_Node000028" title=" " alt="" coords="464,942,489,972,524,1007,566,1040,613,1065,674,1087,726,1099,751,1099,775,1094,801,1083,829,1065,844,1051,858,1030,886,976,910,907,932,830,966,677,985,564,990,565,971,678,937,831,915,908,891,978,863,1033,848,1054,832,1069,804,1088,777,1099,751,1104,726,1104,673,1092,611,1070,563,1044,520,1011,485,976,460,945"/>
+<area shape="poly" id="edge33_Node000006_Node000030" title=" " alt="" coords="455,943,532,1171,579,1292,599,1334,614,1356,624,1363,621,1367,610,1360,594,1336,574,1294,527,1173,450,944"/>
+<area shape="rect" id="Node000031" href="$d2/dd8/classRawTowerGeomv5.html#a7043044d92447efa60e1165b6c4fa6cb" title="Set the rotation angle around the X axis." alt="" coords="620,855,823,882"/>
+<area shape="poly" id="edge35_Node000006_Node000031" title=" " alt="" coords="564,895,628,883,629,888,565,900"/>
+<area shape="rect" id="Node000032" href="$d2/dd8/classRawTowerGeomv5.html#a144059ae6d2d184bcf652da6b5c59f75" title=" " alt="" coords="620,907,823,934"/>
+<area shape="poly" id="edge36_Node000006_Node000032" title=" " alt="" coords="565,918,604,918,604,923,565,923"/>
+<area shape="rect" id="Node000033" href="$d2/dd8/classRawTowerGeomv5.html#a5afa72d989f4711e4946da8f933be511" title=" " alt="" coords="620,959,822,986"/>
+<area shape="poly" id="edge37_Node000006_Node000033" title=" " alt="" coords="565,941,629,953,628,958,564,946"/>
+<area shape="rect" id="Node000034" href="$d2/dd8/classRawTowerGeomv5.html#a2ef92c34ffec6332dbe524f29a261305" title="Set the eight tower vertices and compute geometric centers for various face groups." alt="" coords="636,1010,806,1055"/>
+<area shape="poly" id="edge38_Node000006_Node000034" title=" " alt="" coords="491,941,613,995,631,1002,629,1007,611,1000,489,946"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="820,1330,877,1330,877,1335,820,1335"/>
+<area shape="rect" id="Node000017" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="925,313,1061,341"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="799,356,910,338,911,343,800,361"/>
+<area shape="rect" id="Node000018" href="$d1/da8/classPHFlag.html#a2527c60236838b31be8c04c17e529976" title="Retrieve string flag value by name." alt="" coords="908,417,1078,445"/>
+<area shape="poly" id="edge19_Node000016_Node000018" title=" " alt="" coords="788,383,913,411,912,416,787,388"/>
+<area shape="rect" id="Node000026" href="$d1/da8/classPHFlag.html#a71de108d2dfd732b6dddf097d2bb728e" title="Retrieve a 64bit flag value by name." alt="" coords="907,365,1079,393"/>
+<area shape="poly" id="edge27_Node000016_Node000026" title=" " alt="" coords="799,371,891,374,891,379,799,376"/>
+<area shape="rect" id="Node000027" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="915,469,1071,497"/>
+<area shape="poly" id="edge30_Node000016_Node000027" title=" " alt="" coords="800,381,832,396,848,410,857,426,865,441,880,454,902,465,899,470,877,459,861,444,852,429,844,414,829,400,798,386"/>
+<area shape="poly" id="edge31_Node000016_Node000028" title=" " alt="" coords="801,378,832,396,845,410,852,424,857,453,862,481,868,494,880,506,895,516,892,521,877,511,864,497,857,482,852,454,847,426,840,413,829,400,798,383"/>
+<area shape="rect" id="Node000029" href="$d5/dec/classFun4AllBase.html#a891fac4046ceda71c2253e1db6a00022" title="Sets the verbosity of this module (0 by default=quiet)." alt="" coords="908,261,1078,289"/>
+<area shape="poly" id="edge32_Node000016_Node000029" title=" " alt="" coords="798,355,829,342,843,332,852,321,862,310,877,300,894,292,896,297,880,304,865,314,856,325,847,336,832,347,800,360"/>
+<area shape="rect" id="Node000019" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="1191,365,1296,393"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="1063,414,1175,391,1176,396,1064,419"/>
+<area shape="rect" id="Node000025" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="1156,417,1331,445"/>
+<area shape="poly" id="edge26_Node000018_Node000025" title=" " alt="" coords="1078,428,1140,428,1140,434,1078,434"/>
+<area shape="rect" id="Node000020" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="1379,261,1565,289"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="1264,363,1315,331,1378,299,1398,292,1400,297,1380,304,1318,336,1267,367"/>
+<area shape="rect" id="Node000021" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="1386,313,1559,341"/>
+<area shape="poly" id="edge22_Node000019_Node000021" title=" " alt="" coords="1296,365,1393,342,1394,348,1297,370"/>
+<area shape="rect" id="Node000022" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="1394,365,1551,393"/>
+<area shape="poly" id="edge23_Node000019_Node000022" title=" " alt="" coords="1297,376,1378,376,1378,382,1297,382"/>
+<area shape="rect" id="Node000023" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="1383,417,1561,445"/>
+<area shape="poly" id="edge24_Node000019_Node000023" title=" " alt="" coords="1297,388,1394,411,1393,416,1296,394"/>
+<area shape="rect" id="Node000024" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="1382,469,1563,497"/>
+<area shape="poly" id="edge25_Node000019_Node000024" title=" " alt="" coords="1297,388,1332,404,1348,417,1357,430,1366,442,1380,454,1393,461,1390,465,1378,459,1362,446,1353,433,1344,420,1330,408,1295,393"/>
+<area shape="poly" id="edge28_Node000026_Node000019" title=" " alt="" coords="1080,376,1175,376,1175,382,1080,382"/>
+<area shape="poly" id="edge29_Node000026_Node000025" title=" " alt="" coords="1064,391,1159,411,1158,416,1063,396"/>
+<area shape="poly" id="edge41_Node000035_Node000007" title=" " alt="" coords="560,582,619,582,619,587,560,587"/>
+<area shape="poly" id="edge42_Node000035_Node000008" title=" " alt="" coords="550,605,640,624,638,629,549,610"/>
+<area shape="poly" id="edge43_Node000035_Node000010" title=" " alt="" coords="485,605,544,637,613,667,638,676,636,681,611,672,542,642,482,610"/>
+<area shape="poly" id="edge44_Node000035_Node000012" title=" " alt="" coords="467,605,529,663,570,693,613,719,630,727,628,732,611,724,567,698,526,667,464,609"/>
+<area shape="poly" id="edge48_Node000035_Node000028" title=" " alt="" coords="476,560,537,525,573,509,611,497,672,485,720,484,831,497,916,515,915,520,830,502,720,489,673,491,613,502,575,514,539,530,479,564"/>
+<area shape="rect" id="Node000036" href="$d8/dc4/classRawTowerGeom.html#a3f7e7f19029457bbf9e6ddd6de54400f" title=" " alt="" coords="612,409,830,437"/>
+<area shape="poly" id="edge45_Node000035_Node000036" title=" " alt="" coords="466,560,529,506,569,478,611,453,641,440,644,445,613,458,571,482,532,511,470,564"/>
+<area shape="rect" id="Node000037" href="$d8/dc4/classRawTowerGeom.html#a054bb61403622d53922db45bb9038e90" title=" " alt="" coords="612,511,830,538"/>
+<area shape="poly" id="edge46_Node000035_Node000037" title=" " alt="" coords="549,559,638,540,640,545,550,564"/>
+<area shape="rect" id="Node000038" href="$d8/dc4/classRawTowerGeom.html#a755697873c4bf7fbb2cb5af47b94ef80" title=" " alt="" coords="613,305,829,333"/>
+<area shape="poly" id="edge47_Node000035_Node000038" title=" " alt="" coords="452,561,473,514,508,455,553,395,581,367,610,344,620,338,623,342,614,348,584,371,557,398,512,458,478,517,456,563"/>
+<area shape="poly" id="edge52_Node000040_Node000003" title=" " alt="" coords="749,198,808,171,877,143,907,135,908,140,879,148,810,176,752,203"/>
+<area shape="poly" id="edge51_Node000040_Node000040" title=" " alt="" coords="675,203,668,192,674,183,692,177,721,175,753,177,770,184,768,189,752,182,721,180,693,182,677,187,673,192,679,199"/>
+<area shape="rect" id="Node000041" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="927,209,1059,237"/>
+<area shape="poly" id="edge53_Node000040_Node000041" title=" " alt="" coords="812,215,911,218,911,223,812,220"/>
+<area shape="rect" id="Node000042" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="878,157,1108,185"/>
+<area shape="poly" id="edge54_Node000040_Node000042" title=" " alt="" coords="811,198,888,185,889,191,811,203"/>
+<area shape="poly" id="edge56_Node000043_Node000040" title=" " alt="" coords="515,251,628,230,629,235,516,256"/>
+<area shape="rect" id="Node000044" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="639,253,803,281"/>
+<area shape="poly" id="edge57_Node000043_Node000044" title=" " alt="" coords="516,264,624,264,624,270,516,270"/>
+</map>

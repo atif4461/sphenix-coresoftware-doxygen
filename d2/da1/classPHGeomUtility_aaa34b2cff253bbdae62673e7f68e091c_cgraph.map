@@ -1,0 +1,120 @@
+<map id="PHGeomUtility::ExportGeomtry" name="PHGeomUtility::ExportGeomtry">
+<area shape="rect" id="Node000001" title="DST node &#45;&gt; TGeoManager &#45;&gt; export files, like gdml, .root or .C formats." alt="" coords="5,208,230,236"/>
+<area shape="rect" id="Node000002" href="$d2/da1/classPHGeomUtility.html#aa80925b14430021ea70d0b906af8e885" title="Main user interface: DST node &#45;&gt; TGeoManager for downstream use." alt="" coords="278,208,517,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,219,262,219,262,224,230,224"/>
+<area shape="rect" id="Node000003" href="$d7/d6d/classPHGeomTGeo.html#a3e111f6229f7ce6392b14a98fdf5bea9" title="Retrieve the current TGeoManager geometry instance." alt="" coords="881,157,1089,185"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="517,205,565,201,865,176,865,182,565,206,518,211"/>
+<area shape="rect" id="Node000005" href="$d2/da1/classPHGeomUtility.html#a93ec483f3447fdefc3a471601fc8587b" title="Get non&#45;persistent PHGeomTGeo from DST nodes. If not found, make a new one." alt="" coords="857,209,1113,237"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="517,219,842,220,842,226,517,225"/>
+<area shape="rect" id="Node000016" href="$d7/d6d/classPHGeomTGeo.html#abdec55181f592bbdd6e63882d83b4c5f" title="isValid returns non zero if object contains vailid data" alt="" coords="903,105,1067,133"/>
+<area shape="poly" id="edge20_Node000002_Node000016" title=" " alt="" coords="443,205,564,173,735,144,888,125,888,131,736,149,566,178,444,210"/>
+<area shape="rect" id="Node000017" href="$d2/da1/classPHGeomUtility.html#ae062424701e91fed6173ca3aa29779e4" title="Load geometry from IONode and update PHGeomTGeo node in RUNGEOMETRY." alt="" coords="565,513,802,541"/>
+<area shape="poly" id="edge22_Node000002_Node000017" title=" " alt="" coords="414,234,661,500,657,504,410,238"/>
+<area shape="rect" id="Node000045" href="$d2/da1/classPHGeomUtility.html#a086be41b0d15f1b2e2c50836a5d73728" title="Update the I/O geometry node in the node tree." alt="" coords="574,259,794,286"/>
+<area shape="poly" id="edge66_Node000002_Node000045" title=" " alt="" coords="480,234,587,253,586,258,479,239"/>
+<area shape="rect" id="Node000004" href="$d7/d6d/classPHGeomTGeo.html#a8d16aa1e6ae54054550afb1cca3fc36c" title="Verify that the internal TGeoManager instance matches the global gGeoManager." alt="" coords="1179,5,1418,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1088,158,1118,142,1129,131,1136,120,1141,95,1147,69,1154,56,1166,44,1174,38,1177,43,1169,48,1158,59,1152,71,1146,96,1141,122,1133,135,1121,147,1091,163"/>
+<area shape="rect" id="Node000006" href="$d5/dca/classPHCompositeNode.html#a15a0c4804399a9de4267647f05bd1ba4" title="Add a child node to this composite node after checking for name conflicts." alt="" coords="1194,261,1403,289"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1073,235,1196,256,1195,261,1072,240"/>
+<area shape="rect" id="Node000010" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="Search recursively for the first node that matches a given type and name." alt="" coords="1477,83,1658,110"/>
+<area shape="poly" id="edge11_Node000005_Node000010" title=" " alt="" coords="1087,206,1118,194,1132,184,1141,173,1151,162,1166,151,1240,124,1318,107,1393,97,1461,93,1462,98,1394,102,1319,112,1242,129,1169,156,1155,166,1146,177,1136,188,1121,199,1089,211"/>
+<area shape="rect" id="Node000013" href="$da/dc3/namespacefindNode.html#ab47268ae4d3d70e158b04aa7fcbe025f" title=" " alt="" coords="1227,209,1370,237"/>
+<area shape="poly" id="edge16_Node000005_Node000013" title=" " alt="" coords="1113,220,1211,220,1211,226,1113,226"/>
+<area shape="rect" id="Node000015" href="$d2/da1/classPHGeomUtility.html#a77c6859ddb9640077cded79c33ba364b" title="DST node name for RunTime geometry object." alt="" coords="1175,57,1422,85"/>
+<area shape="poly" id="edge19_Node000005_Node000015" title=" " alt="" coords="1097,206,1118,194,1129,184,1135,173,1141,149,1147,125,1155,113,1166,101,1184,89,1187,94,1169,105,1159,116,1152,127,1146,151,1140,175,1133,187,1121,199,1100,211"/>
+<area shape="rect" id="Node000007" href="$dc/d82/classPHNode.html#a8f7f83761ba4065c830ab04be1804263" title=" " alt="" coords="1750,173,1892,201"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1385,258,1428,246,1452,234,1476,222,1543,206,1611,195,1735,185,1735,191,1612,201,1544,211,1478,227,1454,238,1430,251,1386,263"/>
+<area shape="rect" id="Node000008" href="$dc/d82/classPHNode.html#a5671f6aa95670994c9b228886465a7fb" title="Construct a PHNode with the specified name and an empty secondary identifier." alt="" coords="1754,268,1888,296"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1404,274,1739,278,1739,283,1404,279"/>
+<area shape="rect" id="Node000009" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title=" " alt="" coords="1496,236,1639,264"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="1403,263,1481,255,1481,261,1404,268"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="1778,269,1771,259,1776,249,1793,243,1821,241,1851,244,1867,250,1865,255,1849,249,1821,247,1794,249,1780,253,1776,259,1782,266"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="1640,256,1739,269,1739,274,1639,261"/>
+<area shape="poly" id="edge13_Node000010_Node000007" title=" " alt="" coords="1621,108,1659,121,1773,165,1771,170,1657,126,1619,114"/>
+<area shape="poly" id="edge12_Node000010_Node000010" title=" " alt="" coords="1525,84,1518,74,1523,64,1540,58,1568,56,1597,58,1613,65,1611,70,1596,64,1568,61,1541,63,1526,68,1523,73,1529,81"/>
+<area shape="rect" id="Node000011" href="$dc/d82/classPHNode.html#a645f9eb9d04a4904318997f3e727a2f5" title=" " alt="" coords="1755,96,1887,124"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="1659,99,1739,103,1739,108,1659,104"/>
+<area shape="rect" id="Node000012" href="$d5/d07/classPHNodeIterator.html#aab0f2907da99d27d6fac07213c6dc240" title="Constructor initializing the iterator with the specified composite node." alt="" coords="1706,44,1936,72"/>
+<area shape="poly" id="edge15_Node000010_Node000012" title=" " alt="" coords="1658,80,1710,72,1711,77,1659,85"/>
+<area shape="poly" id="edge17_Node000013_Node000010" title=" " alt="" coords="1370,213,1400,203,1427,189,1443,173,1451,156,1459,138,1475,121,1485,115,1488,120,1479,125,1463,141,1456,159,1447,176,1431,193,1402,208,1371,218"/>
+<area shape="rect" id="Node000014" href="$d1/d3e/classPHDataNode.html#ad5b9f0e3187b3377659ab1c1036af6e3" title=" " alt="" coords="1486,135,1650,162"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="1360,206,1428,189,1507,165,1508,170,1430,194,1362,211"/>
+<area shape="poly" id="edge21_Node000016_Node000004" title=" " alt="" coords="1016,102,1084,73,1167,43,1200,34,1201,40,1168,48,1086,78,1018,107"/>
+<area shape="poly" id="edge32_Node000017_Node000005" title=" " alt="" coords="689,512,759,374,806,297,828,267,849,248,858,242,861,247,852,252,832,271,810,300,764,377,694,514"/>
+<area shape="rect" id="Node000018" href="$de/de3/classPHGeomIOTGeo.html#a62a04582c3dd54b46ce9a9814d078ba9" title="Construct TGeoManager. The result TGeoManager is not yet closed and open for further editing." alt="" coords="870,836,1100,880"/>
+<area shape="poly" id="edge23_Node000017_Node000018" title=" " alt="" coords="700,540,955,822,951,826,696,543"/>
+<area shape="rect" id="Node000020" href="$de/de3/classPHGeomIOTGeo.html#aaaace6d14364cd84b2137292f3c696ec" title="isValid returns non zero if object contains vailid data" alt="" coords="1479,921,1656,949"/>
+<area shape="poly" id="edge44_Node000017_Node000020" title=" " alt="" coords="759,539,895,573,979,599,1070,631,1164,670,1258,716,1348,769,1431,831,1447,850,1455,870,1463,889,1479,906,1487,912,1484,916,1475,911,1458,891,1450,872,1443,853,1427,834,1345,773,1256,720,1162,675,1069,636,978,604,894,578,758,544"/>
+<area shape="rect" id="Node000021" href="$d2/da1/classPHGeomUtility.html#a66cd62a2044016ba39bcb70730ef1985" title="Get persistent PHGeomIOTGeo from DST nodes. If not found, make a new one." alt="" coords="850,261,1120,289"/>
+<area shape="poly" id="edge27_Node000017_Node000021" title=" " alt="" coords="694,511,756,438,800,392,849,349,893,319,937,294,940,299,896,323,852,353,804,396,760,441,698,515"/>
+<area shape="rect" id="Node000023" href="$d2/da1/classPHGeomUtility.html#a84ee9f9eaf686f5c98ddc1af089ae248" title="Verbosity for geometry IO like, TGeoMangers." alt="" coords="880,971,1090,998"/>
+<area shape="poly" id="edge33_Node000017_Node000023" title=" " alt="" coords="691,541,708,601,740,692,788,795,818,845,852,891,896,931,942,961,939,965,893,935,848,894,814,848,784,797,736,694,703,603,686,542"/>
+<area shape="rect" id="Node000034" href="$d7/d6d/classPHGeomTGeo.html#a8b2df41583e27a653458c6aae76a2926" title="Set the internal geometry manager for the PHGeomTGeo instance." alt="" coords="882,513,1088,541"/>
+<area shape="poly" id="edge45_Node000017_Node000034" title=" " alt="" coords="803,524,867,524,867,530,803,530"/>
+<area shape="rect" id="Node000019" href="$de/de3/classPHGeomIOTGeo.html#adce46bab9f88201797e891b51292e9ae" title="Returns a copy of the geometry volume if the object is valid." alt="" coords="1171,844,1426,872"/>
+<area shape="poly" id="edge24_Node000018_Node000019" title=" " alt="" coords="1101,855,1155,855,1155,860,1101,860"/>
+<area shape="poly" id="edge26_Node000018_Node000020" title=" " alt="" coords="1101,871,1168,881,1464,919,1463,925,1167,886,1100,877"/>
+<area shape="poly" id="edge25_Node000019_Node000020" title=" " alt="" coords="1366,870,1430,887,1478,906,1502,914,1500,919,1476,911,1428,892,1365,875"/>
+<area shape="poly" id="edge28_Node000021_Node000006" title=" " alt="" coords="1120,272,1178,272,1178,278,1120,278"/>
+<area shape="poly" id="edge29_Node000021_Node000010" title=" " alt="" coords="1090,258,1118,246,1133,235,1141,222,1150,208,1166,196,1203,179,1237,171,1296,168,1356,168,1390,163,1428,151,1452,137,1476,121,1494,113,1496,118,1478,126,1455,141,1430,156,1391,168,1357,173,1296,174,1237,176,1205,184,1169,200,1154,212,1146,224,1137,238,1121,251,1092,263"/>
+<area shape="poly" id="edge30_Node000021_Node000013" title=" " alt="" coords="1072,258,1211,235,1212,240,1073,263"/>
+<area shape="rect" id="Node000022" href="$d2/da1/classPHGeomUtility.html#aba399f651899ceacacb7941976110805" title="DST node name for persistent geometry storage node." alt="" coords="1168,313,1429,341"/>
+<area shape="poly" id="edge31_Node000021_Node000022" title=" " alt="" coords="1073,287,1196,308,1195,313,1072,292"/>
+<area shape="rect" id="Node000024" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="Check if a flag with the given name exists in any internal flag map." alt="" coords="1231,997,1366,1025"/>
+<area shape="poly" id="edge34_Node000023_Node000024" title=" " alt="" coords="1090,991,1216,1002,1215,1007,1090,996"/>
+<area shape="rect" id="Node000025" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="Retrieve integer flag value by name." alt="" coords="1224,1049,1372,1077"/>
+<area shape="poly" id="edge35_Node000023_Node000025" title=" " alt="" coords="1034,996,1168,1034,1209,1043,1208,1049,1167,1039,1032,1002"/>
+<area shape="rect" id="Node000033" href="$d8/d14/classrecoConsts.html#a525974ff9b581adff01913f74a37fe29" title=" " alt="" coords="1220,945,1376,973"/>
+<area shape="poly" id="edge43_Node000023_Node000033" title=" " alt="" coords="1090,973,1204,964,1205,969,1090,979"/>
+<area shape="rect" id="Node000026" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="1515,1076,1620,1104"/>
+<area shape="poly" id="edge36_Node000025_Node000026" title=" " alt="" coords="1373,1068,1500,1081,1499,1086,1373,1073"/>
+<area shape="rect" id="Node000032" href="$d1/da8/classPHFlag.html#a1c97d412c4b022b9a4251f1eb3e73c60" title="Print stack trace for debugging purposes." alt="" coords="1480,1024,1655,1052"/>
+<area shape="poly" id="edge42_Node000025_Node000032" title=" " alt="" coords="1373,1054,1464,1045,1465,1050,1373,1059"/>
+<area shape="rect" id="Node000027" href="$d1/da8/classPHFlag.html#ad1f56e40d6ff6b755b3c9effce4a02c5" title="Print all double flags stored in the internal map." alt="" coords="1728,1128,1914,1156"/>
+<area shape="poly" id="edge37_Node000026_Node000027" title=" " alt="" coords="1621,1098,1736,1122,1735,1127,1620,1103"/>
+<area shape="rect" id="Node000028" href="$d1/da8/classPHFlag.html#ad6ab10a4f2e96864c6584dc0964e7f14" title="Print all stored float flags to standard output." alt="" coords="1734,1180,1908,1208"/>
+<area shape="poly" id="edge38_Node000026_Node000028" title=" " alt="" coords="1591,1102,1643,1133,1707,1165,1731,1173,1729,1178,1705,1170,1640,1138,1589,1106"/>
+<area shape="rect" id="Node000029" href="$d1/da8/classPHFlag.html#a1fc9abb05a2b2c9aa4434e331de5b57b" title="Print integer flags stored in the flag map." alt="" coords="1742,972,1900,1000"/>
+<area shape="poly" id="edge39_Node000026_Node000029" title=" " alt="" coords="1620,1077,1657,1061,1671,1049,1680,1036,1689,1023,1705,1010,1726,1000,1729,1005,1708,1015,1693,1026,1684,1039,1675,1052,1660,1065,1622,1082"/>
+<area shape="rect" id="Node000030" href="$d1/da8/classPHFlag.html#a6347c7ad1f32c2e850cad7ff60e47b51" title="Print all string flags stored in the internal map." alt="" coords="1732,1024,1910,1052"/>
+<area shape="poly" id="edge40_Node000026_Node000030" title=" " alt="" coords="1620,1076,1735,1053,1736,1058,1621,1082"/>
+<area shape="rect" id="Node000031" href="$d1/da8/classPHFlag.html#af54825c0a5d8c15e8fa8eb2ee90412f3" title="Print uint64 flags stored in the flag map." alt="" coords="1730,1076,1912,1104"/>
+<area shape="poly" id="edge41_Node000026_Node000031" title=" " alt="" coords="1621,1087,1715,1087,1715,1092,1621,1092"/>
+<area shape="poly" id="edge46_Node000034_Node000004" title=" " alt="" coords="1008,511,1065,467,1094,436,1117,401,1136,350,1140,303,1136,258,1128,215,1121,173,1122,130,1135,88,1148,66,1166,44,1169,40,1173,44,1170,48,1152,69,1140,90,1127,131,1127,172,1133,214,1141,257,1145,303,1141,351,1122,403,1098,439,1068,470,1011,515"/>
+<area shape="rect" id="Node000035" href="$df/de1/g_8f.html#ae6f69233cd20fb9f18eccb21a11b604f" title=" " alt="" coords="1279,552,1318,580"/>
+<area shape="poly" id="edge47_Node000034_Node000035" title=" " alt="" coords="1089,537,1264,559,1264,564,1088,543"/>
+<area shape="poly" id="edge48_Node000035_Node000035" title=" " alt="" coords="1278,564,1252,553,1246,546,1246,538,1263,529,1298,525,1331,528,1349,536,1350,548,1334,559,1331,554,1345,545,1344,539,1330,533,1298,531,1264,534,1251,541,1251,544,1255,548,1280,559"/>
+<area shape="rect" id="Node000036" href="$db/d20/parton_8f.html#a3b6487bad48aa8ef534f4d1b31eff181" title=" " alt="" coords="1536,793,1599,821"/>
+<area shape="poly" id="edge49_Node000035_Node000036" title=" " alt="" coords="1319,568,1374,588,1405,606,1431,629,1444,650,1451,669,1454,707,1457,743,1465,761,1479,779,1498,792,1521,800,1519,805,1496,797,1475,782,1460,764,1452,745,1449,708,1446,671,1440,652,1427,633,1401,610,1372,593,1317,573"/>
+<area shape="rect" id="Node000038" href="$df/dbd/subcrs1_8f.html#a5f4351235416e511fd6351ff89b3ee37" title=" " alt="" coords="1532,437,1603,465"/>
+<area shape="poly" id="edge52_Node000035_Node000038" title=" " alt="" coords="1317,553,1386,517,1476,475,1516,462,1518,467,1478,480,1388,521,1319,558"/>
+<area shape="rect" id="Node000039" href="$d9/d3c/subcrs2_8f.html#ada3c616960f865414127ef13ea958c28" title=" " alt="" coords="1532,513,1603,541"/>
+<area shape="poly" id="edge54_Node000035_Node000039" title=" " alt="" coords="1318,561,1516,532,1517,537,1318,566"/>
+<area shape="rect" id="Node000040" href="$da/d28/subcrs3_8f.html#a6b94147307b9e5dea966e527415fcadf" title=" " alt="" coords="1532,589,1603,617"/>
+<area shape="poly" id="edge56_Node000035_Node000040" title=" " alt="" coords="1318,566,1517,594,1516,599,1318,571"/>
+<area shape="rect" id="Node000041" href="$db/d57/subcrs4_8f.html#a393f34904dbb727a451f8be81d9f4f09" title=" " alt="" coords="1532,665,1603,693"/>
+<area shape="poly" id="edge58_Node000035_Node000041" title=" " alt="" coords="1319,571,1520,656,1517,661,1317,576"/>
+<area shape="rect" id="Node000042" href="$dc/d30/subcrs5_8f.html#a18ab73861279badb06bf6934de1b936b" title=" " alt="" coords="1532,741,1603,769"/>
+<area shape="poly" id="edge60_Node000035_Node000042" title=" " alt="" coords="1319,569,1372,591,1403,608,1431,629,1447,648,1456,666,1464,684,1479,703,1520,732,1517,736,1475,706,1459,687,1451,669,1443,651,1427,633,1400,613,1370,596,1317,574"/>
+<area shape="rect" id="Node000043" href="$d8/db8/subcrs6_8f.html#a9e929a91bacb5311740c272621f652b9" title=" " alt="" coords="1532,869,1603,897"/>
+<area shape="poly" id="edge62_Node000035_Node000043" title=" " alt="" coords="1319,567,1374,587,1405,605,1431,629,1448,656,1455,682,1456,731,1457,780,1464,805,1479,831,1497,849,1519,863,1516,867,1494,853,1475,834,1459,807,1452,781,1451,731,1450,683,1443,659,1427,633,1402,609,1372,592,1317,572"/>
+<area shape="rect" id="Node000044" href="$d5/d6a/subcrs7_8f.html#a07a0bfc6abbcfef45515d7041b3d66f3" title=" " alt="" coords="1532,361,1603,389"/>
+<area shape="poly" id="edge64_Node000035_Node000044" title=" " alt="" coords="1309,550,1375,479,1422,436,1476,399,1516,383,1518,388,1478,404,1426,440,1378,482,1313,553"/>
+<area shape="rect" id="Node000037" href="$dc/dc6/gmre_8f.html#a49cfd1ee4f5604e6a082575e0cf129d5" title=" " alt="" coords="1793,793,1849,821"/>
+<area shape="poly" id="edge50_Node000036_Node000037" title=" " alt="" coords="1600,804,1778,804,1778,810,1600,810"/>
+<area shape="poly" id="edge51_Node000037_Node000037" title=" " alt="" coords="1792,802,1774,791,1773,778,1789,770,1821,767,1848,769,1865,774,1871,784,1865,794,1860,791,1866,784,1862,779,1847,774,1821,772,1791,775,1777,781,1778,788,1794,797"/>
+<area shape="poly" id="edge53_Node000038_Node000038" title=" " alt="" coords="1530,442,1518,431,1521,420,1538,413,1568,411,1606,416,1616,422,1617,429,1612,430,1611,425,1605,421,1568,416,1539,418,1525,424,1523,430,1533,438"/>
+<area shape="poly" id="edge55_Node000039_Node000039" title=" " alt="" coords="1530,518,1518,507,1521,496,1538,489,1568,487,1606,492,1616,498,1617,505,1612,506,1611,501,1605,497,1568,492,1539,494,1525,500,1523,506,1533,514"/>
+<area shape="poly" id="edge57_Node000040_Node000040" title=" " alt="" coords="1530,594,1518,583,1521,572,1538,565,1568,563,1606,568,1616,574,1617,581,1612,582,1611,577,1605,573,1568,568,1539,570,1525,576,1523,582,1533,590"/>
+<area shape="poly" id="edge59_Node000041_Node000041" title=" " alt="" coords="1530,670,1518,659,1521,648,1538,641,1568,639,1606,644,1616,650,1617,657,1612,658,1611,653,1605,649,1568,644,1539,646,1525,652,1523,658,1533,666"/>
+<area shape="poly" id="edge61_Node000042_Node000042" title=" " alt="" coords="1530,746,1518,735,1521,724,1538,717,1568,715,1606,720,1616,726,1617,733,1612,734,1611,729,1605,725,1568,720,1539,722,1525,728,1523,734,1533,742"/>
+<area shape="poly" id="edge63_Node000043_Node000043" title=" " alt="" coords="1530,874,1518,863,1521,852,1538,845,1568,843,1606,848,1616,854,1617,861,1612,862,1611,857,1605,853,1568,848,1539,850,1525,856,1523,862,1533,870"/>
+<area shape="poly" id="edge65_Node000044_Node000044" title=" " alt="" coords="1530,366,1518,355,1521,344,1538,337,1568,335,1606,340,1616,346,1617,353,1612,354,1611,349,1605,345,1568,340,1539,342,1525,348,1523,354,1533,362"/>
+<area shape="poly" id="edge67_Node000045_Node000003" title=" " alt="" coords="711,256,773,225,849,195,881,186,883,192,851,200,775,230,713,261"/>
+<area shape="poly" id="edge69_Node000045_Node000005" title=" " alt="" coords="772,255,881,237,882,243,773,261"/>
+<area shape="poly" id="edge70_Node000045_Node000016" title=" " alt="" coords="697,256,759,201,802,169,849,143,887,130,889,135,851,148,805,174,763,205,701,260"/>
+<area shape="poly" id="edge68_Node000045_Node000021" title=" " alt="" coords="794,271,835,271,835,277,794,276"/>
+<area shape="rect" id="Node000046" href="$de/de3/classPHGeomIOTGeo.html#a780a0b071aee001508b1dffffdbf078d" title="PHGeomIOTGeo do NOT own this TGeoVolume * g. Internally, it will use g to make a copy which PHGeomIOT..." alt="" coords="875,363,1095,390"/>
+<area shape="poly" id="edge71_Node000045_Node000046" title=" " alt="" coords="727,284,929,355,927,360,726,289"/>
+<area shape="poly" id="edge72_Node000046_Node000035" title=" " alt="" coords="1011,388,1267,545,1264,549,1008,393"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "RawTower::get_time"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="RawTower::get_time",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Time stamp assigned to the tower. Depending on the tower maker, it could be rise time or peak time."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="RawTowerCombiner::process\l_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d0d/classRawTowerCombiner.html#a306ccff4853c204cff8bd74aab62488d",tooltip="Process event merging raw towers into coarser granularity."];
+}

@@ -1,0 +1,12 @@
+digraph "Fun4AllMonitoring::Snapshot"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Fun4AllMonitoring::\lSnapshot",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Record memory usage statistics for the current event to the configured output file."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllMonitoring::\lGet_Memory",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281",tooltip="Retrieve memory usage statistics from proc self smaps and accumulate PSS values for heap mmap and oth..."];
+}

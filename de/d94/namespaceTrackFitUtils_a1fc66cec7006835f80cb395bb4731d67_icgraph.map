@@ -1,0 +1,41 @@
+<map id="TrackFitUtils::circle_fit_by_taubin" name="TrackFitUtils::circle_fit_by_taubin">
+<area shape="rect" id="Node000001" title="Fit a circle to a set of 2D points using the Taubin algebraic method." alt="" coords="551,383,695,427"/>
+<area shape="rect" id="Node000002" href="$de/dfe/classALICEKF.html#a44f906df99f1bd40e2db1d8e9705f4b0" title="Perform an ALICE style Kalman filter on a collection of track seed key lists and produce sPHENIX and ..." alt="" coords="284,167,486,195"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="608,369,592,331,569,287,539,244,501,208,482,198,485,193,505,204,543,241,574,284,597,328,613,367"/>
+<area shape="rect" id="Node000003" href="$de/d94/namespaceTrackFitUtils.html#a571638f7c15bb1d42812b642ac78d7f9" title="convenient overload" alt="" coords="313,219,457,263"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="596,372,555,323,530,299,502,278,456,258,458,253,504,273,533,295,559,319,600,369"/>
+<area shape="rect" id="Node000004" href="$d9/d67/namespaceTrackSeedHelper.html#a747183c5992dac5b4543a352dab51a9d" title="Fit a circular trajectory to seed clusters using the Taubin algorithm." alt="" coords="290,288,480,333"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="562,378,502,351,459,336,460,331,504,347,564,373"/>
+<area shape="rect" id="Node000012" href="$de/d94/namespaceTrackFitUtils.html#ad145b94b8f8645f0c955aa083c456e7e" title="Fit clusters to helical parameters." alt="" coords="297,360,472,388"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="535,396,473,388,473,383,536,391"/>
+<area shape="rect" id="Node000015" href="$dd/dfe/classPHCosmicTrackMerger.html#aacc3e4a946a5f0592f4abe8a76573857" title="Process a single event merging cosmic track seeds." alt="" coords="301,412,468,457"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="536,418,469,427,469,421,535,413"/>
+<area shape="rect" id="Node000016" href="$db/d8d/classPHMicromegasTpcTrackMatching.html#aae9c82a4df59f8b0932581e1a44ad8f9" title="Process a single event, adding Micromegas clusters to existing TPC tracks." alt="" coords="267,481,503,526"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="572,438,504,471,472,483,470,478,502,467,570,433"/>
+<area shape="rect" id="Node000017" href="$d5/d78/classPHTpcClusterMover.html#a7c36fbf3ee710fdb11069cfbaf71c3c6" title="Process event for TPC cluster mover correcting cluster positions." alt="" coords="306,551,464,595"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="601,442,560,493,534,519,504,541,465,559,462,554,502,536,530,515,556,489,597,439"/>
+<area shape="rect" id="Node000018" href="$db/db8/classTpcClusterMover.html#a61e47d28db1847cfc5340df461a93e6b" title="Move TPC clusters of a track from global coordinates to the readout layer radius." alt="" coords="290,620,480,665"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="612,443,596,482,573,527,543,572,505,610,481,624,479,619,501,606,539,568,569,524,591,480,607,441"/>
+<area shape="rect" id="Node000005" href="$d5/d22/classAzimuthalSeeder.html#a7cb59f4af1508622d0b65cbad6737f19" title="Process a single event and generate track seeds from MVTX clusters." alt="" coords="17,5,207,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="275,287,265,277,246,250,238,223,237,196,240,169,242,143,242,116,234,90,217,64,203,52,206,48,221,61,239,88,247,116,248,143,245,170,242,196,243,222,251,248,269,274,279,283"/>
+<area shape="rect" id="Node000006" href="$dc/dcf/classPHActsGSF.html#a6c3b895a05a59d9e14bbe0a754ac023b" title="Process a single event within the Fun4All framework." alt="" coords="37,75,187,119"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="275,286,265,278,250,259,243,241,240,204,237,168,230,151,217,134,186,114,189,109,220,130,235,148,242,167,245,204,248,239,255,257,269,274,278,282"/>
+<area shape="rect" id="Node000007" href="$dc/d54/classPHCosmicSiliconPropagator.html#a86b380592b27818d794f215a3b82827a" title="Process a single event and generate combined silicon and TPC seeds." alt="" coords="11,352,213,397"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="276,339,211,354,209,349,274,333"/>
+<area shape="rect" id="Node000008" href="$d8/d56/classPHSiliconCosmicSeeding.html#ab2e58f82964d08c350a0620be4cfe12e" title="Process a single event and produce silicon cosmic track seeds." alt="" coords="21,144,203,189"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="275,284,265,278,248,259,240,240,233,221,217,203,198,191,201,187,220,199,237,218,245,238,253,256,268,274,278,280"/>
+<area shape="rect" id="Node000009" href="$dd/d63/classPHSiliconHelicalPropagator.html#a45b97447e3eeb7efb980345f8bb6d809" title="Process event for silicon helical propagator." alt="" coords="13,421,211,466"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="283,342,268,351,253,365,245,380,236,396,220,411,199,423,196,419,217,407,232,393,240,378,249,362,265,347,280,338"/>
+<area shape="rect" id="Node000010" href="$d9/d69/classPHSimpleKFProp.html#a0e11d66809451e62d6001f3aa4cf392e" title="Process event for Kalman filter propagation." alt="" coords="18,213,206,258"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="285,286,196,261,197,256,287,281"/>
+<area shape="rect" id="Node000011" href="$dd/d92/classTrackSeedTrackMapConverter.html#ad4684e56d489fc441709416cc8047607" title="Convert track seeds into SvtxTrack objects and populate the output track map." alt="" coords="5,283,219,327"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="274,311,219,310,219,304,275,306"/>
+<area shape="poly" id="edge14_Node000012_Node000007" title=" " alt="" coords="281,377,213,377,213,372,281,372"/>
+<area shape="poly" id="edge15_Node000012_Node000009" title=" " alt="" coords="299,395,267,402,190,423,189,418,266,397,298,389"/>
+<area shape="rect" id="Node000013" href="$d5/de1/classHelicalFitter.html#a3dab66b514c75f2769124ebec3511f9f" title="Perform a helical fit of a set of clusters." alt="" coords="25,490,199,518"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="284,393,268,402,252,420,245,440,238,461,220,480,201,492,198,487,217,476,233,458,240,438,247,417,265,398,281,388"/>
+<area shape="rect" id="Node000014" href="$d5/de1/classHelicalFitter.html#a98485e999dddb90f86479a58eb7b53a3" title="Process a single event and perform helical or straight line fits for silicon and/or TPC track seeds." alt="" coords="33,541,191,586"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="285,391,268,402,255,416,248,432,245,464,241,497,234,514,220,531,193,549,190,545,217,527,229,512,236,496,239,463,243,430,251,414,265,398,282,386"/>
+<area shape="rect" id="Node000019" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a9fe133a26af25cc77ed9eb8aaea521d4" title="Compute local and global fit residuals for a given track." alt="" coords="42,620,182,665"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="275,645,183,645,183,640,275,640"/>
+</map>

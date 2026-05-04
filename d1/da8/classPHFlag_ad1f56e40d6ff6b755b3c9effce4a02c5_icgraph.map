@@ -1,0 +1,105 @@
+<map id="PHFlag::PrintDoubleFlags" name="PHFlag::PrintDoubleFlags">
+<area shape="rect" id="Node000001" title="Print all double flags stored in the internal map." alt="" coords="952,687,1138,714"/>
+<area shape="rect" id="Node000002" href="$d1/da8/classPHFlag.html#aeebb1e78b9951f2e20f73533c4976d8b" title="Print all stored flag values of various types." alt="" coords="798,687,904,714"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="936,703,904,703,904,698,936,698"/>
+<area shape="rect" id="Node000003" href="$d1/da8/classPHFlag.html#a11e106aa066367bfa74db9c7c8bf376c" title="Retrieve the value of a double precision flag by name." alt="" coords="573,36,750,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="845,671,836,552,817,385,804,299,788,220,770,154,748,107,725,84,698,67,700,62,729,79,753,104,775,152,794,219,810,298,823,384,841,551,851,671"/>
+<area shape="rect" id="Node000005" href="$d1/da8/classPHFlag.html#af4abfdece37b0376a8bf130e7281e905" title="Retrieve the value of a named floating‑point flag." alt="" coords="580,117,744,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="838,673,665,146,670,144,843,671"/>
+<area shape="rect" id="Node000008" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="Retrieve integer flag value by name." alt="" coords="588,1940,736,1968"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="848,730,668,1940,663,1939,843,729"/>
+<area shape="rect" id="Node000055" href="$d1/da8/classPHFlag.html#a2527c60236838b31be8c04c17e529976" title="Retrieve string flag value by name." alt="" coords="577,687,746,714"/>
+<area shape="poly" id="edge29_Node000002_Node000055" title=" " alt="" coords="782,703,747,703,747,698,782,698"/>
+<area shape="rect" id="Node000134" href="$d1/da8/classPHFlag.html#a71de108d2dfd732b6dddf097d2bb728e" title="Retrieve a 64bit flag value by name." alt="" coords="576,1283,748,1310"/>
+<area shape="poly" id="edge51_Node000002_Node000134" title=" " alt="" coords="843,730,670,1283,665,1281,838,728"/>
+<area shape="rect" id="Node000004" href="$d1/da8/classPHFlag.html#a064e187d44dda60d03054394d9c1ff6a" title="Retrieve double flag value by name creating it with default if missing." alt="" coords="314,5,492,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="557,40,492,32,492,27,558,35"/>
+<area shape="rect" id="Node000006" href="$d1/da8/classPHFlag.html#a373ca5e92e5607affea53ce0988050ba" title="Retrieve a floating point flag value by name, creating it with a default if missing." alt="" coords="321,57,485,85"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="591,116,524,99,475,88,476,83,526,94,593,110"/>
+<area shape="rect" id="Node000007" href="$db/d6c/classHepMCNodeReader.html#a9216b26c5e57c06c2276b0cc67495f0b" title="Process event data from HepMC node and fill Geant4 in event structure." alt="" coords="300,109,506,154"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="564,134,507,134,507,128,564,128"/>
+<area shape="rect" id="Node000009" href="$d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08" title="Write all registered histograms to a ROOT file." alt="" coords="323,1437,483,1482"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="658,1925,654,1841,647,1785,636,1725,619,1663,596,1602,564,1546,523,1496,504,1482,482,1472,484,1467,507,1477,527,1492,568,1543,600,1600,624,1662,641,1724,653,1785,659,1840,663,1924"/>
+<area shape="rect" id="Node000012" href="$da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8" title="End processing sequence for Fun4AllServer." alt="" coords="331,1505,474,1533"/>
+<area shape="poly" id="edge9_Node000008_Node000012" title=" " alt="" coords="657,1924,651,1848,632,1745,615,1691,592,1638,561,1589,523,1547,501,1532,474,1524,476,1519,503,1527,527,1542,566,1586,596,1635,620,1689,637,1744,657,1847,663,1924"/>
+<area shape="rect" id="Node000020" href="$d6/d6f/classFun4AllHepMCInputManager.html#a668554061600fec90eb3968ec191849a" title="Open a HepMC input file and initialize the appropriate input streams." alt="" coords="300,1557,506,1602"/>
+<area shape="poly" id="edge10_Node000008_Node000020" title=" " alt="" coords="655,1925,644,1861,621,1777,604,1733,582,1690,555,1651,523,1616,505,1603,508,1598,527,1612,559,1647,587,1688,608,1731,626,1776,649,1860,660,1924"/>
+<area shape="rect" id="Node000021" href="$db/d1f/classFun4AllOscarInputManager.html#a90d077019c91b2ab37435fa3c67d5a1b" title="Open an input file for the Oscar manager." alt="" coords="305,1626,501,1671"/>
+<area shape="poly" id="edge11_Node000008_Node000021" title=" " alt="" coords="651,1926,637,1874,611,1809,574,1742,550,1712,523,1685,500,1671,503,1666,527,1681,554,1708,578,1739,616,1806,642,1872,657,1924"/>
+<area shape="rect" id="Node000022" href="$d1/da8/classPHFlag.html#a7c2d332fc14511d2280074065b74f232" title="Retrieve the integer flag associated with a given name." alt="" coords="329,1695,477,1722"/>
+<area shape="poly" id="edge12_Node000008_Node000022" title=" " alt="" coords="649,1927,632,1884,605,1832,569,1780,548,1757,524,1737,501,1725,476,1717,478,1712,503,1720,526,1733,551,1753,573,1777,610,1830,636,1882,654,1925"/>
+<area shape="rect" id="Node000023" href="$d2/da1/classPHGeomUtility.html#a84ee9f9eaf686f5c98ddc1af089ae248" title="Verbosity for geometry IO like, TGeoMangers." alt="" coords="298,1747,508,1774"/>
+<area shape="poly" id="edge13_Node000008_Node000023" title=" " alt="" coords="644,1928,624,1895,596,1857,563,1820,524,1789,498,1777,500,1772,526,1785,566,1816,601,1854,628,1892,648,1925"/>
+<area shape="rect" id="Node000035" href="$de/ddc/classHeadReco.html#ae95cdd18ba78502fbe83da3699752ad1" title="Initialize run specific constants and set run number in RunHeader." alt="" coords="332,1799,474,1826"/>
+<area shape="poly" id="edge14_Node000008_Node000035" title=" " alt="" coords="636,1931,587,1884,557,1861,524,1842,473,1824,475,1819,526,1837,560,1857,591,1880,640,1927"/>
+<area shape="rect" id="Node000036" href="$de/df6/classInttCombinedRawDataDecoder.html#aa68fe6c46e5e5319619f8710c385e93c" title="Initialize run specific resources and node tree structures for INTT raw data decoding." alt="" coords="8,1325,230,1370"/>
+<area shape="poly" id="edge15_Node000008_Node000036" title=" " alt="" coords="654,1925,639,1814,612,1663,594,1588,573,1519,549,1463,524,1427,419,1404,230,1369,231,1364,420,1399,526,1422,554,1461,578,1517,599,1586,617,1662,644,1813,660,1924"/>
+<area shape="rect" id="Node000037" href="$d5/d64/classMbdEvent.html#a6b16b1b2e18e8836d5995be8ddd021b6" title="Initialize run specific resources for MbdEvent." alt="" coords="333,1851,473,1878"/>
+<area shape="poly" id="edge16_Node000008_Node000037" title=" " alt="" coords="620,1935,575,1913,524,1892,473,1879,474,1873,526,1887,577,1908,623,1930"/>
+<area shape="rect" id="Node000038" href="$d3/df0/classPHActsSiliconSeeding.html#ad36c2b972073eaad0087ff5e2e9bb4f2" title="Initialize run specific nodes and constants." alt="" coords="322,1902,484,1947"/>
+<area shape="poly" id="edge17_Node000008_Node000038" title=" " alt="" coords="572,1946,484,1936,485,1931,572,1941"/>
+<area shape="rect" id="Node000039" href="$d1/d44/classSyncReco.html#af874323a8fa1c4ef9670114d2ee3dfa1" title="Initialize run specific settings for SyncReco module." alt="" coords="334,1971,472,1998"/>
+<area shape="poly" id="edge18_Node000008_Node000039" title=" " alt="" coords="572,1967,473,1979,472,1974,571,1962"/>
+<area shape="rect" id="Node000040" href="$d6/d8d/classTriggerRunInfoReco.html#a886d9a8a3f091a236a474c024b150411" title="Initialize run specific trigger information." alt="" coords="329,2022,476,2067"/>
+<area shape="poly" id="edge19_Node000008_Node000040" title=" " alt="" coords="615,1977,526,2012,478,2028,476,2023,524,2007,613,1972"/>
+<area shape="rect" id="Node000041" href="$df/d04/classXingShiftCal.html#ad1c254b4871cc557bcfa89bd738e2641" title="Initialize module for a new run." alt="" coords="326,2091,480,2118"/>
+<area shape="poly" id="edge20_Node000008_Node000041" title=" " alt="" coords="642,1982,593,2033,561,2059,526,2082,481,2098,480,2093,524,2077,558,2055,589,2029,638,1978"/>
+<area shape="rect" id="Node000042" href="$dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55" title="Initialize random seed from recoConsts if flag RANDOMSEED is set." alt="" coords="310,2143,496,2170"/>
+<area shape="poly" id="edge21_Node000008_Node000042" title=" " alt="" coords="649,1983,630,2017,602,2058,568,2098,526,2132,498,2146,495,2141,524,2128,564,2095,598,2055,625,2015,645,1980"/>
+<area shape="rect" id="Node000045" href="$d5/d64/classMbdEvent.html#ad453b9ef18cfdee3d4b5b263c6e8cc53" title="Construct MbdEvent object initializing internal members and histograms." alt="" coords="323,2195,482,2222"/>
+<area shape="poly" id="edge22_Node000008_Node000045" title=" " alt="" coords="654,1983,637,2028,611,2083,574,2138,552,2163,527,2184,506,2196,484,2203,482,2198,504,2191,523,2180,548,2159,570,2134,606,2080,633,2026,649,1981"/>
+<area shape="rect" id="Node000046" href="$d6/d11/classSvtxEvaluator.html#a1eb230f92b6f2cabb175f1349697200d" title="Process a single event within the Fun4All framework." alt="" coords="318,2246,488,2291"/>
+<area shape="poly" id="edge23_Node000008_Node000046" title=" " alt="" coords="657,1984,643,2037,617,2105,580,2176,555,2208,527,2236,489,2257,487,2252,523,2232,551,2204,575,2173,613,2103,638,2036,652,1982"/>
+<area shape="rect" id="Node000047" href="$d4/d1d/classTpc3DClusterizer.html#a93d017d1dd124d9b80802fdc11d9bfd6" title="Process a single event within the Fun4All framework." alt="" coords="308,2316,498,2360"/>
+<area shape="poly" id="edge24_Node000008_Node000047" title=" " alt="" coords="660,1984,650,2050,627,2136,610,2182,588,2227,560,2269,527,2305,500,2323,497,2318,523,2301,556,2265,583,2224,605,2180,622,2135,645,2049,655,1983"/>
+<area shape="rect" id="Node000048" href="$d2/d93/classTrkrNtuplizer.html#a399e3058749ac563592644df77083a33" title="Process event data for TrkrNtuplizer." alt="" coords="322,2385,484,2430"/>
+<area shape="poly" id="edge25_Node000008_Node000048" title=" " alt="" coords="662,1983,656,2061,636,2166,619,2222,596,2277,565,2329,527,2374,507,2389,485,2399,483,2394,505,2384,523,2371,561,2326,591,2275,614,2220,631,2165,651,2060,657,1983"/>
+<area shape="rect" id="Node000049" href="$da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a" title="run n events (0 means up to end of file)" alt="" coords="333,2453,473,2481"/>
+<area shape="poly" id="edge26_Node000008_Node000049" title=" " alt="" coords="659,1983,642,2086,614,2224,596,2294,575,2357,552,2409,527,2444,502,2460,474,2468,473,2463,500,2455,523,2440,548,2406,570,2355,591,2293,609,2223,637,2085,654,1982"/>
+<area shape="rect" id="Node000053" href="$df/d43/classFun4AllDummyInputManager.html#a63a2d2c7b084c497504a803cd437f43c" title="Set the synchronization manager for a dummy input manager and initialize the run number." alt="" coords="297,2505,508,2550"/>
+<area shape="poly" id="edge27_Node000008_Node000053" title=" " alt="" coords="659,1983,644,2095,616,2248,598,2326,577,2396,553,2454,527,2494,510,2508,507,2503,523,2491,549,2452,572,2395,593,2324,611,2247,638,2094,654,1983"/>
+<area shape="rect" id="Node000054" href="$df/d0f/classPHCASiliconSeeding.html#a9d4b329da930575622ac2a784b2fbad0" title="Initialize module for a new run and configure geometry and seeding parameters." alt="" coords="327,2574,479,2619"/>
+<area shape="poly" id="edge28_Node000008_Node000054" title=" " alt="" coords="660,1983,647,2108,621,2282,603,2370,581,2451,556,2518,542,2544,527,2564,505,2580,480,2591,478,2586,503,2576,523,2560,537,2541,551,2516,576,2450,597,2369,615,2281,641,2107,655,1983"/>
+<area shape="poly" id="edge50_Node000055_Node000007" title=" " alt="" coords="654,671,638,560,610,409,592,332,572,263,548,206,523,168,505,154,508,149,527,164,553,203,577,261,597,331,616,408,643,559,659,670"/>
+<area shape="rect" id="Node000056" href="$d5/dc2/classTPCPedestalCalibration.html#a8af450ebab01977e40fc66f32b786137" title="Insert TPC pedestal calibration payload into the conditions database." alt="" coords="316,748,490,792"/>
+<area shape="poly" id="edge30_Node000055_Node000056" title=" " alt="" coords="593,721,490,749,488,744,592,716"/>
+<area shape="rect" id="Node000058" href="$d1/d05/classPHG4FullProjSpacalDetector.html#afd4c65353754d4baff1ed614a2aca247" title="Construct azimuthal sector logical volume and its walls towers for the full projection Spacal detecto..." alt="" coords="301,817,505,862"/>
+<area shape="poly" id="edge31_Node000055_Node000058" title=" " alt="" coords="637,727,588,768,526,807,498,819,496,814,524,802,584,763,633,723"/>
+<area shape="rect" id="Node000059" href="$d3/db1/classPHG4FullProjTiltedSpacalDetector.html#a5d52892d52c8020e2e81e981b47a1220" title="Construct azimuthal segmentation of the tilted SPACAL detector sector." alt="" coords="281,886,525,931"/>
+<area shape="poly" id="edge32_Node000055_Node000059" title=" " alt="" coords="649,729,601,802,567,842,527,876,505,888,502,883,523,872,563,838,597,799,644,726"/>
+<area shape="rect" id="Node000060" href="$d3/d22/classPHG4BbcDetector.html#a7828b04efeed22f55fffce3385d0cfe1" title="construct BBC/MBD" alt="" coords="5,995,233,1022"/>
+<area shape="poly" id="edge33_Node000055_Node000060" title=" " alt="" coords="661,730,651,793,628,872,611,913,589,952,561,986,526,1015,481,1038,432,1051,381,1057,330,1057,235,1044,161,1025,162,1020,236,1039,331,1052,381,1052,431,1046,479,1033,524,1010,557,983,584,949,606,910,623,870,645,791,655,729"/>
+<area shape="rect" id="Node000061" href="$d5/da7/classPHG4CEmcTestBeamDetector.html#acbd2a1844f108e3ba99bdb24a298b133" title="construct" alt="" coords="296,1076,510,1120"/>
+<area shape="poly" id="edge34_Node000055_Node000061" title=" " alt="" coords="660,730,649,797,627,885,609,931,587,977,560,1020,527,1058,500,1077,497,1073,523,1055,556,1017,583,975,604,929,622,883,644,796,655,730"/>
+<area shape="rect" id="Node000062" href="$db/d76/classPHG4IHCalDetector.html#a19b454a01a7750863b5f88e5259f0032" title="construct" alt="" coords="325,1145,481,1190"/>
+<area shape="poly" id="edge35_Node000055_Node000062" title=" " alt="" coords="663,730,657,810,650,862,638,919,621,977,597,1034,566,1087,527,1134,506,1150,482,1160,480,1155,503,1145,523,1131,562,1084,592,1032,616,975,633,917,644,861,652,810,657,730"/>
+<area shape="rect" id="Node000063" href="$d5/d80/classPHG4InnerHcalDetector.html#adcc55f5d190de67371fb9bf28015c68a" title="construct" alt="" coords="315,1214,490,1259"/>
+<area shape="poly" id="edge36_Node000055_Node000063" title=" " alt="" coords="659,730,642,835,613,976,595,1048,575,1113,552,1167,527,1204,511,1217,492,1226,490,1221,508,1212,523,1200,547,1164,570,1112,590,1047,608,975,637,834,654,729"/>
+<area shape="rect" id="Node000064" href="$d3/d07/classPHG4OHCalDetector.html#a61b5b2b66294e6016c7e416fd37181aa" title="construct" alt="" coords="322,178,484,223"/>
+<area shape="poly" id="edge37_Node000055_Node000064" title=" " alt="" coords="658,671,655,587,648,531,637,470,620,407,596,345,564,288,523,237,505,223,483,214,486,209,508,219,527,233,569,285,601,343,625,405,642,469,653,530,660,586,664,671"/>
+<area shape="rect" id="Node000065" href="$df/d74/classPHG4OuterHcalDetector.html#ae159c3d2a294c687f9c0f4af6dbce281" title="construct" alt="" coords="314,248,492,292"/>
+<area shape="poly" id="edge38_Node000055_Node000065" title=" " alt="" coords="656,671,649,598,628,499,611,447,588,396,559,348,523,307,491,286,494,282,527,302,564,345,593,393,616,445,633,498,654,597,662,671"/>
+<area shape="rect" id="Node000066" href="$d0/da4/classPHG4SpacalDetector.html#a332cf236022185ea0873a2c26cf5b12f" title="Construct the Spacal detector geometry within the provided world logical volume." alt="" coords="325,317,481,362"/>
+<area shape="poly" id="edge39_Node000055_Node000066" title=" " alt="" coords="654,672,642,610,619,530,602,488,580,447,554,409,523,376,503,362,481,353,483,348,506,358,527,372,559,406,585,444,607,486,624,528,648,609,659,671"/>
+<area shape="rect" id="Node000069" href="$dc/dae/classPHG4sPHENIXMagnetDetector.html#a87205130fe3f255debfd46d2a87307da" title="construct" alt="" coords="294,386,512,431"/>
+<area shape="poly" id="edge40_Node000055_Node000069" title=" " alt="" coords="651,672,635,623,609,561,572,499,549,470,523,445,505,433,508,429,527,441,553,467,577,496,614,559,640,621,656,671"/>
+<area shape="rect" id="Node000070" href="$de/d81/classPHG4TpcDetector.html#add249db10a97cac64b40c13c5ecbb7a6" title="construct" alt="" coords="290,455,516,482"/>
+<area shape="poly" id="edge41_Node000055_Node000070" title=" " alt="" coords="648,673,630,633,603,585,567,537,523,497,500,485,503,480,527,493,571,534,607,582,634,631,652,671"/>
+<area shape="rect" id="Node000071" href="$dc/df2/classPHG4ZDCDetector.html#ae78930fd5b13383ea22dbaab031e90c0" title="construct" alt="" coords="287,507,518,534"/>
+<area shape="poly" id="edge42_Node000055_Node000071" title=" " alt="" coords="642,675,595,610,562,576,524,548,500,537,502,533,526,544,565,572,599,606,647,672"/>
+<area shape="rect" id="Node000072" href="$d3/d22/classPHG4BbcDetector.html#a87ab4d6835922d0c82858649fc4682a4" title="Construct support structures for the BBC detector and place them in the world volume." alt="" coords="299,956,506,1000"/>
+<area shape="poly" id="edge43_Node000055_Node000072" title=" " alt="" coords="655,730,638,777,612,835,575,894,552,921,527,945,508,957,505,953,523,941,549,918,571,891,607,832,634,775,650,728"/>
+<area shape="rect" id="Node000073" href="$d4/dc0/classClusterErrorPara.html#af9505cdfcb43bee14451de98118efbfd" title="Compute modified cluster error for version five." alt="" coords="308,558,498,603"/>
+<area shape="poly" id="edge45_Node000055_Node000073" title=" " alt="" coords="628,680,580,648,524,618,494,606,496,601,526,613,583,643,631,675"/>
+<area shape="rect" id="Node000077" href="$d1/da8/classPHFlag.html#abd4b4bae4e318fbf1280070271c87b2b" title="Retrieve a string flag value by name, inserting a default if it does not exist." alt="" coords="318,627,488,654"/>
+<area shape="poly" id="edge46_Node000055_Node000077" title=" " alt="" coords="591,685,524,668,475,658,476,652,526,663,593,680"/>
+<area shape="rect" id="Node000078" href="$d5/d4b/classCDBInterface.html#a43822e59a3876434355e4cd55eba6b23" title="Retrieve calibration URL from CDB for given domain and filename." alt="" coords="325,1283,480,1310"/>
+<area shape="poly" id="edge47_Node000055_Node000078" title=" " alt="" coords="660,730,646,848,620,1011,602,1094,580,1170,555,1231,542,1255,527,1273,506,1288,482,1296,480,1291,503,1283,523,1269,537,1252,551,1229,575,1168,596,1093,614,1010,641,847,655,729"/>
+<area shape="rect" id="Node000133" href="$db/dc5/classPHG4CylinderSubsystem.html#a36e9fe9b69b4314846e245a1c6119cf3" title="init runwise stuff" alt="" coords="311,678,494,723"/>
+<area shape="poly" id="edge49_Node000055_Node000133" title=" " alt="" coords="562,703,495,703,495,698,562,698"/>
+<area shape="poly" id="edge44_Node000072_Node000060" title=" " alt="" coords="284,993,233,999,233,994,283,988"/>
+<area shape="poly" id="edge48_Node000078_Node000036" title=" " alt="" coords="310,1316,231,1330,230,1325,309,1310"/>
+<area shape="poly" id="edge53_Node000134_Node000078" title=" " alt="" coords="560,1299,481,1299,481,1294,560,1294"/>
+<area shape="rect" id="Node000135" href="$d1/da8/classPHFlag.html#a0760f5deaac0609d76650bb04ce0d53c" title="Retrieve a 64 bit unsigned integer flag value by name." alt="" coords="317,1335,489,1362"/>
+<area shape="poly" id="edge52_Node000134_Node000135" title=" " alt="" coords="575,1317,476,1337,475,1331,574,1311"/>
+</map>

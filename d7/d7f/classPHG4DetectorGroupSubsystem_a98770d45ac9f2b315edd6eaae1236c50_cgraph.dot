@@ -1,0 +1,22 @@
+digraph "PHG4DetectorGroupSubsystem::InitializeParameters"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="PHG4DetectorGroupSubsystem\l::InitializeParameters",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Initialize default parameters for detector group subsystem."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Fun4AllBase::Name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893",tooltip="Returns the name of this module."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="PHG4DetectorGroupSubsystem\l::set_default_int_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#ab9097e7e005eb194daa206f2be1855c6",tooltip="Set a default integer parameter for a detector id."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="PHParameters::set_double\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a75005aa44390e1eb574603b0b230152b",tooltip="Set double parameter in internal map."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="PHParameters::set_int\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a62881b44dd0564425633070316af66ec",tooltip="Set integer parameter in internal map."];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PHParameters::set_string\l_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dd/dae/classPHParameters.html#a2ebd6e499647b20dd41ca164e71ca061",tooltip="Set string parameter in internal map."];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="PHG4DetectorGroupSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a7aa94c0ddb8f6d69b4dc5a87aa16fd35",tooltip=" "];
+}

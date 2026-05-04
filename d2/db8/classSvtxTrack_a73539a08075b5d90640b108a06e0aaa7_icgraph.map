@@ -1,0 +1,34 @@
+<map id="SvtxTrack::get_silicon_seed" name="SvtxTrack::get_silicon_seed">
+<area shape="rect" id="Node000001" title=" " alt="" coords="850,316,1050,344"/>
+<area shape="rect" id="Node000002" href="$d2/db9/classSvtxTrack__v4.html#a8761cb89ae4e2bb70ee2d97d012e7f2e" title="Copy data from another SvtxTrack into this object." alt="" coords="620,83,801,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="934,303,914,263,884,214,846,165,800,124,780,113,783,109,803,120,850,162,888,211,918,260,939,301"/>
+<area shape="rect" id="Node000007" href="$dd/de7/classActsAlignmentStates.html#a89b826cc00a083d22bff9fbed88a7924" title="Fill alignment state map for a given track using fitted track states and associated measurements." alt="" coords="623,134,798,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="925,306,872,250,837,220,800,193,779,182,781,177,803,189,841,216,875,246,929,303"/>
+<area shape="rect" id="Node000008" href="$d7/ddb/namespaceTrackAnalysisUtils.html#a881ad9b86799464d68e87cadee7c489c" title="Retrieve cluster keys from silicon and TPC seeds of a SvtxTrack." alt="" coords="640,204,781,248"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="905,311,801,263,772,251,774,246,803,258,907,306"/>
+<area shape="rect" id="Node000009" href="$d2/d93/classTrkrNtuplizer.html#aca4a462f16446274bbd3e565de8ea9d5" title="Retrieve cluster keys associated with a SvtxTrack." alt="" coords="644,273,777,318"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="835,316,777,307,778,302,835,311"/>
+<area shape="rect" id="Node000013" href="$df/d15/classPHSimpleVertexFinder.html#a3ee41eb7596a6479e315a4949b6465c3" title="Process a single event and reconstruct vertices from the track map." alt="" coords="627,342,794,387"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="835,349,795,355,794,350,835,344"/>
+<area shape="rect" id="Node000014" href="$de/dbf/classQAG4SimulationTracking.html#ac2aeab5238fcf828f70c61b4976b57fe" title="Process event for QAG4SimulationTracking analysis module." alt="" coords="619,412,802,456"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="907,353,803,402,774,413,772,408,801,397,905,349"/>
+<area shape="rect" id="Node000015" href="$d1/d05/classQAG4SimulationVertex.html#a5d6b9df173a4094d3744572a9e2410d0" title="Process a single event within the Fun4All framework." alt="" coords="625,481,796,526"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="929,357,875,413,841,444,803,471,781,483,779,478,800,466,837,440,872,409,925,353"/>
+<area shape="rect" id="Node000016" href="$d1/d35/classStructureinJets.html#a29afb9b8b75fb42c075ec0e39e82a2a3" title="Process a single event within the Fun4All framework." alt="" coords="623,550,798,595"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="938,359,917,399,887,447,849,497,803,540,785,552,782,547,800,536,845,493,882,444,912,396,933,357"/>
+<area shape="rect" id="Node000003" href="$d2/db9/classSvtxTrack__v4.html#aaf8f1e3806f6961003170ccdaad59e35" title=" " alt="" coords="380,5,561,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="658,79,571,48,529,36,530,31,572,43,659,74"/>
+<area shape="rect" id="Node000004" href="$d2/db9/classSvtxTrack__v4.html#a33367122ee07acd84ca7ae579ea26971" title="Assign the contents of another SvtxTrack_v4 to this instance." alt="" coords="380,57,561,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="604,88,562,83,562,78,605,83"/>
+<area shape="rect" id="Node000005" href="$d2/db9/classSvtxTrack__v4.html#a5c2e5d70860426d86ceab8d20c5f24cf" title="Construct a SvtxTrack v4 from a generic SvtxTrack by copying its contents." alt="" coords="370,109,571,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="605,111,572,115,571,109,604,106"/>
+<area shape="rect" id="Node000006" href="$d2/db9/classSvtxTrack__v4.html#adec686b242b2493f3968f1d3c9d91315" title="Copy constructor for SvtxTrack_v4." alt="" coords="370,161,571,189"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="637,118,620,124,597,138,572,151,536,163,534,158,570,146,594,133,618,119,635,113"/>
+<area shape="rect" id="Node000010" href="$d2/d93/classTrkrNtuplizer.html#a5b7e079d1e912e41a93a5ace1499e954" title="Retrieve set of tracks associated with given cluster key." alt="" coords="194,282,322,327"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="629,298,370,302,323,304,322,298,370,297,628,293"/>
+<area shape="rect" id="Node000012" href="$d2/d93/classTrkrNtuplizer.html#a6c1e437776e8c4bc3083f119092a260e" title="Build cache mapping each cluster key to the set of tracks that contain it." alt="" coords="373,312,568,356"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="629,311,569,321,568,315,628,306"/>
+<area shape="rect" id="Node000011" href="$d2/d93/classTrkrNtuplizer.html#adc5ec8c19d2a4527e5d2fa010e0cea63" title="Retrieve the SvtxTrack with the best quality for a given cluster key." alt="" coords="5,282,146,327"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="178,307,146,307,146,302,178,302"/>
+<area shape="poly" id="edge12_Node000012_Node000010" title=" " alt="" coords="358,321,322,316,323,311,358,316"/>
+</map>

@@ -1,0 +1,37 @@
+<map id="PHHepMCGenEvent::get_collision_vertex" name="PHHepMCGenEvent::get_collision_vertex">
+<area shape="rect" id="Node000001" title="collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns" alt="" coords="1092,248,1270,293"/>
+<area shape="rect" id="Node000002" href="$dd/d2a/classPHHepMCGenHelper.html#a0148635f83f76e3f6cee429a8de49fbd" title="Record the translation,boost,rotation for HepMC frame to lab frame according to collision settings." alt="" coords="821,109,1044,154"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1142,240,1096,203,1042,169,1016,157,1018,152,1045,164,1100,199,1146,236"/>
+<area shape="rect" id="Node000009" href="$db/d6c/classHepMCNodeReader.html#a9216b26c5e57c06c2276b0cc67495f0b" title="Process event data from HepMC node and fill Geant4 in event structure." alt="" coords="829,179,1036,223"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1083,246,1014,226,1016,221,1084,241"/>
+<area shape="rect" id="Node000010" href="$dc/dd7/classPHG4ScoringManager.html#a5d492ab9ed5d057011eff6654f83cf72" title="event processing method" alt="" coords="851,248,1014,293"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1076,273,1014,273,1014,268,1076,268"/>
+<area shape="rect" id="Node000011" href="$d3/dda/classDumpPHHepMCGenEventMap.html#a0883ab20f3197faa647006dd5f546cb3" title="Process a PHNode containing a PHHepMCGenEventMap and dump its contents." alt="" coords="824,317,1041,362"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1084,300,1016,319,1014,314,1083,295"/>
+<area shape="rect" id="Node000012" href="$d8/d78/classPHG4ParticleGeneratorBase.html#a1c8fb7b3cb97ad9c0eb85468be4f0f1b" title="Reuse existing primary vertex from various sources if flag enabled." alt="" coords="831,387,1034,431"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1146,305,1100,342,1045,377,1018,389,1016,384,1042,372,1096,338,1142,301"/>
+<area shape="rect" id="Node000003" href="$dd/d2a/classPHHepMCGenHelper.html#ab0c755f6e53c0bf57ccd314a0017d227" title="send HepMC::GenEvent to DST tree. This function takes ownership of evt" alt="" coords="568,109,768,154"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="806,134,768,134,768,129,806,129"/>
+<area shape="rect" id="Node000004" href="$db/d1f/classFun4AllOscarInputManager.html#a1537e89c4e652f70747fbbef18ceadc4" title="Convert the next Oscar event from the input file into a HepMC::GenEvent." alt="" coords="298,5,494,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="606,105,513,65,479,53,480,48,515,60,608,100"/>
+<area shape="rect" id="Node000006" href="$d9/d3a/classPHPythia8.html#a534c21ef917fe92922c6757a75ca84e1" title="Process a single event within the Fun4All framework." alt="" coords="323,75,470,119"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="552,120,470,109,470,104,553,114"/>
+<area shape="rect" id="Node000007" href="$d3/d49/classReadEICFiles.html#a7dd6da2318a9ea07bb3569bc2d5549c6" title="Process a single event from the EIC input file and fill HepMC structures." alt="" coords="315,144,478,189"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="552,149,479,159,478,153,552,144"/>
+<area shape="rect" id="Node000008" href="$d6/d6f/classFun4AllHepMCInputManager.html#abc2abd5f69e96e3fb974376f5f258f80" title="Run attempts to retrieve a valid HepMC event from input files." alt="" coords="279,212,514,240"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="610,164,515,204,476,214,475,209,513,198,608,159"/>
+<area shape="rect" id="Node000005" href="$db/d1f/classFun4AllOscarInputManager.html#abd9c677329f73038579c12aff1f8d42a" title="Run input manager to process events up to nevents." alt="" coords="5,14,231,42"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="283,30,231,30,231,25,283,25"/>
+<area shape="rect" id="Node000013" href="$da/ddc/classPHG4IonGun.html#acab314e46908041565e0e14e73325bab" title="Process a single event and generate ion primary particles." alt="" coords="587,213,748,258"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="824,380,819,376,808,363,801,350,795,323,789,297,783,285,772,272,747,257,750,252,775,268,787,282,794,295,800,322,806,348,812,360,823,372,827,376"/>
+<area shape="rect" id="Node000014" href="$dd/d68/classPHG4ParticleGenerator.html#a27b1f33f182e52a875ead48612ad29d3" title="Generate particles for the current event and store them in the PHG4InEvent node." alt="" coords="582,283,753,327"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="833,383,820,377,796,359,772,342,746,330,748,326,775,337,799,355,823,372,836,378"/>
+<area shape="rect" id="Node000015" href="$d9/d78/classPHG4ParticleGeneratorD0.html#ab7b714e2007eaf957fd8790b5b0cfd39" title="Generate a D0 meson event, decay it to Kminus and piplus and store the particles in the PHG4InEvent n..." alt="" coords="574,352,762,397"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="816,396,762,389,763,384,816,391"/>
+<area shape="rect" id="Node000016" href="$d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#abd61007655fd3b068d1ab5b53828532a" title="Generate vector meson decay particles for a single event and fill the G4InEvent node." alt="" coords="562,421,773,466"/>
+<area shape="poly" id="edge15_Node000012_Node000016" title=" " alt="" coords="816,427,774,432,774,427,816,422"/>
+<area shape="rect" id="Node000017" href="$dd/d13/classPHG4ParticleGun.html#a628a3341c5489016d87c637e55d333b7" title="Process a single event and fill PHG4InEvent with vertex and particles." alt="" coords="573,491,762,535"/>
+<area shape="poly" id="edge16_Node000012_Node000017" title=" " alt="" coords="870,441,774,481,742,493,740,487,772,476,868,436"/>
+<area shape="rect" id="Node000018" href="$d5/df3/classPHG4SimpleEventGenerator.html#aec25f318fcd3bc837c29c6b557ec5ba5" title="Generate event vertex and particle list based on configured kinematic distributions." alt="" coords="566,560,770,605"/>
+<area shape="poly" id="edge17_Node000012_Node000018" title=" " alt="" coords="902,445,846,498,811,526,775,550,750,562,748,557,772,545,808,522,842,494,899,441"/>
+</map>
