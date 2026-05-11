@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -105,42 +106,42 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d5/d4f/classFun4AllMonitoring.html">   11</a></span><span class="keyword">class </span>Fun4AllMonitoring : <span class="keyword">public</span> <a class="code hl_function" href="../../d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7">Fun4AllBase</a></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> <span class="keyword">public</span>: </div>
-<div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e">   19</a></span>  <span class="keyword">static</span> Fun4AllMonitoring *<a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e">instance</a>()</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordflow">if</span> (mInstance) <span class="keywordflow">return</span> mInstance;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    mInstance = <span class="keyword">new</span> Fun4AllMonitoring();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordflow">return</span> mInstance;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  }</div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e">   20</a></span>  <span class="keyword">static</span> Fun4AllMonitoring *<a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e">instance</a>()</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">if</span> (mInstance) <span class="keywordflow">return</span> mInstance;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    mInstance = <span class="keyword">new</span> Fun4AllMonitoring();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">return</span> mInstance;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  }</div>
 </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d5/d4f/classFun4AllMonitoring.html#a0c636ed2c508d9d06a9b36ad23baf056">   25</a></span>  <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a0c636ed2c508d9d06a9b36ad23baf056">~Fun4AllMonitoring</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb">Snapshot</a>(<span class="keyword">const</span> std::string &amp;what = <span class="stringliteral">&quot;AfterProcessEvent&quot;</span>);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a50c296e94172e53221441dc508577806">PrintsMaps</a>();</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281">Get_Memory</a>();</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a6f91d25c280509fd22ef238fe74f19bc">OutFileName</a>(<span class="keyword">const</span> std::string &amp;fname);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  Fun4AllMonitoring();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keyword">static</span> Fun4AllMonitoring *mInstance;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  uint64_t mEvent = 0;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  uint64_t mHeapPss = 0;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  uint64_t mMMapPSS = 0;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  uint64_t mOtherPss = 0;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  std::string mOutFileName;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d5/d4f/classFun4AllMonitoring.html#a0c636ed2c508d9d06a9b36ad23baf056">   26</a></span>  <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a0c636ed2c508d9d06a9b36ad23baf056">~Fun4AllMonitoring</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb">Snapshot</a>(<span class="keyword">const</span> std::string &amp;what = <span class="stringliteral">&quot;AfterProcessEvent&quot;</span>);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a50c296e94172e53221441dc508577806">PrintsMaps</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281">Get_Memory</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d4f/classFun4AllMonitoring.html#a6f91d25c280509fd22ef238fe74f19bc">OutFileName</a>(<span class="keyword">const</span> std::string &amp;fname);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  Fun4AllMonitoring();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keyword">static</span> Fun4AllMonitoring *mInstance;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  uint64_t mEvent = 0;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  uint64_t mHeapPss = 0;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  uint64_t mMMapPSS = 0;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  uint64_t mOtherPss = 0;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  std::string mOutFileName;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>};</div>
 </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aFun4AllBase_8h_html"><div class="ttname"><a href="../../d2/de7/Fun4AllBase_8h.html">Fun4AllBase.h</a></div></div>
-<div class="ttc" id="aclassFun4AllBase_html_abb5c44adbf26aa0a45b2d44c2692fdb7"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7">Fun4AllBase::Fun4AllBase</a></div><div class="ttdeci">Fun4AllBase(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdoc">Constructor for Fun4AllBase validates module name.</div><div class="ttdef"><b>Definition</b> Fun4AllBase.cc:15</div></div>
+<div class="ttc" id="aclassFun4AllBase_html_abb5c44adbf26aa0a45b2d44c2692fdb7"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7">Fun4AllBase::Fun4AllBase</a></div><div class="ttdeci">Fun4AllBase(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdoc">Constructor for Fun4AllBase validates module name.</div><div class="ttdef"><b>Definition</b> Fun4AllBase.cc:16</div></div>
 <div class="ttc" id="aclassFun4AllMonitoring_html_a0c636ed2c508d9d06a9b36ad23baf056"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a0c636ed2c508d9d06a9b36ad23baf056">Fun4AllMonitoring::~Fun4AllMonitoring</a></div><div class="ttdeci">~Fun4AllMonitoring() override=default</div></div>
-<div class="ttc" id="aclassFun4AllMonitoring_html_a4a815a60428fa831a2b25d7ff4e48281"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281">Fun4AllMonitoring::Get_Memory</a></div><div class="ttdeci">void Get_Memory()</div><div class="ttdoc">Retrieve memory usage statistics from proc self smaps and accumulate PSS values for heap mmap and oth...</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.cc:63</div></div>
-<div class="ttc" id="aclassFun4AllMonitoring_html_a50c296e94172e53221441dc508577806"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a50c296e94172e53221441dc508577806">Fun4AllMonitoring::PrintsMaps</a></div><div class="ttdeci">static void PrintsMaps()</div><div class="ttdoc">Print process memory maps and filter Size and Rss entries.</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.cc:128</div></div>
-<div class="ttc" id="aclassFun4AllMonitoring_html_a640b66c2bcf1ee9ad9a63f93534b8a7e"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e">Fun4AllMonitoring::instance</a></div><div class="ttdeci">static Fun4AllMonitoring * instance()</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.h:19</div></div>
-<div class="ttc" id="aclassFun4AllMonitoring_html_a6f91d25c280509fd22ef238fe74f19bc"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a6f91d25c280509fd22ef238fe74f19bc">Fun4AllMonitoring::OutFileName</a></div><div class="ttdeci">void OutFileName(const std::string &amp;fname)</div><div class="ttdoc">Set the output file name used by the monitoring module.</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.cc:171</div></div>
-<div class="ttc" id="aclassFun4AllMonitoring_html_aeea0018148441caf4a9a1b5cc448ecfb"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb">Fun4AllMonitoring::Snapshot</a></div><div class="ttdeci">void Snapshot(const std::string &amp;what=&quot;AfterProcessEvent&quot;)</div><div class="ttdoc">Record memory usage statistics for the current event to the configured output file.</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.cc:36</div></div>
+<div class="ttc" id="aclassFun4AllMonitoring_html_a4a815a60428fa831a2b25d7ff4e48281"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a4a815a60428fa831a2b25d7ff4e48281">Fun4AllMonitoring::Get_Memory</a></div><div class="ttdeci">void Get_Memory()</div><div class="ttdoc">Retrieve memory usage statistics from proc self smaps and accumulate PSS values for heap mmap and oth...</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.cc:66</div></div>
+<div class="ttc" id="aclassFun4AllMonitoring_html_a50c296e94172e53221441dc508577806"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a50c296e94172e53221441dc508577806">Fun4AllMonitoring::PrintsMaps</a></div><div class="ttdeci">static void PrintsMaps()</div><div class="ttdoc">Print process memory maps and filter Size and Rss entries.</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.cc:132</div></div>
+<div class="ttc" id="aclassFun4AllMonitoring_html_a640b66c2bcf1ee9ad9a63f93534b8a7e"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a640b66c2bcf1ee9ad9a63f93534b8a7e">Fun4AllMonitoring::instance</a></div><div class="ttdeci">static Fun4AllMonitoring * instance()</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.h:20</div></div>
+<div class="ttc" id="aclassFun4AllMonitoring_html_a6f91d25c280509fd22ef238fe74f19bc"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#a6f91d25c280509fd22ef238fe74f19bc">Fun4AllMonitoring::OutFileName</a></div><div class="ttdeci">void OutFileName(const std::string &amp;fname)</div><div class="ttdoc">Set the output file name used by the monitoring module.</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.cc:176</div></div>
+<div class="ttc" id="aclassFun4AllMonitoring_html_aeea0018148441caf4a9a1b5cc448ecfb"><div class="ttname"><a href="../../d5/d4f/classFun4AllMonitoring.html#aeea0018148441caf4a9a1b5cc448ecfb">Fun4AllMonitoring::Snapshot</a></div><div class="ttdeci">void Snapshot(const std::string &amp;what=&quot;AfterProcessEvent&quot;)</div><div class="ttdoc">Record memory usage statistics for the current event to the configured output file.</div><div class="ttdef"><b>Definition</b> Fun4AllMonitoring.cc:38</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

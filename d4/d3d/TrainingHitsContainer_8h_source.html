@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -97,27 +98,27 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/d8f/TrainingHits_8h.html">TrainingHits.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d6/d09/classTrainingHitsContainer.html">   14</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a68808d7ca0344fe645dbcf06c6420862">TrainingHitsContainer</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject</a></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  <a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a68808d7ca0344fe645dbcf06c6420862">TrainingHitsContainer</a>();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d6/d09/classTrainingHitsContainer.html#a6b5ee151ae830df409188e66b27961df">   18</a></span>  <a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a6b5ee151ae830df409188e66b27961df">~TrainingHitsContainer</a>()<span class="keyword"> override </span>{}</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a0b15db4b97aa9e33e35fd5fb98b11307">Reset</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d6/d09/classTrainingHitsContainer.html#a27887cae77463abc99f980223032744e">   21</a></span>  std::vector&lt;TrainingHits&gt; <a class="code hl_variable" href="../../d6/d09/classTrainingHitsContainer.html#a27887cae77463abc99f980223032744e">v_hits</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  ClassDefOverride(<a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a68808d7ca0344fe645dbcf06c6420862">TrainingHitsContainer</a>, 1)</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d6/d09/classTrainingHitsContainer.html">   15</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a68808d7ca0344fe645dbcf06c6420862">TrainingHitsContainer</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>  <a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a68808d7ca0344fe645dbcf06c6420862">TrainingHitsContainer</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d6/d09/classTrainingHitsContainer.html#a6b5ee151ae830df409188e66b27961df">   19</a></span>  <a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a6b5ee151ae830df409188e66b27961df">~TrainingHitsContainer</a>()<span class="keyword"> override </span>{}</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a0b15db4b97aa9e33e35fd5fb98b11307">Reset</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d6/d09/classTrainingHitsContainer.html#a27887cae77463abc99f980223032744e">   22</a></span>  std::vector&lt;TrainingHits&gt; <a class="code hl_variable" href="../../d6/d09/classTrainingHitsContainer.html#a27887cae77463abc99f980223032744e">v_hits</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  ClassDefOverride(<a class="code hl_function" href="../../d6/d09/classTrainingHitsContainer.html#a68808d7ca0344fe645dbcf06c6420862">TrainingHitsContainer</a>, 1)</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
 </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif  </span><span class="comment">// TRAININGHITSCONTAINER_H</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#endif  </span><span class="comment">// TRAININGHITSCONTAINER_H</span></div>
 <div class="ttc" id="aTrainingHits_8h_html"><div class="ttname"><a href="../../dd/d8f/TrainingHits_8h.html">TrainingHits.h</a></div></div>
 <div class="ttc" id="aclassPHObject_html_acda1fc8f84de9bd408081b3da8caf4ff"><div class="ttname"><a href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject::PHObject</a></div><div class="ttdeci">PHObject()=default</div><div class="ttdoc">ctor</div></div>
-<div class="ttc" id="aclassTrainingHitsContainer_html_a0b15db4b97aa9e33e35fd5fb98b11307"><div class="ttname"><a href="../../d6/d09/classTrainingHitsContainer.html#a0b15db4b97aa9e33e35fd5fb98b11307">TrainingHitsContainer::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdoc">Reset container by clearing internal hit vector.</div><div class="ttdef"><b>Definition</b> TrainingHitsContainer.cc:17</div></div>
-<div class="ttc" id="aclassTrainingHitsContainer_html_a27887cae77463abc99f980223032744e"><div class="ttname"><a href="../../d6/d09/classTrainingHitsContainer.html#a27887cae77463abc99f980223032744e">TrainingHitsContainer::v_hits</a></div><div class="ttdeci">std::vector&lt; TrainingHits &gt; v_hits</div><div class="ttdef"><b>Definition</b> TrainingHitsContainer.h:21</div></div>
-<div class="ttc" id="aclassTrainingHitsContainer_html_a68808d7ca0344fe645dbcf06c6420862"><div class="ttname"><a href="../../d6/d09/classTrainingHitsContainer.html#a68808d7ca0344fe645dbcf06c6420862">TrainingHitsContainer::TrainingHitsContainer</a></div><div class="ttdeci">TrainingHitsContainer()</div><div class="ttdoc">Construct TrainingHitsContainer and clear internal hit vector This comment was generated by openai/gp...</div><div class="ttdef"><b>Definition</b> TrainingHitsContainer.cc:7</div></div>
-<div class="ttc" id="aclassTrainingHitsContainer_html_a6b5ee151ae830df409188e66b27961df"><div class="ttname"><a href="../../d6/d09/classTrainingHitsContainer.html#a6b5ee151ae830df409188e66b27961df">TrainingHitsContainer::~TrainingHitsContainer</a></div><div class="ttdeci">~TrainingHitsContainer() override</div><div class="ttdef"><b>Definition</b> TrainingHitsContainer.h:18</div></div>
+<div class="ttc" id="aclassTrainingHitsContainer_html_a0b15db4b97aa9e33e35fd5fb98b11307"><div class="ttname"><a href="../../d6/d09/classTrainingHitsContainer.html#a0b15db4b97aa9e33e35fd5fb98b11307">TrainingHitsContainer::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdoc">Reset container by clearing internal hit vector.</div><div class="ttdef"><b>Definition</b> TrainingHitsContainer.cc:19</div></div>
+<div class="ttc" id="aclassTrainingHitsContainer_html_a27887cae77463abc99f980223032744e"><div class="ttname"><a href="../../d6/d09/classTrainingHitsContainer.html#a27887cae77463abc99f980223032744e">TrainingHitsContainer::v_hits</a></div><div class="ttdeci">std::vector&lt; TrainingHits &gt; v_hits</div><div class="ttdef"><b>Definition</b> TrainingHitsContainer.h:22</div></div>
+<div class="ttc" id="aclassTrainingHitsContainer_html_a68808d7ca0344fe645dbcf06c6420862"><div class="ttname"><a href="../../d6/d09/classTrainingHitsContainer.html#a68808d7ca0344fe645dbcf06c6420862">TrainingHitsContainer::TrainingHitsContainer</a></div><div class="ttdeci">TrainingHitsContainer()</div><div class="ttdoc">Construct TrainingHitsContainer and clear internal hit vector.</div><div class="ttdef"><b>Definition</b> TrainingHitsContainer.cc:8</div></div>
+<div class="ttc" id="aclassTrainingHitsContainer_html_a6b5ee151ae830df409188e66b27961df"><div class="ttname"><a href="../../d6/d09/classTrainingHitsContainer.html#a6b5ee151ae830df409188e66b27961df">TrainingHitsContainer::~TrainingHitsContainer</a></div><div class="ttdeci">~TrainingHitsContainer() override</div><div class="ttdef"><b>Definition</b> TrainingHitsContainer.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

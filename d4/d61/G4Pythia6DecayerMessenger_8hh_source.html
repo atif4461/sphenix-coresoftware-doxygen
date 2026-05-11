@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -133,35 +134,35 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">class </span>G4UIdirectory;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="};">
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d4/d06/classG4Pythia6DecayerMessenger.html">   55</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d7/d0e/classG4UImessenger.html">G4UImessenger</a></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>(<a class="code hl_class" href="../../d8/d46/classG4Pythia6Decayer.html">G4Pythia6Decayer</a>* pythia6Decayer);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keyword">virtual</span> <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a510007e27533639be95779077d17d4a6">~G4Pythia6DecayerMessenger</a>();</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a4184c2b4cee75205002ed7bb551155dc">SetNewValue</a>(G4UIcommand* command, G4String newValue);</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>();</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>(<span class="keyword">const</span> <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>&amp; right);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>&amp; r);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <a class="code hl_class" href="../../d8/d46/classG4Pythia6Decayer.html">G4Pythia6Decayer</a>* fPythia6Decayer;    </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  G4UIdirectory* fDirectory;            </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  G4UIcmdWithAnInteger* fVerboseCmd;    </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  G4UIcmdWithAnInteger* fDecayTypeCmd;  </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
+<div class="foldopen" id="foldopen00056" data-start="{" data-end="};">
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d4/d06/classG4Pythia6DecayerMessenger.html">   56</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d7/d0e/classG4UImessenger.html">G4UImessenger</a></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>{</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>(<a class="code hl_class" href="../../d8/d46/classG4Pythia6Decayer.html">G4Pythia6Decayer</a>* pythia6Decayer);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keyword">virtual</span> <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a510007e27533639be95779077d17d4a6">~G4Pythia6DecayerMessenger</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a4184c2b4cee75205002ed7bb551155dc">SetNewValue</a>(G4UIcommand* command, G4String newValue);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>();</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>(<span class="keyword">const</span> <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>&amp; right);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>&amp; operator=(<span class="keyword">const</span> <a class="code hl_function" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger</a>&amp; r);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <a class="code hl_class" href="../../d8/d46/classG4Pythia6Decayer.html">G4Pythia6Decayer</a>* fPythia6Decayer;    </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  G4UIdirectory* fDirectory;            </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  G4UIcmdWithAnInteger* fVerboseCmd;    </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  G4UIcmdWithAnInteger* fDecayTypeCmd;  </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>};</div>
 </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment">// ----------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassG4Pythia6DecayerMessenger_html_a4184c2b4cee75205002ed7bb551155dc"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a4184c2b4cee75205002ed7bb551155dc">G4Pythia6DecayerMessenger::SetNewValue</a></div><div class="ttdeci">virtual void SetNewValue(G4UIcommand *command, G4String newValue)</div><div class="ttdoc">Apply command to the associated decayer object.</div><div class="ttdef"><b>Definition</b> G4Pythia6DecayerMessenger.cc:119</div></div>
-<div class="ttc" id="aclassG4Pythia6DecayerMessenger_html_a510007e27533639be95779077d17d4a6"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a510007e27533639be95779077d17d4a6">G4Pythia6DecayerMessenger::~G4Pythia6DecayerMessenger</a></div><div class="ttdeci">virtual ~G4Pythia6DecayerMessenger()</div><div class="ttdoc">Destructor for G4Pythia6DecayerMessenger.</div><div class="ttdef"><b>Definition</b> G4Pythia6DecayerMessenger.cc:98</div></div>
-<div class="ttc" id="aclassG4Pythia6DecayerMessenger_html_a5488a8234ad408256220c944b23b4bf6"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger::G4Pythia6DecayerMessenger</a></div><div class="ttdeci">G4Pythia6DecayerMessenger(G4Pythia6Decayer *pythia6Decayer)</div><div class="ttdoc">Standard constructor for G4Pythia6DecayerMessenger.</div><div class="ttdef"><b>Definition</b> G4Pythia6DecayerMessenger.cc:61</div></div>
-<div class="ttc" id="aclassG4Pythia6Decayer_html"><div class="ttname"><a href="../../d8/d46/classG4Pythia6Decayer.html">G4Pythia6Decayer</a></div><div class="ttdef"><b>Definition</b> G4Pythia6Decayer.hh:68</div></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment">// ----------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassG4Pythia6DecayerMessenger_html_a4184c2b4cee75205002ed7bb551155dc"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a4184c2b4cee75205002ed7bb551155dc">G4Pythia6DecayerMessenger::SetNewValue</a></div><div class="ttdeci">virtual void SetNewValue(G4UIcommand *command, G4String newValue)</div><div class="ttdoc">Apply command to the associated decayer object.</div><div class="ttdef"><b>Definition</b> G4Pythia6DecayerMessenger.cc:122</div></div>
+<div class="ttc" id="aclassG4Pythia6DecayerMessenger_html_a510007e27533639be95779077d17d4a6"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a510007e27533639be95779077d17d4a6">G4Pythia6DecayerMessenger::~G4Pythia6DecayerMessenger</a></div><div class="ttdeci">virtual ~G4Pythia6DecayerMessenger()</div><div class="ttdoc">Destructor for G4Pythia6DecayerMessenger.</div><div class="ttdef"><b>Definition</b> G4Pythia6DecayerMessenger.cc:100</div></div>
+<div class="ttc" id="aclassG4Pythia6DecayerMessenger_html_a5488a8234ad408256220c944b23b4bf6"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger::G4Pythia6DecayerMessenger</a></div><div class="ttdeci">G4Pythia6DecayerMessenger(G4Pythia6Decayer *pythia6Decayer)</div><div class="ttdoc">Standard constructor for G4Pythia6DecayerMessenger.</div><div class="ttdef"><b>Definition</b> G4Pythia6DecayerMessenger.cc:62</div></div>
+<div class="ttc" id="aclassG4Pythia6Decayer_html"><div class="ttname"><a href="../../d8/d46/classG4Pythia6Decayer.html">G4Pythia6Decayer</a></div><div class="ttdef"><b>Definition</b> G4Pythia6Decayer.hh:69</div></div>
 <div class="ttc" id="aclassG4UImessenger_html"><div class="ttname"><a href="../../d7/d0e/classG4UImessenger.html">G4UImessenger</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

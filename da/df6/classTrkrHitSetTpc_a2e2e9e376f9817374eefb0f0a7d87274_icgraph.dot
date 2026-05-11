@@ -7,6 +7,7 @@ digraph "TrkrHitSetTpc::getTpcADC"
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="RL";
   Node1 [id="Node000001",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Retrieve the ADC data for a TPC hit identified by its hit key."];
-  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a6afb55ecba4a26f94224e0186fa2a6ed",tooltip="Retrieve ADC data for a TPC hit identified by its hit key."];
 }

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -106,35 +107,35 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a>;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d7/d4d/classSEpdCheck.html">   22</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#aa5f96bf934582a5a699bc5442334affa">SEpdCheck</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a>, <span class="keyword">public</span> <a class="code hl_function" href="../../df/d7b/classDumpPacket.html#a46b8b19097dcf8b1217b70d217f4e4f8">DumpPacket</a></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#aa5f96bf934582a5a699bc5442334affa">SEpdCheck</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;SEpdCheck&quot;</span>);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d7/d4d/classSEpdCheck.html#a59d6bd4ef86b1529ed5c920e41d84ade">   27</a></span>  <a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#a59d6bd4ef86b1529ed5c920e41d84ade">~SEpdCheck</a>()<span class="keyword"> override </span>{}</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#a162a2676336f79f28f5da6a64fee9b6b">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#a793552ace3085eedc0520f268fef8149">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="comment">/* std::string m_EvtNodeName = &quot;SEPDRAWHIT&quot;; */</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="comment">/* std::set&lt;uint64_t&gt; bclk_seen; */</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d7/d4d/classSEpdCheck.html">   23</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#aa5f96bf934582a5a699bc5442334affa">SEpdCheck</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a>, <span class="keyword">public</span> <a class="code hl_function" href="../../df/d7b/classDumpPacket.html#a46b8b19097dcf8b1217b70d217f4e4f8">DumpPacket</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#aa5f96bf934582a5a699bc5442334affa">SEpdCheck</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;SEpdCheck&quot;</span>);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d7/d4d/classSEpdCheck.html#a59d6bd4ef86b1529ed5c920e41d84ade">   28</a></span>  <a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#a59d6bd4ef86b1529ed5c920e41d84ade">~SEpdCheck</a>()<span class="keyword"> override </span>{}</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#a162a2676336f79f28f5da6a64fee9b6b">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d7/d4d/classSEpdCheck.html#a793552ace3085eedc0520f268fef8149">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="comment">/* std::string m_EvtNodeName = &quot;SEPDRAWHIT&quot;; */</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="comment">/* std::set&lt;uint64_t&gt; bclk_seen; */</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif  </span><span class="comment">// FFARAWMODULES_SEPDCHECK_H</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif  </span><span class="comment">// FFARAWMODULES_SEPDCHECK_H</span></div>
 <div class="ttc" id="aDumpPacket_8h_html"><div class="ttname"><a href="../../d4/df2/DumpPacket_8h.html">DumpPacket.h</a></div></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
 <div class="ttc" id="aclassDumpPacket_html_a46b8b19097dcf8b1217b70d217f4e4f8"><div class="ttname"><a href="../../df/d7b/classDumpPacket.html#a46b8b19097dcf8b1217b70d217f4e4f8">DumpPacket::DumpPacket</a></div><div class="ttdeci">DumpPacket()=default</div></div>
-<div class="ttc" id="aclassFun4AllInputManager_html"><div class="ttname"><a href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a></div><div class="ttdef"><b>Definition</b> Fun4AllInputManager.h:29</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSEpdCheck_html_a162a2676336f79f28f5da6a64fee9b6b"><div class="ttname"><a href="../../d7/d4d/classSEpdCheck.html#a162a2676336f79f28f5da6a64fee9b6b">SEpdCheck::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize the SEpdCheck module.</div><div class="ttdef"><b>Definition</b> SEpdCheck.cc:40</div></div>
-<div class="ttc" id="aclassSEpdCheck_html_a59d6bd4ef86b1529ed5c920e41d84ade"><div class="ttname"><a href="../../d7/d4d/classSEpdCheck.html#a59d6bd4ef86b1529ed5c920e41d84ade">SEpdCheck::~SEpdCheck</a></div><div class="ttdeci">~SEpdCheck() override</div><div class="ttdef"><b>Definition</b> SEpdCheck.h:27</div></div>
-<div class="ttc" id="aclassSEpdCheck_html_a793552ace3085eedc0520f268fef8149"><div class="ttname"><a href="../../d7/d4d/classSEpdCheck.html#a793552ace3085eedc0520f268fef8149">SEpdCheck::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and inspect SEPD packets in the node tree.</div><div class="ttdef"><b>Definition</b> SEpdCheck.cc:52</div></div>
-<div class="ttc" id="aclassSEpdCheck_html_aa5f96bf934582a5a699bc5442334affa"><div class="ttname"><a href="../../d7/d4d/classSEpdCheck.html#aa5f96bf934582a5a699bc5442334affa">SEpdCheck::SEpdCheck</a></div><div class="ttdeci">SEpdCheck(const std::string &amp;name=&quot;SEpdCheck&quot;)</div><div class="ttdoc">Constructor for SEpdCheck analysis module.</div><div class="ttdef"><b>Definition</b> SEpdCheck.cc:28</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassFun4AllInputManager_html"><div class="ttname"><a href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a></div><div class="ttdef"><b>Definition</b> Fun4AllInputManager.h:30</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSEpdCheck_html_a162a2676336f79f28f5da6a64fee9b6b"><div class="ttname"><a href="../../d7/d4d/classSEpdCheck.html#a162a2676336f79f28f5da6a64fee9b6b">SEpdCheck::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize the SEpdCheck module.</div><div class="ttdef"><b>Definition</b> SEpdCheck.cc:42</div></div>
+<div class="ttc" id="aclassSEpdCheck_html_a59d6bd4ef86b1529ed5c920e41d84ade"><div class="ttname"><a href="../../d7/d4d/classSEpdCheck.html#a59d6bd4ef86b1529ed5c920e41d84ade">SEpdCheck::~SEpdCheck</a></div><div class="ttdeci">~SEpdCheck() override</div><div class="ttdef"><b>Definition</b> SEpdCheck.h:28</div></div>
+<div class="ttc" id="aclassSEpdCheck_html_a793552ace3085eedc0520f268fef8149"><div class="ttname"><a href="../../d7/d4d/classSEpdCheck.html#a793552ace3085eedc0520f268fef8149">SEpdCheck::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and inspect SEPD packets in the node tree.</div><div class="ttdef"><b>Definition</b> SEpdCheck.cc:55</div></div>
+<div class="ttc" id="aclassSEpdCheck_html_aa5f96bf934582a5a699bc5442334affa"><div class="ttname"><a href="../../d7/d4d/classSEpdCheck.html#aa5f96bf934582a5a699bc5442334affa">SEpdCheck::SEpdCheck</a></div><div class="ttdeci">SEpdCheck(const std::string &amp;name=&quot;SEpdCheck&quot;)</div><div class="ttdoc">Constructor for SEpdCheck analysis module.</div><div class="ttdef"><b>Definition</b> SEpdCheck.cc:29</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

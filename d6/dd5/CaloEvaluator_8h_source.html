@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -124,122 +125,122 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="comment">// allow user to set the value of the event number</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="comment">// useful for condor simulation submissions</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="comment">// must be called after Init()</span> </div>
-<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a6ef904735eda8e0280a219226c8daa87">   49</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a6ef904735eda8e0280a219226c8daa87">set_event</a>(<span class="keywordtype">int</span> ievent)</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    _ievent = ievent;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  }</div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a6ef904735eda8e0280a219226c8daa87">   50</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a6ef904735eda8e0280a219226c8daa87">set_event</a>(<span class="keywordtype">int</span> ievent)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    _ievent = ievent;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  }</div>
 </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#af64b2887301d28180a18db757c0e7761">   54</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#af64b2887301d28180a18db757c0e7761">set_strict</a>(<span class="keywordtype">bool</span> b) { _strict = b; }</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="comment">// funtions to limit the tracing to only part of the event ---------</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="comment">// and speed up the evaluation</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="comment">// when tracing truth showers limit the trace to showers</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="comment">// that result from truth particles with a particular embed flag set</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="comment">// useful if you only want to know about that electron you</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="comment">// embedded into a central hijing event</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="comment">// (evaluation for truth objects with matching embed flag set unaffected)</span> </div>
-<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a543619e3f2d1c75c6d612fc568f3349c">   68</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a543619e3f2d1c75c6d612fc568f3349c">add_truth_tracing_embed_flag</a>(<span class="keywordtype">int</span> flag)</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    _truth_trace_embed_flags.insert(flag);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#af64b2887301d28180a18db757c0e7761">   55</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#af64b2887301d28180a18db757c0e7761">set_strict</a>(<span class="keywordtype">bool</span> b) { _strict = b; }</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="comment">// funtions to limit the tracing to only part of the event ---------</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="comment">// and speed up the evaluation</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="comment">// when tracing truth showers limit the trace to showers</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="comment">// that result from truth particles with a particular embed flag set</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="comment">// useful if you only want to know about that electron you</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="comment">// embedded into a central hijing event</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="comment">// (evaluation for truth objects with matching embed flag set unaffected)</span> </div>
+<div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a543619e3f2d1c75c6d612fc568f3349c">   70</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a543619e3f2d1c75c6d612fc568f3349c">add_truth_tracing_embed_flag</a>(<span class="keywordtype">int</span> flag)</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    _truth_trace_embed_flags.insert(flag);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  }</div>
 </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="comment">// limit the tracing of truth particles to those above some</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="comment">// theshold energy. useful for tracing only high energy particles</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="comment">// and ignoring low energy truth particles from a hijing event</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="comment">// (evaluation for objects above threshold unaffected)</span> </div>
-<div class="foldopen" id="foldopen00083" data-start="{" data-end="}">
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#ac678ea625bf0a3ebe4405557fab771c1">   83</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#ac678ea625bf0a3ebe4405557fab771c1">set_truth_tracing_energy_threshold</a>(<span class="keywordtype">float</span> thresh)</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  {</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    _truth_e_threshold = thresh;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="comment">// limit the tracing of truth particles to those above some</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="comment">// theshold energy. useful for tracing only high energy particles</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="comment">// and ignoring low energy truth particles from a hijing event</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="comment">// (evaluation for objects above threshold unaffected)</span> </div>
+<div class="foldopen" id="foldopen00086" data-start="{" data-end="}">
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#ac678ea625bf0a3ebe4405557fab771c1">   86</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#ac678ea625bf0a3ebe4405557fab771c1">set_truth_tracing_energy_threshold</a>(<span class="keywordtype">float</span> thresh)</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  {</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    _truth_e_threshold = thresh;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  }</div>
 </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  <span class="comment">// limit the tracing of towers and clusters back to the truth particles</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  <span class="comment">// to only those reconstructed objects above a particular energy</span></div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="comment">// threshold (evaluation for objects above threshold unaffected)</span> </div>
-<div class="foldopen" id="foldopen00096" data-start="{" data-end="}">
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a3d7254f6649fbe2384575e3f0db6e294">   96</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a3d7254f6649fbe2384575e3f0db6e294">set_reco_tracing_energy_threshold</a>(<span class="keywordtype">float</span> thresh)</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  {</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    _reco_e_threshold = thresh;</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  }</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="comment">// limit the tracing of towers and clusters back to the truth particles</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="comment">// to only those reconstructed objects above a particular energy</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  <span class="comment">// threshold (evaluation for objects above threshold unaffected)</span> </div>
+<div class="foldopen" id="foldopen00100" data-start="{" data-end="}">
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a3d7254f6649fbe2384575e3f0db6e294">  100</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a3d7254f6649fbe2384575e3f0db6e294">set_reco_tracing_energy_threshold</a>(<span class="keywordtype">float</span> thresh)</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  {</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    _reco_e_threshold = thresh;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  }</div>
 </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="comment">// functions to limit the output size ------------------</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="comment">// will no evaluate or write out these particular ntuples</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="comment">// mostly intended for size savings, but some time savings will result</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a537dcae07e67f66de87812f11b1e0a1e">  104</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a537dcae07e67f66de87812f11b1e0a1e">set_do_gpoint_eval</a>(<span class="keywordtype">bool</span> b) { _do_gpoint_eval = b; }</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#adb14212a67b9d6dad45cd83f283f6595">  105</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#adb14212a67b9d6dad45cd83f283f6595">set_do_gshower_eval</a>(<span class="keywordtype">bool</span> b) { _do_gshower_eval = b; }</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a27bd935b6a88e064e02f43177c5ba141">  106</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a27bd935b6a88e064e02f43177c5ba141">set_do_tower_eval</a>(<span class="keywordtype">bool</span> b) { _do_tower_eval = b; }</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#ab127977a5ea38ac5ce346fbb0a8e26a6">  107</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#ab127977a5ea38ac5ce346fbb0a8e26a6">set_do_cluster_eval</a>(<span class="keywordtype">bool</span> b) { _do_cluster_eval = b; }</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a889b8f271cbe8b2a40593cd1586d14f9">  108</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a889b8f271cbe8b2a40593cd1586d14f9">set_use_towerinfo</a>(<span class="keywordtype">bool</span> b) { _use_towerinfo = b; }</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  <span class="comment">// subroutines</span></div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  <span class="keywordtype">void</span> printInputInfo(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);     </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  <span class="keywordtype">void</span> fillOutputNtuples(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);  </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="keywordtype">void</span> printOutputInfo(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);    </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  <a class="code hl_class" href="../../db/d10/classCaloEvalStack.html">CaloEvalStack</a> *_caloevalstack = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a> *_tfile = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  TNtuple *_ntp_cluster = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  TNtuple *_ntp_gpoint = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  TNtuple *_ntp_gshower = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  TNtuple *_ntp_tower = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  TTree *_tower_debug = <span class="keyword">nullptr</span>;  <span class="comment">// Added by Barak</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _ievent = 0;</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _towerID_debug = 0;</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_EvtCounter = 0;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="comment">// functions to limit the output size ------------------</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="comment">// will no evaluate or write out these particular ntuples</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <span class="comment">// mostly intended for size savings, but some time savings will result</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a537dcae07e67f66de87812f11b1e0a1e">  108</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a537dcae07e67f66de87812f11b1e0a1e">set_do_gpoint_eval</a>(<span class="keywordtype">bool</span> b) { _do_gpoint_eval = b; }</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#adb14212a67b9d6dad45cd83f283f6595">  109</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#adb14212a67b9d6dad45cd83f283f6595">set_do_gshower_eval</a>(<span class="keywordtype">bool</span> b) { _do_gshower_eval = b; }</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a27bd935b6a88e064e02f43177c5ba141">  110</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a27bd935b6a88e064e02f43177c5ba141">set_do_tower_eval</a>(<span class="keywordtype">bool</span> b) { _do_tower_eval = b; }</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#ab127977a5ea38ac5ce346fbb0a8e26a6">  111</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#ab127977a5ea38ac5ce346fbb0a8e26a6">set_do_cluster_eval</a>(<span class="keywordtype">bool</span> b) { _do_cluster_eval = b; }</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="../../dd/d59/classCaloEvaluator.html#a889b8f271cbe8b2a40593cd1586d14f9">  112</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d59/classCaloEvaluator.html#a889b8f271cbe8b2a40593cd1586d14f9">set_use_towerinfo</a>(<span class="keywordtype">bool</span> b) { _use_towerinfo = b; }</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="comment">// subroutines</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  <span class="keywordtype">void</span> printInputInfo(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);     </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <span class="keywordtype">void</span> fillOutputNtuples(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);  </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <span class="keywordtype">void</span> printOutputInfo(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);    </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  <a class="code hl_class" href="../../db/d10/classCaloEvalStack.html">CaloEvalStack</a> *_caloevalstack = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  <a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a> *_tfile = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  TNtuple *_ntp_cluster = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  TNtuple *_ntp_gpoint = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  TNtuple *_ntp_gshower = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  TNtuple *_ntp_tower = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  TTree *_tower_debug = <span class="keyword">nullptr</span>;  <span class="comment">// Added by Barak</span></div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>  <span class="keywordtype">int</span> _ieta_debug = 0;</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  <span class="keywordtype">int</span> _iphi_debug = 0;</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  <span class="keywordtype">float</span> _eta_debug = 0.;</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  <span class="keywordtype">float</span> _phi_debug = 0.;</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  <span class="keywordtype">float</span> _e_debug = 0.;</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>  <span class="keywordtype">float</span> _x_debug = 0.;</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>  <span class="keywordtype">float</span> _y_debug = 0.;</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  <span class="keywordtype">float</span> _z_debug = 0.;</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>  <span class="keywordtype">float</span> _truth_e_threshold = 0.;</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>  <span class="keywordtype">float</span> _reco_e_threshold = 0.;</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  <span class="keywordtype">bool</span> _do_cluster_eval = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>  <span class="keywordtype">bool</span> _do_gpoint_eval = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>  <span class="keywordtype">bool</span> _do_gshower_eval = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  <span class="keywordtype">bool</span> _do_tower_eval = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>  <span class="keywordtype">bool</span> _use_towerinfo = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  <span class="keywordtype">bool</span> _strict = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  std::string _caloname;</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  std::string _filename;</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  std::set&lt;int&gt; _truth_trace_embed_flags;</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>};</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _ievent = 0;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _towerID_debug = 0;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_EvtCounter = 0;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  <span class="keywordtype">int</span> _ieta_debug = 0;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  <span class="keywordtype">int</span> _iphi_debug = 0;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>  <span class="keywordtype">float</span> _eta_debug = 0.;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  <span class="keywordtype">float</span> _phi_debug = 0.;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>  <span class="keywordtype">float</span> _e_debug = 0.;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>  <span class="keywordtype">float</span> _x_debug = 0.;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>  <span class="keywordtype">float</span> _y_debug = 0.;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  <span class="keywordtype">float</span> _z_debug = 0.;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>  <span class="keywordtype">float</span> _truth_e_threshold = 0.;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>  <span class="keywordtype">float</span> _reco_e_threshold = 0.;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>  <span class="keywordtype">bool</span> _do_cluster_eval = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  <span class="keywordtype">bool</span> _do_gpoint_eval = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  <span class="keywordtype">bool</span> _do_gshower_eval = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  <span class="keywordtype">bool</span> _do_tower_eval = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  <span class="keywordtype">bool</span> _use_towerinfo = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  <span class="keywordtype">bool</span> _strict = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>  std::string _caloname;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  std::string _filename;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>  std::set&lt;int&gt; _truth_trace_embed_flags;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>};</div>
 </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">#endif  </span><span class="comment">// G4EVAL_CALOEVALUATOR_H</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="preprocessor">#endif  </span><span class="comment">// G4EVAL_CALOEVALUATOR_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassCaloEvalStack_html"><div class="ttname"><a href="../../db/d10/classCaloEvalStack.html">CaloEvalStack</a></div><div class="ttdef"><b>Definition</b> CaloEvalStack.h:29</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_a27bd935b6a88e064e02f43177c5ba141"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a27bd935b6a88e064e02f43177c5ba141">CaloEvaluator::set_do_tower_eval</a></div><div class="ttdeci">void set_do_tower_eval(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:106</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_a3d7254f6649fbe2384575e3f0db6e294"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a3d7254f6649fbe2384575e3f0db6e294">CaloEvaluator::set_reco_tracing_energy_threshold</a></div><div class="ttdeci">void set_reco_tracing_energy_threshold(float thresh)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:96</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_a537dcae07e67f66de87812f11b1e0a1e"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a537dcae07e67f66de87812f11b1e0a1e">CaloEvaluator::set_do_gpoint_eval</a></div><div class="ttdeci">void set_do_gpoint_eval(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:104</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_a543619e3f2d1c75c6d612fc568f3349c"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a543619e3f2d1c75c6d612fc568f3349c">CaloEvaluator::add_truth_tracing_embed_flag</a></div><div class="ttdeci">void add_truth_tracing_embed_flag(int flag)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:68</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_a6ef904735eda8e0280a219226c8daa87"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a6ef904735eda8e0280a219226c8daa87">CaloEvaluator::set_event</a></div><div class="ttdeci">void set_event(int ievent)</div><div class="ttdoc">Set event identifier.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:49</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_a7683331e5705ca76647b5018c4fd0b84"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a7683331e5705ca76647b5018c4fd0b84">CaloEvaluator::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Finalize analysis module write output ntuples and close ROOT file.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.cc:173</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_a889b8f271cbe8b2a40593cd1586d14f9"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a889b8f271cbe8b2a40593cd1586d14f9">CaloEvaluator::set_use_towerinfo</a></div><div class="ttdeci">void set_use_towerinfo(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:108</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_ab0007637af39a6efee41168c44d5bbdf"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ab0007637af39a6efee41168c44d5bbdf">CaloEvaluator::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event within the CaloEvaluator module.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.cc:130</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_ab127977a5ea38ac5ce346fbb0a8e26a6"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ab127977a5ea38ac5ce346fbb0a8e26a6">CaloEvaluator::set_do_cluster_eval</a></div><div class="ttdeci">void set_do_cluster_eval(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:107</div></div>
+<div class="ttc" id="aclassCaloEvalStack_html"><div class="ttname"><a href="../../db/d10/classCaloEvalStack.html">CaloEvalStack</a></div><div class="ttdef"><b>Definition</b> CaloEvalStack.h:30</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_a27bd935b6a88e064e02f43177c5ba141"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a27bd935b6a88e064e02f43177c5ba141">CaloEvaluator::set_do_tower_eval</a></div><div class="ttdeci">void set_do_tower_eval(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:110</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_a3d7254f6649fbe2384575e3f0db6e294"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a3d7254f6649fbe2384575e3f0db6e294">CaloEvaluator::set_reco_tracing_energy_threshold</a></div><div class="ttdeci">void set_reco_tracing_energy_threshold(float thresh)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:100</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_a537dcae07e67f66de87812f11b1e0a1e"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a537dcae07e67f66de87812f11b1e0a1e">CaloEvaluator::set_do_gpoint_eval</a></div><div class="ttdeci">void set_do_gpoint_eval(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:108</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_a543619e3f2d1c75c6d612fc568f3349c"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a543619e3f2d1c75c6d612fc568f3349c">CaloEvaluator::add_truth_tracing_embed_flag</a></div><div class="ttdeci">void add_truth_tracing_embed_flag(int flag)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:70</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_a6ef904735eda8e0280a219226c8daa87"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a6ef904735eda8e0280a219226c8daa87">CaloEvaluator::set_event</a></div><div class="ttdeci">void set_event(int ievent)</div><div class="ttdoc">Set event identifier.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:50</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_a7683331e5705ca76647b5018c4fd0b84"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a7683331e5705ca76647b5018c4fd0b84">CaloEvaluator::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Finalize analysis module write output ntuples and close ROOT file.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.cc:177</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_a889b8f271cbe8b2a40593cd1586d14f9"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#a889b8f271cbe8b2a40593cd1586d14f9">CaloEvaluator::set_use_towerinfo</a></div><div class="ttdeci">void set_use_towerinfo(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:112</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_ab0007637af39a6efee41168c44d5bbdf"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ab0007637af39a6efee41168c44d5bbdf">CaloEvaluator::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event within the CaloEvaluator module.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.cc:133</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_ab127977a5ea38ac5ce346fbb0a8e26a6"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ab127977a5ea38ac5ce346fbb0a8e26a6">CaloEvaluator::set_do_cluster_eval</a></div><div class="ttdeci">void set_do_cluster_eval(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:111</div></div>
 <div class="ttc" id="aclassCaloEvaluator_html_ab5702136fdae7eccd0807837b3298079"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ab5702136fdae7eccd0807837b3298079">CaloEvaluator::~CaloEvaluator</a></div><div class="ttdeci">~CaloEvaluator() override=default</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_ac2ba49a95573c8bbfb25294eb326ab2b"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ac2ba49a95573c8bbfb25294eb326ab2b">CaloEvaluator::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize CaloEvaluator resources for a new job.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.cc:64</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_ac678ea625bf0a3ebe4405557fab771c1"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ac678ea625bf0a3ebe4405557fab771c1">CaloEvaluator::set_truth_tracing_energy_threshold</a></div><div class="ttdeci">void set_truth_tracing_energy_threshold(float thresh)</div><div class="ttdoc">Set the truth tracing energy threshold.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:83</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_adb14212a67b9d6dad45cd83f283f6595"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#adb14212a67b9d6dad45cd83f283f6595">CaloEvaluator::set_do_gshower_eval</a></div><div class="ttdeci">void set_do_gshower_eval(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:105</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_add00918f3f1b48642b17de32ec23958f"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#add00918f3f1b48642b17de32ec23958f">CaloEvaluator::CaloEvaluator</a></div><div class="ttdeci">CaloEvaluator(const std::string &amp;name=&quot;CALOEVALUATOR&quot;, const std::string &amp;caloname=&quot;CEMC&quot;, const std::string &amp;filename=&quot;g4eval_cemc.root&quot;)</div><div class="ttdoc">Constructor for CaloEvaluator initializing subsystem name calorimeter name and output file name.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.cc:51</div></div>
-<div class="ttc" id="aclassCaloEvaluator_html_af64b2887301d28180a18db757c0e7761"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#af64b2887301d28180a18db757c0e7761">CaloEvaluator::set_strict</a></div><div class="ttdeci">void set_strict(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:54</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_ac2ba49a95573c8bbfb25294eb326ab2b"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ac2ba49a95573c8bbfb25294eb326ab2b">CaloEvaluator::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize CaloEvaluator resources for a new job.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.cc:66</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_ac678ea625bf0a3ebe4405557fab771c1"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#ac678ea625bf0a3ebe4405557fab771c1">CaloEvaluator::set_truth_tracing_energy_threshold</a></div><div class="ttdeci">void set_truth_tracing_energy_threshold(float thresh)</div><div class="ttdoc">Set the truth tracing energy threshold.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:86</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_adb14212a67b9d6dad45cd83f283f6595"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#adb14212a67b9d6dad45cd83f283f6595">CaloEvaluator::set_do_gshower_eval</a></div><div class="ttdeci">void set_do_gshower_eval(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:109</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_add00918f3f1b48642b17de32ec23958f"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#add00918f3f1b48642b17de32ec23958f">CaloEvaluator::CaloEvaluator</a></div><div class="ttdeci">CaloEvaluator(const std::string &amp;name=&quot;CALOEVALUATOR&quot;, const std::string &amp;caloname=&quot;CEMC&quot;, const std::string &amp;filename=&quot;g4eval_cemc.root&quot;)</div><div class="ttdoc">Constructor for CaloEvaluator initializing subsystem name calorimeter name and output file name.</div><div class="ttdef"><b>Definition</b> CaloEvaluator.cc:52</div></div>
+<div class="ttc" id="aclassCaloEvaluator_html_af64b2887301d28180a18db757c0e7761"><div class="ttname"><a href="../../dd/d59/classCaloEvaluator.html#af64b2887301d28180a18db757c0e7761">CaloEvaluator::set_strict</a></div><div class="ttdeci">void set_strict(bool b)</div><div class="ttdef"><b>Definition</b> CaloEvaluator.h:55</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="aclassTFile_html"><div class="ttname"><a href="../../d3/ddf/classTFile.html">TFile</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

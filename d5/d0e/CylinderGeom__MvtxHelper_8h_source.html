@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,53 +104,53 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d8/def/classCylinderGeom__MvtxHelper.html">   18</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/def/classCylinderGeom__MvtxHelper.html">CylinderGeom_MvtxHelper</a></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  <span class="comment">// our own - no override</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  TVector3 <span class="keyword">static</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <a class="code hl_function" href="../../d8/def/classCylinderGeom__MvtxHelper.html#a6c3b2e7148e53d41d53706331315d5b1">get_local_from_world_coords</a> (</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a> <span class="keyword">const</span>&amp; surface,</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* tGeometry,</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    TVector3 world</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  );</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  TVector3 <span class="keyword">static</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <a class="code hl_function" href="../../d8/def/classCylinderGeom__MvtxHelper.html#a5be99d5c02b88511c541ec7bbdf86573">get_world_from_local_coords</a> (</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a> <span class="keyword">const</span>&amp; surface,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* tGeometry,</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    TVector2 <span class="keyword">const</span>&amp; local</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  );</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  TVector3 <span class="keyword">static</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <a class="code hl_function" href="../../d8/def/classCylinderGeom__MvtxHelper.html#a5be99d5c02b88511c541ec7bbdf86573">get_world_from_local_coords</a> (</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a> <span class="keyword">const</span>&amp; surface,</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* tGeometry,</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    TVector3 <span class="keyword">const</span>&amp; local</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  );</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">void</span> <span class="keyword">static</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <a class="code hl_function" href="../../d8/def/classCylinderGeom__MvtxHelper.html#a81cdff98b51e99a55f7427f2db2c7eae">find_sensor_center</a> (</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a> <span class="keyword">const</span>&amp; surface,</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* tGeometry,</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">double</span>* location</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  );</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>};</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d8/def/classCylinderGeom__MvtxHelper.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/def/classCylinderGeom__MvtxHelper.html">CylinderGeom_MvtxHelper</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <span class="comment">// our own - no override</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  TVector3 <span class="keyword">static</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <a class="code hl_function" href="../../d8/def/classCylinderGeom__MvtxHelper.html#a6c3b2e7148e53d41d53706331315d5b1">get_local_from_world_coords</a> (</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a> <span class="keyword">const</span>&amp; surface,</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* tGeometry,</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    TVector3 world</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  );</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  TVector3 <span class="keyword">static</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <a class="code hl_function" href="../../d8/def/classCylinderGeom__MvtxHelper.html#a5be99d5c02b88511c541ec7bbdf86573">get_world_from_local_coords</a> (</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a> <span class="keyword">const</span>&amp; surface,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* tGeometry,</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    TVector2 <span class="keyword">const</span>&amp; local</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  );</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  TVector3 <span class="keyword">static</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <a class="code hl_function" href="../../d8/def/classCylinderGeom__MvtxHelper.html#a5be99d5c02b88511c541ec7bbdf86573">get_world_from_local_coords</a> (</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a> <span class="keyword">const</span>&amp; surface,</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* tGeometry,</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    TVector3 <span class="keyword">const</span>&amp; local</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">void</span> <span class="keyword">static</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <a class="code hl_function" href="../../d8/def/classCylinderGeom__MvtxHelper.html#a81cdff98b51e99a55f7427f2db2c7eae">find_sensor_center</a> (</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a> <span class="keyword">const</span>&amp; surface,</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* tGeometry,</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">double</span>* location</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
 </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aActsGeometry_8h_html"><div class="ttname"><a href="../../d7/d3d/ActsGeometry_8h.html">ActsGeometry.h</a></div></div>
 <div class="ttc" id="aActsSurfaceMaps_8h_html_ad97f5e535669632dd6e157a4478750bc"><div class="ttname"><a href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a></div><div class="ttdeci">std::shared_ptr&lt; const Acts::Surface &gt; Surface</div><div class="ttdef"><b>Definition</b> ActsSurfaceMaps.h:29</div></div>
 <div class="ttc" id="aPHG4CylinderGeom_8h_html"><div class="ttname"><a href="../../d9/d44/PHG4CylinderGeom_8h.html">PHG4CylinderGeom.h</a></div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
 <div class="ttc" id="aclassActsGeometry_html"><div class="ttname"><a href="../../d3/d64/classActsGeometry.html">ActsGeometry</a></div><div class="ttdef"><b>Definition</b> ActsGeometry.h:11</div></div>
-<div class="ttc" id="aclassCylinderGeom__MvtxHelper_html"><div class="ttname"><a href="../../d8/def/classCylinderGeom__MvtxHelper.html">CylinderGeom_MvtxHelper</a></div><div class="ttdef"><b>Definition</b> CylinderGeom_MvtxHelper.h:19</div></div>
-<div class="ttc" id="aclassCylinderGeom__MvtxHelper_html_a5be99d5c02b88511c541ec7bbdf86573"><div class="ttname"><a href="../../d8/def/classCylinderGeom__MvtxHelper.html#a5be99d5c02b88511c541ec7bbdf86573">CylinderGeom_MvtxHelper::get_world_from_local_coords</a></div><div class="ttdeci">static TVector3 get_world_from_local_coords(Surface const &amp;surface, ActsGeometry *tGeometry, TVector2 const &amp;local)</div><div class="ttdoc">Convert local detector coordinates to world coordinates using Acts geometry.</div><div class="ttdef"><b>Definition</b> CylinderGeom_MvtxHelper.cc:50</div></div>
-<div class="ttc" id="aclassCylinderGeom__MvtxHelper_html_a6c3b2e7148e53d41d53706331315d5b1"><div class="ttname"><a href="../../d8/def/classCylinderGeom__MvtxHelper.html#a6c3b2e7148e53d41d53706331315d5b1">CylinderGeom_MvtxHelper::get_local_from_world_coords</a></div><div class="ttdeci">static TVector3 get_local_from_world_coords(Surface const &amp;surface, ActsGeometry *tGeometry, TVector3 world)</div><div class="ttdoc">Convert world coordinates to local detector coordinates for a given surface.</div><div class="ttdef"><b>Definition</b> CylinderGeom_MvtxHelper.cc:22</div></div>
-<div class="ttc" id="aclassCylinderGeom__MvtxHelper_html_a81cdff98b51e99a55f7427f2db2c7eae"><div class="ttname"><a href="../../d8/def/classCylinderGeom__MvtxHelper.html#a81cdff98b51e99a55f7427f2db2c7eae">CylinderGeom_MvtxHelper::find_sensor_center</a></div><div class="ttdeci">static void find_sensor_center(Surface const &amp;surface, ActsGeometry *tGeometry, double *location)</div><div class="ttdoc">Compute world coordinates of sensor centre for a surface.</div><div class="ttdef"><b>Definition</b> CylinderGeom_MvtxHelper.cc:108</div></div>
+<div class="ttc" id="aclassCylinderGeom__MvtxHelper_html"><div class="ttname"><a href="../../d8/def/classCylinderGeom__MvtxHelper.html">CylinderGeom_MvtxHelper</a></div><div class="ttdef"><b>Definition</b> CylinderGeom_MvtxHelper.h:20</div></div>
+<div class="ttc" id="aclassCylinderGeom__MvtxHelper_html_a5be99d5c02b88511c541ec7bbdf86573"><div class="ttname"><a href="../../d8/def/classCylinderGeom__MvtxHelper.html#a5be99d5c02b88511c541ec7bbdf86573">CylinderGeom_MvtxHelper::get_world_from_local_coords</a></div><div class="ttdeci">static TVector3 get_world_from_local_coords(Surface const &amp;surface, ActsGeometry *tGeometry, TVector2 const &amp;local)</div><div class="ttdoc">Convert local detector coordinates to world coordinates using Acts geometry.</div><div class="ttdef"><b>Definition</b> CylinderGeom_MvtxHelper.cc:52</div></div>
+<div class="ttc" id="aclassCylinderGeom__MvtxHelper_html_a6c3b2e7148e53d41d53706331315d5b1"><div class="ttname"><a href="../../d8/def/classCylinderGeom__MvtxHelper.html#a6c3b2e7148e53d41d53706331315d5b1">CylinderGeom_MvtxHelper::get_local_from_world_coords</a></div><div class="ttdeci">static TVector3 get_local_from_world_coords(Surface const &amp;surface, ActsGeometry *tGeometry, TVector3 world)</div><div class="ttdoc">Convert world coordinates to local detector coordinates for a given surface.</div><div class="ttdef"><b>Definition</b> CylinderGeom_MvtxHelper.cc:23</div></div>
+<div class="ttc" id="aclassCylinderGeom__MvtxHelper_html_a81cdff98b51e99a55f7427f2db2c7eae"><div class="ttname"><a href="../../d8/def/classCylinderGeom__MvtxHelper.html#a81cdff98b51e99a55f7427f2db2c7eae">CylinderGeom_MvtxHelper::find_sensor_center</a></div><div class="ttdeci">static void find_sensor_center(Surface const &amp;surface, ActsGeometry *tGeometry, double *location)</div><div class="ttdoc">Compute world coordinates of sensor centre for a surface.</div><div class="ttdef"><b>Definition</b> CylinderGeom_MvtxHelper.cc:112</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

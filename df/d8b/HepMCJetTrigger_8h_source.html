@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,45 +110,45 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>  <span class="keyword">class </span>GenEvent;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d0/d79/classHepMCJetTrigger.html">   27</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#a74243f4e949ad27393a57a3aec31710e">HepMCJetTrigger</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#a74243f4e949ad27393a57a3aec31710e">HepMCJetTrigger</a>(<span class="keywordtype">float</span> trigger_thresh = 10., <span class="keywordtype">int</span> n_incom = 1000, <span class="keywordtype">bool</span> up_lim = <span class="keyword">false</span>, <span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;HepMCJetTrigger&quot;</span>);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d0/d79/classHepMCJetTrigger.html#a48b6f2e639de24fa046ceb22de3d8bdb">   32</a></span>  <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#a48b6f2e639de24fa046ceb22de3d8bdb">~HepMCJetTrigger</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#ae3c7da8a2e25b34a46fd12efaa2149ad">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../d0/d79/classHepMCJetTrigger.html#ac255c3a024bea5213f9ac1af3abb5657">   58</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#ac255c3a024bea5213f9ac1af3abb5657">getNevts</a>(){<span class="keywordflow">return</span> this-&gt;n_evts;}</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d0/d79/classHepMCJetTrigger.html#a8ba2eb6059f5f19b4f01b28a8373a903">   59</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#a8ba2eb6059f5f19b4f01b28a8373a903">getNgood</a>(){<span class="keywordflow">return</span> this-&gt;n_good;}</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">bool</span> isGoodEvent(HepMC::GenEvent* e1);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  std::vector&lt;fastjet::PseudoJet&gt; findAllJets(HepMC::GenEvent* e1);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keywordtype">int</span> jetsAboveThreshold(<span class="keyword">const</span> std::vector&lt;fastjet::PseudoJet&gt;&amp; jets) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordtype">float</span> threshold{0.};</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keywordtype">int</span> goal_event_number{1000};</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keywordtype">bool</span> set_event_limit{<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keywordtype">int</span> n_evts{0};</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keywordtype">int</span> n_good{0};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>};</div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d0/d79/classHepMCJetTrigger.html">   28</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#a74243f4e949ad27393a57a3aec31710e">HepMCJetTrigger</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#a74243f4e949ad27393a57a3aec31710e">HepMCJetTrigger</a>(<span class="keywordtype">float</span> trigger_thresh = 10., <span class="keywordtype">int</span> n_incom = 1000, <span class="keywordtype">bool</span> up_lim = <span class="keyword">false</span>, <span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;HepMCJetTrigger&quot;</span>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d0/d79/classHepMCJetTrigger.html#a48b6f2e639de24fa046ceb22de3d8bdb">   33</a></span>  <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#a48b6f2e639de24fa046ceb22de3d8bdb">~HepMCJetTrigger</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#ae3c7da8a2e25b34a46fd12efaa2149ad">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d0/d79/classHepMCJetTrigger.html#ac255c3a024bea5213f9ac1af3abb5657">   59</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#ac255c3a024bea5213f9ac1af3abb5657">getNevts</a>(){<span class="keywordflow">return</span> this-&gt;n_evts;}</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d0/d79/classHepMCJetTrigger.html#a8ba2eb6059f5f19b4f01b28a8373a903">   60</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d79/classHepMCJetTrigger.html#a8ba2eb6059f5f19b4f01b28a8373a903">getNgood</a>(){<span class="keywordflow">return</span> this-&gt;n_good;}</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keywordtype">bool</span> isGoodEvent(HepMC::GenEvent* e1);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  std::vector&lt;fastjet::PseudoJet&gt; findAllJets(HepMC::GenEvent* e1);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordtype">int</span> jetsAboveThreshold(<span class="keyword">const</span> std::vector&lt;fastjet::PseudoJet&gt;&amp; jets) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keywordtype">float</span> threshold{0.};</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keywordtype">int</span> goal_event_number{1000};</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keywordtype">bool</span> set_event_limit{<span class="keyword">false</span>};</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keywordtype">int</span> n_evts{0};</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keywordtype">int</span> n_good{0};</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>};</div>
 </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#endif  </span><span class="comment">// HEPMCJETTRIGGER_H</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#endif  </span><span class="comment">// HEPMCJETTRIGGER_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
 <div class="ttc" id="aclassHepMCJetTrigger_html_a48b6f2e639de24fa046ceb22de3d8bdb"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#a48b6f2e639de24fa046ceb22de3d8bdb">HepMCJetTrigger::~HepMCJetTrigger</a></div><div class="ttdeci">~HepMCJetTrigger() override=default</div></div>
-<div class="ttc" id="aclassHepMCJetTrigger_html_a74243f4e949ad27393a57a3aec31710e"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#a74243f4e949ad27393a57a3aec31710e">HepMCJetTrigger::HepMCJetTrigger</a></div><div class="ttdeci">HepMCJetTrigger(float trigger_thresh=10., int n_incom=1000, bool up_lim=false, const std::string &amp;name=&quot;HepMCJetTrigger&quot;)</div><div class="ttdoc">Constructor for HepMCJetTrigger sets trigger threshold event limit and name.</div><div class="ttdef"><b>Definition</b> HepMCJetTrigger.cc:30</div></div>
-<div class="ttc" id="aclassHepMCJetTrigger_html_a8ba2eb6059f5f19b4f01b28a8373a903"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#a8ba2eb6059f5f19b4f01b28a8373a903">HepMCJetTrigger::getNgood</a></div><div class="ttdeci">int getNgood()</div><div class="ttdef"><b>Definition</b> HepMCJetTrigger.h:59</div></div>
-<div class="ttc" id="aclassHepMCJetTrigger_html_ac255c3a024bea5213f9ac1af3abb5657"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#ac255c3a024bea5213f9ac1af3abb5657">HepMCJetTrigger::getNevts</a></div><div class="ttdeci">int getNevts()</div><div class="ttdoc">Clean up internals after each event.</div><div class="ttdef"><b>Definition</b> HepMCJetTrigger.h:58</div></div>
-<div class="ttc" id="aclassHepMCJetTrigger_html_ae3c7da8a2e25b34a46fd12efaa2149ad"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#ae3c7da8a2e25b34a46fd12efaa2149ad">HepMCJetTrigger::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process event for HepMC jet trigger.</div><div class="ttdef"><b>Definition</b> HepMCJetTrigger.cc:45</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassHepMCJetTrigger_html_a74243f4e949ad27393a57a3aec31710e"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#a74243f4e949ad27393a57a3aec31710e">HepMCJetTrigger::HepMCJetTrigger</a></div><div class="ttdeci">HepMCJetTrigger(float trigger_thresh=10., int n_incom=1000, bool up_lim=false, const std::string &amp;name=&quot;HepMCJetTrigger&quot;)</div><div class="ttdoc">Constructor for HepMCJetTrigger sets trigger threshold event limit and name.</div><div class="ttdef"><b>Definition</b> HepMCJetTrigger.cc:31</div></div>
+<div class="ttc" id="aclassHepMCJetTrigger_html_a8ba2eb6059f5f19b4f01b28a8373a903"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#a8ba2eb6059f5f19b4f01b28a8373a903">HepMCJetTrigger::getNgood</a></div><div class="ttdeci">int getNgood()</div><div class="ttdef"><b>Definition</b> HepMCJetTrigger.h:60</div></div>
+<div class="ttc" id="aclassHepMCJetTrigger_html_ac255c3a024bea5213f9ac1af3abb5657"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#ac255c3a024bea5213f9ac1af3abb5657">HepMCJetTrigger::getNevts</a></div><div class="ttdeci">int getNevts()</div><div class="ttdoc">Clean up internals after each event.</div><div class="ttdef"><b>Definition</b> HepMCJetTrigger.h:59</div></div>
+<div class="ttc" id="aclassHepMCJetTrigger_html_ae3c7da8a2e25b34a46fd12efaa2149ad"><div class="ttname"><a href="../../d0/d79/classHepMCJetTrigger.html#ae3c7da8a2e25b34a46fd12efaa2149ad">HepMCJetTrigger::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process event for HepMC jet trigger.</div><div class="ttdef"><b>Definition</b> HepMCJetTrigger.cc:47</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="anamespaceHepMC_html"><div class="ttname"><a href="../../d1/d98/namespaceHepMC.html">HepMC</a></div><div class="ttdef"><b>Definition</b> FermiMotion.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

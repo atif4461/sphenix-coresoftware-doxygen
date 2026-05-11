@@ -12,5 +12,9 @@ digraph "TrkrHitSetTpc::getPadIndexStart"
   Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node3 [id="Node000003",label="TrkrHitSetTpc::getLocalPhiTBin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#ac1d509efc9b142fec374e0a0029dd3fe",tooltip="global -> local conversion"];
   Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node4 [id="Node000004",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a6afb55ecba4a26f94224e0186fa2a6ed",tooltip="Retrieve ADC data for a TPC hit identified by its hit key."];
+  Node4 [id="Node000004",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a2e2e9e376f9817374eefb0f0a7d87274",tooltip="Retrieve the ADC data for a TPC hit identified by its hit key."];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node5 [id="edge5_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a6afb55ecba4a26f94224e0186fa2a6ed",tooltip="Retrieve ADC data for a TPC hit identified by its hit key."];
+  Node3 -> Node5 [id="edge6_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
 }

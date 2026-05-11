@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -117,58 +118,58 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d88/classPHG4CentralityReco.html#a3159e3353b65672caaab95fb59dd28c8">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d88/classPHG4CentralityReco.html#a473a45c8cd6e3d8bf4f52ba3a5ce1068">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../dd/d88/classPHG4CentralityReco.html#a3e5cc0c48cd70daf4cef44bab58c68c6">   34</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d88/classPHG4CentralityReco.html#a3e5cc0c48cd70daf4cef44bab58c68c6">DoCentralityCalibration</a>(<span class="keywordtype">bool</span> do_centrality_calibration)</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  {</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    _do_centrality_calibration = do_centrality_calibration;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  }</div>
+<div class="foldopen" id="foldopen00035" data-start="{" data-end="}">
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../dd/d88/classPHG4CentralityReco.html#a3e5cc0c48cd70daf4cef44bab58c68c6">   35</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d88/classPHG4CentralityReco.html#a3e5cc0c48cd70daf4cef44bab58c68c6">DoCentralityCalibration</a>(<span class="keywordtype">bool</span> do_centrality_calibration)</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  {</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    _do_centrality_calibration = do_centrality_calibration;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  }</div>
 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../dd/d88/classPHG4CentralityReco.html#abdfa1a01b085daa32c916d92f92183b2">   43</a></span>  <a class="code hl_class" href="../../dd/dae/classPHParameters.html">PHParameters</a> &amp;<a class="code hl_function" href="../../dd/d88/classPHG4CentralityReco.html#abdfa1a01b085daa32c916d92f92183b2">GetCalibrationParameters</a>()</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordflow">return</span> _centrality_calibration_params;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../dd/d88/classPHG4CentralityReco.html#abdfa1a01b085daa32c916d92f92183b2">   45</a></span>  <a class="code hl_class" href="../../dd/dae/classPHParameters.html">PHParameters</a> &amp;<a class="code hl_function" href="../../dd/d88/classPHG4CentralityReco.html#abdfa1a01b085daa32c916d92f92183b2">GetCalibrationParameters</a>()</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  {</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordflow">return</span> _centrality_calibration_params;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  }</div>
 </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keywordtype">void</span> CreateNode(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keywordtype">void</span> FillNode(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <a class="code hl_class" href="../../dd/dae/classPHParameters.html">PHParameters</a> _centrality_calibration_params;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keywordtype">void</span> CreateNode(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">void</span> FillNode(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keywordtype">bool</span> _do_centrality_calibration{<span class="keyword">true</span>};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <a class="code hl_class" href="../../dd/dae/classPHParameters.html">PHParameters</a> _centrality_calibration_params;</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  std::map&lt;float, int&gt; _cent_cal_bimp;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  std::map&lt;float, int&gt; _cent_cal_epd;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  std::map&lt;float, int&gt; _cent_cal_mbd;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keywordtype">float</span> _bimp{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keywordtype">float</span> _bimp_cent{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keywordtype">float</span> _epd_N{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keywordtype">float</span> _epd_S{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordtype">float</span> _epd_NS{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keywordtype">float</span> _epd_cent{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keywordtype">float</span> _mbd_N{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keywordtype">float</span> _mbd_S{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keywordtype">float</span> _mbd_NS{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keywordtype">float</span> _mbd_cent{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">bool</span> _do_centrality_calibration{<span class="keyword">true</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  std::map&lt;float, int&gt; _cent_cal_bimp;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  std::map&lt;float, int&gt; _cent_cal_epd;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  std::map&lt;float, int&gt; _cent_cal_mbd;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">float</span> _bimp{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keywordtype">float</span> _bimp_cent{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordtype">float</span> _epd_N{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keywordtype">float</span> _epd_S{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keywordtype">float</span> _epd_NS{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keywordtype">float</span> _epd_cent{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keywordtype">float</span> _mbd_N{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keywordtype">float</span> _mbd_S{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordtype">float</span> _mbd_NS{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">float</span> _mbd_cent{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>};</div>
 </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassPHG4CentralityReco_html_a3159e3353b65672caaab95fb59dd28c8"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a3159e3353b65672caaab95fb59dd28c8">PHG4CentralityReco::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific resources and load centrality calibration.</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.cc:46</div></div>
-<div class="ttc" id="aclassPHG4CentralityReco_html_a3e5cc0c48cd70daf4cef44bab58c68c6"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a3e5cc0c48cd70daf4cef44bab58c68c6">PHG4CentralityReco::DoCentralityCalibration</a></div><div class="ttdeci">void DoCentralityCalibration(bool do_centrality_calibration)</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.h:34</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassPHG4CentralityReco_html_a3159e3353b65672caaab95fb59dd28c8"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a3159e3353b65672caaab95fb59dd28c8">PHG4CentralityReco::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific resources and load centrality calibration.</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.cc:48</div></div>
+<div class="ttc" id="aclassPHG4CentralityReco_html_a3e5cc0c48cd70daf4cef44bab58c68c6"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a3e5cc0c48cd70daf4cef44bab58c68c6">PHG4CentralityReco::DoCentralityCalibration</a></div><div class="ttdeci">void DoCentralityCalibration(bool do_centrality_calibration)</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.h:35</div></div>
 <div class="ttc" id="aclassPHG4CentralityReco_html_a40cfaf6676b72dee33bafd257da5a11a"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a40cfaf6676b72dee33bafd257da5a11a">PHG4CentralityReco::~PHG4CentralityReco</a></div><div class="ttdeci">~PHG4CentralityReco() override=default</div></div>
-<div class="ttc" id="aclassPHG4CentralityReco_html_a473a45c8cd6e3d8bf4f52ba3a5ce1068"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a473a45c8cd6e3d8bf4f52ba3a5ce1068">PHG4CentralityReco::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event extracting impact parameter and detector signals and compute centrality estima...</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.cc:135</div></div>
-<div class="ttc" id="aclassPHG4CentralityReco_html_a8998f6d0c94c058867277708b6c5dd13"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a8998f6d0c94c058867277708b6c5dd13">PHG4CentralityReco::PHG4CentralityReco</a></div><div class="ttdeci">PHG4CentralityReco(const std::string &amp;name=&quot;PHG4CentralityReco&quot;)</div><div class="ttdoc">Construct PHG4CentralityReco module with given name.</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.cc:34</div></div>
-<div class="ttc" id="aclassPHG4CentralityReco_html_abdfa1a01b085daa32c916d92f92183b2"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#abdfa1a01b085daa32c916d92f92183b2">PHG4CentralityReco::GetCalibrationParameters</a></div><div class="ttdeci">PHParameters &amp; GetCalibrationParameters()</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.h:43</div></div>
+<div class="ttc" id="aclassPHG4CentralityReco_html_a473a45c8cd6e3d8bf4f52ba3a5ce1068"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a473a45c8cd6e3d8bf4f52ba3a5ce1068">PHG4CentralityReco::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event extracting impact parameter and detector signals and compute centrality estima...</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.cc:138</div></div>
+<div class="ttc" id="aclassPHG4CentralityReco_html_a8998f6d0c94c058867277708b6c5dd13"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#a8998f6d0c94c058867277708b6c5dd13">PHG4CentralityReco::PHG4CentralityReco</a></div><div class="ttdeci">PHG4CentralityReco(const std::string &amp;name=&quot;PHG4CentralityReco&quot;)</div><div class="ttdoc">Construct PHG4CentralityReco module with given name.</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.cc:35</div></div>
+<div class="ttc" id="aclassPHG4CentralityReco_html_abdfa1a01b085daa32c916d92f92183b2"><div class="ttname"><a href="../../dd/d88/classPHG4CentralityReco.html#abdfa1a01b085daa32c916d92f92183b2">PHG4CentralityReco::GetCalibrationParameters</a></div><div class="ttdeci">PHParameters &amp; GetCalibrationParameters()</div><div class="ttdef"><b>Definition</b> PHG4CentralityReco.h:45</div></div>
 <div class="ttc" id="aclassPHParameters_html"><div class="ttname"><a href="../../dd/dae/classPHParameters.html">PHParameters</a></div><div class="ttdef"><b>Definition</b> PHParameters.h:21</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

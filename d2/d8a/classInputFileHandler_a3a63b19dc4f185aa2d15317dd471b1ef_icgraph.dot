@@ -37,7 +37,7 @@ digraph "InputFileHandler::IsOpen"
   Node11 -> Node17 [id="edge15_Node000011_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node17 [id="Node000017",label="Fun4AllHepMCPileupInputManager::run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d99/classFun4AllHepMCPileupInputManager.html#a0afd07a242a008dab637fe4f6ba997bd",tooltip="Process pileup events for the current run."];
   Node11 -> Node18 [id="edge16_Node000011_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node18 [id="Node000018",label="Fun4AllHepMCInputManager\l::~Fun4AllHepMCInputManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d6f/classFun4AllHepMCInputManager.html#ab79296f19c0dcd1b3a07fcb4d6becd04",tooltip="Destructor releases all allocated resources and removes any temporary HepMC file. This comment was ge..."];
+  Node18 [id="Node000018",label="Fun4AllHepMCInputManager\l::~Fun4AllHepMCInputManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d6/d6f/classFun4AllHepMCInputManager.html#ab79296f19c0dcd1b3a07fcb4d6becd04",tooltip="Destructor releases all allocated resources and removes any temporary HepMC file."];
   Node1 -> Node19 [id="edge17_Node000001_Node000019",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node19 [id="Node000019",label="Fun4AllOscarInputManager\l::fileclose",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d1f/classFun4AllOscarInputManager.html#a80967d899cb72c49b7852f992312efcd",tooltip="Close the currently opened input file."];
   Node19 -> Node20 [id="edge18_Node000019_Node000020",dir="back",color="steelblue1",style="solid",tooltip=" "];
@@ -55,7 +55,7 @@ digraph "InputFileHandler::IsOpen"
   Node23 -> Node26 [id="edge24_Node000023_Node000026",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node26 [id="Node000026",label="Fun4AllPrdfInputManager::run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd8/classFun4AllPrdfInputManager.html#a5a95556c61f0a9f209a3c178e81e4fac",tooltip="Run input manager to read next event from PRDF files and store it in the data node."];
   Node23 -> Node27 [id="edge25_Node000023_Node000027",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node27 [id="Node000027",label="Fun4AllPrdfInputManager\l::~Fun4AllPrdfInputManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd8/classFun4AllPrdfInputManager.html#acfaf96e09b3f4765e289f96e8e0a4dbb",tooltip="Destructor closes open file if necessary and deletes synchronization object This comment was generate..."];
+  Node27 [id="Node000027",label="Fun4AllPrdfInputManager\l::~Fun4AllPrdfInputManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd8/classFun4AllPrdfInputManager.html#acfaf96e09b3f4765e289f96e8e0a4dbb",tooltip="Destructor closes open file if necessary and deletes synchronization object."];
   Node1 -> Node28 [id="edge26_Node000001_Node000028",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node28 [id="Node000028",label="Fun4AllSingleDstPileupInput\lManager::fileclose",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d00/classFun4AllSingleDstPileupInputManager.html#afd6f32cf157b9452fc413c54ef782519",tooltip="Close the currently opened input file and reset internal managers."];
   Node28 -> Node29 [id="edge27_Node000028_Node000029",dir="back",color="steelblue1",style="solid",tooltip=" "];

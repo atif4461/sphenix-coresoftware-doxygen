@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,47 +104,47 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a>;</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>TTree;</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d0/d0c/classQAG4Decayer.html">   21</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a655077a7c764031fc47657c54922eed3">QAG4Decayer</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <span class="comment">//        QAG4Decayer();</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a655077a7c764031fc47657c54922eed3">QAG4Decayer</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;QAG4Decayer&quot;</span>);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d0/d0c/classQAG4Decayer.html#a90a74922aef1c683802de6df5f41a8e6">   27</a></span>  <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a90a74922aef1c683802de6df5f41a8e6">~QAG4Decayer</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#ae98dd2a3b1b3a8dde91113d9c8709da6">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="comment">//        int Init() override;</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#aa696e43f8b271a9bb04e79109be46adc">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a20c1f0590bc706e4216b255a9b702308">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d0/d0c/classQAG4Decayer.html#a02dc08e835833e1128241ac360ee6f38">   33</a></span>  std::vector&lt;int&gt; <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a02dc08e835833e1128241ac360ee6f38">Channel</a>(<span class="keywordtype">int</span> pdgid, std::vector&lt;int&gt; Daughter);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <a class="code hl_class" href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a> *m_truth_info{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a> *fout{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  TTree *QATree{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">int</span> EvtID{-1};</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">float</span> LifeTime{-1};</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">int</span> NParticles{-1};</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  std::vector&lt;int&gt; PVDaughtersPDGID;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">bool</span> m_write_nTuple;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">bool</span> m_SaveFiles;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d0/d0c/classQAG4Decayer.html">   22</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a655077a7c764031fc47657c54922eed3">QAG4Decayer</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="comment">//        QAG4Decayer();</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a655077a7c764031fc47657c54922eed3">QAG4Decayer</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;QAG4Decayer&quot;</span>);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d0/d0c/classQAG4Decayer.html#a90a74922aef1c683802de6df5f41a8e6">   28</a></span>  <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a90a74922aef1c683802de6df5f41a8e6">~QAG4Decayer</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#ae98dd2a3b1b3a8dde91113d9c8709da6">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="comment">//        int Init() override;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#aa696e43f8b271a9bb04e79109be46adc">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a20c1f0590bc706e4216b255a9b702308">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d0/d0c/classQAG4Decayer.html#a02dc08e835833e1128241ac360ee6f38">   34</a></span>  std::vector&lt;int&gt; <a class="code hl_function" href="../../d0/d0c/classQAG4Decayer.html#a02dc08e835833e1128241ac360ee6f38">Channel</a>(<span class="keywordtype">int</span> pdgid, std::vector&lt;int&gt; Daughter);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <a class="code hl_class" href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a> *m_truth_info{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a> *fout{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  TTree *QATree{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">int</span> EvtID{-1};</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">float</span> LifeTime{-1};</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">int</span> NParticles{-1};</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  std::vector&lt;int&gt; PVDaughtersPDGID;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">bool</span> m_write_nTuple;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordtype">bool</span> m_SaveFiles;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
 </div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassPHG4Particle_html"><div class="ttname"><a href="../../de/dc9/classPHG4Particle.html">PHG4Particle</a></div><div class="ttdef"><b>Definition</b> PHG4Particle.h:21</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassPHG4Particle_html"><div class="ttname"><a href="../../de/dc9/classPHG4Particle.html">PHG4Particle</a></div><div class="ttdef"><b>Definition</b> PHG4Particle.h:22</div></div>
 <div class="ttc" id="aclassPHG4TruthInfoContainer_html"><div class="ttname"><a href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a></div><div class="ttdef"><b>Definition</b> PHG4TruthInfoContainer.h:18</div></div>
-<div class="ttc" id="aclassPHG4VtxPoint_html"><div class="ttname"><a href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a></div><div class="ttdef"><b>Definition</b> PHG4VtxPoint.h:19</div></div>
+<div class="ttc" id="aclassPHG4VtxPoint_html"><div class="ttname"><a href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a></div><div class="ttdef"><b>Definition</b> PHG4VtxPoint.h:20</div></div>
 <div class="ttc" id="aclassQAG4Decayer_html_a02dc08e835833e1128241ac360ee6f38"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#a02dc08e835833e1128241ac360ee6f38">QAG4Decayer::Channel</a></div><div class="ttdeci">std::vector&lt; int &gt; Channel(int pdgid, std::vector&lt; int &gt; Daughter)</div></div>
-<div class="ttc" id="aclassQAG4Decayer_html_a20c1f0590bc706e4216b255a9b702308"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#a20c1f0590bc706e4216b255a9b702308">QAG4Decayer::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Finalization of QAG4Decayer module.</div><div class="ttdef"><b>Definition</b> QAG4Decayer.cc:863</div></div>
+<div class="ttc" id="aclassQAG4Decayer_html_a20c1f0590bc706e4216b255a9b702308"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#a20c1f0590bc706e4216b255a9b702308">QAG4Decayer::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Finalization of QAG4Decayer module.</div><div class="ttdef"><b>Definition</b> QAG4Decayer.cc:866</div></div>
 <div class="ttc" id="aclassQAG4Decayer_html_a655077a7c764031fc47657c54922eed3"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#a655077a7c764031fc47657c54922eed3">QAG4Decayer::QAG4Decayer</a></div><div class="ttdeci">QAG4Decayer(const std::string &amp;name=&quot;QAG4Decayer&quot;)</div><div class="ttdef"><b>Definition</b> QAG4Decayer.cc:53</div></div>
 <div class="ttc" id="aclassQAG4Decayer_html_a90a74922aef1c683802de6df5f41a8e6"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#a90a74922aef1c683802de6df5f41a8e6">QAG4Decayer::~QAG4Decayer</a></div><div class="ttdeci">~QAG4Decayer() override=default</div></div>
-<div class="ttc" id="aclassQAG4Decayer_html_aa696e43f8b271a9bb04e79109be46adc"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#aa696e43f8b271a9bb04e79109be46adc">QAG4Decayer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and fill heavy‑flavor QA histograms.</div><div class="ttdef"><b>Definition</b> QAG4Decayer.cc:308</div></div>
-<div class="ttc" id="aclassQAG4Decayer_html_ae98dd2a3b1b3a8dde91113d9c8709da6"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#ae98dd2a3b1b3a8dde91113d9c8709da6">QAG4Decayer::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize QA histograms and decay maps for G4 decayer.</div><div class="ttdef"><b>Definition</b> QAG4Decayer.cc:67</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassQAG4Decayer_html_aa696e43f8b271a9bb04e79109be46adc"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#aa696e43f8b271a9bb04e79109be46adc">QAG4Decayer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and fill heavy‑flavor QA histograms.</div><div class="ttdef"><b>Definition</b> QAG4Decayer.cc:310</div></div>
+<div class="ttc" id="aclassQAG4Decayer_html_ae98dd2a3b1b3a8dde91113d9c8709da6"><div class="ttname"><a href="../../d0/d0c/classQAG4Decayer.html#ae98dd2a3b1b3a8dde91113d9c8709da6">QAG4Decayer::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize QA histograms and decay maps for G4 decayer.</div><div class="ttdef"><b>Definition</b> QAG4Decayer.cc:68</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="aclassTFile_html"><div class="ttname"><a href="../../d3/ddf/classTFile.html">TFile</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -112,63 +113,63 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>}</div>
 </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="foldopen" id="foldopen00034" data-start="{" data-end="};">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d3/d49/classReadEICFiles.html">   34</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#aaeb62c6faae970498a939d30117d2536">ReadEICFiles</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a>, <span class="keyword">public</span> <a class="code hl_function" href="../../dd/d2a/classPHHepMCGenHelper.html#a3fec8449d5589e0a7dbb886c000fa531">PHHepMCGenHelper</a></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#aaeb62c6faae970498a939d30117d2536">ReadEICFiles</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;EICReader&quot;</span>);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a083541b7fbc67e99b998333b521890f7">~ReadEICFiles</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a47d28bb9f8804ebfd04274489d1008af">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a7dd6da2318a9ea07bb3569bc2d5549c6">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a6f1066da3bffd47bb57c4becf13630c2">OpenInputFile</a>(<span class="keyword">const</span> std::string &amp;name);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d3/d49/classReadEICFiles.html#a0b77e037cdfb7287138db45aa84a3944">   47</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a0b77e037cdfb7287138db45aa84a3944">SetFirstEntry</a>(<span class="keywordtype">int</span> e) { entry = e; }</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d3/d49/classReadEICFiles.html#a44a36aa43add4f3876a134374ffb187f">   49</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a44a36aa43add4f3876a134374ffb187f">SetNodeName</a>(<span class="keyword">const</span> std::string &amp;s) { _node_name = s; }</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keywordtype">void</span> GetTree();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">int</span> CreateNodeTree(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keyword">enum</span> EvtGen</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  {</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    Milou = 1,</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    DEMP = 2,</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    Unknown = 100</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  };</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  std::string filename;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  TChain *Tin;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordtype">int</span> nEntries;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keywordtype">int</span> entry;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keywordtype">int</span> m_EvtGenId;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  erhic::EventMC *GenEvent;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  <span class="comment">// output</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  std::string _node_name;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>};</div>
+<div class="foldopen" id="foldopen00035" data-start="{" data-end="};">
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d3/d49/classReadEICFiles.html">   35</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#aaeb62c6faae970498a939d30117d2536">ReadEICFiles</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a>, <span class="keyword">public</span> <a class="code hl_function" href="../../dd/d2a/classPHHepMCGenHelper.html#a3fec8449d5589e0a7dbb886c000fa531">PHHepMCGenHelper</a></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>{</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#aaeb62c6faae970498a939d30117d2536">ReadEICFiles</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;EICReader&quot;</span>);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a083541b7fbc67e99b998333b521890f7">~ReadEICFiles</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a47d28bb9f8804ebfd04274489d1008af">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a7dd6da2318a9ea07bb3569bc2d5549c6">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a6f1066da3bffd47bb57c4becf13630c2">OpenInputFile</a>(<span class="keyword">const</span> std::string &amp;name);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d3/d49/classReadEICFiles.html#a0b77e037cdfb7287138db45aa84a3944">   48</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a0b77e037cdfb7287138db45aa84a3944">SetFirstEntry</a>(<span class="keywordtype">int</span> e) { entry = e; }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d3/d49/classReadEICFiles.html#a44a36aa43add4f3876a134374ffb187f">   50</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d49/classReadEICFiles.html#a44a36aa43add4f3876a134374ffb187f">SetNodeName</a>(<span class="keyword">const</span> std::string &amp;s) { _node_name = s; }</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keywordtype">void</span> GetTree();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keywordtype">int</span> CreateNodeTree(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keyword">enum</span> EvtGen</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    Milou = 1,</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    DEMP = 2,</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    Unknown = 100</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  };</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  std::string filename;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  TChain *Tin;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">int</span> nEntries;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keywordtype">int</span> entry;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keywordtype">int</span> m_EvtGenId;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  erhic::EventMC *GenEvent;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="comment">// output</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  std::string _node_name;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>};</div>
 </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif </span><span class="comment">/* READEICFILES_H__ */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#endif </span><span class="comment">/* READEICFILES_H__ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aPHHepMCGenHelper_8h_html"><div class="ttname"><a href="../../de/d81/PHHepMCGenHelper_8h.html">PHHepMCGenHelper.h</a></div></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassPHHepMCGenHelper_html_a3fec8449d5589e0a7dbb886c000fa531"><div class="ttname"><a href="../../dd/d2a/classPHHepMCGenHelper.html#a3fec8449d5589e0a7dbb886c000fa531">PHHepMCGenHelper::PHHepMCGenHelper</a></div><div class="ttdeci">PHHepMCGenHelper()</div><div class="ttdoc">Constructor initializes GSL random generator with Mersenne Twister and seeds it using PHRandomSeed Th...</div><div class="ttdef"><b>Definition</b> PHHepMCGenHelper.cc:50</div></div>
-<div class="ttc" id="aclassReadEICFiles_html_a083541b7fbc67e99b998333b521890f7"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a083541b7fbc67e99b998333b521890f7">ReadEICFiles::~ReadEICFiles</a></div><div class="ttdeci">~ReadEICFiles() override</div><div class="ttdoc">Destructor releases allocated input file tree This comment was generated by openai/gpt-oss-120b at te...</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:67</div></div>
-<div class="ttc" id="aclassReadEICFiles_html_a0b77e037cdfb7287138db45aa84a3944"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a0b77e037cdfb7287138db45aa84a3944">ReadEICFiles::SetFirstEntry</a></div><div class="ttdeci">void SetFirstEntry(int e)</div><div class="ttdef"><b>Definition</b> ReadEICFiles.h:47</div></div>
-<div class="ttc" id="aclassReadEICFiles_html_a44a36aa43add4f3876a134374ffb187f"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a44a36aa43add4f3876a134374ffb187f">ReadEICFiles::SetNodeName</a></div><div class="ttdeci">void SetNodeName(const std::string &amp;s)</div><div class="ttdef"><b>Definition</b> ReadEICFiles.h:49</div></div>
-<div class="ttc" id="aclassReadEICFiles_html_a47d28bb9f8804ebfd04274489d1008af"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a47d28bb9f8804ebfd04274489d1008af">ReadEICFiles::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize module and create node tree.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:129</div></div>
-<div class="ttc" id="aclassReadEICFiles_html_a6f1066da3bffd47bb57c4becf13630c2"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a6f1066da3bffd47bb57c4becf13630c2">ReadEICFiles::OpenInputFile</a></div><div class="ttdeci">bool OpenInputFile(const std::string &amp;name)</div><div class="ttdoc">Open an EIC input file and attach it to a TChain.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:80</div></div>
-<div class="ttc" id="aclassReadEICFiles_html_a7dd6da2318a9ea07bb3569bc2d5549c6"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a7dd6da2318a9ea07bb3569bc2d5549c6">ReadEICFiles::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event from the EIC input file and fill HepMC structures.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:144</div></div>
-<div class="ttc" id="aclassReadEICFiles_html_aaeb62c6faae970498a939d30117d2536"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#aaeb62c6faae970498a939d30117d2536">ReadEICFiles::ReadEICFiles</a></div><div class="ttdeci">ReadEICFiles(const std::string &amp;name=&quot;EICReader&quot;)</div><div class="ttdoc">Constructor for ReadEICFiles initializing SubsysReco base class and member variables.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:48</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassPHHepMCGenHelper_html_a3fec8449d5589e0a7dbb886c000fa531"><div class="ttname"><a href="../../dd/d2a/classPHHepMCGenHelper.html#a3fec8449d5589e0a7dbb886c000fa531">PHHepMCGenHelper::PHHepMCGenHelper</a></div><div class="ttdeci">PHHepMCGenHelper()</div><div class="ttdoc">Constructor initializes GSL random generator with Mersenne Twister and seeds it using PHRandomSeed.</div><div class="ttdef"><b>Definition</b> PHHepMCGenHelper.cc:51</div></div>
+<div class="ttc" id="aclassReadEICFiles_html_a083541b7fbc67e99b998333b521890f7"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a083541b7fbc67e99b998333b521890f7">ReadEICFiles::~ReadEICFiles</a></div><div class="ttdeci">~ReadEICFiles() override</div><div class="ttdoc">Destructor releases allocated input file tree.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:69</div></div>
+<div class="ttc" id="aclassReadEICFiles_html_a0b77e037cdfb7287138db45aa84a3944"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a0b77e037cdfb7287138db45aa84a3944">ReadEICFiles::SetFirstEntry</a></div><div class="ttdeci">void SetFirstEntry(int e)</div><div class="ttdef"><b>Definition</b> ReadEICFiles.h:48</div></div>
+<div class="ttc" id="aclassReadEICFiles_html_a44a36aa43add4f3876a134374ffb187f"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a44a36aa43add4f3876a134374ffb187f">ReadEICFiles::SetNodeName</a></div><div class="ttdeci">void SetNodeName(const std::string &amp;s)</div><div class="ttdef"><b>Definition</b> ReadEICFiles.h:50</div></div>
+<div class="ttc" id="aclassReadEICFiles_html_a47d28bb9f8804ebfd04274489d1008af"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a47d28bb9f8804ebfd04274489d1008af">ReadEICFiles::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize module and create node tree.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:134</div></div>
+<div class="ttc" id="aclassReadEICFiles_html_a6f1066da3bffd47bb57c4becf13630c2"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a6f1066da3bffd47bb57c4becf13630c2">ReadEICFiles::OpenInputFile</a></div><div class="ttdeci">bool OpenInputFile(const std::string &amp;name)</div><div class="ttdoc">Open an EIC input file and attach it to a TChain.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:83</div></div>
+<div class="ttc" id="aclassReadEICFiles_html_a7dd6da2318a9ea07bb3569bc2d5549c6"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a7dd6da2318a9ea07bb3569bc2d5549c6">ReadEICFiles::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event from the EIC input file and fill HepMC structures.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:150</div></div>
+<div class="ttc" id="aclassReadEICFiles_html_aaeb62c6faae970498a939d30117d2536"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#aaeb62c6faae970498a939d30117d2536">ReadEICFiles::ReadEICFiles</a></div><div class="ttdeci">ReadEICFiles(const std::string &amp;name=&quot;EICReader&quot;)</div><div class="ttdoc">Constructor for ReadEICFiles initializing SubsysReco base class and member variables.</div><div class="ttdef"><b>Definition</b> ReadEICFiles.cc:49</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="anamespaceerhic_html"><div class="ttname"><a href="../../db/dfc/namespaceerhic.html">erhic</a></div><div class="ttdef"><b>Definition</b> ReadEICFiles.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

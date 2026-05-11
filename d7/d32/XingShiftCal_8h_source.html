@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -105,116 +106,116 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>Packet;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../df/d04/classXingShiftCal.html">   23</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a30d5dda592d9269a6997eeae59bce808">XingShiftCal</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> NTRIG{6};</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> NBUNCHES{120};</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a30d5dda592d9269a6997eeae59bce808">XingShiftCal</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;XingShiftCal&quot;</span>, <span class="keyword">const</span> <span class="keywordtype">int</span> poverwriteSpinEntry = 0);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../df/d04/classXingShiftCal.html#a4bd948e84db82b0dd92730259f262fa7">   31</a></span>  <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a4bd948e84db82b0dd92730259f262fa7">~XingShiftCal</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a90285c22a32d363bec8fb1419154b2ad">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#ad1c254b4871cc557bcfa89bd738e2641">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#af023784306b437a7015b2e1423e7e78f">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a6857b8322729e157b23fc0e8f0b1a12c">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a070ea74f0671588c8888a69bd2ecaa19">Calibrate</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> <span class="keyword">final</span> = 0);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#ad7e3adb966353408871a7e3c695c87e0">CalculateCrossingShift</a>(<span class="keywordtype">int</span> &amp;xingshift, uint64_t counts[NTRIG][NBUNCHES], <span class="keywordtype">bool</span> &amp;success);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a70e94a18fc38ed7cb743a5918aae4f71">WriteToCDB</a>(<span class="keyword">const</span> std::string &amp;fname);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#ab4612fdc43dee8df6cba6f9e0bb873c8">CommitToSpinDB</a>();</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a5728562951cd6fcdc314313d40d3fa34">SpinDBQA</a>();</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  std::string <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a242b4fcbf766d0ff77f963c9e2734026">SQLArrayConstF</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">int</span> n);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  Packet *p{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="comment">//  Packet *pBlueSpin {nullptr};</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="comment">//  Packet *pYellSpin {nullptr};</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  Packet *pBluePol{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  Packet *pYellPol{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  Packet *pBlueAsym{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  Packet *pYellAsym{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  Packet *pBlueIntPattern{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  Packet *pYellIntPattern{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  Packet *pBluePolPattern{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  Packet *pYellPolPattern{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  Packet *pBlueFillNumber{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  Packet *pYellFillNumber{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keywordtype">int</span> nevt{0};</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">int</span> threshold{1000};</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keywordtype">int</span> evtcap{50000};</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keywordtype">int</span> done{0};</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="comment">// const int packet_BLUESPIN  {14902};</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="comment">// const int packet_YELLSPIN  {14903};</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEPOL{14905};</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEASYM{14906};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLPOL{14907};</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLASYM{14908};</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEINTPATTERN{14910};</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEPOLPATTERN{14911};</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLINTPATTERN{14912};</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLPOLPATTERN{14913};</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEFILLNUMBER{14915};</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLFILLNUMBER{14916};</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_GL1{14001};</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordtype">int</span> runnumber{0};</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keywordtype">bool</span> success{0};</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordtype">int</span> commitSuccessCDB{0};</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordtype">int</span> commitSuccessSpinDB{0};</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  <span class="keywordtype">int</span> overwriteSpinEntry{0};</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="comment">// default xingshift</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  <span class="keywordtype">int</span> xingshift{0};</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  <span class="keywordtype">int</span> blueSpinPattern[NBUNCHES]{0};</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="keywordtype">int</span> yellSpinPattern[NBUNCHES]{0};</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="keywordtype">int</span> blueFillPattern[NBUNCHES]{0};</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="keywordtype">int</span> yellFillPattern[NBUNCHES]{0};</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  <span class="keywordtype">int</span> bluePcSpinPattern[NBUNCHES]{0};</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordtype">int</span> yellPcSpinPattern[NBUNCHES]{0};</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordtype">float</span> polBlue{0};</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keywordtype">float</span> polBlueErr{0};</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keywordtype">float</span> polYellow{0};</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keywordtype">float</span> polYellowErr{0};</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keywordtype">int</span> fillnumberBlue{0};</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordtype">int</span> fillnumberYellow{0};</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  uint64_t scalercounts[NTRIG][NBUNCHES]{};</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  int64_t mbdns[NBUNCHES]{0};</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  int64_t mbdvtx[NBUNCHES]{0};</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  int64_t zdcns[NBUNCHES]{0};</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  std::map&lt;std::string, std::string&gt; preset_pattern_blue;</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  std::map&lt;std::string, std::string&gt; preset_pattern_yellow;</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>};</div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../df/d04/classXingShiftCal.html">   24</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a30d5dda592d9269a6997eeae59bce808">XingShiftCal</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> NTRIG{6};</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> NBUNCHES{120};</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a30d5dda592d9269a6997eeae59bce808">XingShiftCal</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;XingShiftCal&quot;</span>, <span class="keyword">const</span> <span class="keywordtype">int</span> poverwriteSpinEntry = 0);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../df/d04/classXingShiftCal.html#a4bd948e84db82b0dd92730259f262fa7">   32</a></span>  <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a4bd948e84db82b0dd92730259f262fa7">~XingShiftCal</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a90285c22a32d363bec8fb1419154b2ad">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#ad1c254b4871cc557bcfa89bd738e2641">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#af023784306b437a7015b2e1423e7e78f">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a6857b8322729e157b23fc0e8f0b1a12c">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a070ea74f0671588c8888a69bd2ecaa19">Calibrate</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> <span class="keyword">final</span> = 0);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#ad7e3adb966353408871a7e3c695c87e0">CalculateCrossingShift</a>(<span class="keywordtype">int</span> &amp;xingshift, uint64_t counts[NTRIG][NBUNCHES], <span class="keywordtype">bool</span> &amp;success);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a70e94a18fc38ed7cb743a5918aae4f71">WriteToCDB</a>(<span class="keyword">const</span> std::string &amp;fname);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#ab4612fdc43dee8df6cba6f9e0bb873c8">CommitToSpinDB</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a5728562951cd6fcdc314313d40d3fa34">SpinDBQA</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  std::string <a class="code hl_function" href="../../df/d04/classXingShiftCal.html#a242b4fcbf766d0ff77f963c9e2734026">SQLArrayConstF</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">int</span> n);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  Packet *p{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="comment">//  Packet *pBlueSpin {nullptr};</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="comment">//  Packet *pYellSpin {nullptr};</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  Packet *pBluePol{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  Packet *pYellPol{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  Packet *pBlueAsym{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  Packet *pYellAsym{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  Packet *pBlueIntPattern{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  Packet *pYellIntPattern{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  Packet *pBluePolPattern{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  Packet *pYellPolPattern{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  Packet *pBlueFillNumber{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  Packet *pYellFillNumber{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">int</span> nevt{0};</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keywordtype">int</span> threshold{1000};</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keywordtype">int</span> evtcap{50000};</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordtype">int</span> done{0};</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="comment">// const int packet_BLUESPIN  {14902};</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="comment">// const int packet_YELLSPIN  {14903};</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEPOL{14905};</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEASYM{14906};</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLPOL{14907};</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLASYM{14908};</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEINTPATTERN{14910};</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEPOLPATTERN{14911};</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLINTPATTERN{14912};</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLPOLPATTERN{14913};</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_BLUEFILLNUMBER{14915};</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_YELLFILLNUMBER{14916};</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> packet_GL1{14001};</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keywordtype">int</span> runnumber{0};</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordtype">bool</span> success{0};</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordtype">int</span> commitSuccessCDB{0};</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  <span class="keywordtype">int</span> commitSuccessSpinDB{0};</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  <span class="keywordtype">int</span> overwriteSpinEntry{0};</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  <span class="comment">// default xingshift</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  <span class="keywordtype">int</span> xingshift{0};</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="keywordtype">int</span> blueSpinPattern[NBUNCHES]{0};</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="keywordtype">int</span> yellSpinPattern[NBUNCHES]{0};</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="keywordtype">int</span> blueFillPattern[NBUNCHES]{0};</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  <span class="keywordtype">int</span> yellFillPattern[NBUNCHES]{0};</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordtype">int</span> bluePcSpinPattern[NBUNCHES]{0};</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="keywordtype">int</span> yellPcSpinPattern[NBUNCHES]{0};</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keywordtype">float</span> polBlue{0};</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keywordtype">float</span> polBlueErr{0};</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keywordtype">float</span> polYellow{0};</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="keywordtype">float</span> polYellowErr{0};</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordtype">int</span> fillnumberBlue{0};</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keywordtype">int</span> fillnumberYellow{0};</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  uint64_t scalercounts[NTRIG][NBUNCHES]{};</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  int64_t mbdns[NBUNCHES]{0};</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  int64_t mbdvtx[NBUNCHES]{0};</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  int64_t zdcns[NBUNCHES]{0};</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  std::map&lt;std::string, std::string&gt; preset_pattern_blue;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  std::map&lt;std::string, std::string&gt; preset_pattern_yellow;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>};</div>
 </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">#endif  </span><span class="comment">// XINGSHIFT_XINGSHIFTCAL_H</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">#endif  </span><span class="comment">// XINGSHIFT_XINGSHIFTCAL_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_a070ea74f0671588c8888a69bd2ecaa19"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a070ea74f0671588c8888a69bd2ecaa19">XingShiftCal::Calibrate</a></div><div class="ttdeci">int Calibrate(const int final=0)</div><div class="ttdoc">Perform crossing shift calibration.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:365</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_a242b4fcbf766d0ff77f963c9e2734026"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a242b4fcbf766d0ff77f963c9e2734026">XingShiftCal::SQLArrayConstF</a></div><div class="ttdeci">std::string SQLArrayConstF(float x, int n)</div><div class="ttdoc">Generate a PostgreSQL array literal string with constant float values.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:1098</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_a30d5dda592d9269a6997eeae59bce808"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a30d5dda592d9269a6997eeae59bce808">XingShiftCal::XingShiftCal</a></div><div class="ttdeci">XingShiftCal(const std::string &amp;name=&quot;XingShiftCal&quot;, const int poverwriteSpinEntry=0)</div><div class="ttdoc">Constructor for XingShiftCal initializing module name and spin entry overwrite flag.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:33</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_a070ea74f0671588c8888a69bd2ecaa19"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a070ea74f0671588c8888a69bd2ecaa19">XingShiftCal::Calibrate</a></div><div class="ttdeci">int Calibrate(const int final=0)</div><div class="ttdoc">Perform crossing shift calibration.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:371</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_a242b4fcbf766d0ff77f963c9e2734026"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a242b4fcbf766d0ff77f963c9e2734026">XingShiftCal::SQLArrayConstF</a></div><div class="ttdeci">std::string SQLArrayConstF(float x, int n)</div><div class="ttdoc">Generate a PostgreSQL array literal string with constant float values.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:1109</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_a30d5dda592d9269a6997eeae59bce808"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a30d5dda592d9269a6997eeae59bce808">XingShiftCal::XingShiftCal</a></div><div class="ttdeci">XingShiftCal(const std::string &amp;name=&quot;XingShiftCal&quot;, const int poverwriteSpinEntry=0)</div><div class="ttdoc">Constructor for XingShiftCal initializing module name and spin entry overwrite flag.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:34</div></div>
 <div class="ttc" id="aclassXingShiftCal_html_a4bd948e84db82b0dd92730259f262fa7"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a4bd948e84db82b0dd92730259f262fa7">XingShiftCal::~XingShiftCal</a></div><div class="ttdeci">~XingShiftCal() override=default</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_a5728562951cd6fcdc314313d40d3fa34"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a5728562951cd6fcdc314313d40d3fa34">XingShiftCal::SpinDBQA</a></div><div class="ttdeci">int SpinDBQA()</div><div class="ttdoc">Perform spin database quality assurance for the current run.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:882</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_a6857b8322729e157b23fc0e8f0b1a12c"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a6857b8322729e157b23fc0e8f0b1a12c">XingShiftCal::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">End method invoked after processing is complete.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:317</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_a70e94a18fc38ed7cb743a5918aae4f71"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a70e94a18fc38ed7cb743a5918aae4f71">XingShiftCal::WriteToCDB</a></div><div class="ttdeci">int WriteToCDB(const std::string &amp;fname)</div><div class="ttdoc">Write crossing shift calibration to CDB.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:482</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_a90285c22a32d363bec8fb1419154b2ad"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a90285c22a32d363bec8fb1419154b2ad">XingShiftCal::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize XingShiftCal module and load preset patterns.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:57</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_ab4612fdc43dee8df6cba6f9e0bb873c8"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#ab4612fdc43dee8df6cba6f9e0bb873c8">XingShiftCal::CommitToSpinDB</a></div><div class="ttdeci">int CommitToSpinDB()</div><div class="ttdoc">Commit crossing shift and spin pattern data to the spin database.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:516</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_ad1c254b4871cc557bcfa89bd738e2641"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#ad1c254b4871cc557bcfa89bd738e2641">XingShiftCal::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize module for a new run.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:86</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_ad7e3adb966353408871a7e3c695c87e0"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#ad7e3adb966353408871a7e3c695c87e0">XingShiftCal::CalculateCrossingShift</a></div><div class="ttdeci">int CalculateCrossingShift(int &amp;xingshift, uint64_t counts[NTRIG][NBUNCHES], bool &amp;success)</div><div class="ttdoc">Determine the crossing shift from trigger count data and fill patterns.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:397</div></div>
-<div class="ttc" id="aclassXingShiftCal_html_af023784306b437a7015b2e1423e7e78f"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#af023784306b437a7015b2e1423e7e78f">XingShiftCal::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event within the Fun4All framework.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:101</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_a5728562951cd6fcdc314313d40d3fa34"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a5728562951cd6fcdc314313d40d3fa34">XingShiftCal::SpinDBQA</a></div><div class="ttdeci">int SpinDBQA()</div><div class="ttdoc">Perform spin database quality assurance for the current run.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:892</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_a6857b8322729e157b23fc0e8f0b1a12c"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a6857b8322729e157b23fc0e8f0b1a12c">XingShiftCal::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">End method invoked after processing is complete.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:322</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_a70e94a18fc38ed7cb743a5918aae4f71"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a70e94a18fc38ed7cb743a5918aae4f71">XingShiftCal::WriteToCDB</a></div><div class="ttdeci">int WriteToCDB(const std::string &amp;fname)</div><div class="ttdoc">Write crossing shift calibration to CDB.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:490</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_a90285c22a32d363bec8fb1419154b2ad"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#a90285c22a32d363bec8fb1419154b2ad">XingShiftCal::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize XingShiftCal module and load preset patterns.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:59</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_ab4612fdc43dee8df6cba6f9e0bb873c8"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#ab4612fdc43dee8df6cba6f9e0bb873c8">XingShiftCal::CommitToSpinDB</a></div><div class="ttdeci">int CommitToSpinDB()</div><div class="ttdoc">Commit crossing shift and spin pattern data to the spin database.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:525</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_ad1c254b4871cc557bcfa89bd738e2641"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#ad1c254b4871cc557bcfa89bd738e2641">XingShiftCal::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize module for a new run.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:89</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_ad7e3adb966353408871a7e3c695c87e0"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#ad7e3adb966353408871a7e3c695c87e0">XingShiftCal::CalculateCrossingShift</a></div><div class="ttdeci">int CalculateCrossingShift(int &amp;xingshift, uint64_t counts[NTRIG][NBUNCHES], bool &amp;success)</div><div class="ttdoc">Determine the crossing shift from trigger count data and fill patterns.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:404</div></div>
+<div class="ttc" id="aclassXingShiftCal_html_af023784306b437a7015b2e1423e7e78f"><div class="ttname"><a href="../../df/d04/classXingShiftCal.html#af023784306b437a7015b2e1423e7e78f">XingShiftCal::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event within the Fun4All framework.</div><div class="ttdef"><b>Definition</b> XingShiftCal.cc:105</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

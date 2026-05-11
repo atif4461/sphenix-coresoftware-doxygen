@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,46 +101,46 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &lt;limits&gt;</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="foldopen" id="foldopen00072" data-start="{" data-end="};">
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../df/db2/classMille.html">   72</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/db2/classMille.html#ac2fcc95c85ec43587711267cf18bdebe">Mille</a></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>{</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <a class="code hl_function" href="../../df/db2/classMille.html#ac2fcc95c85ec43587711267cf18bdebe">Mille</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *outFileName, <span class="keywordtype">bool</span> asBinary = <span class="keyword">true</span>, <span class="keywordtype">bool</span> writeZero = <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <a class="code hl_function" href="../../df/db2/classMille.html#a6706fe1f4ad6421dd57fec4fe08edea3">~Mille</a>();</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/db2/classMille.html#aad70b3c4ad82fb3edc54e07643896788">mille</a>(<span class="keywordtype">int</span> NLC, <span class="keyword">const</span> <span class="keywordtype">float</span> *derLc, <span class="keywordtype">int</span> NGL, <span class="keyword">const</span> <span class="keywordtype">float</span> *derGl,</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>             <span class="keyword">const</span> <span class="keywordtype">int</span> *label, <span class="keywordtype">float</span> rMeas, <span class="keywordtype">float</span> <a class="code hl_function" href="../../d0/de0/src_8f.html#ae55836e2d3f15d0405a928cc6fb1b0ed">sigma</a>);</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/db2/classMille.html#a5486f0ae2057a818d8ca3066ae097f93">special</a>(<span class="keywordtype">int</span> nSpecial, <span class="keyword">const</span> <span class="keywordtype">float</span> *floatings, <span class="keyword">const</span> <span class="keywordtype">int</span> *integers);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/db2/classMille.html#a96adf90c4c4d73608d56434a5521da35">kill</a>();</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/db2/classMille.html#a2349562f522ea057c3bea2f32f6c6524">end</a>();</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  <span class="keywordtype">void</span> newSet();</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordtype">bool</span> checkBufferSize(<span class="keywordtype">int</span> nLocal, <span class="keywordtype">int</span> nGlobal);</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  std::ofstream myOutFile;  </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  <span class="keywordtype">bool</span> myAsBinary;          </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="keywordtype">bool</span> myWriteZero;         </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="keyword">enum</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  {</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    myBufferSize = 10000</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  };                                    </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="keywordtype">int</span> myBufferInt[myBufferSize]{};      </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordtype">float</span> myBufferFloat[myBufferSize]{};  </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keywordtype">int</span> myBufferPos;                      </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keywordtype">bool</span> myHasSpecial;                    </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="keyword">enum</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  {</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    myMaxLabel = std::numeric_limits&lt;int&gt;::max() - 1</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  };</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>};</div>
+<div class="foldopen" id="foldopen00073" data-start="{" data-end="};">
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="../../df/db2/classMille.html">   73</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/db2/classMille.html#ac2fcc95c85ec43587711267cf18bdebe">Mille</a></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>{</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <a class="code hl_function" href="../../df/db2/classMille.html#ac2fcc95c85ec43587711267cf18bdebe">Mille</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *outFileName, <span class="keywordtype">bool</span> asBinary = <span class="keyword">true</span>, <span class="keywordtype">bool</span> writeZero = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <a class="code hl_function" href="../../df/db2/classMille.html#a6706fe1f4ad6421dd57fec4fe08edea3">~Mille</a>();</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/db2/classMille.html#aad70b3c4ad82fb3edc54e07643896788">mille</a>(<span class="keywordtype">int</span> NLC, <span class="keyword">const</span> <span class="keywordtype">float</span> *derLc, <span class="keywordtype">int</span> NGL, <span class="keyword">const</span> <span class="keywordtype">float</span> *derGl,</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>             <span class="keyword">const</span> <span class="keywordtype">int</span> *label, <span class="keywordtype">float</span> rMeas, <span class="keywordtype">float</span> <a class="code hl_function" href="../../d0/de0/src_8f.html#ae55836e2d3f15d0405a928cc6fb1b0ed">sigma</a>);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/db2/classMille.html#a5486f0ae2057a818d8ca3066ae097f93">special</a>(<span class="keywordtype">int</span> nSpecial, <span class="keyword">const</span> <span class="keywordtype">float</span> *floatings, <span class="keyword">const</span> <span class="keywordtype">int</span> *integers);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/db2/classMille.html#a96adf90c4c4d73608d56434a5521da35">kill</a>();</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/db2/classMille.html#a2349562f522ea057c3bea2f32f6c6524">end</a>();</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordtype">void</span> newSet();</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  <span class="keywordtype">bool</span> checkBufferSize(<span class="keywordtype">int</span> nLocal, <span class="keywordtype">int</span> nGlobal);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  std::ofstream myOutFile;  </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="keywordtype">bool</span> myAsBinary;          </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="keywordtype">bool</span> myWriteZero;         </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  <span class="keyword">enum</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    myBufferSize = 10000</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  };                                    </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordtype">int</span> myBufferInt[myBufferSize]{};      </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keywordtype">float</span> myBufferFloat[myBufferSize]{};  </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keywordtype">int</span> myBufferPos;                      </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keywordtype">bool</span> myHasSpecial;                    </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keyword">enum</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  {</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    myMaxLabel = std::numeric_limits&lt;int&gt;::max() - 1</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  };</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>};</div>
 </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassMille_html_a2349562f522ea057c3bea2f32f6c6524"><div class="ttname"><a href="../../df/db2/classMille.html#a2349562f522ea057c3bea2f32f6c6524">Mille::end</a></div><div class="ttdeci">void end()</div><div class="ttdoc">Write buffer (set of derivatives with same local parameters) to file.</div><div class="ttdef"><b>Definition</b> Mille.cc:219</div></div>
-<div class="ttc" id="aclassMille_html_a5486f0ae2057a818d8ca3066ae097f93"><div class="ttname"><a href="../../df/db2/classMille.html#a5486f0ae2057a818d8ca3066ae097f93">Mille::special</a></div><div class="ttdeci">void special(int nSpecial, const float *floatings, const int *integers)</div><div class="ttdoc">Add special data to buffer.</div><div class="ttdef"><b>Definition</b> Mille.cc:151</div></div>
-<div class="ttc" id="aclassMille_html_a6706fe1f4ad6421dd57fec4fe08edea3"><div class="ttname"><a href="../../df/db2/classMille.html#a6706fe1f4ad6421dd57fec4fe08edea3">Mille::~Mille</a></div><div class="ttdeci">~Mille()</div><div class="ttdoc">Closes file.</div><div class="ttdef"><b>Definition</b> Mille.cc:70</div></div>
-<div class="ttc" id="aclassMille_html_a96adf90c4c4d73608d56434a5521da35"><div class="ttname"><a href="../../df/db2/classMille.html#a96adf90c4c4d73608d56434a5521da35">Mille::kill</a></div><div class="ttdeci">void kill()</div><div class="ttdoc">Reset buffers, i.e. kill derivatives accumulated for current set.</div><div class="ttdef"><b>Definition</b> Mille.cc:202</div></div>
-<div class="ttc" id="aclassMille_html_aad70b3c4ad82fb3edc54e07643896788"><div class="ttname"><a href="../../df/db2/classMille.html#aad70b3c4ad82fb3edc54e07643896788">Mille::mille</a></div><div class="ttdeci">void mille(int NLC, const float *derLc, int NGL, const float *derGl, const int *label, float rMeas, float sigma)</div><div class="ttdoc">Add measurement to buffer.</div><div class="ttdef"><b>Definition</b> Mille.cc:86</div></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassMille_html_a2349562f522ea057c3bea2f32f6c6524"><div class="ttname"><a href="../../df/db2/classMille.html#a2349562f522ea057c3bea2f32f6c6524">Mille::end</a></div><div class="ttdeci">void end()</div><div class="ttdoc">Write buffer (set of derivatives with same local parameters) to file.</div><div class="ttdef"><b>Definition</b> Mille.cc:222</div></div>
+<div class="ttc" id="aclassMille_html_a5486f0ae2057a818d8ca3066ae097f93"><div class="ttname"><a href="../../df/db2/classMille.html#a5486f0ae2057a818d8ca3066ae097f93">Mille::special</a></div><div class="ttdeci">void special(int nSpecial, const float *floatings, const int *integers)</div><div class="ttdoc">Add special data to buffer.</div><div class="ttdef"><b>Definition</b> Mille.cc:152</div></div>
+<div class="ttc" id="aclassMille_html_a6706fe1f4ad6421dd57fec4fe08edea3"><div class="ttname"><a href="../../df/db2/classMille.html#a6706fe1f4ad6421dd57fec4fe08edea3">Mille::~Mille</a></div><div class="ttdeci">~Mille()</div><div class="ttdoc">Closes file.</div><div class="ttdef"><b>Definition</b> Mille.cc:71</div></div>
+<div class="ttc" id="aclassMille_html_a96adf90c4c4d73608d56434a5521da35"><div class="ttname"><a href="../../df/db2/classMille.html#a96adf90c4c4d73608d56434a5521da35">Mille::kill</a></div><div class="ttdeci">void kill()</div><div class="ttdoc">Reset buffers, i.e. kill derivatives accumulated for current set.</div><div class="ttdef"><b>Definition</b> Mille.cc:204</div></div>
+<div class="ttc" id="aclassMille_html_aad70b3c4ad82fb3edc54e07643896788"><div class="ttname"><a href="../../df/db2/classMille.html#aad70b3c4ad82fb3edc54e07643896788">Mille::mille</a></div><div class="ttdeci">void mille(int NLC, const float *derLc, int NGL, const float *derGl, const int *label, float rMeas, float sigma)</div><div class="ttdoc">Add measurement to buffer.</div><div class="ttdef"><b>Definition</b> Mille.cc:87</div></div>
 <div class="ttc" id="aclassMille_html_ac2fcc95c85ec43587711267cf18bdebe"><div class="ttname"><a href="../../df/db2/classMille.html#ac2fcc95c85ec43587711267cf18bdebe">Mille::Mille</a></div><div class="ttdeci">Mille(const char *outFileName, bool asBinary=true, bool writeZero=false)</div><div class="ttdoc">Opens outFileName (by default as binary file).</div><div class="ttdef"><b>Definition</b> Mille.cc:45</div></div>
 <div class="ttc" id="asrc_8f_html_ae55836e2d3f15d0405a928cc6fb1b0ed"><div class="ttname"><a href="../../d0/de0/src_8f.html#ae55836e2d3f15d0405a928cc6fb1b0ed">sigma</a></div><div class="ttdeci">double precision function sigma(u)</div><div class="ttdef"><b>Definition</b> src.f:3518</div></div>
 </div><!-- fragment --></div><!-- contents -->

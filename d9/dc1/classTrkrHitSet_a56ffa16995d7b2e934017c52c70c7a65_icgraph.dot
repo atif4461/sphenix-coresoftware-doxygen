@@ -16,12 +16,16 @@ digraph "TrkrHitSet::getHitSetKey"
   Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node5 [id="Node000005",label="TrkrHitSetTpc::getLocalPhiTBin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#ac1d509efc9b142fec374e0a0029dd3fe",tooltip="global -> local conversion"];
   Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node6 [id="Node000006",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a6afb55ecba4a26f94224e0186fa2a6ed",tooltip="Retrieve ADC data for a TPC hit identified by its hit key."];
-  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node7 [id="Node000007",label="TrkrHitSetTpc::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a2a048707a7c7fb2cb93b2007303cc995",tooltip="Output a textual description of the TrkrHitSetTpc object."];
-  Node7 -> Node5 [id="edge7_Node000007_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node8 [id="Node000008",label="TrkrHitSetContainerv1\l::removeHitSet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d47/classTrkrHitSetContainerv1.html#a4b11961c51b05f88dd0deaf859070374",tooltip="Remove a hit set from the container using its pointer."];
-  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node9 [id="Node000009",label="TrkrHitSetContainerv2\l::removeHitSet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d23/classTrkrHitSetContainerv2.html#abe1b53ef8cef90f01b06f9ffbcb9b36a",tooltip="Remove a hit set from the container using its key."];
+  Node6 [id="Node000006",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a2e2e9e376f9817374eefb0f0a7d87274",tooltip="Retrieve the ADC data for a TPC hit identified by its hit key."];
+  Node6 -> Node6 [id="edge6_Node000006_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a6afb55ecba4a26f94224e0186fa2a6ed",tooltip="Retrieve ADC data for a TPC hit identified by its hit key."];
+  Node5 -> Node7 [id="edge8_Node000005_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="TrkrHitSetTpc::identify",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a2a048707a7c7fb2cb93b2007303cc995",tooltip="Output a textual description of the TrkrHitSetTpc object."];
+  Node8 -> Node5 [id="edge10_Node000008_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node9 [id="edge11_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TrkrHitSetContainerv1\l::removeHitSet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d47/classTrkrHitSetContainerv1.html#a4b11961c51b05f88dd0deaf859070374",tooltip="Remove a hit set from the container using its pointer."];
+  Node1 -> Node10 [id="edge12_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TrkrHitSetContainerv2\l::removeHitSet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/d23/classTrkrHitSetContainerv2.html#abe1b53ef8cef90f01b06f9ffbcb9b36a",tooltip="Remove a hit set from the container using its key."];
 }

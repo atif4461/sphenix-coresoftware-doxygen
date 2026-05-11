@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -115,56 +116,56 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keyword">struct </span>tile_id_t</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  { </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    tile_id_t(<span class="keywordtype">int</span> layer, uint tile)</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>      : m_layer(layer)</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>      , m_tile(tile)</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">int</span> m_layer = 0;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    uint m_tile = 0;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/d3f/PdbBankID_8cc.html#acaf7272a1398a977e3a2eba5ee189ade">operator==</a>(<span class="keyword">const</span> tile_id_t&amp; other)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>      <span class="keywordflow">return</span> other.m_layer == m_layer &amp;&amp; other.m_tile == m_tile;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  };</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keyword">struct </span>tile_id_hash_t</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  { </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    std::size_t operator()(<span class="keyword">const</span> tile_id_t&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span> <span class="keyword">noexcept</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>      <span class="keywordflow">return</span> <span class="keywordtype">id</span>.m_tile + (<span class="keywordtype">id</span>.m_layer &lt;&lt; 4);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  };</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">using </span>tile_map_t = std::unordered_map&lt;tile_id_t, std::string, tile_id_hash_t&gt;;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  tile_map_t m_tile_map;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keyword">using </span>rotation_t = std::array&lt;double, 3&gt;;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keyword">using </span>translation_t = std::array&lt;double, 3&gt;;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keyword">struct </span>transformation_t</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  { </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    transformation_t(<span class="keyword">const</span> rotation_t&amp; rotation, <span class="keyword">const</span> translation_t&amp; translation)</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>      : m_rotation(rotation)</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>      , m_translation(translation)</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    {</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    }</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    rotation_t m_rotation = {{0}};</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    translation_t m_translation = {{0}};</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  };</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    tile_id_t(<span class="keywordtype">int</span> layer, uint tile)</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>      : m_layer(layer)</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>      , m_tile(tile)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">int</span> m_layer = 0;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    uint m_tile = 0;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/d3f/PdbBankID_8cc.html#acaf7272a1398a977e3a2eba5ee189ade">operator==</a>(<span class="keyword">const</span> tile_id_t&amp; other)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>      <span class="keywordflow">return</span> other.m_layer == m_layer &amp;&amp; other.m_tile == m_tile;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  };</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keyword">struct </span>tile_id_hash_t</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  { </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::size_t operator()(<span class="keyword">const</span> tile_id_t&amp; <span class="keywordtype">id</span>) <span class="keyword">const</span> <span class="keyword">noexcept</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    {</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>      <span class="keywordflow">return</span> <span class="keywordtype">id</span>.m_tile + (<span class="keywordtype">id</span>.m_layer &lt;&lt; 4);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    }</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  };</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keyword">using </span>tile_map_t = std::unordered_map&lt;tile_id_t, std::string, tile_id_hash_t&gt;;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  tile_map_t m_tile_map;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keyword">using </span>rotation_t = std::array&lt;double, 3&gt;;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keyword">using </span>translation_t = std::array&lt;double, 3&gt;;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  <span class="keyword">struct </span>transformation_t</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  { </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    transformation_t(<span class="keyword">const</span> rotation_t&amp; rotation, <span class="keyword">const</span> translation_t&amp; translation)</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>      : m_rotation(rotation)</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>      , m_translation(translation)</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    }</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    rotation_t m_rotation = {{0}};</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keyword">using </span>transformation_map_t = std::unordered_map&lt;std::string, transformation_t&gt;;</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  transformation_map_t m_transformation_map;</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>};</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    translation_t m_translation = {{0}};</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  };</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="keyword">using </span>transformation_map_t = std::unordered_map&lt;std::string, transformation_t&gt;;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  transformation_map_t m_transformation_map;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>};</div>
 </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aPdbBankID_8cc_html_acaf7272a1398a977e3a2eba5ee189ade"><div class="ttname"><a href="../../df/d3f/PdbBankID_8cc.html#acaf7272a1398a977e3a2eba5ee189ade">operator==</a></div><div class="ttdeci">int operator==(const PdbBankID &amp;a, const PdbBankID &amp;b)</div><div class="ttdoc">Compare two PdbBankID objects for equality based on their bankID field.</div><div class="ttdef"><b>Definition</b> PdbBankID.cc:41</div></div>
-<div class="ttc" id="aclassPHG4MicromegasSurvey_html_a26604ea1342eb16a5baa863641808d72"><div class="ttname"><a href="../../dc/d44/classPHG4MicromegasSurvey.html#a26604ea1342eb16a5baa863641808d72">PHG4MicromegasSurvey::PHG4MicromegasSurvey</a></div><div class="ttdeci">PHG4MicromegasSurvey()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> PHG4MicromegasSurvey.cc:18</div></div>
-<div class="ttc" id="aclassPHG4MicromegasSurvey_html_a9f74c0e4addf8700b5ba4b434205eb21"><div class="ttname"><a href="../../dc/d44/classPHG4MicromegasSurvey.html#a9f74c0e4addf8700b5ba4b434205eb21">PHG4MicromegasSurvey::get_module_name</a></div><div class="ttdeci">std::string get_module_name(int layer, uint tile) const</div><div class="ttdoc">get module name from tile and layer</div><div class="ttdef"><b>Definition</b> PHG4MicromegasSurvey.cc:89</div></div>
-<div class="ttc" id="aclassPHG4MicromegasSurvey_html_ac79d0e954c50ca74d598773a9ea2f0c7"><div class="ttname"><a href="../../dc/d44/classPHG4MicromegasSurvey.html#ac79d0e954c50ca74d598773a9ea2f0c7">PHG4MicromegasSurvey::get_transformation</a></div><div class="ttdeci">G4Transform3D get_transformation(int layer, uint tile) const</div><div class="ttdoc">get transformation from tile and layer</div><div class="ttdef"><b>Definition</b> PHG4MicromegasSurvey.cc:109</div></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aPdbBankID_8cc_html_acaf7272a1398a977e3a2eba5ee189ade"><div class="ttname"><a href="../../df/d3f/PdbBankID_8cc.html#acaf7272a1398a977e3a2eba5ee189ade">operator==</a></div><div class="ttdeci">int operator==(const PdbBankID &amp;a, const PdbBankID &amp;b)</div><div class="ttdoc">Compare two PdbBankID objects for equality based on their bankID field.</div><div class="ttdef"><b>Definition</b> PdbBankID.cc:44</div></div>
+<div class="ttc" id="aclassPHG4MicromegasSurvey_html_a26604ea1342eb16a5baa863641808d72"><div class="ttname"><a href="../../dc/d44/classPHG4MicromegasSurvey.html#a26604ea1342eb16a5baa863641808d72">PHG4MicromegasSurvey::PHG4MicromegasSurvey</a></div><div class="ttdeci">PHG4MicromegasSurvey()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> PHG4MicromegasSurvey.cc:19</div></div>
+<div class="ttc" id="aclassPHG4MicromegasSurvey_html_a9f74c0e4addf8700b5ba4b434205eb21"><div class="ttname"><a href="../../dc/d44/classPHG4MicromegasSurvey.html#a9f74c0e4addf8700b5ba4b434205eb21">PHG4MicromegasSurvey::get_module_name</a></div><div class="ttdeci">std::string get_module_name(int layer, uint tile) const</div><div class="ttdoc">get module name from tile and layer</div><div class="ttdef"><b>Definition</b> PHG4MicromegasSurvey.cc:91</div></div>
+<div class="ttc" id="aclassPHG4MicromegasSurvey_html_ac79d0e954c50ca74d598773a9ea2f0c7"><div class="ttname"><a href="../../dc/d44/classPHG4MicromegasSurvey.html#ac79d0e954c50ca74d598773a9ea2f0c7">PHG4MicromegasSurvey::get_transformation</a></div><div class="ttdeci">G4Transform3D get_transformation(int layer, uint tile) const</div><div class="ttdoc">get transformation from tile and layer</div><div class="ttdef"><b>Definition</b> PHG4MicromegasSurvey.cc:112</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

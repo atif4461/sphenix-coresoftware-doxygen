@@ -8,7 +8,7 @@ digraph "PHTimeStamp::operator=="
   rankdir="LR";
   Node1 [id="Node000001",label="PHTimeStamp::operator==",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Compare two PHTimeStamp objects for equality based on binary time."];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="PHTimeStamp::PHTimeStamp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc2/classPHTimeStamp.html#ae5577b84b71934bfdd2bc53fe1acf78d",tooltip="Initialize PHTimeStamp object with current time and set timezone to EST5EDT This comment was generate..."];
+  Node2 [id="Node000002",label="PHTimeStamp::PHTimeStamp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc2/classPHTimeStamp.html#ae5577b84b71934bfdd2bc53fe1acf78d",tooltip="Initialize PHTimeStamp object with current time and set timezone to EST5EDT."];
   Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
   Node3 [id="Node000003",label="PHTimeStamp::setTics",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dc2/classPHTimeStamp.html#ac23964c2bd33495dfed5b3a3b941198b",tooltip="Set binary time from tics."];
 }

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -130,68 +131,68 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d6/d0f/classSingleTpcTimeFrameInput.html#ac702ee8e5d5587aabc285407a0db4998">   38</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d0f/classSingleTpcTimeFrameInput.html#ac702ee8e5d5587aabc285407a0db4998">AddPacketID</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> packetID) { m_SelectedPacketIDs.insert(packetID); }</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a43f4b17fd0d395a6220feedd78b87312">   45</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a43f4b17fd0d395a6220feedd78b87312">setDigitalCurrentDebugTTreeName</a>(<span class="keyword">const</span> std::string &amp;name)</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  {</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    m_digitalCurrentDebugTTreeName = name;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  }</div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a43f4b17fd0d395a6220feedd78b87312">   46</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a43f4b17fd0d395a6220feedd78b87312">setDigitalCurrentDebugTTreeName</a>(<span class="keyword">const</span> std::string &amp;name)</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    m_digitalCurrentDebugTTreeName = name;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  }</div>
 </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> NTPCPACKETS = 3;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  Packet **plist{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_NumSpecialEvents{0};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_BcoRange{0};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_NegativeBco{0};</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  std::map&lt;int, TpcTimeFrameBuilder *&gt; m_TpcTimeFrameBuilderMap;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  std::set&lt;int&gt; m_SelectedPacketIDs;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  TH1 *m_hNorm = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  PHTimer *m_FillPoolTimer = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  PHTimer *m_getNextEventTimer = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  PHTimer *m_ProcessPacketTimer = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  PHTimer *m_getTimeFrameTimer = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="comment">// NOLINTNEXTLINE(hicpp-special-member-functions)</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keyword">class </span>TimeTracker</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  {</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>   <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    TimeTracker(PHTimer *timer, <span class="keyword">const</span> std::string &amp;name, TH1 *hout);</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keyword">virtual</span> ~TimeTracker();</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> stop();</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>   <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    PHTimer *m_timer = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    std::string m_name;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    TH1 *m_hNorm = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordtype">bool</span> stopped = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  };</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  std::string m_digitalCurrentDebugTTreeName;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keyword">const</span> <span class="keywordtype">int</span> NTPCPACKETS = 3;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  Packet **plist{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_NumSpecialEvents{0};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_BcoRange{0};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_NegativeBco{0};</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  std::map&lt;int, TpcTimeFrameBuilder *&gt; m_TpcTimeFrameBuilderMap;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  std::set&lt;int&gt; m_SelectedPacketIDs;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  TH1 *m_hNorm = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  PHTimer *m_FillPoolTimer = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  PHTimer *m_getNextEventTimer = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  PHTimer *m_ProcessPacketTimer = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  PHTimer *m_getTimeFrameTimer = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="comment">// NOLINTNEXTLINE(hicpp-special-member-functions)</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keyword">class </span>TimeTracker</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  {</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>   <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    TimeTracker(PHTimer *timer, <span class="keyword">const</span> std::string &amp;name, TH1 *hout);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keyword">virtual</span> ~TimeTracker();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">void</span> stop();</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>   <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    PHTimer *m_timer = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    std::string m_name;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    TH1 *m_hNorm = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">bool</span> stopped = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  };</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  std::string m_digitalCurrentDebugTTreeName;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>};</div>
 </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aSingleStreamingInput_8h_html"><div class="ttname"><a href="../../d1/d25/SingleStreamingInput_8h.html">SingleStreamingInput.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
 <div class="ttc" id="aclassPHTimer_html"><div class="ttname"><a href="../../d0/d5e/classPHTimer.html">PHTimer</a></div><div class="ttdoc">high precision timer</div><div class="ttdef"><b>Definition</b> PHTimer.h:26</div></div>
-<div class="ttc" id="aclassSingleStreamingInput_html_ab8d5d36e00df8a48d3fdc95982f070db"><div class="ttname"><a href="../../d3/dbc/classSingleStreamingInput.html#ab8d5d36e00df8a48d3fdc95982f070db">SingleStreamingInput::SingleStreamingInput</a></div><div class="ttdeci">SingleStreamingInput(const std::string &amp;name)</div><div class="ttdoc">Construct a SingleStreamingInput module with the given name.</div><div class="ttdef"><b>Definition</b> SingleStreamingInput.cc:20</div></div>
+<div class="ttc" id="aclassSingleStreamingInput_html_ab8d5d36e00df8a48d3fdc95982f070db"><div class="ttname"><a href="../../d3/dbc/classSingleStreamingInput.html#ab8d5d36e00df8a48d3fdc95982f070db">SingleStreamingInput::SingleStreamingInput</a></div><div class="ttdeci">SingleStreamingInput(const std::string &amp;name)</div><div class="ttdoc">Construct a SingleStreamingInput module with the given name.</div><div class="ttdef"><b>Definition</b> SingleStreamingInput.cc:21</div></div>
 <div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a329b6b231347f7561dc7043b97c73341"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a329b6b231347f7561dc7043b97c73341">SingleTpcTimeFrameInput::SetBcoRange</a></div><div class="ttdeci">void SetBcoRange(const unsigned int i)</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.h:34</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a3e2bc423c5df9cbeba118829e086ab2b"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a3e2bc423c5df9cbeba118829e086ab2b">SingleTpcTimeFrameInput::ClearCurrentEvent</a></div><div class="ttdeci">void ClearCurrentEvent() override</div><div class="ttdoc">Deprecated method that aborts execution when called.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:389</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a43f4b17fd0d395a6220feedd78b87312"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a43f4b17fd0d395a6220feedd78b87312">SingleTpcTimeFrameInput::setDigitalCurrentDebugTTreeName</a></div><div class="ttdeci">void setDigitalCurrentDebugTTreeName(const std::string &amp;name)</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.h:45</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a53041d14c9418726f22ea1bfbac0ec99"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a53041d14c9418726f22ea1bfbac0ec99">SingleTpcTimeFrameInput::CleanupUsedPackets</a></div><div class="ttdeci">void CleanupUsedPackets(const uint64_t bclk) override</div><div class="ttdoc">Cleanup used packets older than the specified bus clock.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:370</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a71dce7d8791544522cc76a8c6ab1c4b4"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a71dce7d8791544522cc76a8c6ab1c4b4">SingleTpcTimeFrameInput::SingleTpcTimeFrameInput</a></div><div class="ttdeci">SingleTpcTimeFrameInput(const std::string &amp;name)</div><div class="ttdoc">Construct SingleTpcTimeFrameInput object.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:42</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a88175713d45adc82f2fe7046927eb7d1"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a88175713d45adc82f2fe7046927eb7d1">SingleTpcTimeFrameInput::CreateDSTNode</a></div><div class="ttdeci">void CreateDSTNode(PHCompositeNode *topNode) override</div><div class="ttdoc">Create the DST node hierarchy for TPC raw hit data.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:414</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a9d4970091d20fcf4269a7a304fa989e9"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a9d4970091d20fcf4269a7a304fa989e9">SingleTpcTimeFrameInput::FillPool</a></div><div class="ttdeci">void FillPool(const uint64_t targetBCO) override</div><div class="ttdoc">FillPool processes events and assembles Tpc time frames for the specified targetBCO.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:141</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_aa87e87323442afd9f14131835f51bae9"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#aa87e87323442afd9f14131835f51bae9">SingleTpcTimeFrameInput::ConfigureStreamingInputManager</a></div><div class="ttdeci">void ConfigureStreamingInputManager() override</div><div class="ttdoc">Configure the StreamingInputManager with TPC BCO settings.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:447</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_ab13c8a29d3ea1d4ae77a105e2ac8fd59"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#ab13c8a29d3ea1d4ae77a105e2ac8fd59">SingleTpcTimeFrameInput::Print</a></div><div class="ttdeci">void Print(const std::string &amp;what=&quot;ALL&quot;) const override</div><div class="ttdoc">Print selected internal maps based on query string.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:361</div></div>
-<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_ab9277be9ada222fe4286889c221ea833"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#ab9277be9ada222fe4286889c221ea833">SingleTpcTimeFrameInput::~SingleTpcTimeFrameInput</a></div><div class="ttdeci">~SingleTpcTimeFrameInput() override</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:76</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a3e2bc423c5df9cbeba118829e086ab2b"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a3e2bc423c5df9cbeba118829e086ab2b">SingleTpcTimeFrameInput::ClearCurrentEvent</a></div><div class="ttdeci">void ClearCurrentEvent() override</div><div class="ttdoc">Deprecated method that aborts execution when called.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:396</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a43f4b17fd0d395a6220feedd78b87312"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a43f4b17fd0d395a6220feedd78b87312">SingleTpcTimeFrameInput::setDigitalCurrentDebugTTreeName</a></div><div class="ttdeci">void setDigitalCurrentDebugTTreeName(const std::string &amp;name)</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.h:46</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a53041d14c9418726f22ea1bfbac0ec99"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a53041d14c9418726f22ea1bfbac0ec99">SingleTpcTimeFrameInput::CleanupUsedPackets</a></div><div class="ttdeci">void CleanupUsedPackets(const uint64_t bclk) override</div><div class="ttdoc">Cleanup used packets older than the specified bus clock.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:376</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a71dce7d8791544522cc76a8c6ab1c4b4"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a71dce7d8791544522cc76a8c6ab1c4b4">SingleTpcTimeFrameInput::SingleTpcTimeFrameInput</a></div><div class="ttdeci">SingleTpcTimeFrameInput(const std::string &amp;name)</div><div class="ttdoc">Construct SingleTpcTimeFrameInput object.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:43</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a88175713d45adc82f2fe7046927eb7d1"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a88175713d45adc82f2fe7046927eb7d1">SingleTpcTimeFrameInput::CreateDSTNode</a></div><div class="ttdeci">void CreateDSTNode(PHCompositeNode *topNode) override</div><div class="ttdoc">Create the DST node hierarchy for TPC raw hit data.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:422</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_a9d4970091d20fcf4269a7a304fa989e9"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#a9d4970091d20fcf4269a7a304fa989e9">SingleTpcTimeFrameInput::FillPool</a></div><div class="ttdeci">void FillPool(const uint64_t targetBCO) override</div><div class="ttdoc">FillPool processes events and assembles Tpc time frames for the specified targetBCO.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:146</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_aa87e87323442afd9f14131835f51bae9"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#aa87e87323442afd9f14131835f51bae9">SingleTpcTimeFrameInput::ConfigureStreamingInputManager</a></div><div class="ttdeci">void ConfigureStreamingInputManager() override</div><div class="ttdoc">Configure the StreamingInputManager with TPC BCO settings.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:456</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_ab13c8a29d3ea1d4ae77a105e2ac8fd59"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#ab13c8a29d3ea1d4ae77a105e2ac8fd59">SingleTpcTimeFrameInput::Print</a></div><div class="ttdeci">void Print(const std::string &amp;what=&quot;ALL&quot;) const override</div><div class="ttdoc">Print selected internal maps based on query string.</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:366</div></div>
+<div class="ttc" id="aclassSingleTpcTimeFrameInput_html_ab9277be9ada222fe4286889c221ea833"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#ab9277be9ada222fe4286889c221ea833">SingleTpcTimeFrameInput::~SingleTpcTimeFrameInput</a></div><div class="ttdeci">~SingleTpcTimeFrameInput() override</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.cc:77</div></div>
 <div class="ttc" id="aclassSingleTpcTimeFrameInput_html_ac48568bf28a74fa8d9ec7d448848a4c4"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#ac48568bf28a74fa8d9ec7d448848a4c4">SingleTpcTimeFrameInput::SetNegativeBco</a></div><div class="ttdeci">void SetNegativeBco(const unsigned int value)</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.h:36</div></div>
 <div class="ttc" id="aclassSingleTpcTimeFrameInput_html_ac702ee8e5d5587aabc285407a0db4998"><div class="ttname"><a href="../../d6/d0f/classSingleTpcTimeFrameInput.html#ac702ee8e5d5587aabc285407a0db4998">SingleTpcTimeFrameInput::AddPacketID</a></div><div class="ttdeci">void AddPacketID(const int packetID)</div><div class="ttdef"><b>Definition</b> SingleTpcTimeFrameInput.h:38</div></div>
-<div class="ttc" id="aclassTpcRawHit_html"><div class="ttname"><a href="../../d4/d14/classTpcRawHit.html">TpcRawHit</a></div><div class="ttdef"><b>Definition</b> TpcRawHit.h:15</div></div>
+<div class="ttc" id="aclassTpcRawHit_html"><div class="ttname"><a href="../../d4/d14/classTpcRawHit.html">TpcRawHit</a></div><div class="ttdef"><b>Definition</b> TpcRawHit.h:16</div></div>
 <div class="ttc" id="aclassTpcTimeFrameBuilder_html"><div class="ttname"><a href="../../dc/d28/classTpcTimeFrameBuilder.html">TpcTimeFrameBuilder</a></div><div class="ttdef"><b>Definition</b> TpcTimeFrameBuilder.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

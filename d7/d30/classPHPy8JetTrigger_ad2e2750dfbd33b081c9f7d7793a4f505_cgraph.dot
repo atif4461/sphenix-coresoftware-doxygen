@@ -6,7 +6,7 @@ digraph "PHPy8JetTrigger::~PHPy8JetTrigger"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node1 [id="Node000001",label="PHPy8JetTrigger::~PHPy8Jet\lTrigger",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Destructor prints the module configuration if verbosity level is greater than zero This comment was g..."];
+  Node1 [id="Node000001",label="PHPy8JetTrigger::~PHPy8Jet\lTrigger",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Destructor prints the module configuration if verbosity level is greater than zero."];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="PHPy8JetTrigger::PrintConfig",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d30/classPHPy8JetTrigger.html#aabe2eb28edd07ab650365b15809add8d",tooltip="Print configuration parameters of the PHPy8JetTrigger."];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -140,40 +141,40 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">class </span>G4UIcommand;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="foldopen" id="foldopen00060" data-start="{" data-end="};">
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../df/d05/classG4TBFieldMessenger.html">   60</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#aa845ac07751efd4b9dcd744a3e917cd9">G4TBFieldMessenger</a>: <span class="keyword">public</span> <a class="code hl_class" href="../../d7/d0e/classG4UImessenger.html">G4UImessenger</a></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>{</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#aa845ac07751efd4b9dcd744a3e917cd9">G4TBFieldMessenger</a>(<a class="code hl_class" href="../../d4/d2e/classG4TBMagneticFieldSetup.html">G4TBMagneticFieldSetup</a>* );</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>   <span class="keyword">virtual</span> <a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#a482d312fdbecfbbd9f80f5e22af0e8b9">~G4TBFieldMessenger</a>();</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#a19d728472bcdc59229624f09ca650831">SetNewValue</a>(G4UIcommand*, G4String);</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../df/d05/classG4TBFieldMessenger.html#aa0004dce1f864fd95e9ba62773fdd592">   67</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#aa0004dce1f864fd95e9ba62773fdd592">SetNewValue</a>(G4UIcommand*, G4int);</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <a class="code hl_class" href="../../d4/d2e/classG4TBMagneticFieldSetup.html">G4TBMagneticFieldSetup</a>*     fEFieldSetup;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    G4UIdirectory*             G4TBdetDir;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    G4UIcmdWithAnInteger*      StepperCmd;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    G4UIcmdWithADoubleAndUnit* ElFieldCmd;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    G4UIcmdWithADoubleAndUnit* MinStepCmd;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    G4UIcmdWithoutParameter*   UpdateCmd;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    G4UIcmdWithAString*        AbsMaterCmd;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="foldopen" id="foldopen00061" data-start="{" data-end="};">
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="../../df/d05/classG4TBFieldMessenger.html">   61</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#aa845ac07751efd4b9dcd744a3e917cd9">G4TBFieldMessenger</a>: <span class="keyword">public</span> <a class="code hl_class" href="../../d7/d0e/classG4UImessenger.html">G4UImessenger</a></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>{</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#aa845ac07751efd4b9dcd744a3e917cd9">G4TBFieldMessenger</a>(<a class="code hl_class" href="../../d4/d2e/classG4TBMagneticFieldSetup.html">G4TBMagneticFieldSetup</a>* );</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>   <span class="keyword">virtual</span> <a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#a482d312fdbecfbbd9f80f5e22af0e8b9">~G4TBFieldMessenger</a>();</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#a19d728472bcdc59229624f09ca650831">SetNewValue</a>(G4UIcommand*, G4String);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../df/d05/classG4TBFieldMessenger.html#aa0004dce1f864fd95e9ba62773fdd592">   68</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d05/classG4TBFieldMessenger.html#aa0004dce1f864fd95e9ba62773fdd592">SetNewValue</a>(G4UIcommand*, G4int);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <a class="code hl_class" href="../../d4/d2e/classG4TBMagneticFieldSetup.html">G4TBMagneticFieldSetup</a>*     fEFieldSetup;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    G4UIdirectory*             G4TBdetDir;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    G4UIcmdWithAnInteger*      StepperCmd;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    G4UIcmdWithADoubleAndUnit* ElFieldCmd;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    G4UIcmdWithADoubleAndUnit* MinStepCmd;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    G4UIcmdWithoutParameter*   UpdateCmd;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    G4UIcmdWithAString*        AbsMaterCmd;</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>};</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>};</div>
 </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="ttc" id="aclassG4TBFieldMessenger_html_a19d728472bcdc59229624f09ca650831"><div class="ttname"><a href="../../df/d05/classG4TBFieldMessenger.html#a19d728472bcdc59229624f09ca650831">G4TBFieldMessenger::SetNewValue</a></div><div class="ttdeci">void SetNewValue(G4UIcommand *, G4String)</div><div class="ttdoc">Process UI commands to configure the electric field setup.</div><div class="ttdef"><b>Definition</b> G4TBFieldMessenger.cc:120</div></div>
-<div class="ttc" id="aclassG4TBFieldMessenger_html_a482d312fdbecfbbd9f80f5e22af0e8b9"><div class="ttname"><a href="../../df/d05/classG4TBFieldMessenger.html#a482d312fdbecfbbd9f80f5e22af0e8b9">G4TBFieldMessenger::~G4TBFieldMessenger</a></div><div class="ttdeci">virtual ~G4TBFieldMessenger()</div><div class="ttdoc">Destructor releases allocated command and directory objects This comment was generated by openai/gpt-...</div><div class="ttdef"><b>Definition</b> G4TBFieldMessenger.cc:96</div></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="ttc" id="aclassG4TBFieldMessenger_html_a19d728472bcdc59229624f09ca650831"><div class="ttname"><a href="../../df/d05/classG4TBFieldMessenger.html#a19d728472bcdc59229624f09ca650831">G4TBFieldMessenger::SetNewValue</a></div><div class="ttdeci">void SetNewValue(G4UIcommand *, G4String)</div><div class="ttdoc">Process UI commands to configure the electric field setup.</div><div class="ttdef"><b>Definition</b> G4TBFieldMessenger.cc:123</div></div>
+<div class="ttc" id="aclassG4TBFieldMessenger_html_a482d312fdbecfbbd9f80f5e22af0e8b9"><div class="ttname"><a href="../../df/d05/classG4TBFieldMessenger.html#a482d312fdbecfbbd9f80f5e22af0e8b9">G4TBFieldMessenger::~G4TBFieldMessenger</a></div><div class="ttdeci">virtual ~G4TBFieldMessenger()</div><div class="ttdoc">Destructor releases allocated command and directory objects.</div><div class="ttdef"><b>Definition</b> G4TBFieldMessenger.cc:98</div></div>
 <div class="ttc" id="aclassG4TBFieldMessenger_html_aa0004dce1f864fd95e9ba62773fdd592"><div class="ttname"><a href="../../df/d05/classG4TBFieldMessenger.html#aa0004dce1f864fd95e9ba62773fdd592">G4TBFieldMessenger::SetNewValue</a></div><div class="ttdeci">void SetNewValue(G4UIcommand *, G4int)</div></div>
-<div class="ttc" id="aclassG4TBFieldMessenger_html_aa845ac07751efd4b9dcd744a3e917cd9"><div class="ttname"><a href="../../df/d05/classG4TBFieldMessenger.html#aa845ac07751efd4b9dcd744a3e917cd9">G4TBFieldMessenger::G4TBFieldMessenger</a></div><div class="ttdeci">G4TBFieldMessenger(G4TBMagneticFieldSetup *)</div><div class="ttdoc">Construct a G4TBFieldMessenger to control electric field tracking.</div><div class="ttdef"><b>Definition</b> G4TBFieldMessenger.cc:51</div></div>
-<div class="ttc" id="aclassG4TBMagneticFieldSetup_html"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html">G4TBMagneticFieldSetup</a></div><div class="ttdef"><b>Definition</b> G4TBMagneticFieldSetup.hh:62</div></div>
+<div class="ttc" id="aclassG4TBFieldMessenger_html_aa845ac07751efd4b9dcd744a3e917cd9"><div class="ttname"><a href="../../df/d05/classG4TBFieldMessenger.html#aa845ac07751efd4b9dcd744a3e917cd9">G4TBFieldMessenger::G4TBFieldMessenger</a></div><div class="ttdeci">G4TBFieldMessenger(G4TBMagneticFieldSetup *)</div><div class="ttdoc">Construct a G4TBFieldMessenger to control electric field tracking.</div><div class="ttdef"><b>Definition</b> G4TBFieldMessenger.cc:52</div></div>
+<div class="ttc" id="aclassG4TBMagneticFieldSetup_html"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html">G4TBMagneticFieldSetup</a></div><div class="ttdef"><b>Definition</b> G4TBMagneticFieldSetup.hh:63</div></div>
 <div class="ttc" id="aclassG4UImessenger_html"><div class="ttname"><a href="../../d7/d0e/classG4UImessenger.html">G4UImessenger</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

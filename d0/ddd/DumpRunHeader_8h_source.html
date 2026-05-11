@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,27 +101,27 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d82/classPHNode.html">PHNode</a>;</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d8/d22/classDumpRunHeader.html">   16</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d8/d22/classDumpRunHeader.html#a8334f3c55426360af6cb470d08cf831c">DumpRunHeader</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../db/d6a/classDumpObject.html#a9f58fb7e3b646731784bf683c60ca8f5">DumpObject</a></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <span class="keyword">explicit</span> <a class="code hl_function" href="../../d8/d22/classDumpRunHeader.html#a8334f3c55426360af6cb470d08cf831c">DumpRunHeader</a>(<span class="keyword">const</span> std::string &amp;NodeName);</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d8/d22/classDumpRunHeader.html#a5318c989eeae1bdb4e335d34c3efa95a">   20</a></span>  <a class="code hl_function" href="../../d8/d22/classDumpRunHeader.html#a5318c989eeae1bdb4e335d34c3efa95a">~DumpRunHeader</a>()<span class="keyword"> override </span>{}</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d8/d22/classDumpRunHeader.html#a3ae7ca796c4d1e5a0e111c26fbec6af4">process_Node</a>(<a class="code hl_class" href="../../dc/d82/classPHNode.html">PHNode</a> *mynode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d8/d22/classDumpRunHeader.html#ac0ca8efb3e47d227da16983cd1306b9c">   24</a></span>  <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d8/d22/classDumpRunHeader.html#ac0ca8efb3e47d227da16983cd1306b9c">node_written</a> = 0;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d8/d22/classDumpRunHeader.html">   17</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d8/d22/classDumpRunHeader.html#a8334f3c55426360af6cb470d08cf831c">DumpRunHeader</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../db/d6a/classDumpObject.html#a9f58fb7e3b646731784bf683c60ca8f5">DumpObject</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <span class="keyword">explicit</span> <a class="code hl_function" href="../../d8/d22/classDumpRunHeader.html#a8334f3c55426360af6cb470d08cf831c">DumpRunHeader</a>(<span class="keyword">const</span> std::string &amp;NodeName);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d8/d22/classDumpRunHeader.html#a5318c989eeae1bdb4e335d34c3efa95a">   21</a></span>  <a class="code hl_function" href="../../d8/d22/classDumpRunHeader.html#a5318c989eeae1bdb4e335d34c3efa95a">~DumpRunHeader</a>()<span class="keyword"> override </span>{}</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d8/d22/classDumpRunHeader.html#a3ae7ca796c4d1e5a0e111c26fbec6af4">process_Node</a>(<a class="code hl_class" href="../../dc/d82/classPHNode.html">PHNode</a> *mynode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d8/d22/classDumpRunHeader.html#ac0ca8efb3e47d227da16983cd1306b9c">   25</a></span>  <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d8/d22/classDumpRunHeader.html#ac0ca8efb3e47d227da16983cd1306b9c">node_written</a> = 0;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
 </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aDumpObject_8h_html"><div class="ttname"><a href="../../d5/dcd/DumpObject_8h.html">DumpObject.h</a></div></div>
-<div class="ttc" id="aclassDumpObject_html_a9f58fb7e3b646731784bf683c60ca8f5"><div class="ttname"><a href="../../db/d6a/classDumpObject.html#a9f58fb7e3b646731784bf683c60ca8f5">DumpObject::DumpObject</a></div><div class="ttdeci">DumpObject(const std::string &amp;NodeName=&quot;DUMMY&quot;)</div><div class="ttdoc">Constructor for DumpObject storing node name.</div><div class="ttdef"><b>Definition</b> DumpObject.cc:14</div></div>
-<div class="ttc" id="aclassDumpRunHeader_html_a3ae7ca796c4d1e5a0e111c26fbec6af4"><div class="ttname"><a href="../../d8/d22/classDumpRunHeader.html#a3ae7ca796c4d1e5a0e111c26fbec6af4">DumpRunHeader::process_Node</a></div><div class="ttdeci">int process_Node(PHNode *mynode) override</div><div class="ttdoc">Process a node to dump run header information.</div><div class="ttdef"><b>Definition</b> DumpRunHeader.cc:32</div></div>
-<div class="ttc" id="aclassDumpRunHeader_html_a5318c989eeae1bdb4e335d34c3efa95a"><div class="ttname"><a href="../../d8/d22/classDumpRunHeader.html#a5318c989eeae1bdb4e335d34c3efa95a">DumpRunHeader::~DumpRunHeader</a></div><div class="ttdeci">~DumpRunHeader() override</div><div class="ttdef"><b>Definition</b> DumpRunHeader.h:20</div></div>
-<div class="ttc" id="aclassDumpRunHeader_html_a8334f3c55426360af6cb470d08cf831c"><div class="ttname"><a href="../../d8/d22/classDumpRunHeader.html#a8334f3c55426360af6cb470d08cf831c">DumpRunHeader::DumpRunHeader</a></div><div class="ttdeci">DumpRunHeader(const std::string &amp;NodeName)</div><div class="ttdoc">Constructor initializing DumpRunHeader with a node name.</div><div class="ttdef"><b>Definition</b> DumpRunHeader.cc:19</div></div>
-<div class="ttc" id="aclassDumpRunHeader_html_ac0ca8efb3e47d227da16983cd1306b9c"><div class="ttname"><a href="../../d8/d22/classDumpRunHeader.html#ac0ca8efb3e47d227da16983cd1306b9c">DumpRunHeader::node_written</a></div><div class="ttdeci">int node_written</div><div class="ttdef"><b>Definition</b> DumpRunHeader.h:24</div></div>
-<div class="ttc" id="aclassPHNode_html"><div class="ttname"><a href="../../dc/d82/classPHNode.html">PHNode</a></div><div class="ttdef"><b>Definition</b> PHNode.h:21</div></div>
+<div class="ttc" id="aclassDumpObject_html_a9f58fb7e3b646731784bf683c60ca8f5"><div class="ttname"><a href="../../db/d6a/classDumpObject.html#a9f58fb7e3b646731784bf683c60ca8f5">DumpObject::DumpObject</a></div><div class="ttdeci">DumpObject(const std::string &amp;NodeName=&quot;DUMMY&quot;)</div><div class="ttdoc">Constructor for DumpObject storing node name.</div><div class="ttdef"><b>Definition</b> DumpObject.cc:15</div></div>
+<div class="ttc" id="aclassDumpRunHeader_html_a3ae7ca796c4d1e5a0e111c26fbec6af4"><div class="ttname"><a href="../../d8/d22/classDumpRunHeader.html#a3ae7ca796c4d1e5a0e111c26fbec6af4">DumpRunHeader::process_Node</a></div><div class="ttdeci">int process_Node(PHNode *mynode) override</div><div class="ttdoc">Process a node to dump run header information.</div><div class="ttdef"><b>Definition</b> DumpRunHeader.cc:34</div></div>
+<div class="ttc" id="aclassDumpRunHeader_html_a5318c989eeae1bdb4e335d34c3efa95a"><div class="ttname"><a href="../../d8/d22/classDumpRunHeader.html#a5318c989eeae1bdb4e335d34c3efa95a">DumpRunHeader::~DumpRunHeader</a></div><div class="ttdeci">~DumpRunHeader() override</div><div class="ttdef"><b>Definition</b> DumpRunHeader.h:21</div></div>
+<div class="ttc" id="aclassDumpRunHeader_html_a8334f3c55426360af6cb470d08cf831c"><div class="ttname"><a href="../../d8/d22/classDumpRunHeader.html#a8334f3c55426360af6cb470d08cf831c">DumpRunHeader::DumpRunHeader</a></div><div class="ttdeci">DumpRunHeader(const std::string &amp;NodeName)</div><div class="ttdoc">Constructor initializing DumpRunHeader with a node name.</div><div class="ttdef"><b>Definition</b> DumpRunHeader.cc:20</div></div>
+<div class="ttc" id="aclassDumpRunHeader_html_ac0ca8efb3e47d227da16983cd1306b9c"><div class="ttname"><a href="../../d8/d22/classDumpRunHeader.html#ac0ca8efb3e47d227da16983cd1306b9c">DumpRunHeader::node_written</a></div><div class="ttdeci">int node_written</div><div class="ttdef"><b>Definition</b> DumpRunHeader.h:25</div></div>
+<div class="ttc" id="aclassPHNode_html"><div class="ttname"><a href="../../dc/d82/classPHNode.html">PHNode</a></div><div class="ttdef"><b>Definition</b> PHNode.h:22</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

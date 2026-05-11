@@ -16,7 +16,7 @@ digraph "SvtxTrack_v2::SvtxTrack_v2"
   Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
   Node5 [id="Node000005",label="SvtxTrack::begin_states",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a18e3ed9f7254267fc820f817e328f7aa",tooltip="Return a constant iterator to the beginning of the track state collection."];
   Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
-  Node6 [id="Node000006",label="SvtxTrack_v2::clear\l_states",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d0b/classSvtxTrack__v2.html#a3322e459793b788dad62480463ccb994",tooltip="Clears all track states by deleting allocated objects and emptying the container This comment was gen..."];
+  Node6 [id="Node000006",label="SvtxTrack_v2::clear\l_states",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d0b/classSvtxTrack__v2.html#a3322e459793b788dad62480463ccb994",tooltip="Clears all track states by deleting allocated objects and emptying the container."];
   Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
   Node7 [id="Node000007",label="SvtxTrack::CopyFrom",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db8/classSvtxTrack.html#a5d25f0ad2128172ce8d07e105c8038a3",tooltip="copy content from base class"];
   Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];

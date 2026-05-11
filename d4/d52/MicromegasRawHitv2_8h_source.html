@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -142,65 +143,65 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../dc/d8b/classMicromegasRawHitv2.html#a285ad76e14c9ab175637a46843b4f1f8">   51</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a285ad76e14c9ab175637a46843b4f1f8">set_sampachannel</a>(<span class="keyword">const</span> uint16_t val)<span class="keyword"> override </span>{ sampachannel = val; }</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="comment">// index of the first sample with data</span> </div>
-<div class="foldopen" id="foldopen00059" data-start="{" data-end="}">
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../dc/d8b/classMicromegasRawHitv2.html#a0e26f8720e3eee0fc49979da767bdc79">   59</a></span>  uint16_t <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a0e26f8720e3eee0fc49979da767bdc79">get_sample_begin</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordflow">return</span> adcmap.empty() ? 0 : adcmap.begin()-&gt;first;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  }</div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../dc/d8b/classMicromegasRawHitv2.html#a0e26f8720e3eee0fc49979da767bdc79">   60</a></span>  uint16_t <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a0e26f8720e3eee0fc49979da767bdc79">get_sample_begin</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">return</span> adcmap.empty() ? 0 : adcmap.begin()-&gt;first;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  }</div>
 </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="comment">// index of the next to last sample with data</span> </div>
-<div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../dc/d8b/classMicromegasRawHitv2.html#a67c691be4e3a3aa1f98284532451eaa8">   70</a></span>  uint16_t <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a67c691be4e3a3aa1f98284532451eaa8">get_sample_end</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordflow">return</span> adcmap.empty() ? 0 : adcmap.rbegin()-&gt;first + 1;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="comment">// index of the next to last sample with data</span> </div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../dc/d8b/classMicromegasRawHitv2.html#a67c691be4e3a3aa1f98284532451eaa8">   72</a></span>  uint16_t <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a67c691be4e3a3aa1f98284532451eaa8">get_sample_end</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordflow">return</span> adcmap.empty() ? 0 : adcmap.rbegin()-&gt;first + 1;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  }</div>
 </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="comment">// adc value for a given sample index</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  uint16_t <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a6800086eb9b9296fcb570770bd9e882e">get_adc</a>(<span class="keyword">const</span> uint16_t sample) <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="comment">// cppcheck-suppress virtualCallInConstructor</span> </div>
-<div class="foldopen" id="foldopen00083" data-start="{" data-end="}">
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="../../dc/d8b/classMicromegasRawHitv2.html#a5231b585bbe9437def7687a341e909c5">   83</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a5231b585bbe9437def7687a341e909c5">set_adc</a>(<span class="keyword">const</span> uint16_t sample, <span class="keyword">const</span> uint16_t val)<span class="keyword"> override</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    adcmap[sample] = val;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  }</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="comment">// adc value for a given sample index</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  uint16_t <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a6800086eb9b9296fcb570770bd9e882e">get_adc</a>(<span class="keyword">const</span> uint16_t sample) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="comment">// cppcheck-suppress virtualCallInConstructor</span> </div>
+<div class="foldopen" id="foldopen00086" data-start="{" data-end="}">
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="../../dc/d8b/classMicromegasRawHitv2.html#a5231b585bbe9437def7687a341e909c5">   86</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#a5231b585bbe9437def7687a341e909c5">set_adc</a>(<span class="keyword">const</span> uint16_t sample, <span class="keyword">const</span> uint16_t val)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    adcmap[sample] = val;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  }</div>
 </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  uint64_t bco{std::numeric_limits&lt;uint64_t&gt;::max()};</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  uint64_t gtm_bco{std::numeric_limits&lt;uint64_t&gt;::max()};</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  int32_t packetid{std::numeric_limits&lt;int32_t&gt;::max()};</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  uint16_t fee{std::numeric_limits&lt;uint16_t&gt;::max()};</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  uint16_t channel{std::numeric_limits&lt;uint16_t&gt;::max()};</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  uint16_t sampaaddress{std::numeric_limits&lt;uint16_t&gt;::max()};</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  uint16_t sampachannel{std::numeric_limits&lt;uint16_t&gt;::max()};</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  std::map&lt;uint16_t, uint16_t&gt; adcmap;</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  ClassDefOverride(<a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#aeacda8cacc95c50d3051295753e96e11">MicromegasRawHitv2</a>, 1)</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>};</div>
-</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  uint64_t bco{std::numeric_limits&lt;uint64_t&gt;::max()};</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  uint64_t gtm_bco{std::numeric_limits&lt;uint64_t&gt;::max()};</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  int32_t packetid{std::numeric_limits&lt;int32_t&gt;::max()};</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  uint16_t fee{std::numeric_limits&lt;uint16_t&gt;::max()};</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  uint16_t channel{std::numeric_limits&lt;uint16_t&gt;::max()};</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  uint16_t sampaaddress{std::numeric_limits&lt;uint16_t&gt;::max()};</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  uint16_t sampachannel{std::numeric_limits&lt;uint16_t&gt;::max()};</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  std::map&lt;uint16_t, uint16_t&gt; adcmap;</div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  ClassDefOverride(<a class="code hl_function" href="../../dc/d8b/classMicromegasRawHitv2.html#aeacda8cacc95c50d3051295753e96e11">MicromegasRawHitv2</a>, 1)</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>};</div>
+</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMicromegasRawHit_8h_html"><div class="ttname"><a href="../../d0/d61/MicromegasRawHit_8h.html">MicromegasRawHit.h</a></div></div>
 <div class="ttc" id="aPHObject_8h_html"><div class="ttname"><a href="../../df/d32/PHObject_8h.html">PHObject.h</a></div></div>
 <div class="ttc" id="aclassMicromegasRawHit_html_abb506d862f3b50fe9bbdef719f22cf2a"><div class="ttname"><a href="../../d9/daf/classMicromegasRawHit.html#abb506d862f3b50fe9bbdef719f22cf2a">MicromegasRawHit::MicromegasRawHit</a></div><div class="ttdeci">MicromegasRawHit()=default</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_a0264ec7e6f02fe90c8206137f8743c52"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a0264ec7e6f02fe90c8206137f8743c52">MicromegasRawHitv2::get_sampaaddress</a></div><div class="ttdeci">uint16_t get_sampaaddress() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:45</div></div>
-<div class="ttc" id="aclassMicromegasRawHitv2_html_a0e26f8720e3eee0fc49979da767bdc79"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a0e26f8720e3eee0fc49979da767bdc79">MicromegasRawHitv2::get_sample_begin</a></div><div class="ttdeci">uint16_t get_sample_begin() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:59</div></div>
-<div class="ttc" id="aclassMicromegasRawHitv2_html_a1ed863d9cdcfc576f3946207a7dbcd1c"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a1ed863d9cdcfc576f3946207a7dbcd1c">MicromegasRawHitv2::Clear</a></div><div class="ttdeci">void Clear(Option_t *) override</div><div class="ttdoc">Reset the raw hit by clearing the ADC map.</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.cc:59</div></div>
+<div class="ttc" id="aclassMicromegasRawHitv2_html_a0e26f8720e3eee0fc49979da767bdc79"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a0e26f8720e3eee0fc49979da767bdc79">MicromegasRawHitv2::get_sample_begin</a></div><div class="ttdeci">uint16_t get_sample_begin() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:60</div></div>
+<div class="ttc" id="aclassMicromegasRawHitv2_html_a1ed863d9cdcfc576f3946207a7dbcd1c"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a1ed863d9cdcfc576f3946207a7dbcd1c">MicromegasRawHitv2::Clear</a></div><div class="ttdeci">void Clear(Option_t *) override</div><div class="ttdoc">Reset the raw hit by clearing the ADC map.</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.cc:63</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_a1f616366788687d98e214930da76926d"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a1f616366788687d98e214930da76926d">MicromegasRawHitv2::get_bco</a></div><div class="ttdeci">uint64_t get_bco() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:25</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_a25556084b74d22b46cae8f3134ac8edb"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a25556084b74d22b46cae8f3134ac8edb">MicromegasRawHitv2::set_channel</a></div><div class="ttdeci">void set_channel(const uint16_t val) override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:43</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_a2693c6303214a56ae0bc87f6e9c12c81"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a2693c6303214a56ae0bc87f6e9c12c81">MicromegasRawHitv2::get_sampachannel</a></div><div class="ttdeci">uint16_t get_sampachannel() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:49</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_a27b3f9f80416a7b37c93442516edbcb9"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a27b3f9f80416a7b37c93442516edbcb9">MicromegasRawHitv2::get_fee</a></div><div class="ttdeci">uint16_t get_fee() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:37</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_a285ad76e14c9ab175637a46843b4f1f8"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a285ad76e14c9ab175637a46843b4f1f8">MicromegasRawHitv2::set_sampachannel</a></div><div class="ttdeci">void set_sampachannel(const uint16_t val) override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:51</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_a2c5a46904043b74366b838050baf6ff0"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a2c5a46904043b74366b838050baf6ff0">MicromegasRawHitv2::get_packetid</a></div><div class="ttdeci">int32_t get_packetid() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:33</div></div>
-<div class="ttc" id="aclassMicromegasRawHitv2_html_a5231b585bbe9437def7687a341e909c5"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a5231b585bbe9437def7687a341e909c5">MicromegasRawHitv2::set_adc</a></div><div class="ttdeci">void set_adc(const uint16_t sample, const uint16_t val) override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:83</div></div>
-<div class="ttc" id="aclassMicromegasRawHitv2_html_a67c691be4e3a3aa1f98284532451eaa8"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a67c691be4e3a3aa1f98284532451eaa8">MicromegasRawHitv2::get_sample_end</a></div><div class="ttdeci">uint16_t get_sample_end() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:70</div></div>
-<div class="ttc" id="aclassMicromegasRawHitv2_html_a6800086eb9b9296fcb570770bd9e882e"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a6800086eb9b9296fcb570770bd9e882e">MicromegasRawHitv2::get_adc</a></div><div class="ttdeci">uint16_t get_adc(const uint16_t sample) const override</div><div class="ttdoc">Retrieve ADC value for given sample index.</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.cc:43</div></div>
+<div class="ttc" id="aclassMicromegasRawHitv2_html_a5231b585bbe9437def7687a341e909c5"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a5231b585bbe9437def7687a341e909c5">MicromegasRawHitv2::set_adc</a></div><div class="ttdeci">void set_adc(const uint16_t sample, const uint16_t val) override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:86</div></div>
+<div class="ttc" id="aclassMicromegasRawHitv2_html_a67c691be4e3a3aa1f98284532451eaa8"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a67c691be4e3a3aa1f98284532451eaa8">MicromegasRawHitv2::get_sample_end</a></div><div class="ttdeci">uint16_t get_sample_end() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:72</div></div>
+<div class="ttc" id="aclassMicromegasRawHitv2_html_a6800086eb9b9296fcb570770bd9e882e"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a6800086eb9b9296fcb570770bd9e882e">MicromegasRawHitv2::get_adc</a></div><div class="ttdeci">uint16_t get_adc(const uint16_t sample) const override</div><div class="ttdoc">Retrieve ADC value for given sample index.</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.cc:46</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_a896210cd7efc2b4facdfa8ab0062ae2c"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a896210cd7efc2b4facdfa8ab0062ae2c">MicromegasRawHitv2::set_gtm_bco</a></div><div class="ttdeci">void set_gtm_bco(const uint64_t val) override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:31</div></div>
-<div class="ttc" id="aclassMicromegasRawHitv2_html_a8d8724432f58c146b1b4120d4c05be17"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a8d8724432f58c146b1b4120d4c05be17">MicromegasRawHitv2::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const override</div><div class="ttdoc">Print MicromegasRawHitv2 identification information to output stream.</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.cc:31</div></div>
+<div class="ttc" id="aclassMicromegasRawHitv2_html_a8d8724432f58c146b1b4120d4c05be17"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#a8d8724432f58c146b1b4120d4c05be17">MicromegasRawHitv2::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const override</div><div class="ttdoc">Print MicromegasRawHitv2 identification information to output stream.</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.cc:33</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_aaa73d2054894f0518141b41215671e69"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#aaa73d2054894f0518141b41215671e69">MicromegasRawHitv2::get_channel</a></div><div class="ttdeci">uint16_t get_channel() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:41</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_ab3e8f16107c52e77f1b4f35ea8de801a"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#ab3e8f16107c52e77f1b4f35ea8de801a">MicromegasRawHitv2::get_gtm_bco</a></div><div class="ttdeci">uint64_t get_gtm_bco() const override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:29</div></div>
 <div class="ttc" id="aclassMicromegasRawHitv2_html_abc0bfc21c9348d68ca1f0468905562da"><div class="ttname"><a href="../../dc/d8b/classMicromegasRawHitv2.html#abc0bfc21c9348d68ca1f0468905562da">MicromegasRawHitv2::set_packetid</a></div><div class="ttdeci">void set_packetid(const int32_t val) override</div><div class="ttdef"><b>Definition</b> MicromegasRawHitv2.h:35</div></div>

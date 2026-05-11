@@ -8,7 +8,7 @@ digraph "PHParameterInterface::set_default_int_param"
   rankdir="RL";
   Node1 [id="Node000001",label="PHParameterInterface\l::set_default_int_param",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set default integer parameter in the parameter map."];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="HcalRawTowerBuilder\l::SetDefaultParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dec/classHcalRawTowerBuilder.html#a4b996e0a13bd90837ea79ce7920bacc7",tooltip="Initialize default integer and double parameters for Hcal tower construction This comment was generat..."];
+  Node2 [id="Node000002",label="HcalRawTowerBuilder\l::SetDefaultParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/dec/classHcalRawTowerBuilder.html#a4b996e0a13bd90837ea79ce7920bacc7",tooltip="Initialize default integer and double parameters for Hcal tower construction."];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node3 [id="Node000003",label="PHG4MvtxHitReco::SetDefault\lParameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d4d/classPHG4MvtxHitReco.html#a0fbd1213b4bc3a22d22b2c43470a4402",tooltip="parameters"];
   Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];

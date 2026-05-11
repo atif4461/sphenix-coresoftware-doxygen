@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -131,48 +132,48 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">void</span> SetDefaultParameters() <span class="keyword">override</span>; </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keyword">static</span> <span class="keywordtype">double</span> radii2Turbo(<span class="keywordtype">double</span> rMin, <span class="keywordtype">double</span> rMid, <span class="keywordtype">double</span> rMax, <span class="keywordtype">double</span> sensW)</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="comment">// compute turbo angle from radii and sensor width</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordflow">return</span> std::asin((rMax * rMax - rMin * rMin) / (2 * rMid * sensW));</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  }</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  PHG4MvtxDetector* m_Detector{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  PHG4SteppingAction* m_SteppingAction{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  PHG4DisplayAction* m_DisplayAction{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="comment">// These are passed on to the detector class</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> n_layers{0};</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  std::string detector_type;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  std::string m_HitNodeName;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  std::string m_SupportNodeName;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  std::string m_misalignmentFile = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordtype">bool</span> m_ApplyMisalignment{<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>};</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keyword">static</span> <span class="keywordtype">double</span> radii2Turbo(<span class="keywordtype">double</span> rMin, <span class="keywordtype">double</span> rMid, <span class="keywordtype">double</span> rMax, <span class="keywordtype">double</span> sensW)</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="comment">// compute turbo angle from radii and sensor width</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordflow">return</span> std::asin((rMax * rMax - rMin * rMin) / (2 * rMid * sensW));</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  PHG4MvtxDetector* m_Detector{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  PHG4SteppingAction* m_SteppingAction{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  PHG4DisplayAction* m_DisplayAction{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="comment">// These are passed on to the detector class</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> n_layers{0};</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  std::string detector_type;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  std::string m_HitNodeName;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  std::string m_SupportNodeName;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  std::string m_misalignmentFile = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  <span class="keywordtype">bool</span> m_ApplyMisalignment{<span class="keyword">false</span>};</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>};</div>
 </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aPHG4DetectorGroupSubsystem_8h_html"><div class="ttname"><a href="../../d5/d12/PHG4DetectorGroupSubsystem_8h.html">PHG4DetectorGroupSubsystem.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassPHG4DetectorGroupSubsystem_html_a8cdc204e3b2dee944c1dc1d4c198bcee"><div class="ttname"><a href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#a8cdc204e3b2dee944c1dc1d4c198bcee">PHG4DetectorGroupSubsystem::PHG4DetectorGroupSubsystem</a></div><div class="ttdeci">PHG4DetectorGroupSubsystem(const std::string &amp;name=&quot;GenericSubsystem&quot;, const int lyr=0)</div><div class="ttdoc">Construct PHG4DetectorGroupSubsystem with given name and layer.</div><div class="ttdef"><b>Definition</b> PHG4DetectorGroupSubsystem.cc:38</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassPHG4DetectorGroupSubsystem_html_a8cdc204e3b2dee944c1dc1d4c198bcee"><div class="ttname"><a href="../../d7/d7f/classPHG4DetectorGroupSubsystem.html#a8cdc204e3b2dee944c1dc1d4c198bcee">PHG4DetectorGroupSubsystem::PHG4DetectorGroupSubsystem</a></div><div class="ttdeci">PHG4DetectorGroupSubsystem(const std::string &amp;name=&quot;GenericSubsystem&quot;, const int lyr=0)</div><div class="ttdoc">Construct PHG4DetectorGroupSubsystem with given name and layer.</div><div class="ttdef"><b>Definition</b> PHG4DetectorGroupSubsystem.cc:39</div></div>
 <div class="ttc" id="aclassPHG4Detector_html"><div class="ttname"><a href="../../d3/de7/classPHG4Detector.html">PHG4Detector</a></div><div class="ttdoc">base class for phenix detector creation</div><div class="ttdef"><b>Definition</b> PHG4Detector.h:22</div></div>
 <div class="ttc" id="aclassPHG4DisplayAction_html"><div class="ttname"><a href="../../d2/d44/classPHG4DisplayAction.html">PHG4DisplayAction</a></div><div class="ttdef"><b>Definition</b> PHG4DisplayAction.h:11</div></div>
-<div class="ttc" id="aclassPHG4MvtxDetector_html"><div class="ttname"><a href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a></div><div class="ttdef"><b>Definition</b> PHG4MvtxDetector.h:37</div></div>
+<div class="ttc" id="aclassPHG4MvtxDetector_html"><div class="ttname"><a href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a></div><div class="ttdef"><b>Definition</b> PHG4MvtxDetector.h:38</div></div>
 <div class="ttc" id="aclassPHG4MvtxSubsystem_html_a1e7e27e07d4ede1283b41d9a45a06222"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a1e7e27e07d4ede1283b41d9a45a06222">PHG4MvtxSubsystem::MisalignmentFile</a></div><div class="ttdeci">void MisalignmentFile(const std::string &amp;filename)</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.h:49</div></div>
-<div class="ttc" id="aclassPHG4MvtxSubsystem_html_a303c4186842a984fbcd9788e9236246a"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a303c4186842a984fbcd9788e9236246a">PHG4MvtxSubsystem::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">event processing</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:190</div></div>
-<div class="ttc" id="aclassPHG4MvtxSubsystem_html_a3af23d4328867010422c1e576a8ac8dc"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a3af23d4328867010422c1e576a8ac8dc">PHG4MvtxSubsystem::PHG4MvtxSubsystem</a></div><div class="ttdeci">PHG4MvtxSubsystem(const std::string &amp;name=&quot;PHG4MvtxSubsystem&quot;, const int _n_layers=3)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:42</div></div>
-<div class="ttc" id="aclassPHG4MvtxSubsystem_html_a3cd7f169e1afc89b8b75ab8023428ce4"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a3cd7f169e1afc89b8b75ab8023428ce4">PHG4MvtxSubsystem::GetDetector</a></div><div class="ttdeci">PHG4Detector * GetDetector(void) const override</div><div class="ttdoc">accessors (reimplemented)</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:207</div></div>
-<div class="ttc" id="aclassPHG4MvtxSubsystem_html_a698917899ae3935c4cca553df1cae8dc"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a698917899ae3935c4cca553df1cae8dc">PHG4MvtxSubsystem::~PHG4MvtxSubsystem</a></div><div class="ttdeci">~PHG4MvtxSubsystem() override</div><div class="ttdoc">destructor</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:65</div></div>
+<div class="ttc" id="aclassPHG4MvtxSubsystem_html_a303c4186842a984fbcd9788e9236246a"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a303c4186842a984fbcd9788e9236246a">PHG4MvtxSubsystem::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">event processing</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:194</div></div>
+<div class="ttc" id="aclassPHG4MvtxSubsystem_html_a3af23d4328867010422c1e576a8ac8dc"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a3af23d4328867010422c1e576a8ac8dc">PHG4MvtxSubsystem::PHG4MvtxSubsystem</a></div><div class="ttdeci">PHG4MvtxSubsystem(const std::string &amp;name=&quot;PHG4MvtxSubsystem&quot;, const int _n_layers=3)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:43</div></div>
+<div class="ttc" id="aclassPHG4MvtxSubsystem_html_a3cd7f169e1afc89b8b75ab8023428ce4"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a3cd7f169e1afc89b8b75ab8023428ce4">PHG4MvtxSubsystem::GetDetector</a></div><div class="ttdeci">PHG4Detector * GetDetector(void) const override</div><div class="ttdoc">accessors (reimplemented)</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:212</div></div>
+<div class="ttc" id="aclassPHG4MvtxSubsystem_html_a698917899ae3935c4cca553df1cae8dc"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a698917899ae3935c4cca553df1cae8dc">PHG4MvtxSubsystem::~PHG4MvtxSubsystem</a></div><div class="ttdeci">~PHG4MvtxSubsystem() override</div><div class="ttdoc">destructor</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:67</div></div>
 <div class="ttc" id="aclassPHG4MvtxSubsystem_html_a78d9422aa90e561de65f2fb9eecb5fe3"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a78d9422aa90e561de65f2fb9eecb5fe3">PHG4MvtxSubsystem::GetDisplayAction</a></div><div class="ttdeci">PHG4DisplayAction * GetDisplayAction() const override</div><div class="ttdoc">return pointer to this subsystem display setting</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.h:46</div></div>
 <div class="ttc" id="aclassPHG4MvtxSubsystem_html_a832dd2ef4ac133f5ac4a65f069145f66"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#a832dd2ef4ac133f5ac4a65f069145f66">PHG4MvtxSubsystem::Apply_Misalignment</a></div><div class="ttdeci">void Apply_Misalignment(bool b)</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.h:48</div></div>
-<div class="ttc" id="aclassPHG4MvtxSubsystem_html_aaf7e1f3aa39a7095eb64bab00d56509d"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#aaf7e1f3aa39a7095eb64bab00d56509d">PHG4MvtxSubsystem::InitRunSubsystem</a></div><div class="ttdeci">int InitRunSubsystem(PHCompositeNode *) override</div><div class="ttdoc">InitRunSubsystem.</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:77</div></div>
+<div class="ttc" id="aclassPHG4MvtxSubsystem_html_aaf7e1f3aa39a7095eb64bab00d56509d"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#aaf7e1f3aa39a7095eb64bab00d56509d">PHG4MvtxSubsystem::InitRunSubsystem</a></div><div class="ttdeci">int InitRunSubsystem(PHCompositeNode *) override</div><div class="ttdoc">InitRunSubsystem.</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.cc:80</div></div>
 <div class="ttc" id="aclassPHG4MvtxSubsystem_html_ac73d0288744584f3256fa33be0c9cd23"><div class="ttname"><a href="../../d9/dbf/classPHG4MvtxSubsystem.html#ac73d0288744584f3256fa33be0c9cd23">PHG4MvtxSubsystem::GetSteppingAction</a></div><div class="ttdeci">PHG4SteppingAction * GetSteppingAction(void) const override</div><div class="ttdoc">return pointer to this subsystem stepping action</div><div class="ttdef"><b>Definition</b> PHG4MvtxSubsystem.h:44</div></div>
-<div class="ttc" id="aclassPHG4SteppingAction_html"><div class="ttname"><a href="../../df/d3f/classPHG4SteppingAction.html">PHG4SteppingAction</a></div><div class="ttdoc">Base class for detector stepping actions in the Fun4All framework.</div><div class="ttdef"><b>Definition</b> PHG4SteppingAction.h:52</div></div>
+<div class="ttc" id="aclassPHG4SteppingAction_html"><div class="ttname"><a href="../../df/d3f/classPHG4SteppingAction.html">PHG4SteppingAction</a></div><div class="ttdoc">Base class for detector stepping actions in the Fun4All framework.</div><div class="ttdef"><b>Definition</b> PHG4SteppingAction.h:53</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

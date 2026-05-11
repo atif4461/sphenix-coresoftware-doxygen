@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -99,28 +100,28 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d05/classLaserEventInfo.html">LaserEventInfo</a>;</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>;</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d8/d85/classLaserEventRejecter.html">   17</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d8/d85/classLaserEventRejecter.html#a6425e002321e7af162ec4c13c74afa61">LaserEventRejecter</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <a class="code hl_function" href="../../d8/d85/classLaserEventRejecter.html#a6425e002321e7af162ec4c13c74afa61">LaserEventRejecter</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;LaserEventRejecter&quot;</span>);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d8/d85/classLaserEventRejecter.html#a8c73f034a86bf5170fdf3706e8f9f5e9">   21</a></span>  <a class="code hl_function" href="../../d8/d85/classLaserEventRejecter.html#a8c73f034a86bf5170fdf3706e8f9f5e9">~LaserEventRejecter</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d8/d85/classLaserEventRejecter.html#a0accddc8a08554a78b097180e274aab1">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <a class="code hl_class" href="../../dc/d05/classLaserEventInfo.html">LaserEventInfo</a> *m_laserEventInfo = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d8/d85/classLaserEventRejecter.html">   18</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d8/d85/classLaserEventRejecter.html#a6425e002321e7af162ec4c13c74afa61">LaserEventRejecter</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  <a class="code hl_function" href="../../d8/d85/classLaserEventRejecter.html#a6425e002321e7af162ec4c13c74afa61">LaserEventRejecter</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;LaserEventRejecter&quot;</span>);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d8/d85/classLaserEventRejecter.html#a8c73f034a86bf5170fdf3706e8f9f5e9">   22</a></span>  <a class="code hl_function" href="../../d8/d85/classLaserEventRejecter.html#a8c73f034a86bf5170fdf3706e8f9f5e9">~LaserEventRejecter</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d8/d85/classLaserEventRejecter.html#a0accddc8a08554a78b097180e274aab1">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <a class="code hl_class" href="../../dc/d05/classLaserEventInfo.html">LaserEventInfo</a> *m_laserEventInfo = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassLaserEventInfo_html"><div class="ttname"><a href="../../dc/d05/classLaserEventInfo.html">LaserEventInfo</a></div><div class="ttdef"><b>Definition</b> LaserEventInfo.h:21</div></div>
-<div class="ttc" id="aclassLaserEventRejecter_html_a0accddc8a08554a78b097180e274aab1"><div class="ttname"><a href="../../d8/d85/classLaserEventRejecter.html#a0accddc8a08554a78b097180e274aab1">LaserEventRejecter::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and reject laser events based on run number and laser flags.</div><div class="ttdef"><b>Definition</b> LaserEventRejecter.cc:28</div></div>
-<div class="ttc" id="aclassLaserEventRejecter_html_a6425e002321e7af162ec4c13c74afa61"><div class="ttname"><a href="../../d8/d85/classLaserEventRejecter.html#a6425e002321e7af162ec4c13c74afa61">LaserEventRejecter::LaserEventRejecter</a></div><div class="ttdeci">LaserEventRejecter(const std::string &amp;name=&quot;LaserEventRejecter&quot;)</div><div class="ttdoc">Constructor for LaserEventRejecter.</div><div class="ttdef"><b>Definition</b> LaserEventRejecter.cc:17</div></div>
+<div class="ttc" id="aclassLaserEventInfo_html"><div class="ttname"><a href="../../dc/d05/classLaserEventInfo.html">LaserEventInfo</a></div><div class="ttdef"><b>Definition</b> LaserEventInfo.h:22</div></div>
+<div class="ttc" id="aclassLaserEventRejecter_html_a0accddc8a08554a78b097180e274aab1"><div class="ttname"><a href="../../d8/d85/classLaserEventRejecter.html#a0accddc8a08554a78b097180e274aab1">LaserEventRejecter::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and reject laser events based on run number and laser flags.</div><div class="ttdef"><b>Definition</b> LaserEventRejecter.cc:30</div></div>
+<div class="ttc" id="aclassLaserEventRejecter_html_a6425e002321e7af162ec4c13c74afa61"><div class="ttname"><a href="../../d8/d85/classLaserEventRejecter.html#a6425e002321e7af162ec4c13c74afa61">LaserEventRejecter::LaserEventRejecter</a></div><div class="ttdeci">LaserEventRejecter(const std::string &amp;name=&quot;LaserEventRejecter&quot;)</div><div class="ttdoc">Constructor for LaserEventRejecter.</div><div class="ttdef"><b>Definition</b> LaserEventRejecter.cc:18</div></div>
 <div class="ttc" id="aclassLaserEventRejecter_html_a8c73f034a86bf5170fdf3706e8f9f5e9"><div class="ttname"><a href="../../d8/d85/classLaserEventRejecter.html#a8c73f034a86bf5170fdf3706e8f9f5e9">LaserEventRejecter::~LaserEventRejecter</a></div><div class="ttdeci">~LaserEventRejecter() override=default</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

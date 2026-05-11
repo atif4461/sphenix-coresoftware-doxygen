@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -129,45 +130,45 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d6/df6/classTpcChanQA.html#ab236df2e809130ac12871730d23652da">   36</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/df6/classTpcChanQA.html#ab236df2e809130ac12871730d23652da">set_filename</a>(<span class="keyword">const</span> std::string &amp;fname) { m_fname = fname; }</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="comment">// Define function that stores packets to a vector</span> </div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d6/df6/classTpcChanQA.html#a559254f59acf02a3e43623a636b91b7f">   43</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/df6/classTpcChanQA.html#a559254f59acf02a3e43623a636b91b7f">AddPacket</a>(<span class="keywordtype">int</span> packet)</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    m_packets.push_back(packet);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  }</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d6/df6/classTpcChanQA.html#a559254f59acf02a3e43623a636b91b7f">   44</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/df6/classTpcChanQA.html#a559254f59acf02a3e43623a636b91b7f">AddPacket</a>(<span class="keywordtype">int</span> packet)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    m_packets.push_back(packet);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  }</div>
 </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="comment">// List of private members</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  TH1 *h_channel_hits{<span class="keyword">nullptr</span>};  <span class="comment">// Histogram of hits per channel</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  TH2 *h_channel_ADCs{<span class="keyword">nullptr</span>};  <span class="comment">// Histogram of ADC counts per channel</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keywordtype">int</span> side{0};                <span class="comment">// Face of the TPC (0==North &amp;&amp; 1==South)</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keywordtype">int</span> m_packet{0};            <span class="comment">// packet number</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keywordtype">int</span> m_nWaveformInFrame{0};  <span class="comment">// Number of waveforms in a frame</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">int</span> m_Channel{0};           <span class="comment">// Channel number</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keywordtype">int</span> m_nSamples{0};          <span class="comment">// Number of samples in waveform</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keywordtype">void</span> createHistos();</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  std::string getHistoPrefix() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  std::string m_fname;    <span class="comment">// Name of file given to program</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  std::string sectorNum;  <span class="comment">// Sector number associated with data file</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  std::vector&lt;int&gt; m_packets;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  std::vector&lt;unsigned short&gt; m_adcSamples;  <span class="comment">// ADC values in waveform</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="comment">// List of private members</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  TH1 *h_channel_hits{<span class="keyword">nullptr</span>};  <span class="comment">// Histogram of hits per channel</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  TH2 *h_channel_ADCs{<span class="keyword">nullptr</span>};  <span class="comment">// Histogram of ADC counts per channel</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keywordtype">int</span> side{0};                <span class="comment">// Face of the TPC (0==North &amp;&amp; 1==South)</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keywordtype">int</span> m_packet{0};            <span class="comment">// packet number</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">int</span> m_nWaveformInFrame{0};  <span class="comment">// Number of waveforms in a frame</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keywordtype">int</span> m_Channel{0};           <span class="comment">// Channel number</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keywordtype">int</span> m_nSamples{0};          <span class="comment">// Number of samples in waveform</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keywordtype">void</span> createHistos();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  std::string getHistoPrefix() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  std::string m_fname;    <span class="comment">// Name of file given to program</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  std::string sectorNum;  <span class="comment">// Sector number associated with data file</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  std::vector&lt;int&gt; m_packets;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  std::vector&lt;unsigned short&gt; m_adcSamples;  <span class="comment">// ADC values in waveform</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>};</div>
 </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif  </span><span class="comment">// ends preprocessing if TpcFFTQA.h has already been defined</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#endif  </span><span class="comment">// ends preprocessing if TpcFFTQA.h has already been defined</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
-<div class="ttc" id="aclassTpcChanQA_html_a53e514f3bd14693e0282ba85f47356f3"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#a53e514f3bd14693e0282ba85f47356f3">TpcChanQA::TpcChanQA</a></div><div class="ttdeci">TpcChanQA(const std::string &amp;name=&quot;TpcChanQA.root&quot;)</div><div class="ttdoc">Constructor for TpcChanQA initializing subsystem name and reserving ADC sample buffer.</div><div class="ttdef"><b>Definition</b> TpcChanQA.cc:36</div></div>
-<div class="ttc" id="aclassTpcChanQA_html_a559254f59acf02a3e43623a636b91b7f"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#a559254f59acf02a3e43623a636b91b7f">TpcChanQA::AddPacket</a></div><div class="ttdeci">void AddPacket(int packet)</div><div class="ttdef"><b>Definition</b> TpcChanQA.h:43</div></div>
-<div class="ttc" id="aclassTpcChanQA_html_a74a84597b866892adcff34cdad25275f"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#a74a84597b866892adcff34cdad25275f">TpcChanQA::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Called after processing is finished.</div><div class="ttdef"><b>Definition</b> TpcChanQA.cc:172</div></div>
-<div class="ttc" id="aclassTpcChanQA_html_a8c2c9cf2ff3ab0d1fc47ef35fd607a46"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#a8c2c9cf2ff3ab0d1fc47ef35fd607a46">TpcChanQA::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific settings for TpcChanQA.</div><div class="ttdef"><b>Definition</b> TpcChanQA.cc:54</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
+<div class="ttc" id="aclassTpcChanQA_html_a53e514f3bd14693e0282ba85f47356f3"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#a53e514f3bd14693e0282ba85f47356f3">TpcChanQA::TpcChanQA</a></div><div class="ttdeci">TpcChanQA(const std::string &amp;name=&quot;TpcChanQA.root&quot;)</div><div class="ttdoc">Constructor for TpcChanQA initializing subsystem name and reserving ADC sample buffer.</div><div class="ttdef"><b>Definition</b> TpcChanQA.cc:37</div></div>
+<div class="ttc" id="aclassTpcChanQA_html_a559254f59acf02a3e43623a636b91b7f"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#a559254f59acf02a3e43623a636b91b7f">TpcChanQA::AddPacket</a></div><div class="ttdeci">void AddPacket(int packet)</div><div class="ttdef"><b>Definition</b> TpcChanQA.h:44</div></div>
+<div class="ttc" id="aclassTpcChanQA_html_a74a84597b866892adcff34cdad25275f"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#a74a84597b866892adcff34cdad25275f">TpcChanQA::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Called after processing is finished.</div><div class="ttdef"><b>Definition</b> TpcChanQA.cc:176</div></div>
+<div class="ttc" id="aclassTpcChanQA_html_a8c2c9cf2ff3ab0d1fc47ef35fd607a46"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#a8c2c9cf2ff3ab0d1fc47ef35fd607a46">TpcChanQA::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific settings for TpcChanQA.</div><div class="ttdef"><b>Definition</b> TpcChanQA.cc:56</div></div>
 <div class="ttc" id="aclassTpcChanQA_html_ab236df2e809130ac12871730d23652da"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#ab236df2e809130ac12871730d23652da">TpcChanQA::set_filename</a></div><div class="ttdeci">void set_filename(const std::string &amp;fname)</div><div class="ttdef"><b>Definition</b> TpcChanQA.h:36</div></div>
-<div class="ttc" id="aclassTpcChanQA_html_ad6195e0d84a311edc655d2541225b07c"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#ad6195e0d84a311edc655d2541225b07c">TpcChanQA::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and fill TPC channel histograms.</div><div class="ttdef"><b>Definition</b> TpcChanQA.cc:85</div></div>
+<div class="ttc" id="aclassTpcChanQA_html_ad6195e0d84a311edc655d2541225b07c"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#ad6195e0d84a311edc655d2541225b07c">TpcChanQA::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and fill TPC channel histograms.</div><div class="ttdef"><b>Definition</b> TpcChanQA.cc:88</div></div>
 <div class="ttc" id="aclassTpcChanQA_html_af11703944e58da11d2918c56da9568f7"><div class="ttname"><a href="../../d6/df6/classTpcChanQA.html#af11703944e58da11d2918c56da9568f7">TpcChanQA::~TpcChanQA</a></div><div class="ttdeci">~TpcChanQA() override=default</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

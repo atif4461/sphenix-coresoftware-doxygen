@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -135,27 +136,27 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d38/PHG4GDMLWriteSolids_8hh.html">PHG4GDMLWriteSolids.hh</a>&quot;</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="foldopen" id="foldopen00050" data-start="{" data-end="};">
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../df/d0d/classPHG4GDMLWriteSetup.html">   50</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aaa317f63815742461c518abb854d721b">PHG4GDMLWriteSetup</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d94/classPHG4GDMLWriteSolids.html#a05ab8c182b32785d2b78819cb9024390">PHG4GDMLWriteSolids</a></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>{</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d0d/classPHG4GDMLWriteSetup.html#a41721b14839977bdb004774d4ed6c8ba">SetupWrite</a>(xercesc::DOMElement*, <span class="keyword">const</span> G4LogicalVolume* <span class="keyword">const</span>);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> <span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aaa317f63815742461c518abb854d721b">   58</a></span>   <a class="code hl_function" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aaa317f63815742461c518abb854d721b">PHG4GDMLWriteSetup</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aecba51da8520999af311b62803e8a28d">   59</a></span>   <span class="keyword">virtual</span> <a class="code hl_function" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aecba51da8520999af311b62803e8a28d">~PHG4GDMLWriteSetup</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
+<div class="foldopen" id="foldopen00051" data-start="{" data-end="};">
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../df/d0d/classPHG4GDMLWriteSetup.html">   51</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aaa317f63815742461c518abb854d721b">PHG4GDMLWriteSetup</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d94/classPHG4GDMLWriteSolids.html#a05ab8c182b32785d2b78819cb9024390">PHG4GDMLWriteSolids</a></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>{</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/d0d/classPHG4GDMLWriteSetup.html#a41721b14839977bdb004774d4ed6c8ba">SetupWrite</a>(xercesc::DOMElement*, <span class="keyword">const</span> G4LogicalVolume* <span class="keyword">const</span>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aaa317f63815742461c518abb854d721b">   59</a></span>   <a class="code hl_function" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aaa317f63815742461c518abb854d721b">PHG4GDMLWriteSetup</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aecba51da8520999af311b62803e8a28d">   60</a></span>   <span class="keyword">virtual</span> <a class="code hl_function" href="../../df/d0d/classPHG4GDMLWriteSetup.html#aecba51da8520999af311b62803e8a28d">~PHG4GDMLWriteSetup</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
 </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aPHG4GDMLWriteSolids_8hh_html"><div class="ttname"><a href="../../d5/d38/PHG4GDMLWriteSolids_8hh.html">PHG4GDMLWriteSolids.hh</a></div></div>
-<div class="ttc" id="aclassPHG4GDMLWriteSetup_html_a41721b14839977bdb004774d4ed6c8ba"><div class="ttname"><a href="../../df/d0d/classPHG4GDMLWriteSetup.html#a41721b14839977bdb004774d4ed6c8ba">PHG4GDMLWriteSetup::SetupWrite</a></div><div class="ttdeci">virtual void SetupWrite(xercesc::DOMElement *, const G4LogicalVolume *const)</div><div class="ttdoc">Write GDML setup element for given logical volume.</div><div class="ttdef"><b>Definition</b> PHG4GDMLWriteSetup.cc:45</div></div>
+<div class="ttc" id="aclassPHG4GDMLWriteSetup_html_a41721b14839977bdb004774d4ed6c8ba"><div class="ttname"><a href="../../df/d0d/classPHG4GDMLWriteSetup.html#a41721b14839977bdb004774d4ed6c8ba">PHG4GDMLWriteSetup::SetupWrite</a></div><div class="ttdeci">virtual void SetupWrite(xercesc::DOMElement *, const G4LogicalVolume *const)</div><div class="ttdoc">Write GDML setup element for given logical volume.</div><div class="ttdef"><b>Definition</b> PHG4GDMLWriteSetup.cc:46</div></div>
 <div class="ttc" id="aclassPHG4GDMLWriteSetup_html_aaa317f63815742461c518abb854d721b"><div class="ttname"><a href="../../df/d0d/classPHG4GDMLWriteSetup.html#aaa317f63815742461c518abb854d721b">PHG4GDMLWriteSetup::PHG4GDMLWriteSetup</a></div><div class="ttdeci">PHG4GDMLWriteSetup()=default</div></div>
 <div class="ttc" id="aclassPHG4GDMLWriteSetup_html_aecba51da8520999af311b62803e8a28d"><div class="ttname"><a href="../../df/d0d/classPHG4GDMLWriteSetup.html#aecba51da8520999af311b62803e8a28d">PHG4GDMLWriteSetup::~PHG4GDMLWriteSetup</a></div><div class="ttdeci">virtual ~PHG4GDMLWriteSetup()=default</div></div>
-<div class="ttc" id="aclassPHG4GDMLWriteSolids_html_a05ab8c182b32785d2b78819cb9024390"><div class="ttname"><a href="../../d0/d94/classPHG4GDMLWriteSolids.html#a05ab8c182b32785d2b78819cb9024390">PHG4GDMLWriteSolids::PHG4GDMLWriteSolids</a></div><div class="ttdeci">PHG4GDMLWriteSolids()</div><div class="ttdoc">Construct a PHG4GDMLWriteSolids object initializing the solids element pointer to null This comment w...</div><div class="ttdef"><b>Definition</b> PHG4GDMLWriteSolids.cc:76</div></div>
+<div class="ttc" id="aclassPHG4GDMLWriteSolids_html_a05ab8c182b32785d2b78819cb9024390"><div class="ttname"><a href="../../d0/d94/classPHG4GDMLWriteSolids.html#a05ab8c182b32785d2b78819cb9024390">PHG4GDMLWriteSolids::PHG4GDMLWriteSolids</a></div><div class="ttdeci">PHG4GDMLWriteSolids()</div><div class="ttdoc">Construct a PHG4GDMLWriteSolids object initializing the solids element pointer to null.</div><div class="ttdef"><b>Definition</b> PHG4GDMLWriteSolids.cc:77</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -10,5 +10,5 @@ digraph "SvtxTrack_v4::CloneMe"
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="PHObject::PHObject",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff",tooltip="ctor"];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="SvtxTrack_v4::SvtxTrack_v4",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db9/classSvtxTrack__v4.html#a956a4c4efad1c13eb447333b82b3b62f",tooltip="Default constructor creates a SvtxTrack_v4 and inserts a PCA state at surface zero This comment was g..."];
+  Node3 [id="Node000003",label="SvtxTrack_v4::SvtxTrack_v4",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d2/db9/classSvtxTrack__v4.html#a956a4c4efad1c13eb447333b82b3b62f",tooltip="Default constructor creates a SvtxTrack_v4 and inserts a PCA state at surface zero."];
 }

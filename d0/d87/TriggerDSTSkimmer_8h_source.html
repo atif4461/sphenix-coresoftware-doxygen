@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -116,35 +117,35 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d1/db1/classTriggerDSTSkimmer.html#a02ce49b13e725c67c98f8d8edbb91982">   23</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/db1/classTriggerDSTSkimmer.html#a02ce49b13e725c67c98f8d8edbb91982">SetTrigger</a>(std::vector&lt;int&gt; &amp;trigger_vector) {m_trigger_index = trigger_vector;}</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="foldopen" id="foldopen00030" data-start="{" data-end="}">
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d1/db1/classTriggerDSTSkimmer.html#a347e054d10b96c93f0e0e88c44ff82db">   30</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/db1/classTriggerDSTSkimmer.html#a347e054d10b96c93f0e0e88c44ff82db">set_accept_max</a>(<span class="keywordtype">int</span> max_events) </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    use_max_accept = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    max_accept = max_events;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  }</div>
+<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d1/db1/classTriggerDSTSkimmer.html#a347e054d10b96c93f0e0e88c44ff82db">   31</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/db1/classTriggerDSTSkimmer.html#a347e054d10b96c93f0e0e88c44ff82db">set_accept_max</a>(<span class="keywordtype">int</span> max_events) </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    use_max_accept = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    max_accept = max_events;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  }</div>
 </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  std::vector&lt;int&gt; m_trigger_index{10}; </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">int</span> ievent{0};</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">int</span> accepted_events{0};</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">int</span> max_accept{0};</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">bool</span> use_max_accept{<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  std::vector&lt;int&gt; m_trigger_index{10}; </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">int</span> ievent{0};</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">int</span> accepted_events{0};</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">int</span> max_accept{0};</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">bool</span> use_max_accept{<span class="keyword">false</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
 </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif </span><span class="comment">// JETDSTSKIMMER_H</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif </span><span class="comment">// JETDSTSKIMMER_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="aclassTriggerDSTSkimmer_html_a02ce49b13e725c67c98f8d8edbb91982"><div class="ttname"><a href="../../d1/db1/classTriggerDSTSkimmer.html#a02ce49b13e725c67c98f8d8edbb91982">TriggerDSTSkimmer::SetTrigger</a></div><div class="ttdeci">void SetTrigger(std::vector&lt; int &gt; &amp;trigger_vector)</div><div class="ttdef"><b>Definition</b> TriggerDSTSkimmer.h:23</div></div>
-<div class="ttc" id="aclassTriggerDSTSkimmer_html_a347e054d10b96c93f0e0e88c44ff82db"><div class="ttname"><a href="../../d1/db1/classTriggerDSTSkimmer.html#a347e054d10b96c93f0e0e88c44ff82db">TriggerDSTSkimmer::set_accept_max</a></div><div class="ttdeci">void set_accept_max(int max_events)</div><div class="ttdoc">Set maximum number of events to accept.</div><div class="ttdef"><b>Definition</b> TriggerDSTSkimmer.h:30</div></div>
-<div class="ttc" id="aclassTriggerDSTSkimmer_html_a6f5b166eceab656d02ff14ad80e7cb14"><div class="ttname"><a href="../../d1/db1/classTriggerDSTSkimmer.html#a6f5b166eceab656d02ff14ad80e7cb14">TriggerDSTSkimmer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event applying trigger selection and event limits.</div><div class="ttdef"><b>Definition</b> TriggerDSTSkimmer.cc:33</div></div>
-<div class="ttc" id="aclassTriggerDSTSkimmer_html_aaad39e977c04464c3fbc824b5fcb2bea"><div class="ttname"><a href="../../d1/db1/classTriggerDSTSkimmer.html#aaad39e977c04464c3fbc824b5fcb2bea">TriggerDSTSkimmer::TriggerDSTSkimmer</a></div><div class="ttdeci">TriggerDSTSkimmer(const std::string &amp;name=&quot;TriggerDSTSkimmer&quot;)</div><div class="ttdoc">Construct a TriggerDSTSkimmer analysis module with the given name.</div><div class="ttdef"><b>Definition</b> TriggerDSTSkimmer.cc:21</div></div>
+<div class="ttc" id="aclassTriggerDSTSkimmer_html_a347e054d10b96c93f0e0e88c44ff82db"><div class="ttname"><a href="../../d1/db1/classTriggerDSTSkimmer.html#a347e054d10b96c93f0e0e88c44ff82db">TriggerDSTSkimmer::set_accept_max</a></div><div class="ttdeci">void set_accept_max(int max_events)</div><div class="ttdoc">Set maximum number of events to accept.</div><div class="ttdef"><b>Definition</b> TriggerDSTSkimmer.h:31</div></div>
+<div class="ttc" id="aclassTriggerDSTSkimmer_html_a6f5b166eceab656d02ff14ad80e7cb14"><div class="ttname"><a href="../../d1/db1/classTriggerDSTSkimmer.html#a6f5b166eceab656d02ff14ad80e7cb14">TriggerDSTSkimmer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event applying trigger selection and event limits.</div><div class="ttdef"><b>Definition</b> TriggerDSTSkimmer.cc:35</div></div>
+<div class="ttc" id="aclassTriggerDSTSkimmer_html_aaad39e977c04464c3fbc824b5fcb2bea"><div class="ttname"><a href="../../d1/db1/classTriggerDSTSkimmer.html#aaad39e977c04464c3fbc824b5fcb2bea">TriggerDSTSkimmer::TriggerDSTSkimmer</a></div><div class="ttdeci">TriggerDSTSkimmer(const std::string &amp;name=&quot;TriggerDSTSkimmer&quot;)</div><div class="ttdoc">Construct a TriggerDSTSkimmer analysis module with the given name.</div><div class="ttdef"><b>Definition</b> TriggerDSTSkimmer.cc:22</div></div>
 <div class="ttc" id="aclassTriggerDSTSkimmer_html_acea0db6b349e5299b31ba00e11f3817d"><div class="ttname"><a href="../../d1/db1/classTriggerDSTSkimmer.html#acea0db6b349e5299b31ba00e11f3817d">TriggerDSTSkimmer::~TriggerDSTSkimmer</a></div><div class="ttdeci">~TriggerDSTSkimmer() override=default</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

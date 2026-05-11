@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -124,64 +125,64 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d1/d86/classLL1PacketGetter.html#a906ef5d1205afdd07e423c257ee7796b">   31</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d86/classLL1PacketGetter.html#a906ef5d1205afdd07e423c257ee7796b">setTriggerType</a>(<span class="keyword">const</span> std::string &amp;name);</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d1/d86/classLL1PacketGetter.html#acee280f2511d3067699ac9bd8ab0a836">   38</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d86/classLL1PacketGetter.html#acee280f2511d3067699ac9bd8ab0a836">set_dataflag</a>(<span class="keywordtype">bool</span> flag)</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    m_isdata = flag;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  }</div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d1/d86/classLL1PacketGetter.html#acee280f2511d3067699ac9bd8ab0a836">   39</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/d86/classLL1PacketGetter.html#acee280f2511d3067699ac9bd8ab0a836">set_dataflag</a>(<span class="keywordtype">bool</span> flag)</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    m_isdata = flag;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  }</div>
 </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  std::string m_trigger{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  std::string m_ll1{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  std::string m_triggerprimitive_nodename{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  std::string m_triggerprimitive_ll1_nodename{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  std::string m_ll1_nodename{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  LL1Out *m_ll1out{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  TriggerPrimitiveContainer *m_trigger_primitives{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  TriggerPrimitiveContainer *m_trigger_primitives_ll1{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  TriggerPrimitive *_trigger_primitive{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  std::map&lt;unsigned int, std::vector&lt;unsigned int&gt;&gt; *_trigger_words{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  std::map&lt;unsigned int, std::pair&lt;int, int&gt;&gt; m_prim_sum_map{};</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  std::map&lt;unsigned int, std::pair&lt;int, int&gt;&gt; m_packet_map{};</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  std::map&lt;unsigned int, int&gt; m_word_map{};</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <a class="code hl_enumeration" href="../../d6/ddd/namespaceTriggerDefs.html#a96fad00eab740490ec078c0abec7574d">TriggerDefs::TriggerId</a> m_triggerid{<a class="code hl_enumvalue" href="../../d6/ddd/namespaceTriggerDefs.html#a96fad00eab740490ec078c0abec7574dae01589921d40251415f7ccf2df3d3cc2">TriggerDefs::TriggerId::noneTId</a>};</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_triggerkey{0};</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <a class="code hl_enumeration" href="../../d6/ddd/namespaceTriggerDefs.html#a08830c78fd5ba0a63081d5758c78b41e">TriggerDefs::DetectorId</a> m_detectorid{<a class="code hl_enumvalue" href="../../d6/ddd/namespaceTriggerDefs.html#a08830c78fd5ba0a63081d5758c78b41ea7b4ce3e39f280bff51ab8b2e64002816">TriggerDefs::DetectorId::noneDId</a>};</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <a class="code hl_enumeration" href="../../d6/ddd/namespaceTriggerDefs.html#a277d41273cd06213ed3a8e7db143fddc">TriggerDefs::PrimitiveId</a> m_primitiveid{<a class="code hl_enumvalue" href="../../d6/ddd/namespaceTriggerDefs.html#a277d41273cd06213ed3a8e7db143fddca99ffadb9d938bfe58ef71703395d4a4c">TriggerDefs::PrimitiveId::nonePId</a>};</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  std::vector&lt;unsigned int&gt; *_sum{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  <span class="keywordtype">int</span> m_packet_low{std::numeric_limits&lt;int&gt;::min()};</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keywordtype">int</span> m_packet_high{std::numeric_limits&lt;int&gt;::min()};</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keywordtype">int</span> m_nchannels{256};</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keywordtype">int</span> m_nchannels_per_primitive{0};</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordtype">int</span> m_nprimitives{0};</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">int</span> m_ntriggerwords{0};</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keywordtype">bool</span> m_isdata{<span class="keyword">true</span>};</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keywordtype">bool</span> m_no_ll1out{<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  std::string m_trigger{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  std::string m_ll1{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  std::string m_triggerprimitive_nodename{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  std::string m_triggerprimitive_ll1_nodename{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  std::string m_ll1_nodename{<span class="stringliteral">&quot;NONE&quot;</span>};</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  LL1Out *m_ll1out{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  TriggerPrimitiveContainer *m_trigger_primitives{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  TriggerPrimitiveContainer *m_trigger_primitives_ll1{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  TriggerPrimitive *_trigger_primitive{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  std::map&lt;unsigned int, std::vector&lt;unsigned int&gt;&gt; *_trigger_words{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  std::map&lt;unsigned int, std::pair&lt;int, int&gt;&gt; m_prim_sum_map{};</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  std::map&lt;unsigned int, std::pair&lt;int, int&gt;&gt; m_packet_map{};</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  std::map&lt;unsigned int, int&gt; m_word_map{};</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <a class="code hl_enumeration" href="../../d6/ddd/namespaceTriggerDefs.html#a96fad00eab740490ec078c0abec7574d">TriggerDefs::TriggerId</a> m_triggerid{<a class="code hl_enumvalue" href="../../d6/ddd/namespaceTriggerDefs.html#a96fad00eab740490ec078c0abec7574dae01589921d40251415f7ccf2df3d3cc2">TriggerDefs::TriggerId::noneTId</a>};</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> m_triggerkey{0};</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <a class="code hl_enumeration" href="../../d6/ddd/namespaceTriggerDefs.html#a08830c78fd5ba0a63081d5758c78b41e">TriggerDefs::DetectorId</a> m_detectorid{<a class="code hl_enumvalue" href="../../d6/ddd/namespaceTriggerDefs.html#a08830c78fd5ba0a63081d5758c78b41ea7b4ce3e39f280bff51ab8b2e64002816">TriggerDefs::DetectorId::noneDId</a>};</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <a class="code hl_enumeration" href="../../d6/ddd/namespaceTriggerDefs.html#a277d41273cd06213ed3a8e7db143fddc">TriggerDefs::PrimitiveId</a> m_primitiveid{<a class="code hl_enumvalue" href="../../d6/ddd/namespaceTriggerDefs.html#a277d41273cd06213ed3a8e7db143fddca99ffadb9d938bfe58ef71703395d4a4c">TriggerDefs::PrimitiveId::nonePId</a>};</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  std::vector&lt;unsigned int&gt; *_sum{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keywordtype">int</span> m_packet_low{std::numeric_limits&lt;int&gt;::min()};</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keywordtype">int</span> m_packet_high{std::numeric_limits&lt;int&gt;::min()};</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keywordtype">int</span> m_nchannels{256};</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordtype">int</span> m_nchannels_per_primitive{0};</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">int</span> m_nprimitives{0};</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keywordtype">int</span> m_ntriggerwords{0};</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keywordtype">bool</span> m_isdata{<span class="keyword">true</span>};</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keywordtype">bool</span> m_no_ll1out{<span class="keyword">false</span>};</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>};</div>
 </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif  </span><span class="comment">// TRIGGER_LL1PACKETGETTER_H</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#endif  </span><span class="comment">// TRIGGER_LL1PACKETGETTER_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
 <div class="ttc" id="aTriggerDefs_8h_html"><div class="ttname"><a href="../../da/d78/TriggerDefs_8h.html">TriggerDefs.h</a></div></div>
-<div class="ttc" id="aclassLL1Out_html"><div class="ttname"><a href="../../d8/d0c/classLL1Out.html">LL1Out</a></div><div class="ttdef"><b>Definition</b> LL1Out.h:27</div></div>
-<div class="ttc" id="aclassLL1PacketGetter_html_a6e53bd704faae5bfc74d9df6140fe64d"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#a6e53bd704faae5bfc74d9df6140fe64d">LL1PacketGetter::LL1PacketGetter</a></div><div class="ttdeci">LL1PacketGetter(const std::string &amp;name=&quot;LL1PacketGetter&quot;, const std::string &amp;trigger=&quot;NONE&quot;, const std::string &amp;ll1=&quot;NONE&quot;)</div><div class="ttdoc">Constructor for LL1PacketGetter initializes trigger and ll1 identifiers and configures internal packe...</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.cc:31</div></div>
+<div class="ttc" id="aclassLL1Out_html"><div class="ttname"><a href="../../d8/d0c/classLL1Out.html">LL1Out</a></div><div class="ttdef"><b>Definition</b> LL1Out.h:28</div></div>
+<div class="ttc" id="aclassLL1PacketGetter_html_a6e53bd704faae5bfc74d9df6140fe64d"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#a6e53bd704faae5bfc74d9df6140fe64d">LL1PacketGetter::LL1PacketGetter</a></div><div class="ttdeci">LL1PacketGetter(const std::string &amp;name=&quot;LL1PacketGetter&quot;, const std::string &amp;trigger=&quot;NONE&quot;, const std::string &amp;ll1=&quot;NONE&quot;)</div><div class="ttdoc">Constructor for LL1PacketGetter initializes trigger and ll1 identifiers and configures internal packe...</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.cc:32</div></div>
 <div class="ttc" id="aclassLL1PacketGetter_html_a906ef5d1205afdd07e423c257ee7796b"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#a906ef5d1205afdd07e423c257ee7796b">LL1PacketGetter::setTriggerType</a></div><div class="ttdeci">void setTriggerType(const std::string &amp;name)</div></div>
 <div class="ttc" id="aclassLL1PacketGetter_html_a97eb3ae3bb8c53948b9ce4c5c3c279c3"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#a97eb3ae3bb8c53948b9ce4c5c3c279c3">LL1PacketGetter::~LL1PacketGetter</a></div><div class="ttdeci">~LL1PacketGetter() override=default</div></div>
-<div class="ttc" id="aclassLL1PacketGetter_html_acee280f2511d3067699ac9bd8ab0a836"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#acee280f2511d3067699ac9bd8ab0a836">LL1PacketGetter::set_dataflag</a></div><div class="ttdeci">void set_dataflag(bool flag)</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.h:38</div></div>
-<div class="ttc" id="aclassLL1PacketGetter_html_add400d3263d508e22051355d1e54e9f6"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#add400d3263d508e22051355d1e54e9f6">LL1PacketGetter::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process event data and populate trigger primitive containers or LL1 output structures.</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.cc:122</div></div>
-<div class="ttc" id="aclassLL1PacketGetter_html_af6f93328f1399cf47a5df36cb39ff25c"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#af6f93328f1399cf47a5df36cb39ff25c">LL1PacketGetter::CreateNodeTree</a></div><div class="ttdeci">int CreateNodeTree(PHCompositeNode *topNode)</div><div class="ttdoc">Create or retrieve DST and LL1 nodes in the Fun4All node tree.</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.cc:337</div></div>
-<div class="ttc" id="aclassLL1PacketGetter_html_aff77501624ae8d7ec9be1361a4b9ac56"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#aff77501624ae8d7ec9be1361a4b9ac56">LL1PacketGetter::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific configuration for LL1 packet getter.</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.cc:79</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
-<div class="ttc" id="aclassTriggerPrimitiveContainer_html"><div class="ttname"><a href="../../d3/d77/classTriggerPrimitiveContainer.html">TriggerPrimitiveContainer</a></div><div class="ttdoc">Container for trigger primitives used in sPHENIX analysis framework.</div><div class="ttdef"><b>Definition</b> TriggerPrimitiveContainer.h:26</div></div>
-<div class="ttc" id="aclassTriggerPrimitive_html"><div class="ttname"><a href="../../dd/dcb/classTriggerPrimitive.html">TriggerPrimitive</a></div><div class="ttdef"><b>Definition</b> TriggerPrimitive.h:23</div></div>
+<div class="ttc" id="aclassLL1PacketGetter_html_acee280f2511d3067699ac9bd8ab0a836"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#acee280f2511d3067699ac9bd8ab0a836">LL1PacketGetter::set_dataflag</a></div><div class="ttdeci">void set_dataflag(bool flag)</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.h:39</div></div>
+<div class="ttc" id="aclassLL1PacketGetter_html_add400d3263d508e22051355d1e54e9f6"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#add400d3263d508e22051355d1e54e9f6">LL1PacketGetter::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process event data and populate trigger primitive containers or LL1 output structures.</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.cc:125</div></div>
+<div class="ttc" id="aclassLL1PacketGetter_html_af6f93328f1399cf47a5df36cb39ff25c"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#af6f93328f1399cf47a5df36cb39ff25c">LL1PacketGetter::CreateNodeTree</a></div><div class="ttdeci">int CreateNodeTree(PHCompositeNode *topNode)</div><div class="ttdoc">Create or retrieve DST and LL1 nodes in the Fun4All node tree.</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.cc:341</div></div>
+<div class="ttc" id="aclassLL1PacketGetter_html_aff77501624ae8d7ec9be1361a4b9ac56"><div class="ttname"><a href="../../d1/d86/classLL1PacketGetter.html#aff77501624ae8d7ec9be1361a4b9ac56">LL1PacketGetter::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific configuration for LL1 packet getter.</div><div class="ttdef"><b>Definition</b> LL1PacketGetter.cc:81</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
+<div class="ttc" id="aclassTriggerPrimitiveContainer_html"><div class="ttname"><a href="../../d3/d77/classTriggerPrimitiveContainer.html">TriggerPrimitiveContainer</a></div><div class="ttdoc">Container for trigger primitives used in sPHENIX analysis framework.</div><div class="ttdef"><b>Definition</b> TriggerPrimitiveContainer.h:27</div></div>
+<div class="ttc" id="aclassTriggerPrimitive_html"><div class="ttname"><a href="../../dd/dcb/classTriggerPrimitive.html">TriggerPrimitive</a></div><div class="ttdef"><b>Definition</b> TriggerPrimitive.h:24</div></div>
 <div class="ttc" id="anamespaceTriggerDefs_html_a08830c78fd5ba0a63081d5758c78b41e"><div class="ttname"><a href="../../d6/ddd/namespaceTriggerDefs.html#a08830c78fd5ba0a63081d5758c78b41e">TriggerDefs::DetectorId</a></div><div class="ttdeci">DetectorId</div><div class="ttdef"><b>Definition</b> TriggerDefs.h:35</div></div>
 <div class="ttc" id="anamespaceTriggerDefs_html_a08830c78fd5ba0a63081d5758c78b41ea7b4ce3e39f280bff51ab8b2e64002816"><div class="ttname"><a href="../../d6/ddd/namespaceTriggerDefs.html#a08830c78fd5ba0a63081d5758c78b41ea7b4ce3e39f280bff51ab8b2e64002816">TriggerDefs::noneDId</a></div><div class="ttdeci">@ noneDId</div><div class="ttdef"><b>Definition</b> TriggerDefs.h:36</div></div>
 <div class="ttc" id="anamespaceTriggerDefs_html_a277d41273cd06213ed3a8e7db143fddc"><div class="ttname"><a href="../../d6/ddd/namespaceTriggerDefs.html#a277d41273cd06213ed3a8e7db143fddc">TriggerDefs::PrimitiveId</a></div><div class="ttdeci">PrimitiveId</div><div class="ttdef"><b>Definition</b> TriggerDefs.h:46</div></div>

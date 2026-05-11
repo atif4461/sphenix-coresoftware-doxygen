@@ -26,4 +26,6 @@ digraph "TrkrHitSetTpc::getTpcADC"
   Node9 -> Node3 [id="edge9_Node000009_Node000003",color="steelblue1",style="solid",tooltip=" "];
   Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
   Node10 [id="Node000010",label="TrkrHitSetTpc::getTpcADC",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/df6/classTrkrHitSetTpc.html#a2e2e9e376f9817374eefb0f0a7d87274",tooltip="Retrieve the ADC data for a TPC hit identified by its hit key."];
+  Node10 -> Node2 [id="edge11_Node000010_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node10 [id="edge12_Node000010_Node000010",color="steelblue1",style="solid",tooltip=" "];
 }

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,56 +112,56 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d96/classFun4AllHistoManager.html">Fun4AllHistoManager</a>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>TH2;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../dd/d7c/classtpc__hits.html">   28</a></span><span class="keyword">class </span><a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a064d43392e0c75affb9122b513da2936">tpc_hits</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a064d43392e0c75affb9122b513da2936">tpc_hits</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;tpc_hits&quot;</span>);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a86e3fdd0e3164b24312d7acb7fd1b4ed">~tpc_hits</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a5f71135407e07d081ae6173d58a5c521">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a4ad42abe3e44ff1b9fe5299e51bb6d5c">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#abe1285a76afb7a95935cd3f1f7a6739b">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a8f6a1a2c099e4130bab4806c1b097715">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> layercount {16};</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> layeroffset {7 + 16};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <a class="code hl_class" href="../../d3/d96/classFun4AllHistoManager.html">Fun4AllHistoManager</a> *hm {<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  TH2 *_h_hit_XY {<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <a class="code hl_class" href="../../d9/dc1/classTrkrHitSet.html">TrkrHitSet</a> *m_hitset[layercount] = {<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keywordtype">int</span> starting_BCO {-1};</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keywordtype">int</span> rollover_value {0};</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keywordtype">int</span> current_BCOBIN {0};</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <a class="code hl_class" href="../../df/d7f/classTPCMap.html">TPCMap</a> M;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  std::string _filename {<span class="stringliteral">&quot;./outputfile.root&quot;</span>};</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>};</div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../dd/d7c/classtpc__hits.html">   29</a></span><span class="keyword">class </span><a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a064d43392e0c75affb9122b513da2936">tpc_hits</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a064d43392e0c75affb9122b513da2936">tpc_hits</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;tpc_hits&quot;</span>);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a86e3fdd0e3164b24312d7acb7fd1b4ed">~tpc_hits</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a5f71135407e07d081ae6173d58a5c521">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a4ad42abe3e44ff1b9fe5299e51bb6d5c">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#abe1285a76afb7a95935cd3f1f7a6739b">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dd/d7c/classtpc__hits.html#a8f6a1a2c099e4130bab4806c1b097715">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> layercount {16};</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> layeroffset {7 + 16};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <a class="code hl_class" href="../../d3/d96/classFun4AllHistoManager.html">Fun4AllHistoManager</a> *hm {<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  TH2 *_h_hit_XY {<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <a class="code hl_class" href="../../d9/dc1/classTrkrHitSet.html">TrkrHitSet</a> *m_hitset[layercount] = {<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keywordtype">int</span> starting_BCO {-1};</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keywordtype">int</span> rollover_value {0};</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">int</span> current_BCOBIN {0};</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <a class="code hl_class" href="../../df/d7f/classTPCMap.html">TPCMap</a> M;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  std::string _filename {<span class="stringliteral">&quot;./outputfile.root&quot;</span>};</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
 </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif  </span><span class="comment">// TPC_HITS_H</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif  </span><span class="comment">// TPC_HITS_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
 <div class="ttc" id="aTPCMap_8h_html"><div class="ttname"><a href="../../d0/d15/TPCMap_8h.html">TPCMap.h</a></div></div>
 <div class="ttc" id="aTPC__RawHit_8h_html"><div class="ttname"><a href="../../d6/d1a/TPC__RawHit_8h.html">TPC_RawHit.h</a></div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
 <div class="ttc" id="aTrkrHitSet_8h_html"><div class="ttname"><a href="../../d8/d2e/TrkrHitSet_8h.html">TrkrHitSet.h</a></div><div class="ttdoc">Base Class Container for storing TrkrHit&#39;s.</div></div>
 <div class="ttc" id="aclassFun4AllHistoManager_html"><div class="ttname"><a href="../../d3/d96/classFun4AllHistoManager.html">Fun4AllHistoManager</a></div><div class="ttdef"><b>Definition</b> Fun4AllHistoManager.h:15</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
-<div class="ttc" id="aclassTPCMap_html"><div class="ttname"><a href="../../df/d7f/classTPCMap.html">TPCMap</a></div><div class="ttdef"><b>Definition</b> TPCMap.h:15</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
+<div class="ttc" id="aclassTPCMap_html"><div class="ttname"><a href="../../df/d7f/classTPCMap.html">TPCMap</a></div><div class="ttdef"><b>Definition</b> TPCMap.h:16</div></div>
 <div class="ttc" id="aclassTrkrHitSet_html"><div class="ttname"><a href="../../d9/dc1/classTrkrHitSet.html">TrkrHitSet</a></div><div class="ttdoc">Container for storing TrkrHit&#39;s.</div><div class="ttdef"><b>Definition</b> TrkrHitSet.h:30</div></div>
-<div class="ttc" id="aclasstpc__hits_html_a064d43392e0c75affb9122b513da2936"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a064d43392e0c75affb9122b513da2936">tpc_hits::tpc_hits</a></div><div class="ttdeci">tpc_hits(const std::string &amp;name=&quot;tpc_hits&quot;)</div><div class="ttdoc">Constructor for tpc hits module initializing base SubsysReco with given name and loading channel mapp...</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:36</div></div>
-<div class="ttc" id="aclasstpc__hits_html_a4ad42abe3e44ff1b9fe5299e51bb6d5c"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a4ad42abe3e44ff1b9fe5299e51bb6d5c">tpc_hits::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific resources for tpc_hits module.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:82</div></div>
-<div class="ttc" id="aclasstpc__hits_html_a5f71135407e07d081ae6173d58a5c521"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a5f71135407e07d081ae6173d58a5c521">tpc_hits::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize the tpc_hits module and book the XY hit histogram.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:63</div></div>
-<div class="ttc" id="aclasstpc__hits_html_a86e3fdd0e3164b24312d7acb7fd1b4ed"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a86e3fdd0e3164b24312d7acb7fd1b4ed">tpc_hits::~tpc_hits</a></div><div class="ttdeci">~tpc_hits() override</div><div class="ttdoc">Destructor for the tpc_hits class.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:50</div></div>
-<div class="ttc" id="aclasstpc__hits_html_a8f6a1a2c099e4130bab4806c1b097715"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a8f6a1a2c099e4130bab4806c1b097715">tpc_hits::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Called at the end of all processing.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:297</div></div>
-<div class="ttc" id="aclasstpc__hits_html_abe1285a76afb7a95935cd3f1f7a6739b"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#abe1285a76afb7a95935cd3f1f7a6739b">tpc_hits::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and fill TPC hit information.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:132</div></div>
+<div class="ttc" id="aclasstpc__hits_html_a064d43392e0c75affb9122b513da2936"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a064d43392e0c75affb9122b513da2936">tpc_hits::tpc_hits</a></div><div class="ttdeci">tpc_hits(const std::string &amp;name=&quot;tpc_hits&quot;)</div><div class="ttdoc">Constructor for tpc hits module initializing base SubsysReco with given name and loading channel mapp...</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:37</div></div>
+<div class="ttc" id="aclasstpc__hits_html_a4ad42abe3e44ff1b9fe5299e51bb6d5c"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a4ad42abe3e44ff1b9fe5299e51bb6d5c">tpc_hits::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific resources for tpc_hits module.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:86</div></div>
+<div class="ttc" id="aclasstpc__hits_html_a5f71135407e07d081ae6173d58a5c521"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a5f71135407e07d081ae6173d58a5c521">tpc_hits::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize the tpc_hits module and book the XY hit histogram.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:66</div></div>
+<div class="ttc" id="aclasstpc__hits_html_a86e3fdd0e3164b24312d7acb7fd1b4ed"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a86e3fdd0e3164b24312d7acb7fd1b4ed">tpc_hits::~tpc_hits</a></div><div class="ttdeci">~tpc_hits() override</div><div class="ttdoc">Destructor for the tpc_hits class.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:52</div></div>
+<div class="ttc" id="aclasstpc__hits_html_a8f6a1a2c099e4130bab4806c1b097715"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#a8f6a1a2c099e4130bab4806c1b097715">tpc_hits::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Called at the end of all processing.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:303</div></div>
+<div class="ttc" id="aclasstpc__hits_html_abe1285a76afb7a95935cd3f1f7a6739b"><div class="ttname"><a href="../../dd/d7c/classtpc__hits.html#abe1285a76afb7a95935cd3f1f7a6739b">tpc_hits::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and fill TPC hit information.</div><div class="ttdef"><b>Definition</b> tpc_hits.cc:137</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -149,62 +150,62 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  {</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>   <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    DetectorId(</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="keywordtype">int</span> packet_id,</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keywordtype">int</span> fee_id,</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a> hitsetkey,</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keyword">const</span> std::string&amp; fibername, <span class="keyword">const</span> std::string&amp; breakoutname,</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keyword">const</span> std::string&amp; detname_saclay, <span class="keyword">const</span> std::string&amp; detname_sphenix)</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>      :</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>      m_packet_id(packet_id)</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>      , m_fee_id(fee_id)</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>      , m_hitsetkey(hitsetkey)</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>      , m_fibername(fibername)</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>      , m_breakoutname(breakoutname)</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>      , m_detname_saclay(detname_saclay)</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>      , m_detname_sphenix(detname_sphenix)</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    {</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    }</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">int</span> m_packet_id = 0;</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span></div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">int</span> m_fee_id = 0;</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span></div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a> m_hitsetkey = 0;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span></div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    std::string m_fibername;</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    std::string m_breakoutname;</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    std::string m_detname_saclay;</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    std::string m_detname_sphenix;</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>  };</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span></div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  std::vector&lt;DetectorId&gt; m_detectors;</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span></div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  std::map&lt;int, DetectorId&gt; m_detector_map;</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span></div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>  std::array&lt;int, MicromegasDefs::m_nchannels_fee&gt; m_fee_to_strip_mapping_z = {{0}};</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span></div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>  std::array&lt;int, MicromegasDefs::m_nchannels_fee&gt; m_fee_to_strip_mapping_phi = {{0}};</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>};</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    DetectorId(</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keywordtype">int</span> packet_id,</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keywordtype">int</span> fee_id,</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a> hitsetkey,</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keyword">const</span> std::string&amp; fibername, <span class="keyword">const</span> std::string&amp; breakoutname,</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keyword">const</span> std::string&amp; detname_saclay, <span class="keyword">const</span> std::string&amp; detname_sphenix)</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>      :</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>      m_packet_id(packet_id)</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>      , m_fee_id(fee_id)</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>      , m_hitsetkey(hitsetkey)</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>      , m_fibername(fibername)</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>      , m_breakoutname(breakoutname)</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>      , m_detname_saclay(detname_saclay)</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>      , m_detname_sphenix(detname_sphenix)</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    {</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    }</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">int</span> m_packet_id = 0;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordtype">int</span> m_fee_id = 0;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a> m_hitsetkey = 0;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    std::string m_fibername;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    std::string m_breakoutname;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    std::string m_detname_saclay;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    std::string m_detname_sphenix;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  };</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>  std::vector&lt;DetectorId&gt; m_detectors;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span></div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>  std::map&lt;int, DetectorId&gt; m_detector_map;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span></div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  std::array&lt;int, MicromegasDefs::m_nchannels_fee&gt; m_fee_to_strip_mapping_z = {{0}};</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span></div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  std::array&lt;int, MicromegasDefs::m_nchannels_fee&gt; m_fee_to_strip_mapping_phi = {{0}};</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>};</div>
 </div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMicromegasDefs_8h_html"><div class="ttname"><a href="../../de/d63/MicromegasDefs_8h.html">MicromegasDefs.h</a></div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_a2edd4d7e7567623d18cb10563b4df049"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a2edd4d7e7567623d18cb10563b4df049">MicromegasMapping::get_detname_sphenix</a></div><div class="ttdeci">std::string get_detname_sphenix(int) const</div><div class="ttdoc">get detector name (sphenix) from fiber_id (fee_id)</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:260</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_a4f37991657c117f0d428dd4c9820fd63"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a4f37991657c117f0d428dd4c9820fd63">MicromegasMapping::get_detname_saclay</a></div><div class="ttdeci">std::string get_detname_saclay(int) const</div><div class="ttdoc">get detector name (saclay) from fiber_id (fee_id)</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:238</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_a557aa5b12beae0b8d33a70612c4850b0"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a557aa5b12beae0b8d33a70612c4850b0">MicromegasMapping::get_detname_sphenix_from_hitsetkey</a></div><div class="ttdeci">std::string get_detname_sphenix_from_hitsetkey(TrkrDefs::hitsetkey) const</div><div class="ttdoc">get detector name (saclay) from hitset key</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:337</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_a7b2c6e3ee13ac2f8598a6640dbb6a56a"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a7b2c6e3ee13ac2f8598a6640dbb6a56a">MicromegasMapping::get_fee_id_from_hitsetkey</a></div><div class="ttdeci">int get_fee_id_from_hitsetkey(TrkrDefs::hitsetkey) const</div><div class="ttdoc">get fee id from hitset key</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:358</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_a8b274719f37d87de50546bcd2c6720d5"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a8b274719f37d87de50546bcd2c6720d5">MicromegasMapping::get_new_fee_id</a></div><div class="ttdeci">int get_new_fee_id(int) const</div><div class="ttdoc">convert fee_id from data stream into new fee_id after fiber swapping *‍/</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:679</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_a8d77ae9e3dec98cd1cbe21f21971f311"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a8d77ae9e3dec98cd1cbe21f21971f311">MicromegasMapping::get_hitsetkey</a></div><div class="ttdeci">TrkrDefs::hitsetkey get_hitsetkey(int) const</div><div class="ttdoc">get hitsetkey from fiber_id (fee_id)</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:215</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_ac45e2967081c84aa692c146953cc8dd9"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#ac45e2967081c84aa692c146953cc8dd9">MicromegasMapping::get_detname_saclay_from_hitsetkey</a></div><div class="ttdeci">std::string get_detname_saclay_from_hitsetkey(TrkrDefs::hitsetkey) const</div><div class="ttdoc">get detector name (sphenix) from hitset key</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:316</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_ace65c58f775be992a1c36b761d84862d"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#ace65c58f775be992a1c36b761d84862d">MicromegasMapping::MicromegasMapping</a></div><div class="ttdeci">MicromegasMapping()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:123</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_ae1ec907af46e4a8d6ebff19a44596579"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#ae1ec907af46e4a8d6ebff19a44596579">MicromegasMapping::get_physical_strip</a></div><div class="ttdeci">int get_physical_strip(int, int) const</div><div class="ttdoc">get physical strip number from channel_id</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:283</div></div>
-<div class="ttc" id="aclassMicromegasMapping_html_af861359028396bc442129040e364abf0"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#af861359028396bc442129040e364abf0">MicromegasMapping::get_fee_id_list</a></div><div class="ttdeci">std::vector&lt; int &gt; get_fee_id_list() const</div><div class="ttdoc">get list of fee ids</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:182</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_a2edd4d7e7567623d18cb10563b4df049"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a2edd4d7e7567623d18cb10563b4df049">MicromegasMapping::get_detname_sphenix</a></div><div class="ttdeci">std::string get_detname_sphenix(int) const</div><div class="ttdoc">get detector name (sphenix) from fiber_id (fee_id)</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:269</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_a4f37991657c117f0d428dd4c9820fd63"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a4f37991657c117f0d428dd4c9820fd63">MicromegasMapping::get_detname_saclay</a></div><div class="ttdeci">std::string get_detname_saclay(int) const</div><div class="ttdoc">get detector name (saclay) from fiber_id (fee_id)</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:246</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_a557aa5b12beae0b8d33a70612c4850b0"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a557aa5b12beae0b8d33a70612c4850b0">MicromegasMapping::get_detname_sphenix_from_hitsetkey</a></div><div class="ttdeci">std::string get_detname_sphenix_from_hitsetkey(TrkrDefs::hitsetkey) const</div><div class="ttdoc">get detector name (saclay) from hitset key</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:349</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_a7b2c6e3ee13ac2f8598a6640dbb6a56a"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a7b2c6e3ee13ac2f8598a6640dbb6a56a">MicromegasMapping::get_fee_id_from_hitsetkey</a></div><div class="ttdeci">int get_fee_id_from_hitsetkey(TrkrDefs::hitsetkey) const</div><div class="ttdoc">get fee id from hitset key</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:371</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_a8b274719f37d87de50546bcd2c6720d5"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a8b274719f37d87de50546bcd2c6720d5">MicromegasMapping::get_new_fee_id</a></div><div class="ttdeci">int get_new_fee_id(int) const</div><div class="ttdoc">convert fee_id from data stream into new fee_id after fiber swapping *‍/</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:694</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_a8d77ae9e3dec98cd1cbe21f21971f311"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#a8d77ae9e3dec98cd1cbe21f21971f311">MicromegasMapping::get_hitsetkey</a></div><div class="ttdeci">TrkrDefs::hitsetkey get_hitsetkey(int) const</div><div class="ttdoc">get hitsetkey from fiber_id (fee_id)</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:222</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_ac45e2967081c84aa692c146953cc8dd9"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#ac45e2967081c84aa692c146953cc8dd9">MicromegasMapping::get_detname_saclay_from_hitsetkey</a></div><div class="ttdeci">std::string get_detname_saclay_from_hitsetkey(TrkrDefs::hitsetkey) const</div><div class="ttdoc">get detector name (sphenix) from hitset key</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:327</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_ace65c58f775be992a1c36b761d84862d"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#ace65c58f775be992a1c36b761d84862d">MicromegasMapping::MicromegasMapping</a></div><div class="ttdeci">MicromegasMapping()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:127</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_ae1ec907af46e4a8d6ebff19a44596579"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#ae1ec907af46e4a8d6ebff19a44596579">MicromegasMapping::get_physical_strip</a></div><div class="ttdeci">int get_physical_strip(int, int) const</div><div class="ttdoc">get physical strip number from channel_id</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:293</div></div>
+<div class="ttc" id="aclassMicromegasMapping_html_af861359028396bc442129040e364abf0"><div class="ttname"><a href="../../d0/daa/classMicromegasMapping.html#af861359028396bc442129040e364abf0">MicromegasMapping::get_fee_id_list</a></div><div class="ttdeci">std::vector&lt; int &gt; get_fee_id_list() const</div><div class="ttdoc">get list of fee ids</div><div class="ttdef"><b>Definition</b> MicromegasMapping.cc:187</div></div>
 <div class="ttc" id="anamespaceTrkrDefs_html_a7d9146cf627de8f98b5c73e20e8325cd"><div class="ttname"><a href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a></div><div class="ttdeci">uint32_t hitsetkey</div><div class="ttdef"><b>Definition</b> TrkrDefs.h:26</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -108,26 +109,26 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="../../df/d32/PHObject_8h.html">phool/PHObject.h</a>&gt;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html">   27</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">PdbCalChan</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject</a></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">   30</a></span>  <a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">PdbCalChan</a>() {}</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html#a3eb2590d22feb2d3edb745266efb9837">   31</a></span>  <a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a3eb2590d22feb2d3edb745266efb9837">~PdbCalChan</a>()<span class="keyword"> override </span>{}</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html#a09c88d902d08b2b6381ef427a9d52f34">   33</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a09c88d902d08b2b6381ef427a9d52f34">print</a>() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html#a2152b68968983a02a69d41916a180082">   35</a></span>  <a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a2152b68968983a02a69d41916a180082">ClassDefOverride</a>(<a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">PdbCalChan</a>, 1);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html">   28</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">PdbCalChan</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject</a></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">   31</a></span>  <a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">PdbCalChan</a>() {}</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html#a3eb2590d22feb2d3edb745266efb9837">   32</a></span>  <a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a3eb2590d22feb2d3edb745266efb9837">~PdbCalChan</a>()<span class="keyword"> override </span>{}</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html#a09c88d902d08b2b6381ef427a9d52f34">   34</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a09c88d902d08b2b6381ef427a9d52f34">print</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d6/d4b/classPdbCalChan.html#a2152b68968983a02a69d41916a180082">   36</a></span>  <a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a2152b68968983a02a69d41916a180082">ClassDefOverride</a>(<a class="code hl_function" href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">PdbCalChan</a>, 1);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif </span><span class="comment">/* PDBCAL_BASE_PDBCALCHAN_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif </span><span class="comment">/* PDBCAL_BASE_PDBCALCHAN_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aPHObject_8h_html"><div class="ttname"><a href="../../df/d32/PHObject_8h.html">PHObject.h</a></div></div>
 <div class="ttc" id="aclassPHObject_html_acda1fc8f84de9bd408081b3da8caf4ff"><div class="ttname"><a href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject::PHObject</a></div><div class="ttdeci">PHObject()=default</div><div class="ttdoc">ctor</div></div>
 <div class="ttc" id="aclassPdbCalChan_html_a09c88d902d08b2b6381ef427a9d52f34"><div class="ttname"><a href="../../d6/d4b/classPdbCalChan.html#a09c88d902d08b2b6381ef427a9d52f34">PdbCalChan::print</a></div><div class="ttdeci">virtual void print() const =0</div></div>
-<div class="ttc" id="aclassPdbCalChan_html_a177c6dfe725f69a8b53fafcff474e39b"><div class="ttname"><a href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">PdbCalChan::PdbCalChan</a></div><div class="ttdeci">PdbCalChan()</div><div class="ttdef"><b>Definition</b> PdbCalChan.h:30</div></div>
+<div class="ttc" id="aclassPdbCalChan_html_a177c6dfe725f69a8b53fafcff474e39b"><div class="ttname"><a href="../../d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b">PdbCalChan::PdbCalChan</a></div><div class="ttdeci">PdbCalChan()</div><div class="ttdef"><b>Definition</b> PdbCalChan.h:31</div></div>
 <div class="ttc" id="aclassPdbCalChan_html_a2152b68968983a02a69d41916a180082"><div class="ttname"><a href="../../d6/d4b/classPdbCalChan.html#a2152b68968983a02a69d41916a180082">PdbCalChan::ClassDefOverride</a></div><div class="ttdeci">ClassDefOverride(PdbCalChan, 1)</div></div>
-<div class="ttc" id="aclassPdbCalChan_html_a3eb2590d22feb2d3edb745266efb9837"><div class="ttname"><a href="../../d6/d4b/classPdbCalChan.html#a3eb2590d22feb2d3edb745266efb9837">PdbCalChan::~PdbCalChan</a></div><div class="ttdeci">~PdbCalChan() override</div><div class="ttdef"><b>Definition</b> PdbCalChan.h:31</div></div>
+<div class="ttc" id="aclassPdbCalChan_html_a3eb2590d22feb2d3edb745266efb9837"><div class="ttname"><a href="../../d6/d4b/classPdbCalChan.html#a3eb2590d22feb2d3edb745266efb9837">PdbCalChan::~PdbCalChan</a></div><div class="ttdeci">~PdbCalChan() override</div><div class="ttdef"><b>Definition</b> PdbCalChan.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

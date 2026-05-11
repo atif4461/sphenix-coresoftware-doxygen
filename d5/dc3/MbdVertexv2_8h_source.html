@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -138,92 +139,93 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">float</span> <a class="code hl_function" href="../../df/de2/classMbdVertexv2.html#a9a0b2ae4cd5c4873588a0e1c0483d90f">get_position</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> coor) <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>*/ </div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../df/de2/classMbdVertexv2.html#a3097e059324a24ab32975ed24639bff4">   51</a></span>  <span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/de2/classMbdVertexv2.html#a3097e059324a24ab32975ed24639bff4">get_beam_crossing</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordflow">return</span> rollover_from_unsignedint(_bco);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> *</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>*/ </div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../df/de2/classMbdVertexv2.html#a3097e059324a24ab32975ed24639bff4">   52</a></span>  <span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/de2/classMbdVertexv2.html#a3097e059324a24ab32975ed24639bff4">get_beam_crossing</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordflow">return</span> rollover_from_unsignedint(_bco);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  }</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../df/de2/classMbdVertexv2.html#a7ddc005cb3c8cc11defa8404d19c2a33">   60</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/de2/classMbdVertexv2.html#a7ddc005cb3c8cc11defa8404d19c2a33">set_beam_crossing</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> bco)<span class="keyword"> override</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordflow">if</span> (bco == short_int_max)</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    {</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>      _bco = std::numeric_limits&lt;unsigned int&gt;::max();</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>      <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    }</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">const</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> bco_ro = rollover_short(bco);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    _bco = <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(bco_ro);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  }</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../df/de2/classMbdVertexv2.html#a7ddc005cb3c8cc11defa8404d19c2a33">   62</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/de2/classMbdVertexv2.html#a7ddc005cb3c8cc11defa8404d19c2a33">set_beam_crossing</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> bco)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordflow">if</span> (bco == short_int_max)</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    {</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>      _bco = std::numeric_limits&lt;unsigned int&gt;::max();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>      <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">const</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> bco_ro = rollover_short(bco);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    _bco = <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(bco_ro);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  }</div>
 </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> short_int_max = std::numeric_limits&lt;short int&gt;::max();  <span class="comment">// 32767</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keyword">static</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> rollover_short(<span class="keywordtype">short</span> <span class="keywordtype">int</span> bco)</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  {</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordflow">if</span> (bco == short_int_max) <span class="keywordflow">return</span> short_int_max;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordflow">if</span> (bco &gt;= 0) <span class="keywordflow">return</span> bco;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> bco_ro = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(short_int_max) + <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(bco);  <span class="comment">// bco negative</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(bco_ro);</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  }</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keyword">static</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> rollover_from_unsignedint(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> bco)</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  {</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="comment">// if unsigned int max, return short int max</span></div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordflow">if</span> (bco == std::numeric_limits&lt;unsigned int&gt;::max())</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    {</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>      <span class="keywordflow">return</span> short_int_max;</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    }</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="comment">// common case: [0, 32767]</span></div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordflow">if</span> (bco &lt;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(short_int_max))</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    {</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(bco);</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    }</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keyword">const</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> bco_ro = <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span><span class="keyword">&gt;</span>(bco));</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordflow">if</span> (bco_ro &gt;= 0) <span class="keywordflow">return</span> bco_ro;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordflow">return</span> rollover_short(bco_ro);</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  }</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _id{std::numeric_limits&lt;unsigned int&gt;::max()};   <span class="comment">//&lt; unique identifier within container</span></div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _bco{std::numeric_limits&lt;unsigned int&gt;::max()};  <span class="comment">//&lt; global bco (legacy storage)</span></div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  <span class="keywordtype">float</span> _t{std::numeric_limits&lt;float&gt;::quiet_NaN()};            <span class="comment">//&lt; collision time</span></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  <span class="keywordtype">float</span> _t_err{std::numeric_limits&lt;float&gt;::quiet_NaN()};        <span class="comment">//&lt; collision time uncertainty</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <span class="keywordtype">float</span> _z{std::numeric_limits&lt;float&gt;::quiet_NaN()};            <span class="comment">//&lt; collision position z</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <span class="keywordtype">float</span> _z_err{std::numeric_limits&lt;float&gt;::quiet_NaN()};        <span class="comment">//&lt; collision position z uncertainty</span></div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  ClassDefOverride(<a class="code hl_function" href="../../df/de2/classMbdVertexv2.html#a4476fb0ab15918b2321cf04764375c6f">MbdVertexv2</a>, 1);</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>};</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> short_int_max = std::numeric_limits&lt;short int&gt;::max();  <span class="comment">// 32767</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  <span class="keyword">static</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> rollover_short(<span class="keywordtype">short</span> <span class="keywordtype">int</span> bco)</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  {</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordflow">if</span> (bco == short_int_max) <span class="keywordflow">return</span> short_int_max;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordflow">if</span> (bco &gt;= 0) <span class="keywordflow">return</span> bco;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <span class="keyword">const</span> <span class="keywordtype">int</span> bco_ro = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(short_int_max) + <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(bco);  <span class="comment">// bco negative</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(bco_ro);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  }</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keyword">static</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> rollover_from_unsignedint(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> bco)</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  {</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="comment">// if unsigned int max, return short int max</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordflow">if</span> (bco == std::numeric_limits&lt;unsigned int&gt;::max())</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    {</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>      <span class="keywordflow">return</span> short_int_max;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    }</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="comment">// common case: [0, 32767]</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordflow">if</span> (bco &lt;= <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(short_int_max))</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    {</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(bco);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    }</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keyword">const</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> bco_ro = <span class="keyword">static_cast&lt;</span><span class="keywordtype">short</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">short</span><span class="keyword">&gt;</span>(bco));</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordflow">if</span> (bco_ro &gt;= 0) <span class="keywordflow">return</span> bco_ro;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordflow">return</span> rollover_short(bco_ro);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  }</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _id{std::numeric_limits&lt;unsigned int&gt;::max()};   <span class="comment">//&lt; unique identifier within container</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _bco{std::numeric_limits&lt;unsigned int&gt;::max()};  <span class="comment">//&lt; global bco (legacy storage)</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  <span class="keywordtype">float</span> _t{std::numeric_limits&lt;float&gt;::quiet_NaN()};            <span class="comment">//&lt; collision time</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  <span class="keywordtype">float</span> _t_err{std::numeric_limits&lt;float&gt;::quiet_NaN()};        <span class="comment">//&lt; collision time uncertainty</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  <span class="keywordtype">float</span> _z{std::numeric_limits&lt;float&gt;::quiet_NaN()};            <span class="comment">//&lt; collision position z</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  <span class="keywordtype">float</span> _z_err{std::numeric_limits&lt;float&gt;::quiet_NaN()};        <span class="comment">//&lt; collision position z uncertainty</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  ClassDefOverride(<a class="code hl_function" href="../../df/de2/classMbdVertexv2.html#a4476fb0ab15918b2321cf04764375c6f">MbdVertexv2</a>, 1);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>};</div>
 </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMbdVertex_8h_html"><div class="ttname"><a href="../../d8/d4f/MbdVertex_8h.html">MbdVertex.h</a></div></div>
-<div class="ttc" id="aclassMbdVertex_html_a8670a2e3b5f9bca903847289db505b6e"><div class="ttname"><a href="../../d4/d7d/classMbdVertex.html#a8670a2e3b5f9bca903847289db505b6e">MbdVertex::MbdVertex</a></div><div class="ttdeci">MbdVertex()</div><div class="ttdef"><b>Definition</b> MbdVertex.h:56</div></div>
+<div class="ttc" id="aclassMbdVertex_html_a8670a2e3b5f9bca903847289db505b6e"><div class="ttname"><a href="../../d4/d7d/classMbdVertex.html#a8670a2e3b5f9bca903847289db505b6e">MbdVertex::MbdVertex</a></div><div class="ttdeci">MbdVertex()</div><div class="ttdef"><b>Definition</b> MbdVertex.h:57</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a00bd2fb3e08e3691f8ab53dfd2b065e6"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a00bd2fb3e08e3691f8ab53dfd2b065e6">MbdVertexv2::set_t_err</a></div><div class="ttdeci">void set_t_err(float t_err) override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:33</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a070d168923f8cef7785fe24d71a9ccb0"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a070d168923f8cef7785fe24d71a9ccb0">MbdVertexv2::set_t</a></div><div class="ttdeci">void set_t(float t) override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:30</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a1b1e38a48fec3594234ea9b8b117d2fa"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a1b1e38a48fec3594234ea9b8b117d2fa">MbdVertexv2::set_id</a></div><div class="ttdeci">void set_id(unsigned int id) override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:27</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a1d468ab51df4cfcbc4921040036f004e"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a1d468ab51df4cfcbc4921040036f004e">MbdVertexv2::get_t</a></div><div class="ttdeci">float get_t() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:29</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a2140678725318f1c01f6368946cd6fcf"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a2140678725318f1c01f6368946cd6fcf">MbdVertexv2::get_z</a></div><div class="ttdeci">float get_z() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:39</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a2edb0d9f6cf26b87c1bbeccb28eb71e4"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a2edb0d9f6cf26b87c1bbeccb28eb71e4">MbdVertexv2::get_t_err</a></div><div class="ttdeci">float get_t_err() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:32</div></div>
-<div class="ttc" id="aclassMbdVertexv2_html_a3097e059324a24ab32975ed24639bff4"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a3097e059324a24ab32975ed24639bff4">MbdVertexv2::get_beam_crossing</a></div><div class="ttdeci">short int get_beam_crossing() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:51</div></div>
+<div class="ttc" id="aclassMbdVertexv2_html_a3097e059324a24ab32975ed24639bff4"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a3097e059324a24ab32975ed24639bff4">MbdVertexv2::get_beam_crossing</a></div><div class="ttdeci">short int get_beam_crossing() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:52</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a4476fb0ab15918b2321cf04764375c6f"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a4476fb0ab15918b2321cf04764375c6f">MbdVertexv2::MbdVertexv2</a></div><div class="ttdeci">MbdVertexv2()=default</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a4cb8bc9aba4f4619bdbf83a90dd2e02a"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a4cb8bc9aba4f4619bdbf83a90dd2e02a">MbdVertexv2::get_y</a></div><div class="ttdeci">float get_y() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:37</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a5887c81bda5ee3774bebe4057317f1ab"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a5887c81bda5ee3774bebe4057317f1ab">MbdVertexv2::CloneMe</a></div><div class="ttdeci">PHObject * CloneMe() const override</div><div class="ttdoc">Virtual copy constructor.</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:22</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a78dcc63dbc3707b19a2928494facbd51"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a78dcc63dbc3707b19a2928494facbd51">MbdVertexv2::get_x</a></div><div class="ttdeci">float get_x() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:36</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a7a5524e12751e595aa4aad544c702136"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a7a5524e12751e595aa4aad544c702136">MbdVertexv2::get_z_err</a></div><div class="ttdeci">float get_z_err() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:42</div></div>
-<div class="ttc" id="aclassMbdVertexv2_html_a7ddc005cb3c8cc11defa8404d19c2a33"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a7ddc005cb3c8cc11defa8404d19c2a33">MbdVertexv2::set_beam_crossing</a></div><div class="ttdeci">void set_beam_crossing(short int bco) override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:60</div></div>
-<div class="ttc" id="aclassMbdVertexv2_html_a7ede8da5e2f69d802a46b52c6288b5e3"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a7ede8da5e2f69d802a46b52c6288b5e3">MbdVertexv2::isValid</a></div><div class="ttdeci">int isValid() const override</div><div class="ttdoc">Determine whether the vertex object contains valid data.</div><div class="ttdef"><b>Definition</b> MbdVertexv2.cc:29</div></div>
+<div class="ttc" id="aclassMbdVertexv2_html_a7ddc005cb3c8cc11defa8404d19c2a33"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a7ddc005cb3c8cc11defa8404d19c2a33">MbdVertexv2::set_beam_crossing</a></div><div class="ttdeci">void set_beam_crossing(short int bco) override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:62</div></div>
+<div class="ttc" id="aclassMbdVertexv2_html_a7ede8da5e2f69d802a46b52c6288b5e3"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a7ede8da5e2f69d802a46b52c6288b5e3">MbdVertexv2::isValid</a></div><div class="ttdeci">int isValid() const override</div><div class="ttdoc">Determine whether the vertex object contains valid data.</div><div class="ttdef"><b>Definition</b> MbdVertexv2.cc:31</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_a8945234b02fd640d8032f71515b22ec2"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a8945234b02fd640d8032f71515b22ec2">MbdVertexv2::set_z</a></div><div class="ttdeci">void set_z(float z) override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:40</div></div>
-<div class="ttc" id="aclassMbdVertexv2_html_a9a0b2ae4cd5c4873588a0e1c0483d90f"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a9a0b2ae4cd5c4873588a0e1c0483d90f">MbdVertexv2::get_position</a></div><div class="ttdeci">float get_position(unsigned int coor) const override</div><div class="ttdoc">Return coordinate value for given index.</div><div class="ttdef"><b>Definition</b> MbdVertexv2.cc:61</div></div>
+<div class="ttc" id="aclassMbdVertexv2_html_a9a0b2ae4cd5c4873588a0e1c0483d90f"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#a9a0b2ae4cd5c4873588a0e1c0483d90f">MbdVertexv2::get_position</a></div><div class="ttdeci">float get_position(unsigned int coor) const override</div><div class="ttdoc">Return coordinate value for given index.</div><div class="ttdef"><b>Definition</b> MbdVertexv2.cc:64</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_aa535e79b5b0a7e37da4f788f5d79d64c"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#aa535e79b5b0a7e37da4f788f5d79d64c">MbdVertexv2::get_id</a></div><div class="ttdeci">unsigned int get_id() const override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:26</div></div>
-<div class="ttc" id="aclassMbdVertexv2_html_aabfc90de19fdfc6657144527d980ec9c"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#aabfc90de19fdfc6657144527d980ec9c">MbdVertexv2::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const override</div><div class="ttdoc">Print a formatted summary of the MbdVertexv2 object to the given output stream.</div><div class="ttdef"><b>Definition</b> MbdVertexv2.cc:13</div></div>
+<div class="ttc" id="aclassMbdVertexv2_html_aabfc90de19fdfc6657144527d980ec9c"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#aabfc90de19fdfc6657144527d980ec9c">MbdVertexv2::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const override</div><div class="ttdoc">Print a formatted summary of the MbdVertexv2 object to the given output stream.</div><div class="ttdef"><b>Definition</b> MbdVertexv2.cc:14</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_ab875fdef3268efaf3764ee57e940beec"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#ab875fdef3268efaf3764ee57e940beec">MbdVertexv2::set_z_err</a></div><div class="ttdeci">void set_z_err(float z_err) override</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:43</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_ac7196a7d87b68dd639afaf7649724066"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#ac7196a7d87b68dd639afaf7649724066">MbdVertexv2::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdoc">Clear Event.</div><div class="ttdef"><b>Definition</b> MbdVertexv2.h:20</div></div>
 <div class="ttc" id="aclassMbdVertexv2_html_aebded4d67655ee3b84cee7d5a597c10d"><div class="ttname"><a href="../../df/de2/classMbdVertexv2.html#aebded4d67655ee3b84cee7d5a597c10d">MbdVertexv2::~MbdVertexv2</a></div><div class="ttdeci">~MbdVertexv2() override=default</div></div>

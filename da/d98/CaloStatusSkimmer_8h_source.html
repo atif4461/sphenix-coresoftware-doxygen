@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -119,94 +120,94 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#a5804212f3855d1596a0a7a7bdba06e5d">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#afc071790fc718601dc819afd6fd37e1a">   38</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#afc071790fc718601dc819afd6fd37e1a">do_skim_EMCal</a>( uint16_t threshold) </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    m_EMC_skim_threshold = threshold;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  }</div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#afc071790fc718601dc819afd6fd37e1a">   39</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#afc071790fc718601dc819afd6fd37e1a">do_skim_EMCal</a>( uint16_t threshold) </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    m_EMC_skim_threshold = threshold;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  }</div>
 </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#aa3e39bff82ec5da46a97b8f19008c97c">   51</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#aa3e39bff82ec5da46a97b8f19008c97c">do_skim_HCal</a>( uint16_t threshold) </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  {</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    m_HCal_skim_threshold = threshold;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="foldopen" id="foldopen00053" data-start="{" data-end="}">
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#aa3e39bff82ec5da46a97b8f19008c97c">   53</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#aa3e39bff82ec5da46a97b8f19008c97c">do_skim_HCal</a>( uint16_t threshold) </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  {</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    m_HCal_skim_threshold = threshold;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  }</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="foldopen" id="foldopen00059" data-start="{" data-end="}">
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#a01013bfd5de836e4fd7dd9424e0054f5">   59</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#a01013bfd5de836e4fd7dd9424e0054f5">do_skim_sEPD</a>( uint16_t threshold) </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  {</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    m_sEPD_skim_threshold = threshold;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#a01013bfd5de836e4fd7dd9424e0054f5">   62</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#a01013bfd5de836e4fd7dd9424e0054f5">do_skim_sEPD</a>( uint16_t threshold) </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    m_sEPD_skim_threshold = threshold;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  }</div>
 </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="foldopen" id="foldopen00075" data-start="{" data-end="}">
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#a38dc2a166271fb24c853e2d28f51efd9">   75</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#a38dc2a166271fb24c853e2d28f51efd9">do_skim_ZDC</a>( uint16_t threshold) </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    m_ZDC_skim_threshold = threshold;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="foldopen" id="foldopen00079" data-start="{" data-end="}">
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#a38dc2a166271fb24c853e2d28f51efd9">   79</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#a38dc2a166271fb24c853e2d28f51efd9">do_skim_ZDC</a>( uint16_t threshold) </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    m_ZDC_skim_threshold = threshold;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  }</div>
 </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="foldopen" id="foldopen00085" data-start="{" data-end="}">
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#ac8c5d14c1fd24bd0cb8e9dade3e2887c">   85</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#ac8c5d14c1fd24bd0cb8e9dade3e2887c">produce_QA_histograms</a>(<span class="keywordtype">bool</span> produce) </div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  {</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    b_produce_QA_histograms = produce;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="foldopen" id="foldopen00090" data-start="{" data-end="}">
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="../../d3/d02/classCaloStatusSkimmer.html#ac8c5d14c1fd24bd0cb8e9dade3e2887c">   90</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d02/classCaloStatusSkimmer.html#ac8c5d14c1fd24bd0cb8e9dade3e2887c">produce_QA_histograms</a>(<span class="keywordtype">bool</span> produce) </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    b_produce_QA_histograms = produce;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  }</div>
 </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  uint32_t n_eventcounter{0};</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  uint32_t n_skimcounter{0};</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  uint32_t n_notowernodecounter{0};</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordtype">bool</span> b_produce_QA_histograms{<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="comment">// If the threshold is set to 0, then the skimming for that subsystem is disabled. If threshold is &gt; 0, then the event is skimmed if nchannels &gt;= threshold not-instrumented (empty/missing packet) channels in that subsystem.</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  uint16_t m_EMC_skim_threshold{193}; </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="comment">// skim if nchannels &gt;= this many not-instrumented (empty/missing packet) channels in EMCal. For the EMCal in particular we want to skim if greater than 1 packet&#39;s worth of channels are not-instrumented, which corresponds to 193 channels (since each packet has 192 channels)</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  uint32_t n_eventcounter{0};</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  uint32_t n_skimcounter{0};</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  uint32_t n_notowernodecounter{0};</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keywordtype">bool</span> b_produce_QA_histograms{<span class="keyword">false</span>};</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  uint16_t m_HCal_skim_threshold{192}; </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="comment">// skim if nchannels &gt;= this many not-instrumented (empty/missing packet) channels in HCal. Corresponds to 1 packet&#39;s worth of channels in HCal, which has 192 channels per packet</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  uint16_t m_sEPD_skim_threshold{1}; </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="comment">// skim if nchannels &gt;= this many not-instrumented (empty/missing packet) channels in sEPD. </span></div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  uint16_t m_ZDC_skim_threshold{0}; </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  <span class="comment">// skim if nchannels &gt; this many not-instrumented (empty/missing packet) channels in ZDC. Some issue in the ZDC right now so skimming is turned off by now by default.</span></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  <span class="comment">// Counters for number of events skimmed per subsystem</span></div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  uint32_t EMC_skim_count = 0;</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  uint32_t HCal_skim_count = 0;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  uint32_t sEPD_skim_count = 0; </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  uint32_t ZDC_skim_count = 0;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <span class="comment">//Per-calo tower counter histograms</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  TH1* h_EMC_nTowers_notinstr = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  TH1* h_HCal_nTowers_notinstr = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  TH1* h_sEPD_nTowers_notinstr = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  TH1* h_ZDC_nTowers_notinstr = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <span class="comment">//Event counter histograms</span></div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  TH1* h_calo_nEvents = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>};</div>
-</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="comment">// If the threshold is set to 0, then the skimming for that subsystem is disabled. If threshold is &gt; 0, then the event is skimmed if nchannels &gt;= threshold not-instrumented (empty/missing packet) channels in that subsystem.</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  uint16_t m_EMC_skim_threshold{193}; </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="comment">// skim if nchannels &gt;= this many not-instrumented (empty/missing packet) channels in EMCal. For the EMCal in particular we want to skim if greater than 1 packet&#39;s worth of channels are not-instrumented, which corresponds to 193 channels (since each packet has 192 channels)</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  uint16_t m_HCal_skim_threshold{192}; </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="comment">// skim if nchannels &gt;= this many not-instrumented (empty/missing packet) channels in HCal. Corresponds to 1 packet&#39;s worth of channels in HCal, which has 192 channels per packet</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  uint16_t m_sEPD_skim_threshold{1}; </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  <span class="comment">// skim if nchannels &gt;= this many not-instrumented (empty/missing packet) channels in sEPD. </span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  uint16_t m_ZDC_skim_threshold{0}; </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="comment">// skim if nchannels &gt; this many not-instrumented (empty/missing packet) channels in ZDC. Some issue in the ZDC right now so skimming is turned off by now by default.</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  <span class="comment">// Counters for number of events skimmed per subsystem</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  uint32_t EMC_skim_count = 0;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  uint32_t HCal_skim_count = 0;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  uint32_t sEPD_skim_count = 0; </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  uint32_t ZDC_skim_count = 0;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <span class="comment">//Per-calo tower counter histograms</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  TH1* h_EMC_nTowers_notinstr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  TH1* h_HCal_nTowers_notinstr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  TH1* h_sEPD_nTowers_notinstr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  TH1* h_ZDC_nTowers_notinstr = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#endif </span><span class="comment">// CALOSTATUSSKIMMER_H</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>  <span class="comment">//Event counter histograms</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  TH1* h_calo_nEvents = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>};</div>
+</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="preprocessor">#endif </span><span class="comment">// CALOSTATUSSKIMMER_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_a01013bfd5de836e4fd7dd9424e0054f5"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a01013bfd5de836e4fd7dd9424e0054f5">CaloStatusSkimmer::do_skim_sEPD</a></div><div class="ttdeci">void do_skim_sEPD(uint16_t threshold)</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:59</div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_a05c59ef606f3de184cad1ea7e4429fff"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a05c59ef606f3de184cad1ea7e4429fff">CaloStatusSkimmer::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize the CaloStatusSkimmer module.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.cc:49</div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_a38dc2a166271fb24c853e2d28f51efd9"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a38dc2a166271fb24c853e2d28f51efd9">CaloStatusSkimmer::do_skim_ZDC</a></div><div class="ttdeci">void do_skim_ZDC(uint16_t threshold)</div><div class="ttdoc">Set the ZDC skim threshold value.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:75</div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_a3ea0ae306f298ed960e65c7e7d3819ef"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a3ea0ae306f298ed960e65c7e7d3819ef">CaloStatusSkimmer::CaloStatusSkimmer</a></div><div class="ttdeci">CaloStatusSkimmer(const std::string &amp;name=&quot;CaloStatusSkimmer&quot;)</div><div class="ttdoc">Constructor for CaloStatusSkimmer initializing base SubsysReco with provided name.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.cc:27</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_a01013bfd5de836e4fd7dd9424e0054f5"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a01013bfd5de836e4fd7dd9424e0054f5">CaloStatusSkimmer::do_skim_sEPD</a></div><div class="ttdeci">void do_skim_sEPD(uint16_t threshold)</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:62</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_a05c59ef606f3de184cad1ea7e4429fff"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a05c59ef606f3de184cad1ea7e4429fff">CaloStatusSkimmer::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize the CaloStatusSkimmer module.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.cc:51</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_a38dc2a166271fb24c853e2d28f51efd9"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a38dc2a166271fb24c853e2d28f51efd9">CaloStatusSkimmer::do_skim_ZDC</a></div><div class="ttdeci">void do_skim_ZDC(uint16_t threshold)</div><div class="ttdoc">Set the ZDC skim threshold value.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:79</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_a3ea0ae306f298ed960e65c7e7d3819ef"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a3ea0ae306f298ed960e65c7e7d3819ef">CaloStatusSkimmer::CaloStatusSkimmer</a></div><div class="ttdeci">CaloStatusSkimmer(const std::string &amp;name=&quot;CaloStatusSkimmer&quot;)</div><div class="ttdoc">Constructor for CaloStatusSkimmer initializing base SubsysReco with provided name.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.cc:28</div></div>
 <div class="ttc" id="aclassCaloStatusSkimmer_html_a4e2d6bb87fbe616bcb40e8d59ea44a0c"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a4e2d6bb87fbe616bcb40e8d59ea44a0c">CaloStatusSkimmer::~CaloStatusSkimmer</a></div><div class="ttdeci">~CaloStatusSkimmer() override=default</div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_a567a7ea9fb15f777afe943e9cb5abeb2"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a567a7ea9fb15f777afe943e9cb5abeb2">CaloStatusSkimmer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process event and apply calorimeter status skimming based on not instrumented tower counts.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.cc:95</div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_a5804212f3855d1596a0a7a7bdba06e5d"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a5804212f3855d1596a0a7a7bdba06e5d">CaloStatusSkimmer::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Called at the end of all processing.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.cc:289</div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_aa3e39bff82ec5da46a97b8f19008c97c"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#aa3e39bff82ec5da46a97b8f19008c97c">CaloStatusSkimmer::do_skim_HCal</a></div><div class="ttdeci">void do_skim_HCal(uint16_t threshold)</div><div class="ttdoc">Set the HCal skim threshold value.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:51</div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_ac8c5d14c1fd24bd0cb8e9dade3e2887c"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#ac8c5d14c1fd24bd0cb8e9dade3e2887c">CaloStatusSkimmer::produce_QA_histograms</a></div><div class="ttdeci">void produce_QA_histograms(bool produce)</div><div class="ttdoc">Set flag to produce QA histograms.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:85</div></div>
-<div class="ttc" id="aclassCaloStatusSkimmer_html_afc071790fc718601dc819afd6fd37e1a"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#afc071790fc718601dc819afd6fd37e1a">CaloStatusSkimmer::do_skim_EMCal</a></div><div class="ttdeci">void do_skim_EMCal(uint16_t threshold)</div><div class="ttdoc">Set the EMCal skim threshold.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:38</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_a567a7ea9fb15f777afe943e9cb5abeb2"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a567a7ea9fb15f777afe943e9cb5abeb2">CaloStatusSkimmer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process event and apply calorimeter status skimming based on not instrumented tower counts.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.cc:98</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_a5804212f3855d1596a0a7a7bdba06e5d"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#a5804212f3855d1596a0a7a7bdba06e5d">CaloStatusSkimmer::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Called at the end of all processing.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.cc:293</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_aa3e39bff82ec5da46a97b8f19008c97c"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#aa3e39bff82ec5da46a97b8f19008c97c">CaloStatusSkimmer::do_skim_HCal</a></div><div class="ttdeci">void do_skim_HCal(uint16_t threshold)</div><div class="ttdoc">Set the HCal skim threshold value.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:53</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_ac8c5d14c1fd24bd0cb8e9dade3e2887c"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#ac8c5d14c1fd24bd0cb8e9dade3e2887c">CaloStatusSkimmer::produce_QA_histograms</a></div><div class="ttdeci">void produce_QA_histograms(bool produce)</div><div class="ttdoc">Set flag to produce QA histograms.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:90</div></div>
+<div class="ttc" id="aclassCaloStatusSkimmer_html_afc071790fc718601dc819afd6fd37e1a"><div class="ttname"><a href="../../d3/d02/classCaloStatusSkimmer.html#afc071790fc718601dc819afd6fd37e1a">CaloStatusSkimmer::do_skim_EMCal</a></div><div class="ttdeci">void do_skim_EMCal(uint16_t threshold)</div><div class="ttdoc">Set the EMCal skim threshold.</div><div class="ttdef"><b>Definition</b> CaloStatusSkimmer.h:39</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -136,111 +137,111 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#a1c501ea55d7b46c2c5307714a9018fc0">   45</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#a1c501ea55d7b46c2c5307714a9018fc0">set_sampachannel</a>(<span class="keyword">const</span> uint16_t val)<span class="keyword"> override </span>{ sampachannel = val; }</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#ae026f392959150caa9da73839931f278">   47</a></span>  uint16_t <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#ae026f392959150caa9da73839931f278">get_samples</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> samples; } </div>
-<div class="foldopen" id="foldopen00053" data-start="{" data-end="}">
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#af0efbc0e57629a9d742fbdc565c69f70">   53</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#af0efbc0e57629a9d742fbdc565c69f70">set_samples</a>(<span class="keyword">const</span> uint16_t val)<span class="keyword"> override</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="comment">// assign</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    samples = val;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="comment">// resize adc vector</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    adc.resize(val, 0);</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  }</div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#af0efbc0e57629a9d742fbdc565c69f70">   54</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#af0efbc0e57629a9d742fbdc565c69f70">set_samples</a>(<span class="keyword">const</span> uint16_t val)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">// assign</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    samples = val;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">// resize adc vector</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    adc.resize(val, 0);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  }</div>
 </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#a3363f743627f8889b5f16ff25def566b">   68</a></span>  uint16_t <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#a3363f743627f8889b5f16ff25def566b">get_adc</a>(uint16_t sample)<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    assert(sample &lt; adc.size());</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordflow">return</span> adc[sample];</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  }</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#a3363f743627f8889b5f16ff25def566b">   70</a></span>  uint16_t <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#a3363f743627f8889b5f16ff25def566b">get_adc</a>(uint16_t sample)<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    assert(sample &lt; adc.size());</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordflow">return</span> adc[sample];</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  }</div>
 </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="comment">// cppcheck-suppress virtualCallInConstructor</span> </div>
-<div class="foldopen" id="foldopen00079" data-start="{" data-end="}">
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#ae39d7cba07d3a9b0b024f94fba2ae333">   79</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#ae39d7cba07d3a9b0b024f94fba2ae333">set_adc</a>(uint16_t sample, uint16_t val)<span class="keyword"> override</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    assert(sample &lt; adc.size());</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    adc[sample] = val;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  }</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="comment">// cppcheck-suppress virtualCallInConstructor</span> </div>
+<div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#ae39d7cba07d3a9b0b024f94fba2ae333">   82</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#ae39d7cba07d3a9b0b024f94fba2ae333">set_adc</a>(uint16_t sample, uint16_t val)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    assert(sample &lt; adc.size());</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    adc[sample] = val;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  }</div>
 </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="foldopen" id="foldopen00085" data-start="{" data-end="};">
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html">   85</a></span>  <span class="keyword">class </span><a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a7dcb1fd3a4556b260aab7b58e7d55c53">AdcIteratorv1</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d6/de6/classTpcRawHit_1_1AdcIterator.html#a509481e24bcfe2a4baca346411dba2ff">AdcIterator</a></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  {</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>   <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keyword">const</span> std::vector&lt;uint16_t&gt;&amp; m_adc;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    uint16_t m_index = 0;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>   <span class="keyword">public</span>: </div>
-<div class="foldopen" id="foldopen00096" data-start="{" data-end="}">
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a7dcb1fd3a4556b260aab7b58e7d55c53">   96</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a7dcb1fd3a4556b260aab7b58e7d55c53">AdcIteratorv1</a>(<span class="keyword">const</span> std::vector&lt;uint16_t&gt;&amp; adc)</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>      : m_adc(adc)</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    {</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    }</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="foldopen" id="foldopen00088" data-start="{" data-end="};">
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html">   88</a></span>  <span class="keyword">class </span><a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a7dcb1fd3a4556b260aab7b58e7d55c53">AdcIteratorv1</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d6/de6/classTpcRawHit_1_1AdcIterator.html#a509481e24bcfe2a4baca346411dba2ff">AdcIterator</a></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  {</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>   <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keyword">const</span> std::vector&lt;uint16_t&gt;&amp; m_adc;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    uint16_t m_index = 0;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>   <span class="keyword">public</span>: </div>
+<div class="foldopen" id="foldopen00100" data-start="{" data-end="}">
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a7dcb1fd3a4556b260aab7b58e7d55c53">  100</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a7dcb1fd3a4556b260aab7b58e7d55c53">AdcIteratorv1</a>(<span class="keyword">const</span> std::vector&lt;uint16_t&gt;&amp; adc)</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>      : m_adc(adc)</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    {</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    }</div>
 </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ad7e63ebf9132599617713dd433682fc0">  101</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ad7e63ebf9132599617713dd433682fc0">First</a>()<span class="keyword"> override </span>{ m_index = 0; }</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a170c4ce00270e1e1e0713de3516cce46">  103</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a170c4ce00270e1e1e0713de3516cce46">Next</a>()<span class="keyword"> override </span>{ ++m_index; }</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a353cd832abb1be9ca93f4c0bfcbaa590">  105</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a353cd832abb1be9ca93f4c0bfcbaa590">IsDone</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> m_index &gt;= m_adc.size(); }</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ad7e63ebf9132599617713dd433682fc0">  105</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ad7e63ebf9132599617713dd433682fc0">First</a>()<span class="keyword"> override </span>{ m_index = 0; }</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="foldopen" id="foldopen00111" data-start="{" data-end="}">
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ace290a1e517d6beb63b590c36b35d682">  111</a></span>    uint16_t <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ace290a1e517d6beb63b590c36b35d682">CurrentTimeBin</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>      <span class="keywordflow">return</span> m_index;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    }</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a170c4ce00270e1e1e0713de3516cce46">  107</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a170c4ce00270e1e1e0713de3516cce46">Next</a>()<span class="keyword"> override </span>{ ++m_index; }</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a353cd832abb1be9ca93f4c0bfcbaa590">  109</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a353cd832abb1be9ca93f4c0bfcbaa590">IsDone</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> m_index &gt;= m_adc.size(); }</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="foldopen" id="foldopen00116" data-start="{" data-end="}">
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ace290a1e517d6beb63b590c36b35d682">  116</a></span>    uint16_t <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ace290a1e517d6beb63b590c36b35d682">CurrentTimeBin</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>      <span class="keywordflow">return</span> m_index;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    }</div>
 </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="foldopen" id="foldopen00121" data-start="{" data-end="}">
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a72ddcb9903f1285c533ef6c05aa1120e">  121</a></span>    uint16_t <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a72ddcb9903f1285c533ef6c05aa1120e">CurrentAdc</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>      <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a353cd832abb1be9ca93f4c0bfcbaa590">IsDone</a>())</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>      {</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <span class="keywordflow">return</span> m_adc[m_index];</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>      }</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>      <span class="keywordflow">return</span> std::numeric_limits&lt;uint16_t&gt;::max();  <span class="comment">// Or throw an exception</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    }</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="foldopen" id="foldopen00127" data-start="{" data-end="}">
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a72ddcb9903f1285c533ef6c05aa1120e">  127</a></span>    uint16_t <a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a72ddcb9903f1285c533ef6c05aa1120e">CurrentAdc</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>      <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a353cd832abb1be9ca93f4c0bfcbaa590">IsDone</a>())</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>      {</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        <span class="keywordflow">return</span> m_adc[m_index];</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>      }</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>      <span class="keywordflow">return</span> std::numeric_limits&lt;uint16_t&gt;::max();  <span class="comment">// Or throw an exception</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    }</div>
 </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  };</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>  };</div>
 </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#ad3d8548903fbcfdd4f02eb377ff3f667">  131</a></span>  <a class="code hl_class" href="../../d6/de6/classTpcRawHit_1_1AdcIterator.html">AdcIterator</a>* <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#ad3d8548903fbcfdd4f02eb377ff3f667">CreateAdcIterator</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html">AdcIteratorv1</a>(adc); }</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>  uint64_t bco = std::numeric_limits&lt;uint64_t&gt;::max();</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>  uint64_t gtm_bco = std::numeric_limits&lt;uint64_t&gt;::max();</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  int32_t packetid = std::numeric_limits&lt;int32_t&gt;::max();</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>  uint16_t fee = std::numeric_limits&lt;uint16_t&gt;::max();</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>  uint16_t channel = std::numeric_limits&lt;uint16_t&gt;::max();</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>  uint16_t sampaaddress = std::numeric_limits&lt;uint16_t&gt;::max();</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  uint16_t sampachannel = std::numeric_limits&lt;uint16_t&gt;::max();</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>  uint16_t samples = std::numeric_limits&lt;uint16_t&gt;::max();</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span></div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>  std::vector&lt;uint16_t&gt; adc;</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  ClassDefOverride(<a class="code hl_class" href="../../dd/dce/classTpcRawHitv1.html">TpcRawHitv1</a>, 1)</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>};</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="../../dd/dce/classTpcRawHitv1.html#ad3d8548903fbcfdd4f02eb377ff3f667">  137</a></span>  <a class="code hl_class" href="../../d6/de6/classTpcRawHit_1_1AdcIterator.html">AdcIterator</a>* <a class="code hl_function" href="../../dd/dce/classTpcRawHitv1.html#ad3d8548903fbcfdd4f02eb377ff3f667">CreateAdcIterator</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html">AdcIteratorv1</a>(adc); }</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  uint64_t bco = std::numeric_limits&lt;uint64_t&gt;::max();</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>  uint64_t gtm_bco = std::numeric_limits&lt;uint64_t&gt;::max();</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>  int32_t packetid = std::numeric_limits&lt;int32_t&gt;::max();</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  uint16_t fee = std::numeric_limits&lt;uint16_t&gt;::max();</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>  uint16_t channel = std::numeric_limits&lt;uint16_t&gt;::max();</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  uint16_t sampaaddress = std::numeric_limits&lt;uint16_t&gt;::max();</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  uint16_t sampachannel = std::numeric_limits&lt;uint16_t&gt;::max();</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  uint16_t samples = std::numeric_limits&lt;uint16_t&gt;::max();</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span></div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>  std::vector&lt;uint16_t&gt; adc;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  ClassDefOverride(<a class="code hl_class" href="../../dd/dce/classTpcRawHitv1.html">TpcRawHitv1</a>, 1)</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>};</div>
 </div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aPHObject_8h_html"><div class="ttname"><a href="../../df/d32/PHObject_8h.html">PHObject.h</a></div></div>
 <div class="ttc" id="aTpcRawHit_8h_html"><div class="ttname"><a href="../../db/d99/TpcRawHit_8h.html">TpcRawHit.h</a></div></div>
-<div class="ttc" id="aclassTpcRawHit_1_1AdcIterator_html"><div class="ttname"><a href="../../d6/de6/classTpcRawHit_1_1AdcIterator.html">TpcRawHit::AdcIterator</a></div><div class="ttdef"><b>Definition</b> TpcRawHit.h:68</div></div>
+<div class="ttc" id="aclassTpcRawHit_1_1AdcIterator_html"><div class="ttname"><a href="../../d6/de6/classTpcRawHit_1_1AdcIterator.html">TpcRawHit::AdcIterator</a></div><div class="ttdef"><b>Definition</b> TpcRawHit.h:69</div></div>
 <div class="ttc" id="aclassTpcRawHit_1_1AdcIterator_html_a509481e24bcfe2a4baca346411dba2ff"><div class="ttname"><a href="../../d6/de6/classTpcRawHit_1_1AdcIterator.html#a509481e24bcfe2a4baca346411dba2ff">TpcRawHit::AdcIterator::AdcIterator</a></div><div class="ttdeci">AdcIterator()=default</div></div>
 <div class="ttc" id="aclassTpcRawHit_html_a215ad8f9ba0bd7b2b52fa6d8ae4337e9"><div class="ttname"><a href="../../d4/d14/classTpcRawHit.html#a215ad8f9ba0bd7b2b52fa6d8ae4337e9">TpcRawHit::TpcRawHit</a></div><div class="ttdeci">TpcRawHit()=default</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html">TpcRawHitv1::AdcIteratorv1</a></div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:86</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_a170c4ce00270e1e1e0713de3516cce46"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a170c4ce00270e1e1e0713de3516cce46">TpcRawHitv1::AdcIteratorv1::Next</a></div><div class="ttdeci">void Next() override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:103</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_a353cd832abb1be9ca93f4c0bfcbaa590"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a353cd832abb1be9ca93f4c0bfcbaa590">TpcRawHitv1::AdcIteratorv1::IsDone</a></div><div class="ttdeci">bool IsDone() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:105</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_a72ddcb9903f1285c533ef6c05aa1120e"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a72ddcb9903f1285c533ef6c05aa1120e">TpcRawHitv1::AdcIteratorv1::CurrentAdc</a></div><div class="ttdeci">uint16_t CurrentAdc() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:121</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_a7dcb1fd3a4556b260aab7b58e7d55c53"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a7dcb1fd3a4556b260aab7b58e7d55c53">TpcRawHitv1::AdcIteratorv1::AdcIteratorv1</a></div><div class="ttdeci">AdcIteratorv1(const std::vector&lt; uint16_t &gt; &amp;adc)</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:96</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_ace290a1e517d6beb63b590c36b35d682"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ace290a1e517d6beb63b590c36b35d682">TpcRawHitv1::AdcIteratorv1::CurrentTimeBin</a></div><div class="ttdeci">uint16_t CurrentTimeBin() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:111</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_ad7e63ebf9132599617713dd433682fc0"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ad7e63ebf9132599617713dd433682fc0">TpcRawHitv1::AdcIteratorv1::First</a></div><div class="ttdeci">void First() override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:101</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html">TpcRawHitv1::AdcIteratorv1</a></div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:89</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_a170c4ce00270e1e1e0713de3516cce46"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a170c4ce00270e1e1e0713de3516cce46">TpcRawHitv1::AdcIteratorv1::Next</a></div><div class="ttdeci">void Next() override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:107</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_a353cd832abb1be9ca93f4c0bfcbaa590"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a353cd832abb1be9ca93f4c0bfcbaa590">TpcRawHitv1::AdcIteratorv1::IsDone</a></div><div class="ttdeci">bool IsDone() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:109</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_a72ddcb9903f1285c533ef6c05aa1120e"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a72ddcb9903f1285c533ef6c05aa1120e">TpcRawHitv1::AdcIteratorv1::CurrentAdc</a></div><div class="ttdeci">uint16_t CurrentAdc() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:127</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_a7dcb1fd3a4556b260aab7b58e7d55c53"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#a7dcb1fd3a4556b260aab7b58e7d55c53">TpcRawHitv1::AdcIteratorv1::AdcIteratorv1</a></div><div class="ttdeci">AdcIteratorv1(const std::vector&lt; uint16_t &gt; &amp;adc)</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:100</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_ace290a1e517d6beb63b590c36b35d682"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ace290a1e517d6beb63b590c36b35d682">TpcRawHitv1::AdcIteratorv1::CurrentTimeBin</a></div><div class="ttdeci">uint16_t CurrentTimeBin() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:116</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_1_1AdcIteratorv1_html_ad7e63ebf9132599617713dd433682fc0"><div class="ttname"><a href="../../d3/df0/classTpcRawHitv1_1_1AdcIteratorv1.html#ad7e63ebf9132599617713dd433682fc0">TpcRawHitv1::AdcIteratorv1::First</a></div><div class="ttdeci">void First() override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:105</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html">TpcRawHitv1</a></div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:12</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_a1c501ea55d7b46c2c5307714a9018fc0"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a1c501ea55d7b46c2c5307714a9018fc0">TpcRawHitv1::set_sampachannel</a></div><div class="ttdeci">void set_sampachannel(const uint16_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:45</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_html_a3363f743627f8889b5f16ff25def566b"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a3363f743627f8889b5f16ff25def566b">TpcRawHitv1::get_adc</a></div><div class="ttdeci">uint16_t get_adc(uint16_t sample) const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:68</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_html_a3363f743627f8889b5f16ff25def566b"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a3363f743627f8889b5f16ff25def566b">TpcRawHitv1::get_adc</a></div><div class="ttdeci">uint16_t get_adc(uint16_t sample) const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:70</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_a3754887a0350c9b75532bc8386e676fe"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a3754887a0350c9b75532bc8386e676fe">TpcRawHitv1::set_packetid</a></div><div class="ttdeci">void set_packetid(const int32_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:33</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_html_a37bf91600441f54d79b07a8162802c12"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a37bf91600441f54d79b07a8162802c12">TpcRawHitv1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const override</div><div class="ttdoc">Identify prints basic hit information to the provided stream.</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.cc:31</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_html_a37bf91600441f54d79b07a8162802c12"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a37bf91600441f54d79b07a8162802c12">TpcRawHitv1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const override</div><div class="ttdoc">Identify prints basic hit information to the provided stream.</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.cc:33</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_a48000d63a44d3da325c488a72469c143"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a48000d63a44d3da325c488a72469c143">TpcRawHitv1::get_gtm_bco</a></div><div class="ttdeci">uint64_t get_gtm_bco() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:29</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_a542f0832399fbba36ddb9a849aa3b8a7"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a542f0832399fbba36ddb9a849aa3b8a7">TpcRawHitv1::get_sampachannel</a></div><div class="ttdeci">uint16_t get_sampachannel() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:44</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_a5fd06fc48ea3e6933a00e943d5bf08fc"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a5fd06fc48ea3e6933a00e943d5bf08fc">TpcRawHitv1::get_packetid</a></div><div class="ttdeci">int32_t get_packetid() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:32</div></div>
@@ -249,16 +250,16 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclassTpcRawHitv1_html_a70f9edc12eb4a6e0629ccb2e09682d12"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a70f9edc12eb4a6e0629ccb2e09682d12">TpcRawHitv1::~TpcRawHitv1</a></div><div class="ttdeci">~TpcRawHitv1() override=default</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_a86cc0cb26f90d19d54f8f962638216bf"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a86cc0cb26f90d19d54f8f962638216bf">TpcRawHitv1::get_sampaaddress</a></div><div class="ttdeci">uint16_t get_sampaaddress() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:41</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_a8dd48ae9d43c0b987b639f2c85003bf6"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a8dd48ae9d43c0b987b639f2c85003bf6">TpcRawHitv1::get_bco</a></div><div class="ttdeci">uint64_t get_bco() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:25</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_html_a9f3e97b78ed2a058f68082824dba804b"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a9f3e97b78ed2a058f68082824dba804b">TpcRawHitv1::Clear</a></div><div class="ttdeci">void Clear(Option_t *) override</div><div class="ttdoc">Reset the raw hit data by clearing the ADC vector.</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.cc:42</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_html_a9f3e97b78ed2a058f68082824dba804b"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#a9f3e97b78ed2a058f68082824dba804b">TpcRawHitv1::Clear</a></div><div class="ttdeci">void Clear(Option_t *) override</div><div class="ttdoc">Reset the raw hit data by clearing the ADC vector.</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.cc:45</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_ab6671325f416125ab340c36b0da1359e"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ab6671325f416125ab340c36b0da1359e">TpcRawHitv1::set_gtm_bco</a></div><div class="ttdeci">void set_gtm_bco(const uint64_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:30</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_ab9017742c44d011595a3c787313deef2"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ab9017742c44d011595a3c787313deef2">TpcRawHitv1::set_fee</a></div><div class="ttdeci">void set_fee(const uint16_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:36</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_ac118b2bb7be18471caf7cb1adc706f81"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ac118b2bb7be18471caf7cb1adc706f81">TpcRawHitv1::set_channel</a></div><div class="ttdeci">void set_channel(const uint16_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:39</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_html_ad3d8548903fbcfdd4f02eb377ff3f667"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ad3d8548903fbcfdd4f02eb377ff3f667">TpcRawHitv1::CreateAdcIterator</a></div><div class="ttdeci">AdcIterator * CreateAdcIterator() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:131</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_html_ad3d8548903fbcfdd4f02eb377ff3f667"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ad3d8548903fbcfdd4f02eb377ff3f667">TpcRawHitv1::CreateAdcIterator</a></div><div class="ttdeci">AdcIterator * CreateAdcIterator() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:137</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_ade7329ce5161541caeb1d1c8bdc8e478"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ade7329ce5161541caeb1d1c8bdc8e478">TpcRawHitv1::TpcRawHitv1</a></div><div class="ttdeci">TpcRawHitv1()=default</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_ae026f392959150caa9da73839931f278"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ae026f392959150caa9da73839931f278">TpcRawHitv1::get_samples</a></div><div class="ttdeci">uint16_t get_samples() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:47</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_html_ae39d7cba07d3a9b0b024f94fba2ae333"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ae39d7cba07d3a9b0b024f94fba2ae333">TpcRawHitv1::set_adc</a></div><div class="ttdeci">void set_adc(uint16_t sample, uint16_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:79</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_html_ae39d7cba07d3a9b0b024f94fba2ae333"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#ae39d7cba07d3a9b0b024f94fba2ae333">TpcRawHitv1::set_adc</a></div><div class="ttdeci">void set_adc(uint16_t sample, uint16_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:82</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_aee35372bf887f0470421296fb3474331"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#aee35372bf887f0470421296fb3474331">TpcRawHitv1::set_bco</a></div><div class="ttdeci">void set_bco(const uint64_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:27</div></div>
-<div class="ttc" id="aclassTpcRawHitv1_html_af0efbc0e57629a9d742fbdc565c69f70"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#af0efbc0e57629a9d742fbdc565c69f70">TpcRawHitv1::set_samples</a></div><div class="ttdeci">void set_samples(const uint16_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:53</div></div>
+<div class="ttc" id="aclassTpcRawHitv1_html_af0efbc0e57629a9d742fbdc565c69f70"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#af0efbc0e57629a9d742fbdc565c69f70">TpcRawHitv1::set_samples</a></div><div class="ttdeci">void set_samples(const uint16_t val) override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:54</div></div>
 <div class="ttc" id="aclassTpcRawHitv1_html_affa452efbc3d1daef795d4c13b6e5d3d"><div class="ttname"><a href="../../dd/dce/classTpcRawHitv1.html#affa452efbc3d1daef795d4c13b6e5d3d">TpcRawHitv1::get_fee</a></div><div class="ttdeci">uint16_t get_fee() const override</div><div class="ttdef"><b>Definition</b> TpcRawHitv1.h:35</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

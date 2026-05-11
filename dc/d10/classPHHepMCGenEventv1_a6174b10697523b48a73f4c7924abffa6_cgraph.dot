@@ -10,7 +10,7 @@ digraph "PHHepMCGenEventv1::operator="
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="PHHepMCGenEvent::getEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7b/classPHHepMCGenEvent.html#a086a77104ec225e191885f9db7538521",tooltip="Retrieve the stored generated event."];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="PHHepMCGenEventv1::\lPHHepMCGenEventv1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/classPHHepMCGenEventv1.html#a706a79059a83512df99af1aca5400db6",tooltip="Default constructor initializes boost beta vector rotation vector and rotation angle to zero This com..."];
+  Node3 [id="Node000003",label="PHHepMCGenEventv1::\lPHHepMCGenEventv1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/classPHHepMCGenEventv1.html#a706a79059a83512df99af1aca5400db6",tooltip="Default constructor initializes boost beta vector rotation vector and rotation angle to zero."];
   Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
   Node4 [id="Node000004",label="PHHepMCGenEventv1::\lReset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/classPHHepMCGenEventv1.html#a5bf20d76f3f53981117a92d31246572c",tooltip="Reset internal state of PHHepMCGenEventv1."];
   Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];

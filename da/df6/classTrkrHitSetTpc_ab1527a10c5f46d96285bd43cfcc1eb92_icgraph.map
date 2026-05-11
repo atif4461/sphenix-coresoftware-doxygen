@@ -1,9 +1,13 @@
 <map id="TrkrHitSetTpc::getTBinIndexStart" name="TrkrHitSetTpc::getTBinIndexStart">
-<area shape="rect" id="Node000001" title="Get starting time bin index." alt="" coords="510,36,712,81"/>
-<area shape="rect" id="Node000002" href="$da/df6/classTrkrHitSetTpc.html#a975cb6dfaf8bfc6a318f60bf7db0b39d" title="local &#45;&gt; global conversion" alt="" coords="246,5,458,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,47,458,43,458,38,495,42"/>
-<area shape="rect" id="Node000003" href="$da/df6/classTrkrHitSetTpc.html#ac1d509efc9b142fec374e0a0029dd3fe" title="global &#45;&gt; local conversion" alt="" coords="242,74,462,102"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="495,74,463,78,462,73,494,69"/>
-<area shape="rect" id="Node000004" href="$da/df6/classTrkrHitSetTpc.html#a6afb55ecba4a26f94224e0186fa2a6ed" title="Retrieve ADC data for a TPC hit identified by its hit key." alt="" coords="5,74,194,102"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,90,194,90,194,85,226,85"/>
+<area shape="rect" id="Node000001" title="Get starting time bin index." alt="" coords="746,36,949,81"/>
+<area shape="rect" id="Node000002" href="$da/df6/classTrkrHitSetTpc.html#a975cb6dfaf8bfc6a318f60bf7db0b39d" title="local &#45;&gt; global conversion" alt="" coords="482,5,694,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="730,47,694,43,695,38,731,42"/>
+<area shape="rect" id="Node000003" href="$da/df6/classTrkrHitSetTpc.html#ac1d509efc9b142fec374e0a0029dd3fe" title="global &#45;&gt; local conversion" alt="" coords="478,74,698,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="731,74,699,78,698,73,731,69"/>
+<area shape="rect" id="Node000004" href="$da/df6/classTrkrHitSetTpc.html#a2e2e9e376f9817374eefb0f0a7d87274" title="Retrieve the ADC data for a TPC hit identified by its hit key." alt="" coords="242,48,430,76"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="462,78,430,74,431,69,463,72"/>
+<area shape="rect" id="Node000005" href="$da/df6/classTrkrHitSetTpc.html#a6afb55ecba4a26f94224e0186fa2a6ed" title="Retrieve ADC data for a TPC hit identified by its hit key." alt="" coords="5,74,194,102"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="462,90,194,90,194,85,462,85"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="376,36,362,30,336,27,311,29,298,34,294,39,300,46,296,50,289,40,294,30,310,24,336,22,364,24,378,31"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="226,77,194,80,194,75,226,71"/>
 </map>

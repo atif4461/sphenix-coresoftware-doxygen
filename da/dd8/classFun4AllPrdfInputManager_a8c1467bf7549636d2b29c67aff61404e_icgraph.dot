@@ -14,5 +14,5 @@ digraph "Fun4AllPrdfInputManager::fileclose"
   Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node4 [id="Node000004",label="Fun4AllPrdfInputManager::run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd8/classFun4AllPrdfInputManager.html#a5a95556c61f0a9f209a3c178e81e4fac",tooltip="Run input manager to read next event from PRDF files and store it in the data node."];
   Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node5 [id="Node000005",label="Fun4AllPrdfInputManager\l::~Fun4AllPrdfInputManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd8/classFun4AllPrdfInputManager.html#acfaf96e09b3f4765e289f96e8e0a4dbb",tooltip="Destructor closes open file if necessary and deletes synchronization object This comment was generate..."];
+  Node5 [id="Node000005",label="Fun4AllPrdfInputManager\l::~Fun4AllPrdfInputManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$da/dd8/classFun4AllPrdfInputManager.html#acfaf96e09b3f4765e289f96e8e0a4dbb",tooltip="Destructor closes open file if necessary and deletes synchronization object."];
 }

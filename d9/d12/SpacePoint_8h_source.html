@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -127,20 +128,20 @@ $(function(){ initResizable(false); });
 </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d9/d12/SpacePoint_8h.html#a0aec30ee6936a8d4e9eaaab3148f3852">   43</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/d12/SpacePoint_8h.html#a0aec30ee6936a8d4e9eaaab3148f3852">operator==</a>(<a class="code hl_struct" href="../../dd/de4/structSpacePoint.html">SpacePoint</a> a, <a class="code hl_struct" href="../../dd/de4/structSpacePoint.html">SpacePoint</a> b)</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordflow">return</span> (a.<a class="code hl_variable" href="../../dd/de4/structSpacePoint.html#a8d753c8ff16359115d43c6340e29b5bd">m_clusKey</a> == b.<a class="code hl_variable" href="../../dd/de4/structSpacePoint.html#a8d753c8ff16359115d43c6340e29b5bd">m_clusKey</a>);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d9/d12/SpacePoint_8h.html#a0aec30ee6936a8d4e9eaaab3148f3852">   44</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/d12/SpacePoint_8h.html#a0aec30ee6936a8d4e9eaaab3148f3852">operator==</a>(<a class="code hl_struct" href="../../dd/de4/structSpacePoint.html">SpacePoint</a> a, <a class="code hl_struct" href="../../dd/de4/structSpacePoint.html">SpacePoint</a> b)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordflow">return</span> (a.<a class="code hl_variable" href="../../dd/de4/structSpacePoint.html#a8d753c8ff16359115d43c6340e29b5bd">m_clusKey</a> == b.<a class="code hl_variable" href="../../dd/de4/structSpacePoint.html#a8d753c8ff16359115d43c6340e29b5bd">m_clusKey</a>);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
 </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d9/d12/SpacePoint_8h.html#a9395660b71c25690b1ced75e293efe00">   48</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d9/d12/SpacePoint_8h.html#a9395660b71c25690b1ced75e293efe00">SpacePointPtr</a> = std::unique_ptr&lt;SpacePoint&gt;;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d9/d12/SpacePoint_8h.html#aa5a835e7ea288ddf1dc40f79b958ecde">   49</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d9/d12/SpacePoint_8h.html#aa5a835e7ea288ddf1dc40f79b958ecde">SeedContainer</a> = std::vector&lt;Acts::Seed&lt;SpacePoint&gt;&gt;;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aSpacePoint_8h_html_a0aec30ee6936a8d4e9eaaab3148f3852"><div class="ttname"><a href="../../d9/d12/SpacePoint_8h.html#a0aec30ee6936a8d4e9eaaab3148f3852">operator==</a></div><div class="ttdeci">bool operator==(SpacePoint a, SpacePoint b)</div><div class="ttdoc">This is needed by the Acts seedfinder.</div><div class="ttdef"><b>Definition</b> SpacePoint.h:43</div></div>
-<div class="ttc" id="aSpacePoint_8h_html_a9395660b71c25690b1ced75e293efe00"><div class="ttname"><a href="../../d9/d12/SpacePoint_8h.html#a9395660b71c25690b1ced75e293efe00">SpacePointPtr</a></div><div class="ttdeci">std::unique_ptr&lt; SpacePoint &gt; SpacePointPtr</div><div class="ttdef"><b>Definition</b> SpacePoint.h:48</div></div>
-<div class="ttc" id="aSpacePoint_8h_html_aa5a835e7ea288ddf1dc40f79b958ecde"><div class="ttname"><a href="../../d9/d12/SpacePoint_8h.html#aa5a835e7ea288ddf1dc40f79b958ecde">SeedContainer</a></div><div class="ttdeci">std::vector&lt; Acts::Seed&lt; SpacePoint &gt; &gt; SeedContainer</div><div class="ttdef"><b>Definition</b> SpacePoint.h:49</div></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d9/d12/SpacePoint_8h.html#a9395660b71c25690b1ced75e293efe00">   49</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d9/d12/SpacePoint_8h.html#a9395660b71c25690b1ced75e293efe00">SpacePointPtr</a> = std::unique_ptr&lt;SpacePoint&gt;;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d9/d12/SpacePoint_8h.html#aa5a835e7ea288ddf1dc40f79b958ecde">   50</a></span><span class="keyword">using </span><a class="code hl_typedef" href="../../d9/d12/SpacePoint_8h.html#aa5a835e7ea288ddf1dc40f79b958ecde">SeedContainer</a> = std::vector&lt;Acts::Seed&lt;SpacePoint&gt;&gt;;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aSpacePoint_8h_html_a0aec30ee6936a8d4e9eaaab3148f3852"><div class="ttname"><a href="../../d9/d12/SpacePoint_8h.html#a0aec30ee6936a8d4e9eaaab3148f3852">operator==</a></div><div class="ttdeci">bool operator==(SpacePoint a, SpacePoint b)</div><div class="ttdoc">This is needed by the Acts seedfinder.</div><div class="ttdef"><b>Definition</b> SpacePoint.h:44</div></div>
+<div class="ttc" id="aSpacePoint_8h_html_a9395660b71c25690b1ced75e293efe00"><div class="ttname"><a href="../../d9/d12/SpacePoint_8h.html#a9395660b71c25690b1ced75e293efe00">SpacePointPtr</a></div><div class="ttdeci">std::unique_ptr&lt; SpacePoint &gt; SpacePointPtr</div><div class="ttdef"><b>Definition</b> SpacePoint.h:49</div></div>
+<div class="ttc" id="aSpacePoint_8h_html_aa5a835e7ea288ddf1dc40f79b958ecde"><div class="ttname"><a href="../../d9/d12/SpacePoint_8h.html#aa5a835e7ea288ddf1dc40f79b958ecde">SeedContainer</a></div><div class="ttdeci">std::vector&lt; Acts::Seed&lt; SpacePoint &gt; &gt; SeedContainer</div><div class="ttdef"><b>Definition</b> SpacePoint.h:50</div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
 <div class="ttc" id="anamespaceTrkrDefs_html_aef7975f7ebc233236eca3e7b099db7de"><div class="ttname"><a href="../../d6/d3f/namespaceTrkrDefs.html#aef7975f7ebc233236eca3e7b099db7de">TrkrDefs::cluskey</a></div><div class="ttdeci">uint64_t cluskey</div><div class="ttdef"><b>Definition</b> TrkrDefs.h:27</div></div>
 <div class="ttc" id="astructSpacePoint_html"><div class="ttname"><a href="../../dd/de4/structSpacePoint.html">SpacePoint</a></div><div class="ttdef"><b>Definition</b> SpacePoint.h:15</div></div>

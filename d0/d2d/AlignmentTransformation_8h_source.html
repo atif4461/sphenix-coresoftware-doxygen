@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -128,163 +129,163 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#aa984bbe0ae1efbb268a4f51e54d6c34c">   34</a></span>  Eigen::Vector3d <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#aa984bbe0ae1efbb268a4f51e54d6c34c">perturbationAnglesGlobal</a> = Eigen::Vector3d(0.0, 0.0, 0.0);</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a9b64174cba581b3d5d5140e73bdd6df1">   35</a></span>  Eigen::Vector3d <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#a9b64174cba581b3d5d5140e73bdd6df1">perturbationTranslation</a> = Eigen::Vector3d(0.0, 0.0, 0.0);</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#af24be262c6cc2c0db32a8e5a1c3b6c52">   48</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#af24be262c6cc2c0db32a8e5a1c3b6c52">setMVTXParams</a>(<span class="keywordtype">double</span> mvtxDevs[6])</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    mvtxAngleDev(0) = mvtxDevs[0];</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    mvtxAngleDev(1) = mvtxDevs[1];</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    mvtxAngleDev(2) = mvtxDevs[2];</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    mvtxTransDev(0) = mvtxDevs[3];</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    mvtxTransDev(1) = mvtxDevs[4];</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    mvtxTransDev(2) = mvtxDevs[5];</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#a63229230b78b63c3dbeb8d22be304917">perturbMVTX</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">if</span> (localVerbosity)</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    {</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>      std::cout &lt;&lt; <span class="stringliteral">&quot;perturbMVTX: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#a63229230b78b63c3dbeb8d22be304917">perturbMVTX</a> &lt;&lt; <span class="stringliteral">&quot; MVTX Angle Std Dev: &quot;</span> &lt;&lt; mvtxAngleDev &lt;&lt; <span class="stringliteral">&quot;MVTX Trans Std Dev:&quot;</span> &lt;&lt; mvtxTransDev &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    }</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  }</div>
+<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#af24be262c6cc2c0db32a8e5a1c3b6c52">   49</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#af24be262c6cc2c0db32a8e5a1c3b6c52">setMVTXParams</a>(<span class="keywordtype">double</span> mvtxDevs[6])</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  {</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    mvtxAngleDev(0) = mvtxDevs[0];</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    mvtxAngleDev(1) = mvtxDevs[1];</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    mvtxAngleDev(2) = mvtxDevs[2];</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    mvtxTransDev(0) = mvtxDevs[3];</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    mvtxTransDev(1) = mvtxDevs[4];</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    mvtxTransDev(2) = mvtxDevs[5];</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#a63229230b78b63c3dbeb8d22be304917">perturbMVTX</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordflow">if</span> (localVerbosity)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>      std::cout &lt;&lt; <span class="stringliteral">&quot;perturbMVTX: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#a63229230b78b63c3dbeb8d22be304917">perturbMVTX</a> &lt;&lt; <span class="stringliteral">&quot; MVTX Angle Std Dev: &quot;</span> &lt;&lt; mvtxAngleDev &lt;&lt; <span class="stringliteral">&quot;MVTX Trans Std Dev:&quot;</span> &lt;&lt; mvtxTransDev &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  }</div>
 </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#acec03a3f63e06640dcb3aeb75a13b55b">   76</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#acec03a3f63e06640dcb3aeb75a13b55b">setINTTParams</a>(<span class="keywordtype">double</span> inttDevs[6])</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  {</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    inttAngleDev(0) = inttDevs[0];</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    inttAngleDev(1) = inttDevs[1];</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    inttAngleDev(2) = inttDevs[2];</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    inttTransDev(0) = inttDevs[3];</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    inttTransDev(1) = inttDevs[4];</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    inttTransDev(2) = inttDevs[5];</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#af72cbf4a94bb9b691de84eb3429e9c48">perturbINTT</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#acec03a3f63e06640dcb3aeb75a13b55b">   78</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#acec03a3f63e06640dcb3aeb75a13b55b">setINTTParams</a>(<span class="keywordtype">double</span> inttDevs[6])</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    inttAngleDev(0) = inttDevs[0];</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    inttAngleDev(1) = inttDevs[1];</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    inttAngleDev(2) = inttDevs[2];</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    inttTransDev(0) = inttDevs[3];</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    inttTransDev(1) = inttDevs[4];</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    inttTransDev(2) = inttDevs[5];</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordflow">if</span> (localVerbosity)</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    {</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>      std::cout &lt;&lt; <span class="stringliteral">&quot;perturbINTT: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#af72cbf4a94bb9b691de84eb3429e9c48">perturbINTT</a> &lt;&lt; <span class="stringliteral">&quot; INTT Angle Std Dev: &quot;</span> &lt;&lt; inttAngleDev &lt;&lt; <span class="stringliteral">&quot;INTT Trans Std Dev:&quot;</span> &lt;&lt; inttTransDev &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    }</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  }</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#af72cbf4a94bb9b691de84eb3429e9c48">perturbINTT</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordflow">if</span> (localVerbosity)</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    {</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>      std::cout &lt;&lt; <span class="stringliteral">&quot;perturbINTT: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#af72cbf4a94bb9b691de84eb3429e9c48">perturbINTT</a> &lt;&lt; <span class="stringliteral">&quot; INTT Angle Std Dev: &quot;</span> &lt;&lt; inttAngleDev &lt;&lt; <span class="stringliteral">&quot;INTT Trans Std Dev:&quot;</span> &lt;&lt; inttTransDev &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    }</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  }</div>
 </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="foldopen" id="foldopen00100" data-start="{" data-end="}">
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#adf891437cf945bfded510493fc037394">  100</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#adf891437cf945bfded510493fc037394">setTPCParams</a>(<span class="keywordtype">double</span> tpcDevs[6])</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  {</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    tpcAngleDev(0) = tpcDevs[0];</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    tpcAngleDev(1) = tpcDevs[1];</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    tpcAngleDev(2) = tpcDevs[2];</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    tpcTransDev(0) = tpcDevs[3];</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    tpcTransDev(1) = tpcDevs[4];</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    tpcTransDev(2) = tpcDevs[5];</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#ac3ffa213e309ecd60002b009e1ac0ff2">perturbTPC</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordflow">if</span> (localVerbosity)</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    {</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>      std::cout &lt;&lt; <span class="stringliteral">&quot;perturbTPC: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#ac3ffa213e309ecd60002b009e1ac0ff2">perturbTPC</a> &lt;&lt; <span class="stringliteral">&quot; TPC Angle Std Dev: &quot;</span> &lt;&lt; tpcAngleDev &lt;&lt; <span class="stringliteral">&quot;TPC Trans Std Dev:&quot;</span> &lt;&lt; tpcTransDev &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    }</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  }</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="foldopen" id="foldopen00103" data-start="{" data-end="}">
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#adf891437cf945bfded510493fc037394">  103</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#adf891437cf945bfded510493fc037394">setTPCParams</a>(<span class="keywordtype">double</span> tpcDevs[6])</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  {</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    tpcAngleDev(0) = tpcDevs[0];</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    tpcAngleDev(1) = tpcDevs[1];</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    tpcAngleDev(2) = tpcDevs[2];</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    tpcTransDev(0) = tpcDevs[3];</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    tpcTransDev(1) = tpcDevs[4];</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    tpcTransDev(2) = tpcDevs[5];</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#ac3ffa213e309ecd60002b009e1ac0ff2">perturbTPC</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordflow">if</span> (localVerbosity)</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    {</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>      std::cout &lt;&lt; <span class="stringliteral">&quot;perturbTPC: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#ac3ffa213e309ecd60002b009e1ac0ff2">perturbTPC</a> &lt;&lt; <span class="stringliteral">&quot; TPC Angle Std Dev: &quot;</span> &lt;&lt; tpcAngleDev &lt;&lt; <span class="stringliteral">&quot;TPC Trans Std Dev:&quot;</span> &lt;&lt; tpcTransDev &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    }</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  }</div>
 </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="foldopen" id="foldopen00121" data-start="{" data-end="}">
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a12214f82429ef7ac8d882ec98f173482">  121</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a12214f82429ef7ac8d882ec98f173482">setMMParams</a>(<span class="keywordtype">double</span> mmDevs[6])</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  {</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    mmAngleDev(0) = mmDevs[0];</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    mmAngleDev(1) = mmDevs[1];</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    mmAngleDev(2) = mmDevs[2];</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    mmTransDev(0) = mmDevs[3];</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    mmTransDev(1) = mmDevs[4];</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    mmTransDev(2) = mmDevs[5];</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#af57baa792118b60a28b2974f76ae6a79">perturbMM</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordflow">if</span> (localVerbosity)</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    {</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>      std::cout &lt;&lt; <span class="stringliteral">&quot;perturbMM: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#af57baa792118b60a28b2974f76ae6a79">perturbMM</a> &lt;&lt; <span class="stringliteral">&quot; MM Angle Std Dev: &quot;</span> &lt;&lt; mmAngleDev &lt;&lt; <span class="stringliteral">&quot;MM Trans Std Dev:&quot;</span> &lt;&lt; mmTransDev &lt;&lt; std::endl;</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    }</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  }</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="foldopen" id="foldopen00125" data-start="{" data-end="}">
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a12214f82429ef7ac8d882ec98f173482">  125</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a12214f82429ef7ac8d882ec98f173482">setMMParams</a>(<span class="keywordtype">double</span> mmDevs[6])</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  {</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    mmAngleDev(0) = mmDevs[0];</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    mmAngleDev(1) = mmDevs[1];</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    mmAngleDev(2) = mmDevs[2];</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    mmTransDev(0) = mmDevs[3];</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    mmTransDev(1) = mmDevs[4];</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    mmTransDev(2) = mmDevs[5];</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#af57baa792118b60a28b2974f76ae6a79">perturbMM</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    <span class="keywordflow">if</span> (localVerbosity)</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>    {</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>      std::cout &lt;&lt; <span class="stringliteral">&quot;perturbMM: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../dd/d8f/classAlignmentTransformation.html#af57baa792118b60a28b2974f76ae6a79">perturbMM</a> &lt;&lt; <span class="stringliteral">&quot; MM Angle Std Dev: &quot;</span> &lt;&lt; mmAngleDev &lt;&lt; <span class="stringliteral">&quot;MM Trans Std Dev:&quot;</span> &lt;&lt; mmTransDev &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    }</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  }</div>
 </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#adf9283858102c38873213a96550a8a36">  138</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#adf9283858102c38873213a96550a8a36">verbosity</a>() { localVerbosity = 1; }</div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a5b14bec347f75ae94cdad23524620ae6">misalignmentFactor</a>(uint8_t layer, <span class="keyword">const</span> <span class="keywordtype">double</span> factor); </div>
-<div class="foldopen" id="foldopen00146" data-start="{" data-end="}">
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a3fb9b255d63f93056764c79cc3f08ed7">  146</a></span>  <span class="keywordtype">double</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a3fb9b255d63f93056764c79cc3f08ed7">misalignmentFactor</a>(uint8_t layer)</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  {</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="keywordflow">return</span> transformMap-&gt;getMisalignmentFactor(layer);</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  }</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#adf9283858102c38873213a96550a8a36">  142</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#adf9283858102c38873213a96550a8a36">verbosity</a>() { localVerbosity = 1; }</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a5b14bec347f75ae94cdad23524620ae6">misalignmentFactor</a>(uint8_t layer, <span class="keyword">const</span> <span class="keywordtype">double</span> factor); </div>
+<div class="foldopen" id="foldopen00151" data-start="{" data-end="}">
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a3fb9b255d63f93056764c79cc3f08ed7">  151</a></span>  <span class="keywordtype">double</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a3fb9b255d63f93056764c79cc3f08ed7">misalignmentFactor</a>(uint8_t layer)</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  {</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    <span class="keywordflow">return</span> transformMap-&gt;getMisalignmentFactor(layer);</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>  }</div>
 </div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a83c8a011f4c9bd6c0c2157d3ede55f06">  150</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a83c8a011f4c9bd6c0c2157d3ede55f06">useInttSurveyGeometry</a>(<span class="keywordtype">bool</span> sur) { use_intt_survey_geometry = sur; }</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a761694739b787fd9455b91383f03010d">  151</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a761694739b787fd9455b91383f03010d">setUseNewSiliconRotationOrder</a>(<span class="keywordtype">bool</span> flag) { use_new_silicon_rotation_order = flag; }</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a5b2fdae8725577cc1feeac626c5a7643">  152</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a5b2fdae8725577cc1feeac626c5a7643">setUseModuleTiltAlways</a>(<span class="keywordtype">bool</span> flag) { use_module_tilt_always = flag; }</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>  Eigen::Vector3d mvtxAngleDev;</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>  Eigen::Vector3d mvtxTransDev;</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>  Eigen::Vector3d inttAngleDev;</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>  Eigen::Vector3d inttTransDev;</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>  Eigen::Vector3d tpcAngleDev;</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>  Eigen::Vector3d tpcTransDev;</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  Eigen::Vector3d mmAngleDev;</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>  Eigen::Vector3d mmTransDev;</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>  std::default_random_engine generator;</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>  std::string alignmentParamsFile = <span class="stringliteral">&quot;./localAlignmentParamsFile.txt&quot;</span>;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>  <span class="keywordtype">int</span> localVerbosity = 0;</div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>  <span class="keywordtype">bool</span> use_new_silicon_rotation_order = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>  <span class="keywordtype">bool</span> use_module_tilt_always = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>  <span class="keywordtype">bool</span> use_module_tilt = <span class="keyword">false</span>;   <span class="comment">// starts at false in all cases</span></div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>  </div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>  <span class="keywordtype">bool</span> use_intt_survey_geometry = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>  </div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>  Acts::Transform3 newMakeTransform(<span class="keyword">const</span> <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a>&amp; surf, Eigen::Vector3d&amp; millepedeTranslation, Eigen::Vector3d&amp; sensorAngles, Eigen::Vector3d&amp; localFrameTranslation, Eigen::Vector3d&amp; sensorAnglesGlobal, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> trkrid, <span class="keywordtype">bool</span> survey);</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  Eigen::Vector3d getTpcLocalFrameTranslation(<span class="keywordtype">float</span> moduleRadius, <span class="keywordtype">float</span> layerRadius, Eigen::Vector3d&amp; localRotation) <span class="keyword">const</span>; </div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>  <span class="keywordtype">void</span> extractModuleCenterPositions();</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>  <span class="keywordtype">double</span> extractModuleCenter(<a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a> hitsetkey, <span class="keywordtype">double</span> sectorphi);  </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span> </div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>  <a class="code hl_class" href="../../dd/dcb/classalignmentTransformationContainer.html">alignmentTransformationContainer</a>* transformMap = NULL;</div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>  <a class="code hl_class" href="../../dd/dcb/classalignmentTransformationContainer.html">alignmentTransformationContainer</a>* transformMapTransient = NULL;</div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>  <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* m_tGeometry = NULL;</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>  <span class="keywordtype">int</span> getNodes(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode);</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>  <span class="comment">// These should be checked and updated (ADF 12/2/2025)</span></div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>  <span class="keywordtype">float</span> TpcModuleRadii[2][12][3] = {}; <span class="comment">// module radial center in local coords</span></div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> innerLayer[3] = {};</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>  <span class="keywordtype">double</span> sectorPhi[2][12] = {};</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>};</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a83c8a011f4c9bd6c0c2157d3ede55f06">  155</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a83c8a011f4c9bd6c0c2157d3ede55f06">useInttSurveyGeometry</a>(<span class="keywordtype">bool</span> sur) { use_intt_survey_geometry = sur; }</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a761694739b787fd9455b91383f03010d">  156</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a761694739b787fd9455b91383f03010d">setUseNewSiliconRotationOrder</a>(<span class="keywordtype">bool</span> flag) { use_new_silicon_rotation_order = flag; }</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="../../dd/d8f/classAlignmentTransformation.html#a5b2fdae8725577cc1feeac626c5a7643">  157</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d8f/classAlignmentTransformation.html#a5b2fdae8725577cc1feeac626c5a7643">setUseModuleTiltAlways</a>(<span class="keywordtype">bool</span> flag) { use_module_tilt_always = flag; }</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>  Eigen::Vector3d mvtxAngleDev;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>  Eigen::Vector3d mvtxTransDev;</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>  Eigen::Vector3d inttAngleDev;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  Eigen::Vector3d inttTransDev;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>  Eigen::Vector3d tpcAngleDev;</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>  Eigen::Vector3d tpcTransDev;</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>  Eigen::Vector3d mmAngleDev;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>  Eigen::Vector3d mmTransDev;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>  std::default_random_engine generator;</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>  std::string alignmentParamsFile = <span class="stringliteral">&quot;./localAlignmentParamsFile.txt&quot;</span>;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>  <span class="keywordtype">int</span> localVerbosity = 0;</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>  <span class="keywordtype">bool</span> use_new_silicon_rotation_order = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>  <span class="keywordtype">bool</span> use_module_tilt_always = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>  <span class="keywordtype">bool</span> use_module_tilt = <span class="keyword">false</span>;   <span class="comment">// starts at false in all cases</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>  <span class="keywordtype">bool</span> use_intt_survey_geometry = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>  </div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>  Acts::Transform3 newMakeTransform(<span class="keyword">const</span> <a class="code hl_typedef" href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a>&amp; surf, Eigen::Vector3d&amp; millepedeTranslation, Eigen::Vector3d&amp; sensorAngles, Eigen::Vector3d&amp; localFrameTranslation, Eigen::Vector3d&amp; sensorAnglesGlobal, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> trkrid, <span class="keywordtype">bool</span> survey);</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>  Eigen::Vector3d getTpcLocalFrameTranslation(<span class="keywordtype">float</span> moduleRadius, <span class="keywordtype">float</span> layerRadius, Eigen::Vector3d&amp; localRotation) <span class="keyword">const</span>; </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>  <span class="keywordtype">void</span> extractModuleCenterPositions();</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>  <span class="keywordtype">double</span> extractModuleCenter(<a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a> hitsetkey, <span class="keywordtype">double</span> sectorphi);  </div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>  <a class="code hl_class" href="../../dd/dcb/classalignmentTransformationContainer.html">alignmentTransformationContainer</a>* transformMap = NULL;</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>  <a class="code hl_class" href="../../dd/dcb/classalignmentTransformationContainer.html">alignmentTransformationContainer</a>* transformMapTransient = NULL;</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>  <a class="code hl_class" href="../../d3/d64/classActsGeometry.html">ActsGeometry</a>* m_tGeometry = NULL;</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>  <span class="keywordtype">int</span> getNodes(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode);</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>  <span class="comment">// These should be checked and updated (ADF 12/2/2025)</span></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>  <span class="keywordtype">float</span> TpcModuleRadii[2][12][3] = {}; <span class="comment">// module radial center in local coords</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> innerLayer[3] = {};</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>  <span class="keywordtype">double</span> sectorPhi[2][12] = {};</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>};</div>
 </div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aActsSurfaceMaps_8h_html_ad97f5e535669632dd6e157a4478750bc"><div class="ttname"><a href="../../da/d51/ActsSurfaceMaps_8h.html#ad97f5e535669632dd6e157a4478750bc">Surface</a></div><div class="ttdeci">std::shared_ptr&lt; const Acts::Surface &gt; Surface</div><div class="ttdef"><b>Definition</b> ActsSurfaceMaps.h:29</div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
 <div class="ttc" id="aalignmentTransformationContainer_8h_html"><div class="ttname"><a href="../../d5/dfc/alignmentTransformationContainer_8h.html">alignmentTransformationContainer.h</a></div></div>
 <div class="ttc" id="aclassActsGeometry_html"><div class="ttname"><a href="../../d3/d64/classActsGeometry.html">ActsGeometry</a></div><div class="ttdef"><b>Definition</b> ActsGeometry.h:11</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a04ccf38d7341eac08cd13faeb082a742"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a04ccf38d7341eac08cd13faeb082a742">AlignmentTransformation::generateRandomPerturbations</a></div><div class="ttdeci">void generateRandomPerturbations(Eigen::Vector3d angleDev, Eigen::Vector3d transformDev)</div><div class="ttdoc">Generate random perturbations for alignment parameters.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.cc:649</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a12214f82429ef7ac8d882ec98f173482"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a12214f82429ef7ac8d882ec98f173482">AlignmentTransformation::setMMParams</a></div><div class="ttdeci">void setMMParams(double mmDevs[6])</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:121</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a1bb7959a41784c4120dae65eb5451e46"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a1bb7959a41784c4120dae65eb5451e46">AlignmentTransformation::createAlignmentTransformContainer</a></div><div class="ttdeci">void createAlignmentTransformContainer(PHCompositeNode *topNode)</div><div class="ttdoc">Create alignment transformation containers under the DST node.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.cc:608</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a23db75a5ef5b77f824a0a26ea028150d"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a23db75a5ef5b77f824a0a26ea028150d">AlignmentTransformation::createMap</a></div><div class="ttdeci">void createMap(PHCompositeNode *topNode)</div><div class="ttdoc">Create alignment transformation map using geometry nodes and alignment parameters.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.cc:37</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a3fb9b255d63f93056764c79cc3f08ed7"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a3fb9b255d63f93056764c79cc3f08ed7">AlignmentTransformation::misalignmentFactor</a></div><div class="ttdeci">double misalignmentFactor(uint8_t layer)</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:146</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a5b14bec347f75ae94cdad23524620ae6"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a5b14bec347f75ae94cdad23524620ae6">AlignmentTransformation::misalignmentFactor</a></div><div class="ttdeci">void misalignmentFactor(uint8_t layer, const double factor)</div><div class="ttdoc">Set the misalignment factor for a given detector layer.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.cc:591</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a5b2fdae8725577cc1feeac626c5a7643"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a5b2fdae8725577cc1feeac626c5a7643">AlignmentTransformation::setUseModuleTiltAlways</a></div><div class="ttdeci">void setUseModuleTiltAlways(bool flag)</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:152</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a04ccf38d7341eac08cd13faeb082a742"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a04ccf38d7341eac08cd13faeb082a742">AlignmentTransformation::generateRandomPerturbations</a></div><div class="ttdeci">void generateRandomPerturbations(Eigen::Vector3d angleDev, Eigen::Vector3d transformDev)</div><div class="ttdoc">Generate random perturbations for alignment parameters.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.cc:656</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a12214f82429ef7ac8d882ec98f173482"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a12214f82429ef7ac8d882ec98f173482">AlignmentTransformation::setMMParams</a></div><div class="ttdeci">void setMMParams(double mmDevs[6])</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:125</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a1bb7959a41784c4120dae65eb5451e46"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a1bb7959a41784c4120dae65eb5451e46">AlignmentTransformation::createAlignmentTransformContainer</a></div><div class="ttdeci">void createAlignmentTransformContainer(PHCompositeNode *topNode)</div><div class="ttdoc">Create alignment transformation containers under the DST node.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.cc:614</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a23db75a5ef5b77f824a0a26ea028150d"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a23db75a5ef5b77f824a0a26ea028150d">AlignmentTransformation::createMap</a></div><div class="ttdeci">void createMap(PHCompositeNode *topNode)</div><div class="ttdoc">Create alignment transformation map using geometry nodes and alignment parameters.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.cc:38</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a3fb9b255d63f93056764c79cc3f08ed7"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a3fb9b255d63f93056764c79cc3f08ed7">AlignmentTransformation::misalignmentFactor</a></div><div class="ttdeci">double misalignmentFactor(uint8_t layer)</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:151</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a5b14bec347f75ae94cdad23524620ae6"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a5b14bec347f75ae94cdad23524620ae6">AlignmentTransformation::misalignmentFactor</a></div><div class="ttdeci">void misalignmentFactor(uint8_t layer, const double factor)</div><div class="ttdoc">Set the misalignment factor for a given detector layer.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.cc:596</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a5b2fdae8725577cc1feeac626c5a7643"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a5b2fdae8725577cc1feeac626c5a7643">AlignmentTransformation::setUseModuleTiltAlways</a></div><div class="ttdeci">void setUseModuleTiltAlways(bool flag)</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:157</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_a5c61de41e19bc8d633855972c34e55c9"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a5c61de41e19bc8d633855972c34e55c9">AlignmentTransformation::perturbationAngles</a></div><div class="ttdeci">Eigen::Vector3d perturbationAngles</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:33</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_a5d2330244abc818d83662bd172cebbbc"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a5d2330244abc818d83662bd172cebbbc">AlignmentTransformation::AlignmentTransformation</a></div><div class="ttdeci">AlignmentTransformation()=default</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_a5f2d54bcba4ab71edd9738d1c5bd9a76"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a5f2d54bcba4ab71edd9738d1c5bd9a76">AlignmentTransformation::~AlignmentTransformation</a></div><div class="ttdeci">~AlignmentTransformation()</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:22</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_a63229230b78b63c3dbeb8d22be304917"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a63229230b78b63c3dbeb8d22be304917">AlignmentTransformation::perturbMVTX</a></div><div class="ttdeci">bool perturbMVTX</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:28</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a761694739b787fd9455b91383f03010d"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a761694739b787fd9455b91383f03010d">AlignmentTransformation::setUseNewSiliconRotationOrder</a></div><div class="ttdeci">void setUseNewSiliconRotationOrder(bool flag)</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:151</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_a83c8a011f4c9bd6c0c2157d3ede55f06"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a83c8a011f4c9bd6c0c2157d3ede55f06">AlignmentTransformation::useInttSurveyGeometry</a></div><div class="ttdeci">void useInttSurveyGeometry(bool sur)</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:150</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a761694739b787fd9455b91383f03010d"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a761694739b787fd9455b91383f03010d">AlignmentTransformation::setUseNewSiliconRotationOrder</a></div><div class="ttdeci">void setUseNewSiliconRotationOrder(bool flag)</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:156</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_a83c8a011f4c9bd6c0c2157d3ede55f06"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a83c8a011f4c9bd6c0c2157d3ede55f06">AlignmentTransformation::useInttSurveyGeometry</a></div><div class="ttdeci">void useInttSurveyGeometry(bool sur)</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:155</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_a9b64174cba581b3d5d5140e73bdd6df1"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#a9b64174cba581b3d5d5140e73bdd6df1">AlignmentTransformation::perturbationTranslation</a></div><div class="ttdeci">Eigen::Vector3d perturbationTranslation</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:35</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_aa984bbe0ae1efbb268a4f51e54d6c34c"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#aa984bbe0ae1efbb268a4f51e54d6c34c">AlignmentTransformation::perturbationAnglesGlobal</a></div><div class="ttdeci">Eigen::Vector3d perturbationAnglesGlobal</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:34</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_ac3ffa213e309ecd60002b009e1ac0ff2"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#ac3ffa213e309ecd60002b009e1ac0ff2">AlignmentTransformation::perturbTPC</a></div><div class="ttdeci">bool perturbTPC</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:30</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_acec03a3f63e06640dcb3aeb75a13b55b"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#acec03a3f63e06640dcb3aeb75a13b55b">AlignmentTransformation::setINTTParams</a></div><div class="ttdeci">void setINTTParams(double inttDevs[6])</div><div class="ttdoc">Set INTT alignment deviations from a six‑element array.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:76</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_adf891437cf945bfded510493fc037394"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#adf891437cf945bfded510493fc037394">AlignmentTransformation::setTPCParams</a></div><div class="ttdeci">void setTPCParams(double tpcDevs[6])</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:100</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_adf9283858102c38873213a96550a8a36"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#adf9283858102c38873213a96550a8a36">AlignmentTransformation::verbosity</a></div><div class="ttdeci">void verbosity()</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:138</div></div>
-<div class="ttc" id="aclassAlignmentTransformation_html_af24be262c6cc2c0db32a8e5a1c3b6c52"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#af24be262c6cc2c0db32a8e5a1c3b6c52">AlignmentTransformation::setMVTXParams</a></div><div class="ttdeci">void setMVTXParams(double mvtxDevs[6])</div><div class="ttdoc">Set MVTX perturbation parameters from an array.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:48</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_acec03a3f63e06640dcb3aeb75a13b55b"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#acec03a3f63e06640dcb3aeb75a13b55b">AlignmentTransformation::setINTTParams</a></div><div class="ttdeci">void setINTTParams(double inttDevs[6])</div><div class="ttdoc">Set INTT alignment deviations from a six‑element array.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:78</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_adf891437cf945bfded510493fc037394"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#adf891437cf945bfded510493fc037394">AlignmentTransformation::setTPCParams</a></div><div class="ttdeci">void setTPCParams(double tpcDevs[6])</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:103</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_adf9283858102c38873213a96550a8a36"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#adf9283858102c38873213a96550a8a36">AlignmentTransformation::verbosity</a></div><div class="ttdeci">void verbosity()</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:142</div></div>
+<div class="ttc" id="aclassAlignmentTransformation_html_af24be262c6cc2c0db32a8e5a1c3b6c52"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#af24be262c6cc2c0db32a8e5a1c3b6c52">AlignmentTransformation::setMVTXParams</a></div><div class="ttdeci">void setMVTXParams(double mvtxDevs[6])</div><div class="ttdoc">Set MVTX perturbation parameters from an array.</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:49</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_af57baa792118b60a28b2974f76ae6a79"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#af57baa792118b60a28b2974f76ae6a79">AlignmentTransformation::perturbMM</a></div><div class="ttdeci">bool perturbMM</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:31</div></div>
 <div class="ttc" id="aclassAlignmentTransformation_html_af72cbf4a94bb9b691de84eb3429e9c48"><div class="ttname"><a href="../../dd/d8f/classAlignmentTransformation.html#af72cbf4a94bb9b691de84eb3429e9c48">AlignmentTransformation::perturbINTT</a></div><div class="ttdeci">bool perturbINTT</div><div class="ttdef"><b>Definition</b> AlignmentTransformation.h:29</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
 <div class="ttc" id="aclassalignmentTransformationContainer_html"><div class="ttname"><a href="../../dd/dcb/classalignmentTransformationContainer.html">alignmentTransformationContainer</a></div><div class="ttdoc">Container class for Alignment transformations.</div><div class="ttdef"><b>Definition</b> alignmentTransformationContainer.h:27</div></div>
 <div class="ttc" id="anamespaceTrkrDefs_html_a7d9146cf627de8f98b5c73e20e8325cd"><div class="ttname"><a href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a></div><div class="ttdeci">uint32_t hitsetkey</div><div class="ttdef"><b>Definition</b> TrkrDefs.h:26</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -264,119 +265,119 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>  <span class="keyword">struct </span>SortPossibleMatch</div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>  {</div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="comment">// Sort by most matched clusters first, then smallest number of truth clusters, then smallest number of reco clusters</span> </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">bool</span> operator()(<span class="keyword">const</span> <a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">PossibleMatch</a>&amp; lhs, <span class="keyword">const</span> <a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">PossibleMatch</a>&amp; rhs)</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    {</div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>      <span class="keywordflow">if</span> (lhs[PM_nmatch] != rhs[PM_nmatch]) <span class="keywordflow">return</span> lhs[PM_nmatch] &gt; rhs[PM_nmatch];</div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>      <span class="keywordflow">if</span> (lhs[PM_ntrue] != rhs[PM_ntrue]) <span class="keywordflow">return</span> lhs[PM_ntrue] &lt; rhs[PM_ntrue];</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>      <span class="keywordflow">if</span> (lhs[PM_nreco] != rhs[PM_nreco]) <span class="keywordflow">return</span> lhs[PM_nreco] &lt; rhs[PM_nreco];</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    }</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>  };</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>  <span class="comment">//--------------------------------------------------</span></div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>  <span class="comment">// non-node member data</span></div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>  <span class="comment">//--------------------------------------------------</span></div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>  <a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#a4ea00b3da70fbfaa4806451b61af4157">RECOvec</a> recoData{};  <span class="comment">// &quot;sv&quot; = Sort Vector</span></div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>  <span class="comment">//--------------------------------------------------</span></div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>  <span class="comment">// Member functions</span></div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>  <span class="comment">//--------------------------------------------------</span></div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>  <span class="comment">//    Main functions</span></div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>  <span class="comment">// -------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>  std::pair&lt;std::vector&lt;unsigned short&gt;, std::vector&lt;unsigned short&gt;&gt;</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>  find_box_matches(<span class="keywordtype">float</span> truth_phi, <span class="keywordtype">float</span> truth_eta, <span class="keywordtype">float</span> truth_pt);                         <span class="comment">// will populate to truth_to_reco_map and</span></div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>  <span class="keywordtype">void</span> match_tracks_in_box(std::vector&lt;std::pair&lt;unsigned short, unsigned short&gt;&gt;&amp; box_pairs);  <span class="comment">// pairs of {id_true, id_reco}</span></div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>  <span class="comment">//    Helper functions</span></div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>  <span class="comment">// -------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>  <span class="keywordtype">float</span> delta_outer_pt(<span class="keywordtype">float</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>  <span class="keywordtype">float</span> delta_inner_pt(<span class="keywordtype">float</span>) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>  <span class="keywordtype">float</span> abs_dphi(<span class="keywordtype">float</span> phi0, <span class="keywordtype">float</span> phi1);</div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>  <span class="keywordtype">float</span> sigma_CompMatchClusters(<a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">PossibleMatch</a>&amp;);</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>  <span class="keywordtype">bool</span> skip_match(<a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">PossibleMatch</a>&amp; match);</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>  <span class="keywordtype">bool</span> at_nmax_index_true(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>);  <span class="comment">// test if the truth track already has maximum matches matches</span></div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>  <span class="keywordtype">bool</span> at_nmax_id_reco(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>);     <span class="comment">// &quot;           reco                                          &quot;</span></div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>  std::pair&lt;bool, float&gt; compare_cluster_pair(<a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#aef7975f7ebc233236eca3e7b099db7de">TrkrDefs::cluskey</a> key_T,</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>                                              <a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#aef7975f7ebc233236eca3e7b099db7de">TrkrDefs::cluskey</a> key_R, <a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a> key, <span class="keywordtype">bool</span> calc_sigma = <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>  <span class="comment">// ------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>  <span class="comment">// output for diagnositics:</span></div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>  <span class="comment">//  If there is output, put all the clusters into the x, y, z</span></div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>  <span class="comment">// ------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>  TTree* m_diag_tree = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>  TFile* m_diag_file = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>  <span class="keywordtype">bool</span> m_write_diag = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>  <span class="keywordtype">void</span> set_diagnostic_file(<span class="keyword">const</span> std::string&amp; file_name);</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>  std::vector&lt;int&gt; m_trkid_reco_matched{};</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  std::vector&lt;int&gt; m_cnt_reco_matched{};</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>  std::vector&lt;unsigned int&gt; m_i0_reco_matched{};</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>  std::vector&lt;unsigned int&gt; m_i1_reco_matched{};</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>  std::vector&lt;unsigned int&gt; m_layer_reco_matched{};</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>  std::vector&lt;float&gt; m_x_reco_matched{};</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>  std::vector&lt;float&gt; m_y_reco_matched{};</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>  std::vector&lt;float&gt; m_z_reco_matched{};</div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>  std::vector&lt;int&gt; m_trkid_reco_notmatched{};</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>  std::vector&lt;int&gt; m_cnt_reco_notmatched{};</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>  std::vector&lt;unsigned int&gt; m_i0_reco_notmatched{};</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>  std::vector&lt;unsigned int&gt; m_i1_reco_notmatched{};</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  std::vector&lt;unsigned int&gt; m_layer_reco_notmatched{};</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>  std::vector&lt;float&gt; m_x_reco_notmatched{};</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  std::vector&lt;float&gt; m_y_reco_notmatched{};</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  std::vector&lt;float&gt; m_z_reco_notmatched{};</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>  std::vector&lt;int&gt; m_trkid_true_matched{};</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  std::vector&lt;int&gt; m_cnt_true_matched{};</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>  std::vector&lt;unsigned int&gt; m_i0_true_matched{};</div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  std::vector&lt;unsigned int&gt; m_i1_true_matched{};</div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>  std::vector&lt;unsigned int&gt; m_layer_true_matched{};</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>  std::vector&lt;float&gt; m_x_true_matched{};</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>  std::vector&lt;float&gt; m_y_true_matched{};</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>  std::vector&lt;float&gt; m_z_true_matched{};</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>  std::vector&lt;int&gt; m_trkid_true_notmatched{};</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>  std::vector&lt;int&gt; m_cnt_true_notmatched{};</div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>  std::vector&lt;unsigned int&gt; m_i0_true_notmatched{};</div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>  std::vector&lt;unsigned int&gt; m_i1_true_notmatched{};</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>  std::vector&lt;unsigned int&gt; m_layer_true_notmatched{};</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>  std::vector&lt;float&gt; m_x_true_notmatched{};</div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>  std::vector&lt;float&gt; m_y_true_notmatched{};</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>  std::vector&lt;float&gt; m_z_true_notmatched{};</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span> </div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>  <span class="keywordtype">int</span> m_event = 0;</div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>  <span class="keywordtype">void</span> clear_branch_vectors();</div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  <span class="keywordtype">void</span> fill_tree();</div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>};</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    <span class="keywordtype">bool</span> operator()(<span class="keyword">const</span> <a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">PossibleMatch</a>&amp; lhs, <span class="keyword">const</span> <a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">PossibleMatch</a>&amp; rhs)</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    {</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>      <span class="keywordflow">if</span> (lhs[PM_nmatch] != rhs[PM_nmatch]) <span class="keywordflow">return</span> lhs[PM_nmatch] &gt; rhs[PM_nmatch];</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>      <span class="keywordflow">if</span> (lhs[PM_ntrue] != rhs[PM_ntrue]) <span class="keywordflow">return</span> lhs[PM_ntrue] &lt; rhs[PM_ntrue];</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>      <span class="keywordflow">if</span> (lhs[PM_nreco] != rhs[PM_nreco]) <span class="keywordflow">return</span> lhs[PM_nreco] &lt; rhs[PM_nreco];</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    }</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>  };</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>  <span class="comment">//--------------------------------------------------</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>  <span class="comment">// non-node member data</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>  <span class="comment">//--------------------------------------------------</span></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>  <a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#a4ea00b3da70fbfaa4806451b61af4157">RECOvec</a> recoData{};  <span class="comment">// &quot;sv&quot; = Sort Vector</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>  <span class="comment">//--------------------------------------------------</span></div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>  <span class="comment">// Member functions</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>  <span class="comment">//--------------------------------------------------</span></div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>  <span class="comment">//    Main functions</span></div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>  <span class="comment">// -------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>  std::pair&lt;std::vector&lt;unsigned short&gt;, std::vector&lt;unsigned short&gt;&gt;</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>  find_box_matches(<span class="keywordtype">float</span> truth_phi, <span class="keywordtype">float</span> truth_eta, <span class="keywordtype">float</span> truth_pt);                         <span class="comment">// will populate to truth_to_reco_map and</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>  <span class="keywordtype">void</span> match_tracks_in_box(std::vector&lt;std::pair&lt;unsigned short, unsigned short&gt;&gt;&amp; box_pairs);  <span class="comment">// pairs of {id_true, id_reco}</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>  <span class="comment">//    Helper functions</span></div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>  <span class="comment">// -------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>  <span class="keywordtype">float</span> delta_outer_pt(<span class="keywordtype">float</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>  <span class="keywordtype">float</span> delta_inner_pt(<span class="keywordtype">float</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>  <span class="keywordtype">float</span> abs_dphi(<span class="keywordtype">float</span> phi0, <span class="keywordtype">float</span> phi1);</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>  <span class="keywordtype">float</span> sigma_CompMatchClusters(<a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">PossibleMatch</a>&amp;);</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>  <span class="keywordtype">bool</span> skip_match(<a class="code hl_typedef" href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">PossibleMatch</a>&amp; match);</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>  <span class="keywordtype">bool</span> at_nmax_index_true(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>);  <span class="comment">// test if the truth track already has maximum matches matches</span></div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>  <span class="keywordtype">bool</span> at_nmax_id_reco(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>);     <span class="comment">// &quot;           reco                                          &quot;</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>  std::pair&lt;bool, float&gt; compare_cluster_pair(<a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#aef7975f7ebc233236eca3e7b099db7de">TrkrDefs::cluskey</a> key_T,</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>                                              <a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#aef7975f7ebc233236eca3e7b099db7de">TrkrDefs::cluskey</a> key_R, <a class="code hl_typedef" href="../../d6/d3f/namespaceTrkrDefs.html#a7d9146cf627de8f98b5c73e20e8325cd">TrkrDefs::hitsetkey</a> key, <span class="keywordtype">bool</span> calc_sigma = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>  <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>  <span class="comment">// output for diagnositics:</span></div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>  <span class="comment">//  If there is output, put all the clusters into the x, y, z</span></div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>  <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>  TTree* m_diag_tree = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>  TFile* m_diag_file = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>  <span class="keywordtype">bool</span> m_write_diag = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>  <span class="keywordtype">void</span> set_diagnostic_file(<span class="keyword">const</span> std::string&amp; file_name);</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  std::vector&lt;int&gt; m_trkid_reco_matched{};</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>  std::vector&lt;int&gt; m_cnt_reco_matched{};</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>  std::vector&lt;unsigned int&gt; m_i0_reco_matched{};</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>  std::vector&lt;unsigned int&gt; m_i1_reco_matched{};</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>  std::vector&lt;unsigned int&gt; m_layer_reco_matched{};</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>  std::vector&lt;float&gt; m_x_reco_matched{};</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>  std::vector&lt;float&gt; m_y_reco_matched{};</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>  std::vector&lt;float&gt; m_z_reco_matched{};</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>  std::vector&lt;int&gt; m_trkid_reco_notmatched{};</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>  std::vector&lt;int&gt; m_cnt_reco_notmatched{};</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>  std::vector&lt;unsigned int&gt; m_i0_reco_notmatched{};</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>  std::vector&lt;unsigned int&gt; m_i1_reco_notmatched{};</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>  std::vector&lt;unsigned int&gt; m_layer_reco_notmatched{};</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>  std::vector&lt;float&gt; m_x_reco_notmatched{};</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  std::vector&lt;float&gt; m_y_reco_notmatched{};</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>  std::vector&lt;float&gt; m_z_reco_notmatched{};</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>  std::vector&lt;int&gt; m_trkid_true_matched{};</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>  std::vector&lt;int&gt; m_cnt_true_matched{};</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>  std::vector&lt;unsigned int&gt; m_i0_true_matched{};</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>  std::vector&lt;unsigned int&gt; m_i1_true_matched{};</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>  std::vector&lt;unsigned int&gt; m_layer_true_matched{};</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>  std::vector&lt;float&gt; m_x_true_matched{};</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>  std::vector&lt;float&gt; m_y_true_matched{};</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>  std::vector&lt;float&gt; m_z_true_matched{};</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span> </div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>  std::vector&lt;int&gt; m_trkid_true_notmatched{};</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>  std::vector&lt;int&gt; m_cnt_true_notmatched{};</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>  std::vector&lt;unsigned int&gt; m_i0_true_notmatched{};</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>  std::vector&lt;unsigned int&gt; m_i1_true_notmatched{};</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>  std::vector&lt;unsigned int&gt; m_layer_true_notmatched{};</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>  std::vector&lt;float&gt; m_x_true_notmatched{};</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>  std::vector&lt;float&gt; m_y_true_notmatched{};</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>  std::vector&lt;float&gt; m_z_true_notmatched{};</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>  <span class="keywordtype">int</span> m_event = 0;</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span> </div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>  <span class="keywordtype">void</span> clear_branch_vectors();</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>  <span class="keywordtype">void</span> fill_tree();</div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>};</div>
 </div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span> </div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
 <div class="ttc" id="aTrackClusEvaluator_8h_html"><div class="ttname"><a href="../../d5/df6/TrackClusEvaluator_8h.html">TrackClusEvaluator.h</a></div></div>
 <div class="ttc" id="aclassActsGeometry_html"><div class="ttname"><a href="../../d3/d64/classActsGeometry.html">ActsGeometry</a></div><div class="ttdef"><b>Definition</b> ActsGeometry.h:11</div></div>
 <div class="ttc" id="aclassEmbRecoMatchContainer_html"><div class="ttname"><a href="../../df/d45/classEmbRecoMatchContainer.html">EmbRecoMatchContainer</a></div><div class="ttdef"><b>Definition</b> EmbRecoMatchContainer.h:13</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassPHG4TpcGeomContainer_html"><div class="ttname"><a href="../../d7/d7c/classPHG4TpcGeomContainer.html">PHG4TpcGeomContainer</a></div><div class="ttdef"><b>Definition</b> PHG4TpcGeomContainer.h:25</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassPHG4TpcGeomContainer_html"><div class="ttname"><a href="../../d7/d7c/classPHG4TpcGeomContainer.html">PHG4TpcGeomContainer</a></div><div class="ttdef"><b>Definition</b> PHG4TpcGeomContainer.h:26</div></div>
 <div class="ttc" id="aclassPHG4TruthInfoContainer_html"><div class="ttname"><a href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a></div><div class="ttdef"><b>Definition</b> PHG4TruthInfoContainer.h:18</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="aclassSvtxTrackMap_html"><div class="ttname"><a href="../../d7/d8b/classSvtxTrackMap.html">SvtxTrackMap</a></div><div class="ttdef"><b>Definition</b> SvtxTrackMap.h:12</div></div>
 <div class="ttc" id="aclassTFile_html"><div class="ttname"><a href="../../d3/ddf/classTFile.html">TFile</a></div></div>
-<div class="ttc" id="aclassTrackClusEvaluator_html"><div class="ttname"><a href="../../d6/ded/classTrackClusEvaluator.html">TrackClusEvaluator</a></div><div class="ttdef"><b>Definition</b> TrackClusEvaluator.h:27</div></div>
+<div class="ttc" id="aclassTrackClusEvaluator_html"><div class="ttname"><a href="../../d6/ded/classTrackClusEvaluator.html">TrackClusEvaluator</a></div><div class="ttdef"><b>Definition</b> TrackClusEvaluator.h:28</div></div>
 <div class="ttc" id="aclassTrkrClusterContainer_html"><div class="ttname"><a href="../../d0/d2c/classTrkrClusterContainer.html">TrkrClusterContainer</a></div><div class="ttdoc">Cluster container object.</div><div class="ttdef"><b>Definition</b> TrkrClusterContainer.h:25</div></div>
-<div class="ttc" id="aclassTrkrClusterIsMatcher_html"><div class="ttname"><a href="../../d7/d24/classTrkrClusterIsMatcher.html">TrkrClusterIsMatcher</a></div><div class="ttdef"><b>Definition</b> TrkrClusterIsMatcher.h:29</div></div>
+<div class="ttc" id="aclassTrkrClusterIsMatcher_html"><div class="ttname"><a href="../../d7/d24/classTrkrClusterIsMatcher.html">TrkrClusterIsMatcher</a></div><div class="ttdef"><b>Definition</b> TrkrClusterIsMatcher.h:30</div></div>
 <div class="ttc" id="aclassTrkrTruthTrackContainer_html"><div class="ttname"><a href="../../dd/dab/classTrkrTruthTrackContainer.html">TrkrTruthTrackContainer</a></div><div class="ttdef"><b>Definition</b> TrkrTruthTrackContainer.h:13</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a10af12da6939bf5c64177415e4981296"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a10af12da6939bf5c64177415e4981296">TruthRecoTrackMatching::set_max_ntruth_per_reco</a></div><div class="ttdeci">void set_max_ntruth_per_reco(unsigned short val)</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:89</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a10f5f698d652b5f2909d561ae5fa28bf"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a10f5f698d652b5f2909d561ae5fa28bf">TruthRecoTrackMatching::m_TCEval</a></div><div class="ttdeci">TrackClusEvaluator m_TCEval</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:75</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a1a380dda73f57c133e99f804c787ef37"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a1a380dda73f57c133e99f804c787ef37">TruthRecoTrackMatching::set_cutoff_dphi</a></div><div class="ttdeci">void set_cutoff_dphi(float val)</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:83</div></div>
-<div class="ttc" id="aclassTruthRecoTrackMatching_html_a1eda67570e5bdc7593b8838803ec5a1b"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a1eda67570e5bdc7593b8838803ec5a1b">TruthRecoTrackMatching::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">End method performs finalization of diagnostic output and restores directory.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:310</div></div>
-<div class="ttc" id="aclassTruthRecoTrackMatching_html_a29e360a61f1226ccc7c8e13beb703254"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a29e360a61f1226ccc7c8e13beb703254">TruthRecoTrackMatching::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">Process a single event for truth to reconstructed track matching.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:110</div></div>
-<div class="ttc" id="aclassTruthRecoTrackMatching_html_a2fab1ccdf1680033011b675ea7885fe1"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a2fab1ccdf1680033011b675ea7885fe1">TruthRecoTrackMatching::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *) override</div><div class="ttdoc">Initialize run specific resources for truth reco track matching.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:83</div></div>
+<div class="ttc" id="aclassTruthRecoTrackMatching_html_a1eda67570e5bdc7593b8838803ec5a1b"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a1eda67570e5bdc7593b8838803ec5a1b">TruthRecoTrackMatching::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">End method performs finalization of diagnostic output and restores directory.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:314</div></div>
+<div class="ttc" id="aclassTruthRecoTrackMatching_html_a29e360a61f1226ccc7c8e13beb703254"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a29e360a61f1226ccc7c8e13beb703254">TruthRecoTrackMatching::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">Process a single event for truth to reconstructed track matching.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:113</div></div>
+<div class="ttc" id="aclassTruthRecoTrackMatching_html_a2fab1ccdf1680033011b675ea7885fe1"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a2fab1ccdf1680033011b675ea7885fe1">TruthRecoTrackMatching::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *) override</div><div class="ttdoc">Initialize run specific resources for truth reco track matching.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:85</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a32951e9be3a71a51202f9568357dbe7f"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a32951e9be3a71a51202f9568357dbe7f">TruthRecoTrackMatching::set_smallsearch_deta</a></div><div class="ttdeci">void set_smallsearch_deta(float val)</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:85</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a4146a6155931f4d94e7acc6b21e60ab1"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a4146a6155931f4d94e7acc6b21e60ab1">TruthRecoTrackMatching::set_nmin_truth_cluster_ratio</a></div><div class="ttdeci">void set_nmin_truth_cluster_ratio(float val)</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:84</div></div>
-<div class="ttc" id="aclassTruthRecoTrackMatching_html_a49f1928953819bacba94bb785bb3ceb3"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a49f1928953819bacba94bb785bb3ceb3">TruthRecoTrackMatching::TruthRecoTrackMatching</a></div><div class="ttdeci">TruthRecoTrackMatching(TrkrClusterIsMatcher *_ismatcher, const unsigned short _nmincluster_match=4, const float _nmincluster_ratio=0., const float _cutoff_dphi=0.3, const float _same_dphi=0.05, const float _cutoff_deta=0.3, const float _same_deta=0.05, const unsigned short _max_nreco_per_truth=4, const unsigned short _max_ntruth_per_reco=4)</div><div class="ttdoc">Construct TruthRecoTrackMatching with matching parameters.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:55</div></div>
+<div class="ttc" id="aclassTruthRecoTrackMatching_html_a49f1928953819bacba94bb785bb3ceb3"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a49f1928953819bacba94bb785bb3ceb3">TruthRecoTrackMatching::TruthRecoTrackMatching</a></div><div class="ttdeci">TruthRecoTrackMatching(TrkrClusterIsMatcher *_ismatcher, const unsigned short _nmincluster_match=4, const float _nmincluster_ratio=0., const float _cutoff_dphi=0.3, const float _same_dphi=0.05, const float _cutoff_deta=0.3, const float _same_deta=0.05, const unsigned short _max_nreco_per_truth=4, const unsigned short _max_ntruth_per_reco=4)</div><div class="ttdoc">Construct TruthRecoTrackMatching with matching parameters.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:56</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a4ea00b3da70fbfaa4806451b61af4157"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a4ea00b3da70fbfaa4806451b61af4157">TruthRecoTrackMatching::RECOvec</a></div><div class="ttdeci">std::vector&lt; RECOentry &gt; RECOvec</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:35</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a592ece807eb5d6e1a70bf9670a3ad629"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a592ece807eb5d6e1a70bf9670a3ad629">TruthRecoTrackMatching::set_smallsearch_dphi</a></div><div class="ttdeci">void set_smallsearch_dphi(float val)</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:86</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a75aa41a5b49eb5962d65f1ff803d2333"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a75aa41a5b49eb5962d65f1ff803d2333">TruthRecoTrackMatching::RECOiter</a></div><div class="ttdeci">RECOvec::iterator RECOiter</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:36</div></div>
@@ -384,7 +385,7 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_a83b1dbcb015b6ab0d5c2232c761583ff"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#a83b1dbcb015b6ab0d5c2232c761583ff">TruthRecoTrackMatching::set_cutoff_deta</a></div><div class="ttdeci">void set_cutoff_deta(float val)</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:82</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_aba5795614288814a4cf8da6a2cfbbc84"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#aba5795614288814a4cf8da6a2cfbbc84">TruthRecoTrackMatching::set_max_nreco_per_truth</a></div><div class="ttdeci">void set_max_nreco_per_truth(unsigned short val)</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:88</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_ac5150b6a453dcc25623569cdf97b5635"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#ac5150b6a453dcc25623569cdf97b5635">TruthRecoTrackMatching::~TruthRecoTrackMatching</a></div><div class="ttdeci">~TruthRecoTrackMatching() override=default</div></div>
-<div class="ttc" id="aclassTruthRecoTrackMatching_html_ad29e43cee5ebf41f18311993ecb61853"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#ad29e43cee5ebf41f18311993ecb61853">TruthRecoTrackMatching::createNodes</a></div><div class="ttdeci">int createNodes(PHCompositeNode *topNode)</div><div class="ttdoc">Create required nodes in the Fun4All node tree for truth reco matching.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:350</div></div>
+<div class="ttc" id="aclassTruthRecoTrackMatching_html_ad29e43cee5ebf41f18311993ecb61853"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#ad29e43cee5ebf41f18311993ecb61853">TruthRecoTrackMatching::createNodes</a></div><div class="ttdeci">int createNodes(PHCompositeNode *topNode)</div><div class="ttdoc">Create required nodes in the Fun4All node tree for truth reco matching.</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.cc:355</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_ad3b2ead81844cb6df7c877fca7b6102b"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#ad3b2ead81844cb6df7c877fca7b6102b">TruthRecoTrackMatching::set_min_cl_ratio</a></div><div class="ttdeci">void set_min_cl_ratio(float val)</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:81</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_ae18e546041d785f0a6814ce5fb18932a"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#ae18e546041d785f0a6814ce5fb18932a">TruthRecoTrackMatching::PossibleMatch</a></div><div class="ttdeci">std::array&lt; unsigned short, 5 &gt; PossibleMatch</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:43</div></div>
 <div class="ttc" id="aclassTruthRecoTrackMatching_html_ae992b56e29c76f3f5c19f8decc875e27"><div class="ttname"><a href="../../d7/d86/classTruthRecoTrackMatching.html#ae992b56e29c76f3f5c19f8decc875e27">TruthRecoTrackMatching::RECO_pair_iter</a></div><div class="ttdeci">std::pair&lt; RECOiter, RECOiter &gt; RECO_pair_iter</div><div class="ttdef"><b>Definition</b> TruthRecoTrackMatching.h:37</div></div>

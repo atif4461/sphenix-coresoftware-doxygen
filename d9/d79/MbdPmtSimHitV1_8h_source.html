@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -122,70 +123,70 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#a0516b3c14fba5b8df42fdd4369226115">   36</a></span>  Float_t <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a0516b3c14fba5b8df42fdd4369226115">get_npe</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> bnpe; }</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#a3333c3a9c53a4d9c7e8230873f27c08a">   50</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a3333c3a9c53a4d9c7e8230873f27c08a">set_pmt</a>(<span class="keyword">const</span> Short_t ipmt, <span class="keyword">const</span> Float_t q, <span class="keyword">const</span> Float_t tt, <span class="keyword">const</span> Float_t tq)<span class="keyword"> override</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    bpmt = ipmt;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    bq = q;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    btt = tt;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    btq = tq;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  }</div>
+<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#a3333c3a9c53a4d9c7e8230873f27c08a">   51</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a3333c3a9c53a4d9c7e8230873f27c08a">set_pmt</a>(<span class="keyword">const</span> Short_t ipmt, <span class="keyword">const</span> Float_t q, <span class="keyword">const</span> Float_t tt, <span class="keyword">const</span> Float_t tq)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    bpmt = ipmt;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    bq = q;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    btt = tt;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    btq = tq;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  }</div>
 </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#a9263b88219b82f0aed6d0367ad4aa56c">   63</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a9263b88219b82f0aed6d0367ad4aa56c">set_simpmt</a>(<span class="keyword">const</span> Float_t npe)<span class="keyword"> override</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    bnpe = npe;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="foldopen" id="foldopen00065" data-start="{" data-end="}">
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#a9263b88219b82f0aed6d0367ad4aa56c">   65</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a9263b88219b82f0aed6d0367ad4aa56c">set_simpmt</a>(<span class="keyword">const</span> Float_t npe)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    bnpe = npe;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  }</div>
 </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#ac181099644a9107308f5f8aaeb51663e">   73</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#ac181099644a9107308f5f8aaeb51663e">set_npe</a>(<span class="keyword">const</span> Float_t npe)<span class="keyword"> override</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    bnpe = npe;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#ac181099644a9107308f5f8aaeb51663e">   76</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#ac181099644a9107308f5f8aaeb51663e">set_npe</a>(<span class="keyword">const</span> Float_t npe)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    bnpe = npe;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  }</div>
 </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a7fd1e00df3d3a0694e0d02a00d19440e">identify</a>(std::ostream&amp; out = std::cout) <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>*/ </div>
-<div class="foldopen" id="foldopen00085" data-start="{" data-end="}">
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#a24eeee65e552da5cb32640c25ad8c027">   85</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a24eeee65e552da5cb32640c25ad8c027">isValid</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordflow">if</span> (std::isnan(<a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a70507dd74fbb272a1879bac05e9b5055">get_time</a>())) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  }</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a7fd1e00df3d3a0694e0d02a00d19440e">identify</a>(std::ostream&amp; out = std::cout) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>*/ </div>
+<div class="foldopen" id="foldopen00089" data-start="{" data-end="}">
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="../../d4/df2/classMbdPmtSimHitV1.html#a24eeee65e552da5cb32640c25ad8c027">   89</a></span>  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a24eeee65e552da5cb32640c25ad8c027">isValid</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordflow">if</span> (std::isnan(<a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a70507dd74fbb272a1879bac05e9b5055">get_time</a>())) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  }</div>
 </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  Short_t bpmt{-1};</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  Float_t bq{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  Float_t btt{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  Float_t btq{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  Float_t bnpe{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  ClassDefOverride(<a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a2d35cc4a4434f77e8876817ab8096728">MbdPmtSimHitV1</a>, 1)</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>};</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  Short_t bpmt{-1};</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  Float_t bq{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  Float_t btt{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  Float_t btq{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  Float_t bnpe{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  ClassDefOverride(<a class="code hl_function" href="../../d4/df2/classMbdPmtSimHitV1.html#a2d35cc4a4434f77e8876817ab8096728">MbdPmtSimHitV1</a>, 1)</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>};</div>
 </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMbdPmtHit_8h_html"><div class="ttname"><a href="../../dc/d1c/MbdPmtHit_8h.html">MbdPmtHit.h</a></div></div>
 <div class="ttc" id="aclassMbdPmtHit_html_a3c7fcdfedbada60fadabb1f8e59716a3"><div class="ttname"><a href="../../db/d63/classMbdPmtHit.html#a3c7fcdfedbada60fadabb1f8e59716a3">MbdPmtHit::MbdPmtHit</a></div><div class="ttdeci">MbdPmtHit()</div><div class="ttdef"><b>Definition</b> MbdPmtHit.h:16</div></div>
-<div class="ttc" id="aclassMbdPmtSimHitV1_html_a02b486d14dd2bad8ffeb62906577c392"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a02b486d14dd2bad8ffeb62906577c392">MbdPmtSimHitV1::Clear</a></div><div class="ttdeci">void Clear(Option_t *=&quot;&quot;) override</div><div class="ttdoc">Clear is used by TClonesArray to reset the tower to initial state without calling destructor/construc...</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.cc:18</div></div>
+<div class="ttc" id="aclassMbdPmtSimHitV1_html_a02b486d14dd2bad8ffeb62906577c392"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a02b486d14dd2bad8ffeb62906577c392">MbdPmtSimHitV1::Clear</a></div><div class="ttdeci">void Clear(Option_t *=&quot;&quot;) override</div><div class="ttdoc">Clear is used by TClonesArray to reset the tower to initial state without calling destructor/construc...</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.cc:20</div></div>
 <div class="ttc" id="aclassMbdPmtSimHitV1_html_a0516b3c14fba5b8df42fdd4369226115"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a0516b3c14fba5b8df42fdd4369226115">MbdPmtSimHitV1::get_npe</a></div><div class="ttdeci">Float_t get_npe() const override</div><div class="ttdoc">n.p.e. from sim</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:36</div></div>
-<div class="ttc" id="aclassMbdPmtSimHitV1_html_a24eeee65e552da5cb32640c25ad8c027"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a24eeee65e552da5cb32640c25ad8c027">MbdPmtSimHitV1::isValid</a></div><div class="ttdeci">virtual int isValid() const override</div><div class="ttdoc">isValid returns non zero if object contains valid data</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:85</div></div>
+<div class="ttc" id="aclassMbdPmtSimHitV1_html_a24eeee65e552da5cb32640c25ad8c027"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a24eeee65e552da5cb32640c25ad8c027">MbdPmtSimHitV1::isValid</a></div><div class="ttdeci">virtual int isValid() const override</div><div class="ttdoc">isValid returns non zero if object contains valid data</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:89</div></div>
 <div class="ttc" id="aclassMbdPmtSimHitV1_html_a2d35cc4a4434f77e8876817ab8096728"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a2d35cc4a4434f77e8876817ab8096728">MbdPmtSimHitV1::MbdPmtSimHitV1</a></div><div class="ttdeci">MbdPmtSimHitV1()=default</div></div>
-<div class="ttc" id="aclassMbdPmtSimHitV1_html_a3333c3a9c53a4d9c7e8230873f27c08a"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a3333c3a9c53a4d9c7e8230873f27c08a">MbdPmtSimHitV1::set_pmt</a></div><div class="ttdeci">void set_pmt(const Short_t ipmt, const Float_t q, const Float_t tt, const Float_t tq) override</div><div class="ttdoc">Set PMT identifier and associated signal parameters.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:50</div></div>
+<div class="ttc" id="aclassMbdPmtSimHitV1_html_a3333c3a9c53a4d9c7e8230873f27c08a"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a3333c3a9c53a4d9c7e8230873f27c08a">MbdPmtSimHitV1::set_pmt</a></div><div class="ttdeci">void set_pmt(const Short_t ipmt, const Float_t q, const Float_t tt, const Float_t tq) override</div><div class="ttdoc">Set PMT identifier and associated signal parameters.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:51</div></div>
 <div class="ttc" id="aclassMbdPmtSimHitV1_html_a49e327be8e3d7cca4b7094fff229d46a"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a49e327be8e3d7cca4b7094fff229d46a">MbdPmtSimHitV1::get_tt</a></div><div class="ttdeci">Float_t get_tt() const override</div><div class="ttdoc">Time from time channel.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:29</div></div>
 <div class="ttc" id="aclassMbdPmtSimHitV1_html_a70507dd74fbb272a1879bac05e9b5055"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a70507dd74fbb272a1879bac05e9b5055">MbdPmtSimHitV1::get_time</a></div><div class="ttdeci">Float_t get_time() const override</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:30</div></div>
-<div class="ttc" id="aclassMbdPmtSimHitV1_html_a7fd1e00df3d3a0694e0d02a00d19440e"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a7fd1e00df3d3a0694e0d02a00d19440e">MbdPmtSimHitV1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;out=std::cout) const override</div><div class="ttdoc">Prints out exact identity of object.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.cc:36</div></div>
-<div class="ttc" id="aclassMbdPmtSimHitV1_html_a9263b88219b82f0aed6d0367ad4aa56c"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a9263b88219b82f0aed6d0367ad4aa56c">MbdPmtSimHitV1::set_simpmt</a></div><div class="ttdeci">void set_simpmt(const Float_t npe) override</div><div class="ttdoc">Set the number of photoelectrons for the simple PMT.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:63</div></div>
+<div class="ttc" id="aclassMbdPmtSimHitV1_html_a7fd1e00df3d3a0694e0d02a00d19440e"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a7fd1e00df3d3a0694e0d02a00d19440e">MbdPmtSimHitV1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;out=std::cout) const override</div><div class="ttdoc">Prints out exact identity of object.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.cc:39</div></div>
+<div class="ttc" id="aclassMbdPmtSimHitV1_html_a9263b88219b82f0aed6d0367ad4aa56c"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#a9263b88219b82f0aed6d0367ad4aa56c">MbdPmtSimHitV1::set_simpmt</a></div><div class="ttdeci">void set_simpmt(const Float_t npe) override</div><div class="ttdoc">Set the number of photoelectrons for the simple PMT.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:65</div></div>
 <div class="ttc" id="aclassMbdPmtSimHitV1_html_abb10440c763d91c5ea6b533539db2434"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#abb10440c763d91c5ea6b533539db2434">MbdPmtSimHitV1::get_pmt</a></div><div class="ttdeci">Short_t get_pmt() const override</div><div class="ttdoc">PMT number.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:23</div></div>
 <div class="ttc" id="aclassMbdPmtSimHitV1_html_abc829192915f998e257f8e1e083883ee"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#abc829192915f998e257f8e1e083883ee">MbdPmtSimHitV1::~MbdPmtSimHitV1</a></div><div class="ttdeci">~MbdPmtSimHitV1() override=default</div></div>
-<div class="ttc" id="aclassMbdPmtSimHitV1_html_ac181099644a9107308f5f8aaeb51663e"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#ac181099644a9107308f5f8aaeb51663e">MbdPmtSimHitV1::set_npe</a></div><div class="ttdeci">void set_npe(const Float_t npe) override</div><div class="ttdoc">Set the number of photoelectrons for the detector element.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:73</div></div>
+<div class="ttc" id="aclassMbdPmtSimHitV1_html_ac181099644a9107308f5f8aaeb51663e"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#ac181099644a9107308f5f8aaeb51663e">MbdPmtSimHitV1::set_npe</a></div><div class="ttdeci">void set_npe(const Float_t npe) override</div><div class="ttdoc">Set the number of photoelectrons for the detector element.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:76</div></div>
 <div class="ttc" id="aclassMbdPmtSimHitV1_html_ac479f08c9f43ed82638f08b47b7972c3"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#ac479f08c9f43ed82638f08b47b7972c3">MbdPmtSimHitV1::get_q</a></div><div class="ttdeci">Float_t get_q() const override</div><div class="ttdoc">Effective Nch in PMT.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:26</div></div>
-<div class="ttc" id="aclassMbdPmtSimHitV1_html_ac78e5e0d11c0b0eb3b29d20eeb884452"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#ac78e5e0d11c0b0eb3b29d20eeb884452">MbdPmtSimHitV1::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdoc">Just does a clear.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.cc:8</div></div>
+<div class="ttc" id="aclassMbdPmtSimHitV1_html_ac78e5e0d11c0b0eb3b29d20eeb884452"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#ac78e5e0d11c0b0eb3b29d20eeb884452">MbdPmtSimHitV1::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdoc">Just does a clear.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.cc:9</div></div>
 <div class="ttc" id="aclassMbdPmtSimHitV1_html_adf672b0a876d34803ac26257ffa01510"><div class="ttname"><a href="../../d4/df2/classMbdPmtSimHitV1.html#adf672b0a876d34803ac26257ffa01510">MbdPmtSimHitV1::get_tq</a></div><div class="ttdeci">Float_t get_tq() const override</div><div class="ttdoc">Time from charge channel.</div><div class="ttdef"><b>Definition</b> MbdPmtSimHitV1.h:33</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

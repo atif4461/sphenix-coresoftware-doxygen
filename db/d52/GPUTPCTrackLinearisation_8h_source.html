@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -141,32 +142,32 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
 </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="foldopen" id="foldopen00071" data-start="{" data-end="}">
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../de/d80/classGPUTPCTrackLinearisation.html#a8070a600def537eee53f821d947ff69b">   71</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#ae3b51cb64950b2527022ab90b7a83628">GPUTPCTrackLinearisation::GPUTPCTrackLinearisation</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d4/d60/classGPUTPCTrackParam.html">GPUTPCTrackParam</a>&amp; t) : mSinPhi(t.<a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a14bb1271155fd36413d91a87d38e1bf2">SinPhi</a>()), mCosPhi(0), mDzDs(t.<a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a2309a4710c63d60139dc2b35a54494b1">DzDs</a>()), mQPt(t.<a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a8f8bb6c0bca60a6fd6b7af13cd3105e0">QPt</a>())</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>{</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordflow">if</span> (mSinPhi &gt; <a class="code hl_variable" href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a>) {</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    mSinPhi = <a class="code hl_variable" href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a>;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mSinPhi &lt; -<a class="code hl_variable" href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a>) {</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    mSinPhi = -<a class="code hl_variable" href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a>;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  }</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  mCosPhi = sqrt(1 - mSinPhi * mSinPhi);</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keywordflow">if</span> (t.SignCosPhi() &lt; 0) {</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    mCosPhi = -mCosPhi;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  }</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>}</div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../de/d80/classGPUTPCTrackLinearisation.html#a8070a600def537eee53f821d947ff69b">   72</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#ae3b51cb64950b2527022ab90b7a83628">GPUTPCTrackLinearisation::GPUTPCTrackLinearisation</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d4/d60/classGPUTPCTrackParam.html">GPUTPCTrackParam</a>&amp; t) : mSinPhi(t.<a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a14bb1271155fd36413d91a87d38e1bf2">SinPhi</a>()), mCosPhi(0), mDzDs(t.<a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a2309a4710c63d60139dc2b35a54494b1">DzDs</a>()), mQPt(t.<a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a8f8bb6c0bca60a6fd6b7af13cd3105e0">QPt</a>())</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>{</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keywordflow">if</span> (mSinPhi &gt; <a class="code hl_variable" href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a>) {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    mSinPhi = <a class="code hl_variable" href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mSinPhi &lt; -<a class="code hl_variable" href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a>) {</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    mSinPhi = -<a class="code hl_variable" href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  mCosPhi = sqrt(1 - mSinPhi * mSinPhi);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordflow">if</span> (t.SignCosPhi() &lt; 0) {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    mCosPhi = -mCosPhi;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>}</div>
 </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="foldopen" id="foldopen00087" data-start="{" data-end="}">
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="../../de/d80/classGPUTPCTrackLinearisation.html#af0b55a99c1ca85056a309bb79ae3a838">   87</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#af0b55a99c1ca85056a309bb79ae3a838">GPUTPCTrackLinearisation::Set</a>(<span class="keywordtype">double</span> SinPhi1, <span class="keywordtype">double</span> CosPhi1, <span class="keywordtype">double</span> DzDs1, <span class="keywordtype">double</span> QPt1)</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>{</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a93ecd84ed05df8e6de3f65c19ab52981">SetSinPhi</a>(SinPhi1);</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#ab4a714a87f086f3126119b2e8cd2e39d">SetCosPhi</a>(CosPhi1);</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#aac003a19e027e7ee04ebba78687f9140">SetDzDs</a>(DzDs1);</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a38d9ea06a0cad9b1d0bd6a5122fcce16">SetQPt</a>(QPt1);</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>}</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="foldopen" id="foldopen00089" data-start="{" data-end="}">
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="../../de/d80/classGPUTPCTrackLinearisation.html#af0b55a99c1ca85056a309bb79ae3a838">   89</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#af0b55a99c1ca85056a309bb79ae3a838">GPUTPCTrackLinearisation::Set</a>(<span class="keywordtype">double</span> SinPhi1, <span class="keywordtype">double</span> CosPhi1, <span class="keywordtype">double</span> DzDs1, <span class="keywordtype">double</span> QPt1)</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>{</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a93ecd84ed05df8e6de3f65c19ab52981">SetSinPhi</a>(SinPhi1);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#ab4a714a87f086f3126119b2e8cd2e39d">SetCosPhi</a>(CosPhi1);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#aac003a19e027e7ee04ebba78687f9140">SetDzDs</a>(DzDs1);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  <a class="code hl_function" href="../../de/d80/classGPUTPCTrackLinearisation.html#a38d9ea06a0cad9b1d0bd6a5122fcce16">SetQPt</a>(QPt1);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>}</div>
 </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="preprocessor">#endif </span><span class="comment">// GPUTPCTRACKLINEARISATION_H</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="preprocessor">#endif </span><span class="comment">// GPUTPCTRACKLINEARISATION_H</span></div>
 <div class="ttc" id="aGPUTPCBaseTrackParam_8h_html_af7523410af474639b8b84be3761732d7"><div class="ttname"><a href="../../df/d00/GPUTPCBaseTrackParam_8h.html#af7523410af474639b8b84be3761732d7">GPUCA_MAX_SIN_PHI</a></div><div class="ttdeci">constexpr double GPUCA_MAX_SIN_PHI</div><div class="ttdef"><b>Definition</b> GPUTPCBaseTrackParam.h:17</div></div>
 <div class="ttc" id="aGPUTPCTrackParam_8h_html"><div class="ttname"><a href="../../de/d15/GPUTPCTrackParam_8h.html">GPUTPCTrackParam.h</a></div></div>
 <div class="ttc" id="aclassGPUTPCTrackLinearisation_html_a0a049fd99b4089ceb9029fd32f63ebbf"><div class="ttname"><a href="../../de/d80/classGPUTPCTrackLinearisation.html#a0a049fd99b4089ceb9029fd32f63ebbf">GPUTPCTrackLinearisation::GPUTPCTrackLinearisation</a></div><div class="ttdeci">GPUTPCTrackLinearisation(double SinPhi1, double CosPhi1, double DzDs1, double QPt1)</div><div class="ttdef"><b>Definition</b> GPUTPCTrackLinearisation.h:37</div></div>
@@ -183,7 +184,7 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aclassGPUTPCTrackLinearisation_html_ac6fee041311c28d19d351db765fc12ea"><div class="ttname"><a href="../../de/d80/classGPUTPCTrackLinearisation.html#ac6fee041311c28d19d351db765fc12ea">GPUTPCTrackLinearisation::GetCosPhi</a></div><div class="ttdeci">double GetCosPhi() const</div><div class="ttdef"><b>Definition</b> GPUTPCTrackLinearisation.h:49</div></div>
 <div class="ttc" id="aclassGPUTPCTrackLinearisation_html_adc44b3ff04abeaadc50ef9da8d058aba"><div class="ttname"><a href="../../de/d80/classGPUTPCTrackLinearisation.html#adc44b3ff04abeaadc50ef9da8d058aba">GPUTPCTrackLinearisation::GetSinPhi</a></div><div class="ttdeci">double GetSinPhi() const</div><div class="ttdef"><b>Definition</b> GPUTPCTrackLinearisation.h:48</div></div>
 <div class="ttc" id="aclassGPUTPCTrackLinearisation_html_ae3b51cb64950b2527022ab90b7a83628"><div class="ttname"><a href="../../de/d80/classGPUTPCTrackLinearisation.html#ae3b51cb64950b2527022ab90b7a83628">GPUTPCTrackLinearisation::GPUTPCTrackLinearisation</a></div><div class="ttdeci">GPUTPCTrackLinearisation()</div><div class="ttdef"><b>Definition</b> GPUTPCTrackLinearisation.h:36</div></div>
-<div class="ttc" id="aclassGPUTPCTrackLinearisation_html_af0b55a99c1ca85056a309bb79ae3a838"><div class="ttname"><a href="../../de/d80/classGPUTPCTrackLinearisation.html#af0b55a99c1ca85056a309bb79ae3a838">GPUTPCTrackLinearisation::Set</a></div><div class="ttdeci">void Set(double SinPhi1, double CosPhi1, double DzDs1, double QPt1)</div><div class="ttdef"><b>Definition</b> GPUTPCTrackLinearisation.h:87</div></div>
+<div class="ttc" id="aclassGPUTPCTrackLinearisation_html_af0b55a99c1ca85056a309bb79ae3a838"><div class="ttname"><a href="../../de/d80/classGPUTPCTrackLinearisation.html#af0b55a99c1ca85056a309bb79ae3a838">GPUTPCTrackLinearisation::Set</a></div><div class="ttdeci">void Set(double SinPhi1, double CosPhi1, double DzDs1, double QPt1)</div><div class="ttdef"><b>Definition</b> GPUTPCTrackLinearisation.h:89</div></div>
 <div class="ttc" id="aclassGPUTPCTrackParam_html"><div class="ttname"><a href="../../d4/d60/classGPUTPCTrackParam.html">GPUTPCTrackParam</a></div><div class="ttdef"><b>Definition</b> GPUTPCTrackParam.h:29</div></div>
 <div class="ttc" id="asrc_8f_html_acd3612d6b0d95ebbfefdfbe3eae7094b"><div class="ttname"><a href="../../d0/de0/src_8f.html#acd3612d6b0d95ebbfefdfbe3eae7094b">v</a></div><div class="ttdeci">double precision function v(u)</div><div class="ttdef"><b>Definition</b> src.f:3400</div></div>
 </div><!-- fragment --></div><!-- contents -->

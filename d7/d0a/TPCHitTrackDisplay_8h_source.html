@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,48 +104,48 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// Writes json file to be used to display an event with:</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// https://www.sphenix.bnl.gov/edisplay/</span> </div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d5/d68/classTPCHitTrackDisplay.html">   23</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#a3986f71b7c8784f59c7c2dad9e7078a9">TPCHitTrackDisplay</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="comment">// Default constructor</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#a3986f71b7c8784f59c7c2dad9e7078a9">TPCHitTrackDisplay</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;TPCHitTrackDisplay&quot;</span> <span class="comment">/*, bool &amp;tpcRaw=True*/</span>);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <span class="comment">// Process Event, called for each event</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#ab25bb2495a7231de037f87605b451cb2">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d5/d68/classTPCHitTrackDisplay.html#a945883ab2536506566eda26f0c111b00">   32</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#a945883ab2536506566eda26f0c111b00">set_pdgcode</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> thispdgcode) { _pdgcode = thispdgcode; }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="comment">// set the ADC cut for displaying trackless clusters</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d5/d68/classTPCHitTrackDisplay.html#ac8b0e7660dfcc4933bafbd42c58cab90">   35</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#ac8b0e7660dfcc4933bafbd42c58cab90">setCutADC</a>(<span class="keywordtype">float</span> value) { m_cut_ADC = value; }</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="comment">// Boolean for whether or not to include clusters without an associted track above a certain ADC value</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d5/d68/classTPCHitTrackDisplay.html#a76e28e4a7adbe2eddb14f4cd2fd637c7">   38</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#a76e28e4a7adbe2eddb14f4cd2fd637c7">setIncludeTracklessClusters</a>(<span class="keywordtype">float</span> value) { m_trackless_clusters = value; }</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="comment">// User modules</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">void</span> SimulationOut(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">float</span> m_cut_ADC;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">bool</span> m_trackless_clusters;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="comment">// Event counter</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="keywordtype">int</span> _event{0};</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keywordtype">int</span> _pdgcode{0};</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  std::string _fileName;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d5/d68/classTPCHitTrackDisplay.html">   24</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#a3986f71b7c8784f59c7c2dad9e7078a9">TPCHitTrackDisplay</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="comment">// Default constructor</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#a3986f71b7c8784f59c7c2dad9e7078a9">TPCHitTrackDisplay</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;TPCHitTrackDisplay&quot;</span> <span class="comment">/*, bool &amp;tpcRaw=True*/</span>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="comment">// Process Event, called for each event</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#ab25bb2495a7231de037f87605b451cb2">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d5/d68/classTPCHitTrackDisplay.html#a945883ab2536506566eda26f0c111b00">   33</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#a945883ab2536506566eda26f0c111b00">set_pdgcode</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> thispdgcode) { _pdgcode = thispdgcode; }</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="comment">// set the ADC cut for displaying trackless clusters</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d5/d68/classTPCHitTrackDisplay.html#ac8b0e7660dfcc4933bafbd42c58cab90">   36</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#ac8b0e7660dfcc4933bafbd42c58cab90">setCutADC</a>(<span class="keywordtype">float</span> value) { m_cut_ADC = value; }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <span class="comment">// Boolean for whether or not to include clusters without an associted track above a certain ADC value</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d5/d68/classTPCHitTrackDisplay.html#a76e28e4a7adbe2eddb14f4cd2fd637c7">   39</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d68/classTPCHitTrackDisplay.html#a76e28e4a7adbe2eddb14f4cd2fd637c7">setIncludeTracklessClusters</a>(<span class="keywordtype">float</span> value) { m_trackless_clusters = value; }</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="comment">// User modules</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">void</span> SimulationOut(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">float</span> m_cut_ADC;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">bool</span> m_trackless_clusters;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="comment">// Event counter</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keywordtype">int</span> _event{0};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keywordtype">int</span> _pdgcode{0};</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  std::string _fileName;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
 </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif  </span><span class="comment">//* TPCHITTRACKDISPLAY_TPCHITTRACKDISPLAY_H *//</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#endif  </span><span class="comment">//* TPCHITTRACKDISPLAY_TPCHITTRACKDISPLAY_H *//</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
-<div class="ttc" id="aclassTPCHitTrackDisplay_html_a3986f71b7c8784f59c7c2dad9e7078a9"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#a3986f71b7c8784f59c7c2dad9e7078a9">TPCHitTrackDisplay::TPCHitTrackDisplay</a></div><div class="ttdeci">TPCHitTrackDisplay(const std::string &amp;name=&quot;TPCHitTrackDisplay&quot;)</div><div class="ttdoc">Constructor for TPCHitTrackDisplay module.</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.cc:45</div></div>
-<div class="ttc" id="aclassTPCHitTrackDisplay_html_a76e28e4a7adbe2eddb14f4cd2fd637c7"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#a76e28e4a7adbe2eddb14f4cd2fd637c7">TPCHitTrackDisplay::setIncludeTracklessClusters</a></div><div class="ttdeci">void setIncludeTracklessClusters(float value)</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.h:38</div></div>
-<div class="ttc" id="aclassTPCHitTrackDisplay_html_a945883ab2536506566eda26f0c111b00"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#a945883ab2536506566eda26f0c111b00">TPCHitTrackDisplay::set_pdgcode</a></div><div class="ttdeci">void set_pdgcode(const int thispdgcode)</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.h:32</div></div>
-<div class="ttc" id="aclassTPCHitTrackDisplay_html_ab25bb2495a7231de037f87605b451cb2"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#ab25bb2495a7231de037f87605b451cb2">TPCHitTrackDisplay::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">Process event for TPCHitTrackDisplay.</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.cc:65</div></div>
-<div class="ttc" id="aclassTPCHitTrackDisplay_html_ac8b0e7660dfcc4933bafbd42c58cab90"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#ac8b0e7660dfcc4933bafbd42c58cab90">TPCHitTrackDisplay::setCutADC</a></div><div class="ttdeci">void setCutADC(float value)</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.h:35</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
+<div class="ttc" id="aclassTPCHitTrackDisplay_html_a3986f71b7c8784f59c7c2dad9e7078a9"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#a3986f71b7c8784f59c7c2dad9e7078a9">TPCHitTrackDisplay::TPCHitTrackDisplay</a></div><div class="ttdeci">TPCHitTrackDisplay(const std::string &amp;name=&quot;TPCHitTrackDisplay&quot;)</div><div class="ttdoc">Constructor for TPCHitTrackDisplay module.</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.cc:46</div></div>
+<div class="ttc" id="aclassTPCHitTrackDisplay_html_a76e28e4a7adbe2eddb14f4cd2fd637c7"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#a76e28e4a7adbe2eddb14f4cd2fd637c7">TPCHitTrackDisplay::setIncludeTracklessClusters</a></div><div class="ttdeci">void setIncludeTracklessClusters(float value)</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.h:39</div></div>
+<div class="ttc" id="aclassTPCHitTrackDisplay_html_a945883ab2536506566eda26f0c111b00"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#a945883ab2536506566eda26f0c111b00">TPCHitTrackDisplay::set_pdgcode</a></div><div class="ttdeci">void set_pdgcode(const int thispdgcode)</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.h:33</div></div>
+<div class="ttc" id="aclassTPCHitTrackDisplay_html_ab25bb2495a7231de037f87605b451cb2"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#ab25bb2495a7231de037f87605b451cb2">TPCHitTrackDisplay::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">Process event for TPCHitTrackDisplay.</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.cc:67</div></div>
+<div class="ttc" id="aclassTPCHitTrackDisplay_html_ac8b0e7660dfcc4933bafbd42c58cab90"><div class="ttname"><a href="../../d5/d68/classTPCHitTrackDisplay.html#ac8b0e7660dfcc4933bafbd42c58cab90">TPCHitTrackDisplay::setCutADC</a></div><div class="ttdeci">void setCutADC(float value)</div><div class="ttdef"><b>Definition</b> TPCHitTrackDisplay.h:36</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -19,5 +19,5 @@ digraph "PHHepMCGenEventv1::PHHepMCGenEventv1"
   Node1 -> Node6 [id="edge6_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
   Node6 [id="Node000006",label="PHHepMCGenEvent::PHHepMCGen\lEvent",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d7b/classPHHepMCGenEvent.html#a51bb6b2ee662beeefd54171ab480dccd",tooltip="Default constructor initializing embedding id simulation flag collision vertex and event pointer."];
   Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
-  Node7 [id="Node000007",label="PHHepMCGenEventv1::\lPHHepMCGenEventv1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/classPHHepMCGenEventv1.html#a706a79059a83512df99af1aca5400db6",tooltip="Default constructor initializes boost beta vector rotation vector and rotation angle to zero This com..."];
+  Node7 [id="Node000007",label="PHHepMCGenEventv1::\lPHHepMCGenEventv1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dc/d10/classPHHepMCGenEventv1.html#a706a79059a83512df99af1aca5400db6",tooltip="Default constructor initializes boost beta vector rotation vector and rotation angle to zero."];
 }

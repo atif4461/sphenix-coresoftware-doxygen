@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -135,117 +136,117 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#aa42015466aedaa262f948b6008537450">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="comment">// Change output filename</span> </div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d0/d71/classPHG4TrackFastSimEval.html#a71be5485fc688bf490c65175da4e5aac">   55</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#a71be5485fc688bf490c65175da4e5aac">set_filename</a>(<span class="keyword">const</span> std::string&amp; file)</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    m_OutFileName = file;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  }</div>
+<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d0/d71/classPHG4TrackFastSimEval.html#a71be5485fc688bf490c65175da4e5aac">   56</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#a71be5485fc688bf490c65175da4e5aac">set_filename</a>(<span class="keyword">const</span> std::string&amp; file)</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  {</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    m_OutFileName = file;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  }</div>
 </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="comment">// set the name of the node with the trackmap</span> </div>
-<div class="foldopen" id="foldopen00066" data-start="{" data-end="}">
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="../../d0/d71/classPHG4TrackFastSimEval.html#ac32a1d7b6eb37553a598b40e28445b51">   66</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#ac32a1d7b6eb37553a598b40e28445b51">set_trackmapname</a>(<span class="keyword">const</span> std::string&amp; name)</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  {</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    m_TrackMapName = name;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  }</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="comment">// set the name of the node with the trackmap</span> </div>
+<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../d0/d71/classPHG4TrackFastSimEval.html#ac32a1d7b6eb37553a598b40e28445b51">   68</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#ac32a1d7b6eb37553a598b40e28445b51">set_trackmapname</a>(<span class="keyword">const</span> std::string&amp; name)</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  {</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    m_TrackMapName = name;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  }</div>
 </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="comment">// User modules</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#a11f9984d9bea24b5cfbde70cc52058cc">reset_variables</a>();</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#aff3e5e9c43669d3d13ac5f203c42a80d">AddProjection</a>(<span class="keyword">const</span> std::string&amp; name);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="comment">// User modules</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#a11f9984d9bea24b5cfbde70cc52058cc">reset_variables</a>();</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="keywordtype">void</span> fill_track_tree(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keywordtype">void</span> fill_vertex_tree(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*);</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="comment">// Get all the nodes</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>  <span class="keywordtype">int</span> GetNodes(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*);</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="comment">// Node pointers</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  <a class="code hl_class" href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a>* m_TruthInfoContainer{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  SvtxTrackMap* m_TrackMap{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  SvtxVertexMap* m_VertexMap{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  <span class="comment">// TTrees</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  TTree* m_TracksEvalTree{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  TTree* m_VertexEvalTree{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="comment">// Histos</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  TH2* m_H2D_DeltaMomVsTruthMom{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  TH2* m_H2D_DeltaMomVsTruthEta{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="comment">// Event counter</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordtype">int</span> m_EventCounter{0};</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="comment">// TTree variables</span></div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keywordtype">int</span> m_TTree_Event{-9999};</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="comment">//-- truth</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keywordtype">int</span> m_TTree_gTrackID{-9999};</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordtype">int</span> m_TTree_gFlavor{-9999};</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keywordtype">float</span> m_TTree_gpx{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="keywordtype">float</span> m_TTree_gpy{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="keywordtype">float</span> m_TTree_gpz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <span class="keywordtype">float</span> m_TTree_gvx{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="keywordtype">float</span> m_TTree_gvy{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  <span class="keywordtype">float</span> m_TTree_gvz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  <span class="keywordtype">float</span> m_TTree_gvt{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  <span class="comment">//-- reco</span></div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  <span class="keywordtype">int</span> m_TTree_TrackID{-9999};</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="keywordtype">int</span> m_TTree_Charge{-9999};</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="keywordtype">int</span> m_TTree_nHits{-9999};</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  <span class="keywordtype">float</span> m_TTree_px{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <span class="keywordtype">float</span> m_TTree_py{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <span class="keywordtype">float</span> m_TTree_pz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <span class="keywordtype">float</span> m_TTree_pcax{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  <span class="keywordtype">float</span> m_TTree_pcay{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  <span class="keywordtype">float</span> m_TTree_pcaz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <span class="keywordtype">float</span> m_TTree_dca2d{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  std::map&lt;int, int&gt; m_TTree_HitContainerID_nHits_map;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d71/classPHG4TrackFastSimEval.html#aff3e5e9c43669d3d13ac5f203c42a80d">AddProjection</a>(<span class="keyword">const</span> std::string&amp; name);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keywordtype">void</span> fill_track_tree(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordtype">void</span> fill_vertex_tree(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="comment">// Get all the nodes</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordtype">int</span> GetNodes(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  <span class="comment">// Node pointers</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <a class="code hl_class" href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a>* m_TruthInfoContainer{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  SvtxTrackMap* m_TrackMap{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  SvtxVertexMap* m_VertexMap{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="comment">// TTrees</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  TTree* m_TracksEvalTree{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  TTree* m_VertexEvalTree{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  <span class="comment">// Histos</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  TH2* m_H2D_DeltaMomVsTruthMom{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  TH2* m_H2D_DeltaMomVsTruthEta{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="comment">// Event counter</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keywordtype">int</span> m_EventCounter{0};</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="comment">// TTree variables</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keywordtype">int</span> m_TTree_Event{-9999};</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="comment">//-- truth</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keywordtype">int</span> m_TTree_gTrackID{-9999};</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="keywordtype">int</span> m_TTree_gFlavor{-9999};</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="keywordtype">float</span> m_TTree_gpx{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <span class="keywordtype">float</span> m_TTree_gpy{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="keywordtype">float</span> m_TTree_gpz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  <span class="keywordtype">float</span> m_TTree_gvx{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  <span class="keywordtype">float</span> m_TTree_gvy{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  <span class="keywordtype">float</span> m_TTree_gvz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  <span class="keywordtype">float</span> m_TTree_gvt{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="comment">//-- reco</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="keywordtype">int</span> m_TTree_TrackID{-9999};</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  <span class="keywordtype">int</span> m_TTree_Charge{-9999};</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <span class="keywordtype">int</span> m_TTree_nHits{-9999};</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <span class="keywordtype">float</span> m_TTree_px{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <span class="keywordtype">float</span> m_TTree_py{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  <span class="keywordtype">float</span> m_TTree_pz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  <span class="keywordtype">float</span> m_TTree_pcax{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <span class="keywordtype">float</span> m_TTree_pcay{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <span class="keywordtype">float</span> m_TTree_pcaz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  <span class="keywordtype">float</span> m_TTree_dca2d{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  <span class="comment">// vertex</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  <span class="keywordtype">float</span> m_TTree_vx{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>  <span class="keywordtype">float</span> m_TTree_vy{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  <span class="keywordtype">float</span> m_TTree_vz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>  <span class="keywordtype">float</span> m_TTree_DeltaVx{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  <span class="keywordtype">float</span> m_TTree_DeltaVy{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  <span class="keywordtype">float</span> m_TTree_DeltaVz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  <span class="keywordtype">int</span> m_TTree_nTracks{-9999};</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>  <span class="keywordtype">int</span> m_TTree_nFromTruth{-9999};</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  <span class="comment">// output filename</span></div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>  std::string m_OutFileName;</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>  <span class="comment">// name of SvtxTrackMap collection</span></div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>  std::string m_TrackMapName;</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>  <span class="comment">// names and index of projections</span></div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>  std::map&lt;std::string, unsigned int&gt; m_ProjectionNameMap;</div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>  <span class="comment">// projections to cylinders and planes</span></div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  std::vector&lt;std::vector&lt;float&gt;&gt; m_TTree_proj_vec;</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  std::vector&lt;std::vector&lt;float&gt;&gt; m_TTree_proj_p_vec;</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  <span class="comment">// hits on reference cylinders and planes</span></div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  std::vector&lt;std::vector&lt;float&gt;&gt; m_TTree_ref_vec;</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  std::vector&lt;std::vector&lt;float&gt;&gt; m_TTree_ref_p_vec;</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>};</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  std::map&lt;int, int&gt; m_TTree_HitContainerID_nHits_map;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>  <span class="comment">// vertex</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>  <span class="keywordtype">float</span> m_TTree_vx{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>  <span class="keywordtype">float</span> m_TTree_vy{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  <span class="keywordtype">float</span> m_TTree_vz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  <span class="keywordtype">float</span> m_TTree_DeltaVx{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>  <span class="keywordtype">float</span> m_TTree_DeltaVy{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>  <span class="keywordtype">float</span> m_TTree_DeltaVz{std::numeric_limits&lt;float&gt;::quiet_NaN()};</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>  <span class="keywordtype">int</span> m_TTree_nTracks{-9999};</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  <span class="keywordtype">int</span> m_TTree_nFromTruth{-9999};</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>  <span class="comment">// output filename</span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>  std::string m_OutFileName;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>  <span class="comment">// name of SvtxTrackMap collection</span></div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>  std::string m_TrackMapName;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>  <span class="comment">// names and index of projections</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  std::map&lt;std::string, unsigned int&gt; m_ProjectionNameMap;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  <span class="comment">// projections to cylinders and planes</span></div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  std::vector&lt;std::vector&lt;float&gt;&gt; m_TTree_proj_vec;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  std::vector&lt;std::vector&lt;float&gt;&gt; m_TTree_proj_p_vec;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  <span class="comment">// hits on reference cylinders and planes</span></div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>  std::vector&lt;std::vector&lt;float&gt;&gt; m_TTree_ref_vec;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>  std::vector&lt;std::vector&lt;float&gt;&gt; m_TTree_ref_p_vec;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>};</div>
 </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="preprocessor">#endif  </span><span class="comment">//* G4TRACKFASTSIM_PHG4TRACKFASTSIMEVAL_H *//</span></div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span><span class="preprocessor">#endif  </span><span class="comment">//* G4TRACKFASTSIM_PHG4TRACKFASTSIMEVAL_H *//</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_a11f9984d9bea24b5cfbde70cc52058cc"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#a11f9984d9bea24b5cfbde70cc52058cc">PHG4TrackFastSimEval::reset_variables</a></div><div class="ttdeci">void reset_variables()</div><div class="ttdoc">Reset all tree variables to sentinel values for new event.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:632</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_a4067307328a37b4632a5509af3eb2bdb"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#a4067307328a37b4632a5509af3eb2bdb">PHG4TrackFastSimEval::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *) override</div><div class="ttdoc">Initialize run resources for fast simulation evaluation.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:108</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_a49d7dacf282d8b17d774ef0f8778a802"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#a49d7dacf282d8b17d774ef0f8778a802">PHG4TrackFastSimEval::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">Process a single event within the PHG4TrackFastSimEval module.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:260</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_a71be5485fc688bf490c65175da4e5aac"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#a71be5485fc688bf490c65175da4e5aac">PHG4TrackFastSimEval::set_filename</a></div><div class="ttdeci">void set_filename(const std::string &amp;file)</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.h:55</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_aa42015466aedaa262f948b6008537450"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#aa42015466aedaa262f948b6008537450">PHG4TrackFastSimEval::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">Write evaluation trees and histograms to the output ROOT file and return status.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:295</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_ac32a1d7b6eb37553a598b40e28445b51"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#ac32a1d7b6eb37553a598b40e28445b51">PHG4TrackFastSimEval::set_trackmapname</a></div><div class="ttdeci">void set_trackmapname(const std::string &amp;name)</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.h:66</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_add5db0942487623b913f0ad9aeb1e3e9"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#add5db0942487623b913f0ad9aeb1e3e9">PHG4TrackFastSimEval::PHG4TrackFastSimEval</a></div><div class="ttdeci">PHG4TrackFastSimEval(const std::string &amp;name=&quot;PHG4TrackFastSimEval&quot;, const std::string &amp;filename=&quot;g4eval.root&quot;, const std::string &amp;trackmapname=&quot;SvtxTrackMap&quot;)</div><div class="ttdoc">Constructor for PHG4TrackFastSimEval initializing module with given name output file and track map id...</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:67</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_ae0070947417edb3fdc4f2220061fd3c3"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#ae0070947417edb3fdc4f2220061fd3c3">PHG4TrackFastSimEval::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">Initialize module and return success code.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:93</div></div>
-<div class="ttc" id="aclassPHG4TrackFastSimEval_html_aff3e5e9c43669d3d13ac5f203c42a80d"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#aff3e5e9c43669d3d13ac5f203c42a80d">PHG4TrackFastSimEval::AddProjection</a></div><div class="ttdeci">void AddProjection(const std::string &amp;name)</div><div class="ttdoc">Add a new projection identified by name.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:741</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_a11f9984d9bea24b5cfbde70cc52058cc"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#a11f9984d9bea24b5cfbde70cc52058cc">PHG4TrackFastSimEval::reset_variables</a></div><div class="ttdeci">void reset_variables()</div><div class="ttdoc">Reset all tree variables to sentinel values for new event.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:640</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_a4067307328a37b4632a5509af3eb2bdb"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#a4067307328a37b4632a5509af3eb2bdb">PHG4TrackFastSimEval::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *) override</div><div class="ttdoc">Initialize run resources for fast simulation evaluation.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:111</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_a49d7dacf282d8b17d774ef0f8778a802"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#a49d7dacf282d8b17d774ef0f8778a802">PHG4TrackFastSimEval::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">Process a single event within the PHG4TrackFastSimEval module.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:264</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_a71be5485fc688bf490c65175da4e5aac"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#a71be5485fc688bf490c65175da4e5aac">PHG4TrackFastSimEval::set_filename</a></div><div class="ttdeci">void set_filename(const std::string &amp;file)</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.h:56</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_aa42015466aedaa262f948b6008537450"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#aa42015466aedaa262f948b6008537450">PHG4TrackFastSimEval::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">Write evaluation trees and histograms to the output ROOT file and return status.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:300</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_ac32a1d7b6eb37553a598b40e28445b51"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#ac32a1d7b6eb37553a598b40e28445b51">PHG4TrackFastSimEval::set_trackmapname</a></div><div class="ttdeci">void set_trackmapname(const std::string &amp;name)</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.h:68</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_add5db0942487623b913f0ad9aeb1e3e9"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#add5db0942487623b913f0ad9aeb1e3e9">PHG4TrackFastSimEval::PHG4TrackFastSimEval</a></div><div class="ttdeci">PHG4TrackFastSimEval(const std::string &amp;name=&quot;PHG4TrackFastSimEval&quot;, const std::string &amp;filename=&quot;g4eval.root&quot;, const std::string &amp;trackmapname=&quot;SvtxTrackMap&quot;)</div><div class="ttdoc">Constructor for PHG4TrackFastSimEval initializing module with given name output file and track map id...</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:68</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_ae0070947417edb3fdc4f2220061fd3c3"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#ae0070947417edb3fdc4f2220061fd3c3">PHG4TrackFastSimEval::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">Initialize module and return success code.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:95</div></div>
+<div class="ttc" id="aclassPHG4TrackFastSimEval_html_aff3e5e9c43669d3d13ac5f203c42a80d"><div class="ttname"><a href="../../d0/d71/classPHG4TrackFastSimEval.html#aff3e5e9c43669d3d13ac5f203c42a80d">PHG4TrackFastSimEval::AddProjection</a></div><div class="ttdeci">void AddProjection(const std::string &amp;name)</div><div class="ttdoc">Add a new projection identified by name.</div><div class="ttdef"><b>Definition</b> PHG4TrackFastSimEval.cc:751</div></div>
 <div class="ttc" id="aclassPHG4TruthInfoContainer_html"><div class="ttname"><a href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a></div><div class="ttdef"><b>Definition</b> PHG4TruthInfoContainer.h:18</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="aclassSvtxTrackMap_html"><div class="ttname"><a href="../../d7/d8b/classSvtxTrackMap.html">SvtxTrackMap</a></div><div class="ttdef"><b>Definition</b> SvtxTrackMap.h:12</div></div>
 <div class="ttc" id="aclassSvtxVertexMap_html"><div class="ttname"><a href="../../db/dd7/classSvtxVertexMap.html">SvtxVertexMap</a></div><div class="ttdef"><b>Definition</b> SvtxVertexMap.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->

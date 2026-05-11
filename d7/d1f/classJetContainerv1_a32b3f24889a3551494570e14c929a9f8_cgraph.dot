@@ -10,5 +10,5 @@ digraph "JetContainerv1::operator="
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="JetContainer::JetContainer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$db/d40/classJetContainer.html#a6144a770fc5d28e6c3260313a65498e1",tooltip=" "];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="JetContainerv1::JetContainerv1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d1f/classJetContainerv1.html#aa386400fca8b9afe64d0224bcca2c6ad",tooltip="Constructor initializes internal TClonesArray for Jetv2 objects with default capacity 50 This comment..."];
+  Node3 [id="Node000003",label="JetContainerv1::JetContainerv1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d1f/classJetContainerv1.html#aa386400fca8b9afe64d0224bcca2c6ad",tooltip="Constructor initializes internal TClonesArray for Jetv2 objects with default capacity 50."];
 }

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -109,51 +110,51 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>TH1;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>TH2;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../dc/df5/classMvtxRawHitQA.html">   26</a></span><span class="keyword">class </span><a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a849b36eea51504e20cebf5d35904bcb4">MvtxRawHitQA</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a849b36eea51504e20cebf5d35904bcb4">MvtxRawHitQA</a>(<span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;MvtxRawHitQA&quot;</span>);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../dc/df5/classMvtxRawHitQA.html#a95a034d568b5dda99312b45af2fabedf">   31</a></span>  <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a95a034d568b5dda99312b45af2fabedf">~MvtxRawHitQA</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a02c2d2919cc7caddff11b23c98db2698">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a424e27354379d19fca6b85e882fbe7a4">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a8c44b8188f7b29fd62deaacdabb14ea8">EndRun</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> runnumber) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#af31bb931f58371649d2c126c89e14d1f">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">void</span> createHistos();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  std::string getHistoPrefix() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  std::vector&lt;MvtxRawHitContainer*&gt; m_rawhit_containers;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  TH1* h_nhits_layer0{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  TH1* h_nhits_layer1{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  TH1* h_nhits_layer2{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  TH1* h_bco{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  TH1* h_strobe_bc{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  TH1* h_chip_bc{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  TH2* h_nhits_stave_chip_layer0{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  TH2* h_nhits_stave_chip_layer1{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  TH2* h_nhits_stave_chip_layer2{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../dc/df5/classMvtxRawHitQA.html">   27</a></span><span class="keyword">class </span><a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a849b36eea51504e20cebf5d35904bcb4">MvtxRawHitQA</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>{</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a849b36eea51504e20cebf5d35904bcb4">MvtxRawHitQA</a>(<span class="keyword">const</span> std::string&amp; name = <span class="stringliteral">&quot;MvtxRawHitQA&quot;</span>);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../dc/df5/classMvtxRawHitQA.html#a95a034d568b5dda99312b45af2fabedf">   32</a></span>  <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a95a034d568b5dda99312b45af2fabedf">~MvtxRawHitQA</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a02c2d2919cc7caddff11b23c98db2698">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a424e27354379d19fca6b85e882fbe7a4">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#a8c44b8188f7b29fd62deaacdabb14ea8">EndRun</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> runnumber) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/df5/classMvtxRawHitQA.html#af31bb931f58371649d2c126c89e14d1f">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">void</span> createHistos();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  std::string getHistoPrefix() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  std::vector&lt;MvtxRawHitContainer*&gt; m_rawhit_containers;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  TH1* h_nhits_layer0{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  TH1* h_nhits_layer1{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  TH1* h_nhits_layer2{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  TH1* h_bco{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  TH1* h_strobe_bc{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  TH1* h_chip_bc{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  TH2* h_nhits_stave_chip_layer0{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  TH2* h_nhits_stave_chip_layer1{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  TH2* h_nhits_stave_chip_layer2{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif  </span><span class="comment">// MVTXRAWHITQA_H</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif  </span><span class="comment">// MVTXRAWHITQA_H</span></div>
 <div class="ttc" id="aMvtxRawHitContainer_8h_html"><div class="ttname"><a href="../../d2/d27/MvtxRawHitContainer_8h.html">MvtxRawHitContainer.h</a></div></div>
 <div class="ttc" id="aMvtxRawHit_8h_html"><div class="ttname"><a href="../../d8/d7f/MvtxRawHit_8h.html">MvtxRawHit.h</a></div></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
-<div class="ttc" id="aclassMvtxRawHitQA_html_a02c2d2919cc7caddff11b23c98db2698"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a02c2d2919cc7caddff11b23c98db2698">MvtxRawHitQA::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific resources for MvtxRawHitQA.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:38</div></div>
-<div class="ttc" id="aclassMvtxRawHitQA_html_a424e27354379d19fca6b85e882fbe7a4"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a424e27354379d19fca6b85e882fbe7a4">MvtxRawHitQA::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process event and fill QA histograms for MVTX raw hits.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:104</div></div>
-<div class="ttc" id="aclassMvtxRawHitQA_html_a849b36eea51504e20cebf5d35904bcb4"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a849b36eea51504e20cebf5d35904bcb4">MvtxRawHitQA::MvtxRawHitQA</a></div><div class="ttdeci">MvtxRawHitQA(const std::string &amp;name=&quot;MvtxRawHitQA&quot;)</div><div class="ttdoc">Constructor for MvtxRawHitQA initializing base SubsysReco with given name.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:26</div></div>
-<div class="ttc" id="aclassMvtxRawHitQA_html_a8c44b8188f7b29fd62deaacdabb14ea8"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a8c44b8188f7b29fd62deaacdabb14ea8">MvtxRawHitQA::EndRun</a></div><div class="ttdeci">int EndRun(const int runnumber) override</div><div class="ttdoc">Called at the end of a run to perform any final actions for the module.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:208</div></div>
+<div class="ttc" id="aclassMvtxRawHitQA_html_a02c2d2919cc7caddff11b23c98db2698"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a02c2d2919cc7caddff11b23c98db2698">MvtxRawHitQA::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific resources for MvtxRawHitQA.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:40</div></div>
+<div class="ttc" id="aclassMvtxRawHitQA_html_a424e27354379d19fca6b85e882fbe7a4"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a424e27354379d19fca6b85e882fbe7a4">MvtxRawHitQA::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process event and fill QA histograms for MVTX raw hits.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:107</div></div>
+<div class="ttc" id="aclassMvtxRawHitQA_html_a849b36eea51504e20cebf5d35904bcb4"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a849b36eea51504e20cebf5d35904bcb4">MvtxRawHitQA::MvtxRawHitQA</a></div><div class="ttdeci">MvtxRawHitQA(const std::string &amp;name=&quot;MvtxRawHitQA&quot;)</div><div class="ttdoc">Constructor for MvtxRawHitQA initializing base SubsysReco with given name.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:27</div></div>
+<div class="ttc" id="aclassMvtxRawHitQA_html_a8c44b8188f7b29fd62deaacdabb14ea8"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a8c44b8188f7b29fd62deaacdabb14ea8">MvtxRawHitQA::EndRun</a></div><div class="ttdeci">int EndRun(const int runnumber) override</div><div class="ttdoc">Called at the end of a run to perform any final actions for the module.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:212</div></div>
 <div class="ttc" id="aclassMvtxRawHitQA_html_a95a034d568b5dda99312b45af2fabedf"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#a95a034d568b5dda99312b45af2fabedf">MvtxRawHitQA::~MvtxRawHitQA</a></div><div class="ttdeci">~MvtxRawHitQA() override=default</div></div>
-<div class="ttc" id="aclassMvtxRawHitQA_html_af31bb931f58371649d2c126c89e14d1f"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#af31bb931f58371649d2c126c89e14d1f">MvtxRawHitQA::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Called at the end of all processing.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:217</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassMvtxRawHitQA_html_af31bb931f58371649d2c126c89e14d1f"><div class="ttname"><a href="../../dc/df5/classMvtxRawHitQA.html#af31bb931f58371649d2c126c89e14d1f">MvtxRawHitQA::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Called at the end of all processing.</div><div class="ttdef"><b>Definition</b> MvtxRawHitQA.cc:221</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

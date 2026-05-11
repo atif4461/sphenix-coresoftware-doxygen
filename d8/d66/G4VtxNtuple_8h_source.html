@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -103,37 +104,37 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>;</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>TNtuple;</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../de/d86/classG4VtxNtuple.html">   23</a></span><span class="keyword">class </span><a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#a041ca3a24008502ecd4c8672d21e8ba7">G4VtxNtuple</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#a041ca3a24008502ecd4c8672d21e8ba7">G4VtxNtuple</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;G4VtxNtuple&quot;</span>, <span class="keyword">const</span> std::string &amp;filename = <span class="stringliteral">&quot;G4VtxNtuple.root&quot;</span>);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#adeea45bf4d93c990626245305d9c0d7f">~G4VtxNtuple</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#a4c96ac4e4b2f9f8646212659a9cc8ae6">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#ad99152680ee3130b28ee71c186aca1b9">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#a479363c6740d67f8e67f2f7d1f8b81c0">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  std::string m_FileName;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <a class="code hl_class" href="../../d3/d96/classFun4AllHistoManager.html">Fun4AllHistoManager</a> *hm{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  TNtuple *ntup{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>};</div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../de/d86/classG4VtxNtuple.html">   24</a></span><span class="keyword">class </span><a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#a041ca3a24008502ecd4c8672d21e8ba7">G4VtxNtuple</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#a041ca3a24008502ecd4c8672d21e8ba7">G4VtxNtuple</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;G4VtxNtuple&quot;</span>, <span class="keyword">const</span> std::string &amp;filename = <span class="stringliteral">&quot;G4VtxNtuple.root&quot;</span>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#adeea45bf4d93c990626245305d9c0d7f">~G4VtxNtuple</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#a4c96ac4e4b2f9f8646212659a9cc8ae6">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#ad99152680ee3130b28ee71c186aca1b9">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../de/d86/classG4VtxNtuple.html#a479363c6740d67f8e67f2f7d1f8b81c0">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  std::string m_FileName;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <a class="code hl_class" href="../../d3/d96/classFun4AllHistoManager.html">Fun4AllHistoManager</a> *hm{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  TNtuple *ntup{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
 </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
 <div class="ttc" id="aclassFun4AllHistoManager_html"><div class="ttname"><a href="../../d3/d96/classFun4AllHistoManager.html">Fun4AllHistoManager</a></div><div class="ttdef"><b>Definition</b> Fun4AllHistoManager.h:15</div></div>
-<div class="ttc" id="aclassG4VtxNtuple_html_a041ca3a24008502ecd4c8672d21e8ba7"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#a041ca3a24008502ecd4c8672d21e8ba7">G4VtxNtuple::G4VtxNtuple</a></div><div class="ttdeci">G4VtxNtuple(const std::string &amp;name=&quot;G4VtxNtuple&quot;, const std::string &amp;filename=&quot;G4VtxNtuple.root&quot;)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:21</div></div>
-<div class="ttc" id="aclassG4VtxNtuple_html_a479363c6740d67f8e67f2f7d1f8b81c0"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#a479363c6740d67f8e67f2f7d1f8b81c0">G4VtxNtuple::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">end of run method</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:76</div></div>
-<div class="ttc" id="aclassG4VtxNtuple_html_a4c96ac4e4b2f9f8646212659a9cc8ae6"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#a4c96ac4e4b2f9f8646212659a9cc8ae6">G4VtxNtuple::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">full initialization</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:44</div></div>
-<div class="ttc" id="aclassG4VtxNtuple_html_ad99152680ee3130b28ee71c186aca1b9"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#ad99152680ee3130b28ee71c186aca1b9">G4VtxNtuple::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">event processing method</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:59</div></div>
-<div class="ttc" id="aclassG4VtxNtuple_html_adeea45bf4d93c990626245305d9c0d7f"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#adeea45bf4d93c990626245305d9c0d7f">G4VtxNtuple::~G4VtxNtuple</a></div><div class="ttdeci">~G4VtxNtuple() override</div><div class="ttdoc">destructor</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:33</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassG4VtxNtuple_html_a041ca3a24008502ecd4c8672d21e8ba7"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#a041ca3a24008502ecd4c8672d21e8ba7">G4VtxNtuple::G4VtxNtuple</a></div><div class="ttdeci">G4VtxNtuple(const std::string &amp;name=&quot;G4VtxNtuple&quot;, const std::string &amp;filename=&quot;G4VtxNtuple.root&quot;)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:22</div></div>
+<div class="ttc" id="aclassG4VtxNtuple_html_a479363c6740d67f8e67f2f7d1f8b81c0"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#a479363c6740d67f8e67f2f7d1f8b81c0">G4VtxNtuple::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">end of run method</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:81</div></div>
+<div class="ttc" id="aclassG4VtxNtuple_html_a4c96ac4e4b2f9f8646212659a9cc8ae6"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#a4c96ac4e4b2f9f8646212659a9cc8ae6">G4VtxNtuple::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">full initialization</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:47</div></div>
+<div class="ttc" id="aclassG4VtxNtuple_html_ad99152680ee3130b28ee71c186aca1b9"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#ad99152680ee3130b28ee71c186aca1b9">G4VtxNtuple::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">event processing method</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:63</div></div>
+<div class="ttc" id="aclassG4VtxNtuple_html_adeea45bf4d93c990626245305d9c0d7f"><div class="ttname"><a href="../../de/d86/classG4VtxNtuple.html#adeea45bf4d93c990626245305d9c0d7f">G4VtxNtuple::~G4VtxNtuple</a></div><div class="ttdeci">~G4VtxNtuple() override</div><div class="ttdoc">destructor</div><div class="ttdef"><b>Definition</b> G4VtxNtuple.cc:35</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

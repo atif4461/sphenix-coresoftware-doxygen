@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -113,55 +114,55 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../de/d20/classEventHeaderv2.html#ac96c16e32387a9522fbf46998b3769d4">   26</a></span>  <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#ac96c16e32387a9522fbf46998b3769d4">~EventHeaderv2</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../de/d20/classEventHeaderv2.html#a60292b3c86453375879d3d8a206ba617">   33</a></span>  <a class="code hl_function" href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject</a>* <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a60292b3c86453375879d3d8a206ba617">CloneMe</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a47e71f8b3a8823df156358c98040232b">EventHeaderv2</a>(*<span class="keyword">this</span>);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  }</div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../de/d20/classEventHeaderv2.html#a60292b3c86453375879d3d8a206ba617">   34</a></span>  <a class="code hl_function" href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject</a>* <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a60292b3c86453375879d3d8a206ba617">CloneMe</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a47e71f8b3a8823df156358c98040232b">EventHeaderv2</a>(*<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  }</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a1a1fb67077b833b37add579950a7faa2">Reset</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#ad822ecffe5475dbf70baeb5ccb2eecb3">identify</a>(std::ostream&amp; out = std::cout) <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a22282f7479ecfecd6c330e140058279b">CopyTo</a>(<a class="code hl_class" href="../../d8/db2/classEventHeader.html">EventHeader</a>*) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../de/d20/classEventHeaderv2.html#a2c8b0b5e927433c40142a646c24c393a">   55</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a2c8b0b5e927433c40142a646c24c393a">set_BunchCrossing</a>(int64_t value)<span class="keyword"> override</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    m_bunchCrossing = value;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  }</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a1a1fb67077b833b37add579950a7faa2">Reset</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#ad822ecffe5475dbf70baeb5ccb2eecb3">identify</a>(std::ostream&amp; out = std::cout) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a22282f7479ecfecd6c330e140058279b">CopyTo</a>(<a class="code hl_class" href="../../d8/db2/classEventHeader.html">EventHeader</a>*) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../de/d20/classEventHeaderv2.html#a2c8b0b5e927433c40142a646c24c393a">   57</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a2c8b0b5e927433c40142a646c24c393a">set_BunchCrossing</a>(int64_t value)<span class="keyword"> override</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    m_bunchCrossing = value;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  }</div>
 </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="foldopen" id="foldopen00065" data-start="{" data-end="}">
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../de/d20/classEventHeaderv2.html#a46325d21e26947b7244b1b78f04a4deb">   65</a></span>  int64_t <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a46325d21e26947b7244b1b78f04a4deb">get_BunchCrossing</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">  </span>{</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordflow">return</span> m_bunchCrossing;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../de/d20/classEventHeaderv2.html#a46325d21e26947b7244b1b78f04a4deb">   68</a></span>  int64_t <a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a46325d21e26947b7244b1b78f04a4deb">get_BunchCrossing</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">  </span>{</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordflow">return</span> m_bunchCrossing;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  }</div>
 </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  int64_t m_bunchCrossing{0};</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  ClassDefOverride(<a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a47e71f8b3a8823df156358c98040232b">EventHeaderv2</a>, 2)</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
-</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  int64_t m_bunchCrossing{0};</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  ClassDefOverride(<a class="code hl_function" href="../../de/d20/classEventHeaderv2.html#a47e71f8b3a8823df156358c98040232b">EventHeaderv2</a>, 2)</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>};</div>
+</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aEventHeaderv1_8h_html"><div class="ttname"><a href="../../d0/db4/EventHeaderv1_8h.html">EventHeaderv1.h</a></div></div>
-<div class="ttc" id="aclassEventHeader_html"><div class="ttname"><a href="../../d8/db2/classEventHeader.html">EventHeader</a></div><div class="ttdoc">base class for EventHeaders</div><div class="ttdef"><b>Definition</b> EventHeader.h:24</div></div>
+<div class="ttc" id="aclassEventHeader_html"><div class="ttname"><a href="../../d8/db2/classEventHeader.html">EventHeader</a></div><div class="ttdoc">base class for EventHeaders</div><div class="ttdef"><b>Definition</b> EventHeader.h:25</div></div>
 <div class="ttc" id="aclassEventHeaderv1_html_ae8c48c8970fca3d577bf266105e33b74"><div class="ttname"><a href="../../d0/d76/classEventHeaderv1.html#ae8c48c8970fca3d577bf266105e33b74">EventHeaderv1::EventHeaderv1</a></div><div class="ttdeci">EventHeaderv1()=default</div><div class="ttdoc">ctor</div></div>
-<div class="ttc" id="aclassEventHeaderv2_html_a1a1fb67077b833b37add579950a7faa2"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a1a1fb67077b833b37add579950a7faa2">EventHeaderv2::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdoc">Clear Event.</div><div class="ttdef"><b>Definition</b> EventHeaderv2.cc:10</div></div>
-<div class="ttc" id="aclassEventHeaderv2_html_a22282f7479ecfecd6c330e140058279b"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a22282f7479ecfecd6c330e140058279b">EventHeaderv2::CopyTo</a></div><div class="ttdeci">void CopyTo(EventHeader *) override</div><div class="ttdoc">Copy event header data from this object to another EventHeader.</div><div class="ttdef"><b>Definition</b> EventHeaderv2.cc:43</div></div>
-<div class="ttc" id="aclassEventHeaderv2_html_a2c8b0b5e927433c40142a646c24c393a"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a2c8b0b5e927433c40142a646c24c393a">EventHeaderv2::set_BunchCrossing</a></div><div class="ttdeci">void set_BunchCrossing(int64_t value) override</div><div class="ttdoc">bunch crossing</div><div class="ttdef"><b>Definition</b> EventHeaderv2.h:55</div></div>
-<div class="ttc" id="aclassEventHeaderv2_html_a46325d21e26947b7244b1b78f04a4deb"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a46325d21e26947b7244b1b78f04a4deb">EventHeaderv2::get_BunchCrossing</a></div><div class="ttdeci">int64_t get_BunchCrossing() const override</div><div class="ttdoc">bunch crossing</div><div class="ttdef"><b>Definition</b> EventHeaderv2.h:65</div></div>
+<div class="ttc" id="aclassEventHeaderv2_html_a1a1fb67077b833b37add579950a7faa2"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a1a1fb67077b833b37add579950a7faa2">EventHeaderv2::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdoc">Clear Event.</div><div class="ttdef"><b>Definition</b> EventHeaderv2.cc:11</div></div>
+<div class="ttc" id="aclassEventHeaderv2_html_a22282f7479ecfecd6c330e140058279b"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a22282f7479ecfecd6c330e140058279b">EventHeaderv2::CopyTo</a></div><div class="ttdeci">void CopyTo(EventHeader *) override</div><div class="ttdoc">Copy event header data from this object to another EventHeader.</div><div class="ttdef"><b>Definition</b> EventHeaderv2.cc:46</div></div>
+<div class="ttc" id="aclassEventHeaderv2_html_a2c8b0b5e927433c40142a646c24c393a"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a2c8b0b5e927433c40142a646c24c393a">EventHeaderv2::set_BunchCrossing</a></div><div class="ttdeci">void set_BunchCrossing(int64_t value) override</div><div class="ttdoc">bunch crossing</div><div class="ttdef"><b>Definition</b> EventHeaderv2.h:57</div></div>
+<div class="ttc" id="aclassEventHeaderv2_html_a46325d21e26947b7244b1b78f04a4deb"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a46325d21e26947b7244b1b78f04a4deb">EventHeaderv2::get_BunchCrossing</a></div><div class="ttdeci">int64_t get_BunchCrossing() const override</div><div class="ttdoc">bunch crossing</div><div class="ttdef"><b>Definition</b> EventHeaderv2.h:68</div></div>
 <div class="ttc" id="aclassEventHeaderv2_html_a47e71f8b3a8823df156358c98040232b"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a47e71f8b3a8823df156358c98040232b">EventHeaderv2::EventHeaderv2</a></div><div class="ttdeci">EventHeaderv2()=default</div><div class="ttdoc">ctor</div></div>
-<div class="ttc" id="aclassEventHeaderv2_html_a60292b3c86453375879d3d8a206ba617"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a60292b3c86453375879d3d8a206ba617">EventHeaderv2::CloneMe</a></div><div class="ttdeci">PHObject * CloneMe() const override</div><div class="ttdoc">clone</div><div class="ttdef"><b>Definition</b> EventHeaderv2.h:33</div></div>
+<div class="ttc" id="aclassEventHeaderv2_html_a60292b3c86453375879d3d8a206ba617"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#a60292b3c86453375879d3d8a206ba617">EventHeaderv2::CloneMe</a></div><div class="ttdeci">PHObject * CloneMe() const override</div><div class="ttdoc">clone</div><div class="ttdef"><b>Definition</b> EventHeaderv2.h:34</div></div>
 <div class="ttc" id="aclassEventHeaderv2_html_ac96c16e32387a9522fbf46998b3769d4"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#ac96c16e32387a9522fbf46998b3769d4">EventHeaderv2::~EventHeaderv2</a></div><div class="ttdeci">~EventHeaderv2() override=default</div><div class="ttdoc">dtor</div></div>
-<div class="ttc" id="aclassEventHeaderv2_html_ad822ecffe5475dbf70baeb5ccb2eecb3"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#ad822ecffe5475dbf70baeb5ccb2eecb3">EventHeaderv2::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;out=std::cout) const override</div><div class="ttdoc">Print identification information for the EventHeaderv2 object.</div><div class="ttdef"><b>Definition</b> EventHeaderv2.cc:24</div></div>
-<div class="ttc" id="aclassPHObject_html"><div class="ttname"><a href="../../d9/d24/classPHObject.html">PHObject</a></div><div class="ttdef"><b>Definition</b> PHObject.h:21</div></div>
+<div class="ttc" id="aclassEventHeaderv2_html_ad822ecffe5475dbf70baeb5ccb2eecb3"><div class="ttname"><a href="../../de/d20/classEventHeaderv2.html#ad822ecffe5475dbf70baeb5ccb2eecb3">EventHeaderv2::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;out=std::cout) const override</div><div class="ttdoc">Print identification information for the EventHeaderv2 object.</div><div class="ttdef"><b>Definition</b> EventHeaderv2.cc:26</div></div>
+<div class="ttc" id="aclassPHObject_html"><div class="ttname"><a href="../../d9/d24/classPHObject.html">PHObject</a></div><div class="ttdef"><b>Definition</b> PHObject.h:22</div></div>
 <div class="ttc" id="aclassPHObject_html_acda1fc8f84de9bd408081b3da8caf4ff"><div class="ttname"><a href="../../d9/d24/classPHObject.html#acda1fc8f84de9bd408081b3da8caf4ff">PHObject::PHObject</a></div><div class="ttdeci">PHObject()=default</div><div class="ttdoc">ctor</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

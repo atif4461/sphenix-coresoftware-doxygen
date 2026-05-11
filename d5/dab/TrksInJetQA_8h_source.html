@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -153,59 +154,59 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../d0/d66/classTrksInJetQA.html#a914af86471b0795a2658fdd37f2459d8">   71</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a914af86471b0795a2658fdd37f2459d8">SetOutFileName</a>(<span class="keyword">const</span> std::string&amp; name) { m_outFileName = name; }</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../d0/d66/classTrksInJetQA.html#a131acab1353e0a636447b74a437dc6d4">   72</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a131acab1353e0a636447b74a437dc6d4">SetHistPrefix</a>(<span class="keyword">const</span> std::string&amp; prefix) { m_histPrefix = prefix; }</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="../../d0/d66/classTrksInJetQA.html#a7ec697640ad4f25b5b8dbbc23a4e804a">   73</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a7ec697640ad4f25b5b8dbbc23a4e804a">SetHistSuffix</a>(<span class="keyword">const</span> std::string&amp; suffix) { m_histSuffix = suffix; } </div>
-<div class="foldopen" id="foldopen00084" data-start="{" data-end="}">
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="../../d0/d66/classTrksInJetQA.html#afa232cb5d75429f192c037450dd2f4ef">   84</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#afa232cb5d75429f192c037450dd2f4ef">SetTrgToSelect</a>(<span class="keyword">const</span> uint32_t trig = <a class="code hl_enumvalue" href="../../df/df3/namespaceJetQADefs.html#a53631a2fd43fa3f1993670c6cc672ceba39daeb77d91197050a39928e03fdc1bd">JetQADefs::GL1::MBDNSJet1</a>)</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  {</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    m_doTrgSelect = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    m_trgToSelect = trig;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  }</div>
+<div class="foldopen" id="foldopen00085" data-start="{" data-end="}">
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="../../d0/d66/classTrksInJetQA.html#afa232cb5d75429f192c037450dd2f4ef">   85</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#afa232cb5d75429f192c037450dd2f4ef">SetTrgToSelect</a>(<span class="keyword">const</span> uint32_t trig = <a class="code hl_enumvalue" href="../../df/df3/namespaceJetQADefs.html#a53631a2fd43fa3f1993670c6cc672ceba39daeb77d91197050a39928e03fdc1bd">JetQADefs::GL1::MBDNSJet1</a>)</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  {</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    m_doTrgSelect = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    m_trgToSelect = trig;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  }</div>
 </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="comment">// public methods</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a3fe7c60162be53136e4f0e4a5c3660fa">Configure</a>(<span class="keyword">const</span> <a class="code hl_struct" href="../../d5/da0/structTrksInJetQAConfig.html">TrksInJetQAConfig</a>&amp; config,</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                 std::optional&lt;TrksInJetQAHist&gt; hist = std::nullopt);</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  <span class="comment">// f4a methods</span></div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#ae5a6e55a69b9c9b48e6ef23e36e18568">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a3082b1f9f9a745dfdf984d5d4a78e846">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a7a01b023ce8c6045e5efbb9225b79894">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="comment">// private methods</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keywordtype">void</span> InitOutput();</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordtype">void</span> InitHistograms();</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keywordtype">void</span> RegisterHistograms();</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="comment">// io members</span></div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a>* m_outFile {<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  std::string m_moduleName;</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  std::string m_outFileName {<span class="stringliteral">&quot;tracksInJetsQA.root&quot;</span>};</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  Fun4AllHistoManager* m_manager {<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  TriggerAnalyzer* m_analyzer {<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  <span class="comment">// trigger selection</span></div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="keywordtype">bool</span> m_doTrgSelect {<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  uint32_t m_trgToSelect {<a class="code hl_enumvalue" href="../../df/df3/namespaceJetQADefs.html#a53631a2fd43fa3f1993670c6cc672ceba39daeb77d91197050a39928e03fdc1bd">JetQADefs::GL1::MBDNSJet1</a>};</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <span class="comment">// optional prefix, suffix for histograms</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  std::optional&lt;std::string&gt; m_histPrefix {std::nullopt};</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  std::optional&lt;std::string&gt; m_histSuffix {std::nullopt};</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  <span class="comment">// submodules to run</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  std::unique_ptr&lt;TrksInJetQAInJetFiller&gt; m_inJet;</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  std::unique_ptr&lt;TrksInJetQAInclusiveFiller&gt; m_inclusive;</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  <span class="comment">// module utilities</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  TrksInJetQAConfig m_config;</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  TrksInJetQAHist m_hist;</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>};  <span class="comment">// end TrksInJetQA</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="comment">// public methods</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a3fe7c60162be53136e4f0e4a5c3660fa">Configure</a>(<span class="keyword">const</span> <a class="code hl_struct" href="../../d5/da0/structTrksInJetQAConfig.html">TrksInJetQAConfig</a>&amp; config,</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                 std::optional&lt;TrksInJetQAHist&gt; hist = std::nullopt);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  <span class="comment">// f4a methods</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#ae5a6e55a69b9c9b48e6ef23e36e18568">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a3082b1f9f9a745dfdf984d5d4a78e846">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d66/classTrksInJetQA.html#a7a01b023ce8c6045e5efbb9225b79894">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="comment">// private methods</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordtype">void</span> InitOutput();</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keywordtype">void</span> InitHistograms();</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="keywordtype">void</span> RegisterHistograms();</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <span class="comment">// io members</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a>* m_outFile {<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>  std::string m_moduleName;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>  std::string m_outFileName {<span class="stringliteral">&quot;tracksInJetsQA.root&quot;</span>};</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>  Fun4AllHistoManager* m_manager {<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  TriggerAnalyzer* m_analyzer {<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  <span class="comment">// trigger selection</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>  <span class="keywordtype">bool</span> m_doTrgSelect {<span class="keyword">false</span>};</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  uint32_t m_trgToSelect {<a class="code hl_enumvalue" href="../../df/df3/namespaceJetQADefs.html#a53631a2fd43fa3f1993670c6cc672ceba39daeb77d91197050a39928e03fdc1bd">JetQADefs::GL1::MBDNSJet1</a>};</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <span class="comment">// optional prefix, suffix for histograms</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  std::optional&lt;std::string&gt; m_histPrefix {std::nullopt};</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  std::optional&lt;std::string&gt; m_histSuffix {std::nullopt};</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  <span class="comment">// submodules to run</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  std::unique_ptr&lt;TrksInJetQAInJetFiller&gt; m_inJet;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  std::unique_ptr&lt;TrksInJetQAInclusiveFiller&gt; m_inclusive;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>  <span class="comment">// module utilities</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  TrksInJetQAConfig m_config;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>  TrksInJetQAHist m_hist;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>};  <span class="comment">// end TrksInJetQA</span></div>
 </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="comment">// end ========================================================================</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span><span class="comment">// end ========================================================================</span></div>
 <div class="ttc" id="aFun4AllHistoManager_8h_html"><div class="ttname"><a href="../../d0/d59/Fun4AllHistoManager_8h.html">Fun4AllHistoManager.h</a></div></div>
 <div class="ttc" id="aFun4AllReturnCodes_8h_html"><div class="ttname"><a href="../../da/dc1/Fun4AllReturnCodes_8h.html">Fun4AllReturnCodes.h</a></div></div>
 <div class="ttc" id="aJetQADefs_8h_html"><div class="ttname"><a href="../../da/d64/JetQADefs_8h.html">JetQADefs.h</a></div></div>
@@ -215,25 +216,25 @@ $(function(){ initResizable(false); });
 <div class="ttc" id="aTrksInJetQAHist_8h_html"><div class="ttname"><a href="../../d9/daa/TrksInJetQAHist_8h.html">TrksInJetQAHist.h</a></div><div class="ttdoc">===========================================================================</div></div>
 <div class="ttc" id="aTrksInJetQAInJetFiller_8h_html"><div class="ttname"><a href="../../d3/dcf/TrksInJetQAInJetFiller_8h.html">TrksInJetQAInJetFiller.h</a></div><div class="ttdoc">===========================================================================</div></div>
 <div class="ttc" id="aTrksInJetQAInclusiveFiller_8h_html"><div class="ttname"><a href="../../df/dfd/TrksInJetQAInclusiveFiller_8h.html">TrksInJetQAInclusiveFiller.h</a></div><div class="ttdoc">===========================================================================</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="aclassTFile_html"><div class="ttname"><a href="../../d3/ddf/classTFile.html">TFile</a></div></div>
 <div class="ttc" id="aclassTrksInJetQA_html_a131acab1353e0a636447b74a437dc6d4"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a131acab1353e0a636447b74a437dc6d4">TrksInJetQA::SetHistPrefix</a></div><div class="ttdeci">void SetHistPrefix(const std::string &amp;prefix)</div><div class="ttdef"><b>Definition</b> TrksInJetQA.h:72</div></div>
-<div class="ttc" id="aclassTrksInJetQA_html_a3082b1f9f9a745dfdf984d5d4a78e846"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a3082b1f9f9a745dfdf984d5d4a78e846">TrksInJetQA::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Run sub-modules and fill histograms.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:125</div></div>
-<div class="ttc" id="aclassTrksInJetQA_html_a3fe7c60162be53136e4f0e4a5c3660fa"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a3fe7c60162be53136e4f0e4a5c3660fa">TrksInJetQA::Configure</a></div><div class="ttdeci">void Configure(const TrksInJetQAConfig &amp;config, std::optional&lt; TrksInJetQAHist &gt; hist=std::nullopt)</div><div class="ttdoc">Configure module and all submodules.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:65</div></div>
-<div class="ttc" id="aclassTrksInJetQA_html_a74b91ba4aacd977b0ddaa8d663da8322"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a74b91ba4aacd977b0ddaa8d663da8322">TrksInJetQA::TrksInJetQA</a></div><div class="ttdeci">TrksInJetQA(const std::string &amp;name=&quot;TrksInJetQA&quot;)</div><div class="ttdoc">===========================================================================</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:28</div></div>
-<div class="ttc" id="aclassTrksInJetQA_html_a7a01b023ce8c6045e5efbb9225b79894"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a7a01b023ce8c6045e5efbb9225b79894">TrksInJetQA::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">Run final calculations.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:165</div></div>
+<div class="ttc" id="aclassTrksInJetQA_html_a3082b1f9f9a745dfdf984d5d4a78e846"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a3082b1f9f9a745dfdf984d5d4a78e846">TrksInJetQA::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Run sub-modules and fill histograms.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:130</div></div>
+<div class="ttc" id="aclassTrksInJetQA_html_a3fe7c60162be53136e4f0e4a5c3660fa"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a3fe7c60162be53136e4f0e4a5c3660fa">TrksInJetQA::Configure</a></div><div class="ttdeci">void Configure(const TrksInJetQAConfig &amp;config, std::optional&lt; TrksInJetQAHist &gt; hist=std::nullopt)</div><div class="ttdoc">Configure module and all submodules.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:68</div></div>
+<div class="ttc" id="aclassTrksInJetQA_html_a74b91ba4aacd977b0ddaa8d663da8322"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a74b91ba4aacd977b0ddaa8d663da8322">TrksInJetQA::TrksInJetQA</a></div><div class="ttdeci">TrksInJetQA(const std::string &amp;name=&quot;TrksInJetQA&quot;)</div><div class="ttdoc">===========================================================================</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:29</div></div>
+<div class="ttc" id="aclassTrksInJetQA_html_a7a01b023ce8c6045e5efbb9225b79894"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a7a01b023ce8c6045e5efbb9225b79894">TrksInJetQA::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">Run final calculations.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:171</div></div>
 <div class="ttc" id="aclassTrksInJetQA_html_a7ec697640ad4f25b5b8dbbc23a4e804a"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a7ec697640ad4f25b5b8dbbc23a4e804a">TrksInJetQA::SetHistSuffix</a></div><div class="ttdeci">void SetHistSuffix(const std::string &amp;suffix)</div><div class="ttdef"><b>Definition</b> TrksInJetQA.h:73</div></div>
 <div class="ttc" id="aclassTrksInJetQA_html_a914af86471b0795a2658fdd37f2459d8"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#a914af86471b0795a2658fdd37f2459d8">TrksInJetQA::SetOutFileName</a></div><div class="ttdeci">void SetOutFileName(const std::string &amp;name)</div><div class="ttdef"><b>Definition</b> TrksInJetQA.h:71</div></div>
-<div class="ttc" id="aclassTrksInJetQA_html_addd5ed8f2a65022b9bc24e550443ff2d"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#addd5ed8f2a65022b9bc24e550443ff2d">TrksInJetQA::~TrksInJetQA</a></div><div class="ttdeci">~TrksInJetQA() override</div><div class="ttdoc">Default dtor.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:40</div></div>
-<div class="ttc" id="aclassTrksInJetQA_html_ae5a6e55a69b9c9b48e6ef23e36e18568"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#ae5a6e55a69b9c9b48e6ef23e36e18568">TrksInJetQA::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">Initialize module.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:92</div></div>
+<div class="ttc" id="aclassTrksInJetQA_html_addd5ed8f2a65022b9bc24e550443ff2d"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#addd5ed8f2a65022b9bc24e550443ff2d">TrksInJetQA::~TrksInJetQA</a></div><div class="ttdeci">~TrksInJetQA() override</div><div class="ttdoc">Default dtor.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:42</div></div>
+<div class="ttc" id="aclassTrksInJetQA_html_ae5a6e55a69b9c9b48e6ef23e36e18568"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#ae5a6e55a69b9c9b48e6ef23e36e18568">TrksInJetQA::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">Initialize module.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.cc:96</div></div>
 <div class="ttc" id="aclassTrksInJetQA_html_af43d639558da810def639fbd66b2a0b6"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#af43d639558da810def639fbd66b2a0b6">TrksInJetQA::OutMode</a></div><div class="ttdeci">OutMode</div><div class="ttdoc">! enumerates possibe output modes</div><div class="ttdef"><b>Definition</b> TrksInJetQA.h:61</div></div>
 <div class="ttc" id="aclassTrksInJetQA_html_af43d639558da810def639fbd66b2a0b6a6eca5b1880570e7420c505f050fe0388"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#af43d639558da810def639fbd66b2a0b6a6eca5b1880570e7420c505f050fe0388">TrksInJetQA::QA</a></div><div class="ttdeci">@ QA</div><div class="ttdef"><b>Definition</b> TrksInJetQA.h:63</div></div>
 <div class="ttc" id="aclassTrksInJetQA_html_af43d639558da810def639fbd66b2a0b6a969432c3dacbcdb0adf269af32688042"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#af43d639558da810def639fbd66b2a0b6a969432c3dacbcdb0adf269af32688042">TrksInJetQA::File</a></div><div class="ttdeci">@ File</div><div class="ttdef"><b>Definition</b> TrksInJetQA.h:62</div></div>
-<div class="ttc" id="aclassTrksInJetQA_html_afa232cb5d75429f192c037450dd2f4ef"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#afa232cb5d75429f192c037450dd2f4ef">TrksInJetQA::SetTrgToSelect</a></div><div class="ttdeci">void SetTrgToSelect(const uint32_t trig=JetQADefs::GL1::MBDNSJet1)</div><div class="ttdoc">Enable trigger based event selection and set the trigger identifier.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.h:84</div></div>
+<div class="ttc" id="aclassTrksInJetQA_html_afa232cb5d75429f192c037450dd2f4ef"><div class="ttname"><a href="../../d0/d66/classTrksInJetQA.html#afa232cb5d75429f192c037450dd2f4ef">TrksInJetQA::SetTrgToSelect</a></div><div class="ttdeci">void SetTrgToSelect(const uint32_t trig=JetQADefs::GL1::MBDNSJet1)</div><div class="ttdoc">Enable trigger based event selection and set the trigger identifier.</div><div class="ttdef"><b>Definition</b> TrksInJetQA.h:85</div></div>
 <div class="ttc" id="anamespaceJetQADefs_html_a53631a2fd43fa3f1993670c6cc672ceba39daeb77d91197050a39928e03fdc1bd"><div class="ttname"><a href="../../df/df3/namespaceJetQADefs.html#a53631a2fd43fa3f1993670c6cc672ceba39daeb77d91197050a39928e03fdc1bd">JetQADefs::MBDNSJet1</a></div><div class="ttdeci">@ MBDNSJet1</div><div class="ttdef"><b>Definition</b> JetQADefs.h:56</div></div>
 <div class="ttc" id="aphool_8h_html"><div class="ttname"><a href="../../d5/d6f/phool_8h.html">phool.h</a></div></div>
-<div class="ttc" id="astructTrksInJetQAConfig_html"><div class="ttname"><a href="../../d5/da0/structTrksInJetQAConfig.html">TrksInJetQAConfig</a></div><div class="ttdoc">===========================================================================</div><div class="ttdef"><b>Definition</b> TrksInJetQAConfig.h:30</div></div>
+<div class="ttc" id="astructTrksInJetQAConfig_html"><div class="ttname"><a href="../../d5/da0/structTrksInJetQAConfig.html">TrksInJetQAConfig</a></div><div class="ttdoc">===========================================================================</div><div class="ttdef"><b>Definition</b> TrksInJetQAConfig.h:31</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

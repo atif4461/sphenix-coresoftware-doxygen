@@ -52,7 +52,7 @@ digraph "PHG4BlockCellReco::InitRun"
   Node1 -> Node21 [id="edge24_Node000001_Node000021",color="steelblue1",style="solid",tooltip=" "];
   Node21 [id="Node000021",label="PHG4BlockGeom::get\l_size_y",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d82/classPHG4BlockGeom.html#a6dab40e41492dc6e6b26108692005a08",tooltip="Returns the Y dimension size of the object."];
   Node1 -> Node22 [id="edge25_Node000001_Node000022",color="steelblue1",style="solid",tooltip=" "];
-  Node22 [id="Node000022",label="PHG4BlockGeom::get\l_size_z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d82/classPHG4BlockGeom.html#ab3ca010de23a525625074e997a446c15",tooltip="Returns size in z dimension Virtual method issues warning and returns NaN This comment was generated ..."];
+  Node22 [id="Node000022",label="PHG4BlockGeom::get\l_size_z",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d82/classPHG4BlockGeom.html#ab3ca010de23a525625074e997a446c15",tooltip="Returns size in z dimension Virtual method issues warning and returns NaN."];
   Node1 -> Node23 [id="edge26_Node000001_Node000023",color="steelblue1",style="solid",tooltip=" "];
   Node23 [id="Node000023",label="PHG4BlockGeom::get\l_width",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$df/d82/classPHG4BlockGeom.html#a50de85ce6678f81b98465892bb352cb0",tooltip=" "];
   Node1 -> Node24 [id="edge27_Node000001_Node000024",color="steelblue1",style="solid",tooltip=" "];

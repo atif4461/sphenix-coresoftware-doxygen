@@ -8,5 +8,5 @@ digraph "TrackSeedContainer_v1::clear"
   rankdir="LR";
   Node1 [id="Node000001",label="TrackSeedContainer\l_v1::clear",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="TrackSeedContainer\l_v1::Reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d5a/classTrackSeedContainer__v1.html#a47819d322d2e361660225a9ad2fd15ff",tooltip="Reset the container by deleting all owned TrackSeed objects and clearing the internal storage...."];
+  Node2 [id="Node000002",label="TrackSeedContainer\l_v1::Reset",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d0/d5a/classTrackSeedContainer__v1.html#a47819d322d2e361660225a9ad2fd15ff",tooltip="Reset the container by deleting all owned TrackSeed objects and clearing the internal storage."];
 }

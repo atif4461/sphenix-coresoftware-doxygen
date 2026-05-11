@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -123,52 +124,52 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d5/d21/classPHG4MvtxDigitizer.html#ac08de8e4a687b27d69a215a9343c986d">   34</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d5/d21/classPHG4MvtxDigitizer.html#ac08de8e4a687b27d69a215a9343c986d">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>)<span class="keyword"> override </span>{ <span class="keywordflow">return</span> 0; };</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d5/d21/classPHG4MvtxDigitizer.html#ac67b798df6087ce06ce6160efadcf760">   43</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d21/classPHG4MvtxDigitizer.html#ac67b798df6087ce06ce6160efadcf760">set_adc_scale</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> layer, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> max_adc, <span class="keyword">const</span> <span class="keywordtype">float</span> energy_per_adc)</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    _max_adc.insert(std::make_pair(layer, max_adc));</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    _energy_scale.insert(std::make_pair(layer, energy_per_adc));</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  }</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d5/d21/classPHG4MvtxDigitizer.html#ac67b798df6087ce06ce6160efadcf760">   44</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d21/classPHG4MvtxDigitizer.html#ac67b798df6087ce06ce6160efadcf760">set_adc_scale</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> layer, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> max_adc, <span class="keyword">const</span> <span class="keywordtype">float</span> energy_per_adc)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    _max_adc.insert(std::make_pair(layer, max_adc));</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    _energy_scale.insert(std::make_pair(layer, energy_per_adc));</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  }</div>
 </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d5/d21/classPHG4MvtxDigitizer.html#a7d71b82b486aecb93fa86e38a68e9fac">   55</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d21/classPHG4MvtxDigitizer.html#a7d71b82b486aecb93fa86e38a68e9fac">set_energy_threshold</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> threshold)</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    _energy_threshold = threshold;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d5/d21/classPHG4MvtxDigitizer.html#a7d71b82b486aecb93fa86e38a68e9fac">   57</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d21/classPHG4MvtxDigitizer.html#a7d71b82b486aecb93fa86e38a68e9fac">set_energy_threshold</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> threshold)</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    _energy_threshold = threshold;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  }</div>
 </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d5/d21/classPHG4MvtxDigitizer.html#a143ed9ee1c8b0c7824ac6b93d8d8401a">   60</a></span>  <span class="keywordtype">float</span> <a class="code hl_function" href="../../d5/d21/classPHG4MvtxDigitizer.html#a143ed9ee1c8b0c7824ac6b93d8d8401a">get_energy_threshold</a>() { <span class="keywordflow">return</span> _energy_threshold; }</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keywordtype">void</span> CalculateMvtxLadderCellADCScale(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keywordtype">void</span> DigitizeMvtxLadderCells(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  std::vector&lt;float&gt; adc_input;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  std::vector&lt;int&gt; is_populated;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="comment">// settings</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  std::map&lt;int, unsigned short&gt; _max_adc;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  std::map&lt;int, float&gt; _energy_scale;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordtype">float</span> _energy_threshold;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  gsl_rng *RandomGenerator;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../d5/d21/classPHG4MvtxDigitizer.html#a143ed9ee1c8b0c7824ac6b93d8d8401a">   62</a></span>  <span class="keywordtype">float</span> <a class="code hl_function" href="../../d5/d21/classPHG4MvtxDigitizer.html#a143ed9ee1c8b0c7824ac6b93d8d8401a">get_energy_threshold</a>() { <span class="keywordflow">return</span> _energy_threshold; }</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordtype">void</span> CalculateMvtxLadderCellADCScale(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keywordtype">void</span> DigitizeMvtxLadderCells(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  std::vector&lt;float&gt; adc_input;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  std::vector&lt;int&gt; is_populated;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="comment">// settings</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  std::map&lt;int, unsigned short&gt; _max_adc;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  std::map&lt;int, float&gt; _energy_scale;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keywordtype">float</span> _energy_threshold;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  gsl_rng *RandomGenerator;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>};</div>
 </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a0316d3d9c051c42852a80b289956eb0a"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a0316d3d9c051c42852a80b289956eb0a">PHG4MvtxDigitizer::~PHG4MvtxDigitizer</a></div><div class="ttdeci">~PHG4MvtxDigitizer() override</div><div class="ttdoc">Destructor releases the random number generator This comment was generated by openai/gpt-oss-120b at ...</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.cc:57</div></div>
-<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a143ed9ee1c8b0c7824ac6b93d8d8401a"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a143ed9ee1c8b0c7824ac6b93d8d8401a">PHG4MvtxDigitizer::get_energy_threshold</a></div><div class="ttdeci">float get_energy_threshold()</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.h:60</div></div>
-<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a1af26d7879034537a8dfe4199c8146d4"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a1af26d7879034537a8dfe4199c8146d4">PHG4MvtxDigitizer::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">run initialization</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.cc:68</div></div>
-<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a3ccd8653a6c117fff6d6cddb6adccf53"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a3ccd8653a6c117fff6d6cddb6adccf53">PHG4MvtxDigitizer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">event processing</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.cc:112</div></div>
-<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a57526a95395a707eb9d2595e23ec51b9"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a57526a95395a707eb9d2595e23ec51b9">PHG4MvtxDigitizer::PHG4MvtxDigitizer</a></div><div class="ttdeci">PHG4MvtxDigitizer(const std::string &amp;name=&quot;PHG4MvtxDigitizer&quot;)</div><div class="ttdoc">Construct a PHG4MvtxDigitizer subsystem.</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.cc:37</div></div>
-<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a7d71b82b486aecb93fa86e38a68e9fac"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a7d71b82b486aecb93fa86e38a68e9fac">PHG4MvtxDigitizer::set_energy_threshold</a></div><div class="ttdeci">void set_energy_threshold(const float threshold)</div><div class="ttdoc">Set the energy threshold for the detector subsystem.</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.h:55</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a0316d3d9c051c42852a80b289956eb0a"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a0316d3d9c051c42852a80b289956eb0a">PHG4MvtxDigitizer::~PHG4MvtxDigitizer</a></div><div class="ttdeci">~PHG4MvtxDigitizer() override</div><div class="ttdoc">Destructor releases the random number generator.</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.cc:59</div></div>
+<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a143ed9ee1c8b0c7824ac6b93d8d8401a"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a143ed9ee1c8b0c7824ac6b93d8d8401a">PHG4MvtxDigitizer::get_energy_threshold</a></div><div class="ttdeci">float get_energy_threshold()</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.h:62</div></div>
+<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a1af26d7879034537a8dfe4199c8146d4"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a1af26d7879034537a8dfe4199c8146d4">PHG4MvtxDigitizer::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">run initialization</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.cc:71</div></div>
+<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a3ccd8653a6c117fff6d6cddb6adccf53"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a3ccd8653a6c117fff6d6cddb6adccf53">PHG4MvtxDigitizer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">event processing</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.cc:116</div></div>
+<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a57526a95395a707eb9d2595e23ec51b9"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a57526a95395a707eb9d2595e23ec51b9">PHG4MvtxDigitizer::PHG4MvtxDigitizer</a></div><div class="ttdeci">PHG4MvtxDigitizer(const std::string &amp;name=&quot;PHG4MvtxDigitizer&quot;)</div><div class="ttdoc">Construct a PHG4MvtxDigitizer subsystem.</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.cc:38</div></div>
+<div class="ttc" id="aclassPHG4MvtxDigitizer_html_a7d71b82b486aecb93fa86e38a68e9fac"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#a7d71b82b486aecb93fa86e38a68e9fac">PHG4MvtxDigitizer::set_energy_threshold</a></div><div class="ttdeci">void set_energy_threshold(const float threshold)</div><div class="ttdoc">Set the energy threshold for the detector subsystem.</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.h:57</div></div>
 <div class="ttc" id="aclassPHG4MvtxDigitizer_html_abf74fa6de419c4d58fa2ce5145adb2df"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#abf74fa6de419c4d58fa2ce5145adb2df">PHG4MvtxDigitizer::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">module initialization</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.h:25</div></div>
 <div class="ttc" id="aclassPHG4MvtxDigitizer_html_ac08de8e4a687b27d69a215a9343c986d"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#ac08de8e4a687b27d69a215a9343c986d">PHG4MvtxDigitizer::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">end of process</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.h:34</div></div>
-<div class="ttc" id="aclassPHG4MvtxDigitizer_html_ac67b798df6087ce06ce6160efadcf760"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#ac67b798df6087ce06ce6160efadcf760">PHG4MvtxDigitizer::set_adc_scale</a></div><div class="ttdeci">void set_adc_scale(const int layer, const unsigned short max_adc, const float energy_per_adc)</div><div class="ttdoc">Set ADC scaling parameters for a specific detector layer.</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.h:43</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassPHG4MvtxDigitizer_html_ac67b798df6087ce06ce6160efadcf760"><div class="ttname"><a href="../../d5/d21/classPHG4MvtxDigitizer.html#ac67b798df6087ce06ce6160efadcf760">PHG4MvtxDigitizer::set_adc_scale</a></div><div class="ttdeci">void set_adc_scale(const int layer, const unsigned short max_adc, const float energy_per_adc)</div><div class="ttdoc">Set ADC scaling parameters for a specific detector layer.</div><div class="ttdef"><b>Definition</b> PHG4MvtxDigitizer.h:44</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

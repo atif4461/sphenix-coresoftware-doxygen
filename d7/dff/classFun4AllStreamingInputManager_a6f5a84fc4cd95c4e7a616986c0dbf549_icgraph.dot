@@ -8,7 +8,7 @@ digraph "Fun4AllStreamingInputManager::SetInttNegativeBco"
   rankdir="RL";
   Node1 [id="Node000001",label="Fun4AllStreamingInputManager\l::SetInttNegativeBco",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Set the minimum negative BCO for INTt."];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="SingleInttEventInput\l::ConfigureStreamingInputManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d69/classSingleInttEventInput.html#af12810320f2adc28370865624ec52a69",tooltip="Configure the streaming input manager with the INTt BCO range and negative BCO flag This comment was ..."];
+  Node2 [id="Node000002",label="SingleInttEventInput\l::ConfigureStreamingInputManager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d4/d69/classSingleInttEventInput.html#af12810320f2adc28370865624ec52a69",tooltip="Configure the streaming input manager with the INTt BCO range and negative BCO flag."];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node3 [id="Node000003",label="SingleInttPoolInput\l::ConfigureStreamingInputManager\lLocal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/dcb/classSingleInttPoolInput.html#a4075bbdcbd8570d09110f50684e344ea",tooltip="Configure the streaming input manager for the specified run number."];
   Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];

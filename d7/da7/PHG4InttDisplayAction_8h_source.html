@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -106,30 +107,30 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>G4LogicalVolume;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>G4VPhysicalVolume;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d7/d14/classPHG4InttDisplayAction.html">   29</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#adec6b49fb985ab1b370e20800aeeaeb8">PHG4InttDisplayAction</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d2/d44/classPHG4DisplayAction.html#aff2c231908524c6af7374761204149cb">PHG4DisplayAction</a></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#adec6b49fb985ab1b370e20800aeeaeb8">PHG4InttDisplayAction</a>(<span class="keyword">const</span> std::string &amp;name);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#ae4e19fde88cacbcd423bc5578d037713">~PHG4InttDisplayAction</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#aebdec7eba26ef666392089493b757bbc">ApplyDisplayAction</a>(G4VPhysicalVolume *physvol) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d7/d14/classPHG4InttDisplayAction.html#a39432ce679287388e2f96668f4bc2120">   37</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#a39432ce679287388e2f96668f4bc2120">AddVolume</a>(G4LogicalVolume *logvol, <span class="keyword">const</span> std::string &amp;mat) { m_LogicalVolumeMap[logvol] = mat; }</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  std::map&lt;G4LogicalVolume *, std::string&gt; m_LogicalVolumeMap;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  std::vector&lt;G4VisAttributes *&gt; m_VisAttVec;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>};</div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="};">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d7/d14/classPHG4InttDisplayAction.html">   30</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#adec6b49fb985ab1b370e20800aeeaeb8">PHG4InttDisplayAction</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d2/d44/classPHG4DisplayAction.html#aff2c231908524c6af7374761204149cb">PHG4DisplayAction</a></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#adec6b49fb985ab1b370e20800aeeaeb8">PHG4InttDisplayAction</a>(<span class="keyword">const</span> std::string &amp;name);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#ae4e19fde88cacbcd423bc5578d037713">~PHG4InttDisplayAction</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#aebdec7eba26ef666392089493b757bbc">ApplyDisplayAction</a>(G4VPhysicalVolume *physvol) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d7/d14/classPHG4InttDisplayAction.html#a39432ce679287388e2f96668f4bc2120">   38</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d7/d14/classPHG4InttDisplayAction.html#a39432ce679287388e2f96668f4bc2120">AddVolume</a>(G4LogicalVolume *logvol, <span class="keyword">const</span> std::string &amp;mat) { m_LogicalVolumeMap[logvol] = mat; }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  std::map&lt;G4LogicalVolume *, std::string&gt; m_LogicalVolumeMap;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  std::vector&lt;G4VisAttributes *&gt; m_VisAttVec;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
 </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#endif  </span><span class="comment">// G4INTT_PHG4INTTDISPLAYACTION_H</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif  </span><span class="comment">// G4INTT_PHG4INTTDISPLAYACTION_H</span></div>
 <div class="ttc" id="aPHG4DisplayAction_8h_html"><div class="ttname"><a href="../../df/dad/PHG4DisplayAction_8h.html">PHG4DisplayAction.h</a></div></div>
 <div class="ttc" id="aclassPHG4DisplayAction_html_aff2c231908524c6af7374761204149cb"><div class="ttname"><a href="../../d2/d44/classPHG4DisplayAction.html#aff2c231908524c6af7374761204149cb">PHG4DisplayAction::PHG4DisplayAction</a></div><div class="ttdeci">PHG4DisplayAction()=delete</div><div class="ttdoc">constructor</div></div>
-<div class="ttc" id="aclassPHG4InttDisplayAction_html_a39432ce679287388e2f96668f4bc2120"><div class="ttname"><a href="../../d7/d14/classPHG4InttDisplayAction.html#a39432ce679287388e2f96668f4bc2120">PHG4InttDisplayAction::AddVolume</a></div><div class="ttdeci">void AddVolume(G4LogicalVolume *logvol, const std::string &amp;mat)</div><div class="ttdef"><b>Definition</b> PHG4InttDisplayAction.h:37</div></div>
-<div class="ttc" id="aclassPHG4InttDisplayAction_html_adec6b49fb985ab1b370e20800aeeaeb8"><div class="ttname"><a href="../../d7/d14/classPHG4InttDisplayAction.html#adec6b49fb985ab1b370e20800aeeaeb8">PHG4InttDisplayAction::PHG4InttDisplayAction</a></div><div class="ttdeci">PHG4InttDisplayAction(const std::string &amp;name)</div><div class="ttdoc">Constructor for PHG4InttDisplayAction initializing base display action with given name.</div><div class="ttdef"><b>Definition</b> PHG4InttDisplayAction.cc:20</div></div>
-<div class="ttc" id="aclassPHG4InttDisplayAction_html_ae4e19fde88cacbcd423bc5578d037713"><div class="ttname"><a href="../../d7/d14/classPHG4InttDisplayAction.html#ae4e19fde88cacbcd423bc5578d037713">PHG4InttDisplayAction::~PHG4InttDisplayAction</a></div><div class="ttdeci">~PHG4InttDisplayAction() override</div><div class="ttdoc">Destructor releases visualization attribute objects stored in m_VisAttVec This comment was generated ...</div><div class="ttdef"><b>Definition</b> PHG4InttDisplayAction.cc:29</div></div>
-<div class="ttc" id="aclassPHG4InttDisplayAction_html_aebdec7eba26ef666392089493b757bbc"><div class="ttname"><a href="../../d7/d14/classPHG4InttDisplayAction.html#aebdec7eba26ef666392089493b757bbc">PHG4InttDisplayAction::ApplyDisplayAction</a></div><div class="ttdeci">void ApplyDisplayAction(G4VPhysicalVolume *physvol) override</div><div class="ttdoc">Set visual attributes for logical volumes in the INTT detector when no attributes are pre defined.</div><div class="ttdef"><b>Definition</b> PHG4InttDisplayAction.cc:44</div></div>
+<div class="ttc" id="aclassPHG4InttDisplayAction_html_a39432ce679287388e2f96668f4bc2120"><div class="ttname"><a href="../../d7/d14/classPHG4InttDisplayAction.html#a39432ce679287388e2f96668f4bc2120">PHG4InttDisplayAction::AddVolume</a></div><div class="ttdeci">void AddVolume(G4LogicalVolume *logvol, const std::string &amp;mat)</div><div class="ttdef"><b>Definition</b> PHG4InttDisplayAction.h:38</div></div>
+<div class="ttc" id="aclassPHG4InttDisplayAction_html_adec6b49fb985ab1b370e20800aeeaeb8"><div class="ttname"><a href="../../d7/d14/classPHG4InttDisplayAction.html#adec6b49fb985ab1b370e20800aeeaeb8">PHG4InttDisplayAction::PHG4InttDisplayAction</a></div><div class="ttdeci">PHG4InttDisplayAction(const std::string &amp;name)</div><div class="ttdoc">Constructor for PHG4InttDisplayAction initializing base display action with given name.</div><div class="ttdef"><b>Definition</b> PHG4InttDisplayAction.cc:21</div></div>
+<div class="ttc" id="aclassPHG4InttDisplayAction_html_ae4e19fde88cacbcd423bc5578d037713"><div class="ttname"><a href="../../d7/d14/classPHG4InttDisplayAction.html#ae4e19fde88cacbcd423bc5578d037713">PHG4InttDisplayAction::~PHG4InttDisplayAction</a></div><div class="ttdeci">~PHG4InttDisplayAction() override</div><div class="ttdoc">Destructor releases visualization attribute objects stored in m_VisAttVec.</div><div class="ttdef"><b>Definition</b> PHG4InttDisplayAction.cc:31</div></div>
+<div class="ttc" id="aclassPHG4InttDisplayAction_html_aebdec7eba26ef666392089493b757bbc"><div class="ttname"><a href="../../d7/d14/classPHG4InttDisplayAction.html#aebdec7eba26ef666392089493b757bbc">PHG4InttDisplayAction::ApplyDisplayAction</a></div><div class="ttdeci">void ApplyDisplayAction(G4VPhysicalVolume *physvol) override</div><div class="ttdoc">Set visual attributes for logical volumes in the INTT detector when no attributes are pre defined.</div><div class="ttdef"><b>Definition</b> PHG4InttDisplayAction.cc:47</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -105,56 +106,56 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span><a class="code hl_class" href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a>;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="../../d4/d05/classPHG4MvtxDisplayAction.html">PHG4MvtxDisplayAction</a>;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d6/dc2/classPHG4MvtxSupport.html">   18</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d6/dc2/classPHG4MvtxSupport.html#a3a48d5b29bbbdec3810d5734b83abfbc">PHG4MvtxSupport</a></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>  <a class="code hl_function" href="../../d6/dc2/classPHG4MvtxSupport.html#a3a48d5b29bbbdec3810d5734b83abfbc">PHG4MvtxSupport</a>(<a class="code hl_class" href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a> *detector, <a class="code hl_class" href="../../d4/d05/classPHG4MvtxDisplayAction.html">PHG4MvtxDisplayAction</a> *dispAct, <span class="keywordtype">bool</span> overlapCheck);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <span class="keyword">virtual</span> <a class="code hl_function" href="../../d6/dc2/classPHG4MvtxSupport.html#ae680b5ffe098f9336e0992148ea73c23">~PHG4MvtxSupport</a>();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/dc2/classPHG4MvtxSupport.html#a1bea4e0e4d4b21b3e321ff1b4a9e76ea">ConstructMvtxSupport</a>(G4LogicalVolume *&amp;lv);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <a class="code hl_class" href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a> *m_Detector{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <a class="code hl_class" href="../../d4/d05/classPHG4MvtxDisplayAction.html">PHG4MvtxDisplayAction</a> *m_DisplayAction{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keywordtype">void</span> CreateMvtxSupportMaterials();</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="keywordtype">void</span> CreateEndWheelsSideN(G4AssemblyVolume *&amp;av);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">void</span> CreateEndWheelsSideS(G4AssemblyVolume *&amp;av);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keywordtype">void</span> CreateConeLayers(G4AssemblyVolume *&amp;av);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">void</span> CreateCYSS(G4AssemblyVolume *&amp;av);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordtype">void</span> CreateServiceBarrel(G4AssemblyVolume *&amp;av);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <span class="keywordtype">void</span> GetEndWheelSideN(<span class="keyword">const</span> <span class="keywordtype">int</span> lay, G4AssemblyVolume *&amp;endWheel);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">void</span> GetEndWheelSideS(<span class="keyword">const</span> <span class="keywordtype">int</span> lay, G4AssemblyVolume *&amp;endWheel);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">void</span> GetConeVolume(<span class="keywordtype">int</span> lay, G4AssemblyVolume *&amp;av);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">void</span> CreateCable(<a class="code hl_class" href="../../db/d9e/classPHG4MvtxCable.html">PHG4MvtxCable</a> *<span class="keywordtype">object</span>, G4AssemblyVolume &amp;assemblyVolume);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">void</span> CreateCableBundle(G4AssemblyVolume &amp;assemblyVolume, <span class="keyword">const</span> std::string &amp;superName,</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                         <span class="keywordtype">bool</span> enableSignal, <span class="keywordtype">bool</span> enableCooling, <span class="keywordtype">bool</span> enablePower,</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                         <span class="keywordtype">double</span> x1, <span class="keywordtype">double</span> x2, <span class="keywordtype">double</span> y1, <span class="keywordtype">double</span> y2, <span class="keywordtype">double</span> z1, <span class="keywordtype">double</span> z2);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  G4AssemblyVolume *buildBarrelCable();</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  G4AssemblyVolume *buildLayerCables(<span class="keyword">const</span> <span class="keywordtype">int</span> &amp;lay);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  G4AssemblyVolume *m_avSupport{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  G4AssemblyVolume *m_avBarrelCable{<span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  std::array&lt;G4AssemblyVolume *, PHG4MvtxDefs::kNLayers&gt; m_avLayerCable{<span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>};</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keywordtype">bool</span> m_overlapCheck{<span class="keyword">false</span>};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d6/dc2/classPHG4MvtxSupport.html">   19</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d6/dc2/classPHG4MvtxSupport.html#a3a48d5b29bbbdec3810d5734b83abfbc">PHG4MvtxSupport</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  <a class="code hl_function" href="../../d6/dc2/classPHG4MvtxSupport.html#a3a48d5b29bbbdec3810d5734b83abfbc">PHG4MvtxSupport</a>(<a class="code hl_class" href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a> *detector, <a class="code hl_class" href="../../d4/d05/classPHG4MvtxDisplayAction.html">PHG4MvtxDisplayAction</a> *dispAct, <span class="keywordtype">bool</span> overlapCheck);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <span class="keyword">virtual</span> <a class="code hl_function" href="../../d6/dc2/classPHG4MvtxSupport.html#ae680b5ffe098f9336e0992148ea73c23">~PHG4MvtxSupport</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/dc2/classPHG4MvtxSupport.html#a1bea4e0e4d4b21b3e321ff1b4a9e76ea">ConstructMvtxSupport</a>(G4LogicalVolume *&amp;lv);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <a class="code hl_class" href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a> *m_Detector{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <a class="code hl_class" href="../../d4/d05/classPHG4MvtxDisplayAction.html">PHG4MvtxDisplayAction</a> *m_DisplayAction{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <span class="keywordtype">void</span> CreateMvtxSupportMaterials();</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  <span class="keywordtype">void</span> CreateEndWheelsSideN(G4AssemblyVolume *&amp;av);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keywordtype">void</span> CreateEndWheelsSideS(G4AssemblyVolume *&amp;av);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">void</span> CreateConeLayers(G4AssemblyVolume *&amp;av);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordtype">void</span> CreateCYSS(G4AssemblyVolume *&amp;av);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  <span class="keywordtype">void</span> CreateServiceBarrel(G4AssemblyVolume *&amp;av);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">void</span> GetEndWheelSideN(<span class="keyword">const</span> <span class="keywordtype">int</span> lay, G4AssemblyVolume *&amp;endWheel);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">void</span> GetEndWheelSideS(<span class="keyword">const</span> <span class="keywordtype">int</span> lay, G4AssemblyVolume *&amp;endWheel);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">void</span> GetConeVolume(<span class="keywordtype">int</span> lay, G4AssemblyVolume *&amp;av);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">void</span> CreateCable(<a class="code hl_class" href="../../db/d9e/classPHG4MvtxCable.html">PHG4MvtxCable</a> *<span class="keywordtype">object</span>, G4AssemblyVolume &amp;assemblyVolume);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">void</span> CreateCableBundle(G4AssemblyVolume &amp;assemblyVolume, <span class="keyword">const</span> std::string &amp;superName,</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                         <span class="keywordtype">bool</span> enableSignal, <span class="keywordtype">bool</span> enableCooling, <span class="keywordtype">bool</span> enablePower,</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>                         <span class="keywordtype">double</span> x1, <span class="keywordtype">double</span> x2, <span class="keywordtype">double</span> y1, <span class="keywordtype">double</span> y2, <span class="keywordtype">double</span> z1, <span class="keywordtype">double</span> z2);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  G4AssemblyVolume *buildBarrelCable();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  G4AssemblyVolume *buildLayerCables(<span class="keyword">const</span> <span class="keywordtype">int</span> &amp;lay);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  G4AssemblyVolume *m_avSupport{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  G4AssemblyVolume *m_avBarrelCable{<span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  std::array&lt;G4AssemblyVolume *, PHG4MvtxDefs::kNLayers&gt; m_avLayerCable{<span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>};</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">bool</span> m_overlapCheck{<span class="keyword">false</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
 </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aPHG4MvtxDefs_8h_html"><div class="ttname"><a href="../../df/d94/PHG4MvtxDefs_8h.html">PHG4MvtxDefs.h</a></div></div>
 <div class="ttc" id="aclassPHG4MvtxCable_html"><div class="ttname"><a href="../../db/d9e/classPHG4MvtxCable.html">PHG4MvtxCable</a></div><div class="ttdef"><b>Definition</b> PHG4MvtxCable.h:7</div></div>
-<div class="ttc" id="aclassPHG4MvtxDetector_html"><div class="ttname"><a href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a></div><div class="ttdef"><b>Definition</b> PHG4MvtxDetector.h:37</div></div>
-<div class="ttc" id="aclassPHG4MvtxDisplayAction_html"><div class="ttname"><a href="../../d4/d05/classPHG4MvtxDisplayAction.html">PHG4MvtxDisplayAction</a></div><div class="ttdef"><b>Definition</b> PHG4MvtxDisplayAction.h:27</div></div>
-<div class="ttc" id="aclassPHG4MvtxSupport_html_a1bea4e0e4d4b21b3e321ff1b4a9e76ea"><div class="ttname"><a href="../../d6/dc2/classPHG4MvtxSupport.html#a1bea4e0e4d4b21b3e321ff1b4a9e76ea">PHG4MvtxSupport::ConstructMvtxSupport</a></div><div class="ttdeci">void ConstructMvtxSupport(G4LogicalVolume *&amp;lv)</div><div class="ttdoc">Construct the MVTX support structure and place it into the given logical volume.</div><div class="ttdef"><b>Definition</b> PHG4MvtxSupport.cc:1292</div></div>
-<div class="ttc" id="aclassPHG4MvtxSupport_html_a3a48d5b29bbbdec3810d5734b83abfbc"><div class="ttname"><a href="../../d6/dc2/classPHG4MvtxSupport.html#a3a48d5b29bbbdec3810d5734b83abfbc">PHG4MvtxSupport::PHG4MvtxSupport</a></div><div class="ttdeci">PHG4MvtxSupport(PHG4MvtxDetector *detector, PHG4MvtxDisplayAction *dispAct, bool overlapCheck)</div><div class="ttdoc">Construct PHG4MvtxSupport object.</div><div class="ttdef"><b>Definition</b> PHG4MvtxSupport.cc:73</div></div>
-<div class="ttc" id="aclassPHG4MvtxSupport_html_ae680b5ffe098f9336e0992148ea73c23"><div class="ttname"><a href="../../d6/dc2/classPHG4MvtxSupport.html#ae680b5ffe098f9336e0992148ea73c23">PHG4MvtxSupport::~PHG4MvtxSupport</a></div><div class="ttdeci">virtual ~PHG4MvtxSupport()</div><div class="ttdoc">Destructor releases allocated geometry objects.</div><div class="ttdef"><b>Definition</b> PHG4MvtxSupport.cc:87</div></div>
+<div class="ttc" id="aclassPHG4MvtxDetector_html"><div class="ttname"><a href="../../d4/dc1/classPHG4MvtxDetector.html">PHG4MvtxDetector</a></div><div class="ttdef"><b>Definition</b> PHG4MvtxDetector.h:38</div></div>
+<div class="ttc" id="aclassPHG4MvtxDisplayAction_html"><div class="ttname"><a href="../../d4/d05/classPHG4MvtxDisplayAction.html">PHG4MvtxDisplayAction</a></div><div class="ttdef"><b>Definition</b> PHG4MvtxDisplayAction.h:28</div></div>
+<div class="ttc" id="aclassPHG4MvtxSupport_html_a1bea4e0e4d4b21b3e321ff1b4a9e76ea"><div class="ttname"><a href="../../d6/dc2/classPHG4MvtxSupport.html#a1bea4e0e4d4b21b3e321ff1b4a9e76ea">PHG4MvtxSupport::ConstructMvtxSupport</a></div><div class="ttdeci">void ConstructMvtxSupport(G4LogicalVolume *&amp;lv)</div><div class="ttdoc">Construct the MVTX support structure and place it into the given logical volume.</div><div class="ttdef"><b>Definition</b> PHG4MvtxSupport.cc:1308</div></div>
+<div class="ttc" id="aclassPHG4MvtxSupport_html_a3a48d5b29bbbdec3810d5734b83abfbc"><div class="ttname"><a href="../../d6/dc2/classPHG4MvtxSupport.html#a3a48d5b29bbbdec3810d5734b83abfbc">PHG4MvtxSupport::PHG4MvtxSupport</a></div><div class="ttdeci">PHG4MvtxSupport(PHG4MvtxDetector *detector, PHG4MvtxDisplayAction *dispAct, bool overlapCheck)</div><div class="ttdoc">Construct PHG4MvtxSupport object.</div><div class="ttdef"><b>Definition</b> PHG4MvtxSupport.cc:74</div></div>
+<div class="ttc" id="aclassPHG4MvtxSupport_html_ae680b5ffe098f9336e0992148ea73c23"><div class="ttname"><a href="../../d6/dc2/classPHG4MvtxSupport.html#ae680b5ffe098f9336e0992148ea73c23">PHG4MvtxSupport::~PHG4MvtxSupport</a></div><div class="ttdeci">virtual ~PHG4MvtxSupport()</div><div class="ttdoc">Destructor releases allocated geometry objects.</div><div class="ttdef"><b>Definition</b> PHG4MvtxSupport.cc:89</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

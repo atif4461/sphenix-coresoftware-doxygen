@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,63 +108,63 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>TNtuple;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="foldopen" id="foldopen00036" data-start="{" data-end="};">
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d1/df4/classJetEvaluator.html">   36</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#ad702cd6a3849f0ea3894e0188cb33fb1">JetEvaluator</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#ad702cd6a3849f0ea3894e0188cb33fb1">JetEvaluator</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;JETEVALUATOR&quot;</span>,</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>               <span class="keyword">const</span> std::string &amp;recojetname = <span class="stringliteral">&quot;AntiKt_Tower_r0.3&quot;</span>,</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>               <span class="keyword">const</span> std::string &amp;truthjetname = <span class="stringliteral">&quot;AntiKt_Truth_r0.3&quot;</span>,</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>               <span class="keyword">const</span> std::string &amp;filename = <span class="stringliteral">&quot;g4eval_jets.root&quot;</span>);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d1/df4/classJetEvaluator.html#a82ae2257cd4a9c45e0bc382ddfab9fd0">   43</a></span>  <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#a82ae2257cd4a9c45e0bc382ddfab9fd0">~JetEvaluator</a>()<span class="keyword"> override</span>{};</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#ac01ddc77917521dff1f0b3860369ab01">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#abd1af43deddc4ce57f0ef562c23deacb">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#ae0c6520b4be939cfcc4d677cc9921713">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d1/df4/classJetEvaluator.html#a857a46c110cfad34e95b3d13a630b161">   49</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#a857a46c110cfad34e95b3d13a630b161">set_strict</a>(<span class="keywordtype">bool</span> b) { _strict = b; }</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  std::string _recojetname;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  std::string _truthjetname;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> _ievent = 0;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <a class="code hl_class" href="../../dd/df3/classJetEvalStack.html">JetEvalStack</a> *_jetevalstack = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="comment">//----------------------------------</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="comment">// evaluator output ntuples</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordtype">bool</span> _strict = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  <span class="keywordtype">bool</span> _do_recojet_eval = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordtype">bool</span> _do_truthjet_eval = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  TNtuple *_ntp_recojet = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  TNtuple *_ntp_truthjet = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="comment">// evaluator output file</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  std::string _filename;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a> *_tfile = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="comment">// subroutines</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keywordtype">void</span> printInputInfo(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);     </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keywordtype">void</span> fillOutputNtuples(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);  </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="keywordtype">void</span> printOutputInfo(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);    </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>};</div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="};">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d1/df4/classJetEvaluator.html">   37</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#ad702cd6a3849f0ea3894e0188cb33fb1">JetEvaluator</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>{</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#ad702cd6a3849f0ea3894e0188cb33fb1">JetEvaluator</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;JETEVALUATOR&quot;</span>,</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>               <span class="keyword">const</span> std::string &amp;recojetname = <span class="stringliteral">&quot;AntiKt_Tower_r0.3&quot;</span>,</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>               <span class="keyword">const</span> std::string &amp;truthjetname = <span class="stringliteral">&quot;AntiKt_Truth_r0.3&quot;</span>,</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>               <span class="keyword">const</span> std::string &amp;filename = <span class="stringliteral">&quot;g4eval_jets.root&quot;</span>);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d1/df4/classJetEvaluator.html#a82ae2257cd4a9c45e0bc382ddfab9fd0">   44</a></span>  <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#a82ae2257cd4a9c45e0bc382ddfab9fd0">~JetEvaluator</a>()<span class="keyword"> override</span>{};</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#ac01ddc77917521dff1f0b3860369ab01">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#abd1af43deddc4ce57f0ef562c23deacb">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#ae0c6520b4be939cfcc4d677cc9921713">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d1/df4/classJetEvaluator.html#a857a46c110cfad34e95b3d13a630b161">   50</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/df4/classJetEvaluator.html#a857a46c110cfad34e95b3d13a630b161">set_strict</a>(<span class="keywordtype">bool</span> b) { _strict = b; }</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  std::string _recojetname;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  std::string _truthjetname;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> _ievent = 0;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <a class="code hl_class" href="../../dd/df3/classJetEvalStack.html">JetEvalStack</a> *_jetevalstack = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="comment">//----------------------------------</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="comment">// evaluator output ntuples</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  <span class="keywordtype">bool</span> _strict = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  <span class="keywordtype">bool</span> _do_recojet_eval = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <span class="keywordtype">bool</span> _do_truthjet_eval = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  TNtuple *_ntp_recojet = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  TNtuple *_ntp_truthjet = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="comment">// evaluator output file</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  std::string _filename;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <a class="code hl_class" href="../../d3/ddf/classTFile.html">TFile</a> *_tfile = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="comment">// subroutines</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keywordtype">void</span> printInputInfo(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);     </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  <span class="keywordtype">void</span> fillOutputNtuples(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);  </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keywordtype">void</span> printOutputInfo(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);    </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>};</div>
 </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif  </span><span class="comment">// G4EVAL_JETEVALUATOR_H</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif  </span><span class="comment">// G4EVAL_JETEVALUATOR_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassJetEvalStack_html"><div class="ttname"><a href="../../dd/df3/classJetEvalStack.html">JetEvalStack</a></div><div class="ttdef"><b>Definition</b> JetEvalStack.h:30</div></div>
-<div class="ttc" id="aclassJetEvaluator_html_a82ae2257cd4a9c45e0bc382ddfab9fd0"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#a82ae2257cd4a9c45e0bc382ddfab9fd0">JetEvaluator::~JetEvaluator</a></div><div class="ttdeci">~JetEvaluator() override</div><div class="ttdef"><b>Definition</b> JetEvaluator.h:43</div></div>
-<div class="ttc" id="aclassJetEvaluator_html_a857a46c110cfad34e95b3d13a630b161"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#a857a46c110cfad34e95b3d13a630b161">JetEvaluator::set_strict</a></div><div class="ttdeci">void set_strict(bool b)</div><div class="ttdef"><b>Definition</b> JetEvaluator.h:49</div></div>
-<div class="ttc" id="aclassJetEvaluator_html_abd1af43deddc4ce57f0ef562c23deacb"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#abd1af43deddc4ce57f0ef562c23deacb">JetEvaluator::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event within the Fun4All framework.</div><div class="ttdef"><b>Definition</b> JetEvaluator.cc:79</div></div>
-<div class="ttc" id="aclassJetEvaluator_html_ac01ddc77917521dff1f0b3860369ab01"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#ac01ddc77917521dff1f0b3860369ab01">JetEvaluator::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize JetEvaluator module and create output ROOT file and Ntuples.</div><div class="ttdef"><b>Definition</b> JetEvaluator.cc:48</div></div>
-<div class="ttc" id="aclassJetEvaluator_html_ad702cd6a3849f0ea3894e0188cb33fb1"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#ad702cd6a3849f0ea3894e0188cb33fb1">JetEvaluator::JetEvaluator</a></div><div class="ttdeci">JetEvaluator(const std::string &amp;name=&quot;JETEVALUATOR&quot;, const std::string &amp;recojetname=&quot;AntiKt_Tower_r0.3&quot;, const std::string &amp;truthjetname=&quot;AntiKt_Truth_r0.3&quot;, const std::string &amp;filename=&quot;g4eval_jets.root&quot;)</div><div class="ttdoc">Construct a JetEvaluator module.</div><div class="ttdef"><b>Definition</b> JetEvaluator.cc:32</div></div>
-<div class="ttc" id="aclassJetEvaluator_html_ae0c6520b4be939cfcc4d677cc9921713"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#ae0c6520b4be939cfcc4d677cc9921713">JetEvaluator::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Finalize the JetEvaluator module at the end of processing.</div><div class="ttdef"><b>Definition</b> JetEvaluator.cc:127</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassJetEvalStack_html"><div class="ttname"><a href="../../dd/df3/classJetEvalStack.html">JetEvalStack</a></div><div class="ttdef"><b>Definition</b> JetEvalStack.h:31</div></div>
+<div class="ttc" id="aclassJetEvaluator_html_a82ae2257cd4a9c45e0bc382ddfab9fd0"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#a82ae2257cd4a9c45e0bc382ddfab9fd0">JetEvaluator::~JetEvaluator</a></div><div class="ttdeci">~JetEvaluator() override</div><div class="ttdef"><b>Definition</b> JetEvaluator.h:44</div></div>
+<div class="ttc" id="aclassJetEvaluator_html_a857a46c110cfad34e95b3d13a630b161"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#a857a46c110cfad34e95b3d13a630b161">JetEvaluator::set_strict</a></div><div class="ttdeci">void set_strict(bool b)</div><div class="ttdef"><b>Definition</b> JetEvaluator.h:50</div></div>
+<div class="ttc" id="aclassJetEvaluator_html_abd1af43deddc4ce57f0ef562c23deacb"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#abd1af43deddc4ce57f0ef562c23deacb">JetEvaluator::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event within the Fun4All framework.</div><div class="ttdef"><b>Definition</b> JetEvaluator.cc:82</div></div>
+<div class="ttc" id="aclassJetEvaluator_html_ac01ddc77917521dff1f0b3860369ab01"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#ac01ddc77917521dff1f0b3860369ab01">JetEvaluator::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize JetEvaluator module and create output ROOT file and Ntuples.</div><div class="ttdef"><b>Definition</b> JetEvaluator.cc:50</div></div>
+<div class="ttc" id="aclassJetEvaluator_html_ad702cd6a3849f0ea3894e0188cb33fb1"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#ad702cd6a3849f0ea3894e0188cb33fb1">JetEvaluator::JetEvaluator</a></div><div class="ttdeci">JetEvaluator(const std::string &amp;name=&quot;JETEVALUATOR&quot;, const std::string &amp;recojetname=&quot;AntiKt_Tower_r0.3&quot;, const std::string &amp;truthjetname=&quot;AntiKt_Truth_r0.3&quot;, const std::string &amp;filename=&quot;g4eval_jets.root&quot;)</div><div class="ttdoc">Construct a JetEvaluator module.</div><div class="ttdef"><b>Definition</b> JetEvaluator.cc:33</div></div>
+<div class="ttc" id="aclassJetEvaluator_html_ae0c6520b4be939cfcc4d677cc9921713"><div class="ttname"><a href="../../d1/df4/classJetEvaluator.html#ae0c6520b4be939cfcc4d677cc9921713">JetEvaluator::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode) override</div><div class="ttdoc">Finalize the JetEvaluator module at the end of processing.</div><div class="ttdef"><b>Definition</b> JetEvaluator.cc:131</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 <div class="ttc" id="aclassTFile_html"><div class="ttname"><a href="../../d3/ddf/classTFile.html">TFile</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -8,5 +8,5 @@ digraph "EventRho::EventRho"
   rankdir="RL";
   Node1 [id="Node000001",label="EventRho::EventRho",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="EventRhov1::EventRhov1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d91/classEventRhov1.html#a27d2e6e7f4a43823ab30df5a24d7923a",tooltip="Default constructor initializing rho related members to zero and method type to NONE This comment was..."];
+  Node2 [id="Node000002",label="EventRhov1::EventRhov1",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d7/d91/classEventRhov1.html#a27d2e6e7f4a43823ab30df5a24d7923a",tooltip="Default constructor initializing rho related members to zero and method type to NONE."];
 }

@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -116,70 +117,70 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#aaac1abd7c30e718e7b7beffcd91a5a9f">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#a22920f39c925abf430901c6682d3f0c2">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d8/d13/classGlobalVertexReco.html#ac3c7338be127ef28cfe78fa96cfa4659">   38</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#ac3c7338be127ef28cfe78fa96cfa4659">setVertexType</a>(<a class="code hl_enumeration" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174">GlobalVertex::VTXTYPE</a> vtxtype)</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    _vtxtype = vtxtype;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  }</div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d8/d13/classGlobalVertexReco.html#ac3c7338be127ef28cfe78fa96cfa4659">   39</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#ac3c7338be127ef28cfe78fa96cfa4659">setVertexType</a>(<a class="code hl_enumeration" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174">GlobalVertex::VTXTYPE</a> vtxtype)</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    _vtxtype = vtxtype;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  }</div>
 </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>   </div>
-<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d8/d13/classGlobalVertexReco.html#a503c57c022aa573c41566af1d54218c3">   49</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#a503c57c022aa573c41566af1d54218c3">set_x_defaults</a>(<span class="keywordtype">float</span> xdefault, <span class="keywordtype">float</span> xerr)</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    _xdefault = xdefault;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    _xerr = xerr;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>   </div>
+<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d8/d13/classGlobalVertexReco.html#a503c57c022aa573c41566af1d54218c3">   51</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#a503c57c022aa573c41566af1d54218c3">set_x_defaults</a>(<span class="keywordtype">float</span> xdefault, <span class="keywordtype">float</span> xerr)</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    _xdefault = xdefault;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    _xerr = xerr;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  }</div>
 </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d8/d13/classGlobalVertexReco.html#a5ea0770072510b92fc0875a8ecfab29d">   60</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#a5ea0770072510b92fc0875a8ecfab29d">set_y_defaults</a>(<span class="keywordtype">float</span> ydefault, <span class="keywordtype">float</span> yerr)</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  {</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    _ydefault = ydefault;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    _yerr = yerr;</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  }</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../d8/d13/classGlobalVertexReco.html#a5ea0770072510b92fc0875a8ecfab29d">   63</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#a5ea0770072510b92fc0875a8ecfab29d">set_y_defaults</a>(<span class="keywordtype">float</span> ydefault, <span class="keywordtype">float</span> yerr)</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    _ydefault = ydefault;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    _yerr = yerr;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  }</div>
 </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="foldopen" id="foldopen00071" data-start="{" data-end="}">
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../d8/d13/classGlobalVertexReco.html#ae8d55ffe4de1aaa803181ee0cf4ec478">   71</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#ae8d55ffe4de1aaa803181ee0cf4ec478">set_t_defaults</a>(<span class="keywordtype">float</span> tdefault, <span class="keywordtype">float</span> terr)</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  {</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    _tdefault = tdefault;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    _terr = terr;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  }</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="foldopen" id="foldopen00075" data-start="{" data-end="}">
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../d8/d13/classGlobalVertexReco.html#ae8d55ffe4de1aaa803181ee0cf4ec478">   75</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d13/classGlobalVertexReco.html#ae8d55ffe4de1aaa803181ee0cf4ec478">set_t_defaults</a>(<span class="keywordtype">float</span> tdefault, <span class="keywordtype">float</span> terr)</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  {</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    _tdefault = tdefault;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    _terr = terr;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  }</div>
 </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keywordtype">int</span> CreateNodes(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode); </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="keywordtype">int</span> useVertexType(<a class="code hl_enumeration" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174">GlobalVertex::VTXTYPE</a> vtxtype)</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  {</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    <span class="keywordflow">return</span> ( (_vtxtype == vtxtype) || (_vtxtype == <a class="code hl_enumvalue" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174a87d3c29dbec7c39a1069136433719ba8">GlobalVertex::VTXTYPE::UNDEFINED</a>) );</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  }</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <a class="code hl_enumeration" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174">GlobalVertex::VTXTYPE</a> _vtxtype{<a class="code hl_enumvalue" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174a87d3c29dbec7c39a1069136433719ba8">GlobalVertex::VTXTYPE::UNDEFINED</a>};</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>  <span class="keywordtype">float</span> _xdefault{0.};</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  <span class="keywordtype">float</span> _xerr{0.3};</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  <span class="keywordtype">float</span> _ydefault{0.};</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <span class="keywordtype">float</span> _yerr{0.3};</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>  <span class="keywordtype">float</span> _tdefault{0.};</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordtype">float</span> _terr{0.2};</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>};</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  <span class="keywordtype">int</span> CreateNodes(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode); </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  <span class="keywordtype">int</span> useVertexType(<a class="code hl_enumeration" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174">GlobalVertex::VTXTYPE</a> vtxtype)</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>  {</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordflow">return</span> ( (_vtxtype == vtxtype) || (_vtxtype == <a class="code hl_enumvalue" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174a87d3c29dbec7c39a1069136433719ba8">GlobalVertex::VTXTYPE::UNDEFINED</a>) );</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>  }</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>  <a class="code hl_enumeration" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174">GlobalVertex::VTXTYPE</a> _vtxtype{<a class="code hl_enumvalue" href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174a87d3c29dbec7c39a1069136433719ba8">GlobalVertex::VTXTYPE::UNDEFINED</a>};</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>  <span class="keywordtype">float</span> _xdefault{0.};</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>  <span class="keywordtype">float</span> _xerr{0.3};</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  <span class="keywordtype">float</span> _ydefault{0.};</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>  <span class="keywordtype">float</span> _yerr{0.3};</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <span class="keywordtype">float</span> _tdefault{0.};</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="keywordtype">float</span> _terr{0.2};</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>};</div>
 </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#endif  </span><span class="comment">// GLOBALVERTEX_GLOBALVERTEXRECO_H</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="preprocessor">#endif  </span><span class="comment">// GLOBALVERTEX_GLOBALVERTEXRECO_H</span></div>
 <div class="ttc" id="aGlobalVertex_8h_html"><div class="ttname"><a href="../../d7/de5/GlobalVertex_8h.html">GlobalVertex.h</a></div></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
-<div class="ttc" id="aclassGlobalVertexReco_html_a22920f39c925abf430901c6682d3f0c2"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a22920f39c925abf430901c6682d3f0c2">GlobalVertexReco::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and fill the global vertex map.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.cc:78</div></div>
+<div class="ttc" id="aclassGlobalVertexReco_html_a22920f39c925abf430901c6682d3f0c2"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a22920f39c925abf430901c6682d3f0c2">GlobalVertexReco::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode) override</div><div class="ttdoc">Process a single event and fill the global vertex map.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.cc:81</div></div>
 <div class="ttc" id="aclassGlobalVertexReco_html_a39eaf643c0e4c2e752bc2c6a9d0065b2"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a39eaf643c0e4c2e752bc2c6a9d0065b2">GlobalVertexReco::~GlobalVertexReco</a></div><div class="ttdeci">~GlobalVertexReco() override=default</div></div>
-<div class="ttc" id="aclassGlobalVertexReco_html_a503c57c022aa573c41566af1d54218c3"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a503c57c022aa573c41566af1d54218c3">GlobalVertexReco::set_x_defaults</a></div><div class="ttdeci">void set_x_defaults(float xdefault, float xerr)</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.h:49</div></div>
-<div class="ttc" id="aclassGlobalVertexReco_html_a5ea0770072510b92fc0875a8ecfab29d"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a5ea0770072510b92fc0875a8ecfab29d">GlobalVertexReco::set_y_defaults</a></div><div class="ttdeci">void set_y_defaults(float ydefault, float yerr)</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.h:60</div></div>
-<div class="ttc" id="aclassGlobalVertexReco_html_a7c36390d204750cf4c30bed1190134ba"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a7c36390d204750cf4c30bed1190134ba">GlobalVertexReco::GlobalVertexReco</a></div><div class="ttdeci">GlobalVertexReco(const std::string &amp;name=&quot;GlobalVertexReco&quot;)</div><div class="ttdoc">Constructor for GlobalVertexReco module.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.cc:48</div></div>
-<div class="ttc" id="aclassGlobalVertexReco_html_aaac1abd7c30e718e7b7beffcd91a5a9f"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#aaac1abd7c30e718e7b7beffcd91a5a9f">GlobalVertexReco::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific resources for GlobalVertexReco.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.cc:61</div></div>
-<div class="ttc" id="aclassGlobalVertexReco_html_ac3c7338be127ef28cfe78fa96cfa4659"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#ac3c7338be127ef28cfe78fa96cfa4659">GlobalVertexReco::setVertexType</a></div><div class="ttdeci">void setVertexType(GlobalVertex::VTXTYPE vtxtype)</div><div class="ttdoc">Set the type of the global vertex.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.h:38</div></div>
-<div class="ttc" id="aclassGlobalVertexReco_html_ae8d55ffe4de1aaa803181ee0cf4ec478"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#ae8d55ffe4de1aaa803181ee0cf4ec478">GlobalVertexReco::set_t_defaults</a></div><div class="ttdeci">void set_t_defaults(float tdefault, float terr)</div><div class="ttdoc">Set default time and its error.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.h:71</div></div>
+<div class="ttc" id="aclassGlobalVertexReco_html_a503c57c022aa573c41566af1d54218c3"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a503c57c022aa573c41566af1d54218c3">GlobalVertexReco::set_x_defaults</a></div><div class="ttdeci">void set_x_defaults(float xdefault, float xerr)</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.h:51</div></div>
+<div class="ttc" id="aclassGlobalVertexReco_html_a5ea0770072510b92fc0875a8ecfab29d"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a5ea0770072510b92fc0875a8ecfab29d">GlobalVertexReco::set_y_defaults</a></div><div class="ttdeci">void set_y_defaults(float ydefault, float yerr)</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.h:63</div></div>
+<div class="ttc" id="aclassGlobalVertexReco_html_a7c36390d204750cf4c30bed1190134ba"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#a7c36390d204750cf4c30bed1190134ba">GlobalVertexReco::GlobalVertexReco</a></div><div class="ttdeci">GlobalVertexReco(const std::string &amp;name=&quot;GlobalVertexReco&quot;)</div><div class="ttdoc">Constructor for GlobalVertexReco module.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.cc:49</div></div>
+<div class="ttc" id="aclassGlobalVertexReco_html_aaac1abd7c30e718e7b7beffcd91a5a9f"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#aaac1abd7c30e718e7b7beffcd91a5a9f">GlobalVertexReco::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode) override</div><div class="ttdoc">Initialize run specific resources for GlobalVertexReco.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.cc:63</div></div>
+<div class="ttc" id="aclassGlobalVertexReco_html_ac3c7338be127ef28cfe78fa96cfa4659"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#ac3c7338be127ef28cfe78fa96cfa4659">GlobalVertexReco::setVertexType</a></div><div class="ttdeci">void setVertexType(GlobalVertex::VTXTYPE vtxtype)</div><div class="ttdoc">Set the type of the global vertex.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.h:39</div></div>
+<div class="ttc" id="aclassGlobalVertexReco_html_ae8d55ffe4de1aaa803181ee0cf4ec478"><div class="ttname"><a href="../../d8/d13/classGlobalVertexReco.html#ae8d55ffe4de1aaa803181ee0cf4ec478">GlobalVertexReco::set_t_defaults</a></div><div class="ttdeci">void set_t_defaults(float tdefault, float terr)</div><div class="ttdoc">Set default time and its error.</div><div class="ttdef"><b>Definition</b> GlobalVertexReco.h:75</div></div>
 <div class="ttc" id="aclassGlobalVertex_html_ac550ad9f20d5f865a6008d1affc29174"><div class="ttname"><a href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174">GlobalVertex::VTXTYPE</a></div><div class="ttdeci">VTXTYPE</div><div class="ttdef"><b>Definition</b> GlobalVertex.h:19</div></div>
 <div class="ttc" id="aclassGlobalVertex_html_ac550ad9f20d5f865a6008d1affc29174a87d3c29dbec7c39a1069136433719ba8"><div class="ttname"><a href="../../d1/d39/classGlobalVertex.html#ac550ad9f20d5f865a6008d1affc29174a87d3c29dbec7c39a1069136433719ba8">GlobalVertex::UNDEFINED</a></div><div class="ttdeci">@ UNDEFINED</div><div class="ttdef"><b>Definition</b> GlobalVertex.h:20</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

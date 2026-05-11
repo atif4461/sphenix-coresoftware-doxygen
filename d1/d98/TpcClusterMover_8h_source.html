@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -100,51 +101,51 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="../../d7/d7c/classPHG4TpcGeomContainer.html">PHG4TpcGeomContainer</a>;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../db/db8/classTpcClusterMover.html">   24</a></span><span class="keyword">class </span><a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#a4bcc101fad12f10ad223de2346617e29">TpcClusterMover</a></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#a4bcc101fad12f10ad223de2346617e29">TpcClusterMover</a>();</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../db/db8/classTpcClusterMover.html#aa1e6ac1c9357f8b3ac52422953f79bab">   30</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#aa1e6ac1c9357f8b3ac52422953f79bab">set_verbosity</a>(<span class="keywordtype">int</span> verb) { _verbosity = verb; }</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  std::vector&lt;std::pair&lt;TrkrDefs::cluskey, Acts::Vector3&gt;&gt; <a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#a61e47d28db1847cfc5340df461a93e6b">processTrack</a>(<span class="keyword">const</span> std::vector&lt;std::pair&lt;TrkrDefs::cluskey, Acts::Vector3&gt;&gt;&amp; global_in);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#a863ac6b7ffa61a3b17bca73d3ed5c143">initialize_geometry</a>(<a class="code hl_class" href="../../d7/d7c/classPHG4TpcGeomContainer.html">PHG4TpcGeomContainer</a> *cellgeo);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <span class="keywordtype">int</span> get_circle_circle_intersection(<span class="keywordtype">double</span> target_radius, <span class="keywordtype">double</span> R, <span class="keywordtype">double</span> X0, <span class="keywordtype">double</span> Y0, <span class="keywordtype">double</span> xclus, <span class="keywordtype">double</span> yclus, <span class="keywordtype">double</span> &amp;x, <span class="keywordtype">double</span> &amp;y) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keywordtype">double</span> _z_start = 0.0;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">double</span> _y_start = 0.0;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">double</span> _x_start = 0.0;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">double</span> _z_proj = 0.0;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">double</span> _y_proj = 0.0;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordtype">double</span> _x_proj = 0.0;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keywordtype">double</span> layer_radius[48] = {0};</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keywordtype">double</span> inner_tpc_min_radius = 30.0;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keywordtype">double</span> mid_tpc_min_radius = 40.0;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">double</span> outer_tpc_min_radius = 60.0;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keywordtype">double</span> outer_tpc_max_radius = 76.4;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="keywordtype">double</span> inner_tpc_spacing = 0.0;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">double</span> mid_tpc_spacing = 0.0;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keywordtype">double</span> outer_tpc_spacing = 0.0;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keywordtype">int</span> _verbosity = 0;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="};">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../db/db8/classTpcClusterMover.html">   25</a></span><span class="keyword">class </span><a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#a4bcc101fad12f10ad223de2346617e29">TpcClusterMover</a></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>{</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  <a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#a4bcc101fad12f10ad223de2346617e29">TpcClusterMover</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../db/db8/classTpcClusterMover.html#aa1e6ac1c9357f8b3ac52422953f79bab">   31</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#aa1e6ac1c9357f8b3ac52422953f79bab">set_verbosity</a>(<span class="keywordtype">int</span> verb) { _verbosity = verb; }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  std::vector&lt;std::pair&lt;TrkrDefs::cluskey, Acts::Vector3&gt;&gt; <a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#a61e47d28db1847cfc5340df461a93e6b">processTrack</a>(<span class="keyword">const</span> std::vector&lt;std::pair&lt;TrkrDefs::cluskey, Acts::Vector3&gt;&gt;&amp; global_in);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/db8/classTpcClusterMover.html#a863ac6b7ffa61a3b17bca73d3ed5c143">initialize_geometry</a>(<a class="code hl_class" href="../../d7/d7c/classPHG4TpcGeomContainer.html">PHG4TpcGeomContainer</a> *cellgeo);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <span class="keywordtype">int</span> get_circle_circle_intersection(<span class="keywordtype">double</span> target_radius, <span class="keywordtype">double</span> R, <span class="keywordtype">double</span> X0, <span class="keywordtype">double</span> Y0, <span class="keywordtype">double</span> xclus, <span class="keywordtype">double</span> yclus, <span class="keywordtype">double</span> &amp;x, <span class="keywordtype">double</span> &amp;y) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">double</span> _z_start = 0.0;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>  <span class="keywordtype">double</span> _y_start = 0.0;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">double</span> _x_start = 0.0;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">double</span> _z_proj = 0.0;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordtype">double</span> _y_proj = 0.0;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="keywordtype">double</span> _x_proj = 0.0;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keywordtype">double</span> layer_radius[48] = {0};</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keywordtype">double</span> inner_tpc_min_radius = 30.0;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">double</span> mid_tpc_min_radius = 40.0;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  <span class="keywordtype">double</span> outer_tpc_min_radius = 60.0;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>  <span class="keywordtype">double</span> outer_tpc_max_radius = 76.4;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordtype">double</span> inner_tpc_spacing = 0.0;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keywordtype">double</span> mid_tpc_spacing = 0.0;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keywordtype">double</span> outer_tpc_spacing = 0.0;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keywordtype">int</span> _verbosity = 0;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>};</div>
 </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aActsTransformations_8h_html"><div class="ttname"><a href="../../de/dd2/ActsTransformations_8h.html">ActsTransformations.h</a></div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
-<div class="ttc" id="aclassPHG4TpcGeomContainer_html"><div class="ttname"><a href="../../d7/d7c/classPHG4TpcGeomContainer.html">PHG4TpcGeomContainer</a></div><div class="ttdef"><b>Definition</b> PHG4TpcGeomContainer.h:25</div></div>
-<div class="ttc" id="aclassTpcClusterMover_html_a4bcc101fad12f10ad223de2346617e29"><div class="ttname"><a href="../../db/db8/classTpcClusterMover.html#a4bcc101fad12f10ad223de2346617e29">TpcClusterMover::TpcClusterMover</a></div><div class="ttdeci">TpcClusterMover()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> TpcClusterMover.cc:43</div></div>
-<div class="ttc" id="aclassTpcClusterMover_html_a61e47d28db1847cfc5340df461a93e6b"><div class="ttname"><a href="../../db/db8/classTpcClusterMover.html#a61e47d28db1847cfc5340df461a93e6b">TpcClusterMover::processTrack</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; TrkrDefs::cluskey, Acts::Vector3 &gt; &gt; processTrack(const std::vector&lt; std::pair&lt; TrkrDefs::cluskey, Acts::Vector3 &gt; &gt; &amp;global_in)</div><div class="ttdoc">Move TPC clusters of a track from global coordinates to the readout layer radius.</div><div class="ttdef"><b>Definition</b> TpcClusterMover.cc:95</div></div>
-<div class="ttc" id="aclassTpcClusterMover_html_a863ac6b7ffa61a3b17bca73d3ed5c143"><div class="ttname"><a href="../../db/db8/classTpcClusterMover.html#a863ac6b7ffa61a3b17bca73d3ed5c143">TpcClusterMover::initialize_geometry</a></div><div class="ttdeci">void initialize_geometry(PHG4TpcGeomContainer *cellgeo)</div><div class="ttdoc">Initialize layer radii from TPC cell geometry.</div><div class="ttdef"><b>Definition</b> TpcClusterMover.cc:70</div></div>
-<div class="ttc" id="aclassTpcClusterMover_html_aa1e6ac1c9357f8b3ac52422953f79bab"><div class="ttname"><a href="../../db/db8/classTpcClusterMover.html#aa1e6ac1c9357f8b3ac52422953f79bab">TpcClusterMover::set_verbosity</a></div><div class="ttdeci">void set_verbosity(int verb)</div><div class="ttdef"><b>Definition</b> TpcClusterMover.h:30</div></div>
+<div class="ttc" id="aclassPHG4TpcGeomContainer_html"><div class="ttname"><a href="../../d7/d7c/classPHG4TpcGeomContainer.html">PHG4TpcGeomContainer</a></div><div class="ttdef"><b>Definition</b> PHG4TpcGeomContainer.h:26</div></div>
+<div class="ttc" id="aclassTpcClusterMover_html_a4bcc101fad12f10ad223de2346617e29"><div class="ttname"><a href="../../db/db8/classTpcClusterMover.html#a4bcc101fad12f10ad223de2346617e29">TpcClusterMover::TpcClusterMover</a></div><div class="ttdeci">TpcClusterMover()</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> TpcClusterMover.cc:45</div></div>
+<div class="ttc" id="aclassTpcClusterMover_html_a61e47d28db1847cfc5340df461a93e6b"><div class="ttname"><a href="../../db/db8/classTpcClusterMover.html#a61e47d28db1847cfc5340df461a93e6b">TpcClusterMover::processTrack</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; TrkrDefs::cluskey, Acts::Vector3 &gt; &gt; processTrack(const std::vector&lt; std::pair&lt; TrkrDefs::cluskey, Acts::Vector3 &gt; &gt; &amp;global_in)</div><div class="ttdoc">Move TPC clusters of a track from global coordinates to the readout layer radius.</div><div class="ttdef"><b>Definition</b> TpcClusterMover.cc:99</div></div>
+<div class="ttc" id="aclassTpcClusterMover_html_a863ac6b7ffa61a3b17bca73d3ed5c143"><div class="ttname"><a href="../../db/db8/classTpcClusterMover.html#a863ac6b7ffa61a3b17bca73d3ed5c143">TpcClusterMover::initialize_geometry</a></div><div class="ttdeci">void initialize_geometry(PHG4TpcGeomContainer *cellgeo)</div><div class="ttdoc">Initialize layer radii from TPC cell geometry.</div><div class="ttdef"><b>Definition</b> TpcClusterMover.cc:73</div></div>
+<div class="ttc" id="aclassTpcClusterMover_html_aa1e6ac1c9357f8b3ac52422953f79bab"><div class="ttname"><a href="../../db/db8/classTpcClusterMover.html#aa1e6ac1c9357f8b3ac52422953f79bab">TpcClusterMover::set_verbosity</a></div><div class="ttdeci">void set_verbosity(int verb)</div><div class="ttdef"><b>Definition</b> TpcClusterMover.h:31</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

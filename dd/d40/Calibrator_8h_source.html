@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -125,38 +126,38 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d0/dc0/classCalibratorAdapter.html#a628471821cf449830aa3a3252a834ad6">   42</a></span>  <a class="code hl_function" href="../../d0/dc0/classCalibratorAdapter.html#a628471821cf449830aa3a3252a834ad6">CalibratorAdapter</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d4/d29/classCalibrator.html">Calibrator</a>&amp; calibrator,</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                    <span class="keyword">const</span> <a class="code hl_typedef" href="../../d4/d29/classCalibrator.html#aa2ad7fa0bc280685ff9a748e70ced5c6">Calibrator::MeasurementContainer</a>&amp; measurements)</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    : m_calibrator{calibrator}</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    , m_measurements{measurements}</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  {</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  }</div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d0/dc0/classCalibratorAdapter.html#a628471821cf449830aa3a3252a834ad6">   43</a></span>  <a class="code hl_function" href="../../d0/dc0/classCalibratorAdapter.html#a628471821cf449830aa3a3252a834ad6">CalibratorAdapter</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../d4/d29/classCalibrator.html">Calibrator</a>&amp; calibrator,</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                    <span class="keyword">const</span> <a class="code hl_typedef" href="../../d4/d29/classCalibrator.html#aa2ad7fa0bc280685ff9a748e70ced5c6">Calibrator::MeasurementContainer</a>&amp; measurements)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    : m_calibrator{calibrator}</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    , m_measurements{measurements}</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  }</div>
 </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d0/dc0/classCalibratorAdapter.html#a96e78139275da5aabd450cd9aadb8212">   49</a></span>  <a class="code hl_function" href="../../d0/dc0/classCalibratorAdapter.html#a96e78139275da5aabd450cd9aadb8212">CalibratorAdapter</a>() = <span class="keyword">delete</span>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dc0/classCalibratorAdapter.html#a55e669a289fb12a526da2393caf00609">calibrate</a>(<span class="keyword">const</span> Acts::GeometryContext&amp; gctx,</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                 <span class="keyword">const</span> Acts::CalibrationContext&amp; cctx,</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                 <span class="keyword">const</span> Acts::SourceLink&amp; sourceLink,</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                 Acts::VectorMultiTrajectory::TrackStateProxy trackState) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">const</span> <a class="code hl_class" href="../../d4/d29/classCalibrator.html">Calibrator</a>&amp; m_calibrator;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keyword">const</span> <a class="code hl_typedef" href="../../d4/d29/classCalibrator.html#aa2ad7fa0bc280685ff9a748e70ced5c6">Calibrator::MeasurementContainer</a>&amp; m_measurements;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d0/dc0/classCalibratorAdapter.html#a96e78139275da5aabd450cd9aadb8212">   50</a></span>  <a class="code hl_function" href="../../d0/dc0/classCalibratorAdapter.html#a96e78139275da5aabd450cd9aadb8212">CalibratorAdapter</a>() = <span class="keyword">delete</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/dc0/classCalibratorAdapter.html#a55e669a289fb12a526da2393caf00609">calibrate</a>(<span class="keyword">const</span> Acts::GeometryContext&amp; gctx,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                 <span class="keyword">const</span> Acts::CalibrationContext&amp; cctx,</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                 <span class="keyword">const</span> Acts::SourceLink&amp; sourceLink,</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                 Acts::VectorMultiTrajectory::TrackStateProxy trackState) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keyword">const</span> <a class="code hl_class" href="../../d4/d29/classCalibrator.html">Calibrator</a>&amp; m_calibrator;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keyword">const</span> <a class="code hl_typedef" href="../../d4/d29/classCalibrator.html#aa2ad7fa0bc280685ff9a748e70ced5c6">Calibrator::MeasurementContainer</a>&amp; m_measurements;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
 </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aActsSourceLink_8h_html"><div class="ttname"><a href="../../d8/da0/ActsSourceLink_8h.html">ActsSourceLink.h</a></div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
 <div class="ttc" id="aalignmentTransformationContainer_8h_html"><div class="ttname"><a href="../../d5/dfc/alignmentTransformationContainer_8h.html">alignmentTransformationContainer.h</a></div></div>
-<div class="ttc" id="aclassCalibratorAdapter_html_a55e669a289fb12a526da2393caf00609"><div class="ttname"><a href="../../d0/dc0/classCalibratorAdapter.html#a55e669a289fb12a526da2393caf00609">CalibratorAdapter::calibrate</a></div><div class="ttdeci">void calibrate(const Acts::GeometryContext &amp;gctx, const Acts::CalibrationContext &amp;cctx, const Acts::SourceLink &amp;sourceLink, Acts::VectorMultiTrajectory::TrackStateProxy trackState) const</div><div class="ttdoc">Calibrate a track state using the underlying calibrator.</div><div class="ttdef"><b>Definition</b> Calibrator.cc:67</div></div>
-<div class="ttc" id="aclassCalibratorAdapter_html_a628471821cf449830aa3a3252a834ad6"><div class="ttname"><a href="../../d0/dc0/classCalibratorAdapter.html#a628471821cf449830aa3a3252a834ad6">CalibratorAdapter::CalibratorAdapter</a></div><div class="ttdeci">CalibratorAdapter(const Calibrator &amp;calibrator, const Calibrator::MeasurementContainer &amp;measurements)</div><div class="ttdoc">Construct using a user-provided container to chose measurements from.</div><div class="ttdef"><b>Definition</b> Calibrator.h:42</div></div>
+<div class="ttc" id="aclassCalibratorAdapter_html_a55e669a289fb12a526da2393caf00609"><div class="ttname"><a href="../../d0/dc0/classCalibratorAdapter.html#a55e669a289fb12a526da2393caf00609">CalibratorAdapter::calibrate</a></div><div class="ttdeci">void calibrate(const Acts::GeometryContext &amp;gctx, const Acts::CalibrationContext &amp;cctx, const Acts::SourceLink &amp;sourceLink, Acts::VectorMultiTrajectory::TrackStateProxy trackState) const</div><div class="ttdoc">Calibrate a track state using the underlying calibrator.</div><div class="ttdef"><b>Definition</b> Calibrator.cc:69</div></div>
+<div class="ttc" id="aclassCalibratorAdapter_html_a628471821cf449830aa3a3252a834ad6"><div class="ttname"><a href="../../d0/dc0/classCalibratorAdapter.html#a628471821cf449830aa3a3252a834ad6">CalibratorAdapter::CalibratorAdapter</a></div><div class="ttdeci">CalibratorAdapter(const Calibrator &amp;calibrator, const Calibrator::MeasurementContainer &amp;measurements)</div><div class="ttdoc">Construct using a user-provided container to chose measurements from.</div><div class="ttdef"><b>Definition</b> Calibrator.h:43</div></div>
 <div class="ttc" id="aclassCalibratorAdapter_html_a96e78139275da5aabd450cd9aadb8212"><div class="ttname"><a href="../../d0/dc0/classCalibratorAdapter.html#a96e78139275da5aabd450cd9aadb8212">CalibratorAdapter::CalibratorAdapter</a></div><div class="ttdeci">CalibratorAdapter()=delete</div></div>
 <div class="ttc" id="aclassCalibrator_html"><div class="ttname"><a href="../../d4/d29/classCalibrator.html">Calibrator</a></div><div class="ttdef"><b>Definition</b> Calibrator.h:15</div></div>
 <div class="ttc" id="aclassCalibrator_html_a7cba385fb66f08a3fa08e21d47bbe0d8"><div class="ttname"><a href="../../d4/d29/classCalibrator.html#a7cba385fb66f08a3fa08e21d47bbe0d8">Calibrator::Measurement</a></div><div class="ttdeci">::Acts::BoundVariantMeasurement Measurement</div><div class="ttdef"><b>Definition</b> Calibrator.h:17</div></div>
-<div class="ttc" id="aclassCalibrator_html_a826c206c901575ac5d3839075ba18bb3"><div class="ttname"><a href="../../d4/d29/classCalibrator.html#a826c206c901575ac5d3839075ba18bb3">Calibrator::calibrate</a></div><div class="ttdeci">void calibrate(const MeasurementContainer &amp;measurements, const Acts::GeometryContext &amp;gctx, const Acts::CalibrationContext &amp;, const Acts::SourceLink &amp;sourceLink, Acts::VectorMultiTrajectory::TrackStateProxy &amp;trackState) const</div><div class="ttdoc">Calibrate a track state using measurement container and geometry context.</div><div class="ttdef"><b>Definition</b> Calibrator.cc:13</div></div>
+<div class="ttc" id="aclassCalibrator_html_a826c206c901575ac5d3839075ba18bb3"><div class="ttname"><a href="../../d4/d29/classCalibrator.html#a826c206c901575ac5d3839075ba18bb3">Calibrator::calibrate</a></div><div class="ttdeci">void calibrate(const MeasurementContainer &amp;measurements, const Acts::GeometryContext &amp;gctx, const Acts::CalibrationContext &amp;, const Acts::SourceLink &amp;sourceLink, Acts::VectorMultiTrajectory::TrackStateProxy &amp;trackState) const</div><div class="ttdoc">Calibrate a track state using measurement container and geometry context.</div><div class="ttdef"><b>Definition</b> Calibrator.cc:14</div></div>
 <div class="ttc" id="aclassCalibrator_html_a98842ff44dc6932f5b2151f7bf1c67fc"><div class="ttname"><a href="../../d4/d29/classCalibrator.html#a98842ff44dc6932f5b2151f7bf1c67fc">Calibrator::~Calibrator</a></div><div class="ttdeci">virtual ~Calibrator()=default</div></div>
 <div class="ttc" id="aclassCalibrator_html_aa2ad7fa0bc280685ff9a748e70ced5c6"><div class="ttname"><a href="../../d4/d29/classCalibrator.html#aa2ad7fa0bc280685ff9a748e70ced5c6">Calibrator::MeasurementContainer</a></div><div class="ttdeci">std::vector&lt; Measurement &gt; MeasurementContainer</div><div class="ttdef"><b>Definition</b> Calibrator.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->

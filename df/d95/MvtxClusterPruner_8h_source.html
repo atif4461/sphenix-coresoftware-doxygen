@@ -16,6 +16,7 @@
 <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -105,47 +106,47 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="foldopen" id="foldopen00034" data-start="{" data-end="};">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d0/d7e/classMvtxClusterPruner.html">   34</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#aa4299227bb83307c2a5fa76ae2550ef3">MvtxClusterPruner</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#aa4299227bb83307c2a5fa76ae2550ef3">MvtxClusterPruner</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;MvtxClusterPruner&quot;</span>);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d0/d7e/classMvtxClusterPruner.html#a35e1ddb2db64dac87be6317fe5b815e7">   42</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#a35e1ddb2db64dac87be6317fe5b815e7">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>)<span class="keyword"> override </span>{ <span class="keywordflow">return</span> 0; }</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#a044d47ad6af8d9183412502a84c6addc">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#a6ca5f7ac7a419647d17da69c7248f472">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#a6e24da476ed634e0834a8a399abd1ce3">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span></div>
-<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../d0/d7e/classMvtxClusterPruner.html#af768b3208158419714f6fb1b47bc6d12">   54</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#af768b3208158419714f6fb1b47bc6d12">set_use_strict_matching</a>( <span class="keywordtype">bool</span> value )</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  { m_use_strict_matching = value; }</div>
+<div class="foldopen" id="foldopen00035" data-start="{" data-end="};">
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d0/d7e/classMvtxClusterPruner.html">   35</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#aa4299227bb83307c2a5fa76ae2550ef3">MvtxClusterPruner</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco</a></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>{</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#aa4299227bb83307c2a5fa76ae2550ef3">MvtxClusterPruner</a>(<span class="keyword">const</span> std::string &amp;name = <span class="stringliteral">&quot;MvtxClusterPruner&quot;</span>);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d0/d7e/classMvtxClusterPruner.html#a35e1ddb2db64dac87be6317fe5b815e7">   43</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#a35e1ddb2db64dac87be6317fe5b815e7">Init</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>)<span class="keyword"> override </span>{ <span class="keywordflow">return</span> 0; }</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#a044d47ad6af8d9183412502a84c6addc">InitRun</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#a6ca5f7ac7a419647d17da69c7248f472">process_event</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#a6e24da476ed634e0834a8a399abd1ce3">End</a>(<a class="code hl_class" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> * <span class="comment">/*topNode*/</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span></div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d0/d7e/classMvtxClusterPruner.html#af768b3208158419714f6fb1b47bc6d12">   55</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d7e/classMvtxClusterPruner.html#af768b3208158419714f6fb1b47bc6d12">set_use_strict_matching</a>( <span class="keywordtype">bool</span> value )</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  { m_use_strict_matching = value; }</div>
 </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  <span class="keywordtype">bool</span> m_use_strict_matching = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>  uint64_t m_cluster_counter_total = 0;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  uint64_t m_cluster_counter_deleted = 0;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keywordtype">bool</span> m_use_strict_matching = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  uint64_t m_cluster_counter_total = 0;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  uint64_t m_cluster_counter_deleted = 0;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>};</div>
 </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif  </span><span class="comment">// MVTX_MVTXHITPRUNER_H</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#endif  </span><span class="comment">// MVTX_MVTXHITPRUNER_H</span></div>
 <div class="ttc" id="aSubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
 <div class="ttc" id="aTrkrDefs_8h_html"><div class="ttname"><a href="../../d8/d00/TrkrDefs_8h.html">TrkrDefs.h</a></div><div class="ttdoc">Namespace with Trkr key types and utility functions.</div></div>
-<div class="ttc" id="aclassMvtxClusterPruner_html_a044d47ad6af8d9183412502a84c6addc"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#a044d47ad6af8d9183412502a84c6addc">MvtxClusterPruner::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *) override</div><div class="ttdoc">run initialization</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.cc:101</div></div>
-<div class="ttc" id="aclassMvtxClusterPruner_html_a35e1ddb2db64dac87be6317fe5b815e7"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#a35e1ddb2db64dac87be6317fe5b815e7">MvtxClusterPruner::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">module initialization</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.h:42</div></div>
-<div class="ttc" id="aclassMvtxClusterPruner_html_a6ca5f7ac7a419647d17da69c7248f472"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#a6ca5f7ac7a419647d17da69c7248f472">MvtxClusterPruner::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">event processing</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.cc:114</div></div>
-<div class="ttc" id="aclassMvtxClusterPruner_html_a6e24da476ed634e0834a8a399abd1ce3"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#a6e24da476ed634e0834a8a399abd1ce3">MvtxClusterPruner::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">end of process</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.cc:264</div></div>
-<div class="ttc" id="aclassMvtxClusterPruner_html_aa4299227bb83307c2a5fa76ae2550ef3"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#aa4299227bb83307c2a5fa76ae2550ef3">MvtxClusterPruner::MvtxClusterPruner</a></div><div class="ttdeci">MvtxClusterPruner(const std::string &amp;name=&quot;MvtxClusterPruner&quot;)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.cc:89</div></div>
-<div class="ttc" id="aclassMvtxClusterPruner_html_af768b3208158419714f6fb1b47bc6d12"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#af768b3208158419714f6fb1b47bc6d12">MvtxClusterPruner::set_use_strict_matching</a></div><div class="ttdeci">void set_use_strict_matching(bool value)</div><div class="ttdoc">strict matching</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.h:54</div></div>
-<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:24</div></div>
-<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:74</div></div>
+<div class="ttc" id="aclassMvtxClusterPruner_html_a044d47ad6af8d9183412502a84c6addc"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#a044d47ad6af8d9183412502a84c6addc">MvtxClusterPruner::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *) override</div><div class="ttdoc">run initialization</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.cc:105</div></div>
+<div class="ttc" id="aclassMvtxClusterPruner_html_a35e1ddb2db64dac87be6317fe5b815e7"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#a35e1ddb2db64dac87be6317fe5b815e7">MvtxClusterPruner::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *) override</div><div class="ttdoc">module initialization</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.h:43</div></div>
+<div class="ttc" id="aclassMvtxClusterPruner_html_a6ca5f7ac7a419647d17da69c7248f472"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#a6ca5f7ac7a419647d17da69c7248f472">MvtxClusterPruner::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *) override</div><div class="ttdoc">event processing</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.cc:119</div></div>
+<div class="ttc" id="aclassMvtxClusterPruner_html_a6e24da476ed634e0834a8a399abd1ce3"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#a6e24da476ed634e0834a8a399abd1ce3">MvtxClusterPruner::End</a></div><div class="ttdeci">int End(PHCompositeNode *) override</div><div class="ttdoc">end of process</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.cc:270</div></div>
+<div class="ttc" id="aclassMvtxClusterPruner_html_aa4299227bb83307c2a5fa76ae2550ef3"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#aa4299227bb83307c2a5fa76ae2550ef3">MvtxClusterPruner::MvtxClusterPruner</a></div><div class="ttdeci">MvtxClusterPruner(const std::string &amp;name=&quot;MvtxClusterPruner&quot;)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.cc:92</div></div>
+<div class="ttc" id="aclassMvtxClusterPruner_html_af768b3208158419714f6fb1b47bc6d12"><div class="ttname"><a href="../../d0/d7e/classMvtxClusterPruner.html#af768b3208158419714f6fb1b47bc6d12">MvtxClusterPruner::set_use_strict_matching</a></div><div class="ttdeci">void set_use_strict_matching(bool value)</div><div class="ttdoc">strict matching</div><div class="ttdef"><b>Definition</b> MvtxClusterPruner.h:55</div></div>
+<div class="ttc" id="aclassPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition</b> PHCompositeNode.h:25</div></div>
+<div class="ttc" id="aclassSubsysReco_html_abe2d6509ba82ec45cf6c8baa5351e477"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html#abe2d6509ba82ec45cf6c8baa5351e477">SubsysReco::SubsysReco</a></div><div class="ttdeci">SubsysReco(const std::string &amp;name=&quot;NONAME&quot;)</div><div class="ttdef"><b>Definition</b> SubsysReco.h:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
